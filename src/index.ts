@@ -4,6 +4,7 @@ import { cors } from "hono/cors"
 import { cache } from "hono/cache"
 
 import llmsTxt from "./llms.txt"
+import viewer from "./routes/viewer"
 import info from "./routes/info"
 import styleGuide from "./routes/style-guide"
 import translations from "./routes/translations"
@@ -67,7 +68,7 @@ app.get("/llms.txt", (c) => {
   return c.text(llmsTxt)
 })
 
-// Root -> docs
-app.get("/", (c) => c.redirect("/docs"))
+// Viewer (root)
+app.route("/", viewer)
 
 export default app
