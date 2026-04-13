@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ethglossary",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-04-12",
+  "rules": [
+    { "type": "Text", "globs": ["**/*.txt"], "fallthrough": true }
+  ]
+}

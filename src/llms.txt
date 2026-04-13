@@ -1,0 +1,41 @@
+# ETHGlossary
+
+> Ethereum terminology glossary, English style guide, and translations for 24 languages.
+
+ETHGlossary provides canonical Ethereum terminology for content creators, translators, and translation pipelines. It covers English usage rules (casing, avoid lists, aliases) and translations with contextual forms, plurals, and grammar metadata. Call GET /api/v1/info for current term counts.
+
+## API
+
+Base URL: https://ethglossary.xyz/api/v1
+
+OpenAPI spec: https://ethglossary.xyz/openapi.json
+
+Interactive docs: https://ethglossary.xyz/docs
+
+### Key endpoints
+
+- GET /api/v1/style-guide -- English style guide (canonical forms, casing, avoid lists)
+- GET /api/v1/style-guide/{termId} -- Look up a single term (intelligent matching: aliases, variants, avoid forms)
+- GET /api/v1/style-guide/search?q={query} -- Search terms, definitions, aliases
+- GET /api/v1/translations/{lang} -- Full glossary for a language (24 languages supported)
+- GET /api/v1/translations/{lang}/{termId} -- Single term translation
+- POST /api/v1/filter -- Send source text, get matching glossary terms with translations
+- GET /api/v1/languages -- Supported languages with completion stats
+- GET /api/v1/info -- API metadata
+
+### Intelligent term matching
+
+Single-term endpoints resolve aliases, avoid forms, and variants to canonical terms.
+Example: "on-chain" resolves to "onchain", "ZKP" resolves to "zero-knowledge proof", "dapps" resolves to "decentralized application (dapp)".
+
+### Content filtering
+
+POST /api/v1/filter accepts source text (markdown or JSON) and a target language. It strips non-translatable content (code blocks, URLs, inline code), matches glossary terms, and returns translations sorted by occurrence count.
+
+## Languages
+
+ar, bn, cs, de, es, fr, hi, id, it, ja, ko, mr, pl, pt-br, ru, sw, ta, te, tr, uk, ur, vi, zh, zh-tw
+
+## Source
+
+https://github.com/ethereum/ethereum-org-website (glossary data)
