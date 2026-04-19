@@ -60,14 +60,18 @@ const languagesRoute = createRoute({
 
 app.openapi(languagesRoute, async (c) => {
   const totalTerms = getTermCount()
+  const masterKeys = new Set(Object.keys(getTerms()))
   const languages = await Promise.all(
     SUPPORTED_LANGUAGES.map(async (code) => {
       const translations = await loadTranslations(code)
-      const translatedTerms = Object.keys(translations).length
+      // Only count translations matching a term key in the master list
+      // (translation files are keyed by canonical term name, e.g. "proxy contract")
+      const validKeys = Object.keys(translations).filter((k) => masterKeys.has(k))
+      const translatedTerms = validKeys.length
       const confidenceBreakdown = { high: 0, medium: 0, low: 0 }
 
-      for (const entry of Object.values(translations)) {
-        const conf = entry.confidence ?? "high"
+      for (const key of validKeys) {
+        const conf = translations[key].confidence ?? "high"
         if (conf in confidenceBreakdown) {
           confidenceBreakdown[conf as keyof typeof confidenceBreakdown]++
         }
