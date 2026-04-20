@@ -30,27 +30,24 @@ app.route("/api/v1", translations)
 app.route("/api/v1", filter)
 app.route("/api/v1", schema)
 
-// OpenAPI spec
-app.doc("/openapi.json", {
-  openapi: "3.1.0",
-  info: {
-    title: "ETHGlossary API",
-    version: "0.1.0",
-    description:
-      "Ethereum terminology glossary and style guide. Canonical translations for 24 languages, English usage rules, and content-aware term filtering for translation pipelines.",
-    contact: {
-      name: "ethereum.org",
-      url: "https://ethglossary.xyz",
+// OpenAPI spec. Server URL derived from the incoming request so this works
+// regardless of which host/domain the API is served from.
+app.doc31("/openapi.json", (c) => {
+  const url = new URL(c.req.url)
+  return {
+    openapi: "3.1.0",
+    info: {
+      title: "ETHGlossary API",
+      version: "0.1.0",
+      description:
+        "Ethereum terminology glossary and style guide. Canonical translations for 24 languages, English usage rules, and content-aware term filtering for translation pipelines.",
+      license: {
+        name: "MPL-2.0",
+        url: "https://www.mozilla.org/en-US/MPL/2.0/",
+      },
     },
-    license: {
-      name: "MPL-2.0",
-      url: "https://www.mozilla.org/en-US/MPL/2.0/",
-    },
-  },
-  servers: [
-    { url: "https://ethglossary.xyz", description: "Production" },
-    { url: "http://localhost:8787", description: "Local development" },
-  ],
+    servers: [{ url: url.origin }],
+  }
 })
 
 // Scalar API docs
