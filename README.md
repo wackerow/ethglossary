@@ -6,11 +6,9 @@ Usage rules, casing conventions, avoid lists, and contextual translations. Built
 
 ## API
 
-Interactive docs: [/docs](https://ethglossary.xyz/docs)
-
-OpenAPI spec: [/openapi.json](https://ethglossary.xyz/openapi.json)
-
-LLM-friendly: [/llms.txt](https://ethglossary.xyz/llms.txt)
+- Interactive docs: `/docs`
+- OpenAPI spec: `/openapi.json`
+- LLM-friendly: `/llms.txt`
 
 ### Endpoints
 
@@ -39,7 +37,7 @@ Term lookups resolve aliases, avoid forms, and variants to canonical entries:
 POST source text to `/api/v1/filter` and get back matching glossary terms with translations. Strips code blocks, inline code, and URLs before matching.
 
 ```bash
-curl -X POST https://ethglossary.xyz/api/v1/filter \
+curl -X POST https://<host>/api/v1/filter \
   -H "Content-Type: application/json" \
   -d '{"content": "Staking requires 32 ETH to run a validator.", "language": "es"}'
 ```

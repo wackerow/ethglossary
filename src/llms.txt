@@ -6,11 +6,11 @@ ETHGlossary provides canonical Ethereum terminology for content creators, transl
 
 ## API
 
-Base URL: https://ethglossary.xyz/api/v1
+Base path: /api/v1
 
-OpenAPI spec: https://ethglossary.xyz/openapi.json
+OpenAPI spec: /openapi.json
 
-Interactive docs: https://ethglossary.xyz/docs
+Interactive docs: /docs
 
 ### Key endpoints
 
@@ -38,4 +38,4 @@ ar, bn, cs, de, es, fr, hi, id, it, ja, ko, mr, pl, pt-br, ru, sw, ta, te, tr, u
 
 ## Source
 
-https://github.com/ethereum/ethereum-org-website (glossary data)
+See the repository linked from the main site for source data and contributions.
