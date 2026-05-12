@@ -122,13 +122,14 @@
         },
         "script_rule": {
           "type": "string",
-          "description": "Default script handling for non-Latin languages. Can be overridden per language.",
+          "description": "Default script handling for non-Latin languages. Can be overridden per language. Values: translate (render in target-language semantics), calque (semantic translation by meaning, used for the CJK semantic group), transliterate (phonetic rendering in target script), keep_latin (editorial choice to keep Latin for branding or clarity), always_latin (translation would break code, spec, or unambiguous identification), transliterate_with_translation (Latin form plus native-script gloss).",
           "enum": [
-            "keep_latin",
             "translate",
+            "calque",
             "transliterate",
-            "hybrid",
-            "context_dependent"
+            "keep_latin",
+            "always_latin",
+            "transliterate_with_translation"
           ]
         },
 
@@ -194,13 +195,14 @@
         },
         "script_override": {
           "type": "string",
-          "description": "Override the entry-level script_rule for this specific language",
+          "description": "Override the entry-level script_rule for this specific language. Same value set as script_rule.",
           "enum": [
-            "keep_latin",
             "translate",
+            "calque",
             "transliterate",
-            "hybrid",
-            "context_dependent"
+            "keep_latin",
+            "always_latin",
+            "transliterate_with_translation"
           ]
         },
 
