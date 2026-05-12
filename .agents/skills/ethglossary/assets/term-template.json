@@ -1,0 +1,20 @@
+{
+  "_comment_remove_before_committing": "Template for a new GlossaryTerm entry in src/data/glossary-terms-enhanced.json. The master key (e.g. 'rollup-as-a-service') is the canonical term name, lowercased and matching the 'term' field. Delete this _comment field and rename the key to your canonical term before adding to the data file. Load references/data-shape.md for field semantics and references/translation-policy.md for picking script_rule.",
+  "rollup-as-a-service": {
+    "id": "rollup-as-a-service",
+    "term": "rollup-as-a-service",
+    "category": "scaling",
+    "definition": "A managed service that lets teams launch and operate rollups without running the full infrastructure themselves.",
+    "has_tooltip": true,
+    "in_glossary": true,
+    "content_occurrences": 0,
+    "forms": { "base": "rollup as a service" },
+    "script_rule": "translate",
+    "casing": "standard",
+    "aliases": [
+      { "term": "RaaS", "status": "accepted", "note": "Common acronym; expand on first use." }
+    ],
+    "avoid": ["Rollup-as-a-Service", "Rollup As A Service"],
+    "note": "Distinct from a rollup-as-an-API service. The provider operates the sequencer / prover / DA pipeline on the customer's behalf."
+  }
+}
