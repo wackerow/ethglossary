@@ -12,6 +12,7 @@ export interface GlossaryTerm {
   id: string
   term: string
   category: string
+  term_role?: string
   definition: string
   has_tooltip: boolean
   in_glossary: boolean

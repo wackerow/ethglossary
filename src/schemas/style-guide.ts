@@ -11,6 +11,26 @@ export const StyleGuideTermSchema = z
     id: z.string().openapi({ example: "onchain" }),
     term: z.string().openapi({ example: "onchain" }),
     category: z.string().openapi({ example: "general" }),
+    termRole: z
+      .enum([
+        "concept",
+        "brand-or-project",
+        "person-name",
+        "programming-language",
+        "os-platform",
+        "cryptographic-primitive",
+        "network-name",
+        "file-extension",
+        "cli-command",
+        "ticker-or-standard",
+        "identifier",
+      ])
+      .optional()
+      .openapi({
+        example: "ticker-or-standard",
+        description:
+          "v1 policy term role (informs default script_rule). Optional; see docs/translation-policy.md section 4.",
+      }),
     casing: z
       .enum(["standard", "proper", "uppercase", "fixed"])
       .openapi({ example: "standard" }),

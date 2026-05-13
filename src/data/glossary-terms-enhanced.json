@@ -1948,7 +1948,8 @@
           "term": "single secret leader election",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "stake": {
       "id": "stake",
@@ -2280,7 +2281,8 @@
           "status": "accepted"
         }
       ],
-      "note": "Boneh-Lynn-Shacham digital signature scheme. Generally not spelled out in use -- \"BLS\" alone is fine and widely recognized."
+      "note": "Boneh-Lynn-Shacham digital signature scheme. Generally not spelled out in use -- \"BLS\" alone is fine and widely recognized.",
+      "term_role": "ticker-or-standard"
     },
     "bls-signature": {
       "id": "bls-signature",
@@ -2301,7 +2303,8 @@
       "script_rule": "translate",
       "note": "Boneh-Lynn-Shacham signature scheme. 'BLS' stays Latin, 'signature' translates.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "cryptographic-primitive"
     },
     "commitment": {
       "id": "commitment",
@@ -2403,7 +2406,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "elliptic curve": {
       "id": "elliptic-curve",
@@ -2600,7 +2604,8 @@
       "script_rule": "keep_latin",
       "casing": "fixed",
       "note": "\"Keccak\" capitalized in copy (proper noun). In code: `keccak256` (lowercase, no hyphen).",
-      "aliases": []
+      "aliases": [],
+      "term_role": "cryptographic-primitive"
     },
     "kzg": {
       "id": "kzg",
@@ -2626,7 +2631,8 @@
           "status": "accepted"
         }
       ],
-      "note": "Kate-Zaverucha-Goldberg commitment scheme. Also referred to as \"Kate Commitment Scheme.\" Generally not spelled out -- \"KZG\" alone is recognized."
+      "note": "Kate-Zaverucha-Goldberg commitment scheme. Also referred to as \"Kate Commitment Scheme.\" Generally not spelled out -- \"KZG\" alone is recognized.",
+      "term_role": "ticker-or-standard"
     },
     "merkle patricia trie": {
       "id": "merkle-patricia-trie",
@@ -2792,7 +2798,8 @@
           "term": "Secure Hash Algorithm",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "shard / shard chain": {
       "id": "shard",
@@ -2851,7 +2858,8 @@
           "term": "trusted execution environment",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "trusted setup": {
       "id": "trusted-setup",
@@ -2917,7 +2925,8 @@
           "term": "annual percentage rate",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "apy": {
       "id": "apy",
@@ -2937,7 +2946,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "automated market maker (amm)": {
       "id": "automated-market-maker-amm",
@@ -3666,7 +3676,8 @@
           "term": "application programming interface",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "decentralized application (dapp)": {
       "id": "decentralized-application-dapp",
@@ -3849,7 +3860,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "json-rpc": {
       "id": "json-rpc",
@@ -4040,7 +4052,8 @@
           "term": "Simple Serialize",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "subgraph": {
       "id": "subgraph",
@@ -4415,7 +4428,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "assert": {
       "id": "assert",
@@ -4917,7 +4931,8 @@
           "term": "directed acyclic graph",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "decentralization": {
       "id": "decentralization",
@@ -6536,7 +6551,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "soft fork": {
       "id": "soft-fork",
@@ -6579,7 +6595,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "state bloat": {
       "id": "state-bloat",
@@ -6937,7 +6954,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "web 3.0": {
       "id": "web-3-0",
@@ -7371,7 +7389,8 @@
           "term": "know your customer",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "siwe": {
       "id": "siwe",
@@ -7396,7 +7415,8 @@
           "term": "Sign In with Ethereum",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "ticker-or-standard"
     },
     "stealth-address": {
       "id": "stealth-address",
@@ -8109,7 +8129,8 @@
           "status": "accepted"
         }
       ],
-      "note": "Data availability committee. Not to be confused with \"decentralized autonomous corporation\" (rare usage). DAO is the more common term for that concept."
+      "note": "Data availability committee. Not to be confused with \"decentralized autonomous corporation\" (rare usage). DAO is the more common term for that concept.",
+      "term_role": "ticker-or-standard"
     },
     "danksharding": {
       "id": "danksharding",
@@ -9310,7 +9331,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "library": {
       "id": "library",
@@ -9578,7 +9600,8 @@
       "script_rule": "always_latin",
       "translation_note": "Programming language for Ethereum smart contracts. Proper noun, keep Latin.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "programming-language"
     },
     "solidity inline assembly": {
       "id": "solidity-inline-assembly",
@@ -9721,7 +9744,8 @@
       },
       "script_rule": "keep_latin",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "programming-language"
     },
     "airdrop": {
       "id": "airdrop",
@@ -9868,7 +9892,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "fractionalization": {
       "id": "fractionalization",
@@ -10054,7 +10079,8 @@
           "status": "accepted"
         }
       ],
-      "note": "Proof of Attendance Protocol. Product/project name. Does not need to be spelled out -- \"POAP\" is widely recognized."
+      "note": "Proof of Attendance Protocol. Product/project name. Does not need to be spelled out -- \"POAP\" is widely recognized.",
+      "term_role": "ticker-or-standard"
     },
     "soulbound token (sbt)": {
       "id": "soulbound-token-sbt",
@@ -10207,7 +10233,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "utility token": {
       "id": "utility-token",
@@ -10268,7 +10295,8 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "ticker-or-standard"
     },
     "wrapped token": {
       "id": "wrapped-token",
@@ -10787,7 +10815,8 @@
       "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [],
-      "note": "Ticker symbol for ether. Always Latin/uppercase across all languages per policy section 7.1."
+      "note": "Ticker symbol for ether. Always Latin/uppercase across all languages per policy section 7.1.",
+      "term_role": "ticker-or-standard"
     },
     "erc-20": {
       "id": "erc-20",
@@ -10813,7 +10842,8 @@
           "status": "accepted"
         }
       ],
-      "note": "Token standard identifier. Always Latin per policy section 7.1. See parent entry ethereum request for comments (erc)."
+      "note": "Token standard identifier. Always Latin per policy section 7.1. See parent entry ethereum request for comments (erc).",
+      "term_role": "ticker-or-standard"
     },
     "erc-721": {
       "id": "erc-721",
@@ -10839,7 +10869,8 @@
           "status": "accepted"
         }
       ],
-      "note": "NFT standard identifier. Always Latin per policy section 7.1."
+      "note": "NFT standard identifier. Always Latin per policy section 7.1.",
+      "term_role": "ticker-or-standard"
     },
     "erc-1155": {
       "id": "erc-1155",
@@ -10865,7 +10896,8 @@
           "status": "accepted"
         }
       ],
-      "note": "Multi-token standard identifier. Always Latin per policy section 7.1."
+      "note": "Multi-token standard identifier. Always Latin per policy section 7.1.",
+      "term_role": "ticker-or-standard"
     }
   },
   "term_families": {
