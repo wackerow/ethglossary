@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated": "2026-03-26",
-    "total_confirmed": 501,
+    "total_confirmed": 498,
     "total_with_script_rule": 34,
     "total_with_morph_family": 36,
     "total_with_translation_note": 38,
@@ -11301,87 +11301,6 @@
       "casing": "uppercase",
       "aliases": [],
       "note": "Ticker symbol for ether. Always Latin/uppercase across all languages per policy section 7.1.",
-      "term_role": "ticker-or-standard"
-    },
-    "erc-20": {
-      "id": "erc-20",
-      "term": "ERC-20",
-      "category": "tokens",
-      "definition": "The fungible token standard on Ethereum (Ethereum Request for Comments 20). Defines a common interface for tokens whose units are interchangeable. The most widely used token standard.",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "erc-20"
-      },
-      "script_rule": "always_latin",
-      "casing": "fixed",
-      "aliases": [
-        {
-          "term": "ERC20",
-          "status": "accepted"
-        }
-      ],
-      "note": "Token standard identifier. Always Latin per policy section 7.1. See parent entry ethereum request for comments (erc).",
-      "term_role": "ticker-or-standard"
-    },
-    "erc-721": {
-      "id": "erc-721",
-      "term": "ERC-721",
-      "category": "tokens",
-      "definition": "The non-fungible token (NFT) standard on Ethereum (Ethereum Request for Comments 721). Defines a common interface for unique, non-interchangeable tokens.",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "erc-721"
-      },
-      "script_rule": "always_latin",
-      "casing": "fixed",
-      "aliases": [
-        {
-          "term": "ERC721",
-          "status": "accepted"
-        }
-      ],
-      "note": "NFT standard identifier. Always Latin per policy section 7.1.",
-      "term_role": "ticker-or-standard"
-    },
-    "erc-1155": {
-      "id": "erc-1155",
-      "term": "ERC-1155",
-      "category": "tokens",
-      "definition": "The multi-token standard on Ethereum (Ethereum Request for Comments 1155). A single contract can manage multiple token types (fungible, semi-fungible, and non-fungible) under one interface.",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "erc-1155"
-      },
-      "script_rule": "always_latin",
-      "casing": "fixed",
-      "aliases": [
-        {
-          "term": "ERC1155",
-          "status": "accepted"
-        }
-      ],
-      "note": "Multi-token standard identifier. Always Latin per policy section 7.1.",
       "term_role": "ticker-or-standard"
     },
     "re-org": {
