@@ -1,5 +1,5 @@
 {
-  "_comment_remove_before_committing": "Template for a new GlossaryTerm entry in src/data/glossary-terms-enhanced.json. The master key (e.g. 'rollup-as-a-service') is the canonical term name, lowercased and matching the 'term' field. Delete this _comment field and rename the key to your canonical term before adding to the data file. Load references/data-shape.md for field semantics and references/translation-policy.md for picking script_rule.",
+  "_comment_remove_before_committing": "Template for a new GlossaryTerm entry in src/data/glossary-terms-enhanced.json. The master key (e.g. 'rollup-as-a-service') is the canonical term name, lowercased and matching the 'term' field. Delete this _comment field and rename the key to your canonical term before adding to the data file. Load docs/data-shape.md for field semantics and docs/translation-policy.md for picking script_rule.",
   "rollup-as-a-service": {
     "id": "rollup-as-a-service",
     "term": "rollup-as-a-service",

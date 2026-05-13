@@ -8,7 +8,7 @@ There are three places that describe what a glossary entry "looks like" and they
 
 1. **The bundled data** -- `src/data/glossary-terms-enhanced.json`. This is the runtime truth. The library reads `data.confirmed_terms` only.
 2. **The JSON Schema** -- `src/data/glossary-schema.json`. This describes a more elaborate, aspirational shape (`entries` keyed by slug, `en` nested, per-entry `translations` block). The runtime does **not** validate against this schema. Treat the schema as a design document, not as a constraint on current data.
-3. **The v1 translation policy** -- `references/translation-policy.md` in this skill. This sets the target shape for `script_rule` and `category` going forward.
+3. **The v1 translation policy** -- `docs/translation-policy.md`. This sets the target shape for `script_rule` and `category` going forward.
 
 When the three disagree, the bundled data is what works at runtime, the policy is what should work next, and the schema is a separate concern that should be reconciled in the migration.
 

@@ -27,7 +27,7 @@ const valid = translatedKeys.filter(k => masterKeys.has(k))
 
 ## 2. Three different `script_rule` value sets currently coexist
 
-See `references/data-shape.md` for the reconciliation table.
+See `docs/data-shape.md` for the reconciliation table.
 
 - **Schema enum (5):** `keep_latin, translate, transliterate, hybrid, context_dependent`
 - **Bundled data (6):** `always_latin, context_dependent, hybrid, keep_latin, translate, transliterate`
