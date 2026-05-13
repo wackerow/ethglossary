@@ -13122,7 +13122,7 @@
     "confidence": "high",
     "notes": "'Payload' is translated to 'சுமை' (load/burden/payload) which is technically accurate in computing contexts in Tamil."
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "அதிகாரச் சான்று (PoA)",
     "aliases": [
       "அதிகாரத்தின் சான்று"

@@ -13263,7 +13263,7 @@
     "confidence": "medium",
     "notes": "The English word 'payload' is heavily adopted in Czech IT terminology."
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "důkaz autority",
     "aliases": [
       "PoA",

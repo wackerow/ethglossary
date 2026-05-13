@@ -13496,7 +13496,7 @@
     "confidence": "high",
     "notes": null
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "доказательство полномочий (PoA)",
     "aliases": [
       "Proof-of-Authority",

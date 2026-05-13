@@ -13006,7 +13006,7 @@
     "confidence": "high",
     "notes": "In Brazilian IT contexts, 'payload' is often kept in English as 'payload de execução', but 'carga de execução' is the appropriate translated form."
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "prova de autoridade (PoA)",
     "aliases": [
       "prova de autoridade",
