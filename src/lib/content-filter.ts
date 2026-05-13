@@ -10,12 +10,71 @@ import {
   getMatchPattern,
   getTerms,
   loadTranslations,
+  type GlossaryTerm,
 } from "./glossary-data"
 
 interface MatchInfo {
   entryId: string
   forms: Set<string>
   count: number
+}
+
+// Programmatic identifier families that follow a uniform format and are
+// always kept in Latin script across all languages. The PARENT entry on
+// the master glossary carries the rule (note field); the filter matches
+// any instance (ERC-20, ERC-4337, EIP-1559, EIP-7702, BIP-39, ...) and
+// emits the surface form with an always-Latin translation.
+//
+// Adding a new family: append to STANDARD_PATTERNS. Do NOT add instance
+// entries to the master glossary; that defeats the DRY rule.
+interface StandardPattern {
+  family: string
+  regex: RegExp
+  parentTermKey: string
+  normalize: (raw: string) => string
+}
+
+const STANDARD_PATTERNS: StandardPattern[] = [
+  {
+    family: "ERC",
+    regex: /\bERC[-\s]?(\d+)\b/gi,
+    parentTermKey: "ethereum request for comments (erc)",
+    normalize: (raw) => `ERC-${raw.match(/\d+/)![0]}`,
+  },
+  {
+    family: "EIP",
+    regex: /\bEIP[-\s]?(\d+)\b/gi,
+    parentTermKey: "ethereum improvement proposal (eip)",
+    normalize: (raw) => `EIP-${raw.match(/\d+/)![0]}`,
+  },
+]
+
+interface PatternMatchInfo {
+  surface: string
+  parentTermKey: string
+  count: number
+}
+
+function findStandardPatternMatches(text: string): Map<string, PatternMatchInfo> {
+  const matches = new Map<string, PatternMatchInfo>()
+  for (const p of STANDARD_PATTERNS) {
+    p.regex.lastIndex = 0
+    let m: RegExpExecArray | null
+    while ((m = p.regex.exec(text)) !== null) {
+      const surface = p.normalize(m[0])
+      const existing = matches.get(surface)
+      if (existing) {
+        existing.count++
+      } else {
+        matches.set(surface, {
+          surface,
+          parentTermKey: p.parentTermKey,
+          count: 1,
+        })
+      }
+    }
+  }
+  return matches
 }
 
 function extractMarkdownText(content: string): string {
@@ -122,6 +181,7 @@ export async function filterForContent(
 ): Promise<FilteredTerm[]> {
   const text = extractSourceText(content, fileType)
   const matches = findMatches(text)
+  const patternMatches = findStandardPatternMatches(text)
   const terms = getTerms()
   const translations = await loadTranslations(lang)
 
@@ -150,6 +210,21 @@ export async function filterForContent(
       entry.example = translation.contexts.prose.example
     }
 
+    results.push(entry)
+  }
+
+  // Pattern matches: ERC-N, EIP-N, etc. Always-Latin across all languages;
+  // translation === english by design. The note is sourced from the parent
+  // entry that documents the family rule.
+  for (const { surface, parentTermKey, count } of patternMatches.values()) {
+    const parent = terms[parentTermKey] as GlossaryTerm | undefined
+    const entry: FilteredTerm = {
+      english: surface,
+      translation: surface,
+      occurrences: count,
+    }
+    const note = parent?.translation_note ?? parent?.note
+    if (note) entry.note = note
     results.push(entry)
   }
 
