@@ -1941,7 +1941,7 @@
       "forms": {
         "base": "ssle"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -2272,7 +2272,7 @@
       "forms": {
         "base": "bls"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -2401,7 +2401,7 @@
       "forms": {
         "base": "ecc"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -2618,7 +2618,7 @@
       "forms": {
         "base": "kzg"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -2785,7 +2785,7 @@
       "forms": {
         "base": "sha"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -2844,7 +2844,7 @@
       "forms": {
         "base": "tee"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -2910,7 +2910,7 @@
       "forms": {
         "base": "apr"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -2935,7 +2935,7 @@
       "forms": {
         "base": "apy"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -3659,7 +3659,7 @@
         "base": "api"
       },
       "translation_note": "Application Programming Interface. Technical acronym, keep Latin.",
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -4033,7 +4033,7 @@
       "forms": {
         "base": "ssz"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -4413,7 +4413,7 @@
       "forms": {
         "base": "asic"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -4906,7 +4906,7 @@
       "forms": {
         "base": "dag"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -6534,7 +6534,7 @@
       "forms": {
         "base": "snark"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -6577,7 +6577,7 @@
       "forms": {
         "base": "stark"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -6935,7 +6935,7 @@
       "forms": {
         "base": "utxo"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -7364,7 +7364,7 @@
       "forms": {
         "base": "kyc"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -7389,7 +7389,7 @@
       "forms": {
         "base": "siwe"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -8101,7 +8101,7 @@
       "forms": {
         "base": "dac"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -9308,7 +9308,7 @@
       "forms": {
         "base": "kevm"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -9866,7 +9866,7 @@
       "forms": {
         "base": "dai"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -10046,7 +10046,7 @@
       "forms": {
         "base": "poap"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": [
         {
@@ -10205,7 +10205,7 @@
       "forms": {
         "base": "usdc"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
@@ -10266,7 +10266,7 @@
       "forms": {
         "base": "wbtc"
       },
-      "script_rule": "keep_latin",
+      "script_rule": "always_latin",
       "casing": "uppercase",
       "aliases": []
     },
