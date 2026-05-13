@@ -12,7 +12,7 @@
 //
 // Heuristics in this script are starting points for human review, not
 // policy. The authoritative policy is at:
-//   .agents/skills/ethglossary/references/translation-policy.md
+//   docs/translation-policy.md
 
 import { readFileSync, readdirSync } from "node:fs"
 import { fileURLToPath } from "node:url"
@@ -23,7 +23,7 @@ const DATA_FILE = join(REPO_ROOT, "src/data/glossary-terms-enhanced.json")
 const TRANS_DIR = join(REPO_ROOT, "src/data/translations")
 
 // ----------------------------------------------------------------------------
-// Policy reference (from references/translation-policy.md)
+// Policy reference (from docs/translation-policy.md)
 // ----------------------------------------------------------------------------
 
 // v1 target enum for script_rule. hybrid and context_dependent are removed;
@@ -174,7 +174,7 @@ function sectionOverview(entries, translations) {
   lines.push(`Generated: ${new Date().toISOString()}`)
   lines.push(`Master entries: **${entries.length}**`)
   lines.push(`Languages: **${Object.keys(translations).length}**`)
-  lines.push(`Policy: v1 (locked 2026-05-10) -- see \`.agents/skills/ethglossary/references/translation-policy.md\``)
+  lines.push(`Policy: v1 (locked 2026-05-10) -- see \`docs/translation-policy.md\``)
   lines.push("")
   lines.push("All term_role assignments below are **heuristic** -- they need human review (and Gemini consultation for language-specific calls) before being applied to the data.")
   lines.push("")

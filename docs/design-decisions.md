@@ -72,7 +72,7 @@ Do not change the license without explicit ask. Do not add a CLA. Do not relicen
 
 ## Translation policy
 
-**v1 locked on 2026-05-10.** Captured in `references/translation-policy.md`.
+**v1 locked on 2026-05-10.** Captured in `docs/translation-policy.md`.
 
 The policy was synthesized from pre-existing ethereum.org translation pipeline guidance and validated by two parallel Gemini 3.1 Pro analyses with explicit disagreement resolution. The v1 lock means:
 
