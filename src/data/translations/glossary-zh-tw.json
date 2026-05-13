@@ -11934,7 +11934,7 @@
     "confidence": "high",
     "notes": null
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "權威證明",
     "aliases": [
       "PoA",

@@ -1642,8 +1642,8 @@
       "aliases": [],
       "term_role": "concept"
     },
-    "proof-of-authority": {
-      "id": "proof-of-authority",
+    "proof-of-authority (poa)": {
+      "id": "poa",
       "term": "proof-of-authority (PoA)",
       "category": "consensus",
       "definition": "",

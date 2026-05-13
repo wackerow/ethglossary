@@ -13122,7 +13122,7 @@
     "confidence": "medium",
     "notes": "Spesso il termine 'payload' non viene tradotto in informatica, accompagnato da specificatori italiani."
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "prova di autorità (PoA)",
     "aliases": [
       "proof-of-authority",

@@ -13134,7 +13134,7 @@
     "confidence": "high",
     "notes": null
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "prueba de autoridad (PoA)",
     "aliases": [
       "prueba de autoridad",

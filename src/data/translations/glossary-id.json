@@ -11739,7 +11739,7 @@
     "confidence": "high",
     "notes": null
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "bukti otoritas (PoA)",
     "aliases": [
       "PoA",

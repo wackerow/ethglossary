@@ -13287,7 +13287,7 @@
     "confidence": "high",
     "notes": null
   },
-  "proof-of-authority": {
+  "proof-of-authority (poa)": {
     "term": "доказ авторитету (PoA)",
     "aliases": [
       "доказ повноважень",
