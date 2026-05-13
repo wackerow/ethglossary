@@ -45,7 +45,8 @@
       "translation_note": "A digital identity on Ethereum with an address, balance, and optional code.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "account abstraction": {
       "id": "account-abstraction",
@@ -66,7 +67,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "address": {
       "id": "address",
@@ -87,7 +89,8 @@
       "script_rule": "translate",
       "translation_note": "A unique hexadecimal identifier (0x...) for an Ethereum account. NOT a physical location.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "bundler": {
       "id": "bundler",
@@ -107,7 +110,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "cold wallet": {
       "id": "cold-wallet",
@@ -128,7 +132,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "derivation path": {
       "id": "derivation-path",
@@ -149,7 +154,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "digital signature": {
       "id": "digital-signatures",
@@ -170,7 +176,8 @@
       "term_family": "sign",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "elliptic curve digital signature algorithm (ecdsa)": {
       "id": "ecdsa",
@@ -190,7 +197,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "externally owned account (eoa)": {
       "id": "eoa",
@@ -210,7 +218,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "guardian": {
       "id": "guardian",
@@ -230,7 +239,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "hardware wallet": {
       "id": "hardware-wallet",
@@ -251,7 +261,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "hot wallet": {
       "id": "hot-wallet",
@@ -272,7 +283,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "key": {
       "id": "key",
@@ -292,7 +304,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "key derivation function (kdf)": {
       "id": "kdf",
@@ -312,7 +325,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "keystore": {
       "id": "keystore",
@@ -332,7 +346,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "multi-signature": {
       "id": "multi-signature",
@@ -352,7 +367,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "multisig": {
       "id": "multisig",
@@ -374,7 +390,8 @@
       "morph_note": "Romance languages require gender agreement for signed/signature",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "non-custodial": {
       "id": "non-custodial",
@@ -394,7 +411,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "passkey": {
       "id": "passkey",
@@ -415,7 +433,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "paymaster": {
       "id": "paymaster",
@@ -435,7 +454,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "private key": {
       "id": "private-key",
@@ -456,7 +476,8 @@
       "script_rule": "translate",
       "translation_note": "Secret cryptographic key for signing transactions. NEVER share. Security-critical term.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "public key": {
       "id": "public-key",
@@ -476,7 +497,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "seed phrase": {
       "id": "seed-phrase",
@@ -497,7 +519,8 @@
       "script_rule": "translate",
       "translation_note": "12 or 24 word sequence to recover a wallet. SECURITY-CRITICAL: must be translated precisely.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "self-custody": {
       "id": "self-custody",
@@ -517,7 +540,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "signature": {
       "id": "signature",
@@ -541,7 +565,8 @@
       "translation_note": "Cryptographic proof that a transaction was authorized by the key holder.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "signing": {
       "id": "signing",
@@ -563,7 +588,8 @@
       "term_family": "sign",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "smart account": {
       "id": "smart-account",
@@ -583,7 +609,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "social recovery": {
       "id": "social-recovery",
@@ -603,7 +630,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "useroperation": {
       "id": "useroperation",
@@ -636,7 +664,8 @@
           "status": "accepted",
           "note": "Code context only (EIP-4337)"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "wallet": {
       "id": "wallet",
@@ -657,7 +686,8 @@
       "script_rule": "translate",
       "translation_note": "Software or hardware for managing crypto keys and assets. NOT a physical wallet.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "zero address": {
       "id": "zero-address",
@@ -677,7 +707,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "activation": {
       "id": "activation",
@@ -698,7 +729,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "attestation": {
       "id": "attestation",
@@ -723,7 +755,8 @@
       "translation_note": "A validator's vote on the state of the chain. Specific PoS consensus term.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "beacon chain": {
       "id": "beacon-chain",
@@ -744,7 +777,8 @@
       "script_rule": "translate",
       "translation_note": "The PoS coordination layer of Ethereum. Named component.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "beacon node": {
       "id": "beacon-node",
@@ -764,7 +798,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "beacon-block": {
       "id": "beacon-block",
@@ -785,7 +820,8 @@
       "script_rule": "translate",
       "note": "A block on the beacon chain containing attestations and the execution payload.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block builder": {
       "id": "block-builder",
@@ -805,7 +841,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block proposer": {
       "id": "block-proposer",
@@ -825,7 +862,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "builder": {
       "id": "builder",
@@ -847,7 +885,8 @@
       "morph_note": "'Block builder' is specialized MEV role; 'constructing' vs 'software building' differ",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "builder separation": {
       "id": "builder-separation",
@@ -868,7 +907,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "casper ffg": {
       "id": "casper-ffg",
@@ -905,7 +945,8 @@
           "term": "Casper the Friendly Finality Gadget",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "brand-or-project"
     },
     "checkpoint": {
       "id": "checkpoint",
@@ -925,7 +966,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "churn limit": {
       "id": "churn-limit",
@@ -946,7 +988,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "committee": {
       "id": "committee",
@@ -966,7 +1009,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "consensus": {
       "id": "consensus",
@@ -987,7 +1031,8 @@
       "script_rule": "translate",
       "translation_note": "Agreement among network nodes on the state of the blockchain.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "consensus client": {
       "id": "consensus-client",
@@ -1008,7 +1053,8 @@
       "translation_note": "Software implementing Ethereum's proof-of-stake consensus (e.g., Prysm, Lighthouse).",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "consensus layer": {
       "id": "consensus-layer",
@@ -1028,7 +1074,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "consensus mechanism": {
       "id": "consensus-mechanism",
@@ -1048,7 +1095,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "consensus rules": {
       "id": "consensus-rules",
@@ -1068,7 +1116,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "distributed validator technology (dvt)": {
       "id": "distributed-validator-technology-dvt",
@@ -1097,7 +1146,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "effective balance": {
       "id": "effective-balance",
@@ -1117,7 +1167,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "epoch": {
       "id": "epoch",
@@ -1138,7 +1189,8 @@
       "translation_note": "A period of 32 slots (~6.4 minutes) in the beacon chain. NOT a geological epoch.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "equivocation": {
       "id": "equivocation",
@@ -1159,7 +1211,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "execution-payload": {
       "id": "execution-payload",
@@ -1180,7 +1233,8 @@
       "script_rule": "translate",
       "note": "The transaction-containing portion of a beacon block.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "exit": {
       "id": "exit",
@@ -1201,7 +1255,8 @@
       "translation_note": "A validator leaving the active set. Specific staking term, not a general 'exit'.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "finality": {
       "id": "finality",
@@ -1224,7 +1279,8 @@
       "morph_note": "'Finality' is chain property; 'finalized' is block state; must distinguish from 'finishing'",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "fork choice algorithm": {
       "id": "fork-choice-algorithm",
@@ -1244,7 +1300,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gasper": {
       "id": "gasper",
@@ -1269,7 +1326,8 @@
         "lmd-ghost"
       ],
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "holographic consensus": {
       "id": "holographic-consensus",
@@ -1289,7 +1347,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "inactivity leak": {
       "id": "inactivity-leak",
@@ -1310,7 +1369,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "issuance": {
       "id": "issuance",
@@ -1330,7 +1390,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "justified": {
       "id": "justified",
@@ -1350,7 +1411,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "liquid staking": {
       "id": "liquid-staking",
@@ -1372,7 +1434,8 @@
       "term_family": "stake",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "liquid staking token (lst)": {
       "id": "liquid-staking-token-lst",
@@ -1414,7 +1477,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "lmd-ghost": {
       "id": "lmd-ghost",
@@ -1452,7 +1516,8 @@
           "term": "LMD-GHOST",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "brand-or-project"
     },
     "maxeb": {
       "id": "maxeb",
@@ -1482,7 +1547,8 @@
       ],
       "script_rule": "keep_latin",
       "note": "\"EB\" uppercase (effective balance). As a whole, standard casing: \"maxEB\" mid-sentence, \"MaxEB\" at sentence start. \"maximum effective balance\" is the spelled-out form.",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "miner": {
       "id": "miner",
@@ -1504,7 +1570,8 @@
       "term_family": "mine",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "mining": {
       "id": "mining",
@@ -1527,7 +1594,8 @@
       "term_family": "mine",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "nothing-at-stake": {
       "id": "nothing-at-stake",
@@ -1548,7 +1616,8 @@
       "script_rule": "translate",
       "note": "PoS attack vector where validators can vote on multiple chains at no cost.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "pooled staking": {
       "id": "pooled-staking",
@@ -1570,7 +1639,8 @@
       "term_family": "stake",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proof-of-authority": {
       "id": "proof-of-authority",
@@ -1600,7 +1670,8 @@
       ],
       "script_rule": "translate",
       "note": "Consensus mechanism used in private/test networks. Not used on Ethereum mainnet.",
-      "casing": "fixed"
+      "casing": "fixed",
+      "term_role": "concept"
     },
     "proof-of-stake (pos)": {
       "id": "pos",
@@ -1632,7 +1703,8 @@
         "PoS"
       ],
       "script_rule": "translate",
-      "casing": "fixed"
+      "casing": "fixed",
+      "term_role": "concept"
     },
     "proposer": {
       "id": "proposer",
@@ -1654,7 +1726,8 @@
       "morph_note": "'Block proposer' translates differently than general 'to propose an idea'",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proposer-boost": {
       "id": "proposer-boost",
@@ -1675,7 +1748,8 @@
       "script_rule": "translate",
       "note": "LMD-GHOST mechanism giving extra weight to timely block proposals.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proposer-builder separation (pbs)": {
       "id": "proposer-builder-separation-pbs",
@@ -1705,7 +1779,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "reorg": {
       "id": "reorg",
@@ -1740,7 +1815,8 @@
       ],
       "script_rule": "translate",
       "note": "When the canonical chain changes and previously included blocks are removed.",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "restaking": {
       "id": "restaking",
@@ -1762,7 +1838,8 @@
       "term_family": "stake",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "secret-leader-election": {
       "id": "secret-leader-election",
@@ -1792,7 +1869,8 @@
           "term": "SLE",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "single-slot-finality": {
       "id": "single-slot-finality",
@@ -1817,7 +1895,8 @@
         "finality"
       ],
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "slashing": {
       "id": "slashing",
@@ -1859,7 +1938,8 @@
           "term": "slasher",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "slot": {
       "id": "slot",
@@ -1880,7 +1960,8 @@
       "translation_note": "A 12-second time period in the beacon chain. NOT a physical slot or opening.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "social-slashing": {
       "id": "social-slashing",
@@ -1901,7 +1982,8 @@
       "script_rule": "translate",
       "note": "Community-coordinated penalty for validator misbehavior outside protocol rules.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "solo staking": {
       "id": "solo-staking",
@@ -1923,7 +2005,8 @@
       "term_family": "stake",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "ssle": {
       "id": "ssle",
@@ -1974,7 +2057,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Forms: \"stake\" (n/v), \"staked\" (adj/past), \"staking\" (gerund), \"staker\" (agent). \"The staker used ETH as stake and staked it in the network.\"",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "stake-grinding": {
       "id": "stake-grinding",
@@ -1995,7 +2079,8 @@
       "script_rule": "translate",
       "note": "Attack where validators manipulate randomness to gain advantage in block proposal.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "staking": {
       "id": "staking",
@@ -2022,7 +2107,8 @@
       "translation_note": "The act of depositing ETH to participate in consensus. Gerund of 'stake'.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "staking as a service": {
       "id": "staking-as-a-service",
@@ -2042,7 +2128,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "staking deposit": {
       "id": "staking-deposit",
@@ -2063,7 +2150,8 @@
       "term_family": "stake",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "staking pool": {
       "id": "staking-pool",
@@ -2084,7 +2172,8 @@
       "term_family": "stake",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "supermajority": {
       "id": "supermajority",
@@ -2104,7 +2193,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "sync committee": {
       "id": "sync-committee",
@@ -2124,7 +2214,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "unstaking": {
       "id": "unstaking",
@@ -2146,7 +2237,8 @@
       "term_family": "stake",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "validator": {
       "id": "validator",
@@ -2170,7 +2262,8 @@
       "morph_note": "CN/VI: technical 'validation' vs 'validator' role uses different semantic registers",
       "translation_note": "Software entity (node) that validates blocks in proof-of-stake. Sometimes refers to the human operator. NOT the same as 'miner' (PoW).",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "validator lifecycle": {
       "id": "validator-lifecycle",
@@ -2190,7 +2283,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "weak-subjectivity": {
       "id": "weak-subjectivity",
@@ -2211,7 +2305,8 @@
       "script_rule": "translate",
       "note": "PoS concept: new nodes need a recent trusted checkpoint to sync safely. Abstract concept, hard to translate.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "withdrawal": {
       "id": "withdrawal",
@@ -2234,7 +2329,8 @@
       "translation_note": "Removing staked ETH from a validator. Specific to PoS staking context.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "withdrawal-credentials": {
       "id": "withdrawal-credentials",
@@ -2255,7 +2351,8 @@
       "script_rule": "translate",
       "note": "Staking configuration specifying where withdrawn ETH goes.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "bls": {
       "id": "bls",
@@ -2325,7 +2422,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "cryptography": {
       "id": "cryptography",
@@ -2345,7 +2443,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "dagger-hashimoto": {
       "id": "dagger-hashimoto",
@@ -2366,7 +2465,8 @@
       "script_rule": "keep_latin",
       "note": "Predecessor to Ethash mining algorithm. Historical, named algorithm.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "distributed hash table (dht)": {
       "id": "distributed-hash-table",
@@ -2386,7 +2486,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "ecc": {
       "id": "ecc",
@@ -2427,7 +2528,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "encryption": {
       "id": "encryption",
@@ -2449,7 +2551,8 @@
       "term_family": "encrypt",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "entropy": {
       "id": "entropy",
@@ -2469,7 +2572,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "ethash": {
       "id": "ethash",
@@ -2489,7 +2593,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "hash": {
       "id": "hash",
@@ -2513,7 +2618,8 @@
       "morph_note": "Usually loanword noun; verb often 'calculate the checksum' in formal docs",
       "translation_note": "A fixed-length output from a cryptographic function. Also used as verb ('to hash data').",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "hash function": {
       "id": "hash-function",
@@ -2535,7 +2641,8 @@
       "term_family": "hash",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "hash rate": {
       "id": "hash-rate",
@@ -2558,7 +2665,8 @@
       "morph_note": "Usually loanword noun; verb often 'calculate the checksum' in formal docs",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "hashing": {
       "id": "hashing",
@@ -2583,7 +2691,8 @@
       "morph_note": "Usually loanword noun; verb often 'calculate the checksum' in formal docs",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "keccak-256": {
       "id": "keccak-256",
@@ -2652,7 +2761,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "merkle proof": {
       "id": "merkle-proof",
@@ -2673,7 +2783,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "\"Merkle\" always capitalized (named after Ralph Merkle). \"proof\" standard casing.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "merkle root": {
       "id": "merkle-root",
@@ -2693,7 +2804,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "merkle tree": {
       "id": "merkle-tree",
@@ -2713,7 +2825,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "network hashrate": {
       "id": "network-hashrate",
@@ -2733,7 +2846,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "randomness": {
       "id": "randomness",
@@ -2753,7 +2867,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "secure hash algorithm (sha)": {
       "id": "sha",
@@ -2773,7 +2888,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "sha": {
       "id": "sha",
@@ -2833,7 +2949,8 @@
           "status": "accepted"
         }
       ],
-      "note": "\"shard\" (noun, \"shards\"). \"to shard\" (verb, \"sharding\", \"sharded\"). \"shard chain\" is a compound."
+      "note": "\"shard\" (noun, \"shards\"). \"to shard\" (verb, \"sharding\", \"sharded\"). \"shard chain\" is a compound.",
+      "term_role": "concept"
     },
     "tee": {
       "id": "tee",
@@ -2880,7 +2997,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "application programming interface (api)": {
       "id": "api",
@@ -2900,7 +3018,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "apr": {
       "id": "apr",
@@ -2976,7 +3095,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "blockchain oracle": {
       "id": "blockchain-oracle",
@@ -2996,7 +3116,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "borrowing": {
       "id": "borrowing",
@@ -3017,7 +3138,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "chainlink": {
       "id": "chainlink",
@@ -3038,7 +3160,8 @@
       "script_rule": "transliterate",
       "note": "Oracle network. Product name -- do NOT translate as 'chain link'.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "collateral": {
       "id": "collateral",
@@ -3059,7 +3182,8 @@
       "term_family": "collateralize",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "de-peg": {
       "id": "de-peg",
@@ -3080,7 +3204,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "decentralized exchange (dex)": {
       "id": "dex",
@@ -3100,7 +3225,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "decentralized finance (defi)": {
       "id": "decentralized-finance-defi",
@@ -3134,7 +3260,8 @@
       ],
       "translation_note": "Financial services on blockchain without intermediaries. 'DeFi' stays Latin.",
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "flash loan": {
       "id": "flash-loan",
@@ -3154,7 +3281,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "impermanent loss": {
       "id": "impermanent-loss",
@@ -3174,7 +3302,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "index": {
       "id": "index",
@@ -3194,7 +3323,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "lending": {
       "id": "lending",
@@ -3215,7 +3345,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "liquidation": {
       "id": "liquidation",
@@ -3237,7 +3368,8 @@
       "term_family": "liquidate",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "liquidity": {
       "id": "liquidity",
@@ -3258,7 +3390,8 @@
       "script_rule": "translate",
       "translation_note": "How easily an asset can be traded. DeFi-specific meaning: assets in a pool.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "liquidity pool": {
       "id": "liquidity-pool",
@@ -3278,7 +3411,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "liquidity provider": {
       "id": "liquidity-provider",
@@ -3298,7 +3432,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "liquidity tokens": {
       "id": "liquidity-tokens",
@@ -3318,7 +3453,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "modexp": {
       "id": "modexp",
@@ -3338,7 +3474,8 @@
       },
       "script_rule": "keep_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "oracle": {
       "id": "oracle",
@@ -3359,7 +3496,8 @@
       "script_rule": "translate",
       "translation_note": "A service providing external data to smart contracts. NOT a mythological oracle.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "oracle-problem": {
       "id": "oracle-problem",
@@ -3380,7 +3518,8 @@
       "script_rule": "translate",
       "note": "The challenge of getting reliable external data onto a blockchain.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "overcollateralization": {
       "id": "overcollateralization",
@@ -3401,7 +3540,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "peg": {
       "id": "peg",
@@ -3422,7 +3562,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "prediction market": {
       "id": "prediction-market",
@@ -3442,7 +3583,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "price feed": {
       "id": "price-feed",
@@ -3462,7 +3604,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "price impact": {
       "id": "price-impact",
@@ -3483,7 +3626,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "slippage": {
       "id": "slippage",
@@ -3504,7 +3648,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "stablecoin": {
       "id": "stablecoin",
@@ -3524,7 +3669,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "strategy": {
       "id": "strategy",
@@ -3544,7 +3690,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "swap": {
       "id": "swap",
@@ -3567,7 +3714,8 @@
       "morph_note": "DE/NL: noun (Tausch) and verb (tauschen) differ; DeFi context needs technical synonyms",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "tellor": {
       "id": "tellor",
@@ -3588,7 +3736,8 @@
       "script_rule": "transliterate",
       "note": "Oracle protocol. Product name.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "uniswap": {
       "id": "uniswap",
@@ -3609,7 +3758,8 @@
       "script_rule": "transliterate",
       "note": "Decentralized exchange protocol. Product name.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "vault": {
       "id": "vault",
@@ -3629,7 +3779,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "yield farming": {
       "id": "yield-farming",
@@ -3650,7 +3801,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "api": {
       "id": "api",
@@ -3717,7 +3869,8 @@
       ],
       "translation_note": "Application running on a blockchain. Prefer 'app' or 'onchain app' for new content.",
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "devp2p": {
       "id": "devp2p",
@@ -3738,7 +3891,8 @@
       "script_rule": "keep_latin",
       "note": "Ethereum networking protocol stack. Technical identifier.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "discv5": {
       "id": "discv5",
@@ -3759,7 +3913,8 @@
       "script_rule": "keep_latin",
       "note": "Node discovery protocol v5. Technical identifier.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "echidna": {
       "id": "echidna",
@@ -3780,7 +3935,8 @@
       "script_rule": "transliterate",
       "note": "Fuzzing tool. Product name -- do NOT translate as the animal.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "faucet": {
       "id": "faucet",
@@ -3800,7 +3956,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "foundry": {
       "id": "foundry",
@@ -3820,7 +3977,8 @@
       },
       "script_rule": "keep_latin",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "hardhat": {
       "id": "hardhat",
@@ -3840,7 +3998,8 @@
       },
       "script_rule": "keep_latin",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "ipfs": {
       "id": "ipfs",
@@ -3881,7 +4040,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "kurtosis": {
       "id": "kurtosis",
@@ -3902,7 +4062,8 @@
       "script_rule": "keep_latin",
       "note": "Development and testing platform. Product name.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "libp2p": {
       "id": "libp2p",
@@ -3923,7 +4084,8 @@
       "script_rule": "keep_latin",
       "note": "Modular networking library used by consensus clients. Technical identifier.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "manticore": {
       "id": "manticore",
@@ -3944,7 +4106,8 @@
       "script_rule": "transliterate",
       "note": "Symbolic execution tool. Product name -- do NOT translate as the mythical creature.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "openzeppelin": {
       "id": "openzeppelin",
@@ -3965,7 +4128,8 @@
       "script_rule": "transliterate",
       "note": "Smart contract library and security framework. Product name.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "portal-network": {
       "id": "portal-network",
@@ -3986,7 +4150,8 @@
       "script_rule": "transliterate",
       "note": "Lightweight protocol for serving Ethereum data to resource-constrained devices.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "remix": {
       "id": "remix",
@@ -4006,7 +4171,8 @@
       },
       "script_rule": "keep_latin",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "slither": {
       "id": "slither",
@@ -4027,7 +4193,8 @@
       "script_rule": "transliterate",
       "note": "Static analysis tool. Product name -- do NOT translate as the verb 'to slither'.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "ssz": {
       "id": "ssz",
@@ -4073,7 +4240,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "testnet faucet": {
       "id": "testnet-faucet",
@@ -4093,7 +4261,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "web3": {
       "id": "web3",
@@ -4114,7 +4283,8 @@
       "script_rule": "always_latin",
       "translation_note": "The vision of a decentralized internet built on blockchain. Proper noun-like, often kept as 'Web3'.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "cryptocurrency": {
       "id": "cryptocurrency",
@@ -4134,7 +4304,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "digital asset": {
       "id": "digital-asset",
@@ -4154,7 +4325,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "eth1": {
       "id": "eth1",
@@ -4176,7 +4348,8 @@
       "note": "Legacy term. Preferred: 'execution layer'. Deprecated by ecosystem consensus; only used in historical context.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "eth2": {
       "id": "eth2",
@@ -4198,7 +4371,8 @@
       "note": "Legacy term. Preferred: 'consensus layer'. Deprecated by ecosystem consensus; only used in historical context.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "ether": {
       "id": "ether",
@@ -4229,7 +4403,8 @@
           "status": "preferred",
           "note": "Ticker symbol, always uppercase Latin"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "etherscan": {
       "id": "etherscan",
@@ -4249,7 +4424,8 @@
       },
       "script_rule": "keep_latin",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "go ethereum (geth)": {
       "id": "go-ethereum-geth",
@@ -4278,7 +4454,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "proper"
+      "casing": "proper",
+      "term_role": "brand-or-project"
     },
     "wrapped ether (weth)": {
       "id": "wrapped-ether-weth",
@@ -4307,7 +4484,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "51% attack": {
       "id": "51%-attack",
@@ -4327,7 +4505,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "ai agent": {
       "id": "ai-agent",
@@ -4347,7 +4526,8 @@
       },
       "script_rule": "translate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "anonymity set": {
       "id": "anonymity-set",
@@ -4367,7 +4547,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "anti-sybil": {
       "id": "anti-sybil",
@@ -4388,7 +4569,8 @@
       "script_rule": "translate",
       "casing": "fixed",
       "note": "\"anti\" lowercase, \"Sybil\" capitalized (proper noun from the book \"Sybil\").",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "archive node": {
       "id": "archive-node",
@@ -4408,7 +4590,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "asic": {
       "id": "asic",
@@ -4449,7 +4632,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "autonomous agent": {
       "id": "autonomous-agent",
@@ -4469,7 +4653,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "besu": {
       "id": "besu",
@@ -4490,7 +4675,8 @@
       "script_rule": "transliterate",
       "note": "Java-based execution client (Hyperledger). Product name, do not translate meaning.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "big-endian": {
       "id": "big-endian",
@@ -4510,7 +4696,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "bitcoin": {
       "id": "bitcoin",
@@ -4531,7 +4718,8 @@
       "script_rule": "transliterate",
       "note": "Context-dependent: \"Bitcoin\" (capital B) for the network/protocol/system. \"bitcoin\" (lowercase b) for the currency unit. Default to capital B.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "block": {
       "id": "block",
@@ -4552,7 +4740,8 @@
       "translation_note": "A unit of bundled transactions added to the blockchain. NOT a physical block or obstruction.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block explorer": {
       "id": "block-explorer",
@@ -4572,7 +4761,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block header": {
       "id": "block-header",
@@ -4592,7 +4782,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block propagation": {
       "id": "block-propagation",
@@ -4613,7 +4804,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block reward": {
       "id": "block-reward",
@@ -4633,7 +4825,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block status": {
       "id": "block-status",
@@ -4653,7 +4846,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block time": {
       "id": "block-time",
@@ -4673,7 +4867,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "block validation": {
       "id": "block-validation",
@@ -4695,7 +4890,8 @@
       "term_family": "validate",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "blockchain": {
       "id": "blockchain",
@@ -4716,7 +4912,8 @@
       "script_rule": "translate",
       "translation_note": "A distributed ledger of linked blocks. The entire database of transactions.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "bootnode": {
       "id": "bootnode",
@@ -4736,7 +4933,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "censorship resistant": {
       "id": "censorship-resistant",
@@ -4756,7 +4954,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "chain": {
       "id": "chain",
@@ -4779,7 +4978,8 @@
       "translation_note": "Short for blockchain. In compounds: 'onchain', 'cross-chain', 'sidechain'.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "client-diversity": {
       "id": "client-diversity",
@@ -4800,7 +5000,8 @@
       "script_rule": "translate",
       "note": "Principle of running multiple client implementations to prevent single points of failure.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "compiling": {
       "id": "compiling",
@@ -4821,7 +5022,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "computational infeasibility": {
       "id": "computational-infeasibility",
@@ -4841,7 +5043,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "considered for inclusion (cfi)": {
       "id": "cfi",
@@ -4861,7 +5064,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "crypto": {
       "id": "crypto",
@@ -4882,7 +5086,8 @@
       "translation_note": "Short for cryptocurrency or cryptography depending on context.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "cryptoeconomics": {
       "id": "cryptoeconomics",
@@ -4902,7 +5107,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "dag": {
       "id": "dag",
@@ -4954,7 +5160,8 @@
       "term_family": "decentralize",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "decentralized": {
       "id": "decentralized",
@@ -4976,7 +5183,8 @@
       "script_rule": "translate",
       "translation_note": "Distributed across many participants with no central authority.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "decentralized physical infrastructure (depin)": {
       "id": "decentralized-physical-infrastructure-depin",
@@ -5005,7 +5213,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "decentralized science (desci)": {
       "id": "decentralized-science-desci",
@@ -5034,7 +5243,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "decryption": {
       "id": "decryption",
@@ -5056,7 +5266,8 @@
       "term_family": "encrypt",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "devnet": {
       "id": "devnet",
@@ -5076,7 +5287,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "difficulty": {
       "id": "difficulty",
@@ -5096,7 +5308,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "difficulty bomb": {
       "id": "difficulty-bomb",
@@ -5116,7 +5329,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "discovery": {
       "id": "discovery",
@@ -5136,7 +5350,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "double spend": {
       "id": "double-spend",
@@ -5168,7 +5383,8 @@
       ],
       "avoid": [
         "double spend"
-      ]
+      ],
+      "term_role": "concept"
     },
     "erigon": {
       "id": "erigon",
@@ -5189,7 +5405,8 @@
       "script_rule": "transliterate",
       "note": "Go-based execution client. Product name, do not translate meaning.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "ethereum": {
       "id": "ethereum",
@@ -5210,7 +5427,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "ethereum classic": {
       "id": "ethereum-classic",
@@ -5230,7 +5448,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "ethereum foundation": {
       "id": "ethereum-foundation",
@@ -5251,7 +5470,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "ethereum mainnet": {
       "id": "ethereum-mainnet",
@@ -5271,7 +5491,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "execution client": {
       "id": "execution-client",
@@ -5291,7 +5512,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "execution layer": {
       "id": "execution-layer",
@@ -5311,7 +5533,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "finalized": {
       "id": "finalized",
@@ -5334,7 +5557,8 @@
       "morph_note": "'Finality' is chain property; 'finalized' is block state; must distinguish from 'finishing'",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "finney": {
       "id": "finney",
@@ -5358,7 +5582,8 @@
       ],
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "fork": {
       "id": "fork",
@@ -5382,7 +5607,8 @@
       "translation_note": "A change in protocol creating an alternative chain. NOT an eating utensil.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "fraud proof": {
       "id": "fraud-proof",
@@ -5402,7 +5628,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "frontier": {
       "id": "frontier",
@@ -5422,7 +5649,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "full node": {
       "id": "full-node",
@@ -5442,7 +5670,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "genesis block": {
       "id": "genesis-block",
@@ -5462,7 +5691,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gossip protocol": {
       "id": "gossip-protocol",
@@ -5482,7 +5712,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "hard fork": {
       "id": "hard-fork",
@@ -5505,7 +5736,8 @@
       "morph_note": "Often loanword as noun but translated as 'divergence' as verb in RU/PL",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "history-expiry": {
       "id": "history-expiry",
@@ -5526,7 +5758,8 @@
       "script_rule": "translate",
       "note": "Mechanism to remove old block history from nodes. Distinct from state expiry.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "integrated development environment (ide)": {
       "id": "ide",
@@ -5546,7 +5779,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "interoperable": {
       "id": "interoperable",
@@ -5566,7 +5800,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "layer 1 (l1)": {
       "id": "layer-1-l1",
@@ -5601,7 +5836,8 @@
       ],
       "translation_note": "The base blockchain (e.g., Ethereum mainnet). Lowercase, not title-cased.",
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "light client": {
       "id": "light-client",
@@ -5621,7 +5857,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "light node": {
       "id": "light-node",
@@ -5641,7 +5878,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "lighthouse": {
       "id": "lighthouse",
@@ -5662,7 +5900,8 @@
       "script_rule": "transliterate",
       "note": "Rust-based consensus client. Product name -- do NOT translate as 'lighthouse/beacon tower'.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "lodestar": {
       "id": "lodestar",
@@ -5683,7 +5922,8 @@
       "script_rule": "transliterate",
       "note": "TypeScript-based consensus client. Product name -- do NOT translate as 'guiding star'.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "mainnet": {
       "id": "mainnet",
@@ -5705,7 +5945,8 @@
       "translation_note": "The primary Ethereum network (as opposed to testnets). Proper noun, capitalize.",
       "casing": "standard",
       "note": "When referring to Ethereum Mainnet specifically, treat as proper noun (capitalize). When referring to other mainnets generically, standard casing.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "message": {
       "id": "message",
@@ -5725,7 +5966,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "message call": {
       "id": "message-call",
@@ -5745,7 +5987,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "metadata": {
       "id": "metadata",
@@ -5765,7 +6008,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "metamask": {
       "id": "metamask",
@@ -5786,7 +6030,8 @@
       "script_rule": "transliterate",
       "note": "Wallet software. Product name -- do NOT translate as 'Meta Mask' or equivalent.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "modular blockchain": {
       "id": "modular-blockchain",
@@ -5806,7 +6051,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "monolithic blockchain": {
       "id": "monolithic-blockchain",
@@ -5826,7 +6072,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "nethermind": {
       "id": "nethermind",
@@ -5847,7 +6094,8 @@
       "script_rule": "transliterate",
       "note": ".NET-based execution client. Product name, do not translate meaning.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "network": {
       "id": "network",
@@ -5867,7 +6115,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "nimbus": {
       "id": "nimbus",
@@ -5888,7 +6137,8 @@
       "script_rule": "transliterate",
       "note": "Nim-based consensus client. Product name -- do NOT translate as 'cloud/halo'.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "node": {
       "id": "node",
@@ -5909,7 +6159,8 @@
       "script_rule": "translate",
       "translation_note": "A computer running Ethereum client software. NOT a mathematical vertex or physical junction.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "off-ramp": {
       "id": "off-ramp",
@@ -5930,7 +6181,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "offchain": {
       "id": "offchain",
@@ -5958,7 +6210,8 @@
       ],
       "translation_note": "Not recorded on the blockchain. Written without hyphen (like 'offline'). Adjective.",
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "ommer (uncle) block": {
       "id": "ommer",
@@ -5993,7 +6246,8 @@
         "Uncle block",
         "UNCLE block"
       ],
-      "note": "Gender-neutral term replacing Bitcoin-originated \"uncle block.\" Prefer \"ommer.\""
+      "note": "Gender-neutral term replacing Bitcoin-originated \"uncle block.\" Prefer \"ommer.\"",
+      "term_role": "concept"
     },
     "on-ramp": {
       "id": "on-ramp",
@@ -6014,7 +6268,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "onboarding": {
       "id": "onboarding",
@@ -6035,7 +6290,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "onchain": {
       "id": "onchain",
@@ -6063,7 +6319,8 @@
       ],
       "translation_note": "Recorded on the blockchain. Written without hyphen (like 'online'). Adjective.",
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "peer": {
       "id": "peer",
@@ -6084,7 +6341,8 @@
       "translation_note": "A connected computer in the network. Technical networking term, not a social equal.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "peer-to-peer": {
       "id": "peer-to-peer",
@@ -6104,7 +6362,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "permissioned": {
       "id": "permissioned",
@@ -6125,7 +6384,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "permissionless": {
       "id": "permissionless",
@@ -6145,7 +6405,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "privacy": {
       "id": "privacy",
@@ -6166,7 +6427,8 @@
       "translation_note": "In Ethereum context: protecting transaction and identity data on a public blockchain.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "private chain": {
       "id": "private-chain",
@@ -6186,7 +6448,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proof of attendance": {
       "id": "proof-of-attendance",
@@ -6206,7 +6469,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proof-of-work (pow)": {
       "id": "pow",
@@ -6236,7 +6500,8 @@
         "PoW"
       ],
       "script_rule": "translate",
-      "casing": "fixed"
+      "casing": "fixed",
+      "term_role": "concept"
     },
     "protocol": {
       "id": "protocol",
@@ -6258,7 +6523,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "prysm": {
       "id": "prysm",
@@ -6279,7 +6545,8 @@
       "script_rule": "transliterate",
       "note": "Go-based consensus client. Product name, do not translate meaning.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "public goods": {
       "id": "public-goods",
@@ -6299,7 +6566,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "re-entrancy attack": {
       "id": "re-entrancy-attack",
@@ -6319,7 +6587,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "real world assets (rwa)": {
       "id": "real-world-assets-rwa",
@@ -6348,7 +6617,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "recursive length prefix (rlp)": {
       "id": "rlp",
@@ -6368,7 +6638,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "regenerative finance (refi)": {
       "id": "regenerative-finance-refi",
@@ -6397,7 +6668,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "reth": {
       "id": "reth",
@@ -6418,7 +6690,8 @@
       "script_rule": "transliterate",
       "note": "Rust-based execution client. Product name, do not translate meaning.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "retroactive public goods funding (rpgf)": {
       "id": "retroactive-public-goods-funding-rpgf",
@@ -6448,7 +6721,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "reward": {
       "id": "reward",
@@ -6468,7 +6742,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "self-sovereignty": {
       "id": "self-sovereignty",
@@ -6489,7 +6764,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "sepolia": {
       "id": "sepolia",
@@ -6510,7 +6786,8 @@
       "script_rule": "keep_latin",
       "note": "Ethereum testnet. Network name, keep Latin.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "serialization": {
       "id": "serialization",
@@ -6531,7 +6808,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "snark": {
       "id": "snark",
@@ -6575,7 +6853,8 @@
       "morph_note": "Often loanword as noun but translated as 'divergence' as verb in RU/PL",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "stark": {
       "id": "stark",
@@ -6617,7 +6896,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "state-expiry": {
       "id": "state-expiry",
@@ -6638,7 +6918,8 @@
       "script_rule": "translate",
       "note": "Mechanism to remove old state data from nodes to reduce storage requirements.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "statelessness": {
       "id": "statelessness",
@@ -6659,7 +6940,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "swarm": {
       "id": "swarm",
@@ -6679,7 +6961,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "sybil attack": {
       "id": "sybil-attack",
@@ -6700,7 +6983,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "\"Sybil\" always capitalized (proper noun). \"attack\" standard casing.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "syncing": {
       "id": "syncing",
@@ -6736,7 +7020,8 @@
           "term": "synced",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "szabo": {
       "id": "szabo",
@@ -6760,7 +7045,8 @@
       ],
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "teku": {
       "id": "teku",
@@ -6781,7 +7067,8 @@
       "script_rule": "transliterate",
       "note": "Java-based consensus client. Product name, do not translate meaning.",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "terminal total difficulty (ttd)": {
       "id": "terminal-total-difficulty",
@@ -6801,7 +7088,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "testnet": {
       "id": "testnet",
@@ -6822,7 +7110,8 @@
       "translation_note": "A test network for development. Opposite of mainnet.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "total value locked (tvl)": {
       "id": "total-value-locked-tvl",
@@ -6851,7 +7140,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "trust assumptions": {
       "id": "trust-assumptions",
@@ -6871,7 +7161,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "trust-minimized": {
       "id": "trust-minimized",
@@ -6892,7 +7183,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "trustless": {
       "id": "trustless",
@@ -6913,7 +7205,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Includes variant: \"trustlessness\".",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "turing complete": {
       "id": "turing-complete",
@@ -6934,7 +7227,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Turing is always capitalized (proper noun from Alan Turing).",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "utxo": {
       "id": "utxo",
@@ -6976,7 +7270,8 @@
       "script_rule": "translate",
       "casing": "fixed",
       "note": "Alias for Web3. Prefer \"web3\" (standard casing) for new content. \"Web 3.0\" is acceptable but not preferred.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "web2": {
       "id": "web2",
@@ -6996,7 +7291,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "whitepaper": {
       "id": "whitepaper",
@@ -7017,7 +7313,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "\"Ethereum Whitepaper\" is a proper noun (published work). A general \"whitepaper\" is standard casing.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "witness": {
       "id": "witness",
@@ -7038,7 +7335,8 @@
       "script_rule": "translate",
       "note": "In Verkle tree context: proof data needed to verify a state access without full state.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "yellow paper": {
       "id": "yellow-paper",
@@ -7059,7 +7357,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "\"Ethereum Yellow Paper\" is a proper noun (published work). A general \"yellow paper\" is standard casing.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "decentralized autonomous organization (dao)": {
       "id": "dao",
@@ -7080,7 +7379,8 @@
       "translation_note": "Organization governed by smart contract rules and member votes. 'DAO' stays Latin.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "delegate": {
       "id": "delegate",
@@ -7101,7 +7401,8 @@
       "term_family": "delegate",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "delegation": {
       "id": "delegation",
@@ -7123,7 +7424,8 @@
       "term_family": "delegate",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "ethereum improvement proposal (eip)": {
       "id": "eip",
@@ -7145,7 +7447,8 @@
       "casing": "fixed",
       "note": "All EIP-n identifiers (EIP-1559, EIP-4844, EIP-7702, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Improvement Proposal) can be translated for explanation.",
       "translation_note": "EIP-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered EIPs.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "governance": {
       "id": "governance",
@@ -7166,7 +7469,8 @@
       "term_family": "govern",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proposal": {
       "id": "proposal",
@@ -7188,7 +7492,8 @@
       "morph_note": "'Block proposer' translates differently than general 'to propose an idea'",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "public good": {
       "id": "public-good",
@@ -7209,7 +7514,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "quadratic funding": {
       "id": "quadratic-funding",
@@ -7230,7 +7536,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "quadratic voting": {
       "id": "quadratic-voting",
@@ -7251,7 +7558,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "randao": {
       "id": "randao",
@@ -7271,7 +7579,8 @@
       },
       "script_rule": "keep_latin",
       "casing": "uppercase",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "treasury": {
       "id": "treasury",
@@ -7291,7 +7600,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "vote": {
       "id": "vote",
@@ -7315,7 +7625,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Includes variant: \"voting\".",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "decentralized identity (did)": {
       "id": "decentralized-identity-did",
@@ -7344,7 +7655,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "ethereum name service (ens)": {
       "id": "ens",
@@ -7364,7 +7676,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "kyc": {
       "id": "kyc",
@@ -7437,7 +7750,8 @@
       "script_rule": "translate",
       "note": "Privacy technique generating one-time addresses for each transaction.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "verifiable credential": {
       "id": "verifiable-credential",
@@ -7457,7 +7771,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "back-running": {
       "id": "back-running",
@@ -7478,7 +7793,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "front-running": {
       "id": "front-running",
@@ -7499,7 +7815,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "maximal extractable value (mev)": {
       "id": "mev",
@@ -7520,7 +7837,8 @@
       "translation_note": "Value extracted by reordering/inserting transactions in a block. 'MEV' stays Latin.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "mev-boost": {
       "id": "mev-boost",
@@ -7541,7 +7859,8 @@
       "script_rule": "keep_latin",
       "note": "Software for proposer-builder separation. Product name, do not translate.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "brand-or-project"
     },
     "sandwich attack": {
       "id": "sandwich-attack",
@@ -7561,7 +7880,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "searcher": {
       "id": "searcher",
@@ -7581,7 +7901,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "berlin": {
       "id": "berlin",
@@ -7601,7 +7922,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "byzantium": {
       "id": "byzantium",
@@ -7621,7 +7943,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "byzantium fork": {
       "id": "byzantium-fork",
@@ -7641,7 +7964,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "cancun": {
       "id": "cancun",
@@ -7661,7 +7985,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "constantinople": {
       "id": "constantinople",
@@ -7681,7 +8006,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "constantinople fork": {
       "id": "constantinople-fork",
@@ -7701,7 +8027,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "dencun upgrade": {
       "id": "dencun-upgrade",
@@ -7738,7 +8065,8 @@
         "DENCUN"
       ],
       "script_rule": "translate",
-      "casing": "proper"
+      "casing": "proper",
+      "term_role": "network-name"
     },
     "ethereum request for comments (erc)": {
       "id": "erc",
@@ -7760,7 +8088,8 @@
       "casing": "fixed",
       "note": "All ERC-n identifiers (ERC-20, ERC-721, ERC-1155, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Request for Comments) can be translated for explanation.",
       "translation_note": "ERC-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered ERCs.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "fusaka": {
       "id": "fusaka",
@@ -7794,7 +8123,8 @@
         "fusaka",
         "FUSAKA"
       ],
-      "casing": "proper"
+      "casing": "proper",
+      "term_role": "network-name"
     },
     "glamsterdam": {
       "id": "glamsterdam",
@@ -7828,7 +8158,8 @@
         "glamsterdam",
         "GLAMSTERDAM"
       ],
-      "casing": "proper"
+      "casing": "proper",
+      "term_role": "network-name"
     },
     "homestead": {
       "id": "homestead",
@@ -7848,7 +8179,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "istanbul": {
       "id": "istanbul",
@@ -7868,7 +8200,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "pectra": {
       "id": "pectra",
@@ -7902,7 +8235,8 @@
         "pectra",
         "PECTRA"
       ],
-      "casing": "proper"
+      "casing": "proper",
+      "term_role": "network-name"
     },
     "shanghai": {
       "id": "shanghai",
@@ -7922,7 +8256,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "shapella": {
       "id": "shapella",
@@ -7956,7 +8291,8 @@
         "shapella",
         "SHAPELLA"
       ],
-      "casing": "proper"
+      "casing": "proper",
+      "term_role": "network-name"
     },
     "the merge": {
       "id": "the-merge",
@@ -7977,7 +8313,8 @@
       "script_rule": "translate",
       "translation_note": "The 2022 upgrade transitioning Ethereum from proof-of-work to proof-of-stake. Named event.",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "term_role": "network-name"
     },
     "verkle trees": {
       "id": "verkle-trees",
@@ -7997,7 +8334,8 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "batching": {
       "id": "batching",
@@ -8018,7 +8356,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "blob": {
       "id": "blob",
@@ -8039,7 +8378,8 @@
       "translation_note": "Binary large object. In Ethereum: data attached to transactions for L2 scaling (EIP-4844).",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "blobspace": {
       "id": "blobspace",
@@ -8059,7 +8399,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "bridge": {
       "id": "bridge",
@@ -8083,7 +8424,8 @@
       "morph_note": "Physical bridge noun vs functional/computing verb; HU/FI agglutinative suffixes change",
       "translation_note": "Infrastructure for transferring assets between blockchains (noun). Also used as verb ('to bridge tokens'). NOT a physical bridge.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "cross-chain": {
       "id": "cross-chain",
@@ -8103,7 +8445,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "dac": {
       "id": "dac",
@@ -8151,7 +8494,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "data availability": {
       "id": "data-availability",
@@ -8177,7 +8521,8 @@
           "term": "DA",
           "status": "preferred"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "data availability layer": {
       "id": "data-availability-layer",
@@ -8202,7 +8547,8 @@
           "term": "DA layer",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "data-availability-sampling": {
       "id": "data-availability-sampling",
@@ -8236,7 +8582,8 @@
         "data-availability",
         "peerdas"
       ],
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "erasure-coding": {
       "id": "erasure-coding",
@@ -8257,7 +8604,8 @@
       "script_rule": "translate",
       "note": "Data redundancy technique used in data availability sampling.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "escape hatch": {
       "id": "escape-hatch",
@@ -8278,7 +8626,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "fault proof": {
       "id": "fault-proof",
@@ -8299,7 +8648,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "forced withdrawal": {
       "id": "forced-withdrawal",
@@ -8320,7 +8670,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "interoperability": {
       "id": "interoperability",
@@ -8340,7 +8691,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "layer 2 (l2)": {
       "id": "layer-2-l2",
@@ -8375,7 +8727,8 @@
       ],
       "translation_note": "Networks built on top of Ethereum for scaling. Lowercase, not title-cased.",
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "optimistic rollup": {
       "id": "optimistic-rollup",
@@ -8396,7 +8749,8 @@
       "script_rule": "translate",
       "translation_note": "L2 scaling solution assuming transactions are valid unless challenged.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "peerdas": {
       "id": "peerdas",
@@ -8426,7 +8780,8 @@
       ],
       "script_rule": "keep_latin",
       "note": "Peer Data Availability Sampling. Protocol name, do not translate.",
-      "casing": "proper"
+      "casing": "proper",
+      "term_role": "brand-or-project"
     },
     "plasma": {
       "id": "plasma",
@@ -8446,7 +8801,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proto-danksharding": {
       "id": "proto-danksharding",
@@ -8467,7 +8823,8 @@
       },
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "prover": {
       "id": "prover",
@@ -8487,7 +8844,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "rollup": {
       "id": "rollup",
@@ -8508,7 +8866,8 @@
       "script_rule": "translate",
       "translation_note": "Layer 2 scaling technology that bundles transactions. Always a noun, never used as a verb in Ethereum.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "rollups": {
       "id": "rollups",
@@ -8528,7 +8887,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "sequencer": {
       "id": "sequencer",
@@ -8548,7 +8908,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "settlement": {
       "id": "settlement",
@@ -8569,7 +8930,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "sidechain": {
       "id": "sidechain",
@@ -8591,7 +8953,8 @@
       "morph_note": "Prefixes 'on-'/'off-' become complex prepositional phrases in TR/HU",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "state channel": {
       "id": "state-channel",
@@ -8611,7 +8974,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "state channels": {
       "id": "state-channels",
@@ -8631,7 +8995,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "throughput": {
       "id": "throughput",
@@ -8652,7 +9017,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "validity proof": {
       "id": "validity-proof",
@@ -8672,7 +9038,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "validium": {
       "id": "validium",
@@ -8692,7 +9059,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "verifier": {
       "id": "verifier",
@@ -8714,7 +9082,8 @@
       "morph_note": "ZK contexts distinguish heavily between prover and verifier; must be non-interchangeable",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "zero-knowledge": {
       "id": "zero-knowledge",
@@ -8743,7 +9112,8 @@
           "term": "ZK",
           "status": "preferred"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "zero-knowledge proof": {
       "id": "zk-proof",
@@ -8783,7 +9153,8 @@
         "ZK Proof",
         "ZK proof"
       ],
-      "note": "ZKP is the common acronym. ZK-proof (hyphenated, lowercase) is the accepted short form. Follow first-mention rule: spell out then use acronym."
+      "note": "ZKP is the common acronym. ZK-proof (hyphenated, lowercase) is the accepted short form. Follow first-mention rule: spell out then use acronym.",
+      "term_role": "concept"
     },
     "zero-knowledge rollup": {
       "id": "zk-rollup",
@@ -8803,7 +9174,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "zk-snark": {
       "id": "zk-snark",
@@ -8828,7 +9200,8 @@
         "zk-snark",
         "ZKSNARK"
       ],
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "zk-stark": {
       "id": "zk-stark",
@@ -8853,7 +9226,8 @@
         "zk-stark",
         "ZKSTARK"
       ],
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "zkevm": {
       "id": "zkevm",
@@ -8879,7 +9253,8 @@
         "zk-evm",
         "ZKEVM"
       ],
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "application binary interface (abi)": {
       "id": "abi",
@@ -8899,7 +9274,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "bytecode": {
       "id": "bytecode",
@@ -8919,7 +9295,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "call data": {
       "id": "call-data",
@@ -8957,7 +9334,8 @@
           "status": "accepted",
           "note": "Code context, uppercase"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "composability": {
       "id": "composability",
@@ -8977,7 +9355,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "composable": {
       "id": "composable",
@@ -8997,7 +9376,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "constructor": {
       "id": "constructor",
@@ -9017,7 +9397,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "contract": {
       "id": "contract",
@@ -9038,7 +9419,8 @@
       "translation_note": "Smart contract -- code deployed on the blockchain. NOT a legal agreement.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "contract account": {
       "id": "contract-account",
@@ -9058,7 +9440,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "contract creation transaction": {
       "id": "contract-creation-transaction",
@@ -9079,7 +9462,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "deploy": {
       "id": "deploy",
@@ -9101,7 +9485,8 @@
       "translation_note": "To publish a smart contract to the blockchain. Similar to software deployment.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "deployment": {
       "id": "deployment",
@@ -9123,7 +9508,8 @@
       "term_family": "deploy",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "deposit contract": {
       "id": "deposit-contract",
@@ -9143,7 +9529,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "ethereum virtual machine (evm)": {
       "id": "evm",
@@ -9164,7 +9551,8 @@
       "translation_note": "Stack-based runtime that executes smart contract bytecode. 'EVM' stays Latin, full name translates.",
       "script_rule": "translate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "event": {
       "id": "event",
@@ -9186,7 +9574,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Includes variant: \"events\".",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "evm assembly language": {
       "id": "evm-assembly-language",
@@ -9207,7 +9596,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "EVM follows acronym casing within this term.",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "fallback function": {
       "id": "fallback-function",
@@ -9228,7 +9618,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "formal-verification": {
       "id": "formal-verification",
@@ -9249,7 +9640,8 @@
       "script_rule": "translate",
       "note": "Mathematical proof that smart contract code meets its specification. Academic term.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gas optimization": {
       "id": "gas-optimization",
@@ -9270,7 +9662,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "immutable": {
       "id": "immutable",
@@ -9291,7 +9684,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Includes variant: \"immutability\".",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "immutable deployed code problem": {
       "id": "immutable-deployed-code-problem",
@@ -9311,7 +9705,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "kevm": {
       "id": "kevm",
@@ -9353,7 +9748,8 @@
       "translation_note": "In Solidity: reusable deployed code that other contracts can call. NOT a book library.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "log": {
       "id": "log",
@@ -9374,7 +9770,8 @@
       "translation_note": "In Solidity: data emitted by events. NOT a physical log or diary.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "opcode": {
       "id": "opcode",
@@ -9395,7 +9792,8 @@
       "translation_note": "Operation code -- a single instruction in the EVM. Keep Latin in code contexts.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "overflow": {
       "id": "overflow",
@@ -9415,7 +9813,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "precompile": {
       "id": "precompile",
@@ -9436,7 +9835,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "proxy contract": {
       "id": "proxy-contract",
@@ -9456,7 +9856,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "reentrancy": {
       "id": "reentrancy",
@@ -9476,7 +9877,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "reentrancy guard": {
       "id": "reentrancy-guard",
@@ -9497,7 +9899,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "require": {
       "id": "require",
@@ -9518,7 +9921,8 @@
       "translation_note": "Solidity keyword that checks conditions in smart contracts. Keep as-is in code contexts.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "revert": {
       "id": "revert",
@@ -9538,7 +9942,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "singleton": {
       "id": "singleton",
@@ -9558,7 +9963,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "smart contract": {
       "id": "smart-contract",
@@ -9579,7 +9985,8 @@
       "script_rule": "translate",
       "translation_note": "Self-executing code deployed on Ethereum. Combines 'smart' (automated) + 'contract' (agreement encoded as code).",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "solidity": {
       "id": "solidity",
@@ -9621,7 +10028,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "source-code-verification": {
       "id": "source-code-verification",
@@ -9642,7 +10050,8 @@
       "script_rule": "translate",
       "note": "Process of proving deployed bytecode matches published source code.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "state": {
       "id": "state",
@@ -9662,7 +10071,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "state-trie": {
       "id": "state-trie",
@@ -9683,7 +10093,8 @@
       "script_rule": "translate",
       "note": "Merkle Patricia trie storing all Ethereum account state.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "storage-trie": {
       "id": "storage-trie",
@@ -9704,7 +10115,8 @@
       "script_rule": "translate",
       "note": "Per-account trie storing contract storage data.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "upgradeable contract": {
       "id": "upgradeable-contract",
@@ -9724,7 +10136,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "vyper": {
       "id": "vyper",
@@ -9765,7 +10178,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "allowance": {
       "id": "allowance",
@@ -9785,7 +10199,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "approve": {
       "id": "approve",
@@ -9805,7 +10220,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "burn": {
       "id": "burn",
@@ -9829,7 +10245,8 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Includes variant: \"burning\".",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "claim": {
       "id": "claim",
@@ -9852,7 +10269,8 @@
       "morph_note": "Action(v) to right(n) to status(adj); each needs specific phrasing in Asian languages",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "collectible": {
       "id": "collectible",
@@ -9872,7 +10290,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "dai": {
       "id": "dai",
@@ -9914,7 +10333,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "fungible token": {
       "id": "fungible-token",
@@ -9934,7 +10354,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "governance token": {
       "id": "governance-token",
@@ -9954,7 +10375,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "lp token": {
       "id": "lp-token",
@@ -9984,7 +10406,8 @@
           "term": "liquidity provider token",
           "status": "accepted"
         }
-      ]
+      ],
+      "term_role": "concept"
     },
     "mint": {
       "id": "mint",
@@ -10007,7 +10430,8 @@
       "morph_note": "Lacks direct financial equivalent in non-Western languages",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "minting": {
       "id": "minting",
@@ -10032,7 +10456,8 @@
       "morph_note": "Lacks direct financial equivalent in non-Western languages",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "non-fungible token (nft)": {
       "id": "nft",
@@ -10053,7 +10478,8 @@
       "translation_note": "Unique digital token proving ownership. 'NFT' stays Latin in most contexts.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "poap": {
       "id": "poap",
@@ -10109,7 +10535,8 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard"
+      "casing": "standard",
+      "term_role": "concept"
     },
     "token": {
       "id": "token",
@@ -10130,7 +10557,8 @@
       "script_rule": "translate",
       "translation_note": "A digital asset on Ethereum following a standard (ERC-20, ERC-721). NOT a physical coin or voucher.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "token factory": {
       "id": "token-factory",
@@ -10150,7 +10578,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "token uri": {
       "id": "token-uri",
@@ -10171,7 +10600,8 @@
       "script_rule": "translate",
       "casing": "fixed",
       "note": "URI = universal resource identifier (acronym, always uppercase in copy). Code usage may differ (tokenURI, token_uri).",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "tokenization": {
       "id": "tokenization",
@@ -10192,7 +10622,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "transfer": {
       "id": "transfer",
@@ -10213,7 +10644,8 @@
       "translation_note": "Moving tokens between addresses. In ERC-20 context, a specific function name.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "usdc": {
       "id": "usdc",
@@ -10254,7 +10686,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "vesting": {
       "id": "vesting",
@@ -10275,7 +10708,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "wbtc": {
       "id": "wbtc",
@@ -10316,7 +10750,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "base fee": {
       "id": "base-fee",
@@ -10336,7 +10771,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "blob-fee": {
       "id": "blob-fee",
@@ -10357,7 +10793,8 @@
       "script_rule": "translate",
       "note": "Fee for blob data in EIP-4844 transactions. Separate from regular gas fees.",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gas": {
       "id": "gas",
@@ -10378,7 +10815,8 @@
       "translation_note": "Unit measuring computational effort on Ethereum. Metaphor for fuel. NOT chemical/physical gas.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gas fee": {
       "id": "gas-fee",
@@ -10398,7 +10836,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gas limit": {
       "id": "gas-limit",
@@ -10418,7 +10857,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gas price": {
       "id": "gas-price",
@@ -10438,7 +10878,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "gwei": {
       "id": "gwei",
@@ -10458,7 +10899,8 @@
       },
       "script_rule": "always_latin",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "intent": {
       "id": "intent",
@@ -10478,7 +10920,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "internal transaction": {
       "id": "internal-transaction",
@@ -10499,7 +10942,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "max fee": {
       "id": "max-fee",
@@ -10519,7 +10963,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "max fee per gas": {
       "id": "max-fee-per-gas",
@@ -10539,7 +10984,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "mempool": {
       "id": "mempool",
@@ -10560,7 +11006,8 @@
       "translation_note": "Pool of pending transactions waiting to be included in a block.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "nonce": {
       "id": "nonce",
@@ -10581,7 +11028,8 @@
       "translation_note": "A counter ensuring each transaction is unique. Cryptographic term: 'number used once'.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "pending transaction": {
       "id": "pending-transaction",
@@ -10602,7 +11050,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "priority fee": {
       "id": "priority-fee",
@@ -10622,7 +11071,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "receipt": {
       "id": "receipt",
@@ -10643,7 +11093,8 @@
       "translation_note": "A record of a transaction's execution result. Technical blockchain term.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "solver": {
       "id": "solver",
@@ -10663,7 +11114,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "tip": {
       "id": "tip",
@@ -10684,7 +11136,8 @@
       "translation_note": "Priority fee paid to validators for faster inclusion. NOT a gratuity tip.",
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "transaction": {
       "id": "transaction",
@@ -10713,7 +11166,8 @@
           "status": "accepted"
         }
       ],
-      "note": "TX is a common abbreviation."
+      "note": "TX is a common abbreviation.",
+      "term_role": "concept"
     },
     "transaction fee": {
       "id": "transaction-fee",
@@ -10733,7 +11187,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "transaction hash": {
       "id": "transaction-hash",
@@ -10753,7 +11208,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "transaction pool": {
       "id": "transaction-pool",
@@ -10773,7 +11229,8 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "wei": {
       "id": "wei",
@@ -10794,7 +11251,8 @@
       "script_rule": "always_latin",
       "casing": "standard",
       "note": "Denomination of ether (lowercase). Named after Wei Dai (proper noun when referring to the person).",
-      "aliases": []
+      "aliases": [],
+      "term_role": "concept"
     },
     "eth": {
       "id": "eth",
