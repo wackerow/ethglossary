@@ -7456,8 +7456,8 @@
       },
       "script_rule": "translate",
       "casing": "fixed",
-      "note": "All EIP-n identifiers (EIP-1559, EIP-4844, EIP-7702, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Improvement Proposal) can be translated for explanation.",
-      "translation_note": "EIP-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered EIPs.",
+      "note": "All EIP-n identifiers (EIP-1559, EIP-4844, EIP-7702, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Improvement Proposal) can be translated for explanation. The /api/v1/filter endpoint enforces this programmatically via STANDARD_PATTERNS in src/lib/content-filter.ts: do not add per-instance master entries for specific EIP-N standards (DRY).",
+      "translation_note": "EIP-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered EIPs. Filter matches the family at request time; no per-instance entries needed.",
       "aliases": [],
       "term_role": "concept"
     },
@@ -8102,8 +8102,8 @@
       },
       "script_rule": "translate",
       "casing": "fixed",
-      "note": "All ERC-n identifiers (ERC-20, ERC-721, ERC-1155, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Request for Comments) can be translated for explanation.",
-      "translation_note": "ERC-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered ERCs.",
+      "note": "All ERC-n identifiers (ERC-20, ERC-721, ERC-1155, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Request for Comments) can be translated for explanation. The /api/v1/filter endpoint enforces this programmatically via STANDARD_PATTERNS in src/lib/content-filter.ts: do not add per-instance master entries for specific ERC-N standards (DRY).",
+      "translation_note": "ERC-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered ERCs. Filter matches the family at request time; no per-instance entries needed.",
       "aliases": [],
       "term_role": "concept"
     },

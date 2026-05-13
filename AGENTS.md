@@ -218,6 +218,27 @@ Read `docs/data-shape.md` and `docs/term-template.json` first. Then:
    ```
 8. Report results. Wait for single-use permission before commit, then again before push.
 
+## DRY pattern families -- do NOT add per-instance entries
+
+Some identifiers follow a uniform programmatic format with hundreds of instances. **Never add per-instance master entries for these.** The rule is encoded once on the parent entry and `src/lib/content-filter.ts` pattern-matches the family at request time via `STANDARD_PATTERNS`.
+
+Currently handled:
+
+| Family  | Examples                                       | Parent master entry                       |
+|---------|------------------------------------------------|-------------------------------------------|
+| `ERC-N` | ERC-20, ERC-721, ERC-1155, ERC-4337, ERC-7702 | `ethereum request for comments (erc)`     |
+| `EIP-N` | EIP-1559, EIP-4844, EIP-7702                  | `ethereum improvement proposal (eip)`     |
+
+**To add a new family** (e.g. BIP-N, RIP-N, a new EIP/ERC variant):
+
+1. Append a `StandardPattern` entry to `STANDARD_PATTERNS` in `src/lib/content-filter.ts` with the regex, parent term key, and surface-form normalizer.
+2. Confirm the parent master entry exists and documents the always-Latin rule in its `note` field.
+3. Verify with a `curl` to `/api/v1/filter` containing several instances of the family.
+
+**Single instances that are NOT pattern members** (ETH ticker, BTC, USDC, DAI, individual specific tokens) stay as their own master entries -- they are individual standards, not pattern family members.
+
+**Why this matters:** ERC and EIP each have hundreds of numbered instances. Adding entries per instance is duplicate work that does not scale and breaks the DRY principle. The pattern-matching approach handles every current and future instance with zero data changes.
+
 ## Translation and transliteration decisions
 
 For any question about how a term should render in a non-Latin-script language -- script choice, transliteration vs calque, brand handling, numerals, plurals -- load `docs/translation-policy.md`. It is the v1-locked policy (2026-05-10) synthesized from prior linguistic guidance and validated by two parallel Gemini 3.1 Pro analyses with explicit disagreement resolution.
