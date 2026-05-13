@@ -2057,7 +2057,18 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Forms: \"stake\" (n/v), \"staked\" (adj/past), \"staking\" (gerund), \"staker\" (agent). \"The staker used ETH as stake and staked it in the network.\"",
-      "aliases": [],
+      "aliases": [
+        {
+          "term": "staked",
+          "status": "accepted",
+          "note": "Past participle / adjective form"
+        },
+        {
+          "term": "staker",
+          "status": "accepted",
+          "note": "Agent noun (one who stakes)"
+        }
+      ],
       "term_role": "concept"
     },
     "stake-grinding": {
@@ -10255,7 +10266,13 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Includes variant: \"burning\".",
-      "aliases": [],
+      "aliases": [
+        {
+          "term": "burning",
+          "status": "accepted",
+          "note": "Gerund / verb participle form"
+        }
+      ],
       "term_role": "concept"
     },
     "claim": {
