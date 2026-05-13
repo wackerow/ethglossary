@@ -741,7 +741,7 @@
       "forms": {
         "base": "beacon chain"
       },
-      "script_rule": "context_dependent",
+      "script_rule": "translate",
       "translation_note": "The PoS coordination layer of Ethereum. Named component.",
       "casing": "standard",
       "aliases": []
@@ -886,7 +886,7 @@
       "forms": {
         "base": "casper ffg"
       },
-      "script_rule": "hybrid",
+      "script_rule": "transliterate",
       "casing": "fixed",
       "note": "\"Casper\" is a proper noun. \"FFG\" = Friendly Finality Gadget. Full: \"Casper the Friendly Finality Gadget.\" Always hyphenated: \"Casper-FFG\".",
       "avoid": [
@@ -1598,7 +1598,7 @@
           "status": "accepted"
         }
       ],
-      "script_rule": "hybrid",
+      "script_rule": "translate",
       "note": "Consensus mechanism used in private/test networks. Not used on Ethereum mainnet.",
       "casing": "fixed"
     },
@@ -1631,7 +1631,7 @@
         },
         "PoS"
       ],
-      "script_rule": "hybrid",
+      "script_rule": "translate",
       "casing": "fixed"
     },
     "proposer": {
@@ -2298,7 +2298,7 @@
       "forms": {
         "base": "BLS signature"
       },
-      "script_rule": "hybrid",
+      "script_rule": "translate",
       "note": "Boneh-Lynn-Shacham signature scheme. 'BLS' stays Latin, 'signature' translates.",
       "casing": "standard",
       "aliases": []
@@ -2504,7 +2504,7 @@
         "base": "hash"
       },
       "term_family": "hash",
-      "script_rule": "context_dependent",
+      "script_rule": "translate",
       "morph_family": "hash",
       "morph_note": "Usually loanword noun; verb often 'calculate the checksum' in formal docs",
       "translation_note": "A fixed-length output from a cryptographic function. Also used as verb ('to hash data').",
@@ -3512,7 +3512,7 @@
       "forms": {
         "base": "stablecoin"
       },
-      "script_rule": "context_dependent",
+      "script_rule": "translate",
       "casing": "standard",
       "aliases": []
     },
@@ -3638,7 +3638,7 @@
         "base": "yield farming",
         "gerund": "yield farming"
       },
-      "script_rule": "context_dependent",
+      "script_rule": "translate",
       "casing": "standard",
       "aliases": []
     },
@@ -6220,7 +6220,7 @@
         },
         "PoW"
       ],
-      "script_rule": "hybrid",
+      "script_rule": "translate",
       "casing": "fixed"
     },
     "protocol": {
@@ -7123,7 +7123,7 @@
       "forms": {
         "base": "ethereum improvement proposal (eip)"
       },
-      "script_rule": "hybrid",
+      "script_rule": "translate",
       "casing": "fixed",
       "note": "All EIP-n identifiers (EIP-1559, EIP-4844, EIP-7702, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Improvement Proposal) can be translated for explanation.",
       "translation_note": "EIP-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered EIPs.",
@@ -7736,7 +7736,7 @@
       "forms": {
         "base": "ethereum request for comments (erc)"
       },
-      "script_rule": "hybrid",
+      "script_rule": "translate",
       "casing": "fixed",
       "note": "All ERC-n identifiers (ERC-20, ERC-721, ERC-1155, etc.) ALWAYS stay in Latin script. Never translate or transliterate the numbered identifier. The expanded form (Ethereum Request for Comments) can be translated for explanation.",
       "translation_note": "ERC-n identifiers always Latin. Expanded form translatable. Pattern applies to ALL numbered ERCs.",
@@ -7954,7 +7954,7 @@
       "forms": {
         "base": "the merge"
       },
-      "script_rule": "context_dependent",
+      "script_rule": "translate",
       "translation_note": "The 2022 upgrade transitioning Ethereum from proof-of-work to proof-of-stake. Named event.",
       "casing": "fixed",
       "aliases": []
@@ -8372,7 +8372,7 @@
       "forms": {
         "base": "optimistic rollup"
       },
-      "script_rule": "hybrid",
+      "script_rule": "translate",
       "translation_note": "L2 scaling solution assuming transactions are valid unless challenged.",
       "casing": "standard",
       "aliases": []
@@ -8484,7 +8484,7 @@
       "forms": {
         "base": "rollup"
       },
-      "script_rule": "context_dependent",
+      "script_rule": "translate",
       "translation_note": "Layer 2 scaling technology that bundles transactions. Always a noun, never used as a verb in Ethereum.",
       "casing": "standard",
       "aliases": []
