@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated": "2026-03-26",
-    "total_confirmed": 490,
+    "total_confirmed": 501,
     "total_with_script_rule": 34,
     "total_with_morph_family": 36,
     "total_with_translation_note": 38,
@@ -7625,7 +7625,12 @@
       "script_rule": "translate",
       "casing": "standard",
       "note": "Includes variant: \"voting\".",
-      "aliases": [],
+      "aliases": [
+        {
+          "term": "voting",
+          "status": "accepted"
+        }
+      ],
       "term_role": "concept"
     },
     "decentralized identity (did)": {
@@ -9147,6 +9152,11 @@
           "term": "ZK-proof",
           "status": "accepted",
           "note": "ZK-Proof only in title-cased contexts"
+        },
+        {
+          "term": "zk",
+          "status": "accepted",
+          "note": "Casual short form; expand on first use."
         }
       ],
       "avoid": [
@@ -11356,6 +11366,271 @@
       ],
       "note": "Multi-token standard identifier. Always Latin per policy section 7.1.",
       "term_role": "ticker-or-standard"
+    },
+    "re-org": {
+      "id": "re-org",
+      "term": "re-org",
+      "category": "consensus",
+      "term_role": "concept",
+      "definition": "A chain reorganization. Occurs when a node receives a longer or heavier chain than its current view and switches to follow the new chain, replacing recent blocks. Short re-orgs of one or two blocks are occasional; long re-orgs are rare on Ethereum.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "re-org"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": [
+        {
+          "term": "reorg",
+          "status": "accepted"
+        },
+        {
+          "term": "chain reorganization",
+          "status": "accepted"
+        }
+      ]
+    },
+    "trustlessness": {
+      "id": "trustlessness",
+      "term": "trustlessness",
+      "category": "general",
+      "term_role": "concept",
+      "definition": "The property of a system that does not require participants to trust any central party or each other. In Ethereum, trustlessness comes from cryptographic guarantees and decentralized consensus rather than trust in a specific operator.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "trustlessness"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": []
+    },
+    "immutability": {
+      "id": "immutability",
+      "term": "immutability",
+      "category": "general",
+      "term_role": "concept",
+      "definition": "The property of data or code that cannot be changed after it has been recorded. In Ethereum, deployed smart contracts and confirmed blocks are immutable absent a chain re-org.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "immutability"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": []
+    },
+    "events": {
+      "id": "events",
+      "term": "events",
+      "category": "smart-contracts",
+      "term_role": "concept",
+      "definition": "A logging mechanism in Solidity that smart contracts use to emit information about state changes. Events are stored in transaction logs and indexed for off-chain consumption by dapps and indexers.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "event"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": [
+        {
+          "term": "event",
+          "status": "accepted"
+        }
+      ]
+    },
+    "self-destruct": {
+      "id": "self-destruct",
+      "term": "self-destruct",
+      "category": "smart-contracts",
+      "term_role": "concept",
+      "definition": "An EVM opcode (SELFDESTRUCT) that removes a smart contract from the active state. As of EIP-6780 (Dencun), self-destruct only fully removes a contract if called in the same transaction the contract was created in; otherwise it only transfers the balance.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "self-destruct"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": [
+        {
+          "term": "selfdestruct",
+          "status": "accepted"
+        }
+      ]
+    },
+    "cliff": {
+      "id": "cliff",
+      "term": "cliff",
+      "category": "tokens",
+      "term_role": "concept",
+      "definition": "In a vesting schedule, an initial period during which no tokens are released. After the cliff ends, vesting begins (often immediately releasing the tokens that would have vested during the cliff).",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "cliff"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": []
+    },
+    "slasher": {
+      "id": "slasher",
+      "term": "slasher",
+      "category": "consensus",
+      "term_role": "concept",
+      "definition": "A validator or specialized node that detects and reports slashable offenses (double-voting, surround voting) by other validators. Submitting valid slashing evidence is rewarded with a portion of the offending validator stake.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "slasher"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": []
+    },
+    "da layer": {
+      "id": "da-layer",
+      "term": "data availability layer",
+      "category": "scaling",
+      "term_role": "concept",
+      "definition": "A layer responsible for ensuring transaction data is publicly available so that anyone can reconstruct state. Ethereum L1 is the DA layer for Ethereum rollups today; some rollups also use alternative DA layers (alt-DA).",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "data availability layer"
+      },
+      "script_rule": "translate",
+      "casing": "standard",
+      "aliases": [
+        {
+          "term": "DA layer",
+          "status": "accepted"
+        }
+      ]
+    },
+    "sstore": {
+      "id": "sstore",
+      "term": "SSTORE",
+      "category": "smart-contracts",
+      "term_role": "identifier",
+      "definition": "An EVM opcode that writes a 256-bit word to contract storage. Storage writes are the most expensive standard EVM operation (gas cost varies by whether the slot was previously zero or non-zero).",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "sstore"
+      },
+      "script_rule": "always_latin",
+      "casing": "uppercase",
+      "aliases": []
+    },
+    "das": {
+      "id": "das",
+      "term": "DAS",
+      "category": "scaling",
+      "term_role": "ticker-or-standard",
+      "definition": "Data availability sampling. A technique for verifying that block data is fully available without downloading the entire block, by sampling random chunks and relying on erasure coding. Foundational to Ethereum scaling roadmap (full danksharding).",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "das"
+      },
+      "script_rule": "always_latin",
+      "casing": "uppercase",
+      "aliases": [
+        {
+          "term": "data availability sampling",
+          "status": "accepted"
+        }
+      ]
+    },
+    "da": {
+      "id": "da",
+      "term": "DA",
+      "category": "scaling",
+      "term_role": "ticker-or-standard",
+      "definition": "Data availability. The guarantee that transaction data has been published in a way that anyone can verify and download. Critical for rollup security: if data is unavailable, no one can prove that state transitions are valid.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed"
+      ],
+      "forms": {
+        "base": "da"
+      },
+      "script_rule": "always_latin",
+      "casing": "uppercase",
+      "aliases": [
+        {
+          "term": "data availability",
+          "status": "accepted"
+        }
+      ]
     }
   },
   "term_families": {
