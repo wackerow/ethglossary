@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated": "2026-03-26",
-    "total_confirmed": 498,
+    "total_confirmed": 532,
     "total_with_script_rule": 34,
     "total_with_morph_family": 36,
     "total_with_translation_note": 38,
@@ -11567,6 +11567,754 @@
           "status": "accepted"
         }
       ]
+    },
+    "albert einstein": {
+      "id": "albert-einstein",
+      "term": "Albert Einstein",
+      "category": "general",
+      "term_role": "person-name",
+      "definition": "Globally famous historical figure with established transliterations in all target languages.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "albert einstein"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "charles hoskinson": {
+      "id": "charles-hoskinson",
+      "term": "Charles Hoskinson",
+      "category": "general",
+      "term_role": "person-name",
+      "definition": "Major crypto founder with established transliterations in multiple languages.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "charles hoskinson"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "gavin wood": {
+      "id": "gavin-wood",
+      "term": "Gavin Wood",
+      "category": "general",
+      "term_role": "person-name",
+      "definition": "Ethereum co-founder with widely established transliterations.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "gavin wood"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "joseph lubin": {
+      "id": "joseph-lubin",
+      "term": "Joseph Lubin",
+      "category": "general",
+      "term_role": "person-name",
+      "definition": "ConsenSys founder with established transliterations in multiple languages.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "joseph lubin"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "vitalik buterin": {
+      "id": "vitalik-buterin",
+      "term": "Vitalik Buterin",
+      "category": "general",
+      "term_role": "person-name",
+      "definition": "Ethereum creator with universally established transliterations across non-Latin scripts.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "vitalik buterin"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "wei dai": {
+      "id": "wei-dai",
+      "term": "Wei Dai",
+      "category": "general",
+      "term_role": "person-name",
+      "definition": "Famous cypherpunk with established Hanzi and transliterations.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "wei dai"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "aave": {
+      "id": "aave",
+      "term": "Aave",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "aave"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "arbitrum": {
+      "id": "arbitrum",
+      "term": "Arbitrum",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "arbitrum"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "binance": {
+      "id": "binance",
+      "term": "Binance",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "binance"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "chrome": {
+      "id": "chrome",
+      "term": "Chrome",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "chrome"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "coinbase": {
+      "id": "coinbase",
+      "term": "Coinbase",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "coinbase"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "consensys": {
+      "id": "consensys",
+      "term": "ConsenSys",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "consensys"
+      },
+      "script_rule": "transliterate",
+      "casing": "fixed",
+      "aliases": []
+    },
+    "cryptokitties": {
+      "id": "cryptokitties",
+      "term": "CryptoKitties",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "cryptokitties"
+      },
+      "script_rule": "transliterate",
+      "casing": "fixed",
+      "aliases": []
+    },
+    "dencun": {
+      "id": "dencun",
+      "term": "Dencun",
+      "category": "protocol-upgrades",
+      "term_role": "network-name",
+      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "dencun"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "discord": {
+      "id": "discord",
+      "term": "Discord",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "discord"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "facebook": {
+      "id": "facebook",
+      "term": "Facebook",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "facebook"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "filecoin": {
+      "id": "filecoin",
+      "term": "Filecoin",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "filecoin"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "goerli": {
+      "id": "goerli",
+      "term": "Goerli",
+      "category": "protocol-upgrades",
+      "term_role": "network-name",
+      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "goerli"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "holesky": {
+      "id": "holesky",
+      "term": "Holesky",
+      "category": "protocol-upgrades",
+      "term_role": "network-name",
+      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "holesky"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "lido": {
+      "id": "lido",
+      "term": "Lido",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "lido"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "makerdao": {
+      "id": "makerdao",
+      "term": "MakerDAO",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "makerdao"
+      },
+      "script_rule": "transliterate",
+      "casing": "fixed",
+      "aliases": []
+    },
+    "microsoft": {
+      "id": "microsoft",
+      "term": "Microsoft",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "microsoft"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "netflix": {
+      "id": "netflix",
+      "term": "Netflix",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "netflix"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "opensea": {
+      "id": "opensea",
+      "term": "OpenSea",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "opensea"
+      },
+      "script_rule": "transliterate",
+      "casing": "fixed",
+      "aliases": []
+    },
+    "optimism": {
+      "id": "optimism",
+      "term": "Optimism",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "optimism"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "paypal": {
+      "id": "paypal",
+      "term": "PayPal",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "paypal"
+      },
+      "script_rule": "transliterate",
+      "casing": "fixed",
+      "aliases": []
+    },
+    "polygon": {
+      "id": "polygon",
+      "term": "Polygon",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "polygon"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "reddit": {
+      "id": "reddit",
+      "term": "Reddit",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "reddit"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "ropsten": {
+      "id": "ropsten",
+      "term": "Ropsten",
+      "category": "protocol-upgrades",
+      "term_role": "network-name",
+      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "ropsten"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "starknet": {
+      "id": "starknet",
+      "term": "Starknet",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "starknet"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "telegram": {
+      "id": "telegram",
+      "term": "Telegram",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "telegram"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "twitter": {
+      "id": "twitter",
+      "term": "Twitter",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "twitter"
+      },
+      "script_rule": "transliterate",
+      "casing": "proper",
+      "aliases": []
+    },
+    "youtube": {
+      "id": "youtube",
+      "term": "YouTube",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "youtube"
+      },
+      "script_rule": "transliterate",
+      "casing": "fixed",
+      "aliases": []
+    },
+    "zksync": {
+      "id": "zksync",
+      "term": "zkSync",
+      "category": "general",
+      "term_role": "brand-or-project",
+      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "has_tooltip": true,
+      "in_glossary": true,
+      "content_occurrences": 0,
+      "content_files": 0,
+      "intl_keys": 0,
+      "sources": [
+        "seed",
+        "gemini-3.1-pro-2026-05-14"
+      ],
+      "forms": {
+        "base": "zksync"
+      },
+      "script_rule": "transliterate",
+      "casing": "fixed",
+      "aliases": []
     }
   },
   "term_families": {

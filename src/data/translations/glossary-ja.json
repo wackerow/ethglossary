@@ -23215,5 +23215,1023 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
+  },
+  "albert einstein": {
+    "term": "アルベルト・アインシュタイン",
+    "aliases": [
+      "Albert Einstein"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "アルベルト・アインシュタイン"
+      },
+      "heading": {
+        "term": "アルベルト・アインシュタイン"
+      },
+      "tag": {
+        "term": "アルベルト・アインシュタイン"
+      },
+      "ui": {
+        "term": "アルベルト・アインシュタイン"
+      },
+      "code": {
+        "term": "Albert Einstein"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "charles hoskinson": {
+    "term": "チャールズ・ホスキンソン",
+    "aliases": [
+      "Charles Hoskinson"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "チャールズ・ホスキンソン"
+      },
+      "heading": {
+        "term": "チャールズ・ホスキンソン"
+      },
+      "tag": {
+        "term": "チャールズ・ホスキンソン"
+      },
+      "ui": {
+        "term": "チャールズ・ホスキンソン"
+      },
+      "code": {
+        "term": "Charles Hoskinson"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "gavin wood": {
+    "term": "ギャビン・ウッド",
+    "aliases": [
+      "Gavin Wood"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ギャビン・ウッド"
+      },
+      "heading": {
+        "term": "ギャビン・ウッド"
+      },
+      "tag": {
+        "term": "ギャビン・ウッド"
+      },
+      "ui": {
+        "term": "ギャビン・ウッド"
+      },
+      "code": {
+        "term": "Gavin Wood"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "joseph lubin": {
+    "term": "ジョセフ・ルービン",
+    "aliases": [
+      "Joseph Lubin"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ジョセフ・ルービン"
+      },
+      "heading": {
+        "term": "ジョセフ・ルービン"
+      },
+      "tag": {
+        "term": "ジョセフ・ルービン"
+      },
+      "ui": {
+        "term": "ジョセフ・ルービン"
+      },
+      "code": {
+        "term": "Joseph Lubin"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "vitalik buterin": {
+    "term": "ヴィタリック・ブテリン",
+    "aliases": [
+      "Vitalik Buterin"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ヴィタリック・ブテリン"
+      },
+      "heading": {
+        "term": "ヴィタリック・ブテリン"
+      },
+      "tag": {
+        "term": "ヴィタリック・ブテリン"
+      },
+      "ui": {
+        "term": "ヴィタリック・ブテリン"
+      },
+      "code": {
+        "term": "Vitalik Buterin"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "wei dai": {
+    "term": "ウェイ・ダイ",
+    "aliases": [
+      "Wei Dai"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ウェイ・ダイ"
+      },
+      "heading": {
+        "term": "ウェイ・ダイ"
+      },
+      "tag": {
+        "term": "ウェイ・ダイ"
+      },
+      "ui": {
+        "term": "ウェイ・ダイ"
+      },
+      "code": {
+        "term": "Wei Dai"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "aave": {
+    "term": "アーベ",
+    "aliases": [
+      "Aave"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "アーベ"
+      },
+      "heading": {
+        "term": "アーベ"
+      },
+      "tag": {
+        "term": "アーベ"
+      },
+      "ui": {
+        "term": "アーベ"
+      },
+      "code": {
+        "term": "Aave"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "arbitrum": {
+    "term": "アービトラム",
+    "aliases": [
+      "Arbitrum"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "アービトラム"
+      },
+      "heading": {
+        "term": "アービトラム"
+      },
+      "tag": {
+        "term": "アービトラム"
+      },
+      "ui": {
+        "term": "アービトラム"
+      },
+      "code": {
+        "term": "Arbitrum"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "binance": {
+    "term": "バイナンス",
+    "aliases": [
+      "Binance"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "バイナンス"
+      },
+      "heading": {
+        "term": "バイナンス"
+      },
+      "tag": {
+        "term": "バイナンス"
+      },
+      "ui": {
+        "term": "バイナンス"
+      },
+      "code": {
+        "term": "Binance"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "chrome": {
+    "term": "クローム",
+    "aliases": [
+      "Chrome"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "クローム"
+      },
+      "heading": {
+        "term": "クローム"
+      },
+      "tag": {
+        "term": "クローム"
+      },
+      "ui": {
+        "term": "クローム"
+      },
+      "code": {
+        "term": "Chrome"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "coinbase": {
+    "term": "コインベース",
+    "aliases": [
+      "Coinbase"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "コインベース"
+      },
+      "heading": {
+        "term": "コインベース"
+      },
+      "tag": {
+        "term": "コインベース"
+      },
+      "ui": {
+        "term": "コインベース"
+      },
+      "code": {
+        "term": "Coinbase"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "consensys": {
+    "term": "コンセンシス",
+    "aliases": [
+      "ConsenSys"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "コンセンシス"
+      },
+      "heading": {
+        "term": "コンセンシス"
+      },
+      "tag": {
+        "term": "コンセンシス"
+      },
+      "ui": {
+        "term": "コンセンシス"
+      },
+      "code": {
+        "term": "ConsenSys"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "cryptokitties": {
+    "term": "クリプトキティーズ",
+    "aliases": [
+      "CryptoKitties"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "クリプトキティーズ"
+      },
+      "heading": {
+        "term": "クリプトキティーズ"
+      },
+      "tag": {
+        "term": "クリプトキティーズ"
+      },
+      "ui": {
+        "term": "クリプトキティーズ"
+      },
+      "code": {
+        "term": "CryptoKitties"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "dencun": {
+    "term": "デンクン",
+    "aliases": [
+      "Dencun"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "デンクン"
+      },
+      "heading": {
+        "term": "デンクン"
+      },
+      "tag": {
+        "term": "デンクン"
+      },
+      "ui": {
+        "term": "デンクン"
+      },
+      "code": {
+        "term": "Dencun"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "discord": {
+    "term": "ディスコード",
+    "aliases": [
+      "Discord"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ディスコード"
+      },
+      "heading": {
+        "term": "ディスコード"
+      },
+      "tag": {
+        "term": "ディスコード"
+      },
+      "ui": {
+        "term": "ディスコード"
+      },
+      "code": {
+        "term": "Discord"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "facebook": {
+    "term": "フェイスブック",
+    "aliases": [
+      "Facebook"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "フェイスブック"
+      },
+      "heading": {
+        "term": "フェイスブック"
+      },
+      "tag": {
+        "term": "フェイスブック"
+      },
+      "ui": {
+        "term": "フェイスブック"
+      },
+      "code": {
+        "term": "Facebook"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "filecoin": {
+    "term": "ファイルコイン",
+    "aliases": [
+      "Filecoin"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ファイルコイン"
+      },
+      "heading": {
+        "term": "ファイルコイン"
+      },
+      "tag": {
+        "term": "ファイルコイン"
+      },
+      "ui": {
+        "term": "ファイルコイン"
+      },
+      "code": {
+        "term": "Filecoin"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "goerli": {
+    "term": "ゴエリ",
+    "aliases": [
+      "Goerli"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ゴエリ"
+      },
+      "heading": {
+        "term": "ゴエリ"
+      },
+      "tag": {
+        "term": "ゴエリ"
+      },
+      "ui": {
+        "term": "ゴエリ"
+      },
+      "code": {
+        "term": "Goerli"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "holesky": {
+    "term": "ホルスキー",
+    "aliases": [
+      "Holesky"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ホルスキー"
+      },
+      "heading": {
+        "term": "ホルスキー"
+      },
+      "tag": {
+        "term": "ホルスキー"
+      },
+      "ui": {
+        "term": "ホルスキー"
+      },
+      "code": {
+        "term": "Holesky"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "lido": {
+    "term": "リド",
+    "aliases": [
+      "Lido"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "リド"
+      },
+      "heading": {
+        "term": "リド"
+      },
+      "tag": {
+        "term": "リド"
+      },
+      "ui": {
+        "term": "リド"
+      },
+      "code": {
+        "term": "Lido"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "makerdao": {
+    "term": "メイカーダオ",
+    "aliases": [
+      "MakerDAO"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "メイカーダオ"
+      },
+      "heading": {
+        "term": "メイカーダオ"
+      },
+      "tag": {
+        "term": "メイカーダオ"
+      },
+      "ui": {
+        "term": "メイカーダオ"
+      },
+      "code": {
+        "term": "MakerDAO"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "microsoft": {
+    "term": "マイクロソフト",
+    "aliases": [
+      "Microsoft"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "マイクロソフト"
+      },
+      "heading": {
+        "term": "マイクロソフト"
+      },
+      "tag": {
+        "term": "マイクロソフト"
+      },
+      "ui": {
+        "term": "マイクロソフト"
+      },
+      "code": {
+        "term": "Microsoft"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "netflix": {
+    "term": "ネットフリックス",
+    "aliases": [
+      "Netflix"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ネットフリックス"
+      },
+      "heading": {
+        "term": "ネットフリックス"
+      },
+      "tag": {
+        "term": "ネットフリックス"
+      },
+      "ui": {
+        "term": "ネットフリックス"
+      },
+      "code": {
+        "term": "Netflix"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "opensea": {
+    "term": "オープンシー",
+    "aliases": [
+      "OpenSea"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "オープンシー"
+      },
+      "heading": {
+        "term": "オープンシー"
+      },
+      "tag": {
+        "term": "オープンシー"
+      },
+      "ui": {
+        "term": "オープンシー"
+      },
+      "code": {
+        "term": "OpenSea"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "optimism": {
+    "term": "オプティミズム",
+    "aliases": [
+      "Optimism"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "オプティミズム"
+      },
+      "heading": {
+        "term": "オプティミズム"
+      },
+      "tag": {
+        "term": "オプティミズム"
+      },
+      "ui": {
+        "term": "オプティミズム"
+      },
+      "code": {
+        "term": "Optimism"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "paypal": {
+    "term": "ペイパル",
+    "aliases": [
+      "PayPal"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ペイパル"
+      },
+      "heading": {
+        "term": "ペイパル"
+      },
+      "tag": {
+        "term": "ペイパル"
+      },
+      "ui": {
+        "term": "ペイパル"
+      },
+      "code": {
+        "term": "PayPal"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "polygon": {
+    "term": "ポリゴン",
+    "aliases": [
+      "Polygon"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ポリゴン"
+      },
+      "heading": {
+        "term": "ポリゴン"
+      },
+      "tag": {
+        "term": "ポリゴン"
+      },
+      "ui": {
+        "term": "ポリゴン"
+      },
+      "code": {
+        "term": "Polygon"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "reddit": {
+    "term": "レディット",
+    "aliases": [
+      "Reddit"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "レディット"
+      },
+      "heading": {
+        "term": "レディット"
+      },
+      "tag": {
+        "term": "レディット"
+      },
+      "ui": {
+        "term": "レディット"
+      },
+      "code": {
+        "term": "Reddit"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "ropsten": {
+    "term": "ロプステン",
+    "aliases": [
+      "Ropsten"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ロプステン"
+      },
+      "heading": {
+        "term": "ロプステン"
+      },
+      "tag": {
+        "term": "ロプステン"
+      },
+      "ui": {
+        "term": "ロプステン"
+      },
+      "code": {
+        "term": "Ropsten"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "starknet": {
+    "term": "スタークネット",
+    "aliases": [
+      "Starknet"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "スタークネット"
+      },
+      "heading": {
+        "term": "スタークネット"
+      },
+      "tag": {
+        "term": "スタークネット"
+      },
+      "ui": {
+        "term": "スタークネット"
+      },
+      "code": {
+        "term": "Starknet"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "telegram": {
+    "term": "テレグラム",
+    "aliases": [
+      "Telegram"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "テレグラム"
+      },
+      "heading": {
+        "term": "テレグラム"
+      },
+      "tag": {
+        "term": "テレグラム"
+      },
+      "ui": {
+        "term": "テレグラム"
+      },
+      "code": {
+        "term": "Telegram"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "twitter": {
+    "term": "ツイッター",
+    "aliases": [
+      "Twitter"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ツイッター"
+      },
+      "heading": {
+        "term": "ツイッター"
+      },
+      "tag": {
+        "term": "ツイッター"
+      },
+      "ui": {
+        "term": "ツイッター"
+      },
+      "code": {
+        "term": "Twitter"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "youtube": {
+    "term": "ユーチューブ",
+    "aliases": [
+      "YouTube"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ユーチューブ"
+      },
+      "heading": {
+        "term": "ユーチューブ"
+      },
+      "tag": {
+        "term": "ユーチューブ"
+      },
+      "ui": {
+        "term": "ユーチューブ"
+      },
+      "code": {
+        "term": "YouTube"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "zksync": {
+    "term": "zkSync",
+    "aliases": [],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "zkSync"
+      },
+      "heading": {
+        "term": "zkSync"
+      },
+      "tag": {
+        "term": "zkSync"
+      },
+      "ui": {
+        "term": "zkSync"
+      },
+      "code": {
+        "term": "zkSync"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "seed",
+    "confidence": "high",
+    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
+    "updated": "2026-05-14T00:00:00Z"
   }
 }
