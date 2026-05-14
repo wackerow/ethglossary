@@ -8,7 +8,7 @@ ETHGlossary is a standalone API and HTML viewer for canonical Ethereum terminolo
 
 - Humans browsing the viewer at `/`
 - LLMs and tooling consuming `/openapi.json` and `/llms.txt`
-- Translation pipelines POSTing source content to `/api/v1/filter` to get matching terms back. The active consumer is the intl-pipeline in `ethereum/ethereum-org-website`.
+- Translation pipelines POSTing source content to `/api/v1/filter` to get matching terms back.
 
 Two product surfaces:
 
@@ -258,8 +258,9 @@ Quick lookup before loading the full policy:
 | `docs/data-shape.md`          | Adding/editing terms; touching `script_rule`/`category`/`casing`; refactoring the schema |
 | `docs/gotchas.md`             | Before any non-trivial edit to data or API code                                          |
 | `docs/translation-policy.md`  | Any translation, transliteration, script-rule, term-role, or per-language question       |
-| `docs/design-decisions.md`    | When tempted to introduce a new framework, dependency, or break a v1 convention          |
+| `docs/design-decisions.md`    | When tempted to introduce a new framework, dependency, or break a v1 convention; for API stability and versioning criteria |
 | `docs/api-spec.md`            | When designing or extending API endpoints                                                |
+| `docs/common-fixes.md`        | Recipe for a routine fix: dedup, translation update, term add/remove, pattern family add, script_rule fix, typo |
 | `/openapi.json`               | Exact request/response shapes (source of truth for the API surface)                      |
 
 ## Common workflows
