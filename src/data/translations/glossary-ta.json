@@ -25994,5 +25994,1021 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
+  },
+  "albert einstein": {
+    "term": "ஆல்பர்ட் ஐன்ஸ்டீன்",
+    "aliases": [
+      "Albert Einstein"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
+      },
+      "heading": {
+        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
+      },
+      "tag": {
+        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
+      },
+      "ui": {
+        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
+      },
+      "code": {
+        "term": "Albert Einstein"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "charles hoskinson": {
+    "term": "சார்லஸ் ஹாஸ்கின்சன்",
+    "aliases": [
+      "Charles Hoskinson"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "சார்லஸ் ஹாஸ்கின்சன்"
+      },
+      "heading": {
+        "term": "சார்லஸ் ஹாஸ்கின்சன்"
+      },
+      "tag": {
+        "term": "சார்லஸ் ஹாஸ்கின்சன்"
+      },
+      "ui": {
+        "term": "சார்லஸ் ஹாஸ்கின்சன்"
+      },
+      "code": {
+        "term": "Charles Hoskinson"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "gavin wood": {
+    "term": "கவின் வுட்",
+    "aliases": [
+      "Gavin Wood"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "கவின் வுட்"
+      },
+      "heading": {
+        "term": "கவின் வுட்"
+      },
+      "tag": {
+        "term": "கவின் வுட்"
+      },
+      "ui": {
+        "term": "கவின் வுட்"
+      },
+      "code": {
+        "term": "Gavin Wood"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "joseph lubin": {
+    "term": "ஜோசப் லூபின்",
+    "aliases": [
+      "Joseph Lubin"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஜோசப் லூபின்"
+      },
+      "heading": {
+        "term": "ஜோசப் லூபின்"
+      },
+      "tag": {
+        "term": "ஜோசப் லூபின்"
+      },
+      "ui": {
+        "term": "ஜோசப் லூபின்"
+      },
+      "code": {
+        "term": "Joseph Lubin"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "vitalik buterin": {
+    "term": "விட்டாலிக் புட்டெரின்",
+    "aliases": [
+      "Vitalik Buterin"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "விட்டாலிக் புட்டெரின்"
+      },
+      "heading": {
+        "term": "விட்டாலிக் புட்டெரின்"
+      },
+      "tag": {
+        "term": "விட்டாலிக் புட்டெரின்"
+      },
+      "ui": {
+        "term": "விட்டாலிக் புட்டெரின்"
+      },
+      "code": {
+        "term": "Vitalik Buterin"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "wei dai": {
+    "term": "வெய் டாய்",
+    "aliases": [
+      "Wei Dai"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "வெய் டாய்"
+      },
+      "heading": {
+        "term": "வெய் டாய்"
+      },
+      "tag": {
+        "term": "வெய் டாய்"
+      },
+      "ui": {
+        "term": "வெய் டாய்"
+      },
+      "code": {
+        "term": "Wei Dai"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "aave": {
+    "term": "ஆவே",
+    "aliases": [
+      "Aave"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஆவே"
+      },
+      "heading": {
+        "term": "ஆவே"
+      },
+      "tag": {
+        "term": "ஆவே"
+      },
+      "ui": {
+        "term": "ஆவே"
+      },
+      "code": {
+        "term": "Aave"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "arbitrum": {
+    "term": "ஆர்பிட்ரம்",
+    "aliases": [
+      "Arbitrum"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஆர்பிட்ரம்"
+      },
+      "heading": {
+        "term": "ஆர்பிட்ரம்"
+      },
+      "tag": {
+        "term": "ஆர்பிட்ரம்"
+      },
+      "ui": {
+        "term": "ஆர்பிட்ரம்"
+      },
+      "code": {
+        "term": "Arbitrum"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "binance": {
+    "term": "பைனான்ஸ்",
+    "aliases": [
+      "Binance"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "பைனான்ஸ்"
+      },
+      "heading": {
+        "term": "பைனான்ஸ்"
+      },
+      "tag": {
+        "term": "பைனான்ஸ்"
+      },
+      "ui": {
+        "term": "பைனான்ஸ்"
+      },
+      "code": {
+        "term": "Binance"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "chrome": {
+    "term": "குரோம்",
+    "aliases": [
+      "Chrome"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "குரோம்"
+      },
+      "heading": {
+        "term": "குரோம்"
+      },
+      "tag": {
+        "term": "குரோம்"
+      },
+      "ui": {
+        "term": "குரோம்"
+      },
+      "code": {
+        "term": "Chrome"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "coinbase": {
+    "term": "காயின்பேஸ்",
+    "aliases": [
+      "Coinbase"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "காயின்பேஸ்"
+      },
+      "heading": {
+        "term": "காயின்பேஸ்"
+      },
+      "tag": {
+        "term": "காயின்பேஸ்"
+      },
+      "ui": {
+        "term": "காயின்பேஸ்"
+      },
+      "code": {
+        "term": "Coinbase"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "consensys": {
+    "term": "கன்சென்சிஸ்",
+    "aliases": [
+      "ConsenSys"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "கன்சென்சிஸ்"
+      },
+      "heading": {
+        "term": "கன்சென்சிஸ்"
+      },
+      "tag": {
+        "term": "கன்சென்சிஸ்"
+      },
+      "ui": {
+        "term": "கன்சென்சிஸ்"
+      },
+      "code": {
+        "term": "ConsenSys"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "cryptokitties": {
+    "term": "கிரிப்டோகிட்டிஸ்",
+    "aliases": [
+      "CryptoKitties"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "கிரிப்டோகிட்டிஸ்"
+      },
+      "heading": {
+        "term": "கிரிப்டோகிட்டிஸ்"
+      },
+      "tag": {
+        "term": "கிரிப்டோகிட்டிஸ்"
+      },
+      "ui": {
+        "term": "கிரிப்டோகிட்டிஸ்"
+      },
+      "code": {
+        "term": "CryptoKitties"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "dencun": {
+    "term": "டென்குன்",
+    "aliases": [
+      "Dencun"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "டென்குன்"
+      },
+      "heading": {
+        "term": "டென்குன்"
+      },
+      "tag": {
+        "term": "டென்குன்"
+      },
+      "ui": {
+        "term": "டென்குன்"
+      },
+      "code": {
+        "term": "Dencun"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "discord": {
+    "term": "டிஸ்கார்ட்",
+    "aliases": [
+      "Discord"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "டிஸ்கார்ட்"
+      },
+      "heading": {
+        "term": "டிஸ்கார்ட்"
+      },
+      "tag": {
+        "term": "டிஸ்கார்ட்"
+      },
+      "ui": {
+        "term": "டிஸ்கார்ட்"
+      },
+      "code": {
+        "term": "Discord"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "facebook": {
+    "term": "ஃபேஸ்புக்",
+    "aliases": [
+      "Facebook"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஃபேஸ்புக்"
+      },
+      "heading": {
+        "term": "ஃபேஸ்புக்"
+      },
+      "tag": {
+        "term": "ஃபேஸ்புக்"
+      },
+      "ui": {
+        "term": "ஃபேஸ்புக்"
+      },
+      "code": {
+        "term": "Facebook"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "filecoin": {
+    "term": "ஃபைல்காயின்",
+    "aliases": [
+      "Filecoin"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஃபைல்காயின்"
+      },
+      "heading": {
+        "term": "ஃபைல்காயின்"
+      },
+      "tag": {
+        "term": "ஃபைல்காயின்"
+      },
+      "ui": {
+        "term": "ஃபைல்காயின்"
+      },
+      "code": {
+        "term": "Filecoin"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "goerli": {
+    "term": "கோர்லி",
+    "aliases": [
+      "Goerli"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "கோர்லி"
+      },
+      "heading": {
+        "term": "கோர்லி"
+      },
+      "tag": {
+        "term": "கோர்லி"
+      },
+      "ui": {
+        "term": "கோர்லி"
+      },
+      "code": {
+        "term": "Goerli"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "holesky": {
+    "term": "ஹோல்ஸ்கி",
+    "aliases": [
+      "Holesky"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஹோல்ஸ்கி"
+      },
+      "heading": {
+        "term": "ஹோல்ஸ்கி"
+      },
+      "tag": {
+        "term": "ஹோல்ஸ்கி"
+      },
+      "ui": {
+        "term": "ஹோல்ஸ்கி"
+      },
+      "code": {
+        "term": "Holesky"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "lido": {
+    "term": "லிடோ",
+    "aliases": [
+      "Lido"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "லிடோ"
+      },
+      "heading": {
+        "term": "லிடோ"
+      },
+      "tag": {
+        "term": "லிடோ"
+      },
+      "ui": {
+        "term": "லிடோ"
+      },
+      "code": {
+        "term": "Lido"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "microsoft": {
+    "term": "மைக்ரோசாப்ட்",
+    "aliases": [
+      "Microsoft"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "மைக்ரோசாப்ட்"
+      },
+      "heading": {
+        "term": "மைக்ரோசாப்ட்"
+      },
+      "tag": {
+        "term": "மைக்ரோசாப்ட்"
+      },
+      "ui": {
+        "term": "மைக்ரோசாப்ட்"
+      },
+      "code": {
+        "term": "Microsoft"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "netflix": {
+    "term": "நெட்ஃப்ளிக்ஸ்",
+    "aliases": [
+      "Netflix"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "நெட்ஃப்ளிக்ஸ்"
+      },
+      "heading": {
+        "term": "நெட்ஃப்ளிக்ஸ்"
+      },
+      "tag": {
+        "term": "நெட்ஃப்ளிக்ஸ்"
+      },
+      "ui": {
+        "term": "நெட்ஃப்ளிக்ஸ்"
+      },
+      "code": {
+        "term": "Netflix"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "opensea": {
+    "term": "ஓபன்சீ",
+    "aliases": [
+      "OpenSea"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஓபன்சீ"
+      },
+      "heading": {
+        "term": "ஓபன்சீ"
+      },
+      "tag": {
+        "term": "ஓபன்சீ"
+      },
+      "ui": {
+        "term": "ஓபன்சீ"
+      },
+      "code": {
+        "term": "OpenSea"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "optimism": {
+    "term": "ஆப்டிமிசம்",
+    "aliases": [
+      "Optimism"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஆப்டிமிசம்"
+      },
+      "heading": {
+        "term": "ஆப்டிமிசம்"
+      },
+      "tag": {
+        "term": "ஆப்டிமிசம்"
+      },
+      "ui": {
+        "term": "ஆப்டிமிசம்"
+      },
+      "code": {
+        "term": "Optimism"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "paypal": {
+    "term": "பேபால்",
+    "aliases": [
+      "PayPal"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "பேபால்"
+      },
+      "heading": {
+        "term": "பேபால்"
+      },
+      "tag": {
+        "term": "பேபால்"
+      },
+      "ui": {
+        "term": "பேபால்"
+      },
+      "code": {
+        "term": "PayPal"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "polygon": {
+    "term": "பாலிகன்",
+    "aliases": [
+      "Polygon"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "பாலிகன்"
+      },
+      "heading": {
+        "term": "பாலிகன்"
+      },
+      "tag": {
+        "term": "பாலிகன்"
+      },
+      "ui": {
+        "term": "பாலிகன்"
+      },
+      "code": {
+        "term": "Polygon"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "reddit": {
+    "term": "ரெட்டிட்",
+    "aliases": [
+      "Reddit"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ரெட்டிட்"
+      },
+      "heading": {
+        "term": "ரெட்டிட்"
+      },
+      "tag": {
+        "term": "ரெட்டிட்"
+      },
+      "ui": {
+        "term": "ரெட்டிட்"
+      },
+      "code": {
+        "term": "Reddit"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "ropsten": {
+    "term": "ராப்ஸ்டன்",
+    "aliases": [
+      "Ropsten"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ராப்ஸ்டன்"
+      },
+      "heading": {
+        "term": "ராப்ஸ்டன்"
+      },
+      "tag": {
+        "term": "ராப்ஸ்டன்"
+      },
+      "ui": {
+        "term": "ராப்ஸ்டன்"
+      },
+      "code": {
+        "term": "Ropsten"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "starknet": {
+    "term": "ஸ்டார்க்நெட்",
+    "aliases": [
+      "Starknet"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ஸ்டார்க்நெட்"
+      },
+      "heading": {
+        "term": "ஸ்டார்க்நெட்"
+      },
+      "tag": {
+        "term": "ஸ்டார்க்நெட்"
+      },
+      "ui": {
+        "term": "ஸ்டார்க்நெட்"
+      },
+      "code": {
+        "term": "Starknet"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "medium",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "telegram": {
+    "term": "டெலிகிராம்",
+    "aliases": [
+      "Telegram"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "டெலிகிராம்"
+      },
+      "heading": {
+        "term": "டெலிகிராம்"
+      },
+      "tag": {
+        "term": "டெலிகிராம்"
+      },
+      "ui": {
+        "term": "டெலிகிராம்"
+      },
+      "code": {
+        "term": "Telegram"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "twitter": {
+    "term": "ட்விட்டர்",
+    "aliases": [
+      "Twitter"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "ட்விட்டர்"
+      },
+      "heading": {
+        "term": "ட்விட்டர்"
+      },
+      "tag": {
+        "term": "ட்விட்டர்"
+      },
+      "ui": {
+        "term": "ட்விட்டர்"
+      },
+      "code": {
+        "term": "Twitter"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "youtube": {
+    "term": "யூடியூப்",
+    "aliases": [
+      "YouTube"
+    ],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "யூடியூப்"
+      },
+      "heading": {
+        "term": "யூடியூப்"
+      },
+      "tag": {
+        "term": "யூடியூப்"
+      },
+      "ui": {
+        "term": "யூடியூப்"
+      },
+      "code": {
+        "term": "YouTube"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "gemini-3.1-pro-2026-05-14",
+    "confidence": "high",
+    "notes": null,
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "makerdao": {
+    "term": "MakerDAO",
+    "aliases": [],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "MakerDAO"
+      },
+      "heading": {
+        "term": "MakerDAO"
+      },
+      "tag": {
+        "term": "MakerDAO"
+      },
+      "ui": {
+        "term": "MakerDAO"
+      },
+      "code": {
+        "term": "MakerDAO"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "seed",
+    "confidence": "high",
+    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
+    "updated": "2026-05-14T00:00:00Z"
+  },
+  "zksync": {
+    "term": "zkSync",
+    "aliases": [],
+    "transliteration": null,
+    "contexts": {
+      "prose": {
+        "term": "zkSync"
+      },
+      "heading": {
+        "term": "zkSync"
+      },
+      "tag": {
+        "term": "zkSync"
+      },
+      "ui": {
+        "term": "zkSync"
+      },
+      "code": {
+        "term": "zkSync"
+      }
+    },
+    "plurals": null,
+    "grammar": null,
+    "source": "seed",
+    "confidence": "high",
+    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
+    "updated": "2026-05-14T00:00:00Z"
   }
 }
