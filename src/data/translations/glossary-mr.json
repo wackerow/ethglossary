@@ -26740,7 +26740,7 @@
   "zksync": {
     "term": "झेडकेसिंक्",
     "aliases": [
-      "zkSync"
+      "ZKsync"
     ],
     "transliteration": null,
     "contexts": {
@@ -26757,7 +26757,7 @@
         "term": "झेडकेसिंक्"
       },
       "code": {
-        "term": "zkSync"
+        "term": "ZKsync"
       }
     },
     "plurals": null,

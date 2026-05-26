@@ -24362,7 +24362,7 @@
   "zksync": {
     "term": "지케이싱크",
     "aliases": [
-      "zkSync"
+      "ZKsync"
     ],
     "transliteration": null,
     "contexts": {
@@ -24379,7 +24379,7 @@
         "term": "지케이싱크"
       },
       "code": {
-        "term": "zkSync"
+        "term": "ZKsync"
       }
     },
     "plurals": null,

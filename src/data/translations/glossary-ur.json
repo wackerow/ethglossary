@@ -26347,7 +26347,7 @@
   "zksync": {
     "term": "زی کے سنک",
     "aliases": [
-      "zkSync"
+      "ZKsync"
     ],
     "transliteration": null,
     "contexts": {
@@ -26364,7 +26364,7 @@
         "term": "زی کے سنک"
       },
       "code": {
-        "term": "zkSync"
+        "term": "ZKsync"
       }
     },
     "plurals": null,

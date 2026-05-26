@@ -26834,24 +26834,24 @@
     "updated": "2026-05-14T00:00:00Z"
   },
   "zksync": {
-    "term": "zkSync",
+    "term": "ZKsync",
     "aliases": [],
     "transliteration": null,
     "contexts": {
       "prose": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "heading": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "tag": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "ui": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "code": {
-        "term": "zkSync"
+        "term": "ZKsync"
       }
     },
     "plurals": null,
