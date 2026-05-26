@@ -24362,7 +24362,7 @@
   "zksync": {
     "term": "지케이싱크",
     "aliases": [
-      "zkSync"
+      "ZKsync"
     ],
     "transliteration": null,
     "contexts": {
@@ -24379,7 +24379,7 @@
         "term": "지케이싱크"
       },
       "code": {
-        "term": "zkSync"
+        "term": "ZKsync"
       }
     },
     "plurals": null,
@@ -24387,6 +24387,6 @@
     "source": "gemini-3.1-pro-2026-05-14",
     "confidence": "high",
     "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
+    "updated": "2026-05-26T00:00:00Z"
   }
 }
