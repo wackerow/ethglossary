@@ -27105,24 +27105,24 @@
     "updated": "2026-05-14T00:00:00Z"
   },
   "zksync": {
-    "term": "zkSync",
+    "term": "ZKsync",
     "aliases": [],
     "transliteration": null,
     "contexts": {
       "prose": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "heading": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "tag": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "ui": {
-        "term": "zkSync"
+        "term": "ZKsync"
       },
       "code": {
-        "term": "zkSync"
+        "term": "ZKsync"
       }
     },
     "plurals": null,
@@ -27130,6 +27130,6 @@
     "source": "seed",
     "confidence": "high",
     "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
+    "updated": "2026-05-26T00:00:00Z"
   }
 }
