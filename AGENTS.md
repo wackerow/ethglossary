@@ -294,11 +294,19 @@ scripts/verify-deploy.sh http://127.0.0.1:8787
 ```
 
 ### Deploy to production
+
+Production deploys are automatic on merge to `main` via `.github/workflows/deploy.yml` (`cloudflare/wrangler-action@v3` running `wrangler deploy --minify`). The workflow can also be triggered manually from the GitHub Actions tab (`Run workflow` on the `Deploy` workflow).
+
+Required repo secrets:
+
+- `CLOUDFLARE_API_TOKEN` -- scoped token (template: `Edit Cloudflare Workers`).
+- `CLOUDFLARE_ACCOUNT_ID` -- account that owns the Worker.
+
+Manual escape hatch from a developer machine (requires `npx wrangler login` once per machine; OAuth flow needs port 8976 forwarded for SSH sessions):
+
 ```bash
 npx wrangler deploy --minify
 ```
-
-Requires `npx wrangler login` once per machine (OAuth flow needs port 8976 forwarded for SSH sessions).
 
 ### Push to GitHub
 
