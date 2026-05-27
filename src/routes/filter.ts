@@ -14,7 +14,7 @@ const route = createRoute({
   description:
     "Send source text and get back the glossary terms relevant to that content. " +
     "Strips code blocks, inline code, and URLs before matching. " +
-    "Max 100KB content size.",
+    "Max 1MB content size.",
   request: {
     body: {
       content: { "application/json": { schema: FilterRequestSchema } },
