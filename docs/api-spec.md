@@ -421,7 +421,7 @@ No email storage. No Google. Session-based auth via D1.
 
 ### 2. Rate Limiting
 
-- **Content size cap:** 100KB max per filter request (pipeline caps LLM requests at ~64KB, so 100KB provides headroom)
+- **Content size cap:** 1MB max per filter request (pipeline caps LLM requests at ~64KB, so 1MB provides comfortable headroom)
 - **Request rate:** Generous to start -- 100 req/min per IP for reads, 20 req/min for filter (POST). Adjustable without code changes via Workers config.
 - **429 response** with `Retry-After` header when exceeded.
 

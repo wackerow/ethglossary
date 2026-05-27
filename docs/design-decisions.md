@@ -90,7 +90,7 @@ Future write auth (Phase 2):
 
 ## Payload caps
 
-**100KB on `/filter`.** Zod-enforced via `FilterRequest`. Most translation pipelines hit much less than this; the cap exists to prevent worker DoS via giant payloads.
+**1MB on `/filter`.** Zod-enforced via `FilterRequest`. Most translation pipelines hit much less than this; the cap exists to prevent worker DoS via giant payloads. (Initially set to 100KB; raised to 1MB after a real translation source file exceeded the lower cap.)
 
 ## Caching
 

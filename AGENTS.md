@@ -76,7 +76,7 @@ All API endpoints live under `/api/v1/`. Root paths: `/` (viewer), `/docs` (Scal
 | GET    | `/api/v1/languages`                      | Supported languages with completion stats                |
 | GET    | `/api/v1/translations/{lang}`            | Full glossary for one language                           |
 | GET    | `/api/v1/translations/{lang}/{termId}`   | Single term translation plus English source              |
-| POST   | `/api/v1/filter`                         | Submit text (max 100KB), receive matching terms          |
+| POST   | `/api/v1/filter`                         | Submit text (max 1MB), receive matching terms            |
 | GET    | `/api/v1/schema`                         | Raw JSON Schema for the glossary data                    |
 | GET    | `/llms.txt`                              | LLM-friendly description                                 |
 | GET    | `/openapi.json`                          | Auto-generated OpenAPI 3.1 spec                          |
