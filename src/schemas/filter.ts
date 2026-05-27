@@ -4,11 +4,11 @@ export const FilterRequestSchema = z
   .object({
     content: z
       .string()
-      .max(102400)
+      .max(1048576)
       .openapi({
         example:
           "Staking is the act of depositing 32 ETH to activate validator software...",
-        description: "Source text to filter against (max 100KB)",
+        description: "Source text to filter against (max 1MB)",
       }),
     language: z.string().min(2).max(5).openapi({
       example: "es",
