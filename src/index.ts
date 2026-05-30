@@ -20,7 +20,7 @@ app.use("*", cors())
 app.use("/api/v1/info/*", cache({ cacheName: "info", cacheControl: "public, max-age=3600" }))
 app.use("/api/v1/style-guide/*", cache({ cacheName: "style-guide", cacheControl: "public, max-age=86400, stale-while-revalidate=604800" }))
 app.use("/api/v1/languages", cache({ cacheName: "languages", cacheControl: "public, max-age=86400" }))
-app.use("/api/v1/translations/*", cache({ cacheName: "translations", cacheControl: "public, max-age=604800, stale-while-revalidate=604800" }))
+app.use("/api/v1/translations/*", cache({ cacheName: "translations", cacheControl: "public, max-age=86400, stale-while-revalidate=604800" }))
 app.use("/api/v1/schema", cache({ cacheName: "schema", cacheControl: "public, max-age=604800" }))
 
 // Mount versioned routes
