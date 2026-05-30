@@ -434,7 +434,7 @@ Glossary data changes very infrequently. Aggressive caching is appropriate.
 | `/api/v1/info`    | `public, max-age=3600` (1hr)                       | Term count/metadata may update on deploy      |
 | `/api/v1/style-guide/*` | `public, max-age=86400, stale-while-revalidate=604800` (1d, stale OK for 7d) | Changes are infrequent, staleness is low-risk |
 | `/api/v1/languages` | `public, max-age=86400` (1d)                     | Completion stats change only on data deploy   |
-| `/api/v1/translations/*` | `public, max-age=604800, stale-while-revalidate=604800` (7d, stale OK for 7d) | Translation data is very stable               |
+| `/api/v1/translations/*` | `public, max-age=86400, stale-while-revalidate=604800` (1d, stale OK for 7d) | Daily refresh so casing/typo fixes propagate within a day; SWR keeps responses instant |
 | `/api/v1/filter`  | `no-store`                                         | POST, dynamic per-request                     |
 | `/api/v1/schema`  | `public, max-age=604800` (7d)                      | Schema rarely changes                         |
 
