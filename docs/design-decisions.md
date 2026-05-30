@@ -99,7 +99,7 @@ Aggressive on reads, none on writes:
 - `/api/v1/info` -- 1 hour
 - `/api/v1/style-guide/*` -- 1 day + 7-day stale-while-revalidate
 - `/api/v1/languages` -- 1 day
-- `/api/v1/translations/*` -- 7 days + 7-day stale-while-revalidate
+- `/api/v1/translations/*` -- 1 day + 7-day stale-while-revalidate
 - `/api/v1/schema` -- 7 days
 - `/api/v1/filter` -- `no-store`
 
