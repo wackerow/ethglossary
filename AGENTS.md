@@ -45,8 +45,19 @@ Auto-generated OpenAPI from the same Zod schemas used for runtime validation is 
 │   ├── gotchas.md                   # full annotated gotchas
 │   ├── translation-policy.md        # v1-locked translation policy
 │   └── term-template.json           # template for a new GlossaryTerm
+├── .github/
+│   └── workflows/
+│       └── propose-term.yml         # manual dispatch: draft a new term with Gemini 3.1 Pro
 ├── scripts/
 │   ├── audit-glossary.mjs           # audit data vs v1 policy; outputs Markdown
+│   ├── propose-term.mjs             # LLM term proposal; 1 English call + 1 per language
+│   ├── test-propose-term.mjs        # offline self-checks for the above
+│   ├── lib/
+│   │   ├── adapters.mjs             # LLM adapter registry; model -> co-author; temperature ladder
+│   │   ├── openrouter.mjs           # OpenRouter transport, cost meter, spend guards
+│   │   ├── term-policy.mjs          # policy enums, 24-language table, doc slicing
+│   │   ├── term-prompts.mjs         # prompt assembly from the policy doc + live data
+│   │   └── shape-term.mjs           # wire schemas, validation, deterministic shaping
 │   └── verify-deploy.sh             # smoke test for a running deploy
 └── src/
     ├── index.ts                     # entry: CORS, cache, OpenAPI doc, Scalar, viewer mount
@@ -201,6 +212,12 @@ Co-Authored-By: wackerow <54227730+wackerow@users.noreply.github.com>
 
 ## Adding a glossary term
 
+Two routes. **By hand** (below) when you already know the answer -- you have the definition, the role, and the translations, or you are only adding an English entry. **Via the workflow** (`docs/propose-term.md`) when you want a full 24-language entry drafted: Actions -> Propose Glossary Term, feed it the term plus a hint about what it is and is not, and it opens a PR. The workflow refuses duplicates, terms that already resolve, and pattern-family instances before spending anything, so it is also a cheap way to check whether a term is already covered.
+
+Either way the result needs review. The workflow's confidence values are a model's self-report, and its PR body flags anything below `high` plus any language whose generation failed into a Latin-form placeholder.
+
+### By hand
+
 Read `docs/data-shape.md` and `docs/term-template.json` first. Then:
 
 1. Decide the canonical term name (becomes the JSON key in `confirmed_terms`) and a stable kebab-case `id`.
@@ -251,6 +268,8 @@ Quick lookup before loading the full policy:
 - **`script_rule` values in the v1 policy**: `translate`, `calque`, `transliterate`, `keep_latin`, `always_latin`, `transliterate_with_translation`
 - **Globally `always_latin`** across all 13 non-Latin-script languages: tickers (ETH, BTC), token standards (ERC-20), improvement proposals (EIP-1559), RPC/protocol identifiers, crypto primitives (Keccak256), network parameters with units (32 ETH, 1 Gwei).
 
+Do not paraphrase this policy into a prompt. `scripts/lib/term-prompts.mjs` slices the doc verbatim at runtime precisely so there is no second copy to drift; follow that pattern for any new LLM-assisted tooling.
+
 ## When to consult what
 
 | File                          | Trigger                                                                                  |
@@ -261,6 +280,7 @@ Quick lookup before loading the full policy:
 | `docs/design-decisions.md`    | When tempted to introduce a new framework, dependency, or break a v1 convention; for API stability and versioning criteria |
 | `docs/api-spec.md`            | When designing or extending API endpoints                                                |
 | `docs/common-fixes.md`        | Recipe for a routine fix: dedup, translation update, term add/remove, pattern family add, script_rule fix, typo |
+| `docs/propose-term.md`        | Running the Propose Glossary Term workflow; what the model is and is not trusted with; cost and refusal behavior |
 | `/openapi.json`               | Exact request/response shapes (source of truth for the API surface)                      |
 
 ## Common workflows
@@ -286,6 +306,15 @@ npx tsc --noEmit
 ```bash
 node scripts/audit-glossary.mjs > /tmp/audit-report.md
 ```
+
+### Test the term-proposal pipeline
+```bash
+pnpm run test:propose-term        # offline: policy slicing, validation, shaping
+```
+
+Run this after editing `docs/translation-policy.md`. The prompts splice that doc
+by numbered heading at runtime, so renumbering a section would otherwise ship a
+prompt with the policy cut out of it and still look plausible.
 
 ### Verify a deploy
 ```bash
