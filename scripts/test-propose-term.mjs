@@ -31,6 +31,7 @@ const L = (p) => import(join(ROOT, p))
 const policyMod = await L("scripts/lib/term-policy.mjs")
 const shape = await L("scripts/lib/shape-term.mjs")
 const prompts = await L("scripts/lib/term-prompts.mjs")
+const llm = await L("scripts/lib/adapters.mjs")
 
 const master = JSON.parse(readFileSync(join(ROOT, "src/data/glossary-terms-enhanced.json"), "utf8"))
 const terms = master.confirmed_terms
@@ -246,6 +247,37 @@ for (const [code, wrong] of [["ru", "based rollup"], ["ar", "based rollup"], ["t
 
 const badPlural = shape.validateTranslation({ ...rawJa, plurals: [{ category: "one", form: "x" }] }, { langCode: "ja", master: built, englishTerm: "based rollup" })
 check("invented plural category warns", badPlural.warnings.some((w) => /dropped plural/.test(w)), badPlural.warnings.join(" | "))
+
+console.log("\n=== adapters ===")
+// Temperature 0 first for a reproducible answer; escalating after a rejection,
+// because a retry at 0 reproduces the same wrong answer.
+check("attempt 1 is deterministic", llm.temperatureForAttempt(1) === 0)
+check("retries escalate", [2, 3, 4].map(llm.temperatureForAttempt).join() === "0.5,1,1",
+  [1, 2, 3, 4, 5].map(llm.temperatureForAttempt).join(","))
+check("ladder is capped at 1", llm.temperatureForAttempt(99) === 1)
+
+// A trailer is only emitted for a provider whose address this project already
+// establishes. Anything else returns null and the workflow omits the line
+// rather than inventing an address.
+check("google maps to the sibling repos' trailer",
+  llm.coAuthorForModel("google/gemini-3.1-pro-preview") === "Gemini <gemini@google.com>")
+check("anthropic maps to the project's trailer",
+  llm.coAuthorForModel("anthropic/claude-opus-4") === "Claude <noreply@anthropic.com>")
+check("an unlisted provider yields no trailer rather than a guess",
+  ["mistralai/mistral-large", "meta-llama/llama-4-scout", "deepseek/deepseek-r1"].every(
+    (m) => llm.coAuthorForModel(m) === null))
+
+check("model ids must be provider-namespaced",
+  ["google/gemini-3.1-pro-preview", "x/y.z:free"].every((m) => llm.MODEL_ID_PATTERN.test(m)) &&
+    ["gemini-3.1-pro", "", "Google/Gemini", "a/b c"].every((m) => !llm.MODEL_ID_PATTERN.test(m)))
+
+check("the default adapter resolves", llm.resolveAdapter("").name === "OpenRouter")
+check("an unknown provider names the registered ones", (() => {
+  try { llm.resolveAdapter("gemini"); return false } catch (e) { return /Registered: openrouter/.test(e.message) }
+})())
+check("the adapter exposes the full interface",
+  ["name", "tag", "envKey", "defaultModel", "isAvailable", "complete", "keyStatus", "usage"]
+    .every((k) => llm.adapters.openrouter[k] !== undefined))
 
 console.log("\n=== wire schemas ===")
 const s1 = shape.masterProposalSchema(topicalCategories)

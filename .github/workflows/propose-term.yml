@@ -30,13 +30,10 @@ on:
         required: false
         type: string
       model:
-        description: "Model to query via OpenRouter"
+        description: "Any OpenRouter model id (provider/model). Blank uses the adapter default."
         required: false
         default: "google/gemini-3.1-pro-preview"
-        type: choice
-        options:
-          - google/gemini-3.1-pro-preview
-          - google/gemini-3.1-pro
+        type: string
       placement:
         description: "auto lets the model route dev tools and undubbed brands to always-latin-tokens.json; force-master always writes a full entry"
         required: false
@@ -119,7 +116,9 @@ jobs:
           GLOSSARY_TERM: ${{ inputs.term }}
           GLOSSARY_TERM_HINT: ${{ inputs.hint }}
           LANGUAGES: ${{ inputs.languages }}
+          # Blank falls through to the adapter's own default.
           MODEL: ${{ inputs.model }}
+          LLM_PROVIDER: openrouter
           MAX_COST_USD: ${{ inputs.max_cost_usd }}
           CONCURRENCY: ${{ inputs.concurrency }}
           DRY_RUN: ${{ inputs.dry_run }}
@@ -163,7 +162,11 @@ jobs:
           CANONICAL_TERM: ${{ steps.propose.outputs.canonical_term }}
           PLACEMENT: ${{ steps.propose.outputs.placement }}
           PR_BODY_FILE: ${{ steps.propose.outputs.pr_body_file }}
-          MODEL: ${{ inputs.model }}
+          # The model the script resolved, not the raw input -- a blank input
+          # falls through to the adapter default, and the commit should name
+          # what actually ran.
+          MODEL: ${{ steps.propose.outputs.model }}
+          MODEL_CO_AUTHOR: ${{ steps.propose.outputs.model_co_author }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           ACTOR: ${{ github.actor }}
         run: |
@@ -184,7 +187,11 @@ jobs:
             printf 'written verbatim. Not reviewed by a human or a native\n'
             printf 'speaker; see the PR body for confidence per language.\n\n'
             printf 'Run: %s\n\n' "$RUN_URL"
-            printf 'Co-Authored-By: Gemini <gemini@google.com>\n'
+            # Omitted for a provider with no trailer address established in
+            # this project -- the body above already names the model.
+            if [ -n "$MODEL_CO_AUTHOR" ]; then
+              printf 'Co-Authored-By: %s\n' "$MODEL_CO_AUTHOR"
+            fi
             printf 'Co-Authored-By: wackerow <54227730+wackerow@users.noreply.github.com>\n'
           } > /tmp/commit-msg.txt
 

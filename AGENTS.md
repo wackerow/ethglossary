@@ -53,6 +53,7 @@ Auto-generated OpenAPI from the same Zod schemas used for runtime validation is 
 │   ├── propose-term.mjs             # LLM term proposal; 1 English call + 1 per language
 │   ├── test-propose-term.mjs        # offline self-checks for the above
 │   ├── lib/
+│   │   ├── adapters.mjs             # LLM adapter registry; model -> co-author; temperature ladder
 │   │   ├── openrouter.mjs           # OpenRouter transport, cost meter, spend guards
 │   │   ├── term-policy.mjs          # policy enums, 24-language table, doc slicing
 │   │   ├── term-prompts.mjs         # prompt assembly from the policy doc + live data

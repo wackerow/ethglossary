@@ -19,7 +19,7 @@ Actions -> **Propose Glossary Term** -> Run workflow.
 | `term` | The candidate, as you would write it. Case does not matter for lookup. |
 | `hint` | What you mean by it, where you saw it, what it is *not*. The single highest-leverage input -- a near-miss against an existing term is the most common way a proposal comes back wrong. |
 | `languages` | Blank for all 24. Narrow it (`ja,ru`) for a cheap smoke test. |
-| `model` | `google/gemini-3.1-pro-preview` or `google/gemini-3.1-pro`. |
+| `model` | Any OpenRouter model id, `provider/model`. Blank uses the adapter default. Free text rather than a dropdown so the list cannot go stale and the repo does not hardcode vendor ids. A malformed id is refused at startup before any spend. |
 | `placement` | `auto` lets the model route dev tools and undubbed brands to the flat list. `force-master` always writes a full entry. |
 | `dry_run` | Proposal as an artifact, no writes, no PR. |
 | `allow_existing` | Proceed even when the term already resolves. Only for a deliberate re-do. |
@@ -96,7 +96,28 @@ Without `DRY_RUN=true` this writes to `src/data` in your working tree. It never 
 pnpm run test:propose-term
 ```
 
-Offline: policy slicing, prompt assembly, every validation path, every shaping invariant. No network, no writes.
+Offline: policy slicing, prompt assembly, every validation path, every shaping invariant, the temperature ladder, and the adapter registry. No network, no writes.
+
+## Switching models and providers
+
+OpenRouter is itself a multi-model router, so **changing models -- including moving off Google entirely -- is a `model` input change with no code change.** Model ids are provider-namespaced (`google/...`, `anthropic/...`, `mistralai/...`), and the entry's `sources` field records which model produced it, so provenance follows the switch.
+
+Two things the switch touches automatically:
+
+- **The git trailer.** `coAuthorForModel` in `scripts/lib/adapters.mjs` maps a provider prefix to a `Co-Authored-By` line. Only providers whose address this project already establishes are listed -- `google/` and `anthropic/`. Anything else yields no trailer and the workflow omits the line rather than inventing an address; the commit body names the model either way. Add a mapping there if you settle on another provider.
+- **Provenance.** `sources` becomes `["proposed", "<model>-<date>"]`, and the translation entries' `source` field carries the same tag.
+
+What is *not* automatic: model quality for this task. The prompts assume a model that can hold ~5k tokens of policy and reason about a script it may not render. Narrow the `languages` input and use `dry_run` before trusting an untested model.
+
+**Adding a transport** (a provider's own API rather than OpenRouter) means implementing the adapter shape in `scripts/lib/adapters.mjs`, registering it, and adding an `llm_provider` dispatch input. The caller already goes through `resolveAdapter` and touches no provider directly, and `LLM_PROVIDER` is already wired through the workflow. Only one transport is registered today, deliberately -- the seam exists because the git trailer needed it, not on speculation.
+
+## Temperature
+
+Temperature 0 on the first attempt, escalating `0.5, 1.0` on validation retries, capped at 1 -- the same ladder as `ethereum-org-website`'s `intl-pipeline/lib/llm/gemini.ts` and `blog`'s `scripts/intl/lib/gemini.ts`.
+
+Zero is right for the first attempt: this is a classification task feeding a data file, and a reproducible answer is what you want. But determinism cuts both ways -- a retry at temperature 0 against a near-identical prompt reproduces the same wrong answer, so a rejected attempt needs variation to escape it. Transport retries (429, 5xx, timeout) reuse the same temperature, because the model never answered.
+
+`completeJson` requires an explicit temperature rather than defaulting one, so the ladder cannot be silently flattened by a caller that forgets to pass it.
 
 ## Known limits
 
@@ -105,4 +126,5 @@ Offline: policy slicing, prompt assembly, every validation path, every shaping i
   `provider.require_parameters` is deliberately **not** sent. It would restrict routing to providers advertising `response_format` support, turning an unsupported parameter into a routing failure for no benefit -- validation already covers the ignored-schema case. Neither `ethereum-org-website`'s `intl-pipeline` nor `blog`'s `scripts/intl` sends `response_format` at all; both use plain text plus fence-stripping plus validate-and-retry, which is exactly this module's fallback path.
 - **`metadata.generated` is not touched.** Several counters in that block (`total_with_script_rule`, `new_terms_from_gemini`) were already stale before this workflow existed. It updates `total_confirmed` and the `categories` histogram, which are the two the audit script reads.
 - **`scripts/audit-glossary.mjs` keeps its own copy of the policy enums.** It predates `scripts/lib/term-policy.mjs`. If the policy changes, change both.
+- **`ethereum-org-website` and `blog` disagree on `usage: { include: true }`.** `blog` sends it; `ethereum-org-website` documents it as deprecated and ignored, with cost and `reasoning_tokens` returned regardless. This follows the latter, as the more recently touched of the two. If `cost` comes back null in a real run, that is the first thing to revisit -- the fuse falls back to estimating from token counts at list rates, which is only correct if the call was served at those rates.
 - **No native-speaker review.** Confidence is the model's self-report. Treat `high` as "worth reviewing", not "correct".

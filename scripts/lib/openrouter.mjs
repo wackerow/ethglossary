@@ -42,6 +42,18 @@ function apiKey() {
   return key
 }
 
+/**
+ * Attribution shown in OpenRouter's activity dashboard. Derived from the
+ * Actions environment rather than written down, so it follows the repo if it
+ * is renamed or moved to another org. Omitted entirely outside CI -- the header
+ * is optional, and a wrong value is worse than no value.
+ */
+function refererHeader() {
+  const server = process.env.GITHUB_SERVER_URL
+  const repo = process.env.GITHUB_REPOSITORY
+  return server && repo ? { "HTTP-Referer": `${server}/${repo}` } : {}
+}
+
 /** Running spend for this process, so the caller can trip a fuse mid-run. */
 const meter = { calls: 0, inputTokens: 0, outputTokens: 0, reasoningTokens: 0, costUsd: 0 }
 
@@ -118,16 +130,24 @@ function isStructuredOutputUnsupported(status, body) {
  * validate the parsed object -- structured output constrains shape, not meaning,
  * and a provider may accept the parameter and ignore it. Returns the parsed
  * object plus the usage the call was billed for.
+ *
+ * `temperature` is required, not defaulted. The caller escalates it across
+ * validation attempts, and a default here would quietly flatten that ladder.
+ * `attempts` covers transport failures only (429, 5xx, timeouts) and reuses the
+ * same temperature, because the model never answered.
  */
 export async function completeJson({
   model,
   prompt,
   schema,
   schemaName,
-  temperature = 0.2,
+  temperature,
   timeoutMs = 5 * 60 * 1000,
   attempts = 3,
 }) {
+  if (typeof temperature !== "number") {
+    throw new Error("completeJson requires an explicit temperature")
+  }
   let lastError
   for (let attempt = 1; attempt <= attempts; attempt++) {
     // Dropping response_format is safe because the schema was never the real
@@ -143,7 +163,7 @@ export async function completeJson({
         headers: {
           Authorization: `Bearer ${apiKey()}`,
           "Content-Type": "application/json",
-          "HTTP-Referer": "https://github.com/wackerow/ethglossary",
+          ...refererHeader(),
           "X-Title": "ethglossary propose-term",
         },
         body: JSON.stringify({
