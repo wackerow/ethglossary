@@ -1,0 +1,212 @@
+name: Propose Glossary Term
+
+# Manually dispatched terminology proposal. Feeds one candidate term to
+# Gemini 3.1 Pro via OpenRouter with the v1 translation policy attached, shapes
+# the result deterministically (scripts/lib/shape-term.mjs), and opens a PR.
+#
+# Nothing merges automatically. The PR is the review surface, and the job
+# summary calls out anything below high confidence.
+#
+# Every value that originates outside this file -- dispatch inputs and, more to
+# the point, model-authored strings like the canonical term -- reaches bash
+# through `env:`, never through `${{ }}` interpolation into a run block.
+# Actions substitutes expressions textually before bash parses the script, so
+# interpolating a term containing a quote or `$(...)` would be a shell
+# injection with the workflow's own token.
+
+on:
+  workflow_dispatch:
+    inputs:
+      term:
+        description: "The term to evaluate (e.g. rollup-as-a-service)"
+        required: true
+        type: string
+      hint:
+        description: "Optional context: what you mean by it, where you saw it, what it is not"
+        required: false
+        type: string
+      languages:
+        description: "Comma-separated language codes (blank for all 24)"
+        required: false
+        type: string
+      model:
+        description: "Model to query via OpenRouter"
+        required: false
+        default: "google/gemini-3.1-pro-preview"
+        type: choice
+        options:
+          - google/gemini-3.1-pro-preview
+          - google/gemini-3.1-pro
+      placement:
+        description: "auto lets the model route dev tools and undubbed brands to always-latin-tokens.json; force-master always writes a full entry"
+        required: false
+        default: "auto"
+        type: choice
+        options:
+          - auto
+          - force-master
+      dry_run:
+        description: "Emit the proposal as an artifact without writing data or opening a PR"
+        required: false
+        default: false
+        type: boolean
+      allow_existing:
+        description: "Proceed even if the term already resolves to an existing entry or flat-list token"
+        required: false
+        default: false
+        type: boolean
+      max_cost_usd:
+        description: "Run fuse: abort once spend reaches this many USD"
+        required: false
+        default: "5"
+        type: string
+      concurrency:
+        description: "Parallel per-language calls"
+        required: false
+        default: "6"
+        type: string
+      base_branch:
+        description: "Branch to base the proposal on"
+        required: false
+        default: "main"
+        type: string
+      open_pr:
+        description: "Open a PR (uncheck to push the branch only)"
+        required: false
+        default: true
+        type: boolean
+
+# Two dispatches would race on the same 25 data files. Queue instead.
+concurrency:
+  group: propose-term
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      ARTIFACT_DIR: ${{ github.workspace }}/.propose-term-out
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.base_branch }}
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Propose term
+        id: propose
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Not TERM: that name is the shell's terminal type, and a collision
+          # would silently propose "xterm" as a glossary term.
+          GLOSSARY_TERM: ${{ inputs.term }}
+          GLOSSARY_TERM_HINT: ${{ inputs.hint }}
+          LANGUAGES: ${{ inputs.languages }}
+          MODEL: ${{ inputs.model }}
+          MAX_COST_USD: ${{ inputs.max_cost_usd }}
+          CONCURRENCY: ${{ inputs.concurrency }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          FORCE_MASTER: ${{ inputs.placement == 'force-master' }}
+          ALLOW_EXISTING: ${{ inputs.allow_existing }}
+        run: node scripts/propose-term.mjs
+
+      - name: Upload proposal
+        if: always() && hashFiles('.propose-term-out/**') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: proposal-${{ steps.propose.outputs.slug || github.run_number }}
+          path: .propose-term-out
+          retention-days: 30
+
+      # The data files are what consumers load at the edge; a malformed one
+      # takes the Worker down. Validate before anything is committed.
+      - name: Validate data
+        if: steps.propose.outputs.wrote_data == 'true'
+        run: |
+          set -euo pipefail
+          jq empty src/data/glossary-terms-enhanced.json
+          jq empty src/data/always-latin-tokens.json
+          for f in src/data/translations/glossary-*.json; do
+            jq empty "$f" || { echo "INVALID: $f"; exit 1; }
+          done
+          pnpm exec wrangler deploy --dry-run --outdir=/tmp/wrangler-out
+
+      - name: Audit against v1 policy
+        if: steps.propose.outputs.wrote_data == 'true'
+        run: node scripts/audit-glossary.mjs | head -80
+
+      - name: Commit and open PR
+        if: steps.propose.outputs.wrote_data == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPEN_PR: ${{ inputs.open_pr }}
+          BASE_BRANCH: ${{ inputs.base_branch }}
+          BRANCH: add/term-${{ steps.propose.outputs.slug }}-${{ github.run_number }}
+          COMMIT_SUBJECT: ${{ steps.propose.outputs.commit_subject }}
+          CANONICAL_TERM: ${{ steps.propose.outputs.canonical_term }}
+          PLACEMENT: ${{ steps.propose.outputs.placement }}
+          PR_BODY_FILE: ${{ steps.propose.outputs.pr_body_file }}
+          MODEL: ${{ inputs.model }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add src/data
+
+          # Body explains why, not what; the diff already shows what. Plain
+          # ASCII throughout, per the repo's commit conventions.
+          {
+            printf '%s\n\n' "$COMMIT_SUBJECT"
+            printf 'Proposed by %s via OpenRouter against the v1 translation\n' "$MODEL"
+            printf 'policy in docs/translation-policy.md, then shaped field by\n'
+            printf 'field by scripts/lib/shape-term.mjs so no model output is\n'
+            printf 'written verbatim. Not reviewed by a human or a native\n'
+            printf 'speaker; see the PR body for confidence per language.\n\n'
+            printf 'Run: %s\n\n' "$RUN_URL"
+            printf 'Co-Authored-By: Gemini <gemini@google.com>\n'
+            printf 'Co-Authored-By: wackerow <54227730+wackerow@users.noreply.github.com>\n'
+          } > /tmp/commit-msg.txt
+
+          git commit --file=/tmp/commit-msg.txt
+          git push origin "$BRANCH"
+
+          if [ "$OPEN_PR" != "true" ]; then
+            printf 'Pushed `%s` without a PR.\n' "$BRANCH" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          {
+            printf 'Dispatched by @%s -- [run log](%s).\n\n' "$ACTOR" "$RUN_URL"
+            cat "$PR_BODY_FILE"
+            printf '\n---\n\n'
+            printf 'Not reviewed by a human or a native speaker. Check the per-language table above\n'
+            printf 'before merging; policy section 9.2 keeps a native-speaker review queue for\n'
+            printf 'anything below high confidence.\n'
+          } > /tmp/pr-body.md
+
+          gh pr create \
+            --base "$BASE_BRANCH" \
+            --head "$BRANCH" \
+            --title "add: $CANONICAL_TERM ($PLACEMENT)" \
+            --body-file /tmp/pr-body.md
