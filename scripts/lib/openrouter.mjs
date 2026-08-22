@@ -7,12 +7,18 @@
  * provider-namespaced, so it is also the seam for moving off Google without
  * touching the caller.
  *
- * Two guards ride on every request:
- *   - provider.max_price refuses the call outright if no provider serves the
- *     model at or under the expected rate, so a provider-side price change
- *     cannot quietly multiply the bill.
- *   - provider.require_parameters keeps routing to providers that honour
- *     response_format, so structured output is never silently dropped.
+ * provider.max_price guards every request: it refuses the call outright if no
+ * provider serves the model at or under the expected rate, so a provider-side
+ * price change cannot quietly multiply the bill.
+ *
+ * response_format is sent hopefully, not required. The proven pattern in the
+ * sibling repos (ethereum-org-website's intl-pipeline, blog's scripts/intl) is
+ * plain text plus fence-stripping plus validate-and-retry, and that is the path
+ * this module falls back to. Deliberately absent: provider.require_parameters,
+ * which would restrict routing to providers advertising response_format support
+ * and turn an unsupported parameter into a routing failure. It is not needed --
+ * a provider that ignores the schema produces free-form JSON, which the caller
+ * validates anyway -- so requiring it would only add a way for the run to die.
  *
  * One accounting note: OpenRouter folds thinking tokens into
  * completion_tokens and bills them as output. A short prompt can return a
@@ -81,9 +87,10 @@ function sleep(ms) {
 }
 
 /**
- * Signals that no provider would serve the request with response_format
- * attached. require_parameters is what turns a silently-dropped parameter into
- * a routing refusal, so this is the shape that refusal takes.
+ * Signals a provider that rejects response_format outright rather than ignoring
+ * it. Ignoring it is fine -- validation catches free-form output -- but a 400 or
+ * 404 naming the parameter means the request itself is unservable, so it is
+ * retried without it.
  */
 /**
  * Process-wide, not per-call: once one refusal proves this provider set will
@@ -106,10 +113,11 @@ function isStructuredOutputUnsupported(status, body) {
 /**
  * One JSON completion.
  *
- * `schema` is sent as a strict json_schema response format, and falls back to
- * schema-in-prompt if no provider will serve it. Either way the caller must
- * validate the parsed object: structured output constrains shape, not meaning.
- * Returns the parsed object plus the usage the call was billed for.
+ * `schema` is sent as a json_schema response format where the provider honours
+ * it, and inlined into the prompt where it does not. Either way the caller must
+ * validate the parsed object -- structured output constrains shape, not meaning,
+ * and a provider may accept the parameter and ignore it. Returns the parsed
+ * object plus the usage the call was billed for.
  */
 export async function completeJson({
   model,
@@ -135,6 +143,7 @@ export async function completeJson({
         headers: {
           Authorization: `Bearer ${apiKey()}`,
           "Content-Type": "application/json",
+          "HTTP-Referer": "https://github.com/wackerow/ethglossary",
           "X-Title": "ethglossary propose-term",
         },
         body: JSON.stringify({
@@ -157,9 +166,6 @@ export async function completeJson({
               }
             : {}),
           provider: {
-            // Only meaningful while response_format is attached: it is what
-            // keeps a provider from accepting the call and ignoring the schema.
-            ...(structured ? { require_parameters: true } : {}),
             max_price: {
               prompt: MAX_INPUT_RATE_USD_PER_1M,
               completion: MAX_OUTPUT_RATE_USD_PER_1M,
@@ -180,8 +186,8 @@ export async function completeJson({
         if (structured && isStructuredOutputUnsupported(res.status, text)) {
           structuredOutputSupported = false
           console.warn(
-            `! OpenRouter would not route ${model} with structured output (${res.status}). ` +
-              `Falling back to a schema-in-prompt request; the caller's validation still gates every field.`
+            `! ${model} rejected response_format (${res.status}). Retrying with the schema inlined in ` +
+              `the prompt -- the caller's validation gates every field either way.`
           )
           attempt-- // the fallback gets its own attempt, not one of the retries
           continue

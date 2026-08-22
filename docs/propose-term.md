@@ -100,7 +100,9 @@ Offline: policy slicing, prompt assembly, every validation path, every shaping i
 
 ## Known limits
 
-- **Structured output is negotiated, not assumed.** The request asks for a strict `json_schema` response format with `provider.require_parameters`, so a provider that would ignore the schema refuses the call instead. If no provider will serve it, the transport drops to schema-in-prompt once per process and says so in the log. Validation gates every field either way, so the schema is a convenience, not the enforcement.
+- **Structured output is best-effort, never load-bearing.** The request asks for a `json_schema` response format, but the enforcement is always the caller's validation, because a provider may accept that parameter and ignore it. Three paths, all tested: the provider honours it; the provider ignores it and returns fenced free-form JSON, which the parser strips and validation gates; or the provider rejects the parameter with a 400/404, in which case the transport inlines the schema in the prompt once per process and says so in the log.
+
+  `provider.require_parameters` is deliberately **not** sent. It would restrict routing to providers advertising `response_format` support, turning an unsupported parameter into a routing failure for no benefit -- validation already covers the ignored-schema case. Neither `ethereum-org-website`'s `intl-pipeline` nor `blog`'s `scripts/intl` sends `response_format` at all; both use plain text plus fence-stripping plus validate-and-retry, which is exactly this module's fallback path.
 - **`metadata.generated` is not touched.** Several counters in that block (`total_with_script_rule`, `new_terms_from_gemini`) were already stale before this workflow existed. It updates `total_confirmed` and the `categories` histogram, which are the two the audit script reads.
 - **`scripts/audit-glossary.mjs` keeps its own copy of the policy enums.** It predates `scripts/lib/term-policy.mjs`. If the policy changes, change both.
 - **No native-speaker review.** Confidence is the model's self-report. Treat `high` as "worth reviewing", not "correct".
