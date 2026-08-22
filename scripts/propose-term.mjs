@@ -20,7 +20,9 @@
  *                       terminal type, and a local run would silently propose "xterm")
  *   GLOSSARY_TERM_HINT  optional context from the maintainer
  *   LANGUAGES           optional csv of language codes (default: all 24)
- *   MODEL               default google/gemini-3.1-pro-preview
+ *   LLM_PROVIDER        adapter to use, default openrouter (scripts/lib/adapters.mjs)
+ *   MODEL               any model id the adapter serves; defaults to the
+ *                       adapter's own default
  *   MAX_COST_USD        run fuse, default 5
  *   CONCURRENCY         parallel per-language calls, default 6
  *   DRY_RUN             "true" to emit the proposal without writing data
@@ -37,7 +39,12 @@ import { fileURLToPath } from "node:url"
 import { dirname, join, resolve } from "node:path"
 import { tmpdir } from "node:os"
 
-import { completeJson, keyStatus, usage } from "./lib/openrouter.mjs"
+import {
+  MODEL_ID_PATTERN,
+  coAuthorForModel,
+  resolveAdapter,
+  temperatureForAttempt,
+} from "./lib/adapters.mjs"
 import {
   FLAT_LIST_CATEGORIES,
   LANG_BY_CODE,
@@ -79,7 +86,8 @@ const CFG = {
   term: (process.env.GLOSSARY_TERM ?? "").trim(),
   hint: (process.env.GLOSSARY_TERM_HINT ?? "").trim(),
   languages: csv(process.env.LANGUAGES),
-  model: (process.env.MODEL ?? "").trim() || "google/gemini-3.1-pro-preview",
+  provider: (process.env.LLM_PROVIDER ?? "").trim() || "openrouter",
+  model: (process.env.MODEL ?? "").trim(),
   maxCostUsd: Number(process.env.MAX_COST_USD || 5),
   concurrency: Math.max(1, Number(process.env.CONCURRENCY || 6)),
   dryRun: bool(process.env.DRY_RUN),
@@ -90,6 +98,11 @@ const CFG = {
     join(process.env.RUNNER_TEMP || tmpdir(), "propose-term"),
   attemptsPerCall: Math.max(1, Number(process.env.VALIDATION_ATTEMPTS || 3)),
 }
+
+// Resolved before anything else runs: an unknown provider or a malformed model
+// id should fail at startup, not after reading 25 data files.
+const ADAPTER = resolveAdapter(CFG.provider)
+const MODEL = CFG.model || ADAPTER.defaultModel
 
 const readJson = (p) => JSON.parse(readFileSync(p, "utf8"))
 const writeJson = (p, v) => writeFileSync(p, JSON.stringify(v, null, 2) + "\n")
@@ -131,7 +144,7 @@ function findInFlatList(flatList, term) {
 // ---------------------------------------------------------------------------
 
 function assertBudget() {
-  const spent = usage().costUsd
+  const spent = ADAPTER.usage().costUsd
   if (spent >= CFG.maxCostUsd) {
     throw new Error(
       `Run fuse tripped: spent $${spent.toFixed(4)} of the $${CFG.maxCostUsd} ceiling. ` +
@@ -156,11 +169,13 @@ async function generateValidated({ label, prompt, schema, schemaName, validate, 
             .map((e) => `- ${e}`)
             .join("\n")}`
 
-    const { data } = await completeJson({
-      model: CFG.model,
+    const temperature = temperatureForAttempt(attempt)
+    const { data } = await ADAPTER.complete({
+      model: MODEL,
       prompt: attemptPrompt,
       schema,
       schemaName,
+      temperature,
     })
 
     const refusal = refuse?.(data)
@@ -172,7 +187,7 @@ async function generateValidated({ label, prompt, schema, schemaName, validate, 
       return { data, warnings }
     }
     lastErrors = errors
-    warn(`  x ${label}: attempt ${attempt}/${CFG.attemptsPerCall} rejected`)
+    warn(`  x ${label}: attempt ${attempt}/${CFG.attemptsPerCall} rejected (temp ${temperature})`)
     for (const e of errors) warn(`    - ${e}`)
   }
   const err = new Error(`${label}: validation failed after ${CFG.attemptsPerCall} attempts`)
@@ -242,10 +257,15 @@ async function main() {
   if (!CFG.term) throw new Refusal("GLOSSARY_TERM is required")
   // Fail here rather than letting the key-status call warn and the first
   // completion throw ten lines later.
-  if (!process.env.OPENROUTER_API_KEY)
+  if (!ADAPTER.isAvailable())
     throw new Refusal(
-      "OPENROUTER_API_KEY is not set. Add it as a repository secret, and set a credit limit " +
-        "on the key at openrouter.ai/settings/keys -- see docs/propose-term.md."
+      `${ADAPTER.envKey} is not set. Add it as a repository secret, and set a credit limit ` +
+        `on the key at openrouter.ai/settings/keys -- see docs/propose-term.md.`
+    )
+  if (!MODEL_ID_PATTERN.test(MODEL))
+    throw new Refusal(
+      `"${MODEL}" is not a valid model id. ${ADAPTER.name} namespaces models as ` +
+        `provider/model, e.g. ${ADAPTER.defaultModel}.`
     )
 
   const langCodes = CFG.languages.length ? CFG.languages : LANG_CODES
@@ -288,27 +308,27 @@ async function main() {
   const casingDoc = sliceSectionByTitle(DATA_SHAPE_PATH, "`casing` semantics")
   const topicalCategories = [...new Set(Object.values(terms).map((t) => t.category))].sort()
   const existingKeys = Object.keys(terms).sort()
-  const sourceTag = `${CFG.model.replace(/^.*\//, "")}-${new Date().toISOString().slice(0, 10)}`
+  const sourceTag = `${MODEL.replace(/^.*\//, "")}-${new Date().toISOString().slice(0, 10)}`
   const updated = new Date().toISOString().replace(/\.\d{3}Z$/, "Z")
 
-  const status = await keyStatus().catch((e) => {
-    warn(`! Could not read OpenRouter key status: ${e.message}`)
+  const status = await ADAPTER.keyStatus?.().catch((e) => {
+    warn(`! Could not read ${ADAPTER.name} key status: ${e.message}`)
     return null
   })
   if (status) {
     log(
-      `OpenRouter key: limit ${status.limit ?? "none"}, remaining ${
+      `${ADAPTER.name} key: limit ${status.limit ?? "none"}, remaining ${
         status.limitRemaining ?? "n/a"
       }${status.limitReset ? ` (resets ${status.limitReset})` : ""}, lifetime usage $${status.usage.toFixed(4)}`
     )
     if (status.limit == null)
       warn(
-        "! This key has no server-side credit limit. The only ceiling is MAX_COST_USD in this script. " +
-          "Set a limit on the key at openrouter.ai/settings/keys."
+        `! This ${ADAPTER.name} key has no server-side credit limit. The only ceiling is MAX_COST_USD ` +
+          `in this script. Set a limit on the key at openrouter.ai/settings/keys.`
       )
   }
 
-  log(`\nModel: ${CFG.model}`)
+  log(`\nModel: ${MODEL} via ${ADAPTER.name}`)
   log(`Term:  "${CFG.term}"`)
   log(`Fuse:  $${CFG.maxCostUsd}\n`)
 
@@ -415,10 +435,10 @@ async function main() {
 
   // -- Artifact -------------------------------------------------------------
 
-  const spend = usage()
+  const spend = ADAPTER.usage()
   const artifact = {
     generated: updated,
-    model: CFG.model,
+    model: MODEL,
     dispatched_term: CFG.term,
     hint: CFG.hint || null,
     placement: routeToFlatList ? "always_latin_list" : "master",
@@ -490,7 +510,7 @@ async function main() {
   const summary = [
     `## Term proposal: \`${canonicalTerm}\``,
     "",
-    `Dispatched as \`${CFG.term}\`. Model \`${CFG.model}\`.`,
+    `Dispatched as \`${CFG.term}\`. Model \`${MODEL}\` via ${ADAPTER.name}.`,
     "",
     `| Field | Value |`,
     `|---|---|`,
@@ -544,6 +564,11 @@ async function main() {
   setOutput("failure_count", String(failures.length))
   setOutput("low_confidence", lowConfidence.join(", "))
   setOutput("cost_usd", spend.costUsd.toFixed(4))
+  setOutput("model", MODEL)
+  // Empty when the model's provider has no established trailer address in this
+  // project. The workflow omits the line rather than guessing one; the commit
+  // body names the model either way.
+  setOutput("model_co_author", coAuthorForModel(MODEL) ?? "")
   setOutput("artifact_dir", CFG.artifactDir)
   setOutput("pr_body_file", join(CFG.artifactDir, "pr-body.md"))
 
