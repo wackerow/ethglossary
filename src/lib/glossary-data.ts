@@ -12,7 +12,18 @@ export interface GlossaryTerm {
   id: string
   term: string
   category: string
-  term_role?: string
+  term_role?:
+    | "concept"
+    | "brand-or-project"
+    | "person-name"
+    | "programming-language"
+    | "os-platform"
+    | "cryptographic-primitive"
+    | "network-name"
+    | "file-extension"
+    | "cli-command"
+    | "ticker-or-standard"
+    | "identifier"
   definition: string
   has_tooltip: boolean
   in_glossary: boolean
