@@ -317,8 +317,13 @@ Quick lookup before loading the full policy:
 
 ```bash
 pnpm install                       # uses --ignore-workspace via empty pnpm-workspace.yaml
-npx wrangler dev --port 8787       # binds 127.0.0.1
+pnpm dev                           # builds assets, then wrangler dev on 127.0.0.1
 ```
+
+**Use `pnpm dev`, not bare `wrangler dev`.** The stylesheet is a build
+artifact; starting the worker without building first serves a page with no
+CSS at all. The build output IS committed so a fresh clone renders, but it
+goes stale the moment you edit a class -- `pnpm dev` keeps it honest.
 
 SSH-tunnel for remote dev (use `127.0.0.1`, not `localhost`):
 ```bash
@@ -345,6 +350,9 @@ two steps are independent:
   from the `@fontsource` packages. Fonts are self-hosted -- never link a CDN.
 - `build:css` compiles `src/ui/app.css` to `public/assets/app.css` with
   Tailwind. **Editing a class in a `.tsx` requires a rebuild to take effect.**
+  The output is committed (so a clone renders without a build) and is left
+  unminified on purpose, so the diff is reviewable. Cloudflare compresses it
+  in transit either way. Rebuild and commit it whenever classes change.
 
 ### Audit data against v1 policy
 ```bash

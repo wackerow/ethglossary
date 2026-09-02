@@ -8,7 +8,7 @@
     "cf-typegen": "wrangler types --env-interface CloudflareBindings",
     "build:fonts": "node scripts/build-fonts.mjs",
     "check": "tsc --noEmit",
-    "build:css": "tailwindcss -i src/ui/app.css -o public/assets/app.css --minify",
+    "build:css": "tailwindcss -i src/ui/app.css -o public/assets/app.css",
     "build": "pnpm run build:fonts && pnpm run build:css"
   },
   "dependencies": {
