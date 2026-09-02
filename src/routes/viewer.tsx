@@ -24,6 +24,7 @@ import {
   SUPPORTED_LANGUAGES,
 } from "../lib/glossary-data"
 import { getLanguageMeta } from "../lib/language-meta"
+import ethglossaryMark from "../ui/icons/ethglossary.svg"
 
 const app = new OpenAPIHono()
 
@@ -38,6 +39,14 @@ function sortedTerms() {
 
 // The stylesheet is a build artifact served from public/assets by the
 // Workers assets binding, not a route -- see scripts in package.json.
+
+// The favicon is the same vector file the nav renders, served rather than
+// copied into public/ so there is one source of truth for the mark.
+app.get("/favicon.svg", (c) => {
+  c.header("Content-Type", "image/svg+xml; charset=utf-8")
+  c.header("Cache-Control", "public, max-age=604800, immutable")
+  return c.body(ethglossaryMark)
+})
 
 // ---------------------------------------------------------------- pages
 

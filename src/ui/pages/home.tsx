@@ -32,6 +32,7 @@ export const HomePage = () => {
       title="ETHGlossary"
       description="Community-reviewed Ethereum terminology in 24 languages, with an English style guide and a simple API."
       bare
+      brand="hero"
     >
       {/* ---------- Hero: frame 1:390, 1440x640 ---------- */}
       <header class="relative overflow-hidden border-b border-line-soft">
@@ -49,7 +50,8 @@ export const HomePage = () => {
           aria-hidden="true"
         />
 
-        <div class="wrap relative flex flex-col justify-center gap-4 py-24 drop-shadow-hero md:min-h-[640px]">
+        {/* pt clears the nav, which floats over this section. */}
+        <div class="wrap relative flex flex-col justify-center gap-4 pt-32 pb-24 drop-shadow-hero md:min-h-[640px]">
           <h1 class="max-w-[15ch] font-serif text-h1 font-bold text-ink-hero">
             A shared language for <span class="block text-yellow">Ethereum</span>
           </h1>

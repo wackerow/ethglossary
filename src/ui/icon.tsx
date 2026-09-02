@@ -35,7 +35,7 @@ import users from "lucide-static/icons/users.svg"
 
 import discord from "./icons/discord.svg"
 import github from "./icons/github.svg"
-import ethereum from "./icons/ethereum.svg"
+import ethglossary from "./icons/ethglossary.svg"
 
 const SOURCES = {
   "arrow-right": arrowRight,
@@ -53,7 +53,7 @@ const SOURCES = {
   // lists providers; it stays registered so that page is a one-liner.
   discord,
   github,
-  ethereum,
+  ethglossary,
 } as const
 
 export type IconName = keyof typeof SOURCES
@@ -65,6 +65,16 @@ export type IconName = keyof typeof SOURCES
 const INNER: Record<string, string> = {}
 /** Whether the source paints with fill (brand marks) or strokes (Lucide). */
 const FILLED: Record<string, boolean> = {}
+/**
+ * Whether the artwork carries its own colors. The wordmark ships explicit
+ * fills and gradients, so it must inherit neither currentColor nor a stroke
+ * -- applying Lucide's stroke would outline every shape in it.
+ */
+const SELF_COLORED: Record<string, boolean> = {}
+/** The source viewBox. Lucide is 24x24; the wordmark is not. */
+const VIEWBOX: Record<string, string> = {}
+/** height / width, so a non-square mark keeps its proportions. */
+const RATIO: Record<string, number> = {}
 
 for (const [name, source] of Object.entries(SOURCES)) {
   const svg = source as unknown as string
@@ -75,11 +85,20 @@ for (const [name, source] of Object.entries(SOURCES)) {
     .replace(/<\/svg>[\s\S]*$/, "")
     .trim()
   FILLED[name] = /<svg[^>]*fill="currentColor"/.test(svg)
+  SELF_COLORED[name] = /fill="(#|url\()/.test(INNER[name])
+
+  const box = svg.match(/viewBox="([^"]+)"/)?.[1] ?? "0 0 24 24"
+  VIEWBOX[name] = box
+  const [, , w, h] = box.split(/\s+/).map(Number)
+  RATIO[name] = w && h ? h / w : 1
 }
 
 interface IconProps {
   name: IconName
-  /** Rendered square size in px. Lucide is drawn on a 24px grid. */
+  /**
+   * Rendered height in px. Width follows the source aspect ratio, so a
+   * non-square mark like the wordmark is not squashed into a square.
+   */
   size?: number
   class?: string
   /** Lucide stroke weight. Ignored for filled brand marks. */
@@ -88,17 +107,20 @@ interface IconProps {
 
 export const Icon = ({ name, size = 16, class: cls, strokeWidth = 2 }: IconProps) => {
   const filled = FILLED[name]
+  const self = SELF_COLORED[name]
+  const ratio = RATIO[name] ?? 1
+  const stroked = !filled && !self
 
   return (
     <svg
-      width={size}
+      width={ratio === 1 ? size : Math.round(size / ratio)}
       height={size}
-      viewBox="0 0 24 24"
-      fill={filled ? "currentColor" : "none"}
-      stroke={filled ? undefined : "currentColor"}
-      stroke-width={filled ? undefined : strokeWidth}
-      stroke-linecap={filled ? undefined : "round"}
-      stroke-linejoin={filled ? undefined : "round"}
+      viewBox={VIEWBOX[name]}
+      fill={self ? "none" : filled ? "currentColor" : "none"}
+      stroke={stroked ? "currentColor" : undefined}
+      stroke-width={stroked ? strokeWidth : undefined}
+      stroke-linecap={stroked ? "round" : undefined}
+      stroke-linejoin={stroked ? "round" : undefined}
       class={cls}
       aria-hidden="true"
     >
