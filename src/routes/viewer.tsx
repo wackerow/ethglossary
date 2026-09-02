@@ -9,7 +9,6 @@
 
 import { OpenAPIHono } from "@hono/zod-openapi"
 
-import { STYLESHEET } from "../ui/styles"
 import { HomePage } from "../ui/pages/home"
 import { TranslatePage } from "../ui/pages/translate"
 import type { TermListItem } from "../ui/pages/translate"
@@ -37,13 +36,8 @@ function sortedTerms() {
     .sort((a, b) => a.term.localeCompare(b.term))
 }
 
-// ---------------------------------------------------------------- assets
-
-app.get("/assets/app.css", (c) => {
-  c.header("Content-Type", "text/css; charset=utf-8")
-  c.header("Cache-Control", "public, max-age=3600, stale-while-revalidate=86400")
-  return c.body(STYLESHEET)
-})
+// The stylesheet is a build artifact served from public/assets by the
+// Workers assets binding, not a route -- see scripts in package.json.
 
 // ---------------------------------------------------------------- pages
 
