@@ -70,7 +70,7 @@ export const LanguagesPage = ({ stats }: { stats: LanguageStat[] }) => {
                     </a>
                   </td>
                   <td class={CELL}>
-                    <span class="inline-block rounded-full bg-surface-2 px-2 py-0.5 font-mono text-xs text-ink-dim">
+                    <span class="inline-block rounded-full bg-surface-2 px-2 py-0.5 font-mono text-tiny text-ink-dim">
                       {l.code}
                     </span>
                   </td>
@@ -81,11 +81,11 @@ export const LanguagesPage = ({ stats }: { stats: LanguageStat[] }) => {
                   <td class={`${CELL} tabular-nums`}>{s?.confidenceBreakdown.high ?? 0}</td>
                   <td class={CELL}>
                     {l.noPlurals ? (
-                      <span class="inline-block rounded-full bg-surface-2 px-2 py-0.5 text-xs text-ink-dim">
+                      <span class="inline-block rounded-full bg-surface-2 px-2 py-0.5 text-tiny text-ink-dim">
                         not marked
                       </span>
                     ) : (
-                      <span class="inline-block rounded-full bg-green/15 px-2 py-0.5 text-xs text-green">
+                      <span class="inline-block rounded-full bg-green/15 px-2 py-0.5 text-tiny text-green">
                         yes
                       </span>
                     )}

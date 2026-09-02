@@ -48,11 +48,11 @@ export const ContextsPage = () => {
             </div>
             <div class="flex h-fit flex-col gap-1.5 rounded-md bg-surface px-3.5 py-3 text-label-md">
               <span class="flex justify-between gap-2">
-                <span class="font-mono text-xs text-ink-faint">en</span>
+                <span class="font-mono text-tiny text-ink-faint">en</span>
                 <span class="text-ink">{c.example.en}</span>
               </span>
               <span class="flex justify-between gap-2">
-                <span class="font-mono text-xs text-ink-faint">es</span>
+                <span class="font-mono text-tiny text-ink-faint">es</span>
                 <span class="text-ink" lang="es">
                   {c.example.es}
                 </span>

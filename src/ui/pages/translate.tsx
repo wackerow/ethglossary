@@ -79,7 +79,7 @@ const SlotRow = ({
           >
             {plurals.map(([form, term]) => (
               <span class="inline-flex items-baseline gap-1.5">
-                <span class="font-sans text-xs uppercase tracking-wider text-ink-faint">
+                <span class="font-sans text-tiny uppercase tracking-wider text-ink-faint">
                   {form}
                 </span>
                 {term}
