@@ -12,6 +12,15 @@ import { Icon } from "./icon"
 
 export type NavKey = "translate" | "languages" | "style-guide" | null
 
+/**
+ * How the wordmark is colored.
+ *
+ * "hero" pins it yellow because the landing-page nav sits over the hero
+ * artwork, which is dark in both themes. Everywhere else it takes --color-accent,
+ * which is the brand yellow on a dark ground and violet on a light one.
+ */
+export type BrandTone = "default" | "hero"
+
 interface LayoutProps {
   title: string
   description: string
@@ -20,6 +29,8 @@ interface LayoutProps {
   bare?: boolean
   /** Extra island script for this page, appended after the shared one. */
   island?: string
+  /** Wordmark color. Pages whose nav sits over the hero art pass "hero". */
+  brand?: BrandTone
   children?: Child
 }
 
@@ -63,25 +74,42 @@ const NAV_ITEMS: Array<{ key: NavKey; href: string; label: string }> = [
   { key: "style-guide", href: "/style-guide", label: "Style guide" },
 ]
 
-export const Nav = ({ active }: { active: NavKey }) => (
-  <nav class="sticky top-0 z-20 h-16 border-b border-line-soft bg-bg">
+export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: BrandTone }) => (
+  <nav
+    class={`z-20 h-16 ${
+      brand === "hero"
+        ? // Floats over the hero artwork rather than sitting above it. Not
+          // sticky, so it simply scrolls away instead of becoming an
+          // unreadable transparent bar over the page content.
+          "absolute inset-x-0 top-0 bg-transparent"
+        : "sticky top-0 border-b border-line-soft bg-bg"
+    }`}
+  >
     <div class="wrap flex h-full items-center gap-6">
       <a
-        class="flex shrink-0 items-center gap-2 text-lg font-bold tracking-tight text-ink no-underline hover:no-underline"
+        class={`flex shrink-0 items-center gap-2.5 text-lg font-bold tracking-tight no-underline hover:no-underline ${
+          brand === "hero" ? "text-yellow" : "text-accent"
+        }`}
         href="/"
       >
-        <Icon name="ethereum" size={22} />
-        <span>
-          ETH<span class="font-normal text-ink-dim">Glossary</span>
-        </span>
+        <Icon name="ethglossary" size={26} />
+        ETHGlossary
       </a>
 
       <ul class="mx-auto hidden items-center gap-1 md:flex">
         {NAV_ITEMS.map((item) => (
           <li>
             <a
-              class={`block rounded-md px-3.5 py-1.5 text-label-md transition-colors hover:bg-surface-2 hover:text-ink hover:no-underline ${
-                active === item.key ? "bg-surface-2 font-bold text-accent" : "text-ink-dim"
+              class={`block rounded-md px-3.5 py-1.5 text-label-md transition-colors hover:no-underline ${
+                brand === "hero"
+                  ? "text-white/80 hover:bg-white/10 hover:text-white"
+                  : "hover:bg-surface-2 hover:text-ink"
+              } ${
+                active === item.key
+                  ? "bg-surface-2 font-bold text-accent"
+                  : brand === "hero"
+                    ? ""
+                    : "text-ink-dim"
               }`}
               href={item.href}
               aria-current={active === item.key ? "page" : undefined}
@@ -101,7 +129,11 @@ export const Nav = ({ active }: { active: NavKey }) => (
         </a>
         <button
           id="theme-toggle"
-          class="grid size-8 place-items-center rounded-md text-ink-dim hover:bg-surface-2 hover:text-ink"
+          class={`grid size-8 place-items-center rounded-md ${
+            brand === "hero"
+              ? "text-white/80 hover:bg-white/10 hover:text-white"
+              : "text-ink-dim hover:bg-surface-2 hover:text-ink"
+          }`}
           type="button"
           aria-label="Switch theme"
         >
@@ -142,6 +174,7 @@ export const Layout = ({
   nav = null,
   bare,
   island,
+  brand = "default",
   children,
 }: LayoutProps) => (
   <html lang="en">
@@ -152,6 +185,7 @@ export const Layout = ({
       <meta name="description" content={description} />
       <meta name="color-scheme" content="dark light" />
       <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      <link rel="apple-touch-icon" href="/favicon.svg" />
       <link rel="stylesheet" href="/assets/app.css" />
       <link
         rel="preload"
@@ -170,7 +204,7 @@ export const Layout = ({
       <script>{raw(THEME_SCRIPT)}</script>
     </head>
     <body>
-      <Nav active={nav} />
+      <Nav active={nav} brand={brand} />
       {bare ? children : <main class="wrap">{children}</main>}
       <Footer />
       <script>{raw(TOGGLE_SCRIPT)}</script>
