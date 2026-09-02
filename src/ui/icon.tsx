@@ -26,6 +26,7 @@ import badgeCheck from "lucide-static/icons/badge-check.svg"
 import bookType from "lucide-static/icons/book-type.svg"
 import circleAlert from "lucide-static/icons/circle-alert.svg"
 import info from "lucide-static/icons/info.svg"
+import messageSquare from "lucide-static/icons/message-square.svg"
 import moon from "lucide-static/icons/moon.svg"
 import squarePen from "lucide-static/icons/square-pen.svg"
 import sun from "lucide-static/icons/sun.svg"
@@ -43,6 +44,7 @@ const SOURCES = {
   "book-type": bookType,
   "circle-alert": circleAlert,
   info,
+  "message-square": messageSquare,
   moon,
   "square-pen": squarePen,
   sun,

@@ -15,8 +15,8 @@ const aliasText = (a: string | { term: string; status: string }): string =>
   typeof a === "string" ? a : a.term
 
 const CELL = "border-b border-line-soft px-3.5 py-2.5 text-left align-top"
-const CHIP = "inline-block rounded-full bg-surface-2 px-2 py-0.5 text-xs text-ink-dim"
-const CHIP_AVOID = "inline-block rounded-full bg-laser/15 px-2 py-0.5 text-xs text-laser"
+const CHIP = "inline-block rounded-full bg-surface-2 px-2 py-0.5 text-tiny text-ink-dim"
+const CHIP_AVOID = "inline-block rounded-full bg-laser/15 px-2 py-0.5 text-tiny text-laser"
 
 export const StyleGuidePage = ({
   terms,
@@ -43,14 +43,14 @@ export const StyleGuidePage = ({
 
     <div class="mb-5 flex flex-wrap gap-2">
       <a
-        class={`no-underline ${!activeCategory ? "inline-block rounded-full bg-green/15 px-2 py-0.5 text-xs text-green" : CHIP}`}
+        class={`no-underline ${!activeCategory ? "inline-block rounded-full bg-green/15 px-2 py-0.5 text-tiny text-green" : CHIP}`}
         href="/style-guide"
       >
         All
       </a>
       {categories.map((c) => (
         <a
-          class={`no-underline ${activeCategory === c ? "inline-block rounded-full bg-green/15 px-2 py-0.5 text-xs text-green" : CHIP}`}
+          class={`no-underline ${activeCategory === c ? "inline-block rounded-full bg-green/15 px-2 py-0.5 text-tiny text-green" : CHIP}`}
           href={`/style-guide?category=${encodeURIComponent(c)}`}
         >
           {c}

@@ -87,7 +87,7 @@ export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: Bra
   >
     <div class="wrap flex h-full items-center gap-6">
       <a
-        class={`flex shrink-0 items-center gap-2.5 text-lg font-bold tracking-tight no-underline hover:no-underline ${
+        class={`flex shrink-0 items-center gap-2.5 text-h4 font-bold tracking-tight no-underline hover:no-underline ${
           brand === "hero" ? "text-yellow" : "text-accent"
         }`}
         href="/"

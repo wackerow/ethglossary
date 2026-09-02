@@ -42,11 +42,26 @@
   --color-accent: #f7e544;
   --color-green: #0eaaa0;       /* accent/green */
   --color-laser: #ff8c8c;       /* accent/laser */
-  --color-violet: #7b6bd6;
+  --color-violet: #aa7fff;   /* accent-c */
+
+  /* The closing panel's vertical gradient, from the Figma. Deliberately dark
+     in both themes -- it is a showcase slab, and the design has no light
+     variant for it. Change these three and the panel follows. */
+  --color-deep-top: #2b0758;
+  --color-deep-mid: #1c043a;
+  --color-deep-bottom: #110225;
 
   /* --- Type ------------------------------------------------------------- */
   --font-sans: "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-serif: "Noto Serif", ui-serif, Georgia, "Times New Roman", serif;
+  /*
+   * "Noto Sans" sits in the serif stack on purpose. Each face is declared with
+   * a unicode-range, so Noto Serif only claims Latin/Cyrillic -- an Arabic,
+   * Bengali, Devanagari, Tamil or Telugu character finds no Serif face and
+   * falls through to the Sans subsets we do ship, instead of rendering tofu.
+   * This matters wherever translated terms are set in serif: the language
+   * grid and every slot row on the translate page.
+   */
+  --font-serif: "Noto Serif", "Noto Sans", ui-serif, Georgia, "Times New Roman", serif;
   --font-mono: ui-monospace, "Noto Sans Mono", "DejaVu Sans Mono", monospace;
 
   /* Named after the Figma text styles, so the markup reads like the design.
@@ -62,6 +77,11 @@
   --text-h2--line-height: 4.5rem;
   --text-h2--letter-spacing: -0.01em;
 
+  /* "Translation languages" -- Noto Serif Bold 44, normal leading, -0.44px */
+  --text-h2-sm: 2.75rem;
+  --text-h2-sm--line-height: 1.15;
+  --text-h2-sm--letter-spacing: -0.01em;
+
   /* Headers/Header-2-Medium -- Noto Serif Medium 32/40 */
   --text-h3: 2rem;
   --text-h3--line-height: 2.5rem;
@@ -73,6 +93,11 @@
   /* Hero lede -- Noto Sans Medium 24/32 */
   --text-lede: 1.5rem;
   --text-lede--line-height: 2rem;
+
+  /* Card and step titles on the landing page -- 24/32. Cards tighten this
+     to leading-6, matching the 24/24 in the frame. */
+  --text-h5: 1.5rem;
+  --text-h5--line-height: 2rem;
 
   /* Landing section body -- Noto Sans Medium/Regular 18/26 */
   --text-body-lg: 1.125rem;
@@ -94,8 +119,13 @@
   --text-label-md: 0.875rem;
   --text-label-md--line-height: 0.875rem;
 
-  --text-tiny: 0.8125rem;
-  --text-tiny--line-height: 1.125rem;
+  /* Language-card secondary name -- 14/22 */
+  --text-label-sm: 0.875rem;
+  --text-label-sm--line-height: 1.375rem;
+
+  /* Smallest text in the design -- 12/20 */
+  --text-tiny: 0.75rem;
+  --text-tiny--line-height: 1.25rem;
 
   /* --- Layout ----------------------------------------------------------- */
   --radius-card: 8px;
@@ -130,7 +160,7 @@
     --color-accent: #4f3bbd;
     --color-green: #0a807a;
     --color-laser: #c9545c;
-    --color-violet: #5b48c0;
+    --color-violet: #6b3fd4;
 
     color-scheme: light;
   }
@@ -155,7 +185,7 @@
   --color-accent: #4f3bbd;
   --color-green: #0a807a;
   --color-laser: #c9545c;
-  --color-violet: #5b48c0;
+  --color-violet: #6b3fd4;
 
   color-scheme: light;
 }
@@ -243,31 +273,6 @@
   }
   & li {
     margin-block-end: 0.25rem;
-  }
-}
-
-/*
- * The speech-bubble marks beside each landing-page section heading. A pure
- * border trick -- cheaper and sharper than shipping six SVGs.
- */
-@utility bubble {
-  position: relative;
-  width: 44px;
-  height: 44px;
-  flex-shrink: 0;
-  border: 2px solid currentColor;
-  border-radius: 6px 6px 6px 0;
-
-  &::after {
-    content: "";
-    position: absolute;
-    inset-inline-start: -2px;
-    inset-block-end: -12px;
-    width: 12px;
-    height: 12px;
-    border-inline-start: 2px solid currentColor;
-    border-block-end: 2px solid currentColor;
-    border-end-start-radius: 2px;
   }
 }
 
