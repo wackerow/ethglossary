@@ -1,35 +1,41 @@
 /**
- * Icon rendering from real .svg files.
+ * Icon rendering.
  *
- * The .svg files under icons/ are the source of truth -- Lucide's set copied
- * by scripts/build-icons.mjs, plus hand-maintained brand marks under
- * icons/brands/ (Lucide has no brand icons). They are imported as text via
- * the Text rule in wrangler.jsonc and re-emitted with our own sizing, so a
- * caller never has to care whether an icon came from Lucide or was drawn here.
+ * Lucide icons are imported straight out of the `lucide-static` package --
+ * they are already .svg files on disk, so copying them into the repo would
+ * only duplicate the package and let the two drift. Upgrading the whole set
+ * is a version bump.
  *
- * Adding a Lucide icon: add its name to ICONS in scripts/build-icons.mjs, run
- * `pnpm run build:icons`, then import and register it below.
- * Adding a custom icon: drop the .svg into icons/brands/ and register it.
+ * `./icons/` holds custom artwork ONLY: Lucide ships no brand marks, so the
+ * Discord, GitHub and Ethereum glyphs are hand-maintained there. Anything a
+ * designer draws for us goes in the same place.
+ *
+ * Both kinds arrive as text through the `*.svg` Text rule in wrangler.jsonc,
+ * which matches node_modules too. The outer <svg> is stripped once at module
+ * load and re-emitted at the requested size, so a caller never has to care
+ * where a glyph came from.
+ *
+ * Adding a Lucide icon: import it from `lucide-static/icons/<name>.svg` and
+ * add it to SOURCES. Browse the set at https://lucide.dev/icons.
  */
 
 import { raw } from "hono/html"
 
-import arrowRight from "./icons/arrow-right.svg"
-import badgeCheck from "./icons/badge-check.svg"
-import bookType from "./icons/book-type.svg"
-import circleAlert from "./icons/circle-alert.svg"
-import info from "./icons/info.svg"
-import moon from "./icons/moon.svg"
-import search from "./icons/search.svg"
-import squarePen from "./icons/square-pen.svg"
-import sun from "./icons/sun.svg"
-import thumbsDown from "./icons/thumbs-down.svg"
-import thumbsUp from "./icons/thumbs-up.svg"
-import users from "./icons/users.svg"
+import arrowRight from "lucide-static/icons/arrow-right.svg"
+import badgeCheck from "lucide-static/icons/badge-check.svg"
+import bookType from "lucide-static/icons/book-type.svg"
+import circleAlert from "lucide-static/icons/circle-alert.svg"
+import info from "lucide-static/icons/info.svg"
+import moon from "lucide-static/icons/moon.svg"
+import squarePen from "lucide-static/icons/square-pen.svg"
+import sun from "lucide-static/icons/sun.svg"
+import thumbsDown from "lucide-static/icons/thumbs-down.svg"
+import thumbsUp from "lucide-static/icons/thumbs-up.svg"
+import users from "lucide-static/icons/users.svg"
 
-import discord from "./icons/brands/discord.svg"
-import github from "./icons/brands/github.svg"
-import ethereum from "./icons/brands/ethereum.svg"
+import discord from "./icons/discord.svg"
+import github from "./icons/github.svg"
+import ethereum from "./icons/ethereum.svg"
 
 const SOURCES = {
   "arrow-right": arrowRight,
@@ -38,12 +44,13 @@ const SOURCES = {
   "circle-alert": circleAlert,
   info,
   moon,
-  search,
   "square-pen": squarePen,
   sun,
   "thumbs-down": thumbsDown,
   "thumbs-up": thumbsUp,
   users,
+  // Custom -- see ./icons. Discord is unused until the Phase 2 sign-in page
+  // lists providers; it stays registered so that page is a one-liner.
   discord,
   github,
   ethereum,
@@ -56,12 +63,17 @@ export type IconName = keyof typeof SOURCES
  * load so rendering is a string concat, not a parse.
  */
 const INNER: Record<string, string> = {}
-/** Whether the source paints with fill (brands) or strokes (Lucide). */
+/** Whether the source paints with fill (brand marks) or strokes (Lucide). */
 const FILLED: Record<string, boolean> = {}
 
 for (const [name, source] of Object.entries(SOURCES)) {
   const svg = source as unknown as string
-  INNER[name] = svg.replace(/^[\s\S]*?<svg[^>]*>/, "").replace(/<\/svg>\s*$/, "")
+  INNER[name] = svg
+    // lucide-static prefixes each file with a license comment.
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^[\s\S]*?<svg[^>]*>/, "")
+    .replace(/<\/svg>[\s\S]*$/, "")
+    .trim()
   FILLED[name] = /<svg[^>]*fill="currentColor"/.test(svg)
 }
 

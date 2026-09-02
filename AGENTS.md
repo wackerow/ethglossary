@@ -66,8 +66,8 @@ Auto-generated OpenAPI from the same Zod schemas used for runtime validation is 
     │   ├── app.css                  # Tailwind v4 source: @theme tokens + utilities
     │   ├── fonts.css                # GENERATED -- pnpm run build:fonts
     │   ├── layout.tsx               # page shell, nav, footer, theme script
-    │   ├── icon.tsx                 # <Icon name> -- renders the .svg files below
-    │   ├── icons/                   # Lucide .svg files (GENERATED) + brands/ (manual)
+    │   ├── icon.tsx                 # <Icon name> -- Lucide imports + custom art
+    │   ├── icons/                   # custom .svg only (brand marks); Lucide comes from npm
     │   ├── islands.ts               # client scripts (search, language picker)
     │   └── pages/                   # home, translate, contexts, languages, style-guide
     ├── schemas/                     # Zod schemas (common, style-guide, translations, filter)
@@ -231,10 +231,12 @@ Rules that are easy to get wrong:
 - **`--color-yellow` is a fill, `--color-accent` is for text.** The brand
   yellow measures 1.29:1 on white. `accent` swaps to violet on light grounds;
   yellow stays yellow because it always sits behind dark text.
-- **Icons come from `.svg` files, not hand-written JSX.** Add a Lucide name to
-  `ICONS` in `scripts/build-icons.mjs` and run `pnpm run build:icons`. Lucide
-  has no brand marks, so Discord/GitHub/Ethereum live in `icons/brands/` and
-  are edited by hand. Render everything through `<Icon name="..." />`.
+- **Icons are Lucide imports, never hand-drawn JSX.** Import from
+  `lucide-static/icons/<name>.svg` and register it in `SOURCES` in
+  `src/ui/icon.tsx`. Do NOT copy Lucide files into the repo -- the package is
+  already .svg on disk and copies drift. `src/ui/icons/` is for custom art
+  only, which today means the brand marks Lucide does not ship. Render
+  everything through `<Icon name="..." />`.
 - **Definitions carry HTML.** Run them through `sanitizeDefinition()` from
   `src/lib/sanitize.ts` -- stripping tags produces run-on sentences, and
   community-submitted content will flow through the same components later.
@@ -329,16 +331,14 @@ clone -- `worker-configuration.d.ts` is gitignored and `tsc` fails without it.
 
 ### Build the viewer assets
 ```bash
-pnpm run build          # fonts + icons + css
+pnpm run build          # fonts + css
 ```
 
 `dev` and `deploy` both run this first, so you rarely call it directly. The
-three steps are independent:
+two steps are independent:
 
 - `build:fonts` regenerates `src/ui/fonts.css` and repopulates `public/fonts/`
   from the `@fontsource` packages. Fonts are self-hosted -- never link a CDN.
-- `build:icons` copies the Lucide icons named in `scripts/build-icons.mjs`
-  into `src/ui/icons/`. Brand marks under `icons/brands/` are hand-maintained.
 - `build:css` compiles `src/ui/app.css` to `public/assets/app.css` with
   Tailwind. **Editing a class in a `.tsx` requires a rebuild to take effect.**
 
