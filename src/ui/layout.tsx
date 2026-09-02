@@ -8,7 +8,7 @@
 
 import type { Child } from "hono/jsx"
 import { raw } from "hono/html"
-import { Logo, Sun, Moon, Discord, GitHub } from "./icons"
+import { Icon } from "./icon"
 
 export type NavKey = "translate" | "languages" | "style-guide" | null
 
@@ -16,7 +16,7 @@ interface LayoutProps {
   title: string
   description: string
   nav?: NavKey
-  /** Full-bleed pages (the landing page) opt out of the .wrap container. */
+  /** Full-bleed pages (the landing page) opt out of the shell container. */
   bare?: boolean
   /** Extra island script for this page, appended after the shared one. */
   island?: string
@@ -57,59 +57,56 @@ const TOGGLE_SCRIPT = `
 })();
 `
 
+const NAV_ITEMS: Array<{ key: NavKey; href: string; label: string }> = [
+  { key: "translate", href: "/translate", label: "Translate" },
+  { key: "languages", href: "/languages", label: "Languages" },
+  { key: "style-guide", href: "/style-guide", label: "Style guide" },
+]
+
 export const Nav = ({ active }: { active: NavKey }) => (
-  <nav class="nav">
-    <div class="wrap">
-      <a class="brand" href="/">
-        <Logo class="mark" />
+  <nav class="sticky top-0 z-20 h-16 border-b border-line-soft bg-bg">
+    <div class="wrap flex h-full items-center gap-6">
+      <a
+        class="flex shrink-0 items-center gap-2 text-lg font-bold tracking-tight text-ink no-underline hover:no-underline"
+        href="/"
+      >
+        <Icon name="ethereum" size={22} />
         <span>
-          ETH<span class="dim">Glossary</span>
+          ETH<span class="font-normal text-ink-dim">Glossary</span>
         </span>
       </a>
 
-      <ul class="nav-links">
-        <li>
-          <a
-            class="nav-link"
-            href="/translate"
-            aria-current={active === "translate" ? "page" : undefined}
-          >
-            Translate
-          </a>
-        </li>
-        <li>
-          <a
-            class="nav-link"
-            href="/languages"
-            aria-current={active === "languages" ? "page" : undefined}
-          >
-            Languages
-          </a>
-        </li>
-        <li>
-          <a
-            class="nav-link"
-            href="/style-guide"
-            aria-current={active === "style-guide" ? "page" : undefined}
-          >
-            Style guide
-          </a>
-        </li>
+      <ul class="mx-auto hidden items-center gap-1 md:flex">
+        {NAV_ITEMS.map((item) => (
+          <li>
+            <a
+              class={`block rounded-md px-3.5 py-1.5 text-label-md transition-colors hover:bg-surface-2 hover:text-ink hover:no-underline ${
+                active === item.key ? "bg-surface-2 font-bold text-accent" : "text-ink-dim"
+              }`}
+              href={item.href}
+              aria-current={active === item.key ? "page" : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
       </ul>
 
-      <div class="nav-actions">
-        <a class="btn btn-primary btn-sm" href="/signin">
-          <Discord size={16} />
+      <div class="ml-auto flex items-center gap-3">
+        <a
+          class="rounded-full bg-yellow px-4 py-2 text-label-md font-bold text-on-yellow no-underline transition-[filter] hover:brightness-110 hover:no-underline"
+          href="/signin"
+        >
           Sign in
         </a>
         <button
           id="theme-toggle"
-          class="theme-toggle"
+          class="grid size-8 place-items-center rounded-md text-ink-dim hover:bg-surface-2 hover:text-ink"
           type="button"
           aria-label="Switch theme"
         >
-          <Sun class="sun" />
-          <Moon class="moon" />
+          <Icon name="sun" size={18} class="theme-icon-light" />
+          <Icon name="moon" size={18} class="theme-icon-dark" />
         </button>
       </div>
     </div>
@@ -117,26 +114,36 @@ export const Nav = ({ active }: { active: NavKey }) => (
 )
 
 export const Footer = () => (
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>An open-source project for the Ethereum community. MPL-2.0.</p>
-      <div class="links">
-        <a href="/docs" title="API documentation">
+  <footer class="border-t border-line-soft bg-bg">
+    <div class="wrap flex flex-wrap items-center justify-between gap-4 py-8">
+      <p class="text-tiny text-ink-faint">
+        An open-source project for the Ethereum community. MPL-2.0.
+      </p>
+      <div class="flex items-center gap-4">
+        <a class="text-tiny text-ink-dim hover:text-ink" href="/docs">
           API docs
         </a>
         <a
+          class="grid place-items-center text-ink-dim hover:text-ink"
           href="https://github.com/wackerow/ethglossary"
           rel="noreferrer noopener"
           aria-label="GitHub repository"
         >
-          <GitHub />
+          <Icon name="github" size={18} />
         </a>
       </div>
     </div>
   </footer>
 )
 
-export const Layout = ({ title, description, nav = null, bare, island, children }: LayoutProps) => (
+export const Layout = ({
+  title,
+  description,
+  nav = null,
+  bare,
+  island,
+  children,
+}: LayoutProps) => (
   <html lang="en">
     <head>
       <meta charset="utf-8" />
@@ -155,7 +162,7 @@ export const Layout = ({ title, description, nav = null, bare, island, children 
       />
       <link
         rel="preload"
-        href="/fonts/noto-serif-latin-500-normal.woff2"
+        href="/fonts/noto-serif-latin-700-normal.woff2"
         as="font"
         type="font/woff2"
         crossorigin="anonymous"

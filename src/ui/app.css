@@ -1,0 +1,311 @@
+/*
+ * Tailwind v4 source. Compiled to public/assets/app.css by `pnpm run build:css`.
+ *
+ * Everything below is either transcribed from the Figma variable set and text
+ * styles (file Lu7cJjkrNh1YYBkYfnoXxH), or derived where Figma has no answer --
+ * the light palette, which Figma does not define at all.
+ */
+
+@import "tailwindcss";
+@import "./fonts.css";
+
+/* .tsx pages live beside this file; be explicit rather than rely on detection. */
+@source "./";
+
+/* ==========================================================================
+   Theme -- dark is the base, matching the Figma frames.
+   ========================================================================== */
+
+@theme {
+  /* --- Surfaces, from the Figma variables ------------------------------ */
+  --color-bg: #1c202f;          /* background/main */
+  --color-surface: #222739;     /* surface/extra */
+  --color-surface-2: #282d3e;   /* surface/selected */
+  --color-callout: #3f375d;     /* surface/callout-2 */
+  --color-line: #3a3e50;        /* borders/default */
+  --color-line-soft: #2a2f42;
+
+  /* --- Ink -------------------------------------------------------------- */
+  --color-ink: #ffffff;         /* typography/primary */
+  --color-ink-2: #f1f1f3;       /* typography/secondary */
+  --color-ink-3: #dbdbdb;       /* typography/tertiary */
+  --color-ink-dim: #9aa0b8;
+  --color-ink-faint: #868da8;
+  --color-ink-label: #909090;   /* the eyebrow grey used in the Figma */
+  --color-ink-hero: #f3f6ff;    /* landing-page text, not pure white */
+
+  /* --- Accents ---------------------------------------------------------- */
+  --color-yellow: #f7e544;      /* button/primary -- a FILL color */
+  --color-on-yellow: #1c202f;
+  /* Accent for text and icons. Brand yellow measures 1.29:1 on white, so the
+     light palette swaps this to violet while fills keep the yellow. */
+  --color-accent: #f7e544;
+  --color-green: #0eaaa0;       /* accent/green */
+  --color-laser: #ff8c8c;       /* accent/laser */
+  --color-violet: #7b6bd6;
+
+  /* --- Type ------------------------------------------------------------- */
+  --font-sans: "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Noto Serif", ui-serif, Georgia, "Times New Roman", serif;
+  --font-mono: ui-monospace, "Noto Sans Mono", "DejaVu Sans Mono", monospace;
+
+  /* Named after the Figma text styles, so the markup reads like the design.
+     Sizes are px in Figma; rem here at the 16px root. */
+
+  /* Hero h1 -- Noto Serif Bold 72/80 */
+  --text-h1: 4.5rem;
+  --text-h1--line-height: 5rem;
+  --text-h1--letter-spacing: -0.01em;
+
+  /* Landing section h2 -- Noto Serif Bold 64/72, tracking -0.64px */
+  --text-h2: 4rem;
+  --text-h2--line-height: 4.5rem;
+  --text-h2--letter-spacing: -0.01em;
+
+  /* Headers/Header-2-Medium -- Noto Serif Medium 32/40 */
+  --text-h3: 2rem;
+  --text-h3--line-height: 2.5rem;
+
+  /* Header 4 Sans -- Noto Sans Bold 20/28, the in-page section heading */
+  --text-h4: 1.25rem;
+  --text-h4--line-height: 1.75rem;
+
+  /* Hero lede -- Noto Sans Medium 24/32 */
+  --text-lede: 1.5rem;
+  --text-lede--line-height: 2rem;
+
+  /* Landing section body -- Noto Sans Medium/Regular 18/26 */
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.625rem;
+
+  /* Body/Body-lg and Body-lg-bold -- Noto Sans 16/24 */
+  --text-body: 1rem;
+  --text-body--line-height: 1.5rem;
+
+  /* Labels/Label-xl -- Noto Serif Regular 20/20 */
+  --text-label-xl: 1.25rem;
+  --text-label-xl--line-height: 1.25rem;
+
+  /* Labels/Label-lg -- Noto Sans Regular 16/16 */
+  --text-label-lg: 1rem;
+  --text-label-lg--line-height: 1rem;
+
+  /* Labels/Label-md -- Noto Sans Regular 14/14 */
+  --text-label-md: 0.875rem;
+  --text-label-md--line-height: 0.875rem;
+
+  --text-tiny: 0.8125rem;
+  --text-tiny--line-height: 1.125rem;
+
+  /* --- Layout ----------------------------------------------------------- */
+  --radius-card: 8px;
+  --shadow-hero: 0 4px 8px rgb(6 7 91 / 0.16);
+}
+
+/*
+ * Light palette. Figma defines none, so these are derived: same hues,
+ * re-weighted for a light ground. Utilities compile to var(--color-*), so
+ * redefining the variables is all that is needed -- no `dark:` on every class.
+ *
+ * Three states, and all three must be handled: an explicit choice stamps
+ * data-theme, and the default "system" setting stamps nothing.
+ */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --color-bg: #f7f7fa;
+    --color-surface: #ffffff;
+    --color-surface-2: #ecedf4;
+    --color-callout: #ebe6f7;
+    --color-line: #d7d9e5;
+    --color-line-soft: #e6e7ef;
+
+    --color-ink: #10131c;
+    --color-ink-2: #1c202f;
+    --color-ink-3: #414861;
+    --color-ink-dim: #5c6480;
+    --color-ink-faint: #6b7189;
+    --color-ink-label: #5c6480;
+    --color-ink-hero: #171a2b;
+
+    --color-accent: #4f3bbd;
+    --color-green: #0a807a;
+    --color-laser: #c9545c;
+    --color-violet: #5b48c0;
+
+    color-scheme: light;
+  }
+}
+
+:root[data-theme="light"] {
+  --color-bg: #f7f7fa;
+  --color-surface: #ffffff;
+  --color-surface-2: #ecedf4;
+  --color-callout: #ebe6f7;
+  --color-line: #d7d9e5;
+  --color-line-soft: #e6e7ef;
+
+  --color-ink: #10131c;
+  --color-ink-2: #1c202f;
+  --color-ink-3: #414861;
+  --color-ink-dim: #5c6480;
+  --color-ink-faint: #6b7189;
+  --color-ink-label: #5c6480;
+  --color-ink-hero: #171a2b;
+
+  --color-accent: #4f3bbd;
+  --color-green: #0a807a;
+  --color-laser: #c9545c;
+  --color-violet: #5b48c0;
+
+  color-scheme: light;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-ink-2);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Tailwind Preflight already resets these; this is the project's own
+     default, so links inherit color and only underline on hover. */
+  a:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+/* The 1440px shell with the Figma's 48px gutter. */
+@utility wrap {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 24px;
+
+  @media (width >= 900px) {
+    padding-inline: 48px;
+  }
+}
+
+/*
+ * Definitions arrive as sanitized HTML from the glossary data, so their
+ * elements cannot carry utility classes. This is the one place a descendant
+ * rule is the right tool.
+ */
+@utility definition-html {
+  color: var(--color-ink-3);
+
+  & p {
+    margin-block-end: 0.625rem;
+  }
+  & p:last-child {
+    margin-block-end: 0;
+  }
+  & strong {
+    color: var(--color-ink);
+    font-weight: 700;
+  }
+  & a {
+    color: var(--color-accent);
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+  }
+  & ul,
+  & ol {
+    margin-block: 0.5rem;
+    margin-inline-start: 1.125rem;
+    list-style: revert;
+  }
+  & li {
+    margin-block-end: 0.25rem;
+  }
+}
+
+/*
+ * The speech-bubble marks beside each landing-page section heading. A pure
+ * border trick -- cheaper and sharper than shipping six SVGs.
+ */
+@utility bubble {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border: 2px solid currentColor;
+  border-radius: 6px 6px 6px 0;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset-inline-start: -2px;
+    inset-block-end: -12px;
+    width: 12px;
+    height: 12px;
+    border-inline-start: 2px solid currentColor;
+    border-block-end: 2px solid currentColor;
+    border-end-start-radius: 2px;
+  }
+}
+
+/* Theme toggle: show whichever glyph represents the theme you'd switch TO. */
+@utility theme-icon-light {
+  display: none;
+
+  :root[data-theme="light"] & {
+    display: block;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) & {
+      display: block;
+    }
+  }
+}
+
+@utility theme-icon-dark {
+  display: block;
+
+  :root[data-theme="light"] & {
+    display: none;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) & {
+      display: none;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
