@@ -109,8 +109,9 @@ export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: Bra
               <a
                 class={`block px-3.5 py-1.5 text-label-md transition-colors hover:no-underline ${
                   active === item.key
-                    ? // A tab, not a pill: rounded on top, sitting on a yellow rule.
-                      "rounded-t-md border-b border-accent font-bold text-accent"
+                    ? // A tab, not a pill: the hover surface, rounded on top
+                      // only at 4px, sitting on a 1px accent rule.
+                      "rounded-t-[4px] border-b border-accent bg-surface-2 font-bold text-accent"
                     : "rounded-md text-ink-dim hover:bg-surface-2 hover:text-ink"
                 }`}
                 href={item.href}

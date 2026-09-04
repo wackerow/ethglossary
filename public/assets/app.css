@@ -40,8 +40,9 @@
     --color-laser: #ff8c8c;
     --color-violet: #aa7fff;
     --color-hero-ground: #1c202f;
-    --color-dot: #49506b;
+    --color-line-strong: #49506b;
     --color-footer: #3f375d;
+    --color-panel: rgb(0 0 0 / 0.18);
     --color-wash-edge: #1c202f;
     --color-wash-mid: #0e121f;
     --color-deep-top: #2b0758;
@@ -484,6 +485,9 @@
   .min-w-0 {
     min-width: 0px;
   }
+  .flex-1 {
+    flex: 1;
+  }
   .shrink-0 {
     flex-shrink: 0;
   }
@@ -503,9 +507,6 @@
   }
   .resize-y {
     resize: vertical;
-  }
-  .grid-cols-\[16px_1fr\] {
-    grid-template-columns: 16px 1fr;
   }
   .grid-cols-\[53px_1fr\] {
     grid-template-columns: 53px 1fr;
@@ -602,6 +603,9 @@
   .rounded {
     border-radius: 0.25rem;
   }
+  .rounded-\[4px\] {
+    border-radius: 4px;
+  }
   .rounded-card {
     border-radius: var(--radius-card);
   }
@@ -614,9 +618,9 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .rounded-t-md {
-    border-top-left-radius: var(--radius-md);
-    border-top-right-radius: var(--radius-md);
+  .rounded-t-\[4px\] {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -648,11 +652,17 @@
   .border-green {
     border-color: var(--color-green);
   }
+  .border-ink {
+    border-color: var(--color-ink);
+  }
   .border-line {
     border-color: var(--color-line);
   }
   .border-line-soft {
     border-color: var(--color-line-soft);
+  }
+  .border-line-strong {
+    border-color: var(--color-line-strong);
   }
   .border-violet {
     border-color: var(--color-violet);
@@ -690,6 +700,9 @@
       background-color: color-mix(in oklab, var(--color-laser) 15%, transparent);
     }
   }
+  .bg-panel {
+    background-color: var(--color-panel);
+  }
   .bg-surface {
     background-color: var(--color-surface);
   }
@@ -716,7 +729,7 @@
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
   .dot-grid {
-    background-image: radial-gradient( circle at 2px 2px, var(--color-dot) 2px, transparent 2px );
+    background-image: radial-gradient( circle at 2px 2px, var(--color-line-strong) 2px, transparent 2px );
     background-size: 20px 20px;
     opacity: 0.25;
   }
@@ -762,6 +775,9 @@
   }
   .p-4 {
     padding: calc(var(--spacing) * 4);
+  }
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
   }
   .px-0\.5 {
     padding-inline: calc(var(--spacing) * 0.5);
@@ -823,6 +839,9 @@
   .pt-2\.5 {
     padding-top: calc(var(--spacing) * 2.5);
   }
+  .pt-3 {
+    padding-top: calc(var(--spacing) * 3);
+  }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
@@ -837,12 +856,6 @@
   }
   .pb-2\.5 {
     padding-bottom: calc(var(--spacing) * 2.5);
-  }
-  .pb-3 {
-    padding-bottom: calc(var(--spacing) * 3);
-  }
-  .pb-4 {
-    padding-bottom: calc(var(--spacing) * 4);
   }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
@@ -927,10 +940,6 @@
     font-size: var(--text-label-md);
     line-height: var(--tw-leading, var(--text-label-md--line-height));
   }
-  .text-label-md\/snug {
-    font-size: var(--text-label-md);
-    line-height: var(--leading-snug);
-  }
   .text-label-sm {
     font-size: var(--text-label-sm);
     line-height: var(--tw-leading, var(--text-label-sm--line-height));
@@ -946,6 +955,10 @@
   .text-tiny {
     font-size: var(--text-tiny);
     line-height: var(--tw-leading, var(--text-tiny--line-height));
+  }
+  .text-tiny\/6 {
+    font-size: var(--text-tiny);
+    line-height: calc(var(--spacing) * 6);
   }
   .text-tiny\/relaxed {
     font-size: var(--text-tiny);
@@ -984,12 +997,6 @@
   }
   .text-green {
     color: var(--color-green);
-  }
-  .text-green\/60 {
-    color: color-mix(in srgb, #0eaaa0 60%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      color: color-mix(in oklab, var(--color-green) 60%, transparent);
-    }
   }
   .text-ink {
     color: var(--color-ink);
@@ -1100,6 +1107,9 @@
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .placeholder\:text-ink-3::placeholder {
+    color: var(--color-ink-3);
   }
   .placeholder\:text-ink-faint::placeholder {
     color: var(--color-ink-faint);
@@ -1227,8 +1237,8 @@
     .xl\:block {
       display: block;
     }
-    .xl\:max-h-\[calc\(100vh-14rem\)\] {
-      max-height: calc(100vh - 14rem);
+    .xl\:max-h-\[calc\(100vh-16rem\)\] {
+      max-height: calc(100vh - 16rem);
     }
     .xl\:grid-cols-\[278px_minmax\(0\,1fr\)_278px\] {
       grid-template-columns: 278px minmax(0,1fr) 278px;
@@ -1478,8 +1488,9 @@
     --color-green: #0a807a;
     --color-laser: #c9545c;
     --color-violet: #6b3fd4;
-    --color-dot: #b6bacd;
+    --color-line-strong: #b6bacd;
     --color-footer: #ddd6f0;
+    --color-panel: rgb(0 0 0 / 0.06);
     --color-wash-edge: #f7f7fa;
     --color-wash-mid: #eceef5;
     color-scheme: light;
@@ -1503,8 +1514,9 @@
   --color-green: #0a807a;
   --color-laser: #c9545c;
   --color-violet: #6b3fd4;
-  --color-dot: #b6bacd;
+  --color-line-strong: #b6bacd;
   --color-footer: #ddd6f0;
+  --color-panel: rgb(0 0 0 / 0.06);
   --color-wash-edge: #f7f7fa;
   --color-wash-mid: #eceef5;
   color-scheme: light;

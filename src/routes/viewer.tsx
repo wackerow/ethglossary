@@ -26,9 +26,22 @@ import {
 import { getLanguageMeta } from "../lib/language-meta"
 import { needsReview } from "../lib/context-types"
 import { resolveLanguage } from "../lib/negotiate-language"
+import { LANG_COOKIE, LANG_COOKIE_MAX_AGE } from "../lib/constants"
 import ethglossaryMark from "../ui/icons/ethglossary.svg"
 
 const app = new OpenAPIHono()
+
+/**
+ * Remember the language a reviewer is actually looking at, so /translate and
+ * the next visit land there. Set on the page rather than by a picker script,
+ * because reaching a language is now a plain link from the Languages tab.
+ */
+function rememberLanguage(c: { header: (k: string, v: string) => void }, lang: string) {
+  c.header(
+    "Set-Cookie",
+    `${LANG_COOKIE}=${lang}; Path=/; Max-Age=${LANG_COOKIE_MAX_AGE}; SameSite=Lax`
+  )
+}
 
 /** Master terms sorted for display, with their canonical key kept alongside. */
 function sortedTerms() {
@@ -117,6 +130,7 @@ app.get("/translate/:lang", async (c) => {
 
   const showAll = c.req.query("all") === "1"
   const { terms, hidden } = await buildTermList(lang, showAll)
+  rememberLanguage(c, lang)
   return c.html(
     <TranslatePage lang={lang} terms={terms} hidden={hidden} showAll={showAll} />
   )
@@ -137,6 +151,8 @@ app.get("/translate/:lang/:termId", async (c) => {
   const translations = await loadTranslations(lang)
   const showAll = c.req.query("all") === "1"
   const { terms, hidden } = await buildTermList(lang, showAll)
+
+  rememberLanguage(c, lang)
 
   const index = terms.findIndex((t) => t.key === key)
   const nextTermId = index >= 0 && index < terms.length - 1 ? terms[index + 1].id : undefined
