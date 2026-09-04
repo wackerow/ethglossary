@@ -36,6 +36,9 @@ export interface TermListItem {
 interface TranslatePageProps {
   lang: string
   terms: TermListItem[]
+  /** Terms held back because this language has nothing to decide on them. */
+  hidden?: number
+  showAll?: boolean
   selected?: {
     key: string
     term: GlossaryTerm
@@ -154,6 +157,8 @@ const SlotRow = ({
 export const TranslatePage = ({
   lang,
   terms,
+  hidden = 0,
+  showAll = false,
   selected,
   nextTermId,
 }: TranslatePageProps) => {
@@ -253,9 +258,25 @@ export const TranslatePage = ({
               </li>
             ))}
           </ul>
-          <p class="border-t border-line-soft px-5 pt-2.5 pb-4 text-tiny text-ink-faint">
-            <span id="term-count">{terms.length}</span> terms
-          </p>
+          <div class="flex flex-col gap-1 border-t border-line-soft px-5 pt-2.5 pb-4 text-tiny text-ink-faint">
+            <p>
+              <span id="term-count">{terms.length}</span> terms
+            </p>
+            {/*
+              Fixed forms -- tickers, standards, and in Latin-script languages
+              the transliterated names -- render as the English string by rule,
+              so they are held back rather than padding the review queue.
+            */}
+            {showAll ? (
+              <a class="text-accent" href={`/translate/${lang}`}>
+                Hide fixed forms
+              </a>
+            ) : hidden > 0 ? (
+              <a class="text-accent" href={`/translate/${lang}?all=1`}>
+                Show {hidden} fixed {hidden === 1 ? "form" : "forms"}
+              </a>
+            ) : null}
+          </div>
         </aside>
 
         {/* ---------- Column 2: detail ---------- */}

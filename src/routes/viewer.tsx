@@ -24,7 +24,8 @@ import {
   SUPPORTED_LANGUAGES,
 } from "../lib/glossary-data"
 import { getLanguageMeta } from "../lib/language-meta"
-import { DEFAULT_LANG, LANG_COOKIE } from "../lib/constants"
+import { needsReview } from "../lib/context-types"
+import { resolveLanguage } from "../lib/negotiate-language"
 import ethglossaryMark from "../ui/icons/ethglossary.svg"
 
 const app = new OpenAPIHono()
@@ -101,20 +102,24 @@ app.get("/style-guide/:termId", (c) => {
 })
 
 app.get("/translate", (c) => {
-  // Land on whichever language the reviewer last picked, not always Spanish.
-  const stored = c.req.header("Cookie")?.match(
-    new RegExp(`(?:^|;\\s*)${LANG_COOKIE}=([^;]+)`)
-  )?.[1]
-  const lang = stored && getLanguageMeta(stored) ? stored : DEFAULT_LANG
-  return c.redirect(`/translate/${lang}`, 302)
+  // Their stored choice, else what the browser asks for, else the chooser --
+  // never an arbitrary pick. See lib/negotiate-language.ts.
+  const lang = resolveLanguage(
+    c.req.header("Cookie"),
+    c.req.header("Accept-Language")
+  )
+  return c.redirect(lang ? `/translate/${lang}` : "/languages", 302)
 })
 
 app.get("/translate/:lang", async (c) => {
   const lang = c.req.param("lang")
   if (!getLanguageMeta(lang)) return c.notFound()
 
-  const terms = await buildTermList(lang)
-  return c.html(<TranslatePage lang={lang} terms={terms} />)
+  const showAll = c.req.query("all") === "1"
+  const { terms, hidden } = await buildTermList(lang, showAll)
+  return c.html(
+    <TranslatePage lang={lang} terms={terms} hidden={hidden} showAll={showAll} />
+  )
 })
 
 app.get("/translate/:lang/:termId", async (c) => {
@@ -130,7 +135,8 @@ app.get("/translate/:lang/:termId", async (c) => {
   if (!key) return c.notFound()
 
   const translations = await loadTranslations(lang)
-  const terms = await buildTermList(lang)
+  const showAll = c.req.query("all") === "1"
+  const { terms, hidden } = await buildTermList(lang, showAll)
 
   const index = terms.findIndex((t) => t.key === key)
   const nextTermId = index >= 0 && index < terms.length - 1 ? terms[index + 1].id : undefined
@@ -141,6 +147,8 @@ app.get("/translate/:lang/:termId", async (c) => {
       terms={terms}
       selected={{ key, term, translation: translations[key] }}
       nextTermId={nextTermId}
+      hidden={hidden}
+      showAll={showAll}
     />
   )
 })
@@ -148,20 +156,34 @@ app.get("/translate/:lang/:termId", async (c) => {
 /**
  * The sidebar list for one language.
  *
+ * Terms with nothing to decide in this language are held back by default --
+ * see needsReview() -- and `hidden` reports how many, so the UI can offer
+ * them rather than pretending they do not exist.
+ *
  * Progress is uniformly "none" until votes exist (Phase 3). The shape is in
  * place so wiring it up later is a data change, not a template change.
  */
-async function buildTermList(lang: string): Promise<TermListItem[]> {
+async function buildTermList(
+  lang: string,
+  showAll: boolean
+): Promise<{ terms: TermListItem[]; hidden: number }> {
   const translations = await loadTranslations(lang)
+  const isLatin = Boolean(getLanguageMeta(lang)?.latinScript)
 
-  return sortedTerms()
-    .filter((t) => translations[t.key])
-    .map((t) => ({
+  const available = sortedTerms().filter((t) => translations[t.key])
+  const reviewable = available.filter((t) => needsReview(t, isLatin))
+
+  const chosen = showAll ? available : reviewable
+
+  return {
+    terms: chosen.map((t) => ({
       key: t.key,
       id: t.id,
       term: t.term,
       progress: "none" as const,
-    }))
+    })),
+    hidden: available.length - reviewable.length,
+  }
 }
 
 export default app
