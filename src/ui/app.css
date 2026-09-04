@@ -54,6 +54,10 @@
   /* The closing panel's vertical gradient, from the Figma. Deliberately dark
      in both themes -- it is a showcase slab, and the design has no light
      variant for it. Change these three and the panel follows. */
+  /* The three bubble sections share one vertical wash, per the Figma. */
+  --color-wash-edge: #1c202f;
+  --color-wash-mid: #0e121f;
+
   --color-deep-top: #2b0758;
   --color-deep-mid: #1c043a;
   --color-deep-bottom: #110225;
@@ -170,6 +174,8 @@
     --color-violet: #6b3fd4;
     --color-dot: #b6bacd;
     --color-footer: #ddd6f0;
+    --color-wash-edge: #f7f7fa;
+    --color-wash-mid: #eceef5;
 
     color-scheme: light;
   }
@@ -197,6 +203,8 @@
   --color-violet: #6b3fd4;
   --color-dot: #b6bacd;
   --color-footer: #ddd6f0;
+  --color-wash-edge: #f7f7fa;
+  --color-wash-mid: #eceef5;
 
   color-scheme: light;
 }
@@ -301,6 +309,17 @@
     var(--color-dot) 2px,
     transparent 2px
   );
+  background-size: 20px 20px;
+  opacity: 0.25;
+}
+
+/*
+ * The hero's grid sits on the artwork, which is the same fixed dark image in
+ * both themes -- so its dots must not follow the theme either, or they vanish
+ * against the picture in one of the two.
+ */
+@utility dot-grid-fixed {
+  background-image: radial-gradient(circle at 2px 2px, #b6bacd 2px, transparent 2px);
   background-size: 20px 20px;
   opacity: 0.25;
 }

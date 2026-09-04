@@ -14,6 +14,8 @@
 import { Layout } from "../layout"
 import { Icon } from "../icon"
 import { listLanguages } from "../../lib/language-meta"
+import { ExternalLink } from "../link"
+import { DISCORD_URL } from "../../lib/constants"
 
 const CTA_PRIMARY =
   "inline-flex items-center gap-2 rounded-full bg-yellow px-5 py-3 text-body font-bold text-on-yellow no-underline transition-[filter] hover:brightness-110 hover:no-underline"
@@ -75,7 +77,7 @@ export const HomePage = () => {
           height="640"
           fetchpriority="high"
         />
-        <div class="dot-grid absolute inset-0" aria-hidden="true" />
+        <div class="dot-grid-fixed absolute inset-0" aria-hidden="true" />
 
         {/* pt clears the nav, which floats over this section. */}
         <div class="wrap relative flex flex-col justify-center gap-4 pt-32 pb-24 drop-shadow-hero md:min-h-[640px]">
@@ -102,6 +104,11 @@ export const HomePage = () => {
         </div>
       </header>
 
+      {/*
+        The three bubble sections share one vertical wash, edge -> mid -> edge,
+        and carry no rules between them. Per the Figma.
+      */}
+      <div class="bg-linear-to-b from-wash-edge via-wash-mid to-wash-edge">
       {/* ---------- What is ETHGlossary ---------- */}
       <section class="wrap relative py-18 md:py-24">
         <div class="grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:items-center">
@@ -130,7 +137,7 @@ export const HomePage = () => {
             </div>
           </div>
 
-          <div class="flex flex-col items-center gap-8">
+          <div class="flex justify-center">
             {/*
               302px image inside two concentric rings: the first 1rem beyond
               the image radius, the second another 0.5rem beyond that.
@@ -154,18 +161,6 @@ export const HomePage = () => {
               />
             </div>
 
-            <div class="flex flex-col gap-6 text-body-lg text-ink-3">
-              <p>
-                Every term carries more than one translation. A word behaves differently in
-                a sentence, in a button label, and in a code identifier &mdash; so the
-                glossary records each of those separately, along with plural forms and
-                grammatical gender where the language needs them.
-              </p>
-              <a class={CTA_OUTLINE} href="/contexts">
-                What the contexts mean
-                <Icon name="arrow-right" size={16} />
-              </a>
-            </div>
           </div>
         </div>
 
@@ -178,7 +173,7 @@ export const HomePage = () => {
       </section>
 
       {/* ---------- How to get started ---------- */}
-      <section class="wrap relative border-t border-line-soft py-18 md:py-24">
+      <section class="wrap relative py-18 md:py-24">
         {/* Non-space-occupying: bleeds off the left edge, per the Figma. */}
         <Icon
           name="glyph-purple-red"
@@ -227,7 +222,7 @@ export const HomePage = () => {
       </section>
 
       {/* ---------- How it works ---------- */}
-      <section class="wrap border-t border-line-soft py-18 md:py-24">
+      <section class="wrap py-18 md:py-24">
         <div class="grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:items-center">
           <div class="flex items-start gap-5">
             <Bubble tone="text-[#4f7fe0]" />
@@ -265,7 +260,19 @@ export const HomePage = () => {
             ))}
           </ol>
         </div>
+
+        <div class="mt-12 flex flex-wrap justify-center gap-4">
+          <ExternalLink class={CTA_PRIMARY} href={DISCORD_URL} hideArrow>
+            <Icon name="discord" size={18} />
+            Contribute
+          </ExternalLink>
+          <a class={CTA_OUTLINE} href="/docs">
+            API Documentation
+            <Icon name="arrow-right" size={16} />
+          </a>
+        </div>
       </section>
+      </div>
 
       {/* ---------- Language grid ---------- */}
       <section class="relative overflow-hidden border-y border-line-soft bg-surface py-18 md:py-24">
@@ -277,7 +284,7 @@ export const HomePage = () => {
           <div class="grid grid-cols-[repeat(auto-fill,minmax(17rem,1fr))] gap-3">
             {languages.map((l) => (
               <a
-                class="flex flex-col gap-0.5 rounded-xl border border-line bg-bg p-4 no-underline transition-colors hover:border-green hover:no-underline"
+                class="flex flex-col gap-0.5 rounded-xl border border-line bg-bg/50 p-4 no-underline transition-colors hover:border-green hover:no-underline"
                 href={`/translate/${l.code}`}
               >
                 <span class="flex flex-wrap items-end gap-2">

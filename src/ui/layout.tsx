@@ -164,7 +164,7 @@ export const Footer = () => (
           aria-label="ETHGlossary on Discord"
           hideArrow
         >
-          <Icon name="discord" size={18} />
+          <Icon name="discord" size={32} />
         </ExternalLink>
         <ExternalLink
           class="grid place-items-center text-white/80 hover:text-white"
@@ -172,7 +172,7 @@ export const Footer = () => (
           aria-label="ETHGlossary on GitHub"
           hideArrow
         >
-          <Icon name="github" size={18} />
+          <Icon name="github" size={32} />
         </ExternalLink>
       </div>
     </div>
