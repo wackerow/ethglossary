@@ -422,7 +422,8 @@
 @utility dot-grid-fixed {
   background-image: radial-gradient(circle at 2px 2px, #b6bacd 2px, transparent 2px);
   background-size: 20px 20px;
-  opacity: 0.25;
+  /* Half the flat-panel grid: over artwork the dots need far less presence. */
+  opacity: 0.125;
 }
 
 /* Theme toggle: show whichever glyph represents the theme you'd switch TO. */
@@ -430,18 +431,18 @@
   display: none;
 
   :root[data-theme="light"] & {
-    display: block;
+    display: inline-flex;
   }
 
   @media (prefers-color-scheme: light) {
     :root:not([data-theme="dark"]) & {
-      display: block;
+      display: inline-flex;
     }
   }
 }
 
 @utility theme-icon-dark {
-  display: block;
+  display: inline-flex;
 
   :root[data-theme="light"] & {
     display: none;

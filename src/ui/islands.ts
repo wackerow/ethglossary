@@ -50,3 +50,53 @@ export const TRANSLATE_ISLAND = `
   }
 })();
 `
+
+/**
+ * Keeps the "choose a language" notice useful on repeat clicks.
+ *
+ * Clicking Translate with no language set would otherwise reload the same
+ * page with the same banner -- nothing visibly happens, so it reads as a
+ * broken link. Instead the click is swallowed and the notice pulses.
+ *
+ * A live region only speaks when its content changes, so the announcement is
+ * pushed through a separate sr-only node. Mutating the visible text would
+ * work too, but the empty frame collapses the box and shifts the page.
+ */
+export const LANGUAGES_ISLAND = `
+(function () {
+  var notice = document.getElementById("lang-notice");
+  var live = document.getElementById("lang-notice-live");
+  if (!notice) return;
+
+  var message = live ? live.getAttribute("data-message") : "";
+  var clearAnim = 0;
+
+  function draw() {
+    notice.classList.remove("notice-pulse");
+    // Reflow, or re-adding the class in the same frame does nothing.
+    void notice.offsetWidth;
+    notice.classList.add("notice-pulse");
+
+    // Empty then refill so the live region has a change to announce.
+    if (live) {
+      live.textContent = "";
+      window.setTimeout(function () { live.textContent = message; }, 60);
+    }
+
+    window.clearTimeout(clearAnim);
+    clearAnim = window.setTimeout(function () {
+      notice.classList.remove("notice-pulse");
+    }, 600);
+  }
+
+  document.addEventListener("click", function (e) {
+    var link = e.target.closest('a[href="/translate"]');
+    if (!link) return;
+    // The notice only renders when no language is set, so this link would
+    // just bounce straight back here.
+    e.preventDefault();
+    draw();
+    notice.scrollIntoView({ block: "nearest" });
+  });
+})();
+`

@@ -23,15 +23,18 @@ export const StyleGuidePage = ({
   terms,
   categories,
   activeCategory,
+  activeLang,
 }: {
   terms: Array<GlossaryTerm & { key: string }>
   categories: string[]
   activeCategory?: string
+  activeLang?: string
 }) => (
   <Layout
     title="Style guide -- ETHGlossary"
     description="Canonical English spelling, casing and usage for Ethereum terminology."
     nav="style-guide"
+    activeLang={activeLang}
   >
     <div class="flex max-w-[62ch] flex-col gap-3 pt-10 pb-5">
       <p class="text-body font-bold text-ink-label">English</p>
@@ -106,11 +109,18 @@ export const StyleGuidePage = ({
   </Layout>
 )
 
-export const TermDetailPage = ({ term }: { term: GlossaryTerm }) => (
+export const TermDetailPage = ({
+  term,
+  activeLang,
+}: {
+  term: GlossaryTerm
+  activeLang?: string
+}) => (
   <Layout
     title={`${term.term} -- ETHGlossary style guide`}
     description={definitionToText(term.definition).slice(0, 155) || term.term}
     nav="style-guide"
+    activeLang={activeLang}
   >
     <div class="flex max-w-[70ch] flex-col gap-8 pt-10 pb-14">
       <div class="flex flex-col gap-3">

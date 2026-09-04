@@ -11,7 +11,7 @@ import { Layout } from "../layout"
 import { CONTEXT_TYPES } from "../../lib/context-types"
 import { listLanguages } from "../../lib/language-meta"
 
-export const ContextsPage = () => {
+export const ContextsPage = ({ activeLang }: { activeLang?: string }) => {
   const languages = listLanguages()
   const noPlurals = languages.filter((l) => l.noPlurals)
 
@@ -20,6 +20,7 @@ export const ContextsPage = () => {
       title="Translation contexts -- ETHGlossary"
       description="What prose, heading, tag, UI, code and plural forms mean, and why a term needs a separate translation for each."
       nav="translate"
+      activeLang={activeLang}
     >
       <div class="flex max-w-[62ch] flex-col gap-3 pt-10 pb-6">
         <p class="text-body font-bold text-ink-label">Reference</p>
