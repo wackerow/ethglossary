@@ -133,3 +133,35 @@ export function slotValue(
 
   return entry.contexts?.[context]?.term ?? null
 }
+
+/**
+ * Whether a term is worth putting in front of a reviewer for one language.
+ *
+ * The translate view exists to settle how a term should read in the target
+ * language. Some entries have nothing to settle, and listing them just makes
+ * the sidebar confusing -- "Albert Einstein" in a Spanish review queue being
+ * the case that prompted this.
+ *
+ * The rule follows the v1 policy in docs/translation-policy.md:
+ *
+ *  - `always_latin` / `keep_latin` -- the term IS the English string, by rule.
+ *    Tickers, standards, RPC identifiers. Nothing to vote on in any language.
+ *  - `transliterate` -- real work in a non-Latin script, a no-op in a Latin
+ *    one, where the output is character-for-character the English. All six
+ *    person-name entries are in this bucket.
+ *  - everything else (`translate`, `calque`, ...) -- always reviewable.
+ *
+ * Filtered terms are not deleted: /translate/:lang?all=1 shows the full list,
+ * and every term stays reachable by direct URL.
+ */
+export function needsReview(
+  term: { script_rule?: string },
+  languageIsLatinScript: boolean
+): boolean {
+  const rule = term.script_rule
+
+  if (rule === "always_latin" || rule === "keep_latin") return false
+  if (rule === "transliterate") return !languageIsLatinScript
+
+  return true
+}
