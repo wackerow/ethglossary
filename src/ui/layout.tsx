@@ -9,8 +9,14 @@
 import type { Child } from "hono/jsx"
 import { raw } from "hono/html"
 import { Icon } from "./icon"
+import { COMING_SOON_ISLAND } from "./coming-soon"
+import moon from "lucide-static/icons/moon.svg"
+import sun from "lucide-static/icons/sun.svg"
+import discord from "./icons/discord.svg"
+import ethglossary from "./icons/ethglossary.svg"
+import github from "./icons/github.svg"
 import { ExternalLink } from "./link"
-import { DISCORD_URL, GITHUB_URL } from "../lib/constants"
+import { ACCOUNTS_ENABLED, COMING_SOON_TITLE, DISCORD_URL, GITHUB_URL } from "../lib/constants"
 
 export type NavKey = "translate" | "languages" | "style-guide" | null
 
@@ -33,6 +39,8 @@ interface LayoutProps {
   island?: string
   /** Wordmark color. Pages whose nav sits over the hero art pass "hero". */
   brand?: BrandTone
+  /** Language code the visitor has chosen, shown on the Translate tab. */
+  activeLang?: string
   children?: Child
 }
 
@@ -76,7 +84,15 @@ const NAV_ITEMS: Array<{ key: NavKey; href: string; label: string }> = [
   { key: "style-guide", href: "/style-guide", label: "Style guide" },
 ]
 
-export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: BrandTone }) => (
+export const Nav = ({
+  active,
+  brand = "default",
+  activeLang,
+}: {
+  active: NavKey
+  brand?: BrandTone
+  activeLang?: string
+}) => (
   <nav
     class={`z-20 h-16 ${
       brand === "hero"
@@ -94,7 +110,7 @@ export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: Bra
         }`}
         href="/"
       >
-        <Icon name="ethglossary" size={26} />
+        <Icon svg={ethglossary} class="h-[26px]" />
         ETHGlossary
       </a>
 
@@ -118,6 +134,13 @@ export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: Bra
                 aria-current={active === item.key ? "page" : undefined}
               >
                 {item.label}
+                {/*
+                  The Translate tab carries the chosen language, so the choice
+                  the cookie is making is visible from anywhere on the site.
+                */}
+                {item.key === "translate" && activeLang ? (
+                  <span class="ml-1 font-normal opacity-70">({activeLang})</span>
+                ) : null}
               </a>
             </li>
           ))}
@@ -125,24 +148,38 @@ export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: Bra
       )}
 
       <div class="ml-auto flex items-center gap-3">
-        <a
-          class="rounded-full bg-yellow px-4 py-2 text-label-md font-bold text-on-yellow no-underline transition-[filter] hover:brightness-110 hover:no-underline"
-          href="/signin"
-        >
-          Sign in
-        </a>
+        {ACCOUNTS_ENABLED ? (
+          <a
+            class="rounded-full bg-yellow px-4 py-2 text-label-md font-bold text-on-yellow no-underline transition-[filter] hover:brightness-110 hover:no-underline"
+            href="/signin"
+          >
+            Sign in
+          </a>
+        ) : (
+          <button
+            type="button"
+            class="cursor-not-allowed whitespace-nowrap rounded-full bg-yellow px-4 py-2 text-label-md font-bold text-on-yellow"
+            aria-disabled="true"
+            data-coming-soon={COMING_SOON_TITLE}
+          >
+            Sign in
+          </button>
+        )}
         <button
           id="theme-toggle"
-          class={`grid size-8 place-items-center rounded-md ${
-            brand === "hero"
-              ? "text-white/80 hover:bg-white/10 hover:text-white"
-              : "text-ink-dim hover:bg-surface-2 hover:text-ink"
-          }`}
+          /*
+            Matches the Sign in button beside it. --color-accent IS the brand
+            yellow on a dark ground; on a light one it becomes violet, because
+            the same yellow measures 1.29:1 there and the control would vanish.
+          */
+          class={`grid size-8 place-items-center rounded-md text-accent ${
+            brand === "hero" ? "hover:bg-white/10" : "hover:bg-surface-2"
+          } hover:brightness-110`}
           type="button"
           aria-label="Switch theme"
         >
-          <Icon name="sun" size={18} class="theme-icon-light" />
-          <Icon name="moon" size={18} class="theme-icon-dark" />
+          <Icon svg={sun} class="size-[18px] theme-icon-light" />
+          <Icon svg={moon} class="size-[18px] theme-icon-dark" />
         </button>
       </div>
     </div>
@@ -165,7 +202,7 @@ export const Footer = () => (
           aria-label="ETHGlossary on Discord"
           hideArrow
         >
-          <Icon name="discord" size={32} />
+          <Icon svg={discord} class="size-8" />
         </ExternalLink>
         <ExternalLink
           class="grid place-items-center text-white/80 hover:text-white"
@@ -173,7 +210,7 @@ export const Footer = () => (
           aria-label="ETHGlossary on GitHub"
           hideArrow
         >
-          <Icon name="github" size={32} />
+          <Icon svg={github} class="size-8" />
         </ExternalLink>
       </div>
     </div>
@@ -187,6 +224,7 @@ export const Layout = ({
   bare,
   island,
   brand = "default",
+  activeLang,
   children,
 }: LayoutProps) => (
   <html lang="en">
@@ -216,10 +254,11 @@ export const Layout = ({
       <script>{raw(THEME_SCRIPT)}</script>
     </head>
     <body>
-      <Nav active={nav} brand={brand} />
+      <Nav active={nav} brand={brand} activeLang={activeLang} />
       {bare ? children : <main class="wrap">{children}</main>}
       <Footer />
       <script>{raw(TOGGLE_SCRIPT)}</script>
+      {ACCOUNTS_ENABLED ? null : <script>{raw(COMING_SOON_ISLAND)}</script>}
       {island ? <script>{raw(island)}</script> : null}
     </body>
   </html>

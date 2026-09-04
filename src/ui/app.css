@@ -80,41 +80,51 @@
   /* Named after the Figma text styles, so the markup reads like the design.
      Sizes are px in Figma; rem here at the 16px root. */
 
-  /* Hero h1 -- Noto Serif Bold 72/80 */
-  --text-h1: 4.5rem;
-  --text-h1--line-height: 5rem;
+  /*
+   * Display sizes are fluid. The Figma only specifies desktop, and at 64px a
+   * single word like "ETHGlossary?" is wider than a phone -- no amount of
+   * max-width helps, because the word itself cannot break. Each clamp hits
+   * the Figma value at >=1440 and roughly halves by 360.
+   *
+   * Line heights are ratios rather than px for the same reason: a fixed 80px
+   * leading on 36px type is a hole in the layout.
+   */
+
+  /* Hero h1 -- Noto Serif Bold 72/80 at desktop */
+  --text-h1: clamp(2.25rem, 1.2rem + 4.5vw, 4.5rem);
+  --text-h1--line-height: 1.11;
   --text-h1--letter-spacing: -0.01em;
 
   /* Landing section h2 -- Noto Serif Bold 64/72, tracking -0.64px */
-  --text-h2: 4rem;
-  --text-h2--line-height: 4.5rem;
+  --text-h2: clamp(1.75rem, 1.1rem + 3.9vw, 4rem);
+  --text-h2--line-height: 1.125;
   --text-h2--letter-spacing: -0.01em;
 
-  /* "Translation languages" -- Noto Serif Bold 44, normal leading, -0.44px */
-  --text-h2-sm: 2.75rem;
+  /* "Translation languages" -- Noto Serif Bold 44, -0.44px */
+  --text-h2-sm: clamp(1.75rem, 1.28rem + 2.1vw, 2.75rem);
   --text-h2-sm--line-height: 1.15;
   --text-h2-sm--letter-spacing: -0.01em;
 
   /* Headers/Header-2-Medium -- Noto Serif Medium 32/40 */
-  --text-h3: 2rem;
-  --text-h3--line-height: 2.5rem;
+  --text-h3: clamp(1.5rem, 1.34rem + 0.8vw, 2rem);
+  --text-h3--line-height: 1.25;
 
   /* Header 4 Sans -- Noto Sans Bold 20/28, the in-page section heading */
   --text-h4: 1.25rem;
   --text-h4--line-height: 1.75rem;
 
   /* Hero lede -- Noto Sans Medium 24/32 */
-  --text-lede: 1.5rem;
-  --text-lede--line-height: 2rem;
+  --text-lede: clamp(1.125rem, 0.97rem + 0.7vw, 1.5rem);
+  --text-lede--line-height: 1.34;
 
   /* Card and step titles on the landing page -- 24/32. Cards tighten this
      to leading-6, matching the 24/24 in the frame. */
-  --text-h5: 1.5rem;
-  --text-h5--line-height: 2rem;
+  --text-h5: clamp(1.25rem, 1.16rem + 0.4vw, 1.5rem);
+  --text-h5--line-height: 1.34;
 
   /* Landing section body -- Noto Sans Medium/Regular 18/26 */
-  --text-body-lg: 1.125rem;
-  --text-body-lg--line-height: 1.625rem;
+  --text-body-lg: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --text-body-lg--line-height: 1.45;
 
   /* Body/Body-lg and Body-lg-bold -- Noto Sans 16/24 */
   --text-body: 1rem;
@@ -222,6 +232,11 @@
    ========================================================================== */
 
 @layer base {
+  /* Nothing should be able to force a horizontal scrollbar. */
+  h1, h2, h3, h4, p {
+    overflow-wrap: break-word;
+  }
+
   body {
     background-color: var(--color-bg);
     color: var(--color-ink-2);
@@ -245,7 +260,63 @@
   }
 
   [hidden] {
-    display: none !important;
+    display: none;
+  }
+}
+
+@layer components {
+  /*
+   * Draws the eye back to a notice that is already on screen, for when the
+   * action that produced it is repeated and the page does not change.
+   */
+  @keyframes notice-pulse {
+    0% { opacity: 1; }
+    35% { opacity: 0.25; }
+    100% { opacity: 1; }
+  }
+
+  .notice-pulse {
+    animation: notice-pulse 450ms ease-in-out;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .notice-pulse {
+      animation: none;
+      outline: 2px solid var(--color-accent);
+      outline-offset: 2px;
+    }
+  }
+
+  /* Click-to-explain bubble for account-gated controls. See coming-soon.ts. */
+  .coming-soon-tip {
+    position: absolute;
+    z-index: 50;
+    max-width: min(18rem, calc(100vw - 1rem));
+    border-radius: 6px;
+    background: var(--color-surface-2);
+    border: 1px solid var(--color-line);
+    padding: 0.5rem 0.75rem;
+    font-size: var(--text-tiny);
+    line-height: var(--text-tiny--line-height);
+    color: var(--color-ink-2);
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.35);
+  }
+
+  /*
+   * Base styles for <Icon>. In the components layer on purpose: a caller's
+   * `hidden`, `block` or the theme-toggle utilities are all in the utilities
+   * layer and therefore win, instead of tying with an inline-flex the
+   * component hardcoded.
+   */
+  .icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+  }
+
+  .icon > svg {
+    height: 100%;
+    width: auto;
   }
 }
 
@@ -296,6 +367,32 @@
   }
   & li {
     margin-block-end: 0.25rem;
+  }
+}
+
+/*
+ * Stroke weight that survives scaling.
+ *
+ * Lucide is drawn on a 24-unit grid at stroke-width 2, so blowing a glyph up
+ * to 104px would render an 8.7px stroke. vector-effect: non-scaling-stroke
+ * takes the width out of the coordinate system, which makes the number here
+ * device pixels -- and means one class holds at every size the icon renders.
+ */
+@utility icon-stroke-2 {
+  & svg {
+    stroke-width: 2;
+  }
+  & svg * {
+    vector-effect: non-scaling-stroke;
+  }
+}
+
+@utility icon-stroke-4 {
+  & svg {
+    stroke-width: 4;
+  }
+  & svg * {
+    vector-effect: non-scaling-stroke;
   }
 }
 
