@@ -44,6 +44,13 @@
   --color-laser: #ff8c8c;       /* accent/laser */
   --color-violet: #aa7fff;   /* accent-c */
 
+  /* Fixed dark ground the hero artwork composites onto, in both themes --
+     it is a night scene and only reads correctly over that color. */
+  --color-hero-ground: #1c202f;
+  /* Dot grid and the footer panel, both from the Figma. */
+  --color-dot: #49506b;
+  --color-footer: #3f375d;
+
   /* The closing panel's vertical gradient, from the Figma. Deliberately dark
      in both themes -- it is a showcase slab, and the design has no light
      variant for it. Change these three and the panel follows. */
@@ -161,6 +168,8 @@
     --color-green: #0a807a;
     --color-laser: #c9545c;
     --color-violet: #6b3fd4;
+    --color-dot: #b6bacd;
+    --color-footer: #ddd6f0;
 
     color-scheme: light;
   }
@@ -186,6 +195,8 @@
   --color-green: #0a807a;
   --color-laser: #c9545c;
   --color-violet: #6b3fd4;
+  --color-dot: #b6bacd;
+  --color-footer: #ddd6f0;
 
   color-scheme: light;
 }
@@ -274,6 +285,24 @@
   & li {
     margin-block-end: 0.25rem;
   }
+}
+
+/*
+ * The dot grid behind the hero and the language section.
+ *
+ * A repeating radial-gradient rather than a thousand <span>s: 4px dots on a
+ * 20px pitch, which is the Figma's 2px radius with 16px of space between.
+ * The 25% opacity lives on this layer so the dots read the same over artwork
+ * and over a flat panel.
+ */
+@utility dot-grid {
+  background-image: radial-gradient(
+    circle at 2px 2px,
+    var(--color-dot) 2px,
+    transparent 2px
+  );
+  background-size: 20px 20px;
+  opacity: 0.25;
 }
 
 /* Theme toggle: show whichever glyph represents the theme you'd switch TO. */

@@ -8,10 +8,6 @@
     --font-mono: ui-monospace, "Noto Sans Mono", "DejaVu Sans Mono", monospace;
     --color-white: #fff;
     --spacing: 0.25rem;
-    --text-xs: 0.75rem;
-    --text-xs--line-height: calc(1 / 0.75);
-    --text-lg: 1.125rem;
-    --text-lg--line-height: calc(1.75 / 1.125);
     --font-weight-medium: 500;
     --font-weight-bold: 700;
     --tracking-tight: -0.025em;
@@ -43,6 +39,9 @@
     --color-green: #0eaaa0;
     --color-laser: #ff8c8c;
     --color-violet: #aa7fff;
+    --color-hero-ground: #1c202f;
+    --color-dot: #49506b;
+    --color-footer: #3f375d;
     --color-deep-top: #2b0758;
     --color-deep-mid: #1c043a;
     --color-deep-bottom: #110225;
@@ -229,6 +228,9 @@
   }
 }
 @layer utilities {
+  .pointer-events-none {
+    pointer-events: none;
+  }
   .invisible {
     visibility: hidden;
   }
@@ -261,6 +263,12 @@
   .sticky {
     position: sticky;
   }
+  .-inset-4 {
+    inset: calc(var(--spacing) * -4);
+  }
+  .-inset-6 {
+    inset: calc(var(--spacing) * -6);
+  }
   .inset-0 {
     inset: 0px;
   }
@@ -269,6 +277,18 @@
   }
   .top-0 {
     top: 0px;
+  }
+  .top-1\/2 {
+    top: calc(1 / 2 * 100%);
+  }
+  .right-0 {
+    right: 0px;
+  }
+  .-bottom-24 {
+    bottom: calc(var(--spacing) * -24);
+  }
+  .-left-16 {
+    left: calc(var(--spacing) * -16);
   }
   .z-20 {
     z-index: 20;
@@ -403,6 +423,10 @@
     width: 53px;
     height: 53px;
   }
+  .size-\[302px\] {
+    width: 302px;
+    height: 302px;
+  }
   .size-full {
     width: 100%;
     height: 100%;
@@ -460,6 +484,10 @@
   }
   .border-collapse {
     border-collapse: collapse;
+  }
+  .-translate-y-1\/2 {
+    --tw-translate-y: calc(calc(1 / 2 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-scale-x-100 {
     --tw-scale-x: calc(100% * -1);
@@ -566,6 +594,9 @@
   .overflow-y-auto {
     overflow-y: auto;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-card {
     border-radius: var(--radius-card);
   }
@@ -577,6 +608,10 @@
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
+  }
+  .rounded-t-md {
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
   }
   .border {
     border-style: var(--tw-border-style);
@@ -626,11 +661,17 @@
   .bg-callout {
     background-color: var(--color-callout);
   }
+  .bg-footer {
+    background-color: var(--color-footer);
+  }
   .bg-green\/15 {
     background-color: color-mix(in srgb, #0eaaa0 15%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-green) 15%, transparent);
     }
+  }
+  .bg-hero-ground {
+    background-color: var(--color-hero-ground);
   }
   .bg-laser\/15 {
     background-color: color-mix(in srgb, #ff8c8c 15%, transparent);
@@ -662,6 +703,11 @@
       --tw-gradient-position: to bottom in oklab;
     }
     background-image: linear-gradient(var(--tw-gradient-stops));
+  }
+  .dot-grid {
+    background-image: radial-gradient( circle at 2px 2px, var(--color-dot) 2px, transparent 2px );
+    background-size: 20px 20px;
+    opacity: 0.25;
   }
   .from-deep-top {
     --tw-gradient-from: var(--color-deep-top);
@@ -789,6 +835,9 @@
   }
   .text-left {
     text-align: left;
+  }
+  .align-\[-0\.1em\] {
+    vertical-align: -0.1em;
   }
   .align-top {
     vertical-align: top;
@@ -943,6 +992,12 @@
   .text-white {
     color: var(--color-white);
   }
+  .text-white\/70 {
+    color: color-mix(in srgb, #fff 70%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      color: color-mix(in oklab, var(--color-white) 70%, transparent);
+    }
+  }
   .text-white\/80 {
     color: color-mix(in srgb, #fff 80%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -980,6 +1035,12 @@
   }
   .opacity-15 {
     opacity: 15%;
+  }
+  .opacity-25 {
+    opacity: 25%;
+  }
+  .opacity-60 {
+    opacity: 60%;
   }
   .opacity-75 {
     opacity: 75%;
@@ -1134,6 +1195,9 @@
     }
   }
   @media (width >= 80rem) {
+    .xl\:block {
+      display: block;
+    }
     .xl\:max-h-\[calc\(100vh-14rem\)\] {
       max-height: calc(100vh - 14rem);
     }
@@ -1385,6 +1449,8 @@
     --color-green: #0a807a;
     --color-laser: #c9545c;
     --color-violet: #6b3fd4;
+    --color-dot: #b6bacd;
+    --color-footer: #ddd6f0;
     color-scheme: light;
   }
 }
@@ -1406,6 +1472,8 @@
   --color-green: #0a807a;
   --color-laser: #c9545c;
   --color-violet: #6b3fd4;
+  --color-dot: #b6bacd;
+  --color-footer: #ddd6f0;
   color-scheme: light;
 }
 :root {
@@ -1439,6 +1507,21 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
 }
 @property --tw-scale-x {
   syntax: "*";
@@ -1647,6 +1730,9 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-translate-z: 0;
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;

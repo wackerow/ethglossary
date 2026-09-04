@@ -61,15 +61,22 @@ export const HomePage = () => {
       brand="hero"
     >
       {/* ---------- Hero: frame 1:390, 1440x640 ---------- */}
-      <header class="relative overflow-hidden border-b border-line-soft">
+      <header class="relative overflow-hidden border-b border-line-soft bg-hero-ground">
+        {/*
+          The artwork sits at 60% over a fixed dark ground rather than having
+          that opacity baked into the file, so the hero reads identically in
+          both themes and the source PNG stays untouched.
+        */}
         <img
           src="/img/ethglossary-hero.png"
           alt=""
-          class="absolute inset-0 size-full object-cover object-right"
+          class="absolute inset-0 size-full object-cover object-right opacity-60"
           width="1440"
           height="640"
           fetchpriority="high"
         />
+        <div class="dot-grid absolute inset-0" aria-hidden="true" />
+
         {/* pt clears the nav, which floats over this section. */}
         <div class="wrap relative flex flex-col justify-center gap-4 pt-32 pb-24 drop-shadow-hero md:min-h-[640px]">
           {/*
@@ -96,7 +103,7 @@ export const HomePage = () => {
       </header>
 
       {/* ---------- What is ETHGlossary ---------- */}
-      <section class="wrap py-18 md:py-24">
+      <section class="wrap relative py-18 md:py-24">
         <div class="grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:items-center">
           <div class="flex flex-col gap-8">
             <div class="flex items-start gap-5">
@@ -123,23 +130,61 @@ export const HomePage = () => {
             </div>
           </div>
 
-          <div class="flex flex-col gap-6 text-body-lg text-ink-3">
-            <p>
-              Every term carries more than one translation. A word behaves differently in a
-              sentence, in a button label, and in a code identifier &mdash; so the glossary
-              records each of those separately, along with plural forms and grammatical
-              gender where the language needs them.
-            </p>
-            <a class={CTA_OUTLINE} href="/contexts">
-              What the contexts mean
-              <Icon name="arrow-right" size={16} />
-            </a>
+          <div class="flex flex-col items-center gap-8">
+            {/*
+              302px image inside two concentric rings: the first 1rem beyond
+              the image radius, the second another 0.5rem beyond that.
+            */}
+            <div class="relative grid size-[302px] shrink-0 place-items-center">
+              <span
+                class="absolute -inset-4 rounded-full border border-accent"
+                aria-hidden="true"
+              />
+              <span
+                class="absolute -inset-6 rounded-full border border-accent"
+                aria-hidden="true"
+              />
+              <img
+                src="/img/globe-dining-room.png"
+                alt=""
+                width="302"
+                height="302"
+                loading="lazy"
+                class="size-[302px] rounded-full object-cover"
+              />
+            </div>
+
+            <div class="flex flex-col gap-6 text-body-lg text-ink-3">
+              <p>
+                Every term carries more than one translation. A word behaves differently in
+                a sentence, in a button label, and in a code identifier &mdash; so the
+                glossary records each of those separately, along with plural forms and
+                grammatical gender where the language needs them.
+              </p>
+              <a class={CTA_OUTLINE} href="/contexts">
+                What the contexts mean
+                <Icon name="arrow-right" size={16} />
+              </a>
+            </div>
           </div>
         </div>
+
+        {/* Floats past the section edge on the right, between this and the next. */}
+        <Icon
+          name="glyph-message-bubble"
+          size={251}
+          class="pointer-events-none absolute right-0 -bottom-24 hidden opacity-25 xl:block"
+        />
       </section>
 
       {/* ---------- How to get started ---------- */}
-      <section class="wrap border-t border-line-soft py-18 md:py-24">
+      <section class="wrap relative border-t border-line-soft py-18 md:py-24">
+        {/* Non-space-occupying: bleeds off the left edge, per the Figma. */}
+        <Icon
+          name="glyph-purple-red"
+          size={491}
+          class="pointer-events-none absolute top-1/2 -left-16 hidden -translate-y-1/2 opacity-25 xl:block"
+        />
         <div class="mb-8 flex items-start gap-5">
           <Bubble tone="text-violet" />
           <h2 class="max-w-[14ch] font-serif text-h2 font-bold text-ink">
@@ -223,8 +268,9 @@ export const HomePage = () => {
       </section>
 
       {/* ---------- Language grid ---------- */}
-      <section class="border-y border-line-soft bg-surface py-18 md:py-24">
-        <div class="wrap">
+      <section class="relative overflow-hidden border-y border-line-soft bg-surface py-18 md:py-24">
+        <div class="dot-grid absolute inset-0" aria-hidden="true" />
+        <div class="wrap relative">
           <h2 class="mb-8 text-center font-serif text-h2-sm font-bold text-ink">
             Translation languages
           </h2>
