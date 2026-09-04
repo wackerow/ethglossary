@@ -47,9 +47,11 @@
   /* Fixed dark ground the hero artwork composites onto, in both themes --
      it is a night scene and only reads correctly over that color. */
   --color-hero-ground: #1c202f;
-  /* Dot grid and the footer panel, both from the Figma. */
-  --color-dot: #49506b;
+  /* #49506b in the Figma: the dot grid and the search-input border. */
+  --color-line-strong: #49506b;
   --color-footer: #3f375d;
+  /* Terms panel -- a black wash, so it reads darker than whatever is behind. */
+  --color-panel: rgb(0 0 0 / 0.18);
 
   /* The closing panel's vertical gradient, from the Figma. Deliberately dark
      in both themes -- it is a showcase slab, and the design has no light
@@ -172,8 +174,9 @@
     --color-green: #0a807a;
     --color-laser: #c9545c;
     --color-violet: #6b3fd4;
-    --color-dot: #b6bacd;
+    --color-line-strong: #b6bacd;
     --color-footer: #ddd6f0;
+    --color-panel: rgb(0 0 0 / 0.06);
     --color-wash-edge: #f7f7fa;
     --color-wash-mid: #eceef5;
 
@@ -201,8 +204,9 @@
   --color-green: #0a807a;
   --color-laser: #c9545c;
   --color-violet: #6b3fd4;
-  --color-dot: #b6bacd;
+  --color-line-strong: #b6bacd;
   --color-footer: #ddd6f0;
+  --color-panel: rgb(0 0 0 / 0.06);
   --color-wash-edge: #f7f7fa;
   --color-wash-mid: #eceef5;
 
@@ -306,7 +310,7 @@
 @utility dot-grid {
   background-image: radial-gradient(
     circle at 2px 2px,
-    var(--color-dot) 2px,
+    var(--color-line-strong) 2px,
     transparent 2px
   );
   background-size: 20px 20px;

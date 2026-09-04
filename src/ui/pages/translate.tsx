@@ -21,7 +21,7 @@ import { TRANSLATE_ISLAND } from "../islands"
 import { CONTEXT_BY_ID, applicableContexts } from "../../lib/context-types"
 import type { ContextId } from "../../lib/context-types"
 import { sanitizeDefinition } from "../../lib/sanitize"
-import { listLanguages, getLanguageMeta } from "../../lib/language-meta"
+import { getLanguageMeta } from "../../lib/language-meta"
 import type { GlossaryTerm, TranslationEntry } from "../../lib/glossary-data"
 
 export type ProgressState = "none" | "partial" | "full"
@@ -50,10 +50,16 @@ interface TranslatePageProps {
 /** Body-lg-bold in the Figma's label grey. */
 const EYEBROW = "text-body font-bold text-ink-label"
 
-const PROGRESS_TONE: Record<ProgressState, string> = {
-  none: "text-ink-faint",
-  partial: "text-green/60",
-  full: "text-green",
+/**
+ * The Figma draws two states: an outline mark with secondary text, and a
+ * filled mark with accent/green text. "partial" interpolates between them --
+ * green mark, secondary text -- for a term reviewed in some contexts but not
+ * all. See docs/context-types.md for how coverage is computed.
+ */
+const PROGRESS_TONE: Record<ProgressState, { icon: string; text: string }> = {
+  none: { icon: "text-ink-faint", text: "text-ink-2" },
+  partial: { icon: "text-green", text: "text-ink-2" },
+  full: { icon: "text-green", text: "text-green" },
 }
 
 const SlotRow = ({
@@ -164,8 +170,6 @@ export const TranslatePage = ({
 }: TranslatePageProps) => {
   const meta = getLanguageMeta(lang)
   const dir = meta?.dir ?? "ltr"
-  const languages = listLanguages()
-
   const slots: Array<{
     context: ContextId
     value: string
@@ -201,32 +205,16 @@ export const TranslatePage = ({
       nav="translate"
       island={TRANSLATE_ISLAND}
     >
-      <div class="flex flex-wrap items-center gap-4 pt-5">
-        <label class="text-label-md text-ink-dim" for="lang-picker">
-          Translating into
-        </label>
-        <select
-          id="lang-picker"
-          class="rounded-md border border-line bg-surface px-3 py-1.5 text-label-md text-ink-2 focus:border-accent focus:outline-none"
-          aria-label="Choose a language"
-        >
-          {languages.map((l) => (
-            <option value={l.code} selected={l.code === lang}>
-              {l.endonym} &mdash; {l.name}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <div class="grid items-start gap-8 py-8 pb-16 xl:grid-cols-[278px_minmax(0,1fr)_278px]">
+      <div class="grid items-start gap-8 pt-8 pb-16 xl:grid-cols-[278px_minmax(0,1fr)_278px]">
         {/* ---------- Column 1: term list ---------- */}
-        <aside class="rounded-card border border-line-soft bg-surface">
-          <h2 class="px-5 pt-5 pb-3 text-body font-bold text-ink">Terms</h2>
-          <div class="px-5 pb-3">
+        {/* Figma 21:854: a black wash, square corners, no border, 24px pad. */}
+        <aside class="bg-panel p-6">
+          <h2 class="text-body font-bold text-ink">Terms</h2>
+          <div class="pt-3">
             <input
               type="search"
               id="term-search"
-              class="w-full rounded-md border border-line bg-bg px-3 py-2 text-label-md text-ink-2 placeholder:text-ink-faint focus:border-accent focus:outline-none"
+              class="w-full rounded-[4px] border border-line-strong bg-transparent p-2 text-tiny/6 text-ink-2 placeholder:text-ink-3 focus:border-accent focus:outline-none"
               placeholder="Search terms..."
               autocomplete="off"
               aria-label="Search terms"
@@ -234,31 +222,31 @@ export const TranslatePage = ({
           </div>
           <ul
             id="term-list"
-            class="flex max-h-[min(60vh,32rem)] flex-col gap-0.5 overflow-y-auto px-3 pb-3 xl:max-h-[calc(100vh-14rem)]"
+            class="flex max-h-[min(60vh,32rem)] flex-col gap-1 overflow-y-auto pt-5 pb-6 xl:max-h-[calc(100vh-16rem)]"
           >
             {terms.map((t) => (
               <li>
                 <a
-                  class={`grid grid-cols-[16px_1fr] items-start gap-3 rounded-md p-2 text-label-md/snug no-underline hover:bg-surface-2 hover:text-ink hover:no-underline ${
+                  class={`flex items-center gap-2 px-3 py-2 text-body no-underline hover:bg-surface-2 hover:text-ink hover:no-underline ${
                     selected?.key === t.key
-                      ? "bg-surface-2 font-bold text-ink"
-                      : "text-ink-3"
+                      ? "border-b border-ink bg-surface-2 font-bold text-ink"
+                      : PROGRESS_TONE[t.progress].text
                   }`}
                   href={`/translate/${lang}/${t.id}`}
                   aria-current={selected?.key === t.key ? "true" : undefined}
                   data-term={t.term.toLowerCase()}
                 >
                   <Icon
-                    name="badge-check"
+                    name={t.progress === "full" ? "badge-check" : "badge-check"}
                     size={16}
-                    class={`mt-0.5 shrink-0 ${PROGRESS_TONE[t.progress]}`}
+                    class={`shrink-0 ${PROGRESS_TONE[t.progress].icon}`}
                   />
-                  <span>{t.term}</span>
+                  <span class="min-w-0 flex-1">{t.term}</span>
                 </a>
               </li>
             ))}
           </ul>
-          <div class="flex flex-col gap-1 border-t border-line-soft px-5 pt-2.5 pb-4 text-tiny text-ink-faint">
+          <div class="flex flex-col gap-1 border-t border-line-soft pt-2.5 text-tiny text-ink-faint">
             <p>
               <span id="term-count">{terms.length}</span> terms
             </p>

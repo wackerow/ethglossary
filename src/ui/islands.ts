@@ -5,30 +5,13 @@
  * server, and these only add filtering and navigation on top of markup that
  * already works without JavaScript. Anything that needs a round trip (voting,
  * suggestions) waits for Phase 3.
+ *
+ * Switching language is a link now, not a picker -- the Languages tab in the
+ * nav is the switcher, and /translate/:lang records the choice server-side.
  */
 
 export const TRANSLATE_ISLAND = `
 (function () {
-  // ---- Language picker: navigate, preserving the selected term ----------
-  var picker = document.getElementById("lang-picker");
-  if (picker) {
-    // Remember the choice so /translate lands on it next visit. A cookie
-    // rather than localStorage because the redirect happens on the server,
-    // before any script runs.
-    document.cookie =
-      "ethglossary-lang=" + picker.value + ";path=/;max-age=31536000;samesite=lax";
-
-    picker.addEventListener("change", function () {
-      document.cookie =
-        "ethglossary-lang=" + picker.value + ";path=/;max-age=31536000;samesite=lax";
-      var parts = window.location.pathname.split("/").filter(Boolean);
-      // /translate/:lang            -> ["translate", lang]
-      // /translate/:lang/:termId    -> ["translate", lang, termId]
-      var termId = parts.length > 2 ? "/" + parts.slice(2).join("/") : "";
-      window.location.pathname = "/translate/" + picker.value + termId;
-    });
-  }
-
   // ---- Term search: filter the rendered list, no refetch ----------------
   var search = document.getElementById("term-search");
   var list = document.getElementById("term-list");
