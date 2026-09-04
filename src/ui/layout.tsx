@@ -189,11 +189,11 @@ export const Nav = ({
 export const Footer = () => (
   <footer class="bg-footer text-white">
     <div class="wrap flex flex-wrap items-center justify-between gap-4 py-8">
-      <p class="text-tiny text-white/70">
+      <p class="text-label-sm text-white/70">
         An open-source project for the Ethereum community. MPL-2.0.
       </p>
       <div class="flex items-center gap-5">
-        <a class="text-tiny text-white/80 hover:text-white" href="/docs">
+        <a class="text-label-sm text-white/80 hover:text-white" href="/docs">
           API docs
         </a>
         <ExternalLink

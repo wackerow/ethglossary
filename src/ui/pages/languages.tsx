@@ -6,7 +6,10 @@
  */
 
 import { Layout } from "../layout"
+import { Icon } from "../icon"
 import { listLanguages } from "../../lib/language-meta"
+import circleAlert from "lucide-static/icons/circle-alert.svg"
+import { LANGUAGES_ISLAND } from "../islands"
 
 export interface LanguageStat {
   code: string
@@ -24,7 +27,23 @@ const CELL = "border-b border-line-soft text-left"
  */
 const CELL_LINK = "block px-3.5 py-2.5 no-underline"
 
-export const LanguagesPage = ({ stats }: { stats: LanguageStat[] }) => {
+/** Why the chooser is showing, when the visitor did not navigate here directly. */
+export type LanguagesNotice = "choose" | "changed"
+
+const NOTICE_TEXT: Record<LanguagesNotice, string> = {
+  choose: "Choose a language to start reviewing.",
+  changed: "Language cleared. Choose another to carry on reviewing.",
+}
+
+export const LanguagesPage = ({
+  stats,
+  notice,
+  activeLang,
+}: {
+  stats: LanguageStat[]
+  notice?: LanguagesNotice
+  activeLang?: string
+}) => {
   const byCode = new Map(stats.map((s) => [s.code, s]))
   const languages = listLanguages()
 
@@ -33,7 +52,43 @@ export const LanguagesPage = ({ stats }: { stats: LanguageStat[] }) => {
       title="Languages -- ETHGlossary"
       description="The 24 languages ETHGlossary covers, with translation coverage and confidence for each."
       nav="languages"
+      activeLang={activeLang}
+      island={notice ? LANGUAGES_ISLAND : undefined}
     >
+      {notice ? (
+        /*
+          Without this, arriving from the Translate tab with no language set
+          looks like the tab did nothing -- same page, "Languages" still lit.
+        */
+        <div
+          id="lang-notice"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+          class="mt-6 flex items-center gap-2.5 rounded-card border border-accent bg-accent/10 px-4 py-3 text-body text-ink"
+        >
+          <Icon svg={circleAlert} class="size-5 shrink-0 text-accent" />
+          {NOTICE_TEXT[notice]}
+        </div>
+      ) : null}
+
+      {notice ? (
+        /*
+          Re-announcement lives here, not in the visible notice. A live region
+          only speaks when its content changes, and emptying the visible text
+          to force that collapsed the box by 4px and shifted the page. This is
+          sr-only and absolutely positioned, so mutating it costs no layout.
+        */
+        <span
+          id="lang-notice-live"
+          class="sr-only"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+          data-message={NOTICE_TEXT[notice]}
+        />
+      ) : null}
+
       <div class="flex max-w-[62ch] flex-col gap-3 pt-10 pb-6">
         <p class="text-body font-bold text-ink-label">Coverage</p>
         <h1 class="font-serif text-h3 font-medium text-ink">
@@ -50,7 +105,7 @@ export const LanguagesPage = ({ stats }: { stats: LanguageStat[] }) => {
         <table class="w-full border-collapse text-label-md">
           <thead>
             <tr>
-              {["Language", "Code", "Terms", "Coverage", "High confidence", "Plurals"].map(
+              {["Language", "Terms", "Coverage", "High confidence", "Plurals"].map(
                 (h) => (
                   <th
                     scope="col"
@@ -75,13 +130,6 @@ export const LanguagesPage = ({ stats }: { stats: LanguageStat[] }) => {
                         {l.endonym}
                       </span>{" "}
                       <span class="text-ink-dim">{l.name}</span>
-                    </a>
-                  </td>
-                  <td class={CELL}>
-                    <a class={CELL_LINK} href={href} tabindex={-1} aria-hidden="true">
-                      <span class="inline-block rounded-full bg-surface-2 px-2 py-0.5 font-mono text-tiny text-ink-dim">
-                        {l.code}
-                      </span>
                     </a>
                   </td>
                   <td class={CELL}>

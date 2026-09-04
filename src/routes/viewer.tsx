@@ -25,7 +25,7 @@ import {
 } from "../lib/glossary-data"
 import { getLanguageMeta } from "../lib/language-meta"
 import { needsReview } from "../lib/context-types"
-import { resolveLanguage } from "../lib/negotiate-language"
+import { languageFromCookie, resolveLanguage } from "../lib/negotiate-language"
 import { LANG_COOKIE, LANG_COOKIE_MAX_AGE } from "../lib/constants"
 import ethglossaryMark from "../ui/icons/ethglossary.svg"
 
@@ -42,6 +42,10 @@ function rememberLanguage(c: { header: (k: string, v: string) => void }, lang: s
     `${LANG_COOKIE}=${lang}; Path=/; Max-Age=${LANG_COOKIE_MAX_AGE}; SameSite=Lax`
   )
 }
+
+/** The language on the nav's Translate tab, if one has been chosen. */
+const navLang = (c: { req: { header: (k: string) => string | undefined } }) =>
+  languageFromCookie(c.req.header("Cookie"))
 
 /** Master terms sorted for display, with their canonical key kept alongside. */
 function sortedTerms() {
@@ -63,9 +67,9 @@ app.get("/favicon.svg", (c) => {
 
 // ---------------------------------------------------------------- pages
 
-app.get("/", (c) => c.html(<HomePage />))
+app.get("/", (c) => c.html(<HomePage activeLang={navLang(c)} />))
 
-app.get("/contexts", (c) => c.html(<ContextsPage />))
+app.get("/contexts", (c) => c.html(<ContextsPage activeLang={navLang(c)} />))
 
 app.get("/languages", async (c) => {
   const totalTerms = getTermCount()
@@ -94,7 +98,14 @@ app.get("/languages", async (c) => {
     })
   )
 
-  return c.html(<LanguagesPage stats={stats} />)
+  const notice =
+    c.req.query("changed") === "1"
+      ? "changed"
+      : c.req.query("choose") === "1"
+        ? "choose"
+        : undefined
+
+  return c.html(<LanguagesPage stats={stats} notice={notice} activeLang={navLang(c)} />)
 })
 
 app.get("/style-guide", (c) => {
@@ -104,24 +115,33 @@ app.get("/style-guide", (c) => {
   const terms = category ? all.filter((t) => t.category === category) : all
 
   return c.html(
-    <StyleGuidePage terms={terms} categories={categories} activeCategory={category} />
+    <StyleGuidePage
+      terms={terms}
+      categories={categories}
+      activeCategory={category}
+      activeLang={navLang(c)}
+    />
   )
 })
 
 app.get("/style-guide/:termId", (c) => {
   const term = resolveTerm(c.req.param("termId"))
   if (!term) return c.notFound()
-  return c.html(<TermDetailPage term={term} />)
+  return c.html(<TermDetailPage term={term} activeLang={navLang(c)} />)
 })
 
 app.get("/translate", (c) => {
-  // Their stored choice, else what the browser asks for, else the chooser --
-  // never an arbitrary pick. See lib/negotiate-language.ts.
-  const lang = resolveLanguage(
-    c.req.header("Cookie"),
-    c.req.header("Accept-Language")
-  )
-  return c.redirect(lang ? `/translate/${lang}` : "/languages", 302)
+  // Only an explicit prior choice counts; otherwise pick one. The query flag
+  // is what lets /languages explain why it is showing, instead of looking
+  // like the Translate tab did nothing.
+  const lang = resolveLanguage(c.req.header("Cookie"))
+  return c.redirect(lang ? `/translate/${lang}` : "/languages?choose=1", 302)
+})
+
+/** Forget the stored language and go back to the chooser. */
+app.get("/translate/change", (c) => {
+  c.header("Set-Cookie", `${LANG_COOKIE}=; Path=/; Max-Age=0; SameSite=Lax`)
+  return c.redirect("/languages?changed=1", 302)
 })
 
 app.get("/translate/:lang", async (c) => {

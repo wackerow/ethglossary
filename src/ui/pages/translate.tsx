@@ -214,12 +214,32 @@ export const TranslatePage = ({
       }
       description={`Review and improve the ${meta?.name ?? lang} translation of Ethereum terminology.`}
       nav="translate"
+      activeLang={lang}
       island={TRANSLATE_ISLAND}
     >
       <div class="grid items-start gap-8 pt-8 pb-16 xl:grid-cols-[278px_minmax(0,1fr)_278px]">
-        {/* ---------- Column 1: term list ---------- */}
-        {/* Figma 21:854: a black wash, square corners, no border, 24px pad. */}
-        <aside class="bg-panel p-6">
+        {/* ---------- Column 1: language, then term list ---------- */}
+        <div class="flex flex-col gap-4">
+          {/*
+            Which language you are reviewing, and how to leave it. Without this
+            the page gives no sign of the choice the cookie is making on your
+            behalf, and no way to undo it.
+          */}
+          <div class="flex items-baseline justify-between gap-3">
+            <span class="min-w-0">
+              <span class="block text-tiny text-ink-faint">Reviewing</span>
+              <span class="font-serif text-h4 font-bold text-ink" lang={lang} dir={dir}>
+                {meta?.endonym ?? lang}
+              </span>{" "}
+              <span class="text-label-sm text-ink-dim">{meta?.name}</span>
+            </span>
+            <a class="shrink-0 text-label-md text-accent" href="/translate/change">
+              Change
+            </a>
+          </div>
+
+          {/* Figma 21:854: a black wash, square corners, no border, 24px pad. */}
+          <aside class="bg-panel p-6">
           <h2 class="text-body font-bold text-ink">Terms</h2>
           <div class="pt-3">
             <input
@@ -261,21 +281,23 @@ export const TranslatePage = ({
               <span id="term-count">{terms.length}</span> terms
             </p>
             {/*
-              Fixed forms -- tickers, standards, and in Latin-script languages
-              the transliterated names -- render as the English string by rule,
-              so they are held back rather than padding the review queue.
+              Every held-back term renders exactly as its English -- tickers,
+              standards, and in a Latin-script language the transliterated
+              names too. Say that, rather than "fixed forms", which means
+              nothing to a reviewer.
             */}
             {showAll ? (
               <a class="text-accent" href={`/translate/${lang}`}>
-                Hide fixed forms
+                Hide terms that stay in English
               </a>
             ) : hidden > 0 ? (
               <a class="text-accent" href={`/translate/${lang}?all=1`}>
-                Show {hidden} fixed {hidden === 1 ? "form" : "forms"}
+                Show {hidden} {hidden === 1 ? "term" : "terms"} that stay in English
               </a>
             ) : null}
           </div>
         </aside>
+        </div>
 
         {/* ---------- Column 2: detail ---------- */}
         <div class="flex min-w-0 flex-col gap-8">
