@@ -98,6 +98,14 @@ for (const [key, entry] of Object.entries(confirmedTerms)) {
   }
 }
 
+// Index the id slug last, so it wins any collision with an alias or avoid
+// form. URLs are built from `id`, so this is what /style-guide/:termId and
+// /translate/:lang/:termId actually look up -- without it, every term whose
+// id differs from its key (200 of 532: any multi-word term) returns 404.
+for (const [key, entry] of Object.entries(confirmedTerms)) {
+  if (entry.id) surfaceFormIndex.set(entry.id.toLowerCase(), key)
+}
+
 // Build regex pattern for content matching (longest first)
 const allForms = Array.from(surfaceFormIndex.keys())
 allForms.sort((a, b) => b.length - a.length)
