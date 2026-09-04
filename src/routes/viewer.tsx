@@ -24,11 +24,10 @@ import {
   SUPPORTED_LANGUAGES,
 } from "../lib/glossary-data"
 import { getLanguageMeta } from "../lib/language-meta"
+import { DEFAULT_LANG, LANG_COOKIE } from "../lib/constants"
 import ethglossaryMark from "../ui/icons/ethglossary.svg"
 
 const app = new OpenAPIHono()
-
-const DEFAULT_LANG = "es"
 
 /** Master terms sorted for display, with their canonical key kept alongside. */
 function sortedTerms() {
@@ -101,7 +100,14 @@ app.get("/style-guide/:termId", (c) => {
   return c.html(<TermDetailPage term={term} />)
 })
 
-app.get("/translate", (c) => c.redirect(`/translate/${DEFAULT_LANG}`, 302))
+app.get("/translate", (c) => {
+  // Land on whichever language the reviewer last picked, not always Spanish.
+  const stored = c.req.header("Cookie")?.match(
+    new RegExp(`(?:^|;\\s*)${LANG_COOKIE}=([^;]+)`)
+  )?.[1]
+  const lang = stored && getLanguageMeta(stored) ? stored : DEFAULT_LANG
+  return c.redirect(`/translate/${lang}`, 302)
+})
 
 app.get("/translate/:lang", async (c) => {
   const lang = c.req.param("lang")

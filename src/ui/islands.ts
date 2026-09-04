@@ -12,7 +12,15 @@ export const TRANSLATE_ISLAND = `
   // ---- Language picker: navigate, preserving the selected term ----------
   var picker = document.getElementById("lang-picker");
   if (picker) {
+    // Remember the choice so /translate lands on it next visit. A cookie
+    // rather than localStorage because the redirect happens on the server,
+    // before any script runs.
+    document.cookie =
+      "ethglossary-lang=" + picker.value + ";path=/;max-age=31536000;samesite=lax";
+
     picker.addEventListener("change", function () {
+      document.cookie =
+        "ethglossary-lang=" + picker.value + ";path=/;max-age=31536000;samesite=lax";
       var parts = window.location.pathname.split("/").filter(Boolean);
       // /translate/:lang            -> ["translate", lang]
       // /translate/:lang/:termId    -> ["translate", lang, termId]
@@ -35,7 +43,7 @@ export const TRANSLATE_ISLAND = `
     var shown = 0;
 
     for (var i = 0; i < rows.length; i++) {
-      var link = rows[i].querySelector(".term-item");
+      var link = rows[i].querySelector("[data-term]");
       var term = link ? link.getAttribute("data-term") || "" : "";
       var match = !q || term.indexOf(q) !== -1;
       rows[i].hidden = !match;
