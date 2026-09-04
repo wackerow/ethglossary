@@ -25,6 +25,7 @@ import arrowRight from "lucide-static/icons/arrow-right.svg"
 import badgeCheck from "lucide-static/icons/badge-check.svg"
 import bookType from "lucide-static/icons/book-type.svg"
 import circleAlert from "lucide-static/icons/circle-alert.svg"
+import externalLink from "lucide-static/icons/external-link.svg"
 import info from "lucide-static/icons/info.svg"
 import messageSquare from "lucide-static/icons/message-square.svg"
 import moon from "lucide-static/icons/moon.svg"
@@ -34,6 +35,8 @@ import thumbsDown from "lucide-static/icons/thumbs-down.svg"
 import thumbsUp from "lucide-static/icons/thumbs-up.svg"
 import users from "lucide-static/icons/users.svg"
 
+import glyphMessageBubble from "./icons/glyph-message-bubble.svg"
+import glyphPurpleRed from "./icons/glyph-purple-red.svg"
 import discord from "./icons/discord.svg"
 import github from "./icons/github.svg"
 import ethglossary from "./icons/ethglossary.svg"
@@ -43,6 +46,7 @@ const SOURCES = {
   "badge-check": badgeCheck,
   "book-type": bookType,
   "circle-alert": circleAlert,
+  "external-link": externalLink,
   info,
   "message-square": messageSquare,
   moon,
@@ -56,6 +60,8 @@ const SOURCES = {
   discord,
   github,
   ethglossary,
+  "glyph-message-bubble": glyphMessageBubble,
+  "glyph-purple-red": glyphPurpleRed,
 } as const
 
 export type IconName = keyof typeof SOURCES
