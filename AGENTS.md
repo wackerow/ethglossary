@@ -235,6 +235,15 @@ Rules that are easy to get wrong:
 - **`--color-yellow` is a fill, `--color-accent` is for text.** The brand
   yellow measures 1.29:1 on white. `accent` swaps to violet on light grounds;
   yellow stays yellow because it always sits behind dark text.
+- **URLs to Discord, GitHub or ethereum.org come from `src/lib/constants.ts`.**
+  Never inline them.
+- **External links go through `<ExternalLink>`** in `src/ui/link.tsx`, which
+  adds `target="_blank"`, the `rel` pair, and Lucide's external-link marker.
+  Pass `hideArrow` for icon-only links, and always give those an `aria-label`.
+- **Term URLs are built from `id`, and `id` is indexed separately.**
+  `resolveTerm()` indexes the canonical key, `forms.base`, aliases and avoid
+  forms -- plus the `id` slug in a final pass. That last pass is what makes
+  the 200-of-532 terms whose id differs from their key reachable at all.
 - **Icons are Lucide imports, never hand-drawn JSX.** Import from
   `lucide-static/icons/<name>.svg` and register it in `SOURCES` in
   `src/ui/icon.tsx`. Do NOT copy Lucide files into the repo -- the package is

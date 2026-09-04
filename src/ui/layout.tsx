@@ -9,6 +9,8 @@
 import type { Child } from "hono/jsx"
 import { raw } from "hono/html"
 import { Icon } from "./icon"
+import { ExternalLink } from "./link"
+import { DISCORD_URL, GITHUB_URL } from "../lib/constants"
 
 export type NavKey = "translate" | "languages" | "style-guide" | null
 
@@ -96,29 +98,30 @@ export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: Bra
         ETHGlossary
       </a>
 
-      <ul class="mx-auto hidden items-center gap-1 md:flex">
-        {NAV_ITEMS.map((item) => (
-          <li>
-            <a
-              class={`block rounded-md px-3.5 py-1.5 text-label-md transition-colors hover:no-underline ${
-                brand === "hero"
-                  ? "text-white/80 hover:bg-white/10 hover:text-white"
-                  : "hover:bg-surface-2 hover:text-ink"
-              } ${
-                active === item.key
-                  ? "bg-surface-2 font-bold text-accent"
-                  : brand === "hero"
-                    ? ""
-                    : "text-ink-dim"
-              }`}
-              href={item.href}
-              aria-current={active === item.key ? "page" : undefined}
-            >
-              {item.label}
-            </a>
-          </li>
-        ))}
-      </ul>
+      {/*
+        Tabs are not part of the landing page -- it has its own CTAs, and the
+        Figma's LP nav carries the wordmark and sign-in only.
+      */}
+      {brand === "hero" ? null : (
+        <ul class="mx-auto hidden items-center gap-1 md:flex">
+          {NAV_ITEMS.map((item) => (
+            <li>
+              <a
+                class={`block px-3.5 py-1.5 text-label-md transition-colors hover:no-underline ${
+                  active === item.key
+                    ? // A tab, not a pill: rounded on top, sitting on a yellow rule.
+                      "rounded-t-md border-b border-accent font-bold text-accent"
+                    : "rounded-md text-ink-dim hover:bg-surface-2 hover:text-ink"
+                }`}
+                href={item.href}
+                aria-current={active === item.key ? "page" : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
 
       <div class="ml-auto flex items-center gap-3">
         <a
@@ -146,23 +149,31 @@ export const Nav = ({ active, brand = "default" }: { active: NavKey; brand?: Bra
 )
 
 export const Footer = () => (
-  <footer class="border-t border-line-soft bg-bg">
+  <footer class="bg-footer text-white">
     <div class="wrap flex flex-wrap items-center justify-between gap-4 py-8">
-      <p class="text-tiny text-ink-faint">
+      <p class="text-tiny text-white/70">
         An open-source project for the Ethereum community. MPL-2.0.
       </p>
-      <div class="flex items-center gap-4">
-        <a class="text-tiny text-ink-dim hover:text-ink" href="/docs">
+      <div class="flex items-center gap-5">
+        <a class="text-tiny text-white/80 hover:text-white" href="/docs">
           API docs
         </a>
-        <a
-          class="grid place-items-center text-ink-dim hover:text-ink"
-          href="https://github.com/wackerow/ethglossary"
-          rel="noreferrer noopener"
-          aria-label="GitHub repository"
+        <ExternalLink
+          class="grid place-items-center text-white/80 hover:text-white"
+          href={DISCORD_URL}
+          aria-label="ETHGlossary on Discord"
+          hideArrow
+        >
+          <Icon name="discord" size={18} />
+        </ExternalLink>
+        <ExternalLink
+          class="grid place-items-center text-white/80 hover:text-white"
+          href={GITHUB_URL}
+          aria-label="ETHGlossary on GitHub"
+          hideArrow
         >
           <Icon name="github" size={18} />
-        </a>
+        </ExternalLink>
       </div>
     </div>
   </footer>
