@@ -14,9 +14,6 @@ export const GITHUB_URL = "https://github.com/wackerow/ethglossary"
 /** The project this glossary serves. */
 export const ETHEREUM_ORG_URL = "https://ethereum.org"
 
-/** Language used when a visitor has no stored preference. */
-export const DEFAULT_LANG = "es"
-
 /** Cookie holding the reviewer's last chosen language. */
 export const LANG_COOKIE = "ethglossary-lang"
 
