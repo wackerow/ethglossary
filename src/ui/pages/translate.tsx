@@ -17,10 +17,18 @@
 import { raw } from "hono/html"
 import { Layout } from "../layout"
 import { Icon } from "../icon"
+import arrowRight from "lucide-static/icons/arrow-right.svg"
+import badgeCheck from "lucide-static/icons/badge-check.svg"
+import circleAlert from "lucide-static/icons/circle-alert.svg"
+import info from "lucide-static/icons/info.svg"
+import squarePen from "lucide-static/icons/square-pen.svg"
+import thumbsDown from "lucide-static/icons/thumbs-down.svg"
+import thumbsUp from "lucide-static/icons/thumbs-up.svg"
 import { TRANSLATE_ISLAND } from "../islands"
 import { CONTEXT_BY_ID, applicableContexts } from "../../lib/context-types"
 import type { ContextId } from "../../lib/context-types"
 import { sanitizeDefinition } from "../../lib/sanitize"
+import { ACCOUNTS_ENABLED, COMING_SOON_TITLE } from "../../lib/constants"
 import { getLanguageMeta } from "../../lib/language-meta"
 import type { GlossaryTerm, TranslationEntry } from "../../lib/glossary-data"
 
@@ -107,38 +115,41 @@ const SlotRow = ({
 
         <span class="flex shrink-0 items-center gap-4">
           <button
-            class="inline-flex items-center gap-1 rounded-md px-1 py-0.5 text-label-lg tabular-nums text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-ink-dim"
+            class="inline-flex items-center gap-1 rounded-md px-1 py-0.5 text-label-lg tabular-nums text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink aria-disabled:cursor-not-allowed"
             type="button"
             aria-pressed="false"
             aria-label={`Vote up the ${meta.label} translation`}
             data-context={context}
             data-vote="up"
-            disabled
+            aria-disabled={ACCOUNTS_ENABLED ? undefined : "true"}
+            data-coming-soon={ACCOUNTS_ENABLED ? undefined : COMING_SOON_TITLE}
           >
-            <Icon name="thumbs-up" size={18} />
+            <Icon svg={thumbsUp} class="size-[18px]" />
             <span>&ndash;</span>
           </button>
           <button
-            class="inline-flex items-center gap-1 rounded-md px-1 py-0.5 text-label-lg tabular-nums text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-ink-dim"
+            class="inline-flex items-center gap-1 rounded-md px-1 py-0.5 text-label-lg tabular-nums text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink aria-disabled:cursor-not-allowed"
             type="button"
             aria-pressed="false"
             aria-label={`Vote down the ${meta.label} translation`}
             data-context={context}
             data-vote="down"
-            disabled
+            aria-disabled={ACCOUNTS_ENABLED ? undefined : "true"}
+            data-coming-soon={ACCOUNTS_ENABLED ? undefined : COMING_SOON_TITLE}
           >
-            <Icon name="thumbs-down" size={18} />
+            <Icon svg={thumbsDown} class="size-[18px]" />
             <span>&ndash;</span>
           </button>
           <button
-            class="grid size-6 place-items-center rounded-md text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:hover:text-ink-dim"
+            class="grid size-6 place-items-center rounded-md text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink aria-disabled:cursor-not-allowed"
             type="button"
             aria-label={`Suggest a different ${meta.label} translation`}
             data-context={context}
             data-action="suggest"
-            disabled
+            aria-disabled={ACCOUNTS_ENABLED ? undefined : "true"}
+            data-coming-soon={ACCOUNTS_ENABLED ? undefined : COMING_SOON_TITLE}
           >
-            <Icon name="square-pen" size={20} />
+            <Icon svg={squarePen} class="size-5" />
           </button>
         </span>
       </div>
@@ -152,7 +163,7 @@ const SlotRow = ({
             title={meta.summary}
             aria-label={`What does ${meta.label} mean?`}
           >
-            <Icon name="info" size={14} />
+            <Icon svg={info} class="size-3.5" />
           </a>
         </span>
       </div>
@@ -237,9 +248,8 @@ export const TranslatePage = ({
                   data-term={t.term.toLowerCase()}
                 >
                   <Icon
-                    name={t.progress === "full" ? "badge-check" : "badge-check"}
-                    size={16}
-                    class={`shrink-0 ${PROGRESS_TONE[t.progress].icon}`}
+                    svg={badgeCheck}
+                    class={`size-4 ${PROGRESS_TONE[t.progress].icon}`}
                   />
                   <span class="min-w-0 flex-1">{t.term}</span>
                 </a>
@@ -283,7 +293,7 @@ export const TranslatePage = ({
                 href="/contexts"
               >
                 What do prose, tag and UI mean?
-                <Icon name="arrow-right" size={16} />
+                <Icon svg={arrowRight} class="size-4" />
               </a>
             </div>
           ) : (
@@ -333,12 +343,13 @@ export const TranslatePage = ({
                     <div class="flex justify-end">
                       <button
                         id="thumbs-up-all"
-                        class="inline-flex items-center gap-2 rounded-md px-2.5 py-1.5 text-label-md font-bold text-accent hover:bg-accent/10 disabled:cursor-not-allowed disabled:hover:bg-transparent"
+                        class="inline-flex items-center gap-2 rounded-md px-2.5 py-1.5 text-label-md font-bold text-accent hover:bg-accent/10 aria-disabled:cursor-not-allowed"
                         type="button"
-                        disabled
+                        aria-disabled={ACCOUNTS_ENABLED ? undefined : "true"}
+                        data-coming-soon={ACCOUNTS_ENABLED ? undefined : COMING_SOON_TITLE}
                       >
                         Thumbs up all
-                        <Icon name="thumbs-up" size={16} />
+                        <Icon svg={thumbsUp} class="size-4" />
                       </button>
                     </div>
 
@@ -356,11 +367,16 @@ export const TranslatePage = ({
                   </>
                 )}
 
-                <p class="flex items-start gap-2 rounded-md bg-surface-2 px-3 py-2.5 text-tiny text-ink-dim">
-                  <Icon name="circle-alert" size={15} class="mt-0.5 shrink-0" />
-                  Voting and suggestions open once sign-in ships. Everything on this page
-                  is live glossary data.
-                </p>
+                {ACCOUNTS_ENABLED ? null : (
+                  <p class="flex items-start gap-2 rounded-md bg-surface-2 px-3 py-2.5 text-tiny text-ink-dim">
+                    <Icon svg={circleAlert} class="mt-0.5 size-[15px] shrink-0" />
+                    <span>
+                      <b class="text-ink-2">Coming soon:</b> voting and suggestions need an
+                      account, which ships in a later phase. Everything shown here is live
+                      glossary data.
+                    </span>
+                  </p>
+                )}
 
                 {nextTermId ? (
                   <a
@@ -368,7 +384,7 @@ export const TranslatePage = ({
                     href={`/translate/${lang}/${nextTermId}`}
                   >
                     Go to next term
-                    <Icon name="arrow-right" size={16} />
+                    <Icon svg={arrowRight} class="size-4" />
                   </a>
                 ) : null}
               </div>
@@ -384,28 +400,34 @@ export const TranslatePage = ({
                 </label>
                 <input
                   id="suggest-term"
-                  class="w-full border-0 border-b border-line bg-transparent px-0.5 py-2.5 font-serif text-h3 text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none disabled:cursor-not-allowed"
+                  class="w-full border-0 border-b border-line bg-transparent px-0.5 py-2.5 font-serif text-h3 text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none aria-disabled:cursor-not-allowed"
                   placeholder="Suggest a different translation"
-                  disabled
+                  aria-disabled={ACCOUNTS_ENABLED ? undefined : "true"}
+                  data-coming-soon={ACCOUNTS_ENABLED ? undefined : COMING_SOON_TITLE}
+                  readonly={!ACCOUNTS_ENABLED}
                 />
                 <label class="sr-only" for="suggest-reason">
                   Why is this better?
                 </label>
                 <textarea
                   id="suggest-reason"
-                  class="min-h-11 w-full resize-y border-0 border-b border-line bg-transparent px-0.5 py-2.5 text-body text-ink-2 placeholder:text-ink-faint focus:border-accent focus:outline-none disabled:cursor-not-allowed"
+                  class="min-h-11 w-full resize-y border-0 border-b border-line bg-transparent px-0.5 py-2.5 text-body text-ink-2 placeholder:text-ink-faint focus:border-accent focus:outline-none aria-disabled:cursor-not-allowed"
                   placeholder="Explain your reasoning (optional)"
-                  disabled
+                  aria-disabled={ACCOUNTS_ENABLED ? undefined : "true"}
+                  data-coming-soon={ACCOUNTS_ENABLED ? undefined : COMING_SOON_TITLE}
+                  readonly={!ACCOUNTS_ENABLED}
                 />
                 <button
-                  class="mt-3 self-start rounded-full bg-yellow px-5 py-3 text-body font-bold text-on-yellow transition-[filter] hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:brightness-100"
+                  class="mt-3 inline-flex items-center gap-2 self-start rounded-full bg-yellow px-5 py-3 text-body font-bold text-on-yellow transition-[filter] hover:brightness-110 aria-disabled:cursor-not-allowed"
                   type="button"
-                  disabled
+                  aria-disabled={ACCOUNTS_ENABLED ? undefined : "true"}
+                  data-coming-soon={ACCOUNTS_ENABLED ? undefined : COMING_SOON_TITLE}
+                  readonly={!ACCOUNTS_ENABLED}
                 >
                   Suggest translation
                 </button>
                 <p class="mt-2 flex items-start gap-2 rounded-md bg-surface-2 px-3 py-2.5 text-tiny text-ink-dim">
-                  <Icon name="info" size={15} class="mt-0.5 shrink-0" />
+                  <Icon svg={info} class="size-[15px] mt-0.5 shrink-0" />
                   If your term matches an existing suggestion, we&rsquo;ll upvote that one
                   for you instead of creating a duplicate.
                 </p>

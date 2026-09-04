@@ -8,6 +8,7 @@
 import { raw } from "hono/html"
 import { Layout } from "../layout"
 import { Icon } from "../icon"
+import arrowRight from "lucide-static/icons/arrow-right.svg"
 import { sanitizeDefinition, definitionToText } from "../../lib/sanitize"
 import type { GlossaryTerm } from "../../lib/glossary-data"
 
@@ -169,7 +170,7 @@ export const TermDetailPage = ({ term }: { term: GlossaryTerm }) => (
         href={`/translate/es/${term.id}`}
       >
         See translations for this term
-        <Icon name="arrow-right" size={16} />
+        <Icon svg={arrowRight} class="size-4" />
       </a>
     </div>
   </Layout>

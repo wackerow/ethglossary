@@ -13,19 +13,27 @@
 
 import { Layout } from "../layout"
 import { Icon } from "../icon"
+import arrowRight from "lucide-static/icons/arrow-right.svg"
+import bookType from "lucide-static/icons/book-type.svg"
+import messageSquare from "lucide-static/icons/message-square.svg"
+import users from "lucide-static/icons/users.svg"
+import discord from "../icons/discord.svg"
+import ethglossary from "../icons/ethglossary.svg"
+import glyphMessageBubble from "../icons/glyph-message-bubble.svg"
+import glyphPurpleRed from "../icons/glyph-purple-red.svg"
 import { listLanguages } from "../../lib/language-meta"
 import { ExternalLink } from "../link"
-import { DISCORD_URL } from "../../lib/constants"
+import { ACCOUNTS_ENABLED, COMING_SOON_TITLE, DISCORD_URL } from "../../lib/constants"
 
 const CTA_PRIMARY =
-  "inline-flex items-center gap-2 rounded-full bg-yellow px-5 py-3 text-body font-bold text-on-yellow no-underline transition-[filter] hover:brightness-110 hover:no-underline"
+  "inline-flex h-14 items-center gap-2 rounded-full bg-yellow px-6 text-body font-bold text-on-yellow no-underline transition-[filter] hover:brightness-110 hover:no-underline"
 
 /** Hero-only: fixed colors, because this sits on the artwork in both themes. */
 const CTA_GHOST =
   "inline-flex items-center gap-2 rounded-full border-2 border-white bg-white/10 px-5 py-3 text-body font-bold text-white no-underline backdrop-blur-sm transition-colors hover:bg-white/20 hover:no-underline"
 
 const CTA_OUTLINE =
-  "inline-flex h-10 items-center gap-2 self-start rounded-full border border-accent px-6 text-body font-bold text-accent no-underline transition-colors hover:bg-accent/10 hover:no-underline"
+  "inline-flex h-14 items-center gap-2 self-start rounded-full border border-accent px-6 text-body font-bold text-accent no-underline transition-colors hover:bg-accent/10 hover:no-underline"
 
 /**
  * The speech-bubble mark beside each section heading. Lucide's message-square
@@ -33,10 +41,8 @@ const CTA_OUTLINE =
  */
 const Bubble = ({ tone }: { tone: string }) => (
   <Icon
-    name="message-square"
-    size={104}
-    strokeWidth={1.25}
-    class={`mt-1 hidden size-26 shrink-0 -scale-x-100 sm:block ${tone}`}
+    svg={messageSquare}
+    class={`icon-stroke-4 mt-1 size-20 shrink-0 -scale-x-100 sm:size-24 lg:size-26 ${tone}`}
   />
 )
 
@@ -46,13 +52,13 @@ const Bubble = ({ tone }: { tone: string }) => (
  * in the middle of the square rather than the middle of the box.
  */
 const StepMark = ({ n, tone }: { n: string; tone: string }) => (
-  <span class={`relative grid size-[53px] shrink-0 place-items-center ${tone}`}>
-    <Icon name="message-square" size={53} strokeWidth={1.5} class="absolute inset-0" />
+  <span class={`relative grid size-10 shrink-0 place-items-center sm:size-[53px] ${tone}`}>
+    <Icon svg={messageSquare} class="icon-stroke-2 absolute inset-0 size-full" />
     <span class="relative -mt-1.5 text-h5/6 font-bold tabular-nums">{n}</span>
   </span>
 )
 
-export const HomePage = () => {
+export const HomePage = ({ activeLang }: { activeLang?: string }) => {
   const languages = listLanguages()
 
   return (
@@ -61,6 +67,7 @@ export const HomePage = () => {
       description="Community-reviewed Ethereum terminology in 24 languages, with an English style guide and a simple API."
       bare
       brand="hero"
+      activeLang={activeLang}
     >
       {/* ---------- Hero: frame 1:390, 1440x640 ---------- */}
       <header class="relative overflow-hidden border-b border-line-soft bg-hero-ground">
@@ -93,12 +100,24 @@ export const HomePage = () => {
             terminology. Ready to use in {languages.length} languages through a simple API.
           </p>
           <div class="mt-3 flex flex-wrap gap-3">
-            <a class={CTA_PRIMARY} href="/signin">
-              Join as a translator
-            </a>
+            {ACCOUNTS_ENABLED ? (
+              <a class={CTA_PRIMARY} href="/signin">
+                Join as a translator
+              </a>
+            ) : (
+              /* Looks exactly like the live control; the tooltip carries the why. */
+              <button
+                type="button"
+                class={`${CTA_PRIMARY} cursor-not-allowed`}
+                aria-disabled="true"
+                data-coming-soon={COMING_SOON_TITLE}
+              >
+                Join as a translator
+              </button>
+            )}
             <a class={CTA_GHOST} href="/docs">
               Explore the API
-              <Icon name="arrow-right" size={18} />
+              <Icon svg={arrowRight} class="size-[18px]" />
             </a>
           </div>
         </div>
@@ -142,7 +161,7 @@ export const HomePage = () => {
               302px image inside two concentric rings: the first 1rem beyond
               the image radius, the second another 0.5rem beyond that.
             */}
-            <div class="relative grid size-[302px] shrink-0 place-items-center">
+            <div class="relative grid aspect-square w-full max-w-[302px] shrink-0 place-items-center">
               <span
                 class="absolute -inset-4 rounded-full border border-accent"
                 aria-hidden="true"
@@ -157,7 +176,7 @@ export const HomePage = () => {
                 width="302"
                 height="302"
                 loading="lazy"
-                class="size-[302px] rounded-full object-cover"
+                class="size-full rounded-full object-cover"
               />
             </div>
 
@@ -165,20 +184,19 @@ export const HomePage = () => {
         </div>
 
         {/* Floats past the section edge on the right, between this and the next. */}
-        <Icon
-          name="glyph-message-bubble"
-          size={251}
-          class="pointer-events-none absolute right-0 -bottom-24 hidden opacity-25 xl:block"
-        />
+        <Icon svg={glyphMessageBubble} class="h-[251px] pointer-events-none absolute right-0 -bottom-24 hidden opacity-25 xl:block" />
       </section>
 
       {/* ---------- How to get started ---------- */}
       <section class="wrap relative py-18 md:py-24">
-        {/* Non-space-occupying: bleeds off the left edge, per the Figma. */}
+        {/*
+          Straddles the boundary into "How it works", so it sits between that
+          section's bubble and this one's. Non-space-occupying, bleeding off
+          the left edge.
+        */}
         <Icon
-          name="glyph-purple-red"
-          size={491}
-          class="pointer-events-none absolute top-1/2 -left-16 hidden -translate-y-1/2 opacity-25 xl:block"
+          svg={glyphPurpleRed}
+          class="pointer-events-none absolute -bottom-64 -left-24 hidden h-[491px] opacity-25 xl:block"
         />
         <div class="mb-8 flex items-start gap-5">
           <Bubble tone="text-violet" />
@@ -190,7 +208,7 @@ export const HomePage = () => {
         {/* 556 + 32 gap + 556 in the Figma, inset 128 either side of the shell. */}
         <div class="mx-auto grid max-w-[1144px] gap-8 md:grid-cols-2">
           <article class="flex flex-col gap-8 rounded-card border-2 border-violet bg-bg px-6 py-8">
-            <Icon name="users" size={64} strokeWidth={1.5} class="text-violet" />
+            <Icon svg={users} class="icon-stroke-2 size-12 text-violet sm:size-16" />
             <div class="flex flex-col gap-2">
               <h3 class="text-h5/6 font-bold text-ink">Shape Ethereum&rsquo;s language</h3>
               <p class="text-body text-ink-3">
@@ -200,12 +218,12 @@ export const HomePage = () => {
             </div>
             <a class={CTA_OUTLINE} href="/translate">
               Translations
-              <Icon name="arrow-right" size={16} />
+              <Icon svg={arrowRight} class="size-4" />
             </a>
           </article>
 
           <article class="flex flex-col gap-8 rounded-card border-2 border-green bg-bg px-6 py-8">
-            <Icon name="book-type" size={64} strokeWidth={1.5} class="text-green" />
+            <Icon svg={bookType} class="icon-stroke-2 size-12 text-green sm:size-16" />
             <div class="flex flex-col gap-2">
               <h3 class="text-h5/6 font-bold text-ink">Get verified translations</h3>
               <p class="text-body text-ink-3">
@@ -215,7 +233,7 @@ export const HomePage = () => {
             </div>
             <a class={CTA_OUTLINE} href="/docs">
               Documentation
-              <Icon name="arrow-right" size={16} />
+              <Icon svg={arrowRight} class="size-4" />
             </a>
           </article>
         </div>
@@ -229,6 +247,7 @@ export const HomePage = () => {
             <h2 class="max-w-[10ch] font-serif text-h2 font-bold text-ink">How it works</h2>
           </div>
 
+          <div class="flex flex-col">
           <ol class="flex flex-col gap-6">
             {[
               {
@@ -250,7 +269,7 @@ export const HomePage = () => {
                 body: "Reviewed terminology becomes open infrastructure for translators, products, and AI through ETHGlossary's API.",
               },
             ].map((step) => (
-              <li class="grid grid-cols-[53px_1fr] items-start gap-6">
+              <li class="grid grid-cols-[40px_1fr] items-start gap-4 sm:grid-cols-[53px_1fr] sm:gap-6">
                 <StepMark n={step.n} tone={step.tone} />
                 <div class="flex flex-col gap-3">
                   <h3 class="font-serif text-h5 font-bold text-ink">{step.title}</h3>
@@ -259,17 +278,23 @@ export const HomePage = () => {
               </li>
             ))}
           </ol>
-        </div>
 
-        <div class="mt-12 flex flex-wrap justify-center gap-4">
-          <ExternalLink class={CTA_PRIMARY} href={DISCORD_URL} hideArrow>
-            <Icon name="discord" size={18} />
-            Contribute
-          </ExternalLink>
-          <a class={CTA_OUTLINE} href="/docs">
-            API Documentation
-            <Icon name="arrow-right" size={16} />
-          </a>
+            {/*
+              Figma 1:375 puts this row at x=76 inside the steps column, which
+              is the marker (53) plus the grid gap (24) -- so it lines up with
+              the step text above it, not with the markers or the section.
+            */}
+            <div class="mt-10 flex flex-wrap gap-4 sm:mt-16 lg:pl-[77px]">
+              <ExternalLink class={CTA_PRIMARY} href={DISCORD_URL} hideArrow>
+                <Icon svg={discord} class="size-5" />
+                Contribute
+              </ExternalLink>
+              <a class={CTA_OUTLINE} href="/docs">
+                API Documentation
+                <Icon svg={arrowRight} class="size-6" />
+              </a>
+            </div>
+          </div>
         </div>
       </section>
       </div>
@@ -318,11 +343,7 @@ export const HomePage = () => {
             </p>
           </div>
 
-          <Icon
-            name="ethglossary"
-            size={180}
-            class="ml-auto hidden shrink-0 opacity-15 lg:block"
-          />
+          <Icon svg={ethglossary} class="h-45 ml-auto hidden shrink-0 opacity-15 lg:block" />
         </div>
       </section>
     </Layout>

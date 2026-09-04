@@ -19,3 +19,23 @@ export const LANG_COOKIE = "ethglossary-lang"
 
 /** One year, in seconds. */
 export const LANG_COOKIE_MAX_AGE = 60 * 60 * 24 * 365
+
+/**
+ * Whether the accounts system is live.
+ *
+ * Sign-in, votes and suggestions all depend on a database and OAuth that ship
+ * in a later phase. Until then every control that would need an account is
+ * rendered disabled and labelled, rather than hidden -- a reviewer should be
+ * able to see what the page will do, and understand why they cannot do it yet.
+ *
+ * Flip this to true when the auth phase lands.
+ */
+export const ACCOUNTS_ENABLED = false
+
+/**
+ * Tooltip for the controls ACCOUNTS_ENABLED gates.
+ *
+ * A hover string rather than text inside the button: the control should still
+ * look like itself, so the page reads as the finished thing it will be.
+ */
+export const COMING_SOON_TITLE = "Coming soon -- this needs an account, which ships in a later phase"

@@ -12,6 +12,7 @@
 
 import type { Child } from "hono/jsx"
 import { Icon } from "./icon"
+import externalLink from "lucide-static/icons/external-link.svg"
 
 interface LinkProps {
   href: string
@@ -47,7 +48,7 @@ export const ExternalLink = ({
     >
       {children}
       {external && !hideArrow ? (
-        <Icon name="external-link" size={14} class="inline-block shrink-0 align-[-0.1em]" />
+        <Icon svg={externalLink} class="size-3.5 inline-block shrink-0 align-[-0.1em]" />
       ) : null}
     </a>
   )
