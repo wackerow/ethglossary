@@ -23,7 +23,7 @@ import { raw } from "hono/html"
 interface IconProps {
   /** An imported .svg, resolved to its source text by the wrangler Text rule. */
   svg: string
-  /** Tailwind sizing and color, e.g. "size-4 text-ink-dim". */
+  /** Tailwind sizing and color, e.g. "size-4 text-foreground-subtle". */
   class?: string
 }
 

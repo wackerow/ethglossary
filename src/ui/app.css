@@ -17,55 +17,88 @@
    ========================================================================== */
 
 @theme {
-  /* --- Surfaces, from the Figma variables ------------------------------ */
-  --color-bg: #1c202f;          /* background/main */
-  --color-surface: #222739;     /* surface/extra */
-  --color-surface-2: #282d3e;   /* surface/selected */
-  --color-callout: #3f375d;     /* surface/callout-2 */
-  --color-line: #3a3e50;        /* borders/default */
-  --color-line-soft: #2a2f42;
+  /* ==========================================================================
+     Palette -- raw values. Scale-named, no meaning attached, never themed.
+     Nothing outside this block should contain a hex.
+     ========================================================================== */
 
-  /* --- Ink -------------------------------------------------------------- */
-  --color-ink: #ffffff;         /* typography/primary */
-  --color-ink-2: #f1f1f3;       /* typography/secondary */
-  --color-ink-3: #dbdbdb;       /* typography/tertiary */
-  --color-ink-dim: #9aa0b8;
-  --color-ink-faint: #868da8;
-  --color-ink-label: #909090;   /* the eyebrow grey used in the Figma */
-  --color-ink-hero: #f3f6ff;    /* landing-page text, not pure white */
+  /* The brand yellow, plus the step down it needs to survive a light ground.
+     Same hue (54deg) and saturation; only lightness moves. #f7e544 measures
+     1.21:1 on #f7f7fa, so it can be a fill there but never a mark. */
+  --color-yellow-400: #f7e544;
+  --color-yellow-600: #897c06;
+  --color-yellow-700: #7a6e05;
 
-  /* --- Accents ---------------------------------------------------------- */
-  --color-yellow: #f7e544;      /* button/primary -- a FILL color */
-  --color-on-yellow: #1c202f;
-  /* Accent for text and icons. Brand yellow measures 1.29:1 on white, so the
-     light palette swaps this to violet while fills keep the yellow. */
-  --color-accent: #f7e544;
-  --color-green: #0eaaa0;       /* accent/green */
-  --color-laser: #ff8c8c;       /* accent/laser */
-  --color-violet: #aa7fff;   /* accent-c */
+  --color-violet-400: #aa7fff;   /* accent-c in the Figma */
+  --color-violet-700: #6b3fd4;
+  --color-teal-400: #0eaaa0;     /* accent/green */
+  --color-teal-700: #0a807a;
+  --color-rose-400: #ff8c8c;     /* accent/laser */
+  --color-rose-700: #c9545c;
+  --color-blue-400: #4f7fe0;
+  --color-blue-700: #2f5bbf;
 
-  /* Fixed dark ground the hero artwork composites onto, in both themes --
-     it is a night scene and only reads correctly over that color. */
-  --color-hero-ground: #1c202f;
-  /* #49506b in the Figma: the dot grid and the search-input border. */
-  --color-line-strong: #49506b;
-  --color-footer: #3f375d;
-  /* Terms panel -- a black wash, so it reads darker than whatever is behind. */
-  --color-panel: rgb(0 0 0 / 0.18);
+  --color-plum-700: #3f375d;     /* surface/callout-2 */
+  --color-plum-800: #2b0758;
+  --color-plum-900: #1c043a;
+  --color-plum-950: #110225;
 
-  /* The closing panel's vertical gradient, from the Figma. Deliberately dark
-     in both themes -- it is a showcase slab, and the design has no light
-     variant for it. Change these three and the panel follows. */
-  /* The three bubble sections share one vertical wash, per the Figma. */
-  --color-wash-edge: #1c202f;
-  --color-wash-mid: #0e121f;
+  --color-slate-900: #1c202f;    /* background/main */
 
-  --color-deep-top: #2b0758;
-  --color-deep-mid: #1c043a;
-  --color-deep-bottom: #110225;
+  /* ==========================================================================
+     Semantic roles. Named for the job, never for the element that uses them.
+     Every themed value is one light-dark() pair.
+     ========================================================================== */
+
+  /* --- Grounds --- */
+  --color-background: light-dark(#f7f7fa, #1c202f);
+  /* The dip in the middle of the landing page's vertical wash. */
+  --color-background-sunken: light-dark(#eceef5, #0e121f);
+  --color-card: light-dark(#ffffff, #222739);
+  --color-muted: light-dark(#ecedf4, #282d3e);
+  --color-secondary: light-dark(#ebe6f7, #3f375d);
+  /* A wash rather than a color, so it darkens whatever sits behind it. */
+  --color-sidebar: light-dark(rgb(0 0 0 / 0.06), rgb(0 0 0 / 0.18));
+
+  /* --- Text, strongest to faintest --- */
+  --color-foreground-strong: light-dark(#10131c, #ffffff);
+  --color-foreground: light-dark(#1c202f, #f1f1f3);
+  --color-foreground-muted: light-dark(#414861, #dbdbdb);
+  --color-foreground-subtle: light-dark(#5c6480, #9aa0b8);
+
+  /* --- Lines --- */
+  --color-border: light-dark(#d7d9e5, #3a3e50);
+  --color-border-subtle: light-dark(#e6e7ef, #2a2f42);
+  --color-input: light-dark(#b6bacd, #49506b);
+
+  /* --- Actions ---
+     `primary` is the brand pill: a fill in both themes, always dark text on
+     it. `accent` is emphasis for text and icons, which is why it steps down
+     the yellow ramp on light rather than staying #f7e544. */
+  --color-primary: var(--color-yellow-400);
+  --color-primary-foreground: var(--color-slate-900);
+  --color-accent: light-dark(var(--color-yellow-600), var(--color-yellow-400));
+
+  /* --- Categorical accents. Decorative; context carries the meaning. --- */
+  --color-violet: light-dark(var(--color-violet-700), var(--color-violet-400));
+  --color-teal: light-dark(var(--color-teal-700), var(--color-teal-400));
+  --color-rose: light-dark(var(--color-rose-700), var(--color-rose-400));
+  --color-blue: light-dark(var(--color-blue-700), var(--color-blue-400));
 
   /* --- Type ------------------------------------------------------------- */
-  --font-sans: "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  /*
+   * CJK is not self-hosted. The Noto CJK families are several megabytes each
+   * even split by unicode-range, and four of them for four languages out of
+   * 24 is not a trade worth making -- so the stack names the CJK face every
+   * major platform already ships, in the order Apple / Windows / Linux.
+   * Without these, Korean endonyms and terms render as tofu on a machine with
+   * no CJK font installed. Everything else IS self-hosted; see fonts.css.
+   */
+  --font-cjk:
+    "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", "Microsoft YaHei",
+    "Yu Gothic UI", "Malgun Gothic", "Noto Sans CJK SC", "Noto Sans CJK JP",
+    "Noto Sans CJK KR", "Source Han Sans";
+  --font-sans: "Noto Sans", system-ui, -apple-system, "Segoe UI", var(--font-cjk), sans-serif;
   /*
    * "Noto Sans" sits in the serif stack on purpose. Each face is declared with
    * a unicode-range, so Noto Serif only claims Latin/Cyrillic -- an Arabic,
@@ -74,8 +107,10 @@
    * This matters wherever translated terms are set in serif: the language
    * grid and every slot row on the translate page.
    */
-  --font-serif: "Noto Serif", "Noto Sans", ui-serif, Georgia, "Times New Roman", serif;
-  --font-mono: ui-monospace, "Noto Sans Mono", "DejaVu Sans Mono", monospace;
+  --font-serif:
+    "Noto Serif", "Noto Sans", ui-serif, Georgia, "Times New Roman", var(--font-cjk), serif;
+  /* No mono subset is shipped, so this must not name one we do not serve. */
+  --font-mono: ui-monospace, "DejaVu Sans Mono", "Courier New", monospace;
 
   /* Named after the Figma text styles, so the markup reads like the design.
      Sizes are px in Figma; rem here at the 16px root. */
@@ -155,76 +190,24 @@
   --shadow-hero: 0 4px 8px rgb(6 7 91 / 0.16);
 }
 
+
+:root {
+  color-scheme: dark;
+}
+
 /*
- * Light palette. Figma defines none, so these are derived: same hues,
- * re-weighted for a light ground. Utilities compile to var(--color-*), so
- * redefining the variables is all that is needed -- no `dark:` on every class.
- *
- * Three states, and all three must be handled: an explicit choice stamps
- * data-theme, and the default "system" setting stamps nothing.
+ * light-dark() in @theme resolves against color-scheme, so switching the
+ * scheme is all a theme change needs -- every token flips with it. The three
+ * states are: no stamp (follow the OS), and an explicit stamp either way.
  */
 @media (prefers-color-scheme: light) {
   :root:not([data-theme="dark"]) {
-    --color-bg: #f7f7fa;
-    --color-surface: #ffffff;
-    --color-surface-2: #ecedf4;
-    --color-callout: #ebe6f7;
-    --color-line: #d7d9e5;
-    --color-line-soft: #e6e7ef;
-
-    --color-ink: #10131c;
-    --color-ink-2: #1c202f;
-    --color-ink-3: #414861;
-    --color-ink-dim: #5c6480;
-    --color-ink-faint: #6b7189;
-    --color-ink-label: #5c6480;
-    --color-ink-hero: #171a2b;
-
-    --color-accent: #4f3bbd;
-    --color-green: #0a807a;
-    --color-laser: #c9545c;
-    --color-violet: #6b3fd4;
-    --color-line-strong: #b6bacd;
-    --color-footer: #ddd6f0;
-    --color-panel: rgb(0 0 0 / 0.06);
-    --color-wash-edge: #f7f7fa;
-    --color-wash-mid: #eceef5;
-
     color-scheme: light;
   }
 }
 
 :root[data-theme="light"] {
-  --color-bg: #f7f7fa;
-  --color-surface: #ffffff;
-  --color-surface-2: #ecedf4;
-  --color-callout: #ebe6f7;
-  --color-line: #d7d9e5;
-  --color-line-soft: #e6e7ef;
-
-  --color-ink: #10131c;
-  --color-ink-2: #1c202f;
-  --color-ink-3: #414861;
-  --color-ink-dim: #5c6480;
-  --color-ink-faint: #6b7189;
-  --color-ink-label: #5c6480;
-  --color-ink-hero: #171a2b;
-
-  --color-accent: #4f3bbd;
-  --color-green: #0a807a;
-  --color-laser: #c9545c;
-  --color-violet: #6b3fd4;
-  --color-line-strong: #b6bacd;
-  --color-footer: #ddd6f0;
-  --color-panel: rgb(0 0 0 / 0.06);
-  --color-wash-edge: #f7f7fa;
-  --color-wash-mid: #eceef5;
-
   color-scheme: light;
-}
-
-:root {
-  color-scheme: dark;
 }
 
 /* ==========================================================================
@@ -238,8 +221,8 @@
   }
 
   body {
-    background-color: var(--color-bg);
-    color: var(--color-ink-2);
+    background-color: var(--color-background);
+    color: var(--color-foreground);
     font-family: var(--font-sans);
     font-size: var(--text-body);
     line-height: var(--text-body--line-height);
@@ -264,42 +247,104 @@
   }
 }
 
+/*
+ * Whole-row link for a table.
+ *
+ * The rule: if a table row contains exactly one link, the whole row is the
+ * target -- put `relative` on the <tr> and `row-link` on the <a>.
+ *
+ * An overlay rather than an <a> in every <td>, because the alternative
+ * needs `aria-hidden` on the duplicate links to stop a screen reader
+ * announcing the row five times, and that hides the cells' content along
+ * with them. Here the cells stay ordinary text and the one real link covers
+ * the row. Trade-off: text in the other cells is no longer selectable.
+ */
+@utility row-link {
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+}
+
 @layer components {
   /*
-   * Draws the eye back to a notice that is already on screen, for when the
-   * action that produced it is repeated and the page does not change.
+   * Mobile drawer transition.
+   *
+   * Plain CSS rather than utilities because none of the three pieces has a
+   * readable utility form: `@starting-style` supplies the value to animate
+   * FROM on the frame the dialog enters the top layer, and `display` and
+   * `overlay` need `allow-discrete` or the panel would pop out of existence
+   * at the start of the closing transition instead of sliding away.
    */
-  @keyframes notice-pulse {
-    0% { opacity: 1; }
-    35% { opacity: 0.25; }
-    100% { opacity: 1; }
+  .nav-drawer {
+    translate: 100% 0;
+    transition:
+      translate 220ms ease,
+      display 220ms allow-discrete,
+      overlay 220ms allow-discrete;
   }
 
-  .notice-pulse {
-    animation: notice-pulse 450ms ease-in-out;
+  .nav-drawer[open] {
+    translate: 0 0;
   }
 
-  @media (prefers-reduced-motion: reduce) {
-    .notice-pulse {
-      animation: none;
-      outline: 2px solid var(--color-accent);
-      outline-offset: 2px;
+  .nav-drawer::backdrop {
+    opacity: 0;
+    transition:
+      opacity 220ms ease,
+      display 220ms allow-discrete,
+      overlay 220ms allow-discrete;
+  }
+
+  .nav-drawer[open]::backdrop {
+    opacity: 1;
+  }
+
+  @starting-style {
+    .nav-drawer[open] {
+      translate: 100% 0;
+    }
+
+    .nav-drawer[open]::backdrop {
+      opacity: 0;
     }
   }
 
-  /* Click-to-explain bubble for account-gated controls. See coming-soon.ts. */
-  .coming-soon-tip {
+  @media (prefers-reduced-motion: reduce) {
+    .nav-drawer,
+    .nav-drawer::backdrop {
+      transition: none;
+    }
+  }
+
+  /* Click-to-explain popover. See tooltip.ts for what triggers it. */
+  .tip {
     position: absolute;
     z-index: 50;
     max-width: min(18rem, calc(100vw - 1rem));
     border-radius: 6px;
-    background: var(--color-surface-2);
-    border: 1px solid var(--color-line);
+    background: var(--color-muted);
+    border: 1px solid var(--color-border);
     padding: 0.5rem 0.75rem;
     font-size: var(--text-tiny);
     line-height: var(--text-tiny--line-height);
-    color: var(--color-ink-2);
+    color: var(--color-foreground);
     box-shadow: 0 6px 20px rgb(0 0 0 / 0.35);
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    align-items: flex-start;
+  }
+
+  .tip-link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .tip-link:hover,
+  .tip-link:focus-visible {
+    text-decoration: underline;
   }
 
   /*
@@ -342,7 +387,7 @@
  * rule is the right tool.
  */
 @utility definition-html {
-  color: var(--color-ink-3);
+  color: var(--color-foreground-muted);
 
   & p {
     margin-block-end: 0.625rem;
@@ -351,7 +396,7 @@
     margin-block-end: 0;
   }
   & strong {
-    color: var(--color-ink);
+    color: var(--color-foreground-strong);
     font-weight: 700;
   }
   & a {
@@ -378,18 +423,9 @@
  * takes the width out of the coordinate system, which makes the number here
  * device pixels -- and means one class holds at every size the icon renders.
  */
-@utility icon-stroke-2 {
+@utility icon-stroke-* {
   & svg {
-    stroke-width: 2;
-  }
-  & svg * {
-    vector-effect: non-scaling-stroke;
-  }
-}
-
-@utility icon-stroke-4 {
-  & svg {
-    stroke-width: 4;
+    stroke-width: --value(integer);
   }
   & svg * {
     vector-effect: non-scaling-stroke;
@@ -407,7 +443,7 @@
 @utility dot-grid {
   background-image: radial-gradient(
     circle at 2px 2px,
-    var(--color-line-strong) 2px,
+    var(--color-input) 2px,
     transparent 2px
   );
   background-size: 20px 20px;
@@ -426,31 +462,17 @@
   opacity: 0.125;
 }
 
-/* Theme toggle: show whichever glyph represents the theme you'd switch TO. */
-@utility theme-icon-light {
-  display: none;
-
-  :root[data-theme="light"] & {
-    display: inline-flex;
+/*
+ * States the three-state light guard once, so anything light-only can reuse
+ * it instead of restating the media query and both data-theme stamps.
+ */
+@custom-variant light-theme {
+  &:where(:root[data-theme="light"] *) {
+    @slot;
   }
-
   @media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) & {
-      display: inline-flex;
-    }
-  }
-}
-
-@utility theme-icon-dark {
-  display: inline-flex;
-
-  :root[data-theme="light"] & {
-    display: none;
-  }
-
-  @media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) & {
-      display: none;
+    &:where(:root:not([data-theme="dark"]) *) {
+      @slot;
     }
   }
 }
