@@ -264,11 +264,6 @@
   .visible {
     visibility: visible;
   }
-  .row-link::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-  }
   .sr-only {
     position: absolute;
     width: 1px;
@@ -633,6 +628,9 @@
   }
   .cursor-not-allowed {
     cursor: not-allowed;
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .resize {
     resize: both;
@@ -1297,6 +1295,11 @@
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  @media (hover: hover) {
+    .group-hover\:underline:is(:where(.group):hover *) {
+      text-decoration-line: underline;
+    }
   }
   .placeholder\:text-foreground-muted::placeholder {
     color: var(--color-foreground-muted);

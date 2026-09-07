@@ -197,10 +197,10 @@ export const ComparePage = ({
                     {languages.map((l) => {
                       const row = byCode.get(l.code)
                       return (
-                        <tr class="relative hover:bg-card">
+                        <tr class="group cursor-pointer hover:bg-card" data-row-link>
                           <th scope="row" class={`${CELL} whitespace-nowrap font-normal`}>
                             <a
-                              class="row-link no-underline hover:underline"
+                              class="no-underline group-hover:underline"
                               href={`/translations/${l.code}/${selected.id}`}
                             >
                               <span

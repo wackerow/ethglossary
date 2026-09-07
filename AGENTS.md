@@ -267,12 +267,15 @@ Rules that are easy to get wrong:
   wrangler Text rule resolves the import to source text, so there is no
   registry to update and nothing to copy into the repo. `src/ui/icons/` is
   for custom art only -- today the brand marks Lucide does not ship.
-- **A table row with one link is clickable end to end.** Put `relative` on
-  the `<tr>` and `row-link` on the `<a>` -- the utility in `app.css` stretches
-  an overlay across the row. Do NOT give every `<td>` its own copy of the link
-  with `aria-hidden` on the duplicates: that works for a mouse and hides the
-  cells' content from a screen reader. Applies to all four tables that have
-  one.
+- **A table row with one link is clickable end to end.** Put `data-row-link`
+  on the `<tr>` (plus `group cursor-pointer`) and let `src/ui/row-link.ts`
+  widen the hit area; the `<a>` itself is untouched, so keyboard and screen
+  reader behaviour is exactly the link's. Two things NOT to do: an `<a>` in
+  every `<td>` with `aria-hidden` on the duplicates works for a mouse and
+  hides the cells' content from a screen reader; and a stretched `::after`
+  over a `position: relative` row is silently ignored by WebKit when the
+  table is `border-collapse: collapse`, which lets the overlay escape to the
+  initial containing block and swallow taps across the whole page.
 - **Reach for the platform before writing behavior.** The mobile drawer is a
   `<dialog>` opened with `showModal()`, so the focus trap, page inertness,
   Escape, focus restoration and the backdrop are the browser's, and its

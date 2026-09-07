@@ -9,6 +9,7 @@
 import type { Child } from "hono/jsx"
 import { raw } from "hono/html"
 import { Icon } from "./icon"
+import { ROW_LINK_ISLAND } from "./row-link"
 import { TOOLTIP_ISLAND } from "./tooltip"
 import { NAV_DRAWER_ISLAND } from "./nav-drawer"
 import menu from "lucide-static/icons/menu.svg"
@@ -469,6 +470,7 @@ export const Layout = ({
       <Footer />
       <script>{raw(TOGGLE_SCRIPT)}</script>
       <script>{raw(TOOLTIP_ISLAND)}</script>
+      <script>{raw(ROW_LINK_ISLAND)}</script>
       <script>{raw(NAV_DRAWER_ISLAND)}</script>
       {island ? <script>{raw(island)}</script> : null}
     </body>
