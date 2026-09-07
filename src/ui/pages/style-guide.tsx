@@ -14,6 +14,7 @@ import info from "lucide-static/icons/info.svg"
 import { sanitizeDefinition, definitionToText } from "../../lib/sanitize"
 import { TERM_FILTER_ISLAND } from "../islands"
 import { CONTEXT_BY_ID } from "../../lib/context-types"
+import { ExternalLink } from "../link"
 import { listLanguages } from "../../lib/language-meta"
 import type { GlossaryTerm } from "../../lib/glossary-data"
 
@@ -196,6 +197,29 @@ export const TermDetailPage = ({
           <div class="definition-html rounded-md bg-card px-4 py-4 text-body">
             {raw(sanitizeDefinition(term.definition))}
           </div>
+        </div>
+      ) : null}
+
+      {/*
+        Directly under the definition, because that is what these came out of.
+        Definitions used to carry the links inline; they now hold prose only,
+        and anything worth reading further sits here as its own section.
+      */}
+      {term.references?.length ? (
+        <div class="flex flex-col gap-3">
+          <p class="text-body font-bold text-foreground-subtle">Further reading</p>
+          <ul class="flex flex-col gap-2">
+            {term.references.map((r) => (
+              <li>
+                <ExternalLink
+                  class="inline-flex items-baseline gap-1.5 text-body text-accent no-underline hover:underline"
+                  href={r.url}
+                >
+                  {r.label}
+                </ExternalLink>
+              </li>
+            ))}
+          </ul>
         </div>
       ) : null}
 
