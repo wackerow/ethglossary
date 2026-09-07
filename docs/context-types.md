@@ -11,14 +11,28 @@ feedback.
 
 ## The six slots
 
-| Slot | Where it appears | `account` in Spanish |
-|------|------------------|----------------------|
-| `prose` | Running text, sentences, documentation | `cuenta` |
-| `heading` | Section titles and page headings | `Cuenta` |
-| `tag` | Category chips, filter pills, metadata labels | `cuenta` |
-| `ui` | Buttons, menu items, interface controls | `Conectar cuenta` |
-| `code` | Identifiers, API fields, CLI flags | `account` |
-| `plurals` | CLDR plural categories, where the language marks them | `cuenta` / `cuentas` |
+Worked example: **externally owned account (EOA)** in English, Spanish and
+Russian. All three are genuine translations -- Russian gives
+"внешний аккаунт", where "внешний" is the Russian for *external* and "аккаунт"
+is *account* borrowed and spelled phonetically.
+
+Because Cyrillic is not Latin script, the entry additionally records a
+romanization in `transliteration` (`vneshniy akkaunt (EOA)`) -- the Russian
+spelled in Latin letters, as a pronunciation aid. That is a separate field
+from the six slots, and it is **not** the English transliterated.
+
+| Slot | Where it appears | en | es | ru |
+|------|------------------|----|----|----|
+| `prose` | Running text, sentences, documentation | externally owned account | cuenta de propiedad externa | внешнего аккаунта |
+| `heading` | Section titles and page headings | Externally Owned Account (EOA) | Cuenta de Propiedad Externa (EOA) | Внешний аккаунт (EOA) |
+| `tag` | Category chips, filter pills, metadata labels | EOA | EOA | EOA |
+| `ui` | Buttons, menu items, interface controls | External account (EOA) | Cuenta externa (EOA) | Внешний аккаунт |
+| `code` | Identifiers, API fields, CLI flags | eoa | eoa | eoa |
+| `plurals` | CLDR categories, where the language marks them | accounts | 2 forms | **5 forms** |
+
+That row of `EOA`s is the point of `tag`, and two-versus-five is the point of
+`plurals`. The /contexts page renders this table from the live glossary rather
+than from authored copy, so it cannot drift from the data.
 
 `prose` through `code` live under `entry.contexts.<slot>.term`. `plurals` is a
 separate top-level object keyed by CLDR category (`one`, `two`, `few`, `many`,
@@ -26,10 +40,10 @@ separate top-level object keyed by CLDR category (`one`, `two`, `few`, `many`,
 
 ### Why `ui` diverges most
 
-`ui` is the slot that most often differs from `prose`, because a control names
-an action rather than a thing. English "account" becomes a button reading
-"Connect account", and Spanish follows with "Conectar cuenta". Translators
-should render what the control *does*, not translate the noun in isolation.
+`ui` is the slot that most often differs from `prose`, because a control has to
+stay short and scannable. Above, every language drops below the full phrase and
+Russian sheds the acronym entirely. Translators should render what the control
+*does* in their language, not translate the phrase word for word.
 
 ### Why `code` is usually English
 

@@ -16,6 +16,21 @@
 
 export type ContextId = "prose" | "heading" | "tag" | "ui" | "code" | "plurals"
 
+/**
+ * The term the /contexts page uses to demonstrate the slots.
+ *
+ * Chosen because it is the clearest teacher in the whole glossary: `tag`
+ * collapses to the bare acronym, `heading` title-cases and appends it, `ui`
+ * shortens for a control, `code` is a lowercase identifier -- and Russian
+ * fills five CLDR plural categories where Spanish fills two.
+ *
+ * Keyed by canonical term name, never the id slug. See docs/gotchas.md.
+ */
+export const EXEMPLAR_KEY = "externally owned account (eoa)"
+
+/** The two languages shown beside English: one Latin script, one not. */
+export const EXEMPLAR_LANGS = ["es", "ru"] as const
+
 export interface ContextType {
   id: ContextId
   /** Short label shown on the slot chip in the UI. */
@@ -24,8 +39,11 @@ export interface ContextType {
   summary: string
   /** The full explanation, shown in the reference panel. */
   detail: string
-  /** A real example drawn from the Spanish glossary, term: "account". */
-  example: { en: string; es: string }
+  /**
+   * The English form. The translated columns are read from the live glossary
+   * at render time (see EXEMPLAR_KEY), so they cannot drift from the data.
+   */
+  example: string
 }
 
 export const CONTEXT_TYPES: ContextType[] = [
@@ -35,7 +53,7 @@ export const CONTEXT_TYPES: ContextType[] = [
     summary: "Running text -- sentences, paragraphs, documentation.",
     detail:
       "The default form, used inside a sentence. It follows the target language's normal rules for an ordinary noun: lowercase unless the language capitalizes common nouns, inflected as the grammar requires. If you only read one slot, read this one -- most other forms are derived from it.",
-    example: { en: "account", es: "cuenta" },
+    example: "externally owned account",
   },
   {
     id: "heading",
@@ -43,23 +61,23 @@ export const CONTEXT_TYPES: ContextType[] = [
     summary: "Section titles and page headings.",
     detail:
       "The same term as it appears in a title. Many languages capitalize the first word of a heading where they would not capitalize it mid-sentence, and some drop articles that prose would keep. This slot exists so a heading does not inherit sentence-case from prose and read as a typo.",
-    example: { en: "Account", es: "Cuenta" },
+    example: "Externally Owned Account (EOA)",
   },
   {
     id: "tag",
     label: "Tag",
     summary: "Category chips, filter pills, metadata labels.",
     detail:
-      "The compact form used where space is tight and the word stands alone with no surrounding grammar -- a filter chip, a topic tag, a table column header. Often identical to prose, but languages that inflect heavily may want an uninflected citation form here.",
-    example: { en: "account", es: "cuenta" },
+      "The compact form used where space is tight and the word stands alone with no surrounding grammar -- a filter chip, a topic tag, a table column header. Often identical to prose, but a long term may collapse to its acronym here, as this one does in all three languages.",
+    example: "EOA",
   },
   {
     id: "ui",
     label: "UI",
     summary: "Buttons, menu items, and other interface controls.",
     detail:
-      "The term as it appears in an interactive control. This is the slot that most often diverges from prose, because a control names an action rather than a thing: English \"account\" becomes a button that says \"Connect account\". Translators should render what the control does in their language, not translate the noun in isolation.",
-    example: { en: "Connect account", es: "Conectar cuenta" },
+      "The term as it appears in an interactive control, where space is short and the label has to stay scannable. It often diverges from prose: here every language drops to a shorter form than the full phrase, and Russian sheds the acronym entirely. Render what the control does in your language rather than translating the phrase word for word.",
+    example: "External account (EOA)",
   },
   {
     id: "code",
@@ -67,15 +85,15 @@ export const CONTEXT_TYPES: ContextType[] = [
     summary: "Identifiers, API fields, CLI flags -- usually untranslated.",
     detail:
       "The form used inside code: a JSON key, a function name, a CLI flag, a config value. This is almost always the English original, because translating it would break the thing it names. When a term's script_rule is always_latin, this slot is the reason. Change it only if the identifier genuinely differs in the target ecosystem.",
-    example: { en: "account", es: "account" },
+    example: "eoa",
   },
   {
     id: "plurals",
     label: "Plurals",
     summary: "CLDR plural forms, where the language marks them.",
     detail:
-      "Plural forms follow the Unicode CLDR categories -- one, two, few, many, other -- and not every language uses every category. Six of the 24 languages (Indonesian, Japanese, Korean, Vietnamese, and both Chinese variants) do not mark plurals grammatically, so this slot does not exist for them at all and no feedback is collected on it.",
-    example: { en: "accounts", es: "cuentas" },
+      "Plural forms follow the Unicode CLDR categories -- one, two, few, many, other -- and languages use different numbers of them. Spanish marks two here where Russian marks five, which is why this cannot be a single field. Several languages do not mark plurals grammatically at all, so the slot does not exist for them and no feedback is collected on it.",
+    example: "externally owned accounts",
   },
 ]
 
@@ -132,36 +150,4 @@ export function slotValue(
   }
 
   return entry.contexts?.[context]?.term ?? null
-}
-
-/**
- * Whether a term is worth putting in front of a reviewer for one language.
- *
- * The translate view exists to settle how a term should read in the target
- * language. Some entries have nothing to settle, and listing them just makes
- * the sidebar confusing -- "Albert Einstein" in a Spanish review queue being
- * the case that prompted this.
- *
- * The rule follows the v1 policy in docs/translation-policy.md:
- *
- *  - `always_latin` / `keep_latin` -- the term IS the English string, by rule.
- *    Tickers, standards, RPC identifiers. Nothing to vote on in any language.
- *  - `transliterate` -- real work in a non-Latin script, a no-op in a Latin
- *    one, where the output is character-for-character the English. All six
- *    person-name entries are in this bucket.
- *  - everything else (`translate`, `calque`, ...) -- always reviewable.
- *
- * Filtered terms are not deleted: /translate/:lang?all=1 shows the full list,
- * and every term stays reachable by direct URL.
- */
-export function needsReview(
-  term: { script_rule?: string },
-  languageIsLatinScript: boolean
-): boolean {
-  const rule = term.script_rule
-
-  if (rule === "always_latin" || rule === "keep_latin") return false
-  if (rule === "transliterate") return !languageIsLatinScript
-
-  return true
 }
