@@ -9,7 +9,7 @@
  *
  * This is not a general-purpose sanitizer. It is deliberately small and
  * deny-by-default: anything not on the list is dropped, attributes are
- * dropped except href on <a>, and href must be relative or https.
+ * dropped except href on <a>, and href must be an ethereum.org path or https.
  */
 
 const ALLOWED_TAGS = new Set([
@@ -30,10 +30,24 @@ const ALLOWED_TAGS = new Set([
 
 const VOID_TAGS = new Set(["br"])
 
-/** Relative paths and https only -- no javascript:, data:, or protocol-relative. */
+/**
+ * Where a root-relative link in a definition actually points.
+ *
+ * Definitions were written for ethereum.org and their cross-links are its
+ * paths -- `/developers/docs/gas/`, `/staking/`, 242 of them across 118
+ * distinct targets. Served as-is they all 404 here, so the viewer resolves
+ * them against the site that wrote them.
+ *
+ * The stored data stays relative on purpose: `/api/v1/style-guide` returns
+ * `definition` verbatim, and for a consumer rendering inside ethereum.org the
+ * relative form is the correct one. Absolutizing is a rendering concern.
+ */
+const DEFINITION_LINK_BASE = "https://ethereum.org"
+
+/** https, or an ethereum.org path -- no javascript:, data:, or protocol-relative. */
 function safeHref(value: string): string | null {
   const href = value.trim()
-  if (href.startsWith("/") && !href.startsWith("//")) return href
+  if (href.startsWith("/") && !href.startsWith("//")) return DEFINITION_LINK_BASE + href
   if (href.startsWith("#")) return href
   if (/^https:\/\/[^\s"'<>]+$/i.test(href)) return href
   return null
@@ -94,7 +108,10 @@ export function sanitizeDefinition(input: string): string {
         // Keep the link text, drop the link.
         continue
       }
-      out += `<a href="${escapeText(href)}" rel="noreferrer noopener">`
+      // Every surviving href is now off-site, so it opens in a new tab like
+      // any other external link rather than dropping the reader out of the
+      // term they were reading.
+      out += `<a href="${escapeText(href)}" target="_blank" rel="noreferrer noopener">`
       open.push("a")
       continue
     }
