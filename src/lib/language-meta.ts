@@ -16,7 +16,7 @@ import { SUPPORTED_LANGUAGES } from "./glossary-data"
 export interface LanguageMeta {
   /** The language's name for itself. */
   endonym: string
-  /** English name -- mirrors LANGUAGE_NAMES in routes/translations.ts. */
+  /** English name. Single source: /api/v1/languages reads this too. */
   name: string
   /** Where it is spoken, as shown on the language cards. */
   regions: string

@@ -1,3 +1,4 @@
+import { getLanguageMeta } from "../lib/language-meta"
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi"
 import { ErrorSchema, LangParamSchema, TermIdParamSchema } from "../schemas/common"
 import {
@@ -6,8 +7,8 @@ import {
   LanguagesListSchema,
 } from "../schemas/translations"
 import {
+  computeLanguageStats,
   getTerms,
-  getTermCount,
   resolveTerm,
   loadTranslations,
   SUPPORTED_LANGUAGES,
@@ -15,34 +16,6 @@ import {
 import { z } from "@hono/zod-openapi"
 
 const app = new OpenAPIHono()
-
-// Language names for the metadata endpoint
-const LANGUAGE_NAMES: Record<string, string> = {
-  ar: "Arabic",
-  bn: "Bengali",
-  cs: "Czech",
-  de: "German",
-  es: "Spanish",
-  fr: "French",
-  hi: "Hindi",
-  id: "Indonesian",
-  it: "Italian",
-  ja: "Japanese",
-  ko: "Korean",
-  mr: "Marathi",
-  pl: "Polish",
-  "pt-br": "Portuguese (Brazil)",
-  ru: "Russian",
-  sw: "Swahili",
-  ta: "Tamil",
-  te: "Telugu",
-  tr: "Turkish",
-  uk: "Ukrainian",
-  ur: "Urdu",
-  vi: "Vietnamese",
-  zh: "Chinese (Simplified)",
-  "zh-tw": "Chinese (Traditional)",
-}
 
 // GET /languages
 const languagesRoute = createRoute({
@@ -59,33 +32,12 @@ const languagesRoute = createRoute({
 })
 
 app.openapi(languagesRoute, async (c) => {
-  const totalTerms = getTermCount()
-  const masterKeys = new Set(Object.keys(getTerms()))
+  // One computation, shared with the /languages page -- see computeLanguageStats.
   const languages = await Promise.all(
-    SUPPORTED_LANGUAGES.map(async (code) => {
-      const translations = await loadTranslations(code)
-      // Only count translations matching a term key in the master list
-      // (translation files are keyed by canonical term name, e.g. "proxy contract")
-      const validKeys = Object.keys(translations).filter((k) => masterKeys.has(k))
-      const translatedTerms = validKeys.length
-      const confidenceBreakdown = { high: 0, medium: 0, low: 0 }
-
-      for (const key of validKeys) {
-        const conf = translations[key].confidence ?? "high"
-        if (conf in confidenceBreakdown) {
-          confidenceBreakdown[conf as keyof typeof confidenceBreakdown]++
-        }
-      }
-
-      return {
-        code,
-        name: LANGUAGE_NAMES[code] ?? code,
-        translatedTerms,
-        totalTerms,
-        completionPercent: Math.round((translatedTerms / totalTerms) * 100),
-        confidenceBreakdown,
-      }
-    })
+    SUPPORTED_LANGUAGES.map(async (code) => ({
+      ...(await computeLanguageStats(code)),
+      name: getLanguageMeta(code)?.name ?? code,
+    }))
   )
 
   return c.json({ languages }, 200)
