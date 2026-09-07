@@ -37,6 +37,19 @@ export const StyleGuideTermSchema = z
     definition: z.string().openapi({
       example: "Refers to actions or data that exist on the blockchain.",
     }),
+    references: z
+      .array(
+        z.object({
+          label: z.string(),
+          url: z.string(),
+        })
+      )
+      .optional()
+      .openapi({
+        example: [{ label: "Gas and fees", url: "https://ethereum.org/gas/" }],
+        description:
+          "Further reading for this term. Present only when the term has any; `definition` never contains markup links.",
+      }),
     avoid: z
       .array(z.string())
       .optional()
