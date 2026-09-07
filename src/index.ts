@@ -2,9 +2,10 @@ import { OpenAPIHono } from "@hono/zod-openapi"
 import { apiReference } from "@scalar/hono-api-reference"
 import { cors } from "hono/cors"
 import { cache } from "hono/cache"
+import { trimTrailingSlash } from "hono/trailing-slash"
 
 import llmsTxt from "./llms.txt"
-import viewer from "./routes/viewer"
+import viewer, { notFoundHandler } from "./routes/viewer"
 import info from "./routes/info"
 import styleGuide from "./routes/style-guide"
 import translations from "./routes/translations"
@@ -12,6 +13,15 @@ import filter from "./routes/filter"
 import schema from "./routes/schema"
 
 const app = new OpenAPIHono()
+
+/*
+ * `/translations/` should not 404 when `/translations` works.
+ *
+ * Without `alwaysRedirect` this only acts on a response that already came
+ * back 404, so it costs nothing on a path that matched and it never touches
+ * `/`. The 301 keeps one canonical URL per page rather than two.
+ */
+app.use("*", trimTrailingSlash())
 
 // CORS -- public API, allow all origins for reads
 app.use("*", cors())
@@ -67,5 +77,9 @@ app.get("/llms.txt", (c) => {
 
 // Viewer (root)
 app.route("/", viewer)
+
+// Hono only consults the top-level handler, so the viewer's 404 page has to
+// be registered here rather than on the sub-app. It keeps JSON for /api/*.
+app.notFound(notFoundHandler)
 
 export default app
