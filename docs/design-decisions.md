@@ -131,11 +131,46 @@ The policy was synthesized from pre-existing ethereum.org translation pipeline g
 
 Native-speaker review for several confidence-medium decisions is queued but not yet done (see policy §9.2). When native speakers become available, those are the first review tasks -- they do not invalidate the v1 lock.
 
+## UI components
+
+**No component library. shadcn's token convention, not its components.**
+
+The semantic token layer in `src/ui/app.css` follows shadcn's naming --
+`background` / `foreground` pairs, `card`, `muted`, `secondary`, `accent`,
+`primary`, `border`, `input`, `sidebar`. That half is deliberate and worth
+keeping: it is a well-worn vocabulary and it stops tokens being named after
+the one element they happen to be used on.
+
+shadcn's *components* are React. They are copy-in source built on Radix
+primitives, and there is no vanilla or hono/jsx distribution. Adopting them
+means adding React, react-dom, a hydration entry point and a client bundler to
+a site that currently ships **~2.5 KB of gzipped JavaScript in total**.
+react-dom alone is 43 KB gzipped -- roughly nineteen times the entire client
+payload -- before any Radix primitive or the component itself.
+
+What earns most of the benefit at none of the cost is the platform:
+
+- The mobile drawer is a `<dialog>` opened with `showModal()`. The browser
+  supplies the focus trap, inerts the page behind it, closes on Escape,
+  restores focus to the trigger, and renders the backdrop. Its close button is
+  a `<form method="dialog">` and needs no script at all.
+- Its transition is `@starting-style` plus `transition-behavior: allow-discrete`,
+  which is what an animation library would be wrapping anyway.
+- The click-to-explain popovers are one shared 4 KB island, because a native
+  `title` never fires on touch.
+
+Revisit this only if the app grows genuinely stateful client UI -- a
+multi-step suggestion form, live vote counts, optimistic updates. Reaching for
+React to get one drawer is the trade to refuse. If it is revisited, the
+question is React-plus-shadcn versus a framework-agnostic headless library
+(Zag.js has a vanilla adapter), not shadcn versus hand-rolled.
+
 ## "Do not relitigate" list
 
 If you find yourself proposing one of these, stop and ask:
 
 - Switching stacks (Next.js, NestJS, FastAPI, etc.)
+- Adding React or a component library to get one interactive widget
 - Moving to a database for read data
 - Adding Google, OpenAI, Amazon, or Microsoft dependencies
 - Removing the `/api/v1/` prefix
