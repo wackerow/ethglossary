@@ -3962,53 +3962,6 @@
     "confidence": "high",
     "notes": "Acronym NFT is typically kept in Latin across all usage levels."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "інтерфейс прикладного програмування"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-key": "API-ключ"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Платформа надає зручний API для інтеграції з вашим смарт-контрактом."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Always Latin. Usually treated as masculine because of its implicit translation ('інтерфейс')."
-  },
   "transfer": {
     "term": "переказ",
     "aliases": [
@@ -10829,52 +10782,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "оновлення Денкун",
-    "aliases": [
-      "оновлення Dencun",
-      "Dencun"
-    ],
-    "transliteration": "onovlennia Denkun",
-    "morphology": {
-      "noun": {
-        "singular": "оновлення Денкун"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "оновлення Денкун",
-        "example": "Після оновлення Денкун комісії в мережах другого рівня значно знизилися."
-      },
-      "heading": {
-        "term": "Оновлення Денкун"
-      },
-      "tag": {
-        "term": "оновлення-денкун"
-      },
-      "ui": {
-        "term": "Оновлення Денкун"
-      },
-      "code": {
-        "term": "dencun-upgrade"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "medium",
-    "notes": "Network upgrade codename is often either transliterated or kept in Latin; both approaches are common."
-  },
   "sequencer": {
     "term": "секвенсор",
     "aliases": [
@@ -15358,51 +15265,6 @@
     "confidence": "high",
     "notes": "Mapped per standard W3C translation recommendations for VC."
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "das_node": "вузол DAS"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "Технологія DAS дозволяє легким клієнтам перевіряти доступність даних без завантаження повного блоку."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "Статус DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym for Data Availability Sampling; kept in Latin."
-  },
   "immutability": {
     "term": "незмінність",
     "aliases": [],
@@ -18920,49 +18782,6 @@
     "confidence": "high",
     "notes": "often used as an integrated loanword"
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": "SHA-подібний",
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Алгоритм SHA гарантує криптографічну цілісність даних."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Latin-script abbreviation kept per script_rule"
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -19202,53 +19021,6 @@
       "many": "цензуростійких",
       "other": "цензуростійких"
     },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "доступність даних"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer": "рівень DA"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Рішення рівня 2 покладаються на DA для гарантії безпеки коштів."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": null,
     "source": "llm",
     "confidence": "high",
     "notes": null
@@ -20742,61 +20514,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "реорганізація",
-    "aliases": [
-      "реорг",
-      "реорганізація ланцюга"
-    ],
-    "transliteration": "reorhanizatsiya",
-    "morphology": {
-      "noun": {
-        "singular": "реорганізація"
-      },
-      "verb": {
-        "infinitive": "реорганізовувати",
-        "participle": "реорганізований"
-      },
-      "adjective": "реорганізаційний",
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "реорганізація",
-        "example": "Глибока реорганізація ланцюга може призвести до скасування підтверджених транзакцій."
-      },
-      "heading": {
-        "term": "Реорганізація"
-      },
-      "tag": {
-        "term": "Реорганізація"
-      },
-      "ui": {
-        "term": "Виявлено реорганізацію"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "реорганізація",
-      "two": "реорганізації",
-      "few": "реорганізації",
-      "many": "реорганізацій",
-      "other": "реорганізації"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Captures the concept of chain replacement. The slang 'реорг' is also widely used in the Ukrainian crypto community."
   },
   "supermajority": {
     "term": "супербільшість",
@@ -24393,58 +24110,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "рівень доступності даних",
-    "aliases": [
-      "рівень DA",
-      "шар доступності даних"
-    ],
-    "transliteration": "riven dostupnosti danykh",
-    "morphology": {
-      "noun": {
-        "singular": "рівень доступності даних"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "рівень доступності даних",
-        "example": "Ролап використовує окремий рівень доступності даних для збереження інформації про транзакції."
-      },
-      "heading": {
-        "term": "Рівень доступності даних (DA)"
-      },
-      "tag": {
-        "term": "доступність даних"
-      },
-      "ui": {
-        "term": "Рівень DA"
-      },
-      "code": {
-        "term": "da_layer"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "рівень доступності даних",
-      "two": "рівні доступності даних",
-      "few": "рівні доступності даних",
-      "many": "рівнів доступності даних",
-      "other": "рівня доступності даних"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "механізм екстреного виведення",
     "aliases": [
@@ -24950,55 +24615,6 @@
       "few": "транзакції створення контракту",
       "many": "транзакцій створення контракту",
       "other": "транзакцій створення контракту"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "події",
-    "aliases": [],
-    "transliteration": "podiyi",
-    "morphology": {
-      "noun": {
-        "singular": "подія"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "події",
-        "example": "Смарт-контракт генерує події для сповіщення зовнішніх додатків про зміни стану."
-      },
-      "heading": {
-        "term": "Події"
-      },
-      "tag": {
-        "term": "Події"
-      },
-      "ui": {
-        "term": "Події"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "подія",
-      "two": "події",
-      "few": "події",
-      "many": "подій",
-      "other": "подій"
     },
     "source": "llm",
     "confidence": "high",
@@ -26046,36 +25662,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Альберт Ейнштейн",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Альберт Ейнштейн"
-      },
-      "heading": {
-        "term": "Альберт Ейнштейн"
-      },
-      "tag": {
-        "term": "Альберт Ейнштейн"
-      },
-      "ui": {
-        "term": "Альберт Ейнштейн"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Чарльз Хоскінсон",

@@ -3817,53 +3817,6 @@
     "confidence": "high",
     "notes": "While 'değiştirilemez token' is the descriptive translation, the acronym 'NFT' is heavily used in Turkish without translation."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "Uygulama Programlama Arayüzü"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-endpoint": "API uç noktası"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API'yi",
-        "example": "Geliştiriciler zincir dışı verilere erişmek için harici bir API'yi kullanırlar."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "api"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Universally used as API in Turkish technical contexts."
-  },
   "transfer": {
     "term": "transfer",
     "aliases": [
@@ -10580,53 +10533,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "Dencun güncellemesi",
-    "aliases": [
-      "Dencun yükseltmesi"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "Dencun güncellemesi"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "dencun-upgrade-features": "Dencun güncellemesi özellikleri"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "Dencun güncellemesinin",
-        "example": "Ağ işlem ücretlerini düşürmeyi hedefleyen Dencun güncellemesinin başarıyla tamamlandığı duyuruldu."
-      },
-      "heading": {
-        "term": "Dencun Güncellemesi"
-      },
-      "tag": {
-        "term": "dencun-guncellemesi"
-      },
-      "ui": {
-        "term": "Dencun Güncellemesi"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "sıralayıcı",
     "aliases": [],
@@ -15038,59 +14944,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Veri Kullanılabilirliği Örneklemesi"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "das-node": "DAS düğümü"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DAS sayesinde hafif istemciler tüm bloğu indirmeden verilerin mevcut olduğunu garanti edebilir."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "das"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAS'lar"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Stands for Data Availability Sampling. Kept as Latin abbreviation."
-  },
   "immutability": {
     "term": "değişmezlik",
     "aliases": [
@@ -18651,57 +18504,6 @@
     "confidence": "high",
     "notes": "Stake is commonly preserved as a loanword in Turkish crypto terminology."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "hash": "SHA özeti"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Kriptografik güvenliği sağlamak için SHA algoritmaları kullanılır."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "SHA'lar"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -18955,60 +18757,6 @@
       "formality": "neutral"
     },
     "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Veri Kullanılabilirliği",
-      "Data Availability"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "layer": "DA katmanı"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Ölçeklenebilirlik çözümleri, Ethereum ana ağını bir DA katmanı olarak kullanır."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DA'lar"
-    },
     "source": "llm",
     "confidence": "high",
     "notes": null
@@ -20474,63 +20222,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "yeniden düzenleme",
-    "aliases": [
-      "zincir yeniden düzenlemesi",
-      "reorg"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "yeniden düzenleme"
-      },
-      "verb": {
-        "infinitive": "yeniden düzenlemek",
-        "participle": "yeniden düzenlenen"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": "yeniden düzenlememek",
-      "compounds": {
-        "re-org-depth": "yeniden düzenleme derinliği"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "yeniden düzenleme",
-        "example": "Ağ daha uzun bir zincir bulduğunda, kısa zincirdeki bloklar iptal edilerek bir yeniden düzenleme gerçekleştirilir."
-      },
-      "heading": {
-        "term": "Yeniden Düzenleme"
-      },
-      "tag": {
-        "term": "yeniden-duzenleme"
-      },
-      "ui": {
-        "term": "Yeniden Düzenlemeleri Listele"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "yeniden düzenleme",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "yeniden düzenlemeler"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "İngilizce 'chain reorganization' ifadesinin kısaltmasıdır; Türkçeye genellikle tam metin olarak çevrilir."
   },
   "supermajority": {
     "term": "süper çoğunluk",
@@ -24108,59 +23799,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "DA katmanı",
-    "aliases": [
-      "veri erişilebilirliği katmanı"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA katmanı"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer-security": "DA katmanı güvenliği"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA katmanında",
-        "example": "Modüler blokzincirlerinde veriler doğrudan DA katmanında tutulur, böylece herkes bu verilere erişebilir."
-      },
-      "heading": {
-        "term": "DA Katmanı"
-      },
-      "tag": {
-        "term": "da-katmani"
-      },
-      "ui": {
-        "term": "DA Katmanı"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA katmanı",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DA katmanları"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "kaçış mekanizması",
     "aliases": [
@@ -24692,57 +24330,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "events": {
-    "term": "olaylar",
-    "aliases": [
-      "eventler"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "olay"
-      },
-      "verb": {
-        "infinitive": "olay tetiklemek",
-        "participle": "olay tetikleyen"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "event-log": "olay günlüğü",
-        "event-listener": "olay dinleyicisi"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "olayları",
-        "example": "Akıllı sözleşme, dış uygulamaların dinleyebilmesi için belirli olayları tetikler."
-      },
-      "heading": {
-        "term": "Olaylar"
-      },
-      "tag": {
-        "term": "olaylar"
-      },
-      "ui": {
-        "term": "Olayları Görüntüle"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Used widely in programming; standard translation is 'olaylar'."
   },
   "evm assembly language": {
     "term": "EVM assembly dili",
@@ -25717,34 +25304,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

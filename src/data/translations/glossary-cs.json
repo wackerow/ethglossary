@@ -3964,57 +3964,6 @@
     "confidence": "high",
     "notes": "Většina uživatelů zná a používá pouze zkratku NFT."
   },
-  "api": {
-    "term": "API",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-key": "API klíč"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Vývojáři mohou využít naše API k získání historických dat z blockchainu."
-      },
-      "heading": {
-        "term": "API rozhraní"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "Klíče API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": null,
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": "API",
-      "few": "API",
-      "many": "API",
-      "other": "API"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "API je zkratka, která zůstává nesklonná a v češtině funguje převážně jako střední rod."
-  },
   "transfer": {
     "term": "převod",
     "aliases": [
@@ -10769,59 +10718,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "aktualizace Dencun",
-    "aliases": [
-      "Dencun upgrade",
-      "vylepšení Dencun",
-      "Dencun hard fork"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "aktualizace Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "aktualizaci Dencun",
-        "example": "Díky aktualizaci Dencun došlo k výraznému snížení poplatků na vrstvě 2 s využitím blobs."
-      },
-      "heading": {
-        "term": "Aktualizace Dencun"
-      },
-      "tag": {
-        "term": "aktualizace-dencun"
-      },
-      "ui": {
-        "term": "Aktualizace Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "aktualizace Dencun",
-      "two": "aktualizace Dencun",
-      "few": "aktualizace Dencun",
-      "many": "aktualizací Dencun",
-      "other": "aktualizacím Dencun"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "sekvencer",
     "aliases": [],
@@ -15383,57 +15279,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "Díky implementaci technologie DAS je síť schopna bezpečně škálovat úložný prostor."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": "DAS",
-      "few": "DAS",
-      "many": "DAS",
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "immutability": {
     "term": "neměnnost",
     "aliases": [
@@ -18975,55 +18820,6 @@
     "confidence": "high",
     "notes": "Anglický termín 'stake grinding' se v české kryptoměnové komunitě běžně nepředkládá, případně se používá opis."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Kryptografický algoritmus SHA zajišťuje jednosměrné hašování dat."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "sha"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": "null",
-      "animacy": "null",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": "SHA",
-      "few": "SHA",
-      "many": "SHA",
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Nesklonné."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -19276,58 +19072,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Tvar přídavného jména se skloňuje podle rodů a čísel nadřazeného jména (odolný/odolná/odolné)."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "dostupnost dat",
-      "Data Availability"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Nové vrstvy pro DA pomáhají zásadně snižovat náklady na ukládání dat."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "da"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": "null",
-      "animacy": "null",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": "DA",
-      "few": "DA",
-      "many": "DA",
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Nesklonné."
   },
   "governance token": {
     "term": "token správy",
@@ -20817,61 +20561,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "reorganizace",
-    "aliases": [
-      "reorg",
-      "reorganizace řetězce"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "reorganizace"
-      },
-      "verb": {
-        "infinitive": "reorganizovat",
-        "participle": "reorganizoval"
-      },
-      "adjective": "reorganizační",
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "reorganizaci",
-        "example": "Krátká odpojení mohou vést k menší reorganizaci, kdy jsou nedávné bloky z řetězce odstraněny a nahrazeny jinými."
-      },
-      "heading": {
-        "term": "Reorganizace"
-      },
-      "tag": {
-        "term": "reorganizace"
-      },
-      "ui": {
-        "term": "Detekována reorganizace"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": null,
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "reorganizace",
-      "two": "reorganizace",
-      "few": "reorganizace",
-      "many": "reorganizací",
-      "other": "reorganizací"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Shortened slang 'reorg' is often kept in casual technical Czech, but 'reorganizace' accurately captures block/chain reorganization."
   },
   "supermajority": {
     "term": "supervětšina",
@@ -24469,57 +24158,6 @@
     "confidence": "high",
     "notes": "Adapted from English into a noun phrase; 'blob' is commonly used as a loanword."
   },
-  "da layer": {
-    "term": "DA vrstva",
-    "aliases": [
-      "vrstva dostupnosti dat"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA vrstva"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA vrstvě",
-        "example": "Většina rollupů spoléhá na Ethereum jako na své bezpečné úložiště na DA vrstvě."
-      },
-      "heading": {
-        "term": "DA vrstva"
-      },
-      "tag": {
-        "term": "DA vrstva"
-      },
-      "ui": {
-        "term": "DA vrstva"
-      },
-      "code": {
-        "term": "da_layer"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA vrstva",
-      "two": "DA vrstvy",
-      "few": "DA vrstvy",
-      "many": "DA vrstev",
-      "other": "DA vrstvám"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym 'DA' is kept in Czech, often replacing the full 'vrstva dostupnosti dat'."
-  },
   "escape hatch": {
     "term": "únikový mechanismus",
     "aliases": [
@@ -25022,57 +24660,6 @@
       "few": "transakce vytvoření kontraktu",
       "many": "transakcí vytvoření kontraktu",
       "other": "transakcí vytvoření kontraktu"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "události",
-    "aliases": [
-      "eventy"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "událost"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "události",
-        "example": "Když chytrý kontrakt změní stav, může emitovat události, které čte uživatelské rozhraní."
-      },
-      "heading": {
-        "term": "Události"
-      },
-      "tag": {
-        "term": "události"
-      },
-      "ui": {
-        "term": "Log událostí"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "událost",
-      "two": "události",
-      "few": "události",
-      "many": "událostí",
-      "other": "událostí"
     },
     "source": "llm",
     "confidence": "high",
@@ -26113,34 +25700,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

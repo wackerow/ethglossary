@@ -3510,53 +3510,6 @@
     "confidence": "high",
     "notes": "NFT is extremely common and frequently used as a standalone term in daily prose."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "應用程式介面"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api_endpoint": "API 端點"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "開發者可以使用 API 來查詢區塊鏈的即時資料。"
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "API is universally kept in Latin script. The full translation '應用程式介面' is rarely used in common tech speech."
-  },
   "transfer": {
     "term": "轉帳",
     "aliases": [
@@ -9695,51 +9648,6 @@
     "confidence": "high",
     "notes": "'數位' is the standard Traditional Chinese (Taiwan) translation for 'digital'."
   },
-  "dencun upgrade": {
-    "term": "Dencun 升級",
-    "aliases": [
-      "坎昆升級"
-    ],
-    "transliteration": "Dencun shēng jí",
-    "morphology": {
-      "noun": {
-        "singular": "Dencun 升級"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "Dencun 升級",
-        "example": "以太坊主網成功啟動了 Dencun 升級，大幅降低了 Layer 2 的交易手續費。"
-      },
-      "heading": {
-        "term": "Dencun 升級"
-      },
-      "tag": {
-        "term": "Dencun 升級"
-      },
-      "ui": {
-        "term": "Dencun 升級"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Dencun is often retained in Latin script alongside the translated word for 'upgrade' in Taiwanese crypto communities."
-  },
   "sequencer": {
     "term": "定序器",
     "aliases": [
@@ -13813,51 +13721,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "資料可用性採樣"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DAS 讓輕節點無需下載整個區塊即可驗證資料可用性。"
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "DAS"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym for Data Availability Sampling."
-  },
   "immutability": {
     "term": "不可竄改性",
     "aliases": [
@@ -17034,49 +16897,6 @@
     "confidence": "high",
     "notes": null
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "以太坊協議在多個加密環節中廣泛使用了 SHA 系列雜湊函數。"
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -17292,54 +17112,6 @@
       "gender": null,
       "animacy": null,
       "part_of_speech": "adjective",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "資料可用性",
-      "數據可用性"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer": "DA 層"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Layer 2 擴容方案高度依賴底層的 DA 來確保交易數據可被隨時訪問。"
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "abbreviation",
       "formality": "neutral"
     },
     "plurals": null,
@@ -18679,58 +18451,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Depending on context, it can translate as '發行' (the act of issuance) or '發行量' (the amount issued)."
-  },
-  "re-org": {
-    "term": "區塊鏈重組",
-    "aliases": [
-      "重組",
-      "chain reorganization",
-      "reorg"
-    ],
-    "transliteration": "qū kuài liàn chóng zǔ",
-    "morphology": {
-      "noun": {
-        "singular": "區塊鏈重組"
-      },
-      "verb": {
-        "infinitive": "重組",
-        "participle": "已重組"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "re-org-depth": "重組深度"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "區塊鏈重組",
-        "example": "當兩個礦工幾乎同時挖出區塊時，網路可能會經歷短暫的區塊鏈重組。"
-      },
-      "heading": {
-        "term": "區塊鏈重組"
-      },
-      "tag": {
-        "term": "區塊鏈重組"
-      },
-      "ui": {
-        "term": "發生重組"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Fully captures the removal and reorganization of blocks, avoiding the simplistic 'rearrangement' implication."
   },
   "supermajority": {
     "term": "絕對多數",
@@ -21977,52 +21697,6 @@
     "confidence": "high",
     "notes": "Commonly retains the English word 'blob' as it lacks a widely adopted direct Chinese translation that captures the technical nuance."
   },
-  "da layer": {
-    "term": "資料可用性層",
-    "aliases": [
-      "DA 層",
-      "數據可用性層"
-    ],
-    "transliteration": "ziliao keyongxing ceng",
-    "morphology": {
-      "noun": {
-        "singular": "資料可用性層"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "資料可用性層",
-        "example": "資料可用性層確保所有網路參與者都能存取完整的交易資料。"
-      },
-      "heading": {
-        "term": "資料可用性層"
-      },
-      "tag": {
-        "term": "資料可用性層"
-      },
-      "ui": {
-        "term": "資料可用性層"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "緊急退出機制",
     "aliases": [
@@ -22469,49 +22143,6 @@
       "animacy": "inanimate",
       "part_of_speech": "noun",
       "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "事件",
-    "aliases": [],
-    "transliteration": "shìjiàn",
-    "morphology": {
-      "noun": {
-        "singular": "事件"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "事件",
-        "example": "智能合約可以發出事件，讓外部的去中心化應用程式監聽並做出反應。"
-      },
-      "heading": {
-        "term": "事件 (Events)"
-      },
-      "tag": {
-        "term": "事件"
-      },
-      "ui": {
-        "term": "檢視事件"
-      },
-      "code": {
-        "term": "event"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
     },
     "plurals": null,
     "source": "llm",
@@ -23454,36 +23085,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "愛因斯坦",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "愛因斯坦"
-      },
-      "heading": {
-        "term": "愛因斯坦"
-      },
-      "tag": {
-        "term": "愛因斯坦"
-      },
-      "ui": {
-        "term": "愛因斯坦"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "查爾斯·霍斯金森",

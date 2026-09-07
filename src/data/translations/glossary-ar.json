@@ -3977,51 +3977,6 @@
     "confidence": "high",
     "notes": "'NFT' acronym remains Latin in tags and UI, but spelled out in prose."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "واجهة برمجة التطبيقات"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "يستخدم المطورون API للتواصل برمجياً مع عقدة إيثريوم."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "technical"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym is kept in Latin script per strict script rule."
-  },
   "transfer": {
     "term": "تحويل",
     "aliases": [
@@ -10772,51 +10727,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "ترقية دينكون",
-    "aliases": [
-      "تحديث دينكون"
-    ],
-    "transliteration": "Tarqiyat Dīnkūn",
-    "morphology": {
-      "noun": {
-        "singular": "ترقية دينكون"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "ترقية دينكون",
-        "example": "تتضمن ترقية دينكون تحسينات كبيرة لخفض رسوم شبكات الطبقة الثانية."
-      },
-      "heading": {
-        "term": "ترقية دينكون"
-      },
-      "tag": {
-        "term": "ترقية-دينكون"
-      },
-      "ui": {
-        "term": "ترقية دينكون"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "مُسلسِل",
     "aliases": [
@@ -15393,55 +15303,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "تعتمد الشبكة على تقنية DAS لضمان توافر البيانات بكفاءة."
-      },
-      "heading": {
-        "term": "أخذ عينات توافر البيانات (DAS)"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "تفعيل DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": "DAS",
-      "few": "DAS",
-      "many": "DAS",
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script. Treated as feminine when referring to 'technology' (تقنية) or 'process' (عملية)."
-  },
   "immutability": {
     "term": "عدم القابلية للتغيير",
     "aliases": [
@@ -18938,57 +18799,6 @@
     "confidence": "high",
     "notes": "As a verbal noun (masdar), plurals are typically mapped to 'attacks of stake grinding' to sound natural in Arabic."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": "ليس SHA",
-      "compounds": {
-        "SHA-256": "SHA-256"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "تستخدم إيثريوم خوارزمية التشفير SHA لضمان سلامة البيانات."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": "SHA",
-      "few": "SHA",
-      "many": "SHA",
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronyms are invariable in Arabic."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -19254,59 +19064,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Adjectives map their gender and number to the noun they modify. Provided plurals are masculine by default."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "توافر البيانات"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "DA-layer": "طبقة DA"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "تعتمد حلول التوسع في إيثريوم على طبقة DA لضمان الوصول الآمن إلى البيانات."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": "DA",
-      "few": "DA",
-      "many": "DA",
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
   },
   "governance token": {
     "term": "رمز الحوكمة",
@@ -20818,62 +20575,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "إعادة التنظيم",
-    "aliases": [
-      "إعادة ترتيب السلسلة",
-      "reorg"
-    ],
-    "transliteration": "i'adat al-tanzeem",
-    "morphology": {
-      "noun": {
-        "singular": "إعادة"
-      },
-      "verb": {
-        "infinitive": "أعاد تنظيم",
-        "participle": "مُعيد تنظيم"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "إعادة التنظيم",
-        "example": "تحدث إعادة التنظيم عندما يتم التخلي عن كتلة لصالح سلسلة أطول وأثقل."
-      },
-      "heading": {
-        "term": "إعادة التنظيم"
-      },
-      "tag": {
-        "term": "إعادة تنظيم"
-      },
-      "ui": {
-        "term": "إعادة التنظيم"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "zero": "صفر إعادات تنظيم",
-      "one": "إعادة تنظيم",
-      "two": "إعادتا تنظيم",
-      "few": "إعادات تنظيم",
-      "many": "إعادة تنظيم",
-      "other": "إعادات تنظيم"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Reflects chain reorganization effectively in standard Arabic crypto terminology."
   },
   "supermajority": {
     "term": "الأغلبية الساحقة",
@@ -24456,57 +24157,6 @@
     "confidence": "high",
     "notes": "Translated structurally while keeping 'blob' as a recognized loanword to retain precise technical meaning."
   },
-  "da layer": {
-    "term": "طبقة إتاحة البيانات",
-    "aliases": [
-      "طبقة توفر البيانات"
-    ],
-    "transliteration": "ṭabaqat itāḥat al-bayānāt",
-    "morphology": {
-      "noun": {
-        "singular": "طبقة إتاحة البيانات"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "طبقة إتاحة البيانات",
-        "example": "تضمن طبقة إتاحة البيانات وصول جميع العقد إلى بيانات المعاملات الضرورية."
-      },
-      "heading": {
-        "term": "طبقة إتاحة البيانات"
-      },
-      "tag": {
-        "term": "إتاحة_البيانات"
-      },
-      "ui": {
-        "term": "إتاحة البيانات"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "طبقة إتاحة بيانات",
-      "two": "طبقتا إتاحة بيانات",
-      "few": "طبقات إتاحة بيانات",
-      "many": "طبقة إتاحة بيانات",
-      "other": "طبقة إتاحة بيانات"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "مخرج نجاة",
     "aliases": [
@@ -25014,59 +24664,6 @@
       "few": "معاملات إنشاء عقد",
       "many": "معاملة إنشاء عقد",
       "other": "معاملة إنشاء عقد"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "أحداث",
-    "aliases": [
-      "سجلات الأحداث"
-    ],
-    "transliteration": "ahdaath",
-    "morphology": {
-      "noun": {
-        "singular": "حدث"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "event-log": "سجل الحدث"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "الأحداث",
-        "example": "تسمح العقود الذكية للتطبيقات بالاستماع إلى الأحداث المنبعثة أثناء التنفيذ."
-      },
-      "heading": {
-        "term": "أحداث"
-      },
-      "tag": {
-        "term": "أحداث"
-      },
-      "ui": {
-        "term": "الأحداث"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "حدث",
-      "two": "حدثان",
-      "few": "أحداث",
-      "many": "حدثًا",
-      "other": "حدثٍ"
     },
     "source": "llm",
     "confidence": "high",
@@ -26113,36 +25710,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "ألبرت أينشتاين",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "ألبرت أينشتاين"
-      },
-      "heading": {
-        "term": "ألبرت أينشتاين"
-      },
-      "tag": {
-        "term": "ألبرت أينشتاين"
-      },
-      "ui": {
-        "term": "ألبرت أينشتاين"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "تشارلز هوسكينسون",

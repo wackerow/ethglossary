@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated": "2026-03-26",
-    "total_confirmed": 532,
+    "total_confirmed": 523,
     "total_with_script_rule": 34,
     "total_with_morph_family": 36,
     "total_with_translation_note": 38,
@@ -1836,23 +1836,17 @@
       },
       "aliases": [
         {
-          "term": "reorg",
-          "status": "preferred"
-        },
-        {
           "term": "chain reorganization",
           "status": "accepted"
-        },
-        {
-          "term": "re-org",
-          "status": "deprecated",
-          "note": "Unhyphenated form preferred"
         }
       ],
       "script_rule": "translate",
       "note": "When the canonical chain changes and previously included blocks are removed.",
       "casing": "standard",
-      "term_role": "concept"
+      "term_role": "concept",
+      "avoid": [
+        "re-org"
+      ]
     },
     "restaking": {
       "id": "restaking",
@@ -2954,7 +2948,7 @@
       "definition": "A family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST).",
       "has_tooltip": false,
       "in_glossary": true,
-      "content_occurrences": 0,
+      "content_occurrences": 3,
       "content_files": 0,
       "intl_keys": 0,
       "sources": [
@@ -2965,34 +2959,13 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": [],
-      "term_role": "concept"
-    },
-    "sha": {
-      "id": "sha",
-      "term": "SHA",
-      "category": "cryptography",
-      "definition": "A family of cryptographic hash functions published by the National Institute of Standards and Technology (NIST).",
-      "has_tooltip": false,
-      "in_glossary": false,
-      "content_occurrences": 3,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "heuristic"
-      ],
-      "forms": {
-        "base": "sha"
-      },
-      "script_rule": "always_latin",
-      "casing": "uppercase",
       "aliases": [
         {
-          "term": "Secure Hash Algorithm",
-          "status": "accepted"
+          "term": "SHA",
+          "status": "preferred"
         }
       ],
-      "term_role": "ticker-or-standard"
+      "term_role": "concept"
     },
     "shard / shard chain": {
       "id": "shard",
@@ -3080,11 +3053,11 @@
     "application programming interface (api)": {
       "id": "api",
       "term": "application programming interface (API)",
-      "category": "defi",
+      "category": "development",
       "definition": "An Application Programming Interface (API) is a set of definitions for how to use a piece of software. An API sits between an application and a web server, and facilitates the transfer of data between them.",
       "has_tooltip": false,
       "in_glossary": true,
-      "content_occurrences": 0,
+      "content_occurrences": 264,
       "content_files": 0,
       "intl_keys": 0,
       "sources": [
@@ -3095,7 +3068,12 @@
       },
       "script_rule": "translate",
       "casing": "standard",
-      "aliases": [],
+      "aliases": [
+        {
+          "term": "API",
+          "status": "preferred"
+        }
+      ],
       "term_role": "concept"
     },
     "apr": {
@@ -3898,33 +3876,6 @@
       "casing": "standard",
       "aliases": [],
       "term_role": "concept"
-    },
-    "api": {
-      "id": "api",
-      "term": "API",
-      "category": "development",
-      "definition": "An Application Programming Interface (API) is a set of definitions for how to use a piece of software. An API sits between an application and a web server, and facilitates the transfer of data between them.",
-      "has_tooltip": false,
-      "in_glossary": false,
-      "content_occurrences": 264,
-      "content_files": 64,
-      "intl_keys": 10,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "api"
-      },
-      "translation_note": "Application Programming Interface. Technical acronym, keep Latin.",
-      "script_rule": "always_latin",
-      "casing": "uppercase",
-      "aliases": [
-        {
-          "term": "application programming interface",
-          "status": "accepted"
-        }
-      ],
-      "term_role": "ticker-or-standard"
     },
     "decentralized application (dapp)": {
       "id": "decentralized-application-dapp",
@@ -8268,44 +8219,6 @@
       "aliases": [],
       "term_role": "network-name"
     },
-    "dencun upgrade": {
-      "id": "dencun-upgrade",
-      "term": "dencun upgrade",
-      "category": "protocol-upgrades",
-      "definition": "The upgrade activated in March 2024, combining Deneb on the consensus layer with Cancun on the execution layer. Its central change was EIP-4844, which introduced blobs and cut the cost of posting rollup data dramatically.",
-      "has_tooltip": false,
-      "in_glossary": false,
-      "content_occurrences": 28,
-      "content_files": 11,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "dencun"
-      },
-      "aliases": [
-        {
-          "term": "Dencun",
-          "status": "preferred"
-        },
-        {
-          "term": "Cancun-Deneb",
-          "status": "accepted"
-        },
-        {
-          "term": "dencun upgrade",
-          "status": "accepted"
-        }
-      ],
-      "avoid": [
-        "dencun",
-        "DENCUN"
-      ],
-      "script_rule": "translate",
-      "casing": "proper",
-      "term_role": "network-name"
-    },
     "ethereum request for comments (erc)": {
       "id": "erc",
       "term": "Ethereum Request for Comments (ERC)",
@@ -8737,9 +8650,9 @@
     },
     "data availability": {
       "id": "data-availability",
-      "term": "data availability",
+      "term": "data availability (DA)",
       "category": "scaling",
-      "definition": "Any node can independently verify transactions on a blockchain in order to maintain transparency and trust in the system.",
+      "definition": "The guarantee that transaction data has been published in a way that anyone can verify and download. It is critical for rollup security: if the data is unavailable, no one can prove that state transitions are valid.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 104,
@@ -8766,7 +8679,7 @@
       "id": "data-availability-layer",
       "term": "data availability layer",
       "category": "scaling",
-      "definition": "The part of a system responsible for guaranteeing that transaction data has been published where anyone can retrieve it. Without that guarantee, users cannot reconstruct a rollup's state or challenge an invalid one.",
+      "definition": "The part of a system responsible for guaranteeing that transaction data has been published where anyone can retrieve it. Without that guarantee, users cannot reconstruct a rollup's state or challenge an invalid one. Ethereum layer 1 is the data availability layer for Ethereum rollups today; some rollups post their data to an alternative layer instead.",
       "has_tooltip": false,
       "in_glossary": false,
       "content_occurrences": 1,
@@ -9877,7 +9790,8 @@
         "seed"
       ],
       "forms": {
-        "base": "event"
+        "base": "event",
+        "plural": "events"
       },
       "translation_note": "In Solidity: a logging mechanism in smart contracts. NOT a calendar event.",
       "script_rule": "translate",
@@ -11651,36 +11565,6 @@
       "note": "Ticker symbol for ether. Always Latin/uppercase across all languages per policy section 7.1.",
       "term_role": "ticker-or-standard"
     },
-    "re-org": {
-      "id": "re-org",
-      "term": "re-org",
-      "category": "consensus",
-      "term_role": "concept",
-      "definition": "A chain reorganization. Occurs when a node receives a longer or heavier chain than its current view and switches to follow the new chain, replacing recent blocks. Short re-orgs of one or two blocks are occasional; long re-orgs are rare on Ethereum.",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "re-org"
-      },
-      "script_rule": "translate",
-      "casing": "standard",
-      "aliases": [
-        {
-          "term": "reorg",
-          "status": "accepted"
-        },
-        {
-          "term": "chain reorganization",
-          "status": "accepted"
-        }
-      ]
-    },
     "trustlessness": {
       "id": "trustlessness",
       "term": "trustlessness",
@@ -11722,32 +11606,6 @@
       "script_rule": "translate",
       "casing": "standard",
       "aliases": []
-    },
-    "events": {
-      "id": "events",
-      "term": "events",
-      "category": "smart-contracts",
-      "term_role": "concept",
-      "definition": "A logging mechanism in Solidity that smart contracts use to emit information about state changes. Events are stored in transaction logs and indexed for off-chain consumption by dapps and indexers.",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "event"
-      },
-      "script_rule": "translate",
-      "casing": "standard",
-      "aliases": [
-        {
-          "term": "event",
-          "status": "accepted"
-        }
-      ]
     },
     "self-destruct": {
       "id": "self-destruct",
@@ -11817,32 +11675,6 @@
       "casing": "standard",
       "aliases": []
     },
-    "da layer": {
-      "id": "da-layer",
-      "term": "data availability layer",
-      "category": "scaling",
-      "term_role": "concept",
-      "definition": "A layer responsible for ensuring transaction data is publicly available so that anyone can reconstruct state. Ethereum L1 is the DA layer for Ethereum rollups today; some rollups also use alternative DA layers (alt-DA).",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "data availability layer"
-      },
-      "script_rule": "translate",
-      "casing": "standard",
-      "aliases": [
-        {
-          "term": "DA layer",
-          "status": "accepted"
-        }
-      ]
-    },
     "sstore": {
       "id": "sstore",
       "term": "SSTORE",
@@ -11862,80 +11694,6 @@
       },
       "script_rule": "always_latin",
       "casing": "uppercase",
-      "aliases": []
-    },
-    "das": {
-      "id": "das",
-      "term": "DAS",
-      "category": "scaling",
-      "term_role": "ticker-or-standard",
-      "definition": "Data availability sampling. A technique for verifying that block data is fully available without downloading the entire block, by sampling random chunks and relying on erasure coding. Foundational to Ethereum scaling roadmap (full danksharding).",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "das"
-      },
-      "script_rule": "always_latin",
-      "casing": "uppercase",
-      "aliases": [
-        {
-          "term": "data availability sampling",
-          "status": "accepted"
-        }
-      ]
-    },
-    "da": {
-      "id": "da",
-      "term": "DA",
-      "category": "scaling",
-      "term_role": "ticker-or-standard",
-      "definition": "Data availability. The guarantee that transaction data has been published in a way that anyone can verify and download. Critical for rollup security: if data is unavailable, no one can prove that state transitions are valid.",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed"
-      ],
-      "forms": {
-        "base": "da"
-      },
-      "script_rule": "always_latin",
-      "casing": "uppercase",
-      "aliases": [
-        {
-          "term": "data availability",
-          "status": "accepted"
-        }
-      ]
-    },
-    "albert einstein": {
-      "id": "albert-einstein",
-      "term": "Albert Einstein",
-      "category": "general",
-      "term_role": "person-name",
-      "definition": "Globally famous historical figure with established transliterations in all target languages.",
-      "has_tooltip": true,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "seed",
-        "gemini-3.1-pro-2026-05-14"
-      ],
-      "forms": {
-        "base": "albert einstein"
-      },
-      "script_rule": "transliterate",
-      "casing": "proper",
       "aliases": []
     },
     "charles hoskinson": {
@@ -12207,10 +11965,10 @@
       "term": "Dencun",
       "category": "protocol-upgrades",
       "term_role": "network-name",
-      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "definition": "The upgrade activated in March 2024, combining Deneb on the consensus layer with Cancun on the execution layer. Its central change was EIP-4844, which introduced blobs and cut the cost of posting rollup data dramatically.",
       "has_tooltip": true,
       "in_glossary": true,
-      "content_occurrences": 0,
+      "content_occurrences": 28,
       "content_files": 0,
       "intl_keys": 0,
       "sources": [
@@ -12218,11 +11976,21 @@
         "gemini-3.1-pro-2026-05-14"
       ],
       "forms": {
-        "base": "dencun"
+        "base": "Dencun"
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [
+        {
+          "term": "Cancun-Deneb",
+          "status": "accepted"
+        }
+      ],
+      "avoid": [
+        "dencun",
+        "DENCUN"
+      ],
+      "note": "Ethereum upgrade combining Cancun (execution) and Deneb (consensus). Introduced blobs via EIP-4844."
     },
     "discord": {
       "id": "discord",

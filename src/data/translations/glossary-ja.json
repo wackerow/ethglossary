@@ -3524,49 +3524,6 @@
     "confidence": "high",
     "notes": "Acronym 'NFT' is far more common in Japanese context than the full translated term."
   },
-  "api": {
-    "term": "API",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "開発者はAPIを利用してスマート・コントラクトから外部データにアクセスします。"
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "transfer": {
     "term": "送金",
     "aliases": [
@@ -9587,51 +9544,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "デンクン・アップグレード",
-    "aliases": [
-      "Dencun"
-    ],
-    "transliteration": "denkun appugureedo",
-    "morphology": {
-      "noun": {
-        "singular": "デンクン・アップグレード"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "デンクン・アップグレード",
-        "example": "デンクン・アップグレードにより、プロトダンクシャーディングが導入され、レイヤー2の手数料が削減されました。"
-      },
-      "heading": {
-        "term": "デンクン・アップグレード"
-      },
-      "tag": {
-        "term": "デンクン・アップグレード"
-      },
-      "ui": {
-        "term": "デンクン・アップグレード"
-      },
-      "code": {
-        "term": "dencun_upgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "proper_noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "シーケンサー",
     "aliases": [],
@@ -13674,51 +13586,6 @@
     "confidence": "high",
     "notes": "Credential is widely used as a transliterated loanword in Japanese identity contexts."
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "データ可用性サンプリング"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DASはイーサリアムの拡張性を高めるための重要な技術です。"
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "script_rule: keep_latin"
-  },
   "immutability": {
     "term": "不変性",
     "aliases": [
@@ -16809,49 +16676,6 @@
     "confidence": "high",
     "notes": null
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Ethereumは暗号化においてSHA-3アルゴリズムを使用します。"
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -17074,52 +16898,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Translated as a noun for the base term, with adjective forms detailed in morphology."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "データ可用性",
-      "Data Availability"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "ロールアップの安全性はDA（データ可用性）に依存しています。"
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
   },
   "governance token": {
     "term": "ガバナンス・トークン",
@@ -18451,58 +18229,6 @@
       },
       "code": {
         "term": "issuance"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "リオーグ",
-    "aliases": [
-      "チェーン再編成",
-      "再編成",
-      "reorg"
-    ],
-    "transliteration": "riōgu",
-    "morphology": {
-      "noun": {
-        "singular": "リオーグ"
-      },
-      "verb": {
-        "infinitive": "リオーグする",
-        "participle": "リオーグした"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "block_reorg": "ブロック・リオーグ"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "リオーグ",
-        "example": "深いリオーグが発生すると、承認されたと思っていたトランザクション履歴が覆る可能性があります。"
-      },
-      "heading": {
-        "term": "リオーグ"
-      },
-      "tag": {
-        "term": "リオーグ"
-      },
-      "ui": {
-        "term": "リオーグ"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -21721,51 +21447,6 @@
     "confidence": "high",
     "notes": "Direct katakana transliteration of blobspace."
   },
-  "da layer": {
-    "term": "DAレイヤー",
-    "aliases": [
-      "データ可用性レイヤー"
-    ],
-    "transliteration": "dī-ē reiyā",
-    "morphology": {
-      "noun": {
-        "singular": "DAレイヤー"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAレイヤー",
-        "example": "ロールアップはトランザクションのデータをDAレイヤーに公開し、誰でも状態を再構築できるようにします。"
-      },
-      "heading": {
-        "term": "DAレイヤー"
-      },
-      "tag": {
-        "term": "DAレイヤー"
-      },
-      "ui": {
-        "term": "DAレイヤー"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "DA is kept as English abbreviation, layer is transliterated to katakana."
-  },
   "escape hatch": {
     "term": "エスケープ・ハッチ",
     "aliases": [
@@ -22209,51 +21890,6 @@
       },
       "code": {
         "term": "contractCreationTransaction"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "イベント",
-    "aliases": [],
-    "transliteration": "ibento",
-    "morphology": {
-      "noun": {
-        "singular": "イベント"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "event-log": "イベント・ログ"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "イベント",
-        "example": "スマートコントラクトは、状態の変化を記録するためにイベントを発行します。"
-      },
-      "heading": {
-        "term": "イベント"
-      },
-      "tag": {
-        "term": "イベント"
-      },
-      "ui": {
-        "term": "イベント"
-      },
-      "code": {
-        "term": "events"
       }
     },
     "grammar": {
@@ -23215,36 +22851,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "アルベルト・アインシュタイン",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "アルベルト・アインシュタイン"
-      },
-      "heading": {
-        "term": "アルベルト・アインシュタイン"
-      },
-      "tag": {
-        "term": "アルベルト・アインシュタイン"
-      },
-      "ui": {
-        "term": "アルベルト・アインシュタイン"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "チャールズ・ホスキンソン",
