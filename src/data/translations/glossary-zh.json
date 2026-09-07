@@ -3493,53 +3493,6 @@
     "confidence": "high",
     "notes": "While '非同质化代币' is the correct full translation, 'NFT' is far more common in everyday prose."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "应用程序接口"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-key": "API密钥"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "开发者可以通过调用以太坊节点的 API 来获取最新的区块信息。"
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Always kept as API in technical documentation."
-  },
   "transfer": {
     "term": "转账",
     "aliases": [
@@ -9646,52 +9599,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "登昆升级",
-    "aliases": [
-      "Dencun 升级",
-      "坎昆-登内布升级"
-    ],
-    "transliteration": "dēng kūn shēng jí",
-    "morphology": {
-      "noun": {
-        "singular": "登昆升级"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "登昆升级",
-        "example": "登昆升级引入了 blob 交易，大幅降低了 Layer 2 网络的交易费用。"
-      },
-      "heading": {
-        "term": "登昆升级"
-      },
-      "tag": {
-        "term": "登昆升级"
-      },
-      "ui": {
-        "term": "登昆升级"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "proper_noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Portmanteau of Deneb and Cancun. '登昆' is the official translation used by the Ethereum Foundation."
-  },
   "sequencer": {
     "term": "定序器",
     "aliases": [
@@ -13784,51 +13691,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "数据可用性采样"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DAS 技术允许轻节点在不下载整个区块的情况下确信数据的可用性。"
-      },
-      "heading": {
-        "term": "DAS (数据可用性采样)"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "启用 DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym for Data Availability Sampling"
-  },
   "immutability": {
     "term": "不可变性",
     "aliases": [
@@ -16968,54 +16830,6 @@
     "confidence": "high",
     "notes": null
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [
-      "安全散列算法",
-      "Secure Hash Algorithm"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "sha-256": "SHA-256"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "以太坊使用改进版的SHA-3算法作为其哈希函数。"
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -17248,54 +17062,6 @@
       "gender": null,
       "animacy": "inanimate",
       "part_of_speech": "adjective",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "数据可用性",
-      "Data Availability"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer": "DA层"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Rollup方案通常依赖以太坊的DA层来确保状态数据的安全。"
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
       "formality": "neutral"
     },
     "plurals": null,
@@ -18617,58 +18383,6 @@
       },
       "code": {
         "term": "issuance"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "重组",
-    "aliases": [
-      "链重组",
-      "reorg",
-      "区块链重组"
-    ],
-    "transliteration": "chóng zǔ",
-    "morphology": {
-      "noun": {
-        "singular": "重组"
-      },
-      "verb": {
-        "infinitive": "重组",
-        "participle": "重组"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "deep-reorg": "深度重组"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "重组",
-        "example": "当一条更长的分叉链被网络接受时，原本的区块将会发生重组并被移除。"
-      },
-      "heading": {
-        "term": "链重组"
-      },
-      "tag": {
-        "term": "重组"
-      },
-      "ui": {
-        "term": "发生重组"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -21904,51 +21618,6 @@
     "confidence": "high",
     "notes": "Often written with the English word 'blob' mixed with Chinese '空间' as it is the most recognized term in the developer community."
   },
-  "da layer": {
-    "term": "数据可用性层",
-    "aliases": [
-      "DA层"
-    ],
-    "transliteration": "shuju keyongxing ceng",
-    "morphology": {
-      "noun": {
-        "singular": "数据可用性层"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "数据可用性层",
-        "example": "Rollup网络需要将交易数据发布到以太坊的数据可用性层。"
-      },
-      "heading": {
-        "term": "数据可用性层"
-      },
-      "tag": {
-        "term": "数据可用性层"
-      },
-      "ui": {
-        "term": "数据可用性层"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "安全退出机制",
     "aliases": [
@@ -22383,49 +22052,6 @@
       },
       "code": {
         "term": "contractCreationTransaction"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "事件",
-    "aliases": [],
-    "transliteration": "shijian",
-    "morphology": {
-      "noun": {
-        "singular": "事件"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "事件",
-        "example": "智能合约可以触发事件以便去中心化应用监听状态的变化。"
-      },
-      "heading": {
-        "term": "事件"
-      },
-      "tag": {
-        "term": "事件"
-      },
-      "ui": {
-        "term": "事件"
-      },
-      "code": {
-        "term": "events"
       }
     },
     "grammar": {
@@ -23368,36 +22994,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "阿尔伯特·爱因斯坦",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "阿尔伯特·爱因斯坦"
-      },
-      "heading": {
-        "term": "阿尔伯特·爱因斯坦"
-      },
-      "tag": {
-        "term": "阿尔伯特·爱因斯坦"
-      },
-      "ui": {
-        "term": "阿尔伯特·爱因斯坦"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "查尔斯·霍斯金森",

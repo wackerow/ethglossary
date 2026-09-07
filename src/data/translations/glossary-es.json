@@ -3896,59 +3896,6 @@
     "confidence": "high",
     "notes": "Es preferible utilizar 'NFT' de forma abreviada en la mayoría de los contextos visuales."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "interfaz de programación de aplicaciones"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-key": "clave de API"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Los desarrolladores utilizan la API para consultar el estado de la red Ethereum."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "api"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "API"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Las siglas en español son invariables en su forma escrita plural, se utiliza el artículo para denotar pluralidad ('las API')."
-  },
   "transfer": {
     "term": "transferencia",
     "aliases": [
@@ -10693,57 +10640,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "actualización Dencun",
-    "aliases": [
-      "mejora Dencun"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "actualización Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "actualización Dencun",
-        "example": "La actualización Dencun implementó el proto-danksharding para reducir las comisiones de la capa 2."
-      },
-      "heading": {
-        "term": "Actualización Dencun"
-      },
-      "tag": {
-        "term": "Actualización Dencun"
-      },
-      "ui": {
-        "term": "Actualización Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "actualización Dencun",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "actualizaciones Dencun"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "secuenciador",
     "aliases": [],
@@ -15168,57 +15064,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "muestreo de disponibilidad de datos"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "El mecanismo de DAS permite a los clientes ligeros verificar la disponibilidad de los datos onchain con alta confianza."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Stands for Data Availability Sampling. Usually kept in English abbreviation."
-  },
   "immutability": {
     "term": "inmutabilidad",
     "aliases": [],
@@ -18667,55 +18512,6 @@
     "confidence": "high",
     "notes": "Although often left in English as 'stake grinding' in casual crypto discussions, 'manipulación de participación' is the descriptive translation used in formal Latin American Spanish documentation."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Ethereum utiliza funciones de la familia SHA en su arquitectura criptográfica."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "sha"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronyms are generally invariable in plural form in standard Spanish orthography."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -18967,57 +18763,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Adjectives in Spanish match the noun they modify in pluralization, but 'resistente' is invariable for gender."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Disponibilidad de Datos"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "El diseño de la capa 2 asume que la DA está garantizada por la red principal de Ethereum."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "da"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Treated as feminine in Spanish because it refers to 'Disponibilidad' (Availability)."
   },
   "governance token": {
     "term": "token de gobernanza",
@@ -20502,61 +20247,6 @@
       "few": null,
       "many": null,
       "other": "emisiones"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "reorganización",
-    "aliases": [
-      "reorganización de la cadena",
-      "reorg"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "reorganización"
-      },
-      "verb": {
-        "infinitive": "reorganizar",
-        "participle": "reorganizado"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "reorganización",
-        "example": "El cliente experimentó una reorganización cuando descubrió una rama con mayor peso total de atestación."
-      },
-      "heading": {
-        "term": "Reorganización de la cadena"
-      },
-      "tag": {
-        "term": "Reorganización"
-      },
-      "ui": {
-        "term": "Reorganización"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "reorganización",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "reorganizaciones"
     },
     "source": "llm",
     "confidence": "high",
@@ -24139,57 +23829,6 @@
     "confidence": "high",
     "notes": "Término adoptado ampliamente en la comunidad de Ethereum en español manteniendo 'blob' en inglés."
   },
-  "da layer": {
-    "term": "capa de disponibilidad de datos",
-    "aliases": [
-      "capa de DA"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "capa de disponibilidad de datos"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "capa de disponibilidad de datos",
-        "example": "Los rollups dependen de una capa de disponibilidad de datos para garantizar que el estado pueda ser reconstruido si es necesario."
-      },
-      "heading": {
-        "term": "Capa de Disponibilidad de Datos"
-      },
-      "tag": {
-        "term": "CapaDA"
-      },
-      "ui": {
-        "term": "Capa de DA"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "capa de disponibilidad de datos",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "capas de disponibilidad de datos"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "mecanismo de salida",
     "aliases": [
@@ -24693,55 +24332,6 @@
       "few": null,
       "many": null,
       "other": "transacciones de creación de contrato"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "eventos",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "evento"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "eventos",
-        "example": "Los contratos inteligentes emiten eventos para notificar a las interfaces de usuario que ocurrió una acción en la red."
-      },
-      "heading": {
-        "term": "Eventos"
-      },
-      "tag": {
-        "term": "eventos"
-      },
-      "ui": {
-        "term": "Eventos"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "evento",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "eventos"
     },
     "source": "llm",
     "confidence": "high",
@@ -25781,34 +25371,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

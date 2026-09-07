@@ -3998,59 +3998,6 @@
     "confidence": "high",
     "notes": "NFT stays in Latin in most instances but the full translation is required in formal text."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "интерфейс программирования приложений"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-call": "API-запрос"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Разработчики используют API для взаимодействия с узлом Ethereum."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "API",
-      "two": "API",
-      "few": "API",
-      "many": "API",
-      "other": "API"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script. Indeclinable abbreviation."
-  },
   "transfer": {
     "term": "перевод",
     "aliases": [
@@ -10960,58 +10907,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "обновление Dencun",
-    "aliases": [
-      "апгрейд Dencun",
-      "обновление Денкун"
-    ],
-    "transliteration": "obnovleniye Dencun",
-    "morphology": {
-      "noun": {
-        "singular": "обновление Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "обновлением Dencun",
-        "example": "Сеть успешно перешла на новые правила консенсуса с обновлением Dencun."
-      },
-      "heading": {
-        "term": "Обновление Dencun"
-      },
-      "tag": {
-        "term": "обновление dencun"
-      },
-      "ui": {
-        "term": "Обновление Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "обновление Dencun",
-      "two": "обновления Dencun",
-      "few": "обновления Dencun",
-      "many": "обновлений Dencun",
-      "other": "обновлений Dencun"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept Dencun in Latin script as it is a widely recognized portmanteau proper noun, while 'upgrade' is translated."
-  },
   "sequencer": {
     "term": "секвенсор",
     "aliases": [
@@ -15618,57 +15513,6 @@
     "confidence": "medium",
     "notes": "W3C standard translation uses plural 'учетные данные', singular usage is extremely rare."
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "С помощью DAS легкие клиенты могут проверять доступность данных без их полного скачивания."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": "DAS",
-      "few": "DAS",
-      "many": "DAS",
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin as 'Data Availability Sampling' abbreviation is predominantly used in its original form."
-  },
   "immutability": {
     "term": "неизменяемость",
     "aliases": [
@@ -19252,58 +19096,6 @@
     "confidence": "high",
     "notes": "Direct transliteration is commonly used in Russian technical communities."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [
-      "Secure Hash Algorithm",
-      "алгоритм безопасного хеширования"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Ethereum использует алгоритмы семейства SHA для обеспечения криптографической безопасности."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": "SHA",
-      "few": "SHA",
-      "many": "SHA",
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per script_rule."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -19561,58 +19353,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Adjectives pluralize based on the noun they modify; provided forms reflect common genitive cases used with numbers."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Data Availability",
-      "доступность данных"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Решения масштабирования уровня 2 часто полагаются на уровень DA Ethereum."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": "DA",
-      "few": "DA",
-      "many": "DA",
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per script_rule. Usually feminine in speech due to the translation 'доступность' (availability)."
   },
   "governance token": {
     "term": "токен управления",
@@ -21123,61 +20863,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Standard financial and crypto term in Russian for the creation and issuance of assets."
-  },
-  "re-org": {
-    "term": "реорганизация",
-    "aliases": [
-      "реорганизация цепи",
-      "реорг"
-    ],
-    "transliteration": "reorganizatsiya",
-    "morphology": {
-      "noun": {
-        "singular": "реорганизация"
-      },
-      "verb": {
-        "infinitive": "реорганизовать",
-        "participle": "реорганизованный"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "реорганизация",
-        "example": "Произошла глубокая реорганизация блокчейна, в результате которой последние несколько блоков были отброшены."
-      },
-      "heading": {
-        "term": "Реорганизация цепи"
-      },
-      "tag": {
-        "term": "реорганизация"
-      },
-      "ui": {
-        "term": "Обнаружена реорганизация"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "реорганизация",
-      "two": "реорганизации",
-      "few": "реорганизации",
-      "many": "реорганизаций",
-      "other": "реорганизаций"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "In colloquial crypto Russian, 'реорг' (reorg) is very common, but 'реорганизация' (reorganization) is the proper terminology for documentation."
   },
   "supermajority": {
     "term": "абсолютное большинство",
@@ -24761,58 +24446,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "уровень доступности данных",
-    "aliases": [
-      "уровень DA",
-      "слой доступности данных"
-    ],
-    "transliteration": "uroven' dostupnosti dannykh",
-    "morphology": {
-      "noun": {
-        "singular": "уровень доступности данных"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "уровне доступности данных",
-        "example": "Селестия работает на уровне доступности данных, обеспечивая масштабируемость роллапов."
-      },
-      "heading": {
-        "term": "Уровень доступности данных"
-      },
-      "tag": {
-        "term": "Уровень DA"
-      },
-      "ui": {
-        "term": "Уровень доступности данных"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "уровень доступности данных",
-      "two": "уровня доступности данных",
-      "few": "уровня доступности данных",
-      "many": "уровней доступности данных",
-      "other": "уровни доступности данных"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "механизм экстренного вывода",
     "aliases": [
@@ -25319,55 +24952,6 @@
       "few": "транзакции создания контракта",
       "many": "транзакций создания контракта",
       "other": "транзакции создания контракта"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "события",
-    "aliases": [],
-    "transliteration": "sobytiya",
-    "morphology": {
-      "noun": {
-        "singular": "событие"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "события",
-        "example": "Смарт-контракт генерирует события для того, чтобы уведомить внешние приложения."
-      },
-      "heading": {
-        "term": "События"
-      },
-      "tag": {
-        "term": "события"
-      },
-      "ui": {
-        "term": "События"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "событие",
-      "two": null,
-      "few": "события",
-      "many": "событий",
-      "other": "события"
     },
     "source": "llm",
     "confidence": "high",
@@ -26419,36 +26003,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Альберт Эйнштейн",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Альберт Эйнштейн"
-      },
-      "heading": {
-        "term": "Альберт Эйнштейн"
-      },
-      "tag": {
-        "term": "Альберт Эйнштейн"
-      },
-      "ui": {
-        "term": "Альберт Эйнштейн"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Чарльз Хоскинсон",
