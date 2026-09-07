@@ -22,7 +22,3 @@ export function languageFromCookie(cookieHeader?: string): string | undefined {
   return SUPPORTED_LANGUAGES.includes(value) ? value : undefined
 }
 
-/** Where /translate should send this request, or undefined to show the chooser. */
-export function resolveLanguage(cookieHeader?: string): string | undefined {
-  return languageFromCookie(cookieHeader)
-}
