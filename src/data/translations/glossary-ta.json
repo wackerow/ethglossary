@@ -3904,57 +3904,6 @@
     "confidence": "high",
     "notes": null
   },
-  "api": {
-    "term": "API",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-key": "API-விசை"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "தரவைப் பெற API ஐப் பயன்படுத்தவும்."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "API-கள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as an internationally recognized technical abbreviation."
-  },
   "transfer": {
     "term": "பரிமாற்றம்",
     "aliases": [
@@ -10615,59 +10564,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "டென்குன் மேம்பாடு",
-    "aliases": [
-      "டென்குன் மேம்படுத்தல்"
-    ],
-    "transliteration": "ṭenkuṉ mēmpāṭu",
-    "morphology": {
-      "noun": {
-        "singular": "டென்குன் மேம்பாடு"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "dencun-upgrade-features": "டென்குன் மேம்பாட்டு அம்சங்கள்"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "டென்குன் மேம்பாடு",
-        "example": "டென்குன் மேம்பாடு லேயர் 2 பரிவர்த்தனை கட்டணங்களை குறைக்கும்."
-      },
-      "heading": {
-        "term": "டென்குன் மேம்பாடு"
-      },
-      "tag": {
-        "term": "டென்குன் மேம்பாடு"
-      },
-      "ui": {
-        "term": "டென்குன் மேம்பாடு"
-      },
-      "code": {
-        "term": "dencun-upgrade"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "டென்குன் மேம்பாடு",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "டென்குன் மேம்பாடுகள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "வரிசைப்படுத்தி",
     "aliases": [
@@ -15217,59 +15113,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": "DAS",
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "node": "DAS முனை"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "நெட்வொர்க் தரவு கிடைக்கும் தன்மையை உறுதிப்படுத்த DAS தொழில்நுட்பத்தைப் பயன்படுத்துகிறது."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DASகள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym kept in Latin script per rule."
-  },
   "immutability": {
     "term": "மாற்றவியலாமை",
     "aliases": [
@@ -18784,57 +18627,6 @@
     "confidence": "high",
     "notes": "Descriptive translation of stake grinding."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "sha-256": "SHA-256"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "தரவைப் பாதுகாக்க SHA அல்காரிதம் பயன்படுத்தப்படுகிறது."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "SHAகள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script per rule."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [],
@@ -19087,57 +18879,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Acts as an adjective modifier in Tamil."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer": "DA அடுக்கு"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "ரோலப்கள் தங்கள் தரவுகளுக்கு DA அடுக்கை நம்பியுள்ளன."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAகள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script per rule."
   },
   "governance token": {
     "term": "ஆளுகை டோக்கன்",
@@ -20645,63 +20386,6 @@
       "few": null,
       "many": null,
       "other": "வெளியீடுகள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "மறுசீரமைப்பு",
-    "aliases": [
-      "சங்கிலி மறுசீரமைப்பு",
-      "ரீ-ஆர்க்"
-    ],
-    "transliteration": "maṟusīramaippu",
-    "morphology": {
-      "noun": {
-        "singular": "மறுசீரமைப்பு"
-      },
-      "verb": {
-        "infinitive": "மறுசீரமைக்க",
-        "participle": "மறுசீரமைத்து"
-      },
-      "adjective": "மறுசீரமைக்கப்பட்ட",
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "chain-reorg": "சங்கிலி மறுசீரமைப்பு"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "மறுசீரமைப்பின்",
-        "example": "சங்கிலி மறுசீரமைப்பின் போது சில தொகுதிகள் கைவிடப்படலாம்."
-      },
-      "heading": {
-        "term": "மறுசீரமைப்பு"
-      },
-      "tag": {
-        "term": "மறுசீரமைப்பு"
-      },
-      "ui": {
-        "term": "மறுசீரமைப்பு"
-      },
-      "code": {
-        "term": "reOrg"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "மறுசீரமைப்பு",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "மறுசீரமைப்புகள்"
     },
     "source": "llm",
     "confidence": "high",
@@ -24289,59 +23973,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "தரவு கிடைக்கும் அடுக்கு",
-    "aliases": [
-      "டிஏ அடுக்கு"
-    ],
-    "transliteration": "Taravu kiṭaikkum aṭukku",
-    "morphology": {
-      "noun": {
-        "singular": "தரவு கிடைக்கும் அடுக்கு"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da_layer_security": "தரவு கிடைக்கும் அடுக்கு பாதுகாப்பு"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "தரவு கிடைக்கும் அடுக்கில்",
-        "example": "ரோலப்கள் தங்களின் தரவுகளைத் தரவு கிடைக்கும் அடுக்கில் பதிவேற்றுகின்றன."
-      },
-      "heading": {
-        "term": "தரவு கிடைக்கும் அடுக்கு"
-      },
-      "tag": {
-        "term": "டிஏ-அடுக்கு"
-      },
-      "ui": {
-        "term": "டிஏ அடுக்கு"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "தரவு கிடைக்கும் அடுக்கு",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "தரவு கிடைக்கும் அடுக்குகள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "மீட்பு வழி",
     "aliases": [
@@ -24859,60 +24490,6 @@
       "few": null,
       "many": null,
       "other": "ஒப்பந்த உருவாக்கப் பரிவர்த்தனைகள்"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "நிகழ்வுகள்",
-    "aliases": [],
-    "transliteration": "nigalvugal",
-    "morphology": {
-      "noun": {
-        "singular": "நிகழ்வு"
-      },
-      "verb": {
-        "infinitive": "நிகழ",
-        "participle": "நிகழ்ந்த"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "event-logs": "நிகழ்வுப் பதிவுகள்"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "நிகழ்வுகளை",
-        "example": "திறன் ஒப்பந்தம் குறிப்பிட்ட செயல்களின் போது நிகழ்வுகளை வெளியிடுகிறது."
-      },
-      "heading": {
-        "term": "நிகழ்வுகள்"
-      },
-      "tag": {
-        "term": "நிகழ்வுகள்"
-      },
-      "ui": {
-        "term": "நிகழ்வுகள்"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "நிகழ்வு",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "நிகழ்வுகள்"
     },
     "source": "llm",
     "confidence": "high",
@@ -25994,36 +25571,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "ஆல்பர்ட் ஐன்ஸ்டீன்",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
-      },
-      "heading": {
-        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
-      },
-      "tag": {
-        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
-      },
-      "ui": {
-        "term": "ஆல்பர்ட் ஐன்ஸ்டீன்"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "சார்லஸ் ஹாஸ்கின்சன்",

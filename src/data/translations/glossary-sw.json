@@ -3867,55 +3867,6 @@
     "confidence": "high",
     "notes": null
   },
-  "api": {
-    "term": "API",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Wasanidi programu hutumia API ili kuwasiliana na mikataba mahiri kirahisi."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "API"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "transfer": {
     "term": "hamisho",
     "aliases": [
@@ -10603,57 +10554,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "sasisho la Dencun",
-    "aliases": [
-      "maboresho ya Dencun"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "sasisho la Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "sasisho la Dencun",
-        "example": "Sasisho la Dencun linalenga kupunguza gharama za miamala kwenye mtandao mkuu."
-      },
-      "heading": {
-        "term": "Sasisho la Dencun"
-      },
-      "tag": {
-        "term": "sasisho-dencun"
-      },
-      "ui": {
-        "term": "Sasisho la Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "sasisho la Dencun",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "masasisho ya Dencun"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "mpangaji",
     "aliases": [
@@ -15124,57 +15024,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "Kwa kutumia DAS, wathibitishaji hawahitaji kupakua kizuizi kizima cha data."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "das"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym kept in Latin script per rule."
-  },
   "immutability": {
     "term": "kutobadilika",
     "aliases": [
@@ -18585,55 +18434,6 @@
     "confidence": "medium",
     "notes": "Translated conceptually to reflect the manipulation (uchakachuaji) of staked assets to force a specific outcome."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Algoriti ya SHA inatumika kulinda usalama wa data kwenye mnyororo wa vitalu."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "sha"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [],
@@ -18884,55 +18684,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Represented primarily as a descriptive adjective phrase matching noun classes depending on usage."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Suluhisho la DA (Upatikanaji wa Data) linahakikisha kwamba data zote za muamala zinaweza kufikiwa."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "da"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
   },
   "governance token": {
     "term": "tokini ya utawala",
@@ -20435,61 +20186,6 @@
       "few": null,
       "many": null,
       "other": "matoaji"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "upangaji upya",
-    "aliases": [
-      "upangaji upya wa mnyororo",
-      "reorg"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "upangaji upya"
-      },
-      "verb": {
-        "infinitive": "kupanga upya",
-        "participle": "imepangwa upya"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "upangaji upya",
-        "example": "Upangaji upya ulisababisha vitalu viwili kufutwa kwenye mnyororo mkuu."
-      },
-      "heading": {
-        "term": "Upangaji Upya"
-      },
-      "tag": {
-        "term": "upangaji-upya"
-      },
-      "ui": {
-        "term": "Tukio la Upangaji Upya"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "upangaji upya",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "mipangaji upya"
     },
     "source": "llm",
     "confidence": "high",
@@ -24025,57 +23721,6 @@
     "confidence": "high",
     "notes": "Translates to 'space of blob', leveraging the class 9/10 noun 'nafasi'."
   },
-  "da layer": {
-    "term": "tabaka la DA",
-    "aliases": [
-      "tabaka la upatikanaji wa data"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "tabaka la DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "tabaka la DA",
-        "example": "Tabaka la DA linahakikisha data yote ya miamala inaweza kupatikana kwa urahisi."
-      },
-      "heading": {
-        "term": "Tabaka la DA"
-      },
-      "tag": {
-        "term": "tabaka-la-da"
-      },
-      "ui": {
-        "term": "Tabaka la DA"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "tabaka la DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "matabaka ya DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "DA is kept as an acronym, combined with 'tabaka' (layer)."
-  },
   "escape hatch": {
     "term": "njia ya kujitoa kwa dharura",
     "aliases": [
@@ -24577,60 +24222,6 @@
       "few": null,
       "many": null,
       "other": "miamala ya uundaji mkataba"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "matukio",
-    "aliases": [
-      "logi za matukio"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "tukio"
-      },
-      "verb": {
-        "infinitive": "kutukia",
-        "participle": "iliyotukia"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "matukio",
-        "example": "Mkataba unatoa matukio ili kuruhusu programu za nje kusasisha taarifa."
-      },
-      "heading": {
-        "term": "Matukio"
-      },
-      "tag": {
-        "term": "Matukio"
-      },
-      "ui": {
-        "term": "Matukio"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "tukio",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "matukio"
     },
     "source": "llm",
     "confidence": "high",
@@ -25670,34 +25261,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

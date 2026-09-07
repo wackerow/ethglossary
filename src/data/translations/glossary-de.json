@@ -4010,60 +4010,6 @@
     "confidence": "high",
     "notes": "Often used purely as the acronym 'NFT' in German prose."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "Programmierschnittstelle",
-      "Anwendungsprogrammierschnittstelle"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api_call": "API-Aufruf"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Die API ermöglicht den einfachen Zugriff auf Blockchain-Datenbanken."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API-Schlüssel"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": "APIs",
-      "few": "APIs",
-      "many": "APIs",
-      "other": "APIs"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "transfer": {
     "term": "Transfer",
     "aliases": [
@@ -10934,57 +10880,6 @@
     "confidence": "high",
     "notes": "In German, the adjective 'digitaler' is lowercased in prose, but capitalized at the start of sentences or headings."
   },
-  "dencun upgrade": {
-    "term": "Dencun-Upgrade",
-    "aliases": [
-      "Dencun"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "Dencun-Upgrade"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "Dencun-Upgrade",
-        "example": "Das Dencun-Upgrade führte wichtige Änderungen zur Skalierung des Netzwerks ein."
-      },
-      "heading": {
-        "term": "Dencun-Upgrade"
-      },
-      "tag": {
-        "term": "Dencun-Upgrade"
-      },
-      "ui": {
-        "term": "Dencun-Upgrade"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "Dencun-Upgrade",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "Dencun-Upgrades"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "Sequencer",
     "aliases": [
@@ -15498,59 +15393,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "das-node": "DAS-Knoten"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "Durch DAS können Light-Clients effizient überprüfen, ob Blockdaten verfügbar sind."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "immutability": {
     "term": "Unveränderlichkeit",
     "aliases": [
@@ -19124,59 +18966,6 @@
     "confidence": "high",
     "notes": null
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [
-      "Secure Hash Algorithm"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "sha-hash": "SHA-Hash"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Ethereum verwendet SHA-basierte kryptografische Hash-Funktionen für die Datensicherheit."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "SHAs"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -19431,60 +19220,6 @@
       "formality": "neutral"
     },
     "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Data Availability",
-      "Datenverfügbarkeit"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer": "DA-Layer"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Der DA-Layer stellt sicher, dass alle Transaktionsdaten öffentlich zugänglich sind."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAs"
-    },
     "source": "llm",
     "confidence": "high",
     "notes": null
@@ -20999,64 +20734,6 @@
       "few": null,
       "many": null,
       "other": "Emissionen"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "Reorg",
-    "aliases": [
-      "Reorganisation",
-      "Chain-Reorganisation",
-      "Ketten-Reorganisation"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "Reorg"
-      },
-      "verb": {
-        "infinitive": "reorganisieren",
-        "participle": "reorganisiert"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "reorg_depth": "Reorg-Tiefe"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "Reorg",
-        "example": "Ein Reorg tritt auf, wenn ein neuer Block einen zuvor akzeptierten Block ersetzt."
-      },
-      "heading": {
-        "term": "Reorg"
-      },
-      "tag": {
-        "term": "Reorg"
-      },
-      "ui": {
-        "term": "Reorg"
-      },
-      "code": {
-        "term": "reOrg"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "Reorg",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "Reorgs"
     },
     "source": "llm",
     "confidence": "high",
@@ -24688,60 +24365,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "DA-Schicht",
-    "aliases": [
-      "Datenverfügbarkeitsschicht",
-      "DA-Layer"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA-Schicht"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer-security": "DA-Schicht-Sicherheit"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA-Schicht",
-        "example": "Rollups nutzen die Ethereum-Blockchain als sichere DA-Schicht für ihre Transaktionsdaten."
-      },
-      "heading": {
-        "term": "DA-Schicht"
-      },
-      "tag": {
-        "term": "DA-Schicht"
-      },
-      "ui": {
-        "term": "DA-Schicht"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA-Schicht",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DA-Schichten"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "Sicherheitsausstieg",
     "aliases": [
@@ -25269,62 +24892,6 @@
       "few": null,
       "many": null,
       "other": "Vertragserstellungstransaktionen"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "Ereignisse",
-    "aliases": [
-      "Events"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "Ereignis"
-      },
-      "verb": {
-        "infinitive": "ereignen",
-        "participle": "ereignet"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "event_log": "Ereignisprotokoll"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "Ereignisse",
-        "example": "Smart-Contracts können Ereignisse auslösen, um externe Anwendungen über Änderungen zu informieren."
-      },
-      "heading": {
-        "term": "Ereignisse"
-      },
-      "tag": {
-        "term": "Ereignis"
-      },
-      "ui": {
-        "term": "Ereignisse abonnieren"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "Ereignis",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "Ereignisse"
     },
     "source": "llm",
     "confidence": "high",
@@ -26395,34 +25962,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

@@ -3920,55 +3920,6 @@
     "confidence": "high",
     "notes": null
   },
-  "api": {
-    "term": "API",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "डेव्हलपर्स ब्लॉकचेनशी संवाद साधण्यासाठी API चा वापर करतात."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "APIs"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per API common usage."
-  },
   "transfer": {
     "term": "हस्तांतरण",
     "aliases": [
@@ -10616,59 +10567,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "डेंकुन अपग्रेड",
-    "aliases": [
-      "डेंकुन सुधारणा"
-    ],
-    "transliteration": "ḍeṅkun apgreḍ",
-    "morphology": {
-      "noun": {
-        "singular": "डेंकुन अपग्रेड"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "dencun-upgrade-deployment": "डेंकुन अपग्रेड डिप्लॉयमेंट"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "डेंकुन अपग्रेडमुळे",
-        "example": "डेंकुन अपग्रेडमुळे लेयर २ नेटवर्कवरील गॅस फी लक्षणीयरीत्या कमी होईल."
-      },
-      "heading": {
-        "term": "डेंकुन अपग्रेड"
-      },
-      "tag": {
-        "term": "डेंकुन-अपग्रेड"
-      },
-      "ui": {
-        "term": "डेंकुन अपग्रेड"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "डेंकुन अपग्रेड",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "डेंकुन अपग्रेड्स"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "सिक्वेन्सर",
     "aliases": [
@@ -15156,49 +15054,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "इथेरियम नेटवर्कची स्केलेबिलिटी वाढवण्यासाठी DAS तंत्राचा वापर केला जातो."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Data Availability Sampling, typically kept as an acronym."
-  },
   "immutability": {
     "term": "अपरिवर्तनीयता",
     "aliases": [
@@ -18732,57 +18587,6 @@
     "confidence": "high",
     "notes": "Adopted English technical jargon, standard in Marathi blockchain context."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "sha-256": "SHA-256"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "इथेरियम सुरक्षिततेसाठी प्रगत SHA हॅशिंग अल्गोरिदम वापरते."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "sha"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -19033,60 +18837,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Adjectives typically do not vary by plural in this composite form."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Data Availability",
-      "डेटा अव्हेलेबिलिटी"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer": "DA लेयर"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "रोलअप्स सुरक्षितपणे कार्य करण्यासाठी DA ची हमी अत्यंत आवश्यक असते."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
   },
   "governance token": {
     "term": "गव्हर्नन्स टोकन",
@@ -20513,53 +20263,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "'निर्गमन' accurately captures the formalized issuing or minting of new currency."
-  },
-  "re-org": {
-    "term": "रि-ऑर्ग",
-    "aliases": [
-      "साखळी पुनर्रचना",
-      "chain reorganization",
-      "reorg"
-    ],
-    "transliteration": "ri-ŏrg",
-    "morphology": {
-      "noun": {
-        "singular": "रि-ऑर्ग"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "रि-ऑर्ग",
-        "example": "नेटवर्कवर मोठा रि-ऑर्ग झाल्यास आधीचे काही व्यवहार रद्द होऊन नवीन ब्लॉक साखळीत जोडले जातात."
-      },
-      "heading": {
-        "term": "रि-ऑर्ग धोके"
-      },
-      "tag": {
-        "term": "रि-ऑर्ग"
-      },
-      "ui": {
-        "term": "रि-ऑर्ग घटना"
-      },
-      "code": {
-        "term": "re_org"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Adopted as 'रि-ऑर्ग' natively by tech users; translation 'पुनर्रचना' alone doesn't immediately suggest block deletion in general Marathi usage, so phonetic adoption with 'साखळी पुनर्रचना' as an alias is ideal."
   },
   "supermajority": {
     "term": "विशेष बहुमत",
@@ -24081,58 +23784,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "डेटा उपलब्धता स्तर",
-    "aliases": [
-      "डी.ए. लेयर",
-      "DA स्तर"
-    ],
-    "transliteration": "ḍeṭā upalabdhatā star",
-    "morphology": {
-      "noun": {
-        "singular": "डेटा उपलब्धता स्तर"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "डेटा उपलब्धता स्तर",
-        "example": "रोलअप्स त्यांचा डेटा डेटा उपलब्धता स्तरावर प्रकाशित करतात."
-      },
-      "heading": {
-        "term": "डेटा उपलब्धता स्तर"
-      },
-      "tag": {
-        "term": "डी.ए. लेयर"
-      },
-      "ui": {
-        "term": "डेटा उपलब्धता स्तर"
-      },
-      "code": {
-        "term": "da_layer"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "डेटा उपलब्धता स्तर",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "डेटा उपलब्धता स्तर"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "सुरक्षित निकास",
     "aliases": [
@@ -24644,57 +24295,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "events": {
-    "term": "घटना",
-    "aliases": [
-      "इव्हेंट्स"
-    ],
-    "transliteration": "ghaṭanā",
-    "morphology": {
-      "noun": {
-        "singular": "घटना"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "घटना",
-        "example": "ब्लॉकचेनवरील महत्त्वाच्या नोंदी ठेवण्यासाठी स्मार्ट कॉन्ट्रॅक्ट घटना (events) वापरतात."
-      },
-      "heading": {
-        "term": "घटना"
-      },
-      "tag": {
-        "term": "घटना"
-      },
-      "ui": {
-        "term": "घटना"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "घटना",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "घटना"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Plural of 'ghaṭanā' remains 'ghaṭanā' in nominative case."
   },
   "evm assembly language": {
     "term": "ईव्हीएम असेंबली भाषा",
@@ -25746,36 +25346,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "अल्बर्ट् आइनस्टाइन्",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "अल्बर्ट् आइनस्टाइन्"
-      },
-      "heading": {
-        "term": "अल्बर्ट् आइनस्टाइन्"
-      },
-      "tag": {
-        "term": "अल्बर्ट् आइनस्टाइन्"
-      },
-      "ui": {
-        "term": "अल्बर्ट् आइनस्टाइन्"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "चार्ल्स् हॉस्किन्सन्",
