@@ -26,10 +26,10 @@ const CELL = "border-b border-border-subtle px-3.5 py-2.5 text-left"
  *
  * This table used to carry a link in every <td> with `aria-hidden` on the
  * duplicates, which made the row clickable but hid the coverage numbers from
- * a screen reader entirely. See the `row-link` utility in app.css.
+ * a screen reader entirely. See src/ui/row-link.ts.
  */
-const ROW = "relative hover:bg-card"
-const ROW_LINK = "row-link no-underline hover:underline"
+const ROW = "group cursor-pointer hover:bg-card"
+const ROW_LINK = "no-underline group-hover:underline"
 
 /** Why the chooser is showing, when the visitor did not navigate here directly. */
 export type LanguagesNotice = "choose" | "changed"
@@ -113,7 +113,7 @@ export const LanguagesPage = ({
               columns because coverage figures mean nothing for it, and that
               space says what it does instead.
             */}
-            <tr class={ROW}>
+            <tr class={ROW} data-row-link>
               <th scope="row" class={`${CELL} whitespace-nowrap font-normal`}>
                 <a class={ROW_LINK} href="/translations/all">
                   <span class="font-bold text-foreground-strong">All languages</span>
@@ -130,7 +130,7 @@ export const LanguagesPage = ({
               const href = `/translations/${l.code}`
               const label = `Review the ${l.name} glossary`
               return (
-                <tr class={ROW}>
+                <tr class={ROW} data-row-link>
                   <th scope="row" class={`${CELL} font-normal`}>
                     <a class={ROW_LINK} href={href} aria-label={label}>
                       <span class="font-bold text-foreground-strong" lang={l.code} dir={l.dir}>

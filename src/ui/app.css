@@ -247,26 +247,6 @@
   }
 }
 
-/*
- * Whole-row link for a table.
- *
- * The rule: if a table row contains exactly one link, the whole row is the
- * target -- put `relative` on the <tr> and `row-link` on the <a>.
- *
- * An overlay rather than an <a> in every <td>, because the alternative
- * needs `aria-hidden` on the duplicate links to stop a screen reader
- * announcing the row five times, and that hides the cells' content along
- * with them. Here the cells stay ordinary text and the one real link covers
- * the row. Trade-off: text in the other cells is no longer selectable.
- */
-@utility row-link {
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-  }
-}
-
 @layer components {
   /*
    * Mobile drawer transition.

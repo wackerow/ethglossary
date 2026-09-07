@@ -24,13 +24,14 @@ const aliasText = (a: string | { term: string; status: string }): string =>
 const CELL = "border-b border-border-subtle px-3.5 py-2.5 text-left align-top"
 
 /*
- * Whole-row link. See the `row-link` utility in app.css for why it is an
- * overlay rather than an <a> per cell; the rule is that a row holding exactly
- * one link makes the entire row the target.
+ * Whole-row link. A row holding exactly one link makes the entire row the
+ * target; `data-row-link` is what src/ui/row-link.ts looks for. `group` is
+ * how the link picks up the row's hover, since the pointer is no longer
+ * literally over it.
  */
 const HEAD = `${CELL} whitespace-nowrap bg-card text-tiny font-bold text-foreground-subtle`
-const ROW = "relative hover:bg-card"
-const ROW_LINK = "row-link no-underline hover:underline"
+const ROW = "group cursor-pointer hover:bg-card"
+const ROW_LINK = "no-underline group-hover:underline"
 /*
  * Pills. `whitespace-nowrap` because a chip that wraps stops reading as one
  * token -- "accounts-keys" broke across two lines in the Category column and
@@ -121,7 +122,7 @@ export const StyleGuidePage = ({
         </thead>
         <tbody id="term-list">
           {terms.map((t) => (
-            <tr class={ROW}>
+            <tr class={ROW} data-row-link>
               <td class={CELL}>
                 <a
                   class={`${ROW_LINK} font-bold text-foreground-strong`}
@@ -297,7 +298,7 @@ export const TermDetailPage = ({
               {listLanguages().map((l) => {
                 const prose = translations.find((t) => t.code === l.code)?.prose
                 return (
-                  <tr class={ROW}>
+                  <tr class={ROW} data-row-link>
                     <th scope="row" class={`${CELL} whitespace-nowrap font-normal`}>
                       <a class={ROW_LINK} href={`/translations/${l.code}/${term.id}`}>
                         <span class="font-bold text-foreground-strong" lang={l.code} dir={l.dir}>
