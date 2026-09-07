@@ -36,7 +36,8 @@ TypeScript shape from `src/lib/glossary-data.ts`:
   id: string,                      // kebab-case slug, e.g. "zk-proof". NOT the master key.
   term: string,                    // canonical form, e.g. "zero-knowledge proof"
   category: string,                // currently topical (see "Categories" below)
-  definition: string,              // may contain HTML <a> tags linking to other glossary terms
+  definition: string,              // plain prose; never contains markup links
+  references?: Array<{ label: string, url: string }>,   // optional further reading
   has_tooltip: boolean,
   in_glossary: boolean,
   content_occurrences: number,
@@ -84,6 +85,33 @@ The **master key** in `confirmed_terms` is the canonical term name (e.g. `"proxy
 ```
 
 Plurals follow Unicode CLDR categories. Not every language uses every category.
+
+## `definition` and `references`
+
+`definition` is prose. It **never contains markup links.** It may still carry
+light structural HTML (`<br />`, `<strong>`, `<ul>`/`<li>`, `<sup>`, `<em>`),
+but an `<a>` tag in a definition is a data bug.
+
+Further reading lives in the optional `references` array instead:
+
+```json
+"references": [
+  { "label": "Gas and fees", "url": "https://ethereum.org/gas/" }
+]
+```
+
+- `url` is absolute. ethereum.org targets are prefixed `https://ethereum.org`;
+  off-site targets keep their own host. Fragments are preserved.
+- `label` is a short noun phrase, sentence-cased, with no "More on " /
+  "Learn more about " lead-in.
+- Entries are unique by URL and ordered as they appeared in the source prose.
+- The field is **omitted entirely** when a term has no references. Never emit
+  `"references": []`.
+
+Glossary cross-references (links to other terms) are deliberately *not*
+references. They were inline vocabulary, so their text stays in the definition
+and the link is dropped -- the consumer already has the whole term list and can
+re-link whatever it wants.
 
 ## `casing` semantics
 

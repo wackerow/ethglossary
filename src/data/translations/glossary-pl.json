@@ -3932,57 +3932,6 @@
     "confidence": "high",
     "notes": "Genitive singular is commonly 'tokena' in Polish IT jargon, though 'tokenu' is also prescriptively correct. Both 'niewymienny' and 'niewymienialny' are used."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "interfejs programowania aplikacji"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Wysłałem zapytanie do sieci głównej korzystając z zewnętrznego API."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": "API",
-      "few": "API",
-      "many": "API",
-      "other": "API"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym kept as Latin. Indeclinable in standard Polish usage."
-  },
   "transfer": {
     "term": "transfer",
     "aliases": [
@@ -10779,57 +10728,6 @@
     "confidence": "high",
     "notes": "Both 'aktywo cyfrowe' and 'zasób cyfrowy' are used, but 'aktywo' is standard in financial contexts."
   },
-  "dencun upgrade": {
-    "term": "aktualizacja Dencun",
-    "aliases": [
-      "hard fork Dencun"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "aktualizacja Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "aktualizacja Dencun",
-        "example": "Aktualizacja Dencun znacznie obniżyła opłaty transakcyjne w sieciach warstwy drugiej."
-      },
-      "heading": {
-        "term": "Aktualizacja Dencun"
-      },
-      "tag": {
-        "term": "Dencun"
-      },
-      "ui": {
-        "term": "Aktualizacja Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "aktualizacja Dencun",
-      "two": "aktualizacje Dencun",
-      "few": "aktualizacje Dencun",
-      "many": "aktualizacji Dencun",
-      "other": "aktualizacji Dencun"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "sekwenser",
     "aliases": [
@@ -15374,57 +15272,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "Technologia DAS pozwala lekkim węzłom na weryfikację dostępności danych."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "Status DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": "DAS",
-      "few": "DAS",
-      "many": "DAS",
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym for Data Availability Sampling, treated as indeclinable in Polish."
-  },
   "immutability": {
     "term": "niezmienność",
     "aliases": [
@@ -18933,58 +18780,6 @@
     "confidence": "high",
     "notes": "Often left as 'stake grinding' in highly technical jargon, but 'manipulacja stawką' describes the mechanism accurately in Polish."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [
-      "Secure Hash Algorithm",
-      "Bezpieczny Algorytm Skrótu"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": "SHA-owski",
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Ethereum używa algorytmu Keccak, który różni się od standardowego SHA-3."
-      },
-      "heading": {
-        "term": "Algorytm SHA"
-      },
-      "tag": {
-        "term": "sha"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": "SHA",
-      "few": "SHA",
-      "many": "SHA",
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronyms in Polish are typically indeclinable or declined loosely depending on the final letter, but SHA remains unchanged in formal text."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -19245,58 +19040,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "Plurals provided for non-masculine-personal, typical for inanimate objects like systems or blockchains."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Data Availability",
-      "Dostępność Danych"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Rollupy wykorzystują warstwę DA do zapewnienia niezmienności swoich stanów."
-      },
-      "heading": {
-        "term": "Warstwa DA (Data Availability)"
-      },
-      "tag": {
-        "term": "da"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": "DA",
-      "few": "DA",
-      "many": "DA",
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Stands for Data Availability; treated as an indeclinable acronym."
   },
   "governance token": {
     "term": "token zarządzania",
@@ -20812,61 +20555,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "reorganizacja łańcucha",
-    "aliases": [
-      "reorganizacja",
-      "reorg"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "reorganizacja łańcucha"
-      },
-      "verb": {
-        "infinitive": "reorganizować",
-        "participle": "zreorganizowany"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "reorganizacji łańcucha",
-        "example": "Twoja transakcja zniknęła z historii w wyniku głębokiej reorganizacji łańcucha."
-      },
-      "heading": {
-        "term": "Reorganizacja łańcucha"
-      },
-      "tag": {
-        "term": "Reorg"
-      },
-      "ui": {
-        "term": "Wykryto reorganizację"
-      },
-      "code": {
-        "term": "reOrg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "reorganizacja łańcucha",
-      "two": "reorganizacje łańcucha",
-      "few": "reorganizacje łańcucha",
-      "many": "reorganizacji łańcucha",
-      "other": "reorganizacje łańcucha"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Captures the block rearrangement behavior. Often shortened to 'reorg' in casual Polish developer conversations."
   },
   "supermajority": {
     "term": "większość kwalifikowana",
@@ -24432,57 +24120,6 @@
     "confidence": "high",
     "notes": "Often left untranslated as 'blobspace', but 'przestrzeń blobów' clearly conveys the meaning in Polish."
   },
-  "da layer": {
-    "term": "warstwa dostępności danych",
-    "aliases": [
-      "warstwa DA"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "warstwa dostępności danych"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "warstwy dostępności danych",
-        "example": "Rollupy często korzystają z zewnętrznej warstwy dostępności danych w celu optymalizacji kosztów."
-      },
-      "heading": {
-        "term": "Warstwa Dostępności Danych"
-      },
-      "tag": {
-        "term": "Warstwa DA"
-      },
-      "ui": {
-        "term": "Warstwa dostępności danych"
-      },
-      "code": {
-        "term": "da_layer"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "warstwa dostępności danych",
-      "two": "warstwy dostępności danych",
-      "few": "warstwy dostępności danych",
-      "many": "warstw dostępności danych",
-      "other": "warstwy dostępności danych"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "mechanizm ewakuacyjny",
     "aliases": [
@@ -24989,61 +24626,6 @@
       "few": "transakcje utworzenia kontraktu",
       "many": "transakcji utworzenia kontraktu",
       "other": "transakcji utworzenia kontraktu"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "zdarzenia",
-    "aliases": [
-      "eventy",
-      "logi zdarzeń"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "zdarzenie"
-      },
-      "verb": {
-        "infinitive": "emitować zdarzenie",
-        "participle": "wyemitowane"
-      },
-      "adjective": "zdarzeniowy",
-      "agent": null,
-      "negation": "brak zdarzeń",
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "zdarzenia",
-        "example": "Inteligentne kontrakty emitują zdarzenia, aby ułatwić aplikacjom offchain monitorowanie zmian stanu."
-      },
-      "heading": {
-        "term": "Zdarzenia"
-      },
-      "tag": {
-        "term": "zdarzenia"
-      },
-      "ui": {
-        "term": "Dziennik zdarzeń"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "zdarzenie",
-      "two": "zdarzenia",
-      "few": "zdarzenia",
-      "many": "zdarzeń",
-      "other": "zdarzeń"
     },
     "source": "llm",
     "confidence": "high",
@@ -26104,34 +25686,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

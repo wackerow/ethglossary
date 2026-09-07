@@ -3812,55 +3812,6 @@
     "confidence": "high",
     "notes": "Usually abbreviated as NFT."
   },
-  "api": {
-    "term": "API",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "డెవలపర్లు డేటాను పొందడానికి API ని ఉపయోగిస్తారు."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "APIలు"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept as Latin."
-  },
   "transfer": {
     "term": "బదిలీ",
     "aliases": [],
@@ -10461,51 +10412,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "డెన్‌కున్ నవీకరణ",
-    "aliases": [
-      "డెన్‌కున్ అప్‌గ్రేడ్"
-    ],
-    "transliteration": "ḍenkun navīkaraṇa",
-    "morphology": {
-      "noun": {
-        "singular": "డెన్‌కున్ నవీకరణ"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "డెన్‌కున్ నవీకరణ",
-        "example": "డెన్‌కున్ నవీకరణ ద్వారా లేయర్-2 నెట్‌వర్క్ ఫీజులు భారీగా తగ్గాయి."
-      },
-      "heading": {
-        "term": "డెన్‌కున్ నవీకరణ"
-      },
-      "tag": {
-        "term": "డెన్‌కున్ నవీకరణ"
-      },
-      "ui": {
-        "term": "డెన్‌కున్ నవీకరణ"
-      },
-      "code": {
-        "term": "dencun_upgrade"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "సీక్వెన్సర్",
     "aliases": [
@@ -14946,49 +14852,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DAS పద్ధతి నెట్‌వర్క్ స్కేలబిలిటీని మెరుగుపరుస్తుంది."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym for Data Availability Sampling, kept in Latin script per rules."
-  },
   "immutability": {
     "term": "మార్చలేనితనం",
     "aliases": [
@@ -18425,49 +18288,6 @@
     "confidence": "high",
     "notes": "Direct Telugu translation does not exist; tech consensus terms are widely transliterated as loanwords."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "క్రిప్టోగ్రఫీలో డేటా భద్రత కోసం SHA హ్యాష్ అల్గారిథమ్ ఉపయోగించబడుతుంది."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [],
@@ -18696,51 +18516,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "డేటా అవైలబిలిటీ"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "రోలప్ నెట్‌వర్క్‌ల భద్రత మరియు పనితీరుకు DA చాలా ముఖ్యం."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
   },
   "governance token": {
     "term": "పరిపాలనా టోకెన్",
@@ -20224,63 +19999,6 @@
       "few": null,
       "many": null,
       "other": "జారీలు"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "పునర్‌వ్యవస్థీకరణ",
-    "aliases": [
-      "రీ-ఆర్గ్",
-      "చైన్ పునర్‌వ్యవస్థీకరణ"
-    ],
-    "transliteration": "punarvyavasthīkaraṇa",
-    "morphology": {
-      "noun": {
-        "singular": "పునర్‌వ్యవస్థీకరణ"
-      },
-      "verb": {
-        "infinitive": "పునర్‌వ్యవస్థీకరించడం",
-        "participle": "పునర్‌వ్యవస్థీకరించిన"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "deep-re-org": "లోతైన పునర్‌వ్యవస్థీకరణ"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "పునర్‌వ్యవస్థీకరణ",
-        "example": "పెద్ద పునర్‌వ్యవస్థీకరణ సంభవించినప్పుడు కొన్ని లావాదేవీలు రద్దు కావచ్చు."
-      },
-      "heading": {
-        "term": "పునర్‌వ్యవస్థీకరణ"
-      },
-      "tag": {
-        "term": "పునర్‌వ్యవస్థీకరణ"
-      },
-      "ui": {
-        "term": "పునర్‌వ్యవస్థీకరణ"
-      },
-      "code": {
-        "term": "reOrg"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "పునర్‌వ్యవస్థీకరణ",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "పునర్‌వ్యవస్థీకరణలు"
     },
     "source": "llm",
     "confidence": "high",
@@ -23891,60 +23609,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "డేటా లభ్యత పొర",
-    "aliases": [
-      "DA లేయర్",
-      "డిఏ పొర"
-    ],
-    "transliteration": "dēṭā labhyata pora",
-    "morphology": {
-      "noun": {
-        "singular": "డేటా లభ్యత పొర"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer-security": "డేటా లభ్యత పొర భద్రత"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "డేటా లభ్యత పొరపై",
-        "example": "లేయర్ 2 రోల్అప్‌లు లావాదేవీల సమాచారం కోసం డేటా లభ్యత పొరపై ఆధారపడతాయి."
-      },
-      "heading": {
-        "term": "డేటా లభ్యత పొర"
-      },
-      "tag": {
-        "term": "DA పొర"
-      },
-      "ui": {
-        "term": "డేటా లభ్యత పొర"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "డేటా లభ్యత పొర",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "డేటా లభ్యత పొరలు"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "రక్షణ మార్గం",
     "aliases": [
@@ -24446,57 +24110,6 @@
       "few": null,
       "many": null,
       "other": "కాంట్రాక్ట్ సృష్టి లావాదేవీలు"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "ఈవెంట్‌లు",
-    "aliases": [
-      "సంఘటనలు"
-    ],
-    "transliteration": "īvenṭlu",
-    "morphology": {
-      "noun": {
-        "singular": "ఈవెంట్"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "ఈవెంట్‌లు",
-        "example": "స్మార్ట్ కాంట్రాక్ట్ అమలు అయినప్పుడు ఈవెంట్‌లు ప్రసారం చేయబడతాయి."
-      },
-      "heading": {
-        "term": "ఈవెంట్‌లు"
-      },
-      "tag": {
-        "term": "ఈవెంట్స్"
-      },
-      "ui": {
-        "term": "ఈవెంట్‌లు"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "ఈవెంట్",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "ఈవెంట్‌లు"
     },
     "source": "llm",
     "confidence": "high",
@@ -25501,36 +25114,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "ఆల్బర్ట్ ఐన్‌స్టీన్",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "ఆల్బర్ట్ ఐన్‌స్టీన్"
-      },
-      "heading": {
-        "term": "ఆల్బర్ట్ ఐన్‌స్టీన్"
-      },
-      "tag": {
-        "term": "ఆల్బర్ట్ ఐన్‌స్టీన్"
-      },
-      "ui": {
-        "term": "ఆల్బర్ట్ ఐన్‌స్టీన్"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "చార్లెస్ హాస్కిన్సన్",

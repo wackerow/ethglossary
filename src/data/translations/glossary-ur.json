@@ -3913,55 +3913,6 @@
     "confidence": "high",
     "notes": null
   },
-  "api": {
-    "term": "API",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "ڈیٹا حاصل کرنے کے لیے API کو کال کریں۔"
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "APIs"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "transfer": {
     "term": "منتقلی",
     "aliases": [
@@ -10490,55 +10441,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "ڈینکون اپ گریڈ",
-    "aliases": [],
-    "transliteration": "Dencun upgrade",
-    "morphology": {
-      "noun": {
-        "singular": "ڈینکون اپ گریڈ"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "ڈینکون اپ گریڈ",
-        "example": "ڈینکون اپ گریڈ سے نیٹ ورک کی کارکردگی اور اسکیلنگ میں بہتری متوقع ہے۔"
-      },
-      "heading": {
-        "term": "ڈینکون اپ گریڈ"
-      },
-      "tag": {
-        "term": "ڈینکون اپ گریڈ"
-      },
-      "ui": {
-        "term": "ڈینکون اپ گریڈ"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "ڈینکون اپ گریڈ",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "ڈینکون اپ گریڈز"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "سیکوینسر",
     "aliases": [
@@ -14932,57 +14834,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "das-implementation": "DAS کا نفاذ"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "نیٹ ورک کی صلاحیت بڑھانے کے لیے DAS کو ۴ مراحل میں متعارف کرایا گیا۔"
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS کی ترتیبات"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
-  },
   "immutability": {
     "term": "ناقابلیتِ تبدیلی",
     "aliases": [
@@ -18447,49 +18298,6 @@
     "confidence": "high",
     "notes": null
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "ایتھیریم میں ہیشنگ کے لیے SHA-۳ استعمال ہوتا ہے۔"
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [],
@@ -18708,51 +18516,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "ڈیٹا کی دستیابی"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "لیئر ۲ (Layer ۲) کے سسٹمز میں DA یعنی ڈیٹا کی دستیابی انتہائی ضروری ہوتی ہے۔"
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
   },
   "governance token": {
     "term": "گورننس ٹوکن",
@@ -20202,57 +19965,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "تنظیمِ نو",
-    "aliases": [
-      "چین کی تنظیم نو",
-      "ری آرگ"
-    ],
-    "transliteration": "tanzeem-e-nau",
-    "morphology": {
-      "noun": {
-        "singular": "تنظیمِ نو"
-      },
-      "verb": {
-        "infinitive": "تنظیمِ نو کرنا",
-        "participle": "تنظیمِ نو شدہ"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "chain-re-org": "بلاک چین کی تنظیمِ نو"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "تنظیمِ نو",
-        "example": "بلاک چین کی خرابی کی صورت میں ۷ بلاکس کی تنظیمِ نو کی گئی۔"
-      },
-      "heading": {
-        "term": "تنظیمِ نو"
-      },
-      "tag": {
-        "term": "تنظیمِ نو"
-      },
-      "ui": {
-        "term": "تنظیمِ نو"
-      },
-      "code": {
-        "term": "reOrg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Standard term for reorganization; effectively captures restructuring/removal of blocks."
   },
   "supermajority": {
     "term": "بھاری اکثریت",
@@ -23761,51 +23473,6 @@
     "confidence": "high",
     "notes": "Adopted as a transliterated technical term in the context of EIP-4844."
   },
-  "da layer": {
-    "term": "ڈیٹا دستیابی کی تہہ",
-    "aliases": [
-      "ڈی اے لیئر"
-    ],
-    "transliteration": "data dastyabi ki teh",
-    "morphology": {
-      "noun": {
-        "singular": "ڈیٹا دستیابی کی تہہ"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "ڈیٹا دستیابی کی تہہ",
-        "example": "رول اپس اپنی ٹرانزیکشنز کو محفوظ کرنے کے لیے ڈیٹا دستیابی کی تہہ کا استعمال کرتے ہیں۔"
-      },
-      "heading": {
-        "term": "ڈیٹا دستیابی کی تہہ"
-      },
-      "tag": {
-        "term": "ڈی اے لیئر"
-      },
-      "ui": {
-        "term": "ڈیٹا دستیابی کی تہہ"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "حفاظتی انخلا",
     "aliases": [
@@ -24261,57 +23928,6 @@
       "few": null,
       "many": null,
       "other": "معاہدے کی تخلیق کی ٹرانزیکشنز"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "ایونٹس",
-    "aliases": [
-      "واقعات"
-    ],
-    "transliteration": "events",
-    "morphology": {
-      "noun": {
-        "singular": "ایونٹ"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "ایونٹس",
-        "example": "یہ سمارٹ کنٹریکٹ ۵ ایونٹس خارج کر سکتا ہے۔"
-      },
-      "heading": {
-        "term": "ایونٹس"
-      },
-      "tag": {
-        "term": "ایونٹ"
-      },
-      "ui": {
-        "term": "ایونٹس دیکھیں"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "ایونٹ",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "ایونٹس"
     },
     "source": "llm",
     "confidence": "high",
@@ -25353,36 +24969,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "البرٹ آئن سٹائن",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "البرٹ آئن سٹائن"
-      },
-      "heading": {
-        "term": "البرٹ آئن سٹائن"
-      },
-      "tag": {
-        "term": "البرٹ آئن سٹائن"
-      },
-      "ui": {
-        "term": "البرٹ آئن سٹائن"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "چارلس ہاسکنسن",

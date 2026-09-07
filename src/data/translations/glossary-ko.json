@@ -3528,53 +3528,6 @@
     "confidence": "high",
     "notes": "NFT is universally understood and commonly used in Korean contexts."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "애플리케이션 프로그래밍 인터페이스"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-endpoint": "API 엔드포인트"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API를",
-        "example": "개발자는 API를 사용하여 블록체인 데이터에 접근할 수 있습니다."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym kept in Latin script."
-  },
   "transfer": {
     "term": "전송",
     "aliases": [
@@ -9692,51 +9645,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "덴쿤 업그레이드",
-    "aliases": [
-      "덴쿤"
-    ],
-    "transliteration": "denkun eopgeureideu",
-    "morphology": {
-      "noun": {
-        "singular": "덴쿤 업그레이드"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "덴쿤 업그레이드는",
-        "example": "덴쿤 업그레이드는 레이어 2 롤업의 데이터 가용성 비용을 크게 낮춥니다."
-      },
-      "heading": {
-        "term": "덴쿤 업그레이드"
-      },
-      "tag": {
-        "term": "덴쿤 업그레이드"
-      },
-      "ui": {
-        "term": "덴쿤 업그레이드"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "시퀀서",
     "aliases": [],
@@ -13780,51 +13688,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DAS 기술은 전체 블록을 다운로드하지 않고도 데이터 가용성을 안전하게 검증합니다."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "immutability": {
     "term": "불변성",
     "aliases": [],
@@ -16971,54 +16834,6 @@
     "confidence": "high",
     "notes": "Loanwords are transliterated directly to Hangul as per common Ethereum ecosystem usage."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [
-      "Secure Hash Algorithm",
-      "안전한 해시 알고리즘"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "sha-256": "SHA-256"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "이더리움은 특정 프로토콜에서 SHA 해시 함수를 사용합니다."
-      },
-      "heading": {
-        "term": "SHA 알고리즘"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script as per rules."
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -17246,54 +17061,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": "As an adjective, '검열 저항적(인)' is used, while '검열 저항성' is the noun form."
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "데이터 가용성",
-      "Data Availability"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "da-layer": "DA 계층"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA를",
-        "example": "롤업 기술의 보안을 유지하기 위해서는 DA를 확실하게 보장해야 합니다."
-      },
-      "heading": {
-        "term": "DA (데이터 가용성)"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA 검증"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin script."
   },
   "governance token": {
     "term": "거버넌스 토큰",
@@ -18615,57 +18382,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "재구성",
-    "aliases": [
-      "리오그",
-      "체인 재구성"
-    ],
-    "transliteration": "jaeguseong",
-    "morphology": {
-      "noun": {
-        "singular": "재구성"
-      },
-      "verb": {
-        "infinitive": "재구성하다",
-        "participle": "재구성된"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "chain_reorg": "체인 재구성"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "재구성이",
-        "example": "노드가 더 큰 가중치를 가진 유효한 체인을 발견하면 블록체인 재구성이 발생하여 이전 블록들이 제외될 수 있습니다."
-      },
-      "heading": {
-        "term": "체인 재구성 (리오그)"
-      },
-      "tag": {
-        "term": "재구성"
-      },
-      "ui": {
-        "term": "재구성 감지됨"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "noun",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "'재구성' is the standard translation, but '리오그' is heavily used as an alias in the community."
   },
   "supermajority": {
     "term": "절대다수",
@@ -21851,53 +21567,6 @@
     "confidence": "high",
     "notes": "Transliterated as it is a widely recognized Ethereum-specific technical term."
   },
-  "da layer": {
-    "term": "DA 레이어",
-    "aliases": [
-      "데이터 가용성 레이어",
-      "데이터 가용성 계층",
-      "DA 계층"
-    ],
-    "transliteration": "di-ei reieo",
-    "morphology": {
-      "noun": {
-        "singular": "DA 레이어"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA 레이어는",
-        "example": "롤업은 트랜잭션 데이터를 오프체인 DA 레이어에 저장하여 확장성을 확보합니다."
-      },
-      "heading": {
-        "term": "DA 레이어"
-      },
-      "tag": {
-        "term": "DA 레이어"
-      },
-      "ui": {
-        "term": "DA 레이어"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "'Layer' is transliterated to '레이어' which is widely used in Korean IT contexts."
-  },
   "escape hatch": {
     "term": "이스케이프 해치",
     "aliases": [
@@ -22366,54 +22035,6 @@
       },
       "code": {
         "term": "contractCreationTx"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "이벤트",
-    "aliases": [],
-    "transliteration": "ibenteu",
-    "morphology": {
-      "noun": {
-        "singular": "이벤트"
-      },
-      "verb": {
-        "infinitive": "이벤트를 발생시키다",
-        "participle": "발생된 이벤트"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "event_log": "이벤트 로그"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "이벤트는",
-        "example": "이벤트는 스마트 컨트랙트에서 오프체인 애플리케이션으로 상태 변화를 알리는 효율적인 방법입니다."
-      },
-      "heading": {
-        "term": "이벤트"
-      },
-      "tag": {
-        "term": "이벤트"
-      },
-      "ui": {
-        "term": "이벤트 로그 보기"
-      },
-      "code": {
-        "term": "events"
       }
     },
     "grammar": {
@@ -23368,36 +22989,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "알베르트 아인슈타인",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "알베르트 아인슈타인"
-      },
-      "heading": {
-        "term": "알베르트 아인슈타인"
-      },
-      "tag": {
-        "term": "알베르트 아인슈타인"
-      },
-      "ui": {
-        "term": "알베르트 아인슈타인"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "찰스 호스킨슨",
