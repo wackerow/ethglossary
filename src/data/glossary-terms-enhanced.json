@@ -4541,7 +4541,7 @@
     },
     "wrapped ether (weth)": {
       "id": "wrapped-ether-weth",
-      "term": "wrapped ether (WETH)",
+      "term": "Wrapped Ether (WETH)",
       "category": "ether",
       "definition": "An ERC-20 token that represents ETH one for one. Because ETH itself predates the ERC-20 standard and does not implement it, wrapping lets ETH be used by contracts that expect a standard token interface.",
       "has_tooltip": false,
@@ -4553,11 +4553,11 @@
         "seed"
       ],
       "forms": {
-        "base": "wrapped ether"
+        "base": "Wrapped Ether"
       },
       "aliases": [
         {
-          "term": "wrapped ether",
+          "term": "Wrapped Ether",
           "status": "preferred"
         },
         {
@@ -4566,7 +4566,7 @@
         }
       ],
       "script_rule": "translate",
-      "casing": "standard",
+      "casing": "proper",
       "term_role": "concept"
     },
     "51% attack": {
@@ -5156,7 +5156,7 @@
       "id": "cfi",
       "term": "considered for inclusion (CFI)",
       "category": "general",
-      "definition": "A Core EIP which is not yet active on Mainnet, and client developers are generally positive towards the idea. Assuming it meets all the requirements for mainnet inclusion, it could potentially be included in a network upgrade (not necessarily the next one).",
+      "definition": "A Core EIP which is not yet active on Mainnet, and client developers are generally positive towards the idea. Assuming it meets all the requirements for Mainnet inclusion, it could potentially be included in a network upgrade (not necessarily the next one).",
       "has_tooltip": false,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -5479,7 +5479,7 @@
         "glossary.json"
       ],
       "forms": {
-        "base": "double spend"
+        "base": "double-spend"
       },
       "script_rule": "translate",
       "casing": "standard",
@@ -6047,7 +6047,7 @@
       "id": "mainnet",
       "term": "mainnet",
       "category": "general",
-      "definition": "Short for \"main network,\" this is the main public Ethereum blockchain.",
+      "definition": "The main public network of a blockchain, as opposed to its test networks. Capitalized as \"Mainnet\" when it refers to Ethereum's -- for another chain it stays lowercase, as in \"Bitcoin's mainnet.\"",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 245,
@@ -11001,7 +11001,7 @@
       "id": "wrapped-token",
       "term": "wrapped token",
       "category": "tokens",
-      "definition": "A blockchain-based token that represents another cryptocurrency or asset on a different network. For example, wrapped ether (WETH) represents ether (ETH) in a format that complies with Ethereum's ERC-20 token standard. The original asset is securely locked by a smart contract, and an equivalent wrapped token is minted. This mechanism enables interoperability within and between blockchains, allowing assets like ETH to be used seamlessly in decentralized applications while retaining their value.",
+      "definition": "A blockchain-based token that represents another cryptocurrency or asset on a different network. For example, Wrapped Ether (WETH) represents ether (ETH) in a format that complies with Ethereum's ERC-20 token standard. The original asset is securely locked by a smart contract, and an equivalent wrapped token is minted. This mechanism enables interoperability within and between blockchains, allowing assets like ETH to be used seamlessly in decentralized applications while retaining their value.",
       "references": [
         {
           "label": "Wrapped Ether (WETH)",
@@ -12079,7 +12079,7 @@
       "term": "Goerli",
       "category": "protocol-upgrades",
       "term_role": "network-name",
-      "definition": "An Ethereum test network, now retired in favor of Sepolia and Holesky. It let developers deploy and test contracts using valueless test ether rather than spending real funds on mainnet. It appears mainly in older documentation and tutorials.",
+      "definition": "An Ethereum test network, now retired in favor of Sepolia and Holesky. It let developers deploy and test contracts using valueless test ether rather than spending real funds on Mainnet. It appears mainly in older documentation and tutorials.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12102,7 +12102,7 @@
       "term": "Holesky",
       "category": "protocol-upgrades",
       "term_role": "network-name",
-      "definition": "An Ethereum test network launched in 2023, sized to mirror mainnet's validator set so that staking setups, infrastructure, and client upgrades can be rehearsed at realistic scale. Its test ether has no value. It took over the role Goerli had filled.",
+      "definition": "An Ethereum test network launched in 2023, sized to mirror Mainnet's validator set so that staking setups, infrastructure, and client upgrades can be rehearsed at realistic scale. Its test ether has no value. It took over the role Goerli had filled.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12286,7 +12286,7 @@
       "term": "Polygon",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "A set of Ethereum scaling networks and the organization that builds them, best known for a proof-of-stake sidechain that was later joined by zero-knowledge rollup networks. It appears in Ethereum content as one of the common places to transact when mainnet fees are high.",
+      "definition": "A set of Ethereum scaling networks and the organization that builds them, best known for a proof-of-stake sidechain that was later joined by zero-knowledge rollup networks. It appears in Ethereum content as one of the common places to transact when Mainnet fees are high.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12332,7 +12332,7 @@
       "term": "Ropsten",
       "category": "protocol-upgrades",
       "term_role": "network-name",
-      "definition": "An early Ethereum test network that mirrored mainnet's proof-of-work consensus. It was retired in 2022, once Ethereum moved to proof-of-stake, and survives only in older documentation and tutorials.",
+      "definition": "An early Ethereum test network that mirrored Mainnet's proof-of-work consensus. It was retired in 2022, once Ethereum moved to proof-of-stake, and survives only in older documentation and tutorials.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
