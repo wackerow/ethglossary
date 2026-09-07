@@ -3720,51 +3720,6 @@
     "confidence": "high",
     "notes": "Commonly referred to by its acronym NFT."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "এপিআই"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "আমাদের প্ল্যাটফর্মটি অন্যান্য অ্যাপ্লিকেশনের সাথে যুক্ত হওয়ার জন্য একটি নিরাপদ API প্রদান করে।"
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "API"
-      }
-    },
-    "grammar": {
-      "gender": "neuter",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept in Latin per script_rule."
-  },
   "transfer": {
     "term": "হস্তান্তর",
     "aliases": [
@@ -10133,51 +10088,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "ডেনকুন আপগ্রেড",
-    "aliases": [
-      "ডেনকুন আপডেট"
-    ],
-    "transliteration": "Denkun apgred",
-    "morphology": {
-      "noun": {
-        "singular": "ডেনকুন আপগ্রেড"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "ডেনকুন আপগ্রেড",
-        "example": "ডেনকুন আপগ্রেড ইথেরিয়ামের ট্রানজ্যাকশন ফি কমিয়ে আনতে সাহায্য করবে।"
-      },
-      "heading": {
-        "term": "ডেনকুন আপগ্রেড"
-      },
-      "tag": {
-        "term": "ডেনকুন আপগ্রেড"
-      },
-      "ui": {
-        "term": "ডেনকুন আপগ্রেড"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "সিকোয়েন্সার",
     "aliases": [],
@@ -14626,49 +14536,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [],
-    "transliteration": "DAS",
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "ডেটা অ্যাভেইলেবিলিটি স্যাম্পলিং বা DAS ইথেরিয়ামের স্কেলিংয়ে সাহায্য করে।"
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "script_rule: keep_latin applied."
-  },
   "immutability": {
     "term": "অপরিবর্তনযোগ্যতা",
     "aliases": [
@@ -17987,51 +17854,6 @@
     "confidence": "high",
     "notes": null
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [
-      "Secure Hash Algorithm"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "ইথেরিয়াম হ্যাশিংয়ের জন্য SHA-3 অ্যালগরিদমের একটি বিশেষ সংস্করণ ব্যবহার করে।"
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "SHA"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -18246,51 +18068,6 @@
       "gender": null,
       "animacy": "inanimate",
       "part_of_speech": "adjective",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Data Availability"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "রোলআপগুলোর সঠিক ক্রিয়াকলাপের জন্য DA বা ডেটা এভেইলেবিলিটি অত্যন্ত গুরুত্বপূর্ণ।"
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "DA"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
       "formality": "neutral"
     },
     "plurals": null,
@@ -19665,52 +19442,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "রি-অর্গ",
-    "aliases": [
-      "চেইন রিঅর্গানাইজেশন",
-      "রিঅর্গ"
-    ],
-    "transliteration": "ri-org",
-    "morphology": {
-      "noun": {
-        "singular": "রি-অর্গ"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "রি-অর্গ",
-        "example": "নেটওয়ার্কে লেটেন্সি থাকলে প্রায়ই ছোটখাটো রি-অর্গ দেখা যেতে পারে।"
-      },
-      "heading": {
-        "term": "রি-অর্গ"
-      },
-      "tag": {
-        "term": "রি-অর্গ"
-      },
-      "ui": {
-        "term": "রি-অর্গ"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept as transliteration as 'rearrangement' does not capture the technical block-removal meaning."
   },
   "supermajority": {
     "term": "সুপারমেজরিটি",
@@ -23035,57 +22766,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "ডিএ লেয়ার",
-    "aliases": [
-      "ডেটা এভেইলেবিলিটি লেয়ার"
-    ],
-    "transliteration": "ḍi-e leẏār",
-    "morphology": {
-      "noun": {
-        "singular": "ডিএ লেয়ার"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "ডিএ লেয়ার",
-        "example": "রোলআপগুলো তাদের ট্রানজ্যাকশন ডাটা প্রকাশ করতে ডিএ লেয়ার ব্যবহার করে।"
-      },
-      "heading": {
-        "term": "ডিএ লেয়ার"
-      },
-      "tag": {
-        "term": "ডিএ লেয়ার"
-      },
-      "ui": {
-        "term": "ডিএ লেয়ার"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "ডিএ লেয়ার",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "ডিএ লেয়ারগুলো"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "escape hatch": {
     "term": "এস্কেপ হ্যাচ",
     "aliases": [
@@ -23580,54 +23260,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "events": {
-    "term": "ইভেন্ট",
-    "aliases": [
-      "ইভেন্টসমূহ",
-      "ঘটনা"
-    ],
-    "transliteration": "ibhenṭ",
-    "morphology": {
-      "noun": {
-        "singular": "ইভেন্ট"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "event_log": "ইভেন্ট লগ"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "ইভেন্টগুলো",
-        "example": "স্মার্ট কন্ট্রাক্ট থেকে তথ্য লগ করার জন্য ইভেন্টগুলো ব্যবহার করা হয়।"
-      },
-      "heading": {
-        "term": "ইভেন্ট"
-      },
-      "tag": {
-        "term": "ইভেন্ট"
-      },
-      "ui": {
-        "term": "ইভেন্টসমূহ"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Translated via transliteration as 'ইভেন্ট' is the standard terminology in Bengali programming contexts."
   },
   "evm assembly language": {
     "term": "ইভিএম অ্যাসেম্বলি ল্যাঙ্গুয়েজ",
@@ -24639,36 +24271,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "অ্যালবার্ট আইনস্টাইন",
-    "aliases": [
-      "Albert Einstein"
-    ],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "অ্যালবার্ট আইনস্টাইন"
-      },
-      "heading": {
-        "term": "অ্যালবার্ট আইনস্টাইন"
-      },
-      "tag": {
-        "term": "অ্যালবার্ট আইনস্টাইন"
-      },
-      "ui": {
-        "term": "অ্যালবার্ট আইনস্টাইন"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "gemini-3.1-pro-2026-05-14",
-    "confidence": "high",
-    "notes": null,
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "চার্লস হসকিনসন",
