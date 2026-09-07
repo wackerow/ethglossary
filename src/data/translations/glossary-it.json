@@ -3918,59 +3918,6 @@
     "confidence": "high",
     "notes": "Acronym 'NFT' is heavily preferred in all contexts. The plural of the acronym is invariable ('gli NFT')."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "interfaccia di programmazione delle applicazioni"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api_endpoint": "endpoint dell'API"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Puoi recuperare il prezzo attuale di Ether chiamando la nostra API pubblica."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "API",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "API"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym kept in Latin. Feminine in Italian ('l'API', 'le API')."
-  },
   "transfer": {
     "term": "trasferimento",
     "aliases": [
@@ -10705,57 +10652,6 @@
     "confidence": "high",
     "notes": "The anglicism 'asset' is widely accepted and preferred over 'risorsa' in Italian financial and crypto contexts."
   },
-  "dencun upgrade": {
-    "term": "aggiornamento Dencun",
-    "aliases": [
-      "Dencun"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "aggiornamento Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "aggiornamento Dencun",
-        "example": "L'aggiornamento Dencun ha introdotto miglioramenti significativi alla scalabilità e ai costi delle transazioni."
-      },
-      "heading": {
-        "term": "Aggiornamento Dencun"
-      },
-      "tag": {
-        "term": "aggiornamento-dencun"
-      },
-      "ui": {
-        "term": "Aggiornamento Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "aggiornamento Dencun",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "aggiornamenti Dencun"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "sequencer",
     "aliases": [
@@ -15221,57 +15117,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "Il DAS consente ai nodi di scaricare solo una frazione dei dati per assicurarne la disponibilità."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "DAS"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "DAS",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DAS"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "immutability": {
     "term": "immutabilità",
     "aliases": [],
@@ -18697,55 +18542,6 @@
     "confidence": "high",
     "notes": "Spesso lasciato in inglese nella comunità italiana."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "L'algoritmo SHA garantisce la sicurezza crittografica per le firme digitali."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "sha"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "SHA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "SHA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -18998,58 +18794,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Data Availability",
-      "disponibilità dei dati"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "La DA garantisce che tutti i dati dei blocchi siano prontamente accessibili ai nodi."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "da"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "da"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "DA",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Il genere femminile deriva dal termine italiano 'disponibilità'."
   },
   "governance token": {
     "term": "token di governance",
@@ -20531,58 +20275,6 @@
       "few": null,
       "many": null,
       "other": "emissioni"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "re-org": {
-    "term": "riorganizzazione",
-    "aliases": [
-      "riorganizzazione della catena",
-      "reorg"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "riorganizzazione"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "riorganizzazione",
-        "example": "In presenza di due catene concorrenti, il nodo esegue una riorganizzazione per seguire la catena più pesante, rimuovendo alcuni blocchi precedenti."
-      },
-      "heading": {
-        "term": "Riorganizzazione (Re-org)"
-      },
-      "tag": {
-        "term": "Riorganizzazione"
-      },
-      "ui": {
-        "term": "Dati di Riorganizzazione"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "riorganizzazione",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "riorganizzazioni"
     },
     "source": "llm",
     "confidence": "high",
@@ -24157,58 +23849,6 @@
     "confidence": "high",
     "notes": "Il termine 'blob' viene mantenuto come prestito linguistico invariabile."
   },
-  "da layer": {
-    "term": "livello DA",
-    "aliases": [
-      "livello di disponibilità dei dati",
-      "DA layer"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "livello DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "livello DA",
-        "example": "Il livello DA garantisce che i dati di tutte le transazioni siano accessibili all'intera rete."
-      },
-      "heading": {
-        "term": "Livello DA"
-      },
-      "tag": {
-        "term": "livello-da"
-      },
-      "ui": {
-        "term": "Livello DA"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "livello DA",
-      "two": "livelli DA",
-      "few": "livelli DA",
-      "many": "livelli DA",
-      "other": "livelli DA"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronimo comune per 'Data Availability'."
-  },
   "escape hatch": {
     "term": "meccanismo di salvaguardia",
     "aliases": [
@@ -24711,55 +24351,6 @@
       "few": null,
       "many": null,
       "other": "transazioni di creazione del contratto"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "eventi",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "evento"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "eventi",
-        "example": "Gli smart contract emettono eventi per registrare informazioni sui log della blockchain."
-      },
-      "heading": {
-        "term": "Eventi"
-      },
-      "tag": {
-        "term": "eventi"
-      },
-      "ui": {
-        "term": "Eventi"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": "masculine",
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": {
-      "one": "evento",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "eventi"
     },
     "source": "llm",
     "confidence": "high",
@@ -25809,34 +25400,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

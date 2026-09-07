@@ -14,10 +14,11 @@ export interface GlossaryTerm {
   category: string
   term_role?: string
   definition: string
+  references?: Array<{ label: string; url: string }>
   has_tooltip: boolean
   in_glossary: boolean
   content_occurrences: number
-  forms: { base: string }
+  forms: { base: string; plural?: string }
   script_rule: string
   casing: string
   aliases?: Array<string | { term: string; status: string; note?: string }>
@@ -69,6 +70,13 @@ for (const [key, entry] of Object.entries(confirmedTerms)) {
   // Index the base form
   if (entry.forms?.base) {
     surfaceFormIndex.set(entry.forms.base.toLowerCase(), key)
+  }
+
+  // Index the plural form. A plural is not an alias, but it is a surface
+  // form: without this, merging "events" into "event" would make the plural
+  // unresolvable and stop /filter matching it in submitted content.
+  if (entry.forms?.plural) {
+    surfaceFormIndex.set(entry.forms.plural.toLowerCase(), key)
   }
 
   // Index aliases (handles both object and string forms)

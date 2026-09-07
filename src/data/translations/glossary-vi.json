@@ -3582,53 +3582,6 @@
     "confidence": "high",
     "notes": "NFT is standard in usage; 'token' is often kept instead of standardising to 'mã thông báo'."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "Giao diện lập trình ứng dụng"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "api-endpoint": "điểm cuối API"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Các nhà phát triển có thể sử dụng API để truy xuất dữ liệu từ blockchain."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "api"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Always kept as API in technical context."
-  },
   "transfer": {
     "term": "chuyển",
     "aliases": [
@@ -9709,52 +9662,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "bản nâng cấp Dencun",
-    "aliases": [
-      "nâng cấp Dencun",
-      "bản cập nhật Dencun"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "bản nâng cấp Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "bản nâng cấp Dencun",
-        "example": "Bản nâng cấp Dencun đã mang lại những cải tiến lớn về khả năng mở rộng thông qua tính năng proto-danksharding."
-      },
-      "heading": {
-        "term": "Bản Nâng Cấp Dencun"
-      },
-      "tag": {
-        "term": "bản-nâng-cấp-dencun"
-      },
-      "ui": {
-        "term": "Bản nâng cấp Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "bộ sắp xếp",
     "aliases": [
@@ -13813,51 +13720,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DAS cho phép các node nhẹ xác minh tính khả dụng của dữ liệu mà không cần tải xuống toàn bộ khối."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "das"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "immutability": {
     "term": "tính bất biến",
     "aliases": [
@@ -17014,49 +16876,6 @@
     "confidence": "medium",
     "notes": "Often kept as 'stake grinding' in casual technical discussions in Vietnam, 'thao túng cổ phần' describes the intent of the attack."
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Ethereum sử dụng hàm băm mã hóa Keccak, một biến thể của họ SHA-3."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "sha"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "proper_noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -17278,52 +17097,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Tính khả dụng của dữ liệu",
-      "Data Availability"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Lớp DA đảm bảo rằng dữ liệu của khối luôn có sẵn cho các nút tải xuống và xác minh."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "da"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym for Data Availability."
   },
   "governance token": {
     "term": "token quản trị",
@@ -18679,56 +18452,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "tổ chức lại chuỗi",
-    "aliases": [
-      "tổ chức lại",
-      "reorg",
-      "tái cấu trúc chuỗi"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "sự tổ chức lại chuỗi"
-      },
-      "verb": {
-        "infinitive": "tổ chức lại chuỗi",
-        "participle": "tổ chức lại chuỗi"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "tổ chức lại chuỗi",
-        "example": "Mạng lưới có thể trải qua một đợt tổ chức lại chuỗi nhỏ do độ trễ truyền tải thông tin."
-      },
-      "heading": {
-        "term": "Tổ Chức Lại Chuỗi"
-      },
-      "tag": {
-        "term": "tổ-chức-lại-chuỗi"
-      },
-      "ui": {
-        "term": "Tổ chức lại chuỗi"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "'Tổ chức lại chuỗi' emphasizes that the blocks on the chain are being reorganized, avoiding the vagueness of just 'tổ chức lại'."
   },
   "supermajority": {
     "term": "đa số tuyệt đối",
@@ -21925,53 +21648,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "lớp DA",
-    "aliases": [
-      "lớp tính khả dụng của dữ liệu"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "lớp DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {
-        "external_da_layer": "lớp DA bên ngoài"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "lớp DA",
-        "example": "Rollup này sử dụng Ethereum làm lớp DA để đảm bảo an ninh."
-      },
-      "heading": {
-        "term": "Lớp DA"
-      },
-      "tag": {
-        "term": "Lớp DA"
-      },
-      "ui": {
-        "term": "Lớp DA"
-      },
-      "code": {
-        "term": "da_layer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Short for Lớp tính khả dụng của dữ liệu (Data Availability Layer)."
-  },
   "escape hatch": {
     "term": "cơ chế thoát",
     "aliases": [
@@ -22428,49 +22104,6 @@
       "animacy": "inanimate",
       "part_of_speech": "noun",
       "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "sự kiện",
-    "aliases": [],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "sự kiện"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": "không có sự kiện",
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "sự kiện",
-        "example": "Các ứng dụng phi tập trung có thể lắng nghe các sự kiện để cập nhật giao diện người dùng theo thời gian thực."
-      },
-      "heading": {
-        "term": "Sự kiện"
-      },
-      "tag": {
-        "term": "Sự kiện"
-      },
-      "ui": {
-        "term": "Sự kiện"
-      },
-      "code": {
-        "term": "events"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
     },
     "plurals": null,
     "source": "llm",
@@ -23409,34 +23042,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",

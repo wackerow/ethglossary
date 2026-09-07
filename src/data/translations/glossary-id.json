@@ -3489,51 +3489,6 @@
     "confidence": "high",
     "notes": "While fully translatable, 'NFT' is heavily preferred in prose and daily communication."
   },
-  "api": {
-    "term": "API",
-    "aliases": [
-      "Antarmuka Pemrograman Aplikasi"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "API"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": "bukan API",
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "API",
-        "example": "Pengembang perlu memanggil API untuk mendapatkan data dari server pusat."
-      },
-      "heading": {
-        "term": "API"
-      },
-      "tag": {
-        "term": "API"
-      },
-      "ui": {
-        "term": "API"
-      },
-      "code": {
-        "term": "api"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Acronym kept in Latin. Translatable but rarely used as full text in tech."
-  },
   "transfer": {
     "term": "transfer",
     "aliases": [
@@ -9539,52 +9494,6 @@
     "confidence": "high",
     "notes": null
   },
-  "dencun upgrade": {
-    "term": "pembaruan Dencun",
-    "aliases": [
-      "peningkatan Dencun",
-      "upgrade Dencun"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "pembaruan Dencun"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": "bukan pembaruan Dencun",
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "pembaruan Dencun",
-        "example": "Pembaruan Dencun dirancang untuk mengurangi biaya transaksi di jaringan lapisan 2."
-      },
-      "heading": {
-        "term": "Pembaruan Dencun"
-      },
-      "tag": {
-        "term": "pembaruan-dencun"
-      },
-      "ui": {
-        "term": "Pembaruan Dencun"
-      },
-      "code": {
-        "term": "dencunUpgrade"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "sequencer": {
     "term": "sekuenser",
     "aliases": [
@@ -13588,51 +13497,6 @@
     "confidence": "high",
     "notes": null
   },
-  "das": {
-    "term": "DAS",
-    "aliases": [
-      "Data Availability Sampling"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DAS"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "DAS",
-        "example": "DAS memungkinkan node ringan untuk memastikan ketersediaan data tanpa mengunduh seluruh blok."
-      },
-      "heading": {
-        "term": "DAS"
-      },
-      "tag": {
-        "term": "DAS"
-      },
-      "ui": {
-        "term": "DAS"
-      },
-      "code": {
-        "term": "das"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Kept as Latin abbreviation."
-  },
   "immutability": {
     "term": "ketidakberubahan",
     "aliases": [
@@ -16742,51 +16606,6 @@
     "confidence": "medium",
     "notes": null
   },
-  "sha": {
-    "term": "SHA",
-    "aliases": [
-      "Secure Hash Algorithm"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "SHA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "SHA",
-        "example": "Ethereum menggunakan algoritma keluarga SHA untuk berbagai fungsi kriptografi."
-      },
-      "heading": {
-        "term": "SHA"
-      },
-      "tag": {
-        "term": "sha"
-      },
-      "ui": {
-        "term": "SHA"
-      },
-      "code": {
-        "term": "SHA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
   "tee": {
     "term": "TEE",
     "aliases": [
@@ -17007,52 +16826,6 @@
       "animacy": "inanimate",
       "part_of_speech": "adjective",
       "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "da": {
-    "term": "DA",
-    "aliases": [
-      "Data Availability",
-      "Ketersediaan Data"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "DA",
-        "example": "Lapisan DA memastikan bahwa semua node dapat mengunduh data transaksi."
-      },
-      "heading": {
-        "term": "DA"
-      },
-      "tag": {
-        "term": "da"
-      },
-      "ui": {
-        "term": "DA"
-      },
-      "code": {
-        "term": "DA"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "abbreviation",
-      "formality": "formal"
     },
     "plurals": null,
     "source": "llm",
@@ -18369,57 +18142,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "re-org": {
-    "term": "reorganisasi",
-    "aliases": [
-      "reorg",
-      "re-org",
-      "reorganisasi rantai",
-      "chain reorganization"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "reorganisasi"
-      },
-      "verb": {
-        "infinitive": "mereorganisasi",
-        "participle": "direorganisasi"
-      },
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": {}
-    },
-    "contexts": {
-      "prose": {
-        "term": "reorganisasi",
-        "example": "Dompet pengguna dapat menampilkan saldo yang kedaluwarsa selama proses reorganisasi terjadi pada rantai blok."
-      },
-      "heading": {
-        "term": "Reorganisasi"
-      },
-      "tag": {
-        "term": "reorganisasi"
-      },
-      "ui": {
-        "term": "Reorganisasi"
-      },
-      "code": {
-        "term": "reorg"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": "inanimate",
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "Translated simply as 'reorganisasi' which correctly captures the restructuring of blocks rather than mere rearrangement."
   },
   "supermajority": {
     "term": "mayoritas super",
@@ -21581,53 +21303,6 @@
     "confidence": "high",
     "notes": null
   },
-  "da layer": {
-    "term": "lapisan DA",
-    "aliases": [
-      "lapisan ketersediaan data"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "lapisan DA"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": "bukan lapisan DA",
-      "compounds": {
-        "da-layer-security": "keamanan lapisan DA"
-      }
-    },
-    "contexts": {
-      "prose": {
-        "term": "lapisan DA",
-        "example": "Rollup sangat bergantung pada lapisan DA untuk memastikan bahwa data transaksi selalu dapat diakses oleh semua pihak."
-      },
-      "heading": {
-        "term": "Lapisan DA"
-      },
-      "tag": {
-        "term": "Lapisan DA"
-      },
-      "ui": {
-        "term": "Lapisan DA"
-      },
-      "code": {
-        "term": "daLayer"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": "DA is short for Data Availability (Ketersediaan Data)."
-  },
   "escape hatch": {
     "term": "mekanisme penyelamatan",
     "aliases": [
@@ -22071,52 +21746,6 @@
       },
       "code": {
         "term": "contractCreationTx"
-      }
-    },
-    "grammar": {
-      "gender": null,
-      "animacy": null,
-      "part_of_speech": "noun",
-      "formality": "neutral"
-    },
-    "plurals": null,
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "events": {
-    "term": "peristiwa",
-    "aliases": [
-      "event",
-      "kejadian"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "peristiwa"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "peristiwa",
-        "example": "Kontrak pintar akan memancarkan peristiwa setelah transaksi berhasil diselesaikan."
-      },
-      "heading": {
-        "term": "Peristiwa"
-      },
-      "tag": {
-        "term": "Peristiwa"
-      },
-      "ui": {
-        "term": "Log Peristiwa"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -23059,34 +22688,6 @@
     "source": "llm",
     "confidence": "high",
     "notes": null
-  },
-  "albert einstein": {
-    "term": "Albert Einstein",
-    "aliases": [],
-    "transliteration": null,
-    "contexts": {
-      "prose": {
-        "term": "Albert Einstein"
-      },
-      "heading": {
-        "term": "Albert Einstein"
-      },
-      "tag": {
-        "term": "Albert Einstein"
-      },
-      "ui": {
-        "term": "Albert Einstein"
-      },
-      "code": {
-        "term": "Albert Einstein"
-      }
-    },
-    "plurals": null,
-    "grammar": null,
-    "source": "seed",
-    "confidence": "high",
-    "notes": "Latin form preserved (no established native-script form per Gemini 3.1 Pro 2026-05-14).",
-    "updated": "2026-05-14T00:00:00Z"
   },
   "charles hoskinson": {
     "term": "Charles Hoskinson",
