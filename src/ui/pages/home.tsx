@@ -12,28 +12,27 @@
  */
 
 import { Layout } from "../layout"
+import type { PageUrl } from "../layout"
 import { Icon } from "../icon"
 import arrowRight from "lucide-static/icons/arrow-right.svg"
 import bookType from "lucide-static/icons/book-type.svg"
 import messageSquare from "lucide-static/icons/message-square.svg"
 import users from "lucide-static/icons/users.svg"
-import discord from "../icons/discord.svg"
 import ethglossary from "../icons/ethglossary.svg"
 import glyphMessageBubble from "../icons/glyph-message-bubble.svg"
 import glyphPurpleRed from "../icons/glyph-purple-red.svg"
 import { listLanguages } from "../../lib/language-meta"
-import { ExternalLink } from "../link"
-import { ACCOUNTS_ENABLED, COMING_SOON_TITLE, DISCORD_URL } from "../../lib/constants"
 
 const CTA_PRIMARY =
-  "inline-flex h-14 items-center gap-2 rounded-full bg-yellow px-6 text-body font-bold text-on-yellow no-underline transition-[filter] hover:brightness-110 hover:no-underline"
+  "inline-flex h-14 items-center gap-2 rounded-full bg-primary px-6 text-body font-bold text-primary-foreground no-underline transition-[filter] hover:brightness-110 hover:no-underline"
 
 /** Hero-only: fixed colors, because this sits on the artwork in both themes. */
 const CTA_GHOST =
   "inline-flex items-center gap-2 rounded-full border-2 border-white bg-white/10 px-5 py-3 text-body font-bold text-white no-underline backdrop-blur-sm transition-colors hover:bg-white/20 hover:no-underline"
 
-const CTA_OUTLINE =
-  "inline-flex h-14 items-center gap-2 self-start rounded-full border border-accent px-6 text-body font-bold text-accent no-underline transition-colors hover:bg-accent/10 hover:no-underline"
+/** 40px, per the card CTAs in the Figma (18:315, 18:324). */
+const CTA_OUTLINE_SM =
+  "inline-flex h-10 items-center gap-2 self-start rounded-full border border-accent px-6 text-body font-bold text-accent no-underline transition-colors hover:bg-accent/10 hover:no-underline"
 
 /**
  * The speech-bubble mark beside each section heading. Lucide's message-square
@@ -58,7 +57,7 @@ const StepMark = ({ n, tone }: { n: string; tone: string }) => (
   </span>
 )
 
-export const HomePage = ({ activeLang }: { activeLang?: string }) => {
+export const HomePage = ({ activeLang, url }: { activeLang?: string; url?: PageUrl }) => {
   const languages = listLanguages()
 
   return (
@@ -68,9 +67,10 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
       bare
       brand="hero"
       activeLang={activeLang}
+      url={url}
     >
       {/* ---------- Hero: frame 1:390, 1440x640 ---------- */}
-      <header class="relative overflow-hidden border-b border-line-soft bg-hero-ground">
+      <header class="relative overflow-hidden border-b border-border-subtle bg-slate-900">
         {/*
           The artwork sits at 60% over a fixed dark ground rather than having
           that opacity baked into the file, so the hero reads identically in
@@ -93,31 +93,25 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
             on the hero artwork, which is dark in both themes.
           */}
           <h1 class="font-serif text-h1 font-bold text-white">
-            A shared language for <span class="block text-yellow">Ethereum</span>
+            A shared language for <span class="block text-primary">Ethereum</span>
           </h1>
-          <p class="max-w-[746px] font-medium text-lede text-white">
+          <p class="max-w-3xl font-medium text-lede text-white">
             ETHGlossary gives apps and the wider ecosystem community-reviewed Ethereum
             terminology. Ready to use in {languages.length} languages through a simple API.
           </p>
-          <div class="mt-3 flex flex-wrap gap-3">
-            {ACCOUNTS_ENABLED ? (
-              <a class={CTA_PRIMARY} href="/signin">
-                Join as a translator
-              </a>
-            ) : (
-              /* Looks exactly like the live control; the tooltip carries the why. */
-              <button
-                type="button"
-                class={`${CTA_PRIMARY} cursor-not-allowed`}
-                aria-disabled="true"
-                data-coming-soon={COMING_SOON_TITLE}
-              >
-                Join as a translator
-              </button>
-            )}
+          <div class="mt-8 flex flex-wrap gap-4">
+            {/*
+              A browse action, not a sign-up. Contributing needs an account
+              that does not exist yet, so the hero sends a first-time visitor
+              to the thing itself rather than to a control that can only
+              apologise.
+            */}
+            <a class={CTA_PRIMARY} href="/style-guide">
+              View glossary
+            </a>
             <a class={CTA_GHOST} href="/docs">
               Explore the API
-              <Icon svg={arrowRight} class="size-[18px]" />
+              <Icon svg={arrowRight} class="size-4.5" />
             </a>
           </div>
         </div>
@@ -127,32 +121,36 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
         The three bubble sections share one vertical wash, edge -> mid -> edge,
         and carry no rules between them. Per the Figma.
       */}
-      <div class="bg-linear-to-b from-wash-edge via-wash-mid to-wash-edge">
+      <div class="bg-linear-to-b from-background via-background-sunken to-background">
       {/* ---------- What is ETHGlossary ---------- */}
-      <section class="wrap relative py-18 md:py-24">
+      <section class="wrap relative py-12 md:py-16">
         <div class="grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:items-center">
-          <div class="flex flex-col gap-8">
-            <div class="flex items-start gap-5">
-              <Bubble tone="text-laser" />
-              <h2 class="max-w-[14ch] font-serif text-h2 font-bold text-ink">
+          {/*
+            Figma 1:225 contains the heading AND the body, both inset past the
+            bubble -- so the paragraphs align with the h2, not the section edge.
+          */}
+          <div class="flex items-start gap-8">
+            <Bubble tone="text-rose" />
+            <div class="flex flex-col gap-8">
+              <h2 class="max-w-md font-serif text-h2 font-bold text-foreground-strong">
                 What is ETHGlossary?
               </h2>
-            </div>
-            <div class="flex max-w-[555px] flex-col gap-6 text-body-lg text-ink-3">
+              <div class="flex max-w-xl flex-col gap-6 text-body-lg text-foreground-muted">
               <p class="font-medium">Ethereum is global. Its language should be too.</p>
               <p class="font-medium">
                 ETHGlossary is an open, multilingual glossary for Ethereum: a shared place
                 to{" "}
-                <strong class="font-bold text-ink">
+                <strong class="font-bold text-foreground-strong">
                   define concepts, review translations, and make the best available
                   language reusable
                 </strong>{" "}
                 across the ecosystem.
               </p>
-              <p>
-                Used and optimized for years by{" "}
-                <strong class="font-bold text-ink">ethereum.org</strong>.
-              </p>
+                <p>
+                  Used and optimized for years by{" "}
+                  <strong class="font-bold text-foreground-strong">ethereum.org</strong>.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -161,13 +159,18 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
               302px image inside two concentric rings: the first 1rem beyond
               the image radius, the second another 0.5rem beyond that.
             */}
-            <div class="relative grid aspect-square w-full max-w-[302px] shrink-0 place-items-center">
+            {/*
+              The rings sit outside the image box, so the container has to
+              leave room for them or the outer one clears a narrow viewport.
+              Figma 1:232/1:233: +21.5px then +7px on a 302px image.
+            */}
+            <div class="relative grid aspect-square w-[calc(100%-3.5rem)] max-w-[302px] shrink-0 place-items-center">
               <span
-                class="absolute -inset-4 rounded-full border border-accent"
+                class="absolute -inset-5 rounded-full border border-accent"
                 aria-hidden="true"
               />
               <span
-                class="absolute -inset-6 rounded-full border border-accent"
+                class="absolute -inset-7 rounded-full border border-accent"
                 aria-hidden="true"
               />
               <img
@@ -188,7 +191,7 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
       </section>
 
       {/* ---------- How to get started ---------- */}
-      <section class="wrap relative py-18 md:py-24">
+      <section class="wrap relative py-12 md:py-16">
         {/*
           Straddles the boundary into "How it works", so it sits between that
           section's bubble and this one's. Non-space-occupying, bleeding off
@@ -198,57 +201,56 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
           svg={glyphPurpleRed}
           class="pointer-events-none absolute -bottom-64 -left-24 hidden h-[491px] opacity-25 xl:block"
         />
-        <div class="mb-8 flex items-start gap-5">
+        <div class="mb-16 flex items-start gap-8">
           <Bubble tone="text-violet" />
-          <h2 class="max-w-[14ch] font-serif text-h2 font-bold text-ink">
+          <h2 class="max-w-md font-serif text-h2 font-bold text-foreground-strong">
             How to get started
           </h2>
         </div>
 
         {/* 556 + 32 gap + 556 in the Figma, inset 128 either side of the shell. */}
-        <div class="mx-auto grid max-w-[1144px] gap-8 md:grid-cols-2">
-          <article class="flex flex-col gap-8 rounded-card border-2 border-violet bg-bg px-6 py-8">
+        <div class="mx-auto grid max-w-6xl gap-8 md:grid-cols-2">
+          <article class="flex flex-col gap-8 rounded-card border-2 border-violet bg-background px-6 py-8 [&>a]:mt-auto">
             <Icon svg={users} class="icon-stroke-2 size-12 text-violet sm:size-16" />
             <div class="flex flex-col gap-2">
-              <h3 class="text-h5/6 font-bold text-ink">Shape Ethereum&rsquo;s language</h3>
-              <p class="text-body text-ink-3">
+              <h3 class="text-h5/6 font-bold text-foreground-strong">Shape Ethereum&rsquo;s language</h3>
+              <p class="text-body text-foreground-muted">
                 Review terminology, propose better words, and help your language community
                 decide how Ethereum should be understood.
               </p>
             </div>
-            <a class={CTA_OUTLINE} href="/translate">
+            <a class={CTA_OUTLINE_SM} href="/translations/all">
               Translations
-              <Icon svg={arrowRight} class="size-4" />
+              <Icon svg={arrowRight} class="size-6" />
             </a>
           </article>
 
-          <article class="flex flex-col gap-8 rounded-card border-2 border-green bg-bg px-6 py-8">
-            <Icon svg={bookType} class="icon-stroke-2 size-12 text-green sm:size-16" />
+          <article class="flex flex-col gap-8 rounded-card border-2 border-teal bg-background px-6 py-8 [&>a]:mt-auto">
+            <Icon svg={bookType} class="icon-stroke-2 size-12 text-teal sm:size-16" />
             <div class="flex flex-col gap-2">
-              <h3 class="text-h5/6 font-bold text-ink">Get verified translations</h3>
-              <p class="text-body text-ink-3">
+              <h3 class="text-h5/6 font-bold text-foreground-strong">Get verified translations</h3>
+              <p class="text-body text-foreground-muted">
                 Use community-reviewed terminology in your wallet, dapp, docs, localization
                 pipeline, or AI workflow.
               </p>
             </div>
-            <a class={CTA_OUTLINE} href="/docs">
+            <a class={CTA_OUTLINE_SM} href="/docs">
               Documentation
-              <Icon svg={arrowRight} class="size-4" />
+              <Icon svg={arrowRight} class="size-6" />
             </a>
           </article>
         </div>
       </section>
 
       {/* ---------- How it works ---------- */}
-      <section class="wrap py-18 md:py-24">
+      <section class="wrap py-12 md:py-16">
         <div class="grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:items-center">
-          <div class="flex items-start gap-5">
-            <Bubble tone="text-[#4f7fe0]" />
-            <h2 class="max-w-[10ch] font-serif text-h2 font-bold text-ink">How it works</h2>
+          <div class="flex items-start gap-8">
+            <Bubble tone="text-blue" />
+            <h2 class="max-w-xs font-serif text-h2 font-bold text-foreground-strong">How it works</h2>
           </div>
 
-          <div class="flex flex-col">
-          <ol class="flex flex-col gap-6">
+          <ol class="flex flex-col gap-8">
             {[
               {
                 n: "1",
@@ -258,13 +260,13 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
               },
               {
                 n: "2",
-                tone: "text-green",
+                tone: "text-teal",
                 title: "The translator community reviews",
                 body: "Native speakers and Ethereum contributors discuss terms, propose alternatives, and add the context machines miss.",
               },
               {
                 n: "3",
-                tone: "text-[#4f7fe0]",
+                tone: "text-blue",
                 title: "Anyone can use it",
                 body: "Reviewed terminology becomes open infrastructure for translators, products, and AI through ETHGlossary's API.",
               },
@@ -272,53 +274,36 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
               <li class="grid grid-cols-[40px_1fr] items-start gap-4 sm:grid-cols-[53px_1fr] sm:gap-6">
                 <StepMark n={step.n} tone={step.tone} />
                 <div class="flex flex-col gap-3">
-                  <h3 class="font-serif text-h5 font-bold text-ink">{step.title}</h3>
-                  <p class="text-body text-ink-3">{step.body}</p>
+                  <h3 class="font-serif text-h5 font-bold text-foreground-strong">{step.title}</h3>
+                  <p class="text-body text-foreground-muted">{step.body}</p>
                 </div>
               </li>
             ))}
           </ol>
-
-            {/*
-              Figma 1:375 puts this row at x=76 inside the steps column, which
-              is the marker (53) plus the grid gap (24) -- so it lines up with
-              the step text above it, not with the markers or the section.
-            */}
-            <div class="mt-10 flex flex-wrap gap-4 sm:mt-16 lg:pl-[77px]">
-              <ExternalLink class={CTA_PRIMARY} href={DISCORD_URL} hideArrow>
-                <Icon svg={discord} class="size-5" />
-                Contribute
-              </ExternalLink>
-              <a class={CTA_OUTLINE} href="/docs">
-                API Documentation
-                <Icon svg={arrowRight} class="size-6" />
-              </a>
-            </div>
-          </div>
         </div>
       </section>
       </div>
 
       {/* ---------- Language grid ---------- */}
-      <section class="relative overflow-hidden border-y border-line-soft bg-surface py-18 md:py-24">
+      <section class="relative overflow-hidden border-y border-border-subtle bg-card py-16 md:py-32">
         <div class="dot-grid absolute inset-0" aria-hidden="true" />
         <div class="wrap relative">
-          <h2 class="mb-8 text-center font-serif text-h2-sm font-bold text-ink">
+          <h2 class="mb-8 text-center font-serif text-h2-sm font-bold text-foreground-strong">
             Translation languages
           </h2>
-          <div class="grid grid-cols-[repeat(auto-fill,minmax(17rem,1fr))] gap-3">
+          <div class="mx-auto grid max-w-[980px] gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {languages.map((l) => (
               <a
-                class="flex flex-col gap-0.5 rounded-xl border border-line bg-bg/50 p-4 no-underline transition-colors hover:border-green hover:no-underline"
-                href={`/translate/${l.code}`}
+                class="flex flex-col gap-0.5 rounded-xl border border-border bg-background/50 p-4 no-underline transition-colors hover:border-teal hover:no-underline"
+                href={`/translations/${l.code}`}
               >
                 <span class="flex flex-wrap items-end gap-2">
-                  <span class="font-serif text-h4 font-bold text-ink" lang={l.code} dir={l.dir}>
+                  <span class="font-serif text-h4 font-bold text-foreground-strong" lang={l.code} dir={l.dir}>
                     {l.endonym}
                   </span>
-                  <span class="font-serif text-label-sm text-ink-3">{l.name}</span>
+                  <span class="font-serif text-label-sm text-foreground-muted">{l.name}</span>
                 </span>
-                <span class="truncate text-tiny text-ink-dim">{l.regions}</span>
+                <span class="truncate text-tiny text-foreground-subtle">{l.regions}</span>
               </a>
             ))}
           </div>
@@ -326,18 +311,18 @@ export const HomePage = ({ activeLang }: { activeLang?: string }) => {
       </section>
 
       {/* ---------- Closing ---------- */}
-      <section class="relative overflow-hidden bg-linear-to-b from-deep-top via-deep-mid to-deep-bottom text-white">
+      <section class="relative overflow-hidden bg-linear-to-b from-plum-800 via-plum-900 to-plum-950 text-white">
         <div class="wrap relative flex items-center gap-12 py-20">
-          <div class="flex flex-col gap-6">
-            <h2 class="max-w-[16ch] font-serif text-h2 font-bold">
+          <div class="flex flex-col gap-8">
+            <h2 class="max-w-4xl font-serif text-h2 font-bold">
               Translation needs more than fluent text
             </h2>
-            <p class="max-w-[555px] text-body-lg text-white/85">
+            <p class="max-w-xl text-body-lg text-white/85">
               Machine translation produces text that looks right, but if you don&rsquo;t
               have a native speaker on the team then nobody can actually tell if it is
               correct.
             </p>
-            <p class="max-w-[555px] text-body-lg text-white/85">
+            <p class="max-w-xl text-body-lg text-white/85">
               ETHGlossary adds the Ethereum-specific context that helps translators and
               products use terms consistently, clearly, and with confidence.
             </p>
