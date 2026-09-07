@@ -11701,7 +11701,7 @@
       "term": "Charles Hoskinson",
       "category": "general",
       "term_role": "person-name",
-      "definition": "Major crypto founder with established transliterations in multiple languages.",
+      "definition": "One of the original co-founders of Ethereum, who left the project in 2014 over a disagreement about whether it should be run as a for-profit company, and who later founded Cardano. He appears in Ethereum content mostly in accounts of the project's early history.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11716,14 +11716,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major crypto founder with established transliterations in multiple languages."
     },
     "gavin wood": {
       "id": "gavin-wood",
       "term": "Gavin Wood",
       "category": "general",
       "term_role": "person-name",
-      "definition": "Ethereum co-founder with widely established transliterations.",
+      "definition": "An Ethereum co-founder who wrote the Yellow Paper, the formal specification of the Ethereum Virtual Machine, and proposed Solidity, the main smart contract language. He later founded Polkadot and is credited with coining the term web3.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11738,14 +11739,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Ethereum co-founder with widely established transliterations."
     },
     "joseph lubin": {
       "id": "joseph-lubin",
       "term": "Joseph Lubin",
       "category": "general",
       "term_role": "person-name",
-      "definition": "ConsenSys founder with established transliterations in multiple languages.",
+      "definition": "An Ethereum co-founder and the founder of ConsenSys, the company behind MetaMask and Infura. He appears in Ethereum content in accounts of the project's founding and of the tooling ecosystem built around it.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11760,14 +11762,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "ConsenSys founder with established transliterations in multiple languages."
     },
     "vitalik buterin": {
       "id": "vitalik-buterin",
       "term": "Vitalik Buterin",
       "category": "general",
       "term_role": "person-name",
-      "definition": "Ethereum creator with universally established transliterations across non-Latin scripts.",
+      "definition": "The author of the 2013 Ethereum whitepaper and the project's best-known co-founder. He continues to publish research on Ethereum's scaling, consensus, and account abstraction roadmap, and that writing is cited directly throughout Ethereum documentation.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11782,14 +11785,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Ethereum creator with universally established transliterations across non-Latin scripts."
     },
     "wei dai": {
       "id": "wei-dai",
       "term": "Wei Dai",
       "category": "general",
       "term_role": "person-name",
-      "definition": "Famous cypherpunk with established Hanzi and transliterations.",
+      "definition": "A cryptographer and cypherpunk who described b-money in 1998, an early proposal for a distributed digital currency that the Bitcoin whitepaper cites as a precursor. The smallest denomination of ether, the wei, is named after him.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11804,14 +11808,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Famous cypherpunk with established Hanzi and transliterations."
     },
     "aave": {
       "id": "aave",
       "term": "Aave",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A decentralized lending protocol built on Ethereum and several other networks. Depositors supply assets to shared liquidity pools and earn interest, while borrowers draw from those pools against collateral they have locked. It appears in Ethereum content as one of the most widely cited examples of DeFi lending.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11826,14 +11831,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "arbitrum": {
       "id": "arbitrum",
       "term": "Arbitrum",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A family of Ethereum layer 2 networks that use optimistic rollup technology to execute transactions cheaply and settle them on Ethereum. Contracts written for Ethereum run on it largely unchanged. It appears in Ethereum content as one of the most used layer 2 networks.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11848,14 +11854,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "binance": {
       "id": "binance",
       "term": "Binance",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A large centralized cryptocurrency exchange, and the company behind the BNB Chain network. It appears in Ethereum content mainly as a place where people buy, sell, and custody ether and other tokens, in contrast to trading through a decentralized exchange.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11870,14 +11877,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "chrome": {
       "id": "chrome",
       "term": "Chrome",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A web browser developed by Google. It appears in Ethereum content because browser wallet extensions, MetaMask among them, are distributed for Chrome and other Chromium-based browsers, and installation instructions are usually written against it.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11892,14 +11900,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "coinbase": {
       "id": "coinbase",
       "term": "Coinbase",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A centralized cryptocurrency exchange and custodian based in the United States. It appears in Ethereum content as one of the common places newcomers buy ether, and as the operator of Base, an Ethereum layer 2 network.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11914,14 +11923,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "consensys": {
       "id": "consensys",
       "term": "ConsenSys",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A software company founded by Joseph Lubin that builds Ethereum infrastructure and developer tooling. Its products include the MetaMask wallet and the Infura node service. It appears in Ethereum content wherever those tools are described.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11936,14 +11946,15 @@
       },
       "script_rule": "transliterate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "cryptokitties": {
       "id": "cryptokitties",
       "term": "CryptoKitties",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "One of the first widely used collectible applications on Ethereum, launched in 2017, in which players bought and bred unique digital cats. Its popularity congested the network and made transaction fees a mainstream topic. It appears in Ethereum content as the standard early example of an NFT application.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -11958,7 +11969,8 @@
       },
       "script_rule": "transliterate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "dencun": {
       "id": "dencun",
@@ -11990,14 +12002,15 @@
         "dencun",
         "DENCUN"
       ],
-      "note": "Ethereum upgrade combining Cancun (execution) and Deneb (consensus). Introduced blobs via EIP-4844."
+      "note": "Ethereum upgrade combining Cancun (execution) and Deneb (consensus). Introduced blobs via EIP-4844.",
+      "translation_note": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities."
     },
     "discord": {
       "id": "discord",
       "term": "Discord",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A chat and voice platform organized into servers and channels. It appears in Ethereum content because most projects and developer communities run their support and coordination channels there.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12012,14 +12025,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "facebook": {
       "id": "facebook",
       "term": "Facebook",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A social network operated by Meta. It appears in Ethereum content largely as a point of comparison: a centralized platform that owns its users' accounts and data, set against the user-owned alternative that web3 describes.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12034,14 +12048,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "filecoin": {
       "id": "filecoin",
       "term": "Filecoin",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A decentralized storage network whose participants are paid in its native token to store and serve files. It appears in Ethereum content as one of the options for holding data that is too large or too expensive to keep onchain, alongside IPFS and Arweave.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12056,14 +12071,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "goerli": {
       "id": "goerli",
       "term": "Goerli",
       "category": "protocol-upgrades",
       "term_role": "network-name",
-      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "definition": "An Ethereum test network, now retired in favor of Sepolia and Holesky. It let developers deploy and test contracts using valueless test ether rather than spending real funds on mainnet. It appears mainly in older documentation and tutorials.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12078,14 +12094,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities."
     },
     "holesky": {
       "id": "holesky",
       "term": "Holesky",
       "category": "protocol-upgrades",
       "term_role": "network-name",
-      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "definition": "An Ethereum test network launched in 2023, sized to mirror mainnet's validator set so that staking setups, infrastructure, and client upgrades can be rehearsed at realistic scale. Its test ether has no value. It took over the role Goerli had filled.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12100,14 +12117,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities."
     },
     "lido": {
       "id": "lido",
       "term": "Lido",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A liquid staking protocol. Users stake ether through it without running a validator themselves and receive a token representing the staked balance, which keeps earning rewards while remaining usable elsewhere in DeFi. It appears in Ethereum content as the largest example of liquid staking.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12122,14 +12140,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "makerdao": {
       "id": "makerdao",
       "term": "MakerDAO",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "The decentralized organization that created and governs DAI, a collateral-backed stablecoin on Ethereum. Holders of its governance token vote on the protocol's risk parameters. It appears in Ethereum content as an early and much-cited example of both a DAO and a decentralized stablecoin.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12144,14 +12163,15 @@
       },
       "script_rule": "transliterate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "microsoft": {
       "id": "microsoft",
       "term": "Microsoft",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A large software company. It appears in Ethereum content mostly through the tools developers use rather than through Ethereum itself: Windows as a platform for running clients, and Visual Studio Code and GitHub as where much Ethereum code is written and hosted.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12166,14 +12186,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "netflix": {
       "id": "netflix",
       "term": "Netflix",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A video streaming service. It appears in Ethereum content only as a familiar example of a conventional centralized web application, used to contrast with a dapp that runs on a decentralized network.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12188,14 +12209,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "opensea": {
       "id": "opensea",
       "term": "OpenSea",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A marketplace for buying and selling NFTs, mostly those issued on Ethereum and its layer 2 networks. It appears in Ethereum content as the best-known example of an NFT marketplace.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12210,14 +12232,15 @@
       },
       "script_rule": "transliterate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "optimism": {
       "id": "optimism",
       "term": "Optimism",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "An Ethereum layer 2 network built as an optimistic rollup, and the collective that governs it. It also maintains the OP Stack, the codebase other teams reuse to launch their own rollups. It appears in Ethereum content both as a specific network and as the origin of the optimistic rollup design.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12232,14 +12255,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "paypal": {
       "id": "paypal",
       "term": "PayPal",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "An online payments company. It appears in Ethereum content as a familiar reference point for what a centralized payment intermediary does, and as the issuer of a dollar stablecoin on Ethereum.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12254,14 +12278,15 @@
       },
       "script_rule": "transliterate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "polygon": {
       "id": "polygon",
       "term": "Polygon",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A set of Ethereum scaling networks and the organization that builds them, best known for a proof-of-stake sidechain that was later joined by zero-knowledge rollup networks. It appears in Ethereum content as one of the common places to transact when mainnet fees are high.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12276,14 +12301,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "reddit": {
       "id": "reddit",
       "term": "Reddit",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A discussion site organized into topic-based communities. It appears in Ethereum content because several of the largest Ethereum discussion communities are hosted there.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12298,14 +12324,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "ropsten": {
       "id": "ropsten",
       "term": "Ropsten",
       "category": "protocol-upgrades",
       "term_role": "network-name",
-      "definition": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities.",
+      "definition": "An early Ethereum test network that mirrored mainnet's proof-of-work consensus. It was retired in 2022, once Ethereum moved to proof-of-stake, and survives only in older documentation and tutorials.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12320,14 +12347,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major Ethereum networks and upgrades have established transliterations or calques in non-Latin communities."
     },
     "starknet": {
       "id": "starknet",
       "term": "Starknet",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "An Ethereum layer 2 network built as a validity rollup, using STARK proofs to demonstrate to Ethereum that offchain execution was correct. Its contracts are written in Cairo rather than Solidity. It appears in Ethereum content as one of the main zero-knowledge rollup networks.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12342,14 +12370,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "telegram": {
       "id": "telegram",
       "term": "Telegram",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A messaging app with large public channels and groups. It appears in Ethereum content because many projects run announcement channels and community groups there, and because impersonating those channels is a common scam.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12364,14 +12393,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "twitter": {
       "id": "twitter",
       "term": "Twitter",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A microblogging platform, renamed X in 2023. It appears in Ethereum content because a great deal of protocol discussion, upgrade announcement, and project communication happens there, and because older material still refers to it by its former name.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12386,14 +12416,15 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "youtube": {
       "id": "youtube",
       "term": "YouTube",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "A video hosting platform operated by Google. It appears in Ethereum content as where conference talks, client walkthroughs, and tutorial material are published.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12408,14 +12439,15 @@
       },
       "script_rule": "transliterate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     },
     "zksync": {
       "id": "zksync",
       "term": "ZKsync",
       "category": "general",
       "term_role": "brand-or-project",
-      "definition": "Major consumer-tier brand or project with officially adopted or widely established native-script forms.",
+      "definition": "An Ethereum layer 2 network built as a zero-knowledge rollup, and the ZK Stack codebase used to launch further networks that settle to Ethereum. It appears in Ethereum content as one of the main zero-knowledge rollup networks.",
       "has_tooltip": true,
       "in_glossary": true,
       "content_occurrences": 0,
@@ -12430,7 +12462,8 @@
       },
       "script_rule": "transliterate",
       "casing": "fixed",
-      "aliases": []
+      "aliases": [],
+      "translation_note": "Major consumer-tier brand or project with officially adopted or widely established native-script forms."
     }
   },
   "term_families": {
