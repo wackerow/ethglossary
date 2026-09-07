@@ -6,10 +6,10 @@
  */
 
 import { Layout } from "../layout"
+import type { PageUrl } from "../layout"
 import { Icon } from "../icon"
 import { listLanguages } from "../../lib/language-meta"
 import circleAlert from "lucide-static/icons/circle-alert.svg"
-import { LANGUAGES_ISLAND } from "../islands"
 
 export interface LanguageStat {
   code: string
@@ -19,13 +19,17 @@ export interface LanguageStat {
   confidenceBreakdown: { high: number; medium: number; low: number }
 }
 
-const CELL = "border-b border-line-soft text-left"
-/**
- * The link fills the cell so the whole row is a target, not just the words.
- * A row of <a>s rather than one wrapping <a>, because an anchor cannot
- * legally contain <td>.
+const CELL = "border-b border-border-subtle px-3.5 py-2.5 text-left"
+
+/*
+ * Whole-row link -- one stretched overlay, not an <a> per cell.
+ *
+ * This table used to carry a link in every <td> with `aria-hidden` on the
+ * duplicates, which made the row clickable but hid the coverage numbers from
+ * a screen reader entirely. See the `row-link` utility in app.css.
  */
-const CELL_LINK = "block px-3.5 py-2.5 no-underline"
+const ROW = "relative hover:bg-card"
+const ROW_LINK = "row-link no-underline hover:underline"
 
 /** Why the chooser is showing, when the visitor did not navigate here directly. */
 export type LanguagesNotice = "choose" | "changed"
@@ -39,10 +43,12 @@ export const LanguagesPage = ({
   stats,
   notice,
   activeLang,
+  url,
 }: {
   stats: LanguageStat[]
   notice?: LanguagesNotice
   activeLang?: string
+  url?: PageUrl
 }) => {
   const byCode = new Map(stats.map((s) => [s.code, s]))
   const languages = listLanguages()
@@ -51,9 +57,9 @@ export const LanguagesPage = ({
     <Layout
       title="Languages -- ETHGlossary"
       description="The 24 languages ETHGlossary covers, with translation coverage and confidence for each."
-      nav="languages"
+      nav="translations"
       activeLang={activeLang}
-      island={notice ? LANGUAGES_ISLAND : undefined}
+      url={url}
     >
       {notice ? (
         /*
@@ -65,43 +71,26 @@ export const LanguagesPage = ({
           role="status"
           aria-live="polite"
           aria-atomic="true"
-          class="mt-6 flex items-center gap-2.5 rounded-card border border-accent bg-accent/10 px-4 py-3 text-body text-ink"
+          class="mt-6 flex items-center gap-2.5 rounded-card border border-accent bg-accent/10 px-4 py-3 text-body text-foreground-strong"
         >
           <Icon svg={circleAlert} class="size-5 shrink-0 text-accent" />
           {NOTICE_TEXT[notice]}
         </div>
       ) : null}
 
-      {notice ? (
-        /*
-          Re-announcement lives here, not in the visible notice. A live region
-          only speaks when its content changes, and emptying the visible text
-          to force that collapsed the box by 4px and shifted the page. This is
-          sr-only and absolutely positioned, so mutating it costs no layout.
-        */
-        <span
-          id="lang-notice-live"
-          class="sr-only"
-          role="status"
-          aria-live="polite"
-          aria-atomic="true"
-          data-message={NOTICE_TEXT[notice]}
-        />
-      ) : null}
-
-      <div class="flex max-w-[62ch] flex-col gap-3 pt-10 pb-6">
-        <p class="text-body font-bold text-ink-label">Coverage</p>
-        <h1 class="font-serif text-h3 font-medium text-ink">
-          {languages.length} languages
+      <div class="flex max-w-prose flex-col gap-3 pt-10 pb-6">
+        <p class="text-body font-bold text-foreground-subtle">Translations</p>
+        <h1 class="font-serif text-h3 font-medium text-foreground-strong">
+          Pick a language
         </h1>
-        <p class="text-body text-ink-3">
+        <p class="text-body text-foreground-muted">
           Every language carries the same {stats[0]?.totalTerms ?? 0} terms, each with a
-          translation for every context it appears in. Confidence is recorded per term by
-          the translator or the model that proposed it.
+          translation for every context it appears in. Choose one to review and give
+          feedback &mdash; or compare all {languages.length} at once.
         </p>
       </div>
 
-      <div class="mb-14 overflow-x-auto rounded-card border border-line-soft">
+      <div class="mb-14 overflow-x-auto rounded-card border border-border-subtle">
         <table class="w-full border-collapse text-label-md">
           <thead>
             <tr>
@@ -109,7 +98,7 @@ export const LanguagesPage = ({
                 (h) => (
                   <th
                     scope="col"
-                    class={`${CELL} sticky top-0 whitespace-nowrap bg-surface px-3.5 py-2.5 text-tiny font-bold text-ink-dim`}
+                    class={`${CELL} sticky top-0 whitespace-nowrap bg-card text-tiny font-bold text-foreground-subtle`}
                   >
                     {h}
                   </th>
@@ -118,47 +107,55 @@ export const LanguagesPage = ({
             </tr>
           </thead>
           <tbody>
+            {/*
+              "All" is an option in the same list, not a link off to the side
+              -- it is one of the things you can pick here. It spans the stat
+              columns because coverage figures mean nothing for it, and that
+              space says what it does instead.
+            */}
+            <tr class={ROW}>
+              <th scope="row" class={`${CELL} whitespace-nowrap font-normal`}>
+                <a class={ROW_LINK} href="/translations/all">
+                  <span class="font-bold text-foreground-strong">All languages</span>
+                </a>
+              </th>
+              <td class={`${CELL} text-foreground-subtle`} colspan={4}>
+                Compare one term across every language. Read-only &mdash; feedback is
+                given inside a single language.
+              </td>
+            </tr>
+
             {languages.map((l) => {
               const s = byCode.get(l.code)
-              const href = `/translate/${l.code}`
+              const href = `/translations/${l.code}`
               const label = `Review the ${l.name} glossary`
               return (
-                <tr class="group hover:bg-surface">
-                  <td class={CELL}>
-                    <a class={CELL_LINK} href={href} aria-label={label}>
-                      <span class="font-bold text-ink" lang={l.code} dir={l.dir}>
+                <tr class={ROW}>
+                  <th scope="row" class={`${CELL} font-normal`}>
+                    <a class={ROW_LINK} href={href} aria-label={label}>
+                      <span class="font-bold text-foreground-strong" lang={l.code} dir={l.dir}>
                         {l.endonym}
                       </span>{" "}
-                      <span class="text-ink-dim">{l.name}</span>
+                      <span class="text-foreground-subtle">{l.name}</span>
                     </a>
+                  </th>
+                  <td class={`${CELL} tabular-nums`}>{s?.translatedTerms ?? 0}</td>
+                  <td class={`${CELL} tabular-nums`}>
+                    {s ? `${s.completionPercent}%` : "--"}
+                  </td>
+                  <td class={`${CELL} tabular-nums`}>
+                    {s?.confidenceBreakdown.high ?? 0}
                   </td>
                   <td class={CELL}>
-                    <a class={`${CELL_LINK} tabular-nums`} href={href} tabindex={-1} aria-hidden="true">
-                      {s?.translatedTerms ?? 0}
-                    </a>
-                  </td>
-                  <td class={CELL}>
-                    <a class={`${CELL_LINK} tabular-nums`} href={href} tabindex={-1} aria-hidden="true">
-                      {s ? `${s.completionPercent}%` : "--"}
-                    </a>
-                  </td>
-                  <td class={CELL}>
-                    <a class={`${CELL_LINK} tabular-nums`} href={href} tabindex={-1} aria-hidden="true">
-                      {s?.confidenceBreakdown.high ?? 0}
-                    </a>
-                  </td>
-                  <td class={CELL}>
-                    <a class={CELL_LINK} href={href} tabindex={-1} aria-hidden="true">
-                      {l.noPlurals ? (
-                        <span class="inline-block rounded-full bg-surface-2 px-2 py-0.5 text-tiny text-ink-dim">
-                          not marked
-                        </span>
-                      ) : (
-                        <span class="inline-block rounded-full bg-green/15 px-2 py-0.5 text-tiny text-green">
-                          yes
-                        </span>
-                      )}
-                    </a>
+                    {l.noPlurals ? (
+                      <span class="inline-block whitespace-nowrap rounded-full bg-muted px-2 py-0.5 text-tiny text-foreground-subtle">
+                        not marked
+                      </span>
+                    ) : (
+                      <span class="inline-block whitespace-nowrap rounded-full bg-teal/15 px-2 py-0.5 text-tiny text-teal">
+                        yes
+                      </span>
+                    )}
                   </td>
                 </tr>
               )
