@@ -25,6 +25,7 @@ function toStyleGuideTerm(entry: ReturnType<typeof resolveTerm>) {
     termRole: entry.term_role,
     casing: entry.casing as "standard" | "proper" | "uppercase" | "fixed",
     definition: entry.definition,
+    references: entry.references,
     avoid: entry.avoid,
     aliases: entry.aliases?.map(normalizeAlias),
     note: entry.note,

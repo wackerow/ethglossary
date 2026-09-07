@@ -14,6 +14,7 @@ export interface GlossaryTerm {
   category: string
   term_role?: string
   definition: string
+  references?: Array<{ label: string; url: string }>
   has_tooltip: boolean
   in_glossary: boolean
   content_occurrences: number
