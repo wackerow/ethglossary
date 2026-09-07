@@ -21,7 +21,6 @@ interface LinkProps {
   hideArrow?: boolean
   /** Required when the link has no text -- an icon-only link needs a name. */
   "aria-label"?: string
-  title?: string
   children?: Child
 }
 
@@ -32,7 +31,6 @@ export const ExternalLink = ({
   class: cls,
   hideArrow,
   "aria-label": ariaLabel,
-  title,
   children,
 }: LinkProps) => {
   const external = isExternal(href)
@@ -41,7 +39,6 @@ export const ExternalLink = ({
     <a
       href={href}
       class={cls}
-      title={title}
       aria-label={ariaLabel}
       target={external ? "_blank" : undefined}
       rel={external ? "noreferrer noopener" : undefined}
