@@ -12,7 +12,18 @@ export interface GlossaryTerm {
   id: string
   term: string
   category: string
-  term_role?: string
+  term_role?:
+    | "concept"
+    | "brand-or-project"
+    | "person-name"
+    | "programming-language"
+    | "os-platform"
+    | "cryptographic-primitive"
+    | "network-name"
+    | "file-extension"
+    | "cli-command"
+    | "ticker-or-standard"
+    | "identifier"
   definition: string
   references?: Array<{ label: string; url: string }>
   has_tooltip: boolean
@@ -29,6 +40,21 @@ export interface GlossaryTerm {
 
 export interface TranslationEntry {
   term: string
+  /**
+   * A romanization of THIS entry's translation -- the target-language term
+   * spelled in Latin letters, as a pronunciation aid. It is not the English
+   * transliterated into the target script.
+   *
+   * Present only for the 13 non-Latin-script languages, and only where there
+   * is something to romanize: in Russian, 405/409 `translate` terms carry one
+   * and 0/32 `always_latin` terms do, because those are already Latin.
+   * Undocumented in docs/data-shape.md until now.
+   */
+  transliteration?: string | null
+  /** Other accepted renderings in the target language. */
+  aliases?: string[] | null
+  /** Noun/verb/adjective forms and compounds, where the language has them. */
+  morphology?: Record<string, unknown> | null
   contexts?: {
     prose?: { term: string; example?: string }
     heading?: { term: string }
@@ -95,6 +121,14 @@ for (const [key, entry] of Object.entries(confirmedTerms)) {
   }
 }
 
+// Index the id slug last, so it wins any collision with an alias or avoid
+// form. URLs are built from `id`, so this is what /style-guide/:termId and
+// /translate/:lang/:termId actually look up -- without it, every term whose
+// id differs from its key (200 of 532: any multi-word term) returns 404.
+for (const [key, entry] of Object.entries(confirmedTerms)) {
+  if (entry.id) surfaceFormIndex.set(entry.id.toLowerCase(), key)
+}
+
 // Build regex pattern for content matching (longest first)
 const allForms = Array.from(surfaceFormIndex.keys())
 allForms.sort((a, b) => b.length - a.length)
@@ -103,6 +137,33 @@ const matchPattern = new RegExp(`\\b(${escaped.join("|")})\\b`, "gi")
 
 // Translation cache
 const translationCache = new Map<string, Record<string, TranslationEntry>>()
+
+/**
+ * Every `id` has to survive being put in a URL path, unencoded.
+ *
+ * `51% attack` shipped with `id: "51%-attack"`, and `%-a` is a malformed
+ * percent-escape: Cloudflare rejected it at the edge with a 400 before the
+ * Worker ever ran, so the term was unreachable on the site AND through
+ * `/api/v1/style-guide/{termId}`, which documents `id` as the thing you put
+ * in the path. Encoding at each call site would have hidden it; this makes
+ * the shape impossible instead.
+ *
+ * Called at module load so a bad id fails fast rather than 400ing one term.
+ */
+function assertIdsAreUrlSafe(): void {
+  const shape = /^[a-z0-9]+(-[a-z0-9]+)*$/
+  const bad = Object.values(confirmedTerms)
+    .filter((entry) => !shape.test(entry.id))
+    .map((entry) => `${entry.term} -> ${entry.id}`)
+
+  if (bad.length) {
+    throw new Error(
+      `glossary ids must be lowercase kebab-case to be URL-safe -- ${bad.join("; ")}`
+    )
+  }
+}
+
+assertIdsAreUrlSafe()
 
 export function getTerms(): Record<string, GlossaryTerm> {
   return confirmedTerms
@@ -174,3 +235,44 @@ export const SUPPORTED_LANGUAGES = [
   "zh",
   "zh-tw",
 ]
+
+export interface LanguageStats {
+  code: string
+  translatedTerms: number
+  totalTerms: number
+  completionPercent: number
+  confidenceBreakdown: { high: number; medium: number; low: number }
+}
+
+/**
+ * Coverage figures for one language.
+ *
+ * Shared by /api/v1/languages and the /languages page. They were separate
+ * copies of the same loop, which meant the page's claim that the two "can
+ * never disagree" was false the moment either was edited.
+ *
+ * Only keys present in the master list are counted -- translation files carry
+ * 9 orphans that are not master terms. See docs/gotchas.md section 5.
+ */
+export async function computeLanguageStats(code: string): Promise<LanguageStats> {
+  const totalTerms = getTermCount()
+  const masterKeys = new Set(Object.keys(getTerms()))
+  const translations = await loadTranslations(code)
+  const validKeys = Object.keys(translations).filter((k) => masterKeys.has(k))
+
+  const confidenceBreakdown = { high: 0, medium: 0, low: 0 }
+  for (const key of validKeys) {
+    const conf = translations[key].confidence ?? "high"
+    if (conf in confidenceBreakdown) {
+      confidenceBreakdown[conf as keyof typeof confidenceBreakdown]++
+    }
+  }
+
+  return {
+    code,
+    translatedTerms: validKeys.length,
+    totalTerms,
+    completionPercent: Math.round((validKeys.length / totalTerms) * 100),
+    confidenceBreakdown,
+  }
+}

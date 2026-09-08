@@ -18,7 +18,7 @@ When the three disagree, the bundled data is what works at runtime, the policy i
 
 ```json
 {
-  "metadata": { "generated": "...", "total_confirmed": 486, ... },
+  "metadata": { "generated": "...", "total_confirmed": 532, ... },
   "confirmed_terms": { "<canonical term name>": { GlossaryTerm }, ... },
   "term_families": { ... },
   "morphological_families": { ... }

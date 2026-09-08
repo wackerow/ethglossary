@@ -56,9 +56,20 @@ const aliasStr = typeof a === "string" ? a : a.term
 
 Anything that iterates aliases needs this. The surface-form index, search, and the OpenAPI response shape all do this correctly today -- check that any new code matches.
 
-## 5. Translation files have ~21 orphan entries
+## 5. Translation files have 9 orphan entries
 
-Translation files contain 507 entries while master `confirmed_terms` has 486. The 21 orphans are leftovers from terms removed in a prior review pass and were never pruned from the per-language files.
+Translation files contain 541 entries while master `confirmed_terms` has 532. The same 9 orphans appear in all 24 language files:
+
+```
+burning  erc-1155  erc-20  erc-721  staked  staker  tx  voting  zk
+```
+
+They are not stale leftovers. Four are morphological variants of a master
+term (`burning`, `staked`, `staker`, `voting`), three are DRY pattern-family
+members that must NOT have master entries (`erc-20`, `erc-721`, `erc-1155` --
+see the pattern-family rules in AGENTS.md), and two are abbreviations (`tx`,
+`zk`). Removing them would lose real translation work; promoting the ERC ones
+to master entries would violate the DRY rule.
 
 The API filters orphans at the boundary (`routes/translations.ts`) by intersecting with master keys. Don't write any code that assumes the key sets match.
 
@@ -76,7 +87,7 @@ If you build code that reads confidence directly from the JSON, default to `"hig
 
 ## 7. `note` is only on ~40% of terms
 
-Roughly 197/486 entries have `note`. Bonus context, not guaranteed. Do not write code that depends on its presence.
+Roughly 197/532 entries have `note`. Bonus context, not guaranteed. Do not write code that depends on its presence.
 
 ## 8. OpenAPI server URL is derived at request time
 

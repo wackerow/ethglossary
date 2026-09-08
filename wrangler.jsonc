@@ -3,7 +3,12 @@
   "name": "ethglossary",
   "main": "src/index.ts",
   "compatibility_date": "2026-04-12",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
   "rules": [
-    { "type": "Text", "globs": ["**/*.txt"], "fallthrough": true }
+    { "type": "Text", "globs": ["**/*.txt"], "fallthrough": true },
+    { "type": "Text", "globs": ["**/*.svg"], "fallthrough": true }
   ]
 }

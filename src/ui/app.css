@@ -1,0 +1,468 @@
+/*
+ * Tailwind v4 source. Compiled to public/assets/app.css by `pnpm run build:css`.
+ *
+ * Everything below is either transcribed from the Figma variable set and text
+ * styles (file Lu7cJjkrNh1YYBkYfnoXxH), or derived where Figma has no answer --
+ * the light palette, which Figma does not define at all.
+ */
+
+@import "tailwindcss";
+@import "./fonts.css";
+
+/* .tsx pages live beside this file; be explicit rather than rely on detection. */
+@source "./";
+
+/* ==========================================================================
+   Theme -- dark is the base, matching the Figma frames.
+   ========================================================================== */
+
+@theme {
+  /* ==========================================================================
+     Palette -- raw values. Scale-named, no meaning attached, never themed.
+     Nothing outside this block should contain a hex.
+     ========================================================================== */
+
+  /* The brand yellow, plus the step down it needs to survive a light ground.
+     Same hue (54deg) and saturation; only lightness moves. #f7e544 measures
+     1.21:1 on #f7f7fa, so it can be a fill there but never a mark. */
+  --color-yellow-400: #f7e544;
+  --color-yellow-600: #897c06;
+  --color-yellow-700: #7a6e05;
+
+  --color-violet-400: #aa7fff;   /* accent-c in the Figma */
+  --color-violet-700: #6b3fd4;
+  --color-teal-400: #0eaaa0;     /* accent/green */
+  --color-teal-700: #0a807a;
+  --color-rose-400: #ff8c8c;     /* accent/laser */
+  --color-rose-700: #c9545c;
+  --color-blue-400: #4f7fe0;
+  --color-blue-700: #2f5bbf;
+
+  --color-plum-700: #3f375d;     /* surface/callout-2 */
+  --color-plum-800: #2b0758;
+  --color-plum-900: #1c043a;
+  --color-plum-950: #110225;
+
+  --color-slate-900: #1c202f;    /* background/main */
+
+  /* ==========================================================================
+     Semantic roles. Named for the job, never for the element that uses them.
+     Every themed value is one light-dark() pair.
+     ========================================================================== */
+
+  /* --- Grounds --- */
+  --color-background: light-dark(#f7f7fa, #1c202f);
+  /* The dip in the middle of the landing page's vertical wash. */
+  --color-background-sunken: light-dark(#eceef5, #0e121f);
+  --color-card: light-dark(#ffffff, #222739);
+  --color-muted: light-dark(#ecedf4, #282d3e);
+  --color-secondary: light-dark(#ebe6f7, #3f375d);
+  /* A wash rather than a color, so it darkens whatever sits behind it. */
+  --color-sidebar: light-dark(rgb(0 0 0 / 0.06), rgb(0 0 0 / 0.18));
+
+  /* --- Text, strongest to faintest --- */
+  --color-foreground-strong: light-dark(#10131c, #ffffff);
+  --color-foreground: light-dark(#1c202f, #f1f1f3);
+  --color-foreground-muted: light-dark(#414861, #dbdbdb);
+  --color-foreground-subtle: light-dark(#5c6480, #9aa0b8);
+
+  /* --- Lines --- */
+  --color-border: light-dark(#d7d9e5, #3a3e50);
+  --color-border-subtle: light-dark(#e6e7ef, #2a2f42);
+  --color-input: light-dark(#b6bacd, #49506b);
+
+  /* --- Actions ---
+     `primary` is the brand pill: a fill in both themes, always dark text on
+     it. `accent` is emphasis for text and icons, which is why it steps down
+     the yellow ramp on light rather than staying #f7e544. */
+  --color-primary: var(--color-yellow-400);
+  --color-primary-foreground: var(--color-slate-900);
+  --color-accent: light-dark(var(--color-yellow-600), var(--color-yellow-400));
+
+  /* --- Categorical accents. Decorative; context carries the meaning. --- */
+  --color-violet: light-dark(var(--color-violet-700), var(--color-violet-400));
+  --color-teal: light-dark(var(--color-teal-700), var(--color-teal-400));
+  --color-rose: light-dark(var(--color-rose-700), var(--color-rose-400));
+  --color-blue: light-dark(var(--color-blue-700), var(--color-blue-400));
+
+  /* --- Type ------------------------------------------------------------- */
+  /*
+   * CJK is not self-hosted. The Noto CJK families are several megabytes each
+   * even split by unicode-range, and four of them for four languages out of
+   * 24 is not a trade worth making -- so the stack names the CJK face every
+   * major platform already ships, in the order Apple / Windows / Linux.
+   * Without these, Korean endonyms and terms render as tofu on a machine with
+   * no CJK font installed. Everything else IS self-hosted; see fonts.css.
+   */
+  --font-cjk:
+    "PingFang SC", "Hiragino Sans", "Apple SD Gothic Neo", "Microsoft YaHei",
+    "Yu Gothic UI", "Malgun Gothic", "Noto Sans CJK SC", "Noto Sans CJK JP",
+    "Noto Sans CJK KR", "Source Han Sans";
+  --font-sans: "Noto Sans", system-ui, -apple-system, "Segoe UI", var(--font-cjk), sans-serif;
+  /*
+   * "Noto Sans" sits in the serif stack on purpose. Each face is declared with
+   * a unicode-range, so Noto Serif only claims Latin/Cyrillic -- an Arabic,
+   * Bengali, Devanagari, Tamil or Telugu character finds no Serif face and
+   * falls through to the Sans subsets we do ship, instead of rendering tofu.
+   * This matters wherever translated terms are set in serif: the language
+   * grid and every slot row on the translate page.
+   */
+  --font-serif:
+    "Noto Serif", "Noto Sans", ui-serif, Georgia, "Times New Roman", var(--font-cjk), serif;
+  /* No mono subset is shipped, so this must not name one we do not serve. */
+  --font-mono: ui-monospace, "DejaVu Sans Mono", "Courier New", monospace;
+
+  /* Named after the Figma text styles, so the markup reads like the design.
+     Sizes are px in Figma; rem here at the 16px root. */
+
+  /*
+   * Display sizes are fluid. The Figma only specifies desktop, and at 64px a
+   * single word like "ETHGlossary?" is wider than a phone -- no amount of
+   * max-width helps, because the word itself cannot break. Each clamp hits
+   * the Figma value at >=1440 and roughly halves by 360.
+   *
+   * Line heights are ratios rather than px for the same reason: a fixed 80px
+   * leading on 36px type is a hole in the layout.
+   */
+
+  /* Hero h1 -- Noto Serif Bold 72/80 at desktop */
+  --text-h1: clamp(2.25rem, 1.2rem + 4.5vw, 4.5rem);
+  --text-h1--line-height: 1.11;
+  --text-h1--letter-spacing: -0.01em;
+
+  /* Landing section h2 -- Noto Serif Bold 64/72, tracking -0.64px */
+  --text-h2: clamp(1.75rem, 1.1rem + 3.9vw, 4rem);
+  --text-h2--line-height: 1.125;
+  --text-h2--letter-spacing: -0.01em;
+
+  /* "Translation languages" -- Noto Serif Bold 44, -0.44px */
+  --text-h2-sm: clamp(1.75rem, 1.28rem + 2.1vw, 2.75rem);
+  --text-h2-sm--line-height: 1.15;
+  --text-h2-sm--letter-spacing: -0.01em;
+
+  /* Headers/Header-2-Medium -- Noto Serif Medium 32/40 */
+  --text-h3: clamp(1.5rem, 1.34rem + 0.8vw, 2rem);
+  --text-h3--line-height: 1.25;
+
+  /* Header 4 Sans -- Noto Sans Bold 20/28, the in-page section heading */
+  --text-h4: 1.25rem;
+  --text-h4--line-height: 1.75rem;
+
+  /* Hero lede -- Noto Sans Medium 24/32 */
+  --text-lede: clamp(1.125rem, 0.97rem + 0.7vw, 1.5rem);
+  --text-lede--line-height: 1.34;
+
+  /* Card and step titles on the landing page -- 24/32. Cards tighten this
+     to leading-6, matching the 24/24 in the frame. */
+  --text-h5: clamp(1.25rem, 1.16rem + 0.4vw, 1.5rem);
+  --text-h5--line-height: 1.34;
+
+  /* Landing section body -- Noto Sans Medium/Regular 18/26 */
+  --text-body-lg: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --text-body-lg--line-height: 1.45;
+
+  /* Body/Body-lg and Body-lg-bold -- Noto Sans 16/24 */
+  --text-body: 1rem;
+  --text-body--line-height: 1.5rem;
+
+  /* Labels/Label-xl -- Noto Serif Regular 20/20 */
+  --text-label-xl: 1.25rem;
+  --text-label-xl--line-height: 1.25rem;
+
+  /* Labels/Label-lg -- Noto Sans Regular 16/16 */
+  --text-label-lg: 1rem;
+  --text-label-lg--line-height: 1rem;
+
+  /* Labels/Label-md -- Noto Sans Regular 14/14 */
+  --text-label-md: 0.875rem;
+  --text-label-md--line-height: 0.875rem;
+
+  /* Language-card secondary name -- 14/22 */
+  --text-label-sm: 0.875rem;
+  --text-label-sm--line-height: 1.375rem;
+
+  /* Smallest text in the design -- 12/20 */
+  --text-tiny: 0.75rem;
+  --text-tiny--line-height: 1.25rem;
+
+  /* --- Layout ----------------------------------------------------------- */
+  --radius-card: 8px;
+  --shadow-hero: 0 4px 8px rgb(6 7 91 / 0.16);
+}
+
+
+:root {
+  color-scheme: dark;
+}
+
+/*
+ * light-dark() in @theme resolves against color-scheme, so switching the
+ * scheme is all a theme change needs -- every token flips with it. The three
+ * states are: no stamp (follow the OS), and an explicit stamp either way.
+ */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+  }
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+  /* Nothing should be able to force a horizontal scrollbar. */
+  h1, h2, h3, h4, p {
+    overflow-wrap: break-word;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Tailwind Preflight already resets these; this is the project's own
+     default, so links inherit color and only underline on hover. */
+  a:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+  }
+
+  [hidden] {
+    display: none;
+  }
+}
+
+@layer components {
+  /*
+   * Mobile drawer transition.
+   *
+   * Plain CSS rather than utilities because none of the three pieces has a
+   * readable utility form: `@starting-style` supplies the value to animate
+   * FROM on the frame the dialog enters the top layer, and `display` and
+   * `overlay` need `allow-discrete` or the panel would pop out of existence
+   * at the start of the closing transition instead of sliding away.
+   */
+  .nav-drawer {
+    translate: 100% 0;
+    transition:
+      translate 220ms ease,
+      display 220ms allow-discrete,
+      overlay 220ms allow-discrete;
+  }
+
+  .nav-drawer[open] {
+    translate: 0 0;
+  }
+
+  .nav-drawer::backdrop {
+    opacity: 0;
+    transition:
+      opacity 220ms ease,
+      display 220ms allow-discrete,
+      overlay 220ms allow-discrete;
+  }
+
+  .nav-drawer[open]::backdrop {
+    opacity: 1;
+  }
+
+  @starting-style {
+    .nav-drawer[open] {
+      translate: 100% 0;
+    }
+
+    .nav-drawer[open]::backdrop {
+      opacity: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .nav-drawer,
+    .nav-drawer::backdrop {
+      transition: none;
+    }
+  }
+
+  /* Click-to-explain popover. See tooltip.ts for what triggers it. */
+  .tip {
+    position: absolute;
+    z-index: 50;
+    max-width: min(18rem, calc(100vw - 1rem));
+    border-radius: 6px;
+    background: var(--color-muted);
+    border: 1px solid var(--color-border);
+    padding: 0.5rem 0.75rem;
+    font-size: var(--text-tiny);
+    line-height: var(--text-tiny--line-height);
+    color: var(--color-foreground);
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.35);
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    align-items: flex-start;
+  }
+
+  .tip-link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .tip-link:hover,
+  .tip-link:focus-visible {
+    text-decoration: underline;
+  }
+
+  /*
+   * Base styles for <Icon>. In the components layer on purpose: a caller's
+   * `hidden`, `block` or the theme-toggle utilities are all in the utilities
+   * layer and therefore win, instead of tying with an inline-flex the
+   * component hardcoded.
+   */
+  .icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+  }
+
+  .icon > svg {
+    height: 100%;
+    width: auto;
+  }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+/* The 1440px shell with the Figma's 48px gutter. */
+@utility wrap {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 24px;
+
+  @media (width >= 900px) {
+    padding-inline: 48px;
+  }
+}
+
+/*
+ * Definitions arrive as sanitized HTML from the glossary data, so their
+ * elements cannot carry utility classes. This is the one place a descendant
+ * rule is the right tool.
+ */
+@utility definition-html {
+  color: var(--color-foreground-muted);
+
+  & p {
+    margin-block-end: 0.625rem;
+  }
+  & p:last-child {
+    margin-block-end: 0;
+  }
+  & strong {
+    color: var(--color-foreground-strong);
+    font-weight: 700;
+  }
+  & a {
+    color: var(--color-accent);
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+  }
+  & ul,
+  & ol {
+    margin-block: 0.5rem;
+    margin-inline-start: 1.125rem;
+    list-style: revert;
+  }
+  & li {
+    margin-block-end: 0.25rem;
+  }
+}
+
+/*
+ * Stroke weight that survives scaling.
+ *
+ * Lucide is drawn on a 24-unit grid at stroke-width 2, so blowing a glyph up
+ * to 104px would render an 8.7px stroke. vector-effect: non-scaling-stroke
+ * takes the width out of the coordinate system, which makes the number here
+ * device pixels -- and means one class holds at every size the icon renders.
+ */
+@utility icon-stroke-* {
+  & svg {
+    stroke-width: --value(integer);
+  }
+  & svg * {
+    vector-effect: non-scaling-stroke;
+  }
+}
+
+/*
+ * The dot grid behind the hero and the language section.
+ *
+ * A repeating radial-gradient rather than a thousand <span>s: 4px dots on a
+ * 20px pitch, which is the Figma's 2px radius with 16px of space between.
+ * The 25% opacity lives on this layer so the dots read the same over artwork
+ * and over a flat panel.
+ */
+@utility dot-grid {
+  background-image: radial-gradient(
+    circle at 2px 2px,
+    var(--color-input) 2px,
+    transparent 2px
+  );
+  background-size: 20px 20px;
+  opacity: 0.25;
+}
+
+/*
+ * The hero's grid sits on the artwork, which is the same fixed dark image in
+ * both themes -- so its dots must not follow the theme either, or they vanish
+ * against the picture in one of the two.
+ */
+@utility dot-grid-fixed {
+  background-image: radial-gradient(circle at 2px 2px, #b6bacd 2px, transparent 2px);
+  background-size: 20px 20px;
+  /* Half the flat-panel grid: over artwork the dots need far less presence. */
+  opacity: 0.125;
+}
+
+/*
+ * States the three-state light guard once, so anything light-only can reuse
+ * it instead of restating the media query and both data-theme stamps.
+ */
+@custom-variant light-theme {
+  &:where(:root[data-theme="light"] *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: light) {
+    &:where(:root:not([data-theme="dark"]) *) {
+      @slot;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

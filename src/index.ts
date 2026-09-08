@@ -2,9 +2,11 @@ import { OpenAPIHono } from "@hono/zod-openapi"
 import { apiReference } from "@scalar/hono-api-reference"
 import { cors } from "hono/cors"
 import { cache } from "hono/cache"
+import { trimTrailingSlash } from "hono/trailing-slash"
 
 import llmsTxt from "./llms.txt"
-import viewer from "./routes/viewer"
+import { DOCS_BRAND } from "./ui/docs-brand"
+import viewer, { notFoundHandler } from "./routes/viewer"
 import info from "./routes/info"
 import styleGuide from "./routes/style-guide"
 import translations from "./routes/translations"
@@ -12,6 +14,15 @@ import filter from "./routes/filter"
 import schema from "./routes/schema"
 
 const app = new OpenAPIHono()
+
+/*
+ * `/translations/` should not 404 when `/translations` works.
+ *
+ * Without `alwaysRedirect` this only acts on a response that already came
+ * back 404, so it costs nothing on a path that matched and it never touches
+ * `/`. The 301 keeps one canonical URL per page rather than two.
+ */
+app.use("*", trimTrailingSlash())
 
 // CORS -- public API, allow all origins for reads
 app.use("*", cors())
@@ -51,14 +62,47 @@ app.doc31("/openapi.json", (c) => {
 })
 
 // Scalar API docs
-app.get(
-  "/docs",
-  apiReference({
-    spec: { url: "/openapi.json" },
-    theme: "kepler",
-    pageTitle: "ETHGlossary API",
-  } as Record<string, unknown>)
-)
+/*
+ * Pinned, path and all.
+ *
+ * The default is `cdn.jsdelivr.net/npm/@scalar/api-reference`, which 302s to
+ * `@latest/dist/browser/standalone.js` -- so whatever Scalar publishes runs on
+ * our docs page, on every load, with no commit here. That is a third-party
+ * script with an LLM feature attached; it should not change under us.
+ *
+ * The path matters as much as the version: `@scalar/api-reference@1.68.0` with
+ * no path resolves to the package main entry, a different and much larger
+ * bundle than the standalone build the default redirect lands on.
+ *
+ * To bump: check the release notes, change the version here, and confirm
+ * /docs still renders. `@scalar/hono-api-reference` in package.json only
+ * generates the HTML -- it does not control which bundle the browser loads.
+ */
+const SCALAR_CDN =
+  "https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.68.0/dist/browser/standalone.js"
+
+/*
+ * Scalar renders a standalone document with no link back to the site, so the
+ * wordmark is injected into its sidebar afterwards. See src/ui/docs-brand.ts
+ * for why this is a wrapper rather than a config option.
+ */
+const scalar = apiReference({
+  spec: { url: "/openapi.json" },
+  theme: "kepler",
+  pageTitle: "ETHGlossary API",
+  cdn: SCALAR_CDN,
+} as Record<string, unknown>)
+
+app.get("/docs", async (c) => {
+  // The Scalar handler always returns a Response; `next` is never called.
+  const res = (await scalar(c, async () => {})) as Response
+  const html = await res.text()
+  return c.html(
+    html
+      .replace("</head>", `<link rel="icon" href="/favicon.svg" type="image/svg+xml" /></head>`)
+      .replace("</body>", `${DOCS_BRAND}</body>`)
+  )
+})
 
 // LLM-friendly description
 app.get("/llms.txt", (c) => {
@@ -67,5 +111,9 @@ app.get("/llms.txt", (c) => {
 
 // Viewer (root)
 app.route("/", viewer)
+
+// Hono only consults the top-level handler, so the viewer's 404 page has to
+// be registered here rather than on the sub-app. It keeps JSON for /api/*.
+app.notFound(notFoundHandler)
 
 export default app
