@@ -31,9 +31,6 @@
       },
       "ui": {
         "term": "Atestace"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -87,9 +84,6 @@
       },
       "ui": {
         "term": "Přemostit"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -142,9 +136,6 @@
       },
       "ui": {
         "term": "Spálit"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -189,9 +180,6 @@
       },
       "ui": {
         "term": "Spalování"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -244,9 +232,6 @@
       },
       "ui": {
         "term": "Přidat zajištění"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -296,9 +281,6 @@
       },
       "ui": {
         "term": "Decentralizace"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -350,9 +332,6 @@
       },
       "ui": {
         "term": "Decentralizovaný"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -399,9 +378,6 @@
       },
       "ui": {
         "term": "Delegovat"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -447,9 +423,6 @@
       },
       "ui": {
         "term": "Delegace"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -500,9 +473,6 @@
       },
       "ui": {
         "term": "Nasadit"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -545,9 +515,6 @@
       },
       "ui": {
         "term": "Nasazení"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -596,9 +563,6 @@
       },
       "ui": {
         "term": "Digitální podpis"
-      },
-      "code": {
-        "term": "digital_signature"
       }
     },
     "grammar": {
@@ -647,9 +611,6 @@
       },
       "ui": {
         "term": "Podpis"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -703,9 +664,6 @@
       },
       "ui": {
         "term": "Podepsat"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -759,9 +717,6 @@
       },
       "ui": {
         "term": "Šifrování"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -815,9 +770,6 @@
       },
       "ui": {
         "term": "Dešifrovat"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -869,9 +821,6 @@
       },
       "ui": {
         "term": "Finalita"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -922,9 +871,6 @@
       },
       "ui": {
         "term": "Finalizováno"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -973,9 +919,6 @@
       },
       "ui": {
         "term": "Provést fork"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -1025,9 +968,6 @@
       },
       "ui": {
         "term": "Hard fork"
-      },
-      "code": {
-        "term": "hardFork"
       }
     },
     "grammar": {
@@ -1077,9 +1017,6 @@
       },
       "ui": {
         "term": "Soft fork"
-      },
-      "code": {
-        "term": "softFork"
       }
     },
     "grammar": {
@@ -1135,9 +1072,6 @@
       },
       "ui": {
         "term": "Správa"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1190,9 +1124,6 @@
       },
       "ui": {
         "term": "Zobrazit hash"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1242,9 +1173,6 @@
       },
       "ui": {
         "term": "Hashovací funkce"
-      },
-      "code": {
-        "term": "hashFunction"
       }
     },
     "grammar": {
@@ -1295,9 +1223,6 @@
       },
       "ui": {
         "term": "Zobrazit hashovací výkon"
-      },
-      "code": {
-        "term": "hashRate"
       }
     },
     "grammar": {
@@ -1349,9 +1274,6 @@
       },
       "ui": {
         "term": "Zahájit hashování"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1398,9 +1320,6 @@
       },
       "ui": {
         "term": "Likvidní staking"
-      },
-      "code": {
-        "term": "liquid_staking"
       }
     },
     "grammar": {
@@ -1450,9 +1369,6 @@
       },
       "ui": {
         "term": "Společný staking"
-      },
-      "code": {
-        "term": "pooled_staking"
       }
     },
     "grammar": {
@@ -1504,9 +1420,6 @@
       },
       "ui": {
         "term": "Restaking"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1555,9 +1468,6 @@
       },
       "ui": {
         "term": "Sólo staking"
-      },
-      "code": {
-        "term": "solo_staking"
       }
     },
     "grammar": {
@@ -1610,9 +1520,6 @@
       },
       "ui": {
         "term": "Stake"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1659,9 +1566,6 @@
       },
       "ui": {
         "term": "Stakováno"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1711,9 +1615,6 @@
       },
       "ui": {
         "term": "Staker"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1765,9 +1666,6 @@
       },
       "ui": {
         "term": "Staking"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1817,9 +1715,6 @@
       },
       "ui": {
         "term": "Provést vklad"
-      },
-      "code": {
-        "term": "staking_deposit"
       }
     },
     "grammar": {
@@ -1868,9 +1763,6 @@
       },
       "ui": {
         "term": "Stakingový pool"
-      },
-      "code": {
-        "term": "staking_pool"
       }
     },
     "grammar": {
@@ -1923,9 +1815,6 @@
       },
       "ui": {
         "term": "Unstake"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1977,9 +1866,6 @@
       },
       "ui": {
         "term": "Likvidovat"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -2033,9 +1919,6 @@
       },
       "ui": {
         "term": "Těžař"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -2089,9 +1972,6 @@
       },
       "ui": {
         "term": "Těžba"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -2146,9 +2026,6 @@
       },
       "ui": {
         "term": "Razit"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -2197,9 +2074,6 @@
       },
       "ui": {
         "term": "Ražení"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -2254,9 +2128,6 @@
       },
       "ui": {
         "term": "Penalizace"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2308,9 +2179,6 @@
       },
       "ui": {
         "term": "Slasher"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2364,9 +2232,6 @@
       },
       "ui": {
         "term": "Swapovat"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2417,9 +2282,6 @@
       },
       "ui": {
         "term": "Odeslat transakci"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2474,9 +2336,6 @@
       },
       "ui": {
         "term": "Spustit validátor"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2526,9 +2385,6 @@
       },
       "ui": {
         "term": "Validace Bloku"
-      },
-      "code": {
-        "term": "blockValidation"
       }
     },
     "grammar": {
@@ -2582,9 +2438,6 @@
       },
       "ui": {
         "term": "Odeslat hlas"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2634,9 +2487,6 @@
       },
       "ui": {
         "term": "Zúčastnit se hlasování"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2685,9 +2535,6 @@
       },
       "ui": {
         "term": "Připojit k Ethereu"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2738,9 +2585,6 @@
       },
       "ui": {
         "term": "Nasadit kontrakt"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2790,9 +2634,6 @@
       },
       "ui": {
         "term": "Detail bloku"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2841,9 +2682,6 @@
       },
       "ui": {
         "term": "Vytvořit chytrý kontrakt"
-      },
-      "code": {
-        "term": "smartContract"
       }
     },
     "grammar": {
@@ -2895,9 +2733,6 @@
       },
       "ui": {
         "term": "Přidat uzel"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2948,9 +2783,6 @@
       },
       "ui": {
         "term": "Odeslat tokeny"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -3000,9 +2832,6 @@
       },
       "ui": {
         "term": "Kopírovat adresu"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -3053,9 +2882,6 @@
       },
       "ui": {
         "term": "Odeslat ETH"
-      },
-      "code": {
-        "term": "ETH"
       }
     },
     "grammar": {
@@ -3104,9 +2930,6 @@
       },
       "ui": {
         "term": "Prozkoumat blockchain"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -3159,9 +2982,6 @@
       },
       "ui": {
         "term": "Připojit účet"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -3216,9 +3036,6 @@
       },
       "ui": {
         "term": "Změnit řetězec"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -3268,9 +3085,6 @@
       },
       "ui": {
         "term": "Zobrazit protokol"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -3324,9 +3138,6 @@
       },
       "ui": {
         "term": "Připojit peněženku"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3380,9 +3191,6 @@
       },
       "ui": {
         "term": "Odhadovaný gas"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3432,9 +3240,6 @@
       },
       "ui": {
         "term": "Přejít na rollup"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3483,9 +3288,6 @@
       },
       "ui": {
         "term": "Zobrazit EIP"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3537,9 +3339,6 @@
       },
       "ui": {
         "term": "Require"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3586,9 +3385,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3635,9 +3431,6 @@
       },
       "ui": {
         "term": "Solidity"
-      },
-      "code": {
-        "term": "solidity"
       }
     },
     "grammar": {
@@ -3686,9 +3479,6 @@
       },
       "ui": {
         "term": "Zobrazit události"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3735,9 +3525,6 @@
       },
       "ui": {
         "term": "Onchain data"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3788,9 +3575,6 @@
       },
       "ui": {
         "term": "Odeslat ether"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3839,9 +3623,6 @@
       },
       "ui": {
         "term": "EVM kompatibilní"
-      },
-      "code": {
-        "term": "evm"
       }
     },
     "grammar": {
@@ -3891,9 +3672,6 @@
       },
       "ui": {
         "term": "Spustit dapp"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3942,9 +3720,6 @@
       },
       "ui": {
         "term": "Moje NFT"
-      },
-      "code": {
-        "term": "nft"
       }
     },
     "grammar": {
@@ -3998,9 +3773,6 @@
       },
       "ui": {
         "term": "Převést"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -4054,9 +3826,6 @@
       },
       "ui": {
         "term": "Vybrat"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -4108,9 +3877,6 @@
       },
       "ui": {
         "term": "Konsensus"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -4161,9 +3927,6 @@
       },
       "ui": {
         "term": "Mainnet"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -4212,9 +3975,6 @@
       },
       "ui": {
         "term": "Offchain"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -4257,9 +4017,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -4304,9 +4061,6 @@
       },
       "ui": {
         "term": "Orákulum"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -4355,9 +4109,6 @@
       },
       "ui": {
         "term": "Blob"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -4404,9 +4155,6 @@
       },
       "ui": {
         "term": "Připojit MetaMask"
-      },
-      "code": {
-        "term": "metamask"
       }
     },
     "grammar": {
@@ -4447,9 +4195,6 @@
       },
       "ui": {
         "term": "OpenZeppelin"
-      },
-      "code": {
-        "term": "openzeppelin"
       }
     },
     "grammar": {
@@ -4490,9 +4235,6 @@
       },
       "ui": {
         "term": "Spustit Slither"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4541,9 +4283,6 @@
       },
       "ui": {
         "term": "Aktuální slot"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4592,9 +4331,6 @@
       },
       "ui": {
         "term": "Vytvořit DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4643,9 +4379,6 @@
       },
       "ui": {
         "term": "Přepnout na testnet"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4694,9 +4427,6 @@
       },
       "ui": {
         "term": "Aktualizovat konsensuálního klienta"
-      },
-      "code": {
-        "term": "consensus_client"
       }
     },
     "grammar": {
@@ -4746,9 +4476,6 @@
       },
       "ui": {
         "term": "Přemostit na l2"
-      },
-      "code": {
-        "term": "layer2"
       }
     },
     "grammar": {
@@ -4801,9 +4528,6 @@
       },
       "ui": {
         "term": "Generovat ZK důkaz"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4852,9 +4576,6 @@
       },
       "ui": {
         "term": "Zobrazit soukromý klíč"
-      },
-      "code": {
-        "term": "private_key"
       }
     },
     "grammar": {
@@ -4904,9 +4625,6 @@
       },
       "ui": {
         "term": "Koupit krypto"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4956,9 +4674,6 @@
       },
       "ui": {
         "term": "Zpět na l1"
-      },
-      "code": {
-        "term": "layer1"
       }
     },
     "grammar": {
@@ -5007,9 +4722,6 @@
       },
       "ui": {
         "term": "MEV"
-      },
-      "code": {
-        "term": "mev"
       }
     },
     "grammar": {
@@ -5063,9 +4775,6 @@
       },
       "ui": {
         "term": "Vystoupit"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -5114,9 +4823,6 @@
       },
       "ui": {
         "term": "Opcode"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -5167,9 +4873,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -5216,9 +4919,6 @@
       },
       "ui": {
         "term": "Echidna"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -5269,9 +4969,6 @@
       },
       "ui": {
         "term": "Soukromí"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -5318,9 +5015,6 @@
       },
       "ui": {
         "term": "Manticore"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -5369,9 +5063,6 @@
       },
       "ui": {
         "term": "Optimistický rollup"
-      },
-      "code": {
-        "term": "optimisticRollup"
       }
     },
     "grammar": {
@@ -5420,9 +5111,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "erc"
       }
     },
     "grammar": {
@@ -5471,9 +5159,6 @@
       },
       "ui": {
         "term": "Plasma"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5520,9 +5205,6 @@
       },
       "ui": {
         "term": "Knihovna"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -5568,9 +5250,6 @@
         "term": "uniswap"
       },
       "ui": {
-        "term": "Uniswap"
-      },
-      "code": {
         "term": "Uniswap"
       }
     },
@@ -5621,9 +5300,6 @@
       },
       "ui": {
         "term": "Merge"
-      },
-      "code": {
-        "term": "theMerge"
       }
     },
     "grammar": {
@@ -5672,9 +5348,6 @@
       },
       "ui": {
         "term": "ZKP"
-      },
-      "code": {
-        "term": "zkProof"
       }
     },
     "grammar": {
@@ -5723,9 +5396,6 @@
       },
       "ui": {
         "term": "Bitcoin"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5775,9 +5445,6 @@
       },
       "ui": {
         "term": "Dostupnost dat"
-      },
-      "code": {
-        "term": "dataAvailability"
       }
     },
     "grammar": {
@@ -5830,9 +5497,6 @@
       },
       "ui": {
         "term": "Logy"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5881,9 +5545,6 @@
       },
       "ui": {
         "term": "Beacon chain"
-      },
-      "code": {
-        "term": "beaconChain"
       }
     },
     "grammar": {
@@ -5933,9 +5594,6 @@
       },
       "ui": {
         "term": "Likvidita"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5982,9 +5640,6 @@
       },
       "ui": {
         "term": "Epocha"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -6033,9 +5688,6 @@
       },
       "ui": {
         "term": "Ethereum Mainnet"
-      },
-      "code": {
-        "term": "ethereumMainnet"
       }
     },
     "grammar": {
@@ -6085,9 +5737,6 @@
       },
       "ui": {
         "term": "Vytvořit návrh"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -6134,9 +5783,6 @@
       },
       "ui": {
         "term": "Navrhovatel bloku"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -6185,9 +5831,6 @@
       },
       "ui": {
         "term": "Vrstva konsensu"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -6237,9 +5880,6 @@
       },
       "ui": {
         "term": "Přidat peera"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -6286,9 +5926,6 @@
       },
       "ui": {
         "term": "JSON-RPC Endpoint"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -6337,9 +5974,6 @@
       },
       "ui": {
         "term": "Nonce"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -6386,9 +6020,6 @@
       },
       "ui": {
         "term": "Nahrát na IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -6435,9 +6066,6 @@
       },
       "ui": {
         "term": "Spustit plný uzel"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -6488,9 +6116,6 @@
       },
       "ui": {
         "term": "ZK-Proof"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -6537,9 +6162,6 @@
       },
       "ui": {
         "term": "Spustit Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -6591,9 +6213,6 @@
       },
       "ui": {
         "term": "Vytvořit kontrolní bod"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6640,9 +6259,6 @@
       },
       "ui": {
         "term": "Pectra"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6691,9 +6307,6 @@
       },
       "ui": {
         "term": "Odeslat kryptoměnu"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6745,9 +6358,6 @@
       },
       "ui": {
         "term": "Spustit ověřovatele"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6802,9 +6412,6 @@
       },
       "ui": {
         "term": "Zvolit tvůrce"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6851,9 +6458,6 @@
       },
       "ui": {
         "term": "Kopírovat veřejný klíč"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6903,9 +6507,6 @@
       },
       "ui": {
         "term": "Přepnout na postranní řetězec"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6952,9 +6553,6 @@
       },
       "ui": {
         "term": "Fusaka"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -7001,9 +6599,6 @@
       },
       "ui": {
         "term": "Zobrazit metadata"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -7052,9 +6647,6 @@
       },
       "ui": {
         "term": "Kopírovat ABI"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -7101,9 +6693,6 @@
       },
       "ui": {
         "term": "Zobrazit na Etherscanu"
-      },
-      "code": {
-        "term": "etherscanUrl"
       }
     },
     "grammar": {
@@ -7152,9 +6741,6 @@
       },
       "ui": {
         "term": "Zabalit ether"
-      },
-      "code": {
-        "term": "wethBalance"
       }
     },
     "grammar": {
@@ -7201,9 +6787,6 @@
       },
       "ui": {
         "term": "Síť zkEVM"
-      },
-      "code": {
-        "term": "zkEvm"
       }
     },
     "grammar": {
@@ -7252,9 +6835,6 @@
       },
       "ui": {
         "term": "Odhad poplatku za plyn"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -7301,9 +6881,6 @@
       },
       "ui": {
         "term": "Zobrazit ve Wei"
-      },
-      "code": {
-        "term": "weiAmount"
       }
     },
     "grammar": {
@@ -7350,9 +6927,6 @@
       },
       "ui": {
         "term": "Upravit limit plynu"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -7402,9 +6976,6 @@
       },
       "ui": {
         "term": "Zvýšit prioritní poplatek"
-      },
-      "code": {
-        "term": "maxPriorityFeePerGas"
       }
     },
     "grammar": {
@@ -7453,9 +7024,6 @@
       },
       "ui": {
         "term": "Zobrazit detaily konsensu"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -7502,9 +7070,6 @@
       },
       "ui": {
         "term": "Podporuje ERC-721"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -7553,9 +7118,6 @@
       },
       "ui": {
         "term": "Nastavení ENS"
-      },
-      "code": {
-        "term": "ens"
       }
     },
     "grammar": {
@@ -7608,9 +7170,6 @@
       },
       "ui": {
         "term": "Spustit dokazovatele"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -7657,9 +7216,6 @@
       },
       "ui": {
         "term": "Otevřít stavový kanál"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -7708,9 +7264,6 @@
       },
       "ui": {
         "term": "Zvýšit transakční poplatek"
-      },
-      "code": {
-        "term": "transactionFee"
       }
     },
     "grammar": {
@@ -7757,9 +7310,6 @@
       },
       "ui": {
         "term": "Připojit EOA"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -7806,9 +7356,6 @@
       },
       "ui": {
         "term": "Ověřit důkaz platnosti"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -7858,9 +7405,6 @@
       },
       "ui": {
         "term": "Vyžádat z faucetu"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7907,9 +7451,6 @@
       },
       "ui": {
         "term": "Přepnout na síť Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7958,9 +7499,6 @@
       },
       "ui": {
         "term": "Zobrazit v prohlížeči bloků"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -8013,9 +7551,6 @@
       },
       "ui": {
         "term": "Zvrátit"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -8064,9 +7599,6 @@
       },
       "ui": {
         "term": "Nadace Ethereum"
-      },
-      "code": {
-        "term": "ethereum-foundation"
       }
     },
     "grammar": {
@@ -8116,9 +7648,6 @@
       },
       "ui": {
         "term": "Decentralizovaná identita"
-      },
-      "code": {
-        "term": "decentralized-identity"
       }
     },
     "grammar": {
@@ -8172,9 +7701,6 @@
       },
       "ui": {
         "term": "Navrhovatel"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -8228,9 +7754,6 @@
       },
       "ui": {
         "term": "Kryptografie"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -8281,9 +7804,6 @@
       },
       "ui": {
         "term": "Bajtkód"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -8332,9 +7852,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -8381,9 +7898,6 @@
       },
       "ui": {
         "term": "Lighthouse"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -8427,9 +7941,6 @@
       },
       "ui": {
         "term": "Cena plynu"
-      },
-      "code": {
-        "term": "gas-price"
       }
     },
     "grammar": {
@@ -8479,9 +7990,6 @@
       },
       "ui": {
         "term": "Peer-to-peer"
-      },
-      "code": {
-        "term": "peer-to-peer"
       }
     },
     "grammar": {
@@ -8522,9 +8030,6 @@
       },
       "ui": {
         "term": "Glamsterdam"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -8565,9 +8070,6 @@
       },
       "ui": {
         "term": "Nethermind"
-      },
-      "code": {
-        "term": "nethermind"
       }
     },
     "grammar": {
@@ -8616,9 +8118,6 @@
       },
       "ui": {
         "term": "Důkaz o podvodu"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -8667,9 +8166,6 @@
       },
       "ui": {
         "term": "Merkleův důkaz"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -8719,9 +8215,6 @@
       },
       "ui": {
         "term": "DeSci"
-      },
-      "code": {
-        "term": "decentralizedScience"
       }
     },
     "grammar": {
@@ -8769,9 +8262,6 @@
       },
       "ui": {
         "term": "Trustless"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -8818,9 +8308,6 @@
       },
       "ui": {
         "term": "Danksharding"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -8870,9 +8357,6 @@
       },
       "ui": {
         "term": "Algoritmus volby forku"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8921,9 +8405,6 @@
       },
       "ui": {
         "term": "Základní poplatek"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8970,9 +8451,6 @@
       },
       "ui": {
         "term": "Erigon"
-      },
-      "code": {
-        "term": "erigon"
       }
     },
     "grammar": {
@@ -9022,9 +8500,6 @@
       },
       "ui": {
         "term": "Schválit"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -9067,9 +8542,6 @@
       },
       "ui": {
         "term": "Merkleův strom"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -9118,9 +8590,6 @@
       },
       "ui": {
         "term": "Lehký uzel"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -9169,9 +8638,6 @@
       },
       "ui": {
         "term": "Seed fráze"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -9220,9 +8686,6 @@
       },
       "ui": {
         "term": "Výbor"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -9271,9 +8734,6 @@
       },
       "ui": {
         "term": "Besu"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -9322,9 +8782,6 @@
       },
       "ui": {
         "term": "ZK-SNARK"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -9373,9 +8830,6 @@
       },
       "ui": {
         "term": "Tvůrce bloku"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -9422,9 +8876,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -9471,9 +8922,6 @@
       },
       "ui": {
         "term": "Efektivní zůstatek"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -9520,9 +8968,6 @@
       },
       "ui": {
         "term": "Hlavička bloku"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -9569,9 +9014,6 @@
       },
       "ui": {
         "term": "Meziřetězcové"
-      },
-      "code": {
-        "term": "cross-chain"
       }
     },
     "grammar": {
@@ -9620,9 +9062,6 @@
       },
       "ui": {
         "term": "Proto-Danksharding"
-      },
-      "code": {
-        "term": "proto-danksharding"
       }
     },
     "grammar": {
@@ -9669,9 +9108,6 @@
       },
       "ui": {
         "term": "Reth"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -9721,9 +9157,6 @@
       },
       "ui": {
         "term": "Stvrzenka"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -9776,9 +9209,6 @@
       },
       "ui": {
         "term": "Půjčit"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -9828,9 +9258,6 @@
       },
       "ui": {
         "term": "Trezor"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -9880,9 +9307,6 @@
       },
       "ui": {
         "term": "Zaváděcí Uzel"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -9933,9 +9357,6 @@
       },
       "ui": {
         "term": "Zvýšit limit"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -9985,9 +9406,6 @@
       },
       "ui": {
         "term": "Zobrazit mempool"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -10037,9 +9455,6 @@
       },
       "ui": {
         "term": "Technologie DVT"
-      },
-      "code": {
-        "term": "dvt"
       }
     },
     "grammar": {
@@ -10089,9 +9504,6 @@
       },
       "ui": {
         "term": "Otevřít DEX"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -10143,9 +9555,6 @@
       },
       "ui": {
         "term": "Profil hledače"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -10194,9 +9603,6 @@
       },
       "ui": {
         "term": "Otevřít Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -10244,9 +9650,6 @@
       },
       "ui": {
         "term": "Nevyžadující povolení"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -10293,9 +9696,6 @@
       },
       "ui": {
         "term": "Spustit Prysm"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -10342,9 +9742,6 @@
       },
       "ui": {
         "term": "Stáhnout Teku"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -10391,9 +9788,6 @@
       },
       "ui": {
         "term": "PeerDAS Protokol"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -10443,9 +9837,6 @@
       },
       "ui": {
         "term": "Aktivovat PBS"
-      },
-      "code": {
-        "term": "pbs"
       }
     },
     "grammar": {
@@ -10494,9 +9885,6 @@
       },
       "ui": {
         "term": "Jednoslotová finalita"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -10546,9 +9934,6 @@
       },
       "ui": {
         "term": "Archivní uzel"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -10595,9 +9980,6 @@
       },
       "ui": {
         "term": "Lodestar"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -10643,9 +10025,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -10696,9 +10075,6 @@
       },
       "ui": {
         "term": "Digitální aktiva"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -10748,9 +10124,6 @@
       },
       "ui": {
         "term": "Sekvencer"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -10797,9 +10170,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -10849,9 +10219,6 @@
       },
       "ui": {
         "term": "Merkleho kořen"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -10898,9 +10265,6 @@
       },
       "ui": {
         "term": "Tellor"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -10949,9 +10313,6 @@
       },
       "ui": {
         "term": "AI Agent"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -11000,9 +10361,6 @@
       },
       "ui": {
         "term": "Obtížnost"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -11055,9 +10413,6 @@
       },
       "ui": {
         "term": "Reorganizace"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -11110,9 +10465,6 @@
       },
       "ui": {
         "term": "Asertovat"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -11159,9 +10511,6 @@
       },
       "ui": {
         "term": "Nimbus"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -11210,9 +10559,6 @@
       },
       "ui": {
         "term": "Neměnný"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -11261,9 +10607,6 @@
       },
       "ui": {
         "term": "Predikční trh"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -11313,9 +10656,6 @@
       },
       "ui": {
         "term": "RLP Kódování"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -11367,9 +10707,6 @@
       },
       "ui": {
         "term": "Formální verifikace"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -11418,9 +10755,6 @@
       },
       "ui": {
         "term": "Abstrakce účtu"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -11467,9 +10801,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -11518,9 +10849,6 @@
       },
       "ui": {
         "term": "ZK-STARK"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -11567,9 +10895,6 @@
       },
       "ui": {
         "term": "Náhodnost"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -11616,9 +10941,6 @@
       },
       "ui": {
         "term": "Strategie"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -11668,9 +10990,6 @@
       },
       "ui": {
         "term": "RWA Aktiva"
-      },
-      "code": {
-        "term": "rwa"
       }
     },
     "grammar": {
@@ -11722,9 +11041,6 @@
       },
       "ui": {
         "term": "Chyba přetečení"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -11775,9 +11091,6 @@
       },
       "ui": {
         "term": "Kopírovat hash transakce"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -11829,9 +11142,6 @@
       },
       "ui": {
         "term": "Vytvořit multisig"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -11880,9 +11190,6 @@
       },
       "ui": {
         "term": "Vybrat stablecoin"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -11932,9 +11239,6 @@
       },
       "ui": {
         "term": "Číst Yellow Paper"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -11983,9 +11287,6 @@
       },
       "ui": {
         "term": "Skládatelnost"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -12034,9 +11335,6 @@
       },
       "ui": {
         "term": "Proxy kontrakt"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -12083,9 +11381,6 @@
       },
       "ui": {
         "term": "Podgraf"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -12134,9 +11429,6 @@
       },
       "ui": {
         "term": "Interoperabilita"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -12185,9 +11477,6 @@
       },
       "ui": {
         "term": "Klientská diverzita"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -12236,9 +11525,6 @@
       },
       "ui": {
         "term": "Šanghaj"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -12281,9 +11567,6 @@
       },
       "ui": {
         "term": "Regenerativní finance"
-      },
-      "code": {
-        "term": "regenerativeFinance"
       }
     },
     "grammar": {
@@ -12332,9 +11615,6 @@
       },
       "ui": {
         "term": "Kontraktový účet"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -12381,9 +11661,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -12426,9 +11703,6 @@
       },
       "ui": {
         "term": "Odměna za blok"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -12477,9 +11751,6 @@
       },
       "ui": {
         "term": "Čas bloku"
-      },
-      "code": {
-        "term": "cas-bloku"
       }
     },
     "grammar": {
@@ -12528,9 +11799,6 @@
       },
       "ui": {
         "term": "Otevřít bílou knihu"
-      },
-      "code": {
-        "term": "bila-kniha"
       }
     },
     "grammar": {
@@ -12579,9 +11847,6 @@
       },
       "ui": {
         "term": "Povolit vzorkování"
-      },
-      "code": {
-        "term": "vzorkovani-dostupnosti-dat"
       }
     },
     "grammar": {
@@ -12632,9 +11897,6 @@
       },
       "ui": {
         "term": "Stav: Ospravedlněno"
-      },
-      "code": {
-        "term": "ospravedlneny"
       }
     },
     "grammar": {
@@ -12683,9 +11945,6 @@
       },
       "ui": {
         "term": "Stát se poskytovatelem likvidity"
-      },
-      "code": {
-        "term": "poskytovatel-likvidity"
       }
     },
     "grammar": {
@@ -12732,9 +11991,6 @@
       },
       "ui": {
         "term": "Nastavení libp2p"
-      },
-      "code": {
-        "term": "libp2p"
       }
     },
     "grammar": {
@@ -12784,9 +12040,6 @@
       },
       "ui": {
         "term": "Síť ZK Rollup"
-      },
-      "code": {
-        "term": "rollup-s-nulovou-znalosti"
       }
     },
     "grammar": {
@@ -12833,9 +12086,6 @@
       },
       "ui": {
         "term": "Připojit Chainlink"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -12884,9 +12134,6 @@
       },
       "ui": {
         "term": "Vzít bleskovou půjčku"
-      },
-      "code": {
-        "term": "bleskova-pujcka"
       }
     },
     "grammar": {
@@ -12933,9 +12180,6 @@
       },
       "ui": {
         "term": "Nasadit pomocí Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -12982,9 +12226,6 @@
       },
       "ui": {
         "term": "Povolit MEV-Boost"
-      },
-      "code": {
-        "term": "mev_boost"
       }
     },
     "grammar": {
@@ -13033,9 +12274,6 @@
       },
       "ui": {
         "term": "Cancún"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -13085,9 +12323,6 @@
       },
       "ui": {
         "term": "Zobrazit depozitní kontrakt"
-      },
-      "code": {
-        "term": "deposit_contract"
       }
     },
     "grammar": {
@@ -13137,9 +12372,6 @@
       },
       "ui": {
         "term": "Detail exekučního payloadu"
-      },
-      "code": {
-        "term": "execution_payload"
       }
     },
     "grammar": {
@@ -13189,9 +12421,6 @@
       },
       "ui": {
         "term": "Síť s důkazem autority"
-      },
-      "code": {
-        "term": "proof_of_authority"
       }
     },
     "grammar": {
@@ -13240,9 +12469,6 @@
       },
       "ui": {
         "term": "Aktivovat tajnou volbu lídra"
-      },
-      "code": {
-        "term": "secret_leader_election"
       }
     },
     "grammar": {
@@ -13291,9 +12517,6 @@
       },
       "ui": {
         "term": "Odměny synchronizační komise"
-      },
-      "code": {
-        "term": "sync_committee"
       }
     },
     "grammar": {
@@ -13346,9 +12569,6 @@
       },
       "ui": {
         "term": "Vypůjčit"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -13400,9 +12620,6 @@
       },
       "ui": {
         "term": "Ochrana proti reentranci"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -13450,9 +12667,6 @@
         "term": "ERC-1155"
       },
       "ui": {
-        "term": "ERC-1155"
-      },
-      "code": {
         "term": "ERC-1155"
       }
     },
@@ -13502,9 +12716,6 @@
       },
       "ui": {
         "term": "Eliptická křivka"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -13556,9 +12767,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "UTXO"
       }
     },
     "grammar": {
@@ -13607,9 +12815,6 @@
       },
       "ui": {
         "term": "Zaměnitelný token"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -13656,9 +12861,6 @@
       },
       "ui": {
         "term": "Kvadratické financování"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -13708,9 +12910,6 @@
       },
       "ui": {
         "term": "Sběratelské předměty"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -13759,9 +12958,6 @@
       },
       "ui": {
         "term": "Beacon blok"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -13810,9 +13006,6 @@
       },
       "ui": {
         "term": "Slabá subjektivita"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -13861,9 +13054,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -13912,9 +13102,6 @@
       },
       "ui": {
         "term": "Fond likvidity"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -13964,9 +13151,6 @@
       },
       "ui": {
         "term": "Genesis blok"
-      },
-      "code": {
-        "term": "genesis_block"
       }
     },
     "grammar": {
@@ -14013,9 +13197,6 @@
       },
       "ui": {
         "term": "Shapella"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -14065,9 +13246,6 @@
       },
       "ui": {
         "term": "Komponovatelný"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -14117,9 +13295,6 @@
       },
       "ui": {
         "term": "Stavová trie"
-      },
-      "code": {
-        "term": "state_trie"
       }
     },
     "grammar": {
@@ -14168,9 +13343,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "lmd_ghost"
       }
     },
     "grammar": {
@@ -14220,9 +13392,6 @@
       },
       "ui": {
         "term": "Skrytá adresa"
-      },
-      "code": {
-        "term": "stealth_address"
       }
     },
     "grammar": {
@@ -14271,9 +13440,6 @@
       },
       "ui": {
         "term": "DAI"
-      },
-      "code": {
-        "term": "dai"
       }
     },
     "grammar": {
@@ -14323,9 +13489,6 @@
       },
       "ui": {
         "term": "Tokenizace"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -14377,9 +13540,6 @@
       },
       "ui": {
         "term": "Řešitel"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -14429,9 +13589,6 @@
       },
       "ui": {
         "term": "Nekustodiální"
-      },
-      "code": {
-        "term": "non_custodial"
       }
     },
     "grammar": {
@@ -14480,9 +13637,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "maxEB"
       }
     },
     "grammar": {
@@ -14529,9 +13683,6 @@
       },
       "ui": {
         "term": "Entropie"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -14582,9 +13733,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -14633,9 +13781,6 @@
       },
       "ui": {
         "term": "Discv5"
-      },
-      "code": {
-        "term": "discv5"
       }
     },
     "grammar": {
@@ -14684,9 +13829,6 @@
       },
       "ui": {
         "term": "Portal Network"
-      },
-      "code": {
-        "term": "portalNetwork"
       }
     },
     "grammar": {
@@ -14735,9 +13877,6 @@
       },
       "ui": {
         "term": "Bomba obtížnosti"
-      },
-      "code": {
-        "term": "difficultyBomb"
       }
     },
     "grammar": {
@@ -14784,9 +13923,6 @@
       },
       "ui": {
         "term": "Interoperabilní"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -14835,9 +13971,6 @@
       },
       "ui": {
         "term": "Exspirace stavu"
-      },
-      "code": {
-        "term": "stateExpiry"
       }
     },
     "grammar": {
@@ -14892,9 +14025,6 @@
       },
       "ui": {
         "term": "Svědek"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -14945,9 +14075,6 @@
       },
       "ui": {
         "term": "Berlín"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -14996,9 +14123,6 @@
       },
       "ui": {
         "term": "Čekající transakce"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -15048,9 +14172,6 @@
       },
       "ui": {
         "term": "Aktivovat"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -15099,9 +14220,6 @@
       },
       "ui": {
         "term": "Frontier"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -15150,9 +14268,6 @@
       },
       "ui": {
         "term": "Veřejné statky"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -15202,9 +14317,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -15257,9 +14369,6 @@
       },
       "ui": {
         "term": "Ověřitelné pověření"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -15308,9 +14417,6 @@
       },
       "ui": {
         "term": "Neměnnost"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -15360,9 +14466,6 @@
       },
       "ui": {
         "term": "Token likvidního stakingu"
-      },
-      "code": {
-        "term": "liquidStakingToken"
       }
     },
     "grammar": {
@@ -15412,9 +14515,6 @@
       },
       "ui": {
         "term": "Staking jako služba"
-      },
-      "code": {
-        "term": "staking_as_a_service"
       }
     },
     "grammar": {
@@ -15464,9 +14564,6 @@
       },
       "ui": {
         "term": "Zadat pověření k výběru"
-      },
-      "code": {
-        "term": "withdrawal_credentials"
       }
     },
     "grammar": {
@@ -15513,9 +14610,6 @@
       },
       "ui": {
         "term": "Keccak-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -15567,9 +14661,6 @@
       },
       "ui": {
         "term": "Povolit exspiraci historie"
-      },
-      "code": {
-        "term": "history_expiry"
       }
     },
     "grammar": {
@@ -15618,9 +14709,6 @@
       },
       "ui": {
         "term": "Propojit s Webem 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -15669,9 +14757,6 @@
       },
       "ui": {
         "term": "Konstantinopol"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -15723,9 +14808,6 @@
       },
       "ui": {
         "term": "Zahájit ověření zdrojového kódu"
-      },
-      "code": {
-        "term": "source_code_verification"
       }
     },
     "grammar": {
@@ -15774,9 +14856,6 @@
       },
       "ui": {
         "term": "Vyzvednout POAP"
-      },
-      "code": {
-        "term": "poap"
       }
     },
     "grammar": {
@@ -15825,9 +14904,6 @@
       },
       "ui": {
         "term": "Vytvořit záměr"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -15877,9 +14953,6 @@
       },
       "ui": {
         "term": "Paymaster"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -15929,9 +15002,6 @@
       },
       "ui": {
         "term": "Vytvořit chytrý účet"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -15981,9 +15051,6 @@
       },
       "ui": {
         "term": "Spustit uzel Beacon"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -16034,9 +15101,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "bls"
       }
     },
     "grammar": {
@@ -16085,9 +15149,6 @@
       },
       "ui": {
         "term": "SSZ"
-      },
-      "code": {
-        "term": "ssz"
       }
     },
     "grammar": {
@@ -16136,9 +15197,6 @@
       },
       "ui": {
         "term": "Go Ethereum"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -16187,9 +15245,6 @@
       },
       "ui": {
         "term": "Ethereum Classic"
-      },
-      "code": {
-        "term": "ethereumClassic"
       }
     },
     "grammar": {
@@ -16236,9 +15291,6 @@
       },
       "ui": {
         "term": "Byzantium"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -16287,9 +15339,6 @@
       },
       "ui": {
         "term": "ECDSA"
-      },
-      "code": {
-        "term": "ecdsa"
       }
     },
     "grammar": {
@@ -16336,9 +15385,6 @@
       },
       "ui": {
         "term": "Nastavit sociální obnovu"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -16387,9 +15433,6 @@
       },
       "ui": {
         "term": "Stav oddělení tvůrců"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -16439,9 +15482,6 @@
       },
       "ui": {
         "term": "Zobrazit statistiky PoS"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -16490,9 +15530,6 @@
       },
       "ui": {
         "term": "Typ šifrování: ECC"
-      },
-      "code": {
-        "term": "ecc"
       }
     },
     "grammar": {
@@ -16541,9 +15578,6 @@
       },
       "ui": {
         "term": "Připojit cenový zdroj"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -16592,9 +15626,6 @@
       },
       "ui": {
         "term": "Přepnout na Devnet"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -16643,9 +15674,6 @@
       },
       "ui": {
         "term": "Konfigurace gossip protokolu"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -16694,9 +15722,6 @@
       },
       "ui": {
         "term": "Nahrát do sítě Swarm"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -16743,9 +15768,6 @@
       },
       "ui": {
         "term": "Verze: Homestead"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -16794,9 +15816,6 @@
       },
       "ui": {
         "term": "DAC"
-      },
-      "code": {
-        "term": "dac"
       }
     },
     "grammar": {
@@ -16846,9 +15865,6 @@
       },
       "ui": {
         "term": "Výmazové kódování"
-      },
-      "code": {
-        "term": "erasure_coding"
       }
     },
     "grammar": {
@@ -16897,9 +15913,6 @@
       },
       "ui": {
         "term": "Strom úložiště"
-      },
-      "code": {
-        "term": "storage_trie"
       }
     },
     "grammar": {
@@ -16946,9 +15959,6 @@
       },
       "ui": {
         "term": "Poplatek za blob"
-      },
-      "code": {
-        "term": "blob_fee"
       }
     },
     "grammar": {
@@ -16997,9 +16007,6 @@
       },
       "ui": {
         "term": "Prioritní poplatek"
-      },
-      "code": {
-        "term": "priority_fee"
       }
     },
     "grammar": {
@@ -17046,9 +16053,6 @@
       },
       "ui": {
         "term": "Problém ničeho v sázce"
-      },
-      "code": {
-        "term": "nothing_at_stake"
       }
     },
     "grammar": {
@@ -17097,9 +16101,6 @@
       },
       "ui": {
         "term": "Zvýhodnění navrhovatele"
-      },
-      "code": {
-        "term": "proposer_boost"
       }
     },
     "grammar": {
@@ -17148,9 +16149,6 @@
       },
       "ui": {
         "term": "Problém orákula"
-      },
-      "code": {
-        "term": "oracle_problem"
       }
     },
     "grammar": {
@@ -17199,9 +16197,6 @@
       },
       "ui": {
         "term": "Autonomní agent"
-      },
-      "code": {
-        "term": "autonomous_agent"
       }
     },
     "grammar": {
@@ -17252,9 +16247,6 @@
       },
       "ui": {
         "term": "Důkaz prací (PoW)"
-      },
-      "code": {
-        "term": "proof_of_work"
       }
     },
     "grammar": {
@@ -17301,9 +16293,6 @@
       },
       "ui": {
         "term": "Szabo"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -17349,9 +16338,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -17401,9 +16387,6 @@
       },
       "ui": {
         "term": "Verkle stromy"
-      },
-      "code": {
-        "term": "verkle_trees"
       }
     },
     "grammar": {
@@ -17452,9 +16435,6 @@
       },
       "ui": {
         "term": "Záložní funkce"
-      },
-      "code": {
-        "term": "fallback_function"
       }
     },
     "grammar": {
@@ -17504,9 +16484,6 @@
       },
       "ui": {
         "term": "Získat airdrop"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -17555,9 +16532,6 @@
       },
       "ui": {
         "term": "USDC"
-      },
-      "code": {
-        "term": "USDC"
       }
     },
     "grammar": {
@@ -17605,9 +16579,6 @@
         "term": "WBTC"
       },
       "ui": {
-        "term": "WBTC"
-      },
-      "code": {
         "term": "WBTC"
       }
     },
@@ -17658,9 +16629,6 @@
       },
       "ui": {
         "term": "Zobrazit transakční pool"
-      },
-      "code": {
-        "term": "transaction_pool"
       }
     },
     "grammar": {
@@ -17709,9 +16677,6 @@
       },
       "ui": {
         "term": "Přidat strážce"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -17760,9 +16725,6 @@
       },
       "ui": {
         "term": "Úložiště klíčů"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -17814,9 +16776,6 @@
       },
       "ui": {
         "term": "Vlastní správa"
-      },
-      "code": {
-        "term": "self_custody"
       }
     },
     "grammar": {
@@ -17865,9 +16824,6 @@
       },
       "ui": {
         "term": "Casper FFG"
-      },
-      "code": {
-        "term": "casper_ffg"
       }
     },
     "grammar": {
@@ -17919,9 +16875,6 @@
       },
       "ui": {
         "term": "Podpis BLS"
-      },
-      "code": {
-        "term": "bls_signature"
       }
     },
     "grammar": {
@@ -17971,9 +16924,6 @@
       },
       "ui": {
         "term": "Merkle-Patricia trie"
-      },
-      "code": {
-        "term": "merkle_patricia_trie"
       }
     },
     "grammar": {
@@ -18027,9 +16977,6 @@
       },
       "ui": {
         "term": "Šíření bloku"
-      },
-      "code": {
-        "term": "block_propagation"
       }
     },
     "grammar": {
@@ -18075,9 +17022,6 @@
         "term": "finney"
       },
       "ui": {
-        "term": "finney"
-      },
-      "code": {
         "term": "finney"
       }
     },
@@ -18127,9 +17071,6 @@
       },
       "ui": {
         "term": "Veřejný statek"
-      },
-      "code": {
-        "term": "public_good"
       }
     },
     "grammar": {
@@ -18180,9 +17121,6 @@
       },
       "ui": {
         "term": "Pokladna"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -18234,9 +17172,6 @@
       },
       "ui": {
         "term": "KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -18286,9 +17221,6 @@
       },
       "ui": {
         "term": "Přihlásit se pomocí SIWE"
-      },
-      "code": {
-        "term": "SIWE"
       }
     },
     "grammar": {
@@ -18341,9 +17273,6 @@
       },
       "ui": {
         "term": "Ochrana proti předbíhání"
-      },
-      "code": {
-        "term": "frontRunning"
       }
     },
     "grammar": {
@@ -18390,9 +17319,6 @@
       },
       "ui": {
         "term": "Aktualizace Istanbul"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -18439,9 +17365,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "KEVM"
       }
     },
     "grammar": {
@@ -18487,9 +17410,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -18540,9 +17460,6 @@
       },
       "ui": {
         "term": "Max. poplatek"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -18592,9 +17509,6 @@
       },
       "ui": {
         "term": "Multisig peněženka"
-      },
-      "code": {
-        "term": "multiSignature"
       }
     },
     "grammar": {
@@ -18644,9 +17558,6 @@
       },
       "ui": {
         "term": "Uživatelské operace"
-      },
-      "code": {
-        "term": "userOperation"
       }
     },
     "grammar": {
@@ -18696,9 +17607,6 @@
       },
       "ui": {
         "term": "Sociální osekání"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -18747,9 +17655,6 @@
       },
       "ui": {
         "term": "SSLE"
-      },
-      "code": {
-        "term": "ssle"
       }
     },
     "grammar": {
@@ -18798,9 +17703,6 @@
       },
       "ui": {
         "term": "Stake Grinding"
-      },
-      "code": {
-        "term": "stake_grinding"
       }
     },
     "grammar": {
@@ -18848,9 +17750,6 @@
         "term": "tee"
       },
       "ui": {
-        "term": "TEE"
-      },
-      "code": {
         "term": "TEE"
       }
     },
@@ -18900,9 +17799,6 @@
       },
       "ui": {
         "term": "Orákulum"
-      },
-      "code": {
-        "term": "blockchain_oracle"
       }
     },
     "grammar": {
@@ -18948,9 +17844,6 @@
         "term": "modexp"
       },
       "ui": {
-        "term": "MODEXP"
-      },
-      "code": {
         "term": "MODEXP"
       }
     },
@@ -19000,9 +17893,6 @@
       },
       "ui": {
         "term": "Testnet Faucet"
-      },
-      "code": {
-        "term": "testnet_faucet"
       }
     },
     "grammar": {
@@ -19051,9 +17941,6 @@
       },
       "ui": {
         "term": "Odolné vůči cenzuře"
-      },
-      "code": {
-        "term": "is_censorship_resistant"
       }
     },
     "grammar": {
@@ -19103,9 +17990,6 @@
       },
       "ui": {
         "term": "Token správy"
-      },
-      "code": {
-        "term": "governance_token"
       }
     },
     "grammar": {
@@ -19155,9 +18039,6 @@
       },
       "ui": {
         "term": "Bundler"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -19206,9 +18087,6 @@
       },
       "ui": {
         "term": "AMM"
-      },
-      "code": {
-        "term": "automated_market_maker"
       }
     },
     "grammar": {
@@ -19261,9 +18139,6 @@
       },
       "ui": {
         "term": "Výnosové farmaření"
-      },
-      "code": {
-        "term": "yield_farming"
       }
     },
     "grammar": {
@@ -19313,9 +18188,6 @@
       },
       "ui": {
         "term": "SBT Token"
-      },
-      "code": {
-        "term": "soulbound_token"
       }
     },
     "grammar": {
@@ -19362,9 +18234,6 @@
       },
       "ui": {
         "term": "Životní cyklus"
-      },
-      "code": {
-        "term": "validator_lifecycle"
       }
     },
     "grammar": {
@@ -19411,9 +18280,6 @@
       },
       "ui": {
         "term": "Modulární blockchain"
-      },
-      "code": {
-        "term": "modular_blockchain"
       }
     },
     "grammar": {
@@ -19460,9 +18326,6 @@
       },
       "ui": {
         "term": "Monolitický blockchain"
-      },
-      "code": {
-        "term": "monolithic_blockchain"
       }
     },
     "grammar": {
@@ -19511,9 +18374,6 @@
       },
       "ui": {
         "term": "RPGF"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -19562,9 +18422,6 @@
       },
       "ui": {
         "term": "Celková uzamčená hodnota"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -19614,9 +18471,6 @@
       },
       "ui": {
         "term": "Kvadratické hlasování"
-      },
-      "code": {
-        "term": "quadratic_voting"
       }
     },
     "grammar": {
@@ -19665,9 +18519,6 @@
       },
       "ui": {
         "term": "Back-running"
-      },
-      "code": {
-        "term": "backRunning"
       }
     },
     "grammar": {
@@ -19716,9 +18567,6 @@
       },
       "ui": {
         "term": "Vrstva dostupnosti dat"
-      },
-      "code": {
-        "term": "dataAvailabilityLayer"
       }
     },
     "grammar": {
@@ -19768,9 +18616,6 @@
       },
       "ui": {
         "term": "Aktualizovatelný kontrakt"
-      },
-      "code": {
-        "term": "upgradeableContract"
       }
     },
     "grammar": {
@@ -19820,9 +18665,6 @@
       },
       "ui": {
         "term": "Užitkový token"
-      },
-      "code": {
-        "term": "utilityToken"
       }
     },
     "grammar": {
@@ -19872,9 +18714,6 @@
       },
       "ui": {
         "term": "Studená peněženka"
-      },
-      "code": {
-        "term": "coldWallet"
       }
     },
     "grammar": {
@@ -19923,9 +18762,6 @@
       },
       "ui": {
         "term": "Derivační cesta"
-      },
-      "code": {
-        "term": "derivationPath"
       }
     },
     "grammar": {
@@ -19974,9 +18810,6 @@
       },
       "ui": {
         "term": "Hardwarová peněženka"
-      },
-      "code": {
-        "term": "hardwareWallet"
       }
     },
     "grammar": {
@@ -20026,9 +18859,6 @@
       },
       "ui": {
         "term": "Horká peněženka"
-      },
-      "code": {
-        "term": "hotWallet"
       }
     },
     "grammar": {
@@ -20078,9 +18908,6 @@
       },
       "ui": {
         "term": "Klíč"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -20129,9 +18956,6 @@
       },
       "ui": {
         "term": "Funkce odvození klíče"
-      },
-      "code": {
-        "term": "keyDerivationFunction"
       }
     },
     "grammar": {
@@ -20180,9 +19004,6 @@
       },
       "ui": {
         "term": "Vytvořit přístupový klíč"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -20229,9 +19050,6 @@
       },
       "ui": {
         "term": "Spálit na nulovou adresu"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -20280,9 +19098,6 @@
       },
       "ui": {
         "term": "Zobrazit limit fluktuace"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -20331,9 +19146,6 @@
       },
       "ui": {
         "term": "Aktualizovat pravidla konsenzu"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -20385,9 +19197,6 @@
       },
       "ui": {
         "term": "Nahlásit ekvivokaci"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -20434,9 +19243,6 @@
       },
       "ui": {
         "term": "Hlasovat přes holografický konsenzus"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -20486,9 +19292,6 @@
       },
       "ui": {
         "term": "Statistiky úniku za neaktivitu"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -20540,9 +19343,6 @@
       },
       "ui": {
         "term": "Historie emise"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -20591,9 +19391,6 @@
       },
       "ui": {
         "term": "Získat supervětšinu"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -20644,9 +19441,6 @@
       },
       "ui": {
         "term": "Vytvořit závazek"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -20695,9 +19489,6 @@
       },
       "ui": {
         "term": "Aktualizovat DHT"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -20744,9 +19535,6 @@
       },
       "ui": {
         "term": "Těžit přes Ethash"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -20795,9 +19583,6 @@
       },
       "ui": {
         "term": "Zobrazit hashrate sítě"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -20846,9 +19631,6 @@
       },
       "ui": {
         "term": "Vybrat algoritmus SHA"
-      },
-      "code": {
-        "term": "shaAlgorithm"
       }
     },
     "grammar": {
@@ -20899,9 +19681,6 @@
       },
       "ui": {
         "term": "Přepnout shard"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -20950,9 +19729,6 @@
       },
       "ui": {
         "term": "Spustit důvěryhodné nastavení"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -21002,9 +19778,6 @@
       },
       "ui": {
         "term": "Klíče k API"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -21053,9 +19826,6 @@
       },
       "ui": {
         "term": "Zobrazit APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -21108,9 +19878,6 @@
       },
       "ui": {
         "term": "Upozornění na ztrátu vazby"
-      },
-      "code": {
-        "term": "depeg"
       }
     },
     "grammar": {
@@ -21159,9 +19926,6 @@
       },
       "ui": {
         "term": "Dočasná ztráta"
-      },
-      "code": {
-        "term": "impermanent_loss"
       }
     },
     "grammar": {
@@ -21208,9 +19972,6 @@
       },
       "ui": {
         "term": "Index"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -21260,9 +20021,6 @@
       },
       "ui": {
         "term": "Tokeny likvidity"
-      },
-      "code": {
-        "term": "liquidity_tokens"
       }
     },
     "grammar": {
@@ -21314,9 +20072,6 @@
       },
       "ui": {
         "term": "Přezajištění"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -21372,9 +20127,6 @@
       },
       "ui": {
         "term": "Cenová vazba"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -21423,9 +20175,6 @@
       },
       "ui": {
         "term": "Cenový dopad"
-      },
-      "code": {
-        "term": "price_impact"
       }
     },
     "grammar": {
@@ -21476,9 +20225,6 @@
       },
       "ui": {
         "term": "Cenový skluz"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -21529,9 +20275,6 @@
       },
       "ui": {
         "term": "Eth1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -21582,9 +20325,6 @@
       },
       "ui": {
         "term": "Eth2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -21634,9 +20374,6 @@
       },
       "ui": {
         "term": "51% útok"
-      },
-      "code": {
-        "term": "51_percent_attack"
       }
     },
     "grammar": {
@@ -21688,9 +20425,6 @@
       },
       "ui": {
         "term": "Zobrazit množinu anonymity"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -21742,9 +20476,6 @@
       },
       "ui": {
         "term": "Nastavení Anti-Sybil"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -21795,9 +20526,6 @@
       },
       "ui": {
         "term": "ASIC Podpora"
-      },
-      "code": {
-        "term": "asic"
       }
     },
     "grammar": {
@@ -21846,9 +20574,6 @@
       },
       "ui": {
         "term": "Formát Big-endian"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -21899,9 +20624,6 @@
       },
       "ui": {
         "term": "Zobrazit stav bloku"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -21955,9 +20677,6 @@
       },
       "ui": {
         "term": "Spustit kompilaci"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -22007,9 +20726,6 @@
       },
       "ui": {
         "term": "Výpočetní neproveditelnost"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -22062,9 +20778,6 @@
       },
       "ui": {
         "term": "Zvažováno k zařazení"
-      },
-      "code": {
-        "term": "consideredForInclusion"
       }
     },
     "grammar": {
@@ -22115,9 +20828,6 @@
       },
       "ui": {
         "term": "Úvod do kryptoekonomie"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -22168,9 +20878,6 @@
       },
       "ui": {
         "term": "Velikost DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -22219,9 +20926,6 @@
       },
       "ui": {
         "term": "DePIN"
-      },
-      "code": {
-        "term": "decentralized_physical_infrastructure"
       }
     },
     "grammar": {
@@ -22274,9 +20978,6 @@
       },
       "ui": {
         "term": "Objevování"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -22329,9 +21030,6 @@
       },
       "ui": {
         "term": "Dvojí útrata"
-      },
-      "code": {
-        "term": "double_spend"
       }
     },
     "grammar": {
@@ -22380,9 +21078,6 @@
       },
       "ui": {
         "term": "Exekuční klient"
-      },
-      "code": {
-        "term": "execution_client"
       }
     },
     "grammar": {
@@ -22431,9 +21126,6 @@
       },
       "ui": {
         "term": "Exekuční vrstva"
-      },
-      "code": {
-        "term": "execution_layer"
       }
     },
     "grammar": {
@@ -22483,9 +21175,6 @@
       },
       "ui": {
         "term": "IDE"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -22534,9 +21223,6 @@
       },
       "ui": {
         "term": "Lehký klient"
-      },
-      "code": {
-        "term": "light_client"
       }
     },
     "grammar": {
@@ -22585,9 +21271,6 @@
       },
       "ui": {
         "term": "Zpráva"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -22639,9 +21322,6 @@
       },
       "ui": {
         "term": "Volání zprávy"
-      },
-      "code": {
-        "term": "message_call"
       }
     },
     "grammar": {
@@ -22690,9 +21370,6 @@
       },
       "ui": {
         "term": "Síť"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -22745,9 +21422,6 @@
       },
       "ui": {
         "term": "Výstupní brána"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -22797,9 +21471,6 @@
       },
       "ui": {
         "term": "Ommer Blok"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -22852,9 +21523,6 @@
       },
       "ui": {
         "term": "Vstupní brána"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -22908,9 +21576,6 @@
       },
       "ui": {
         "term": "Začít (Onboarding)"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -22959,9 +21624,6 @@
       },
       "ui": {
         "term": "S řízeným přístupem"
-      },
-      "code": {
-        "term": "isPermissioned"
       }
     },
     "grammar": {
@@ -23005,9 +21667,6 @@
       },
       "ui": {
         "term": "Privátní řetězec"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -23059,9 +21718,6 @@
       },
       "ui": {
         "term": "Důkaz o účasti"
-      },
-      "code": {
-        "term": "proofOfAttendance"
       }
     },
     "grammar": {
@@ -23110,9 +21766,6 @@
       },
       "ui": {
         "term": "Re-entrancy útok"
-      },
-      "code": {
-        "term": "reEntrancyAttack"
       }
     },
     "grammar": {
@@ -23164,9 +21817,6 @@
       },
       "ui": {
         "term": "Vybrat odměnu"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -23215,9 +21865,6 @@
       },
       "ui": {
         "term": "Samosvrchovanost"
-      },
-      "code": {
-        "term": "self_sovereignty"
       }
     },
     "grammar": {
@@ -23267,9 +21914,6 @@
       },
       "ui": {
         "term": "Serializace"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -23318,9 +21962,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -23369,9 +22010,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -23421,9 +22059,6 @@
       },
       "ui": {
         "term": "Bobtnání stavu"
-      },
-      "code": {
-        "term": "state_bloat"
       }
     },
     "grammar": {
@@ -23472,9 +22107,6 @@
       },
       "ui": {
         "term": "Bezstavovost"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -23524,9 +22156,6 @@
       },
       "ui": {
         "term": "Sybil útok"
-      },
-      "code": {
-        "term": "sybil_attack"
       }
     },
     "grammar": {
@@ -23578,9 +22207,6 @@
       },
       "ui": {
         "term": "Synchronizace"
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -23630,9 +22256,6 @@
       },
       "ui": {
         "term": "Konečná celková obtížnost"
-      },
-      "code": {
-        "term": "terminal_total_difficulty"
       }
     },
     "grammar": {
@@ -23681,9 +22304,6 @@
       },
       "ui": {
         "term": "Předpoklady důvěry"
-      },
-      "code": {
-        "term": "trust_assumptions"
       }
     },
     "grammar": {
@@ -23730,9 +22350,6 @@
       },
       "ui": {
         "term": "S minimalizovanou důvěrou"
-      },
-      "code": {
-        "term": "trust_minimized"
       }
     },
     "grammar": {
@@ -23776,9 +22393,6 @@
       },
       "ui": {
         "term": "Bezdůvěrnost"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -23827,9 +22441,6 @@
       },
       "ui": {
         "term": "Turingovsky úplný"
-      },
-      "code": {
-        "term": "turing_complete"
       }
     },
     "grammar": {
@@ -23878,9 +22489,6 @@
       },
       "ui": {
         "term": "Web2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -23927,9 +22535,6 @@
       },
       "ui": {
         "term": "Sendvičový útok"
-      },
-      "code": {
-        "term": "sandwich_attack"
       }
     },
     "grammar": {
@@ -23983,9 +22588,6 @@
       },
       "ui": {
         "term": "Dávkování"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -24034,9 +22636,6 @@
       },
       "ui": {
         "term": "Blobový prostor"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -24085,9 +22684,6 @@
       },
       "ui": {
         "term": "Únikový mechanismus"
-      },
-      "code": {
-        "term": "escape_hatch"
       }
     },
     "grammar": {
@@ -24134,9 +22730,6 @@
       },
       "ui": {
         "term": "Důkaz chyby"
-      },
-      "code": {
-        "term": "fault_proof"
       }
     },
     "grammar": {
@@ -24183,9 +22776,6 @@
       },
       "ui": {
         "term": "Vynucený výběr"
-      },
-      "code": {
-        "term": "forced_withdrawal"
       }
     },
     "grammar": {
@@ -24234,9 +22824,6 @@
       },
       "ui": {
         "term": "Rollupy"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -24288,9 +22875,6 @@
       },
       "ui": {
         "term": "Vypořádání"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -24339,9 +22923,6 @@
       },
       "ui": {
         "term": "Stavové kanály"
-      },
-      "code": {
-        "term": "state_channels"
       }
     },
     "grammar": {
@@ -24390,9 +22971,6 @@
       },
       "ui": {
         "term": "Propustnost"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -24439,9 +23017,6 @@
       },
       "ui": {
         "term": "Validium"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -24490,9 +23065,6 @@
       },
       "ui": {
         "term": "Zobrazit data volání"
-      },
-      "code": {
-        "term": "callData"
       }
     },
     "grammar": {
@@ -24541,9 +23113,6 @@
       },
       "ui": {
         "term": "Nová transakce vytvoření kontraktu"
-      },
-      "code": {
-        "term": "contractCreationTransaction"
       }
     },
     "grammar": {
@@ -24593,9 +23162,6 @@
       },
       "ui": {
         "term": "Kompilovat EVM assembly"
-      },
-      "code": {
-        "term": "evmAssemblyLanguage"
       }
     },
     "grammar": {
@@ -24647,9 +23213,6 @@
       },
       "ui": {
         "term": "Nástroje pro optimalizaci plynu"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -24696,9 +23259,6 @@
       },
       "ui": {
         "term": "Varování: Problém neměnného nasazeného kódu"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -24751,9 +23311,6 @@
       },
       "ui": {
         "term": "Použít předkompilovaný kontrakt"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -24802,9 +23359,6 @@
       },
       "ui": {
         "term": "Přidat ochranu proti reentranci"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -24856,9 +23410,6 @@
       },
       "ui": {
         "term": "Aktivovat sebezničení"
-      },
-      "code": {
-        "term": "selfDestruct"
       }
     },
     "grammar": {
@@ -24905,9 +23456,6 @@
       },
       "ui": {
         "term": "Nasazení singletonu"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -24957,9 +23505,6 @@
       },
       "ui": {
         "term": "Zobrazit vložený assembly"
-      },
-      "code": {
-        "term": "solidityInlineAssembly"
       }
     },
     "grammar": {
@@ -25008,9 +23553,6 @@
       },
       "ui": {
         "term": "Aktualizovat stav"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -25064,9 +23606,6 @@
       },
       "ui": {
         "term": "Nárokovat tokeny"
-      },
-      "code": {
-        "term": "claimTokens"
       }
     },
     "grammar": {
@@ -25116,9 +23655,6 @@
       },
       "ui": {
         "term": "Konec odkladné lhůty"
-      },
-      "code": {
-        "term": "vestingCliff"
       }
     },
     "grammar": {
@@ -25170,9 +23706,6 @@
       },
       "ui": {
         "term": "Frakcionalizovat aktivum"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -25221,9 +23754,6 @@
       },
       "ui": {
         "term": "Spálit LP tokeny"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -25272,9 +23802,6 @@
       },
       "ui": {
         "term": "Spustit továrnu na tokeny"
-      },
-      "code": {
-        "term": "tokenFactory"
       }
     },
     "grammar": {
@@ -25321,9 +23848,6 @@
       },
       "ui": {
         "term": "Zobrazit URI tokenu"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -25377,9 +23901,6 @@
       },
       "ui": {
         "term": "Harmonogram uvolňování"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -25431,9 +23952,6 @@
       },
       "ui": {
         "term": "Zabalit token"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -25482,9 +24000,6 @@
       },
       "ui": {
         "term": "Interní transakce"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -25534,9 +24049,6 @@
       },
       "ui": {
         "term": "Max. poplatek za plyn"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -25583,9 +24095,6 @@
       },
       "ui": {
         "term": "Konstruktor"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -25615,9 +24124,6 @@
       },
       "ui": {
         "term": "Charles Hoskinson"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -25642,9 +24148,6 @@
         "term": "Gavin Wood"
       },
       "ui": {
-        "term": "Gavin Wood"
-      },
-      "code": {
         "term": "Gavin Wood"
       }
     },
@@ -25671,9 +24174,6 @@
       },
       "ui": {
         "term": "Joseph Lubin"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -25698,9 +24198,6 @@
         "term": "Vitalik Buterin"
       },
       "ui": {
-        "term": "Vitalik Buterin"
-      },
-      "code": {
         "term": "Vitalik Buterin"
       }
     },
@@ -25727,9 +24224,6 @@
       },
       "ui": {
         "term": "Wei Dai"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -25754,9 +24248,6 @@
         "term": "Aave"
       },
       "ui": {
-        "term": "Aave"
-      },
-      "code": {
         "term": "Aave"
       }
     },
@@ -25783,9 +24274,6 @@
       },
       "ui": {
         "term": "Arbitrum"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -25810,9 +24298,6 @@
         "term": "Binance"
       },
       "ui": {
-        "term": "Binance"
-      },
-      "code": {
         "term": "Binance"
       }
     },
@@ -25839,9 +24324,6 @@
       },
       "ui": {
         "term": "Chrome"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -25866,9 +24348,6 @@
         "term": "Coinbase"
       },
       "ui": {
-        "term": "Coinbase"
-      },
-      "code": {
         "term": "Coinbase"
       }
     },
@@ -25895,9 +24374,6 @@
       },
       "ui": {
         "term": "ConsenSys"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -25922,9 +24398,6 @@
         "term": "CryptoKitties"
       },
       "ui": {
-        "term": "CryptoKitties"
-      },
-      "code": {
         "term": "CryptoKitties"
       }
     },
@@ -25951,9 +24424,6 @@
       },
       "ui": {
         "term": "Dencun"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -25978,9 +24448,6 @@
         "term": "Discord"
       },
       "ui": {
-        "term": "Discord"
-      },
-      "code": {
         "term": "Discord"
       }
     },
@@ -26007,9 +24474,6 @@
       },
       "ui": {
         "term": "Facebook"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -26034,9 +24498,6 @@
         "term": "Filecoin"
       },
       "ui": {
-        "term": "Filecoin"
-      },
-      "code": {
         "term": "Filecoin"
       }
     },
@@ -26063,9 +24524,6 @@
       },
       "ui": {
         "term": "Goerli"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -26090,9 +24548,6 @@
         "term": "Holesky"
       },
       "ui": {
-        "term": "Holesky"
-      },
-      "code": {
         "term": "Holesky"
       }
     },
@@ -26119,9 +24574,6 @@
       },
       "ui": {
         "term": "Lido"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -26146,9 +24598,6 @@
         "term": "MakerDAO"
       },
       "ui": {
-        "term": "MakerDAO"
-      },
-      "code": {
         "term": "MakerDAO"
       }
     },
@@ -26175,9 +24624,6 @@
       },
       "ui": {
         "term": "Microsoft"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -26202,9 +24648,6 @@
         "term": "Netflix"
       },
       "ui": {
-        "term": "Netflix"
-      },
-      "code": {
         "term": "Netflix"
       }
     },
@@ -26231,9 +24674,6 @@
       },
       "ui": {
         "term": "OpenSea"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -26258,9 +24698,6 @@
         "term": "Optimism"
       },
       "ui": {
-        "term": "Optimism"
-      },
-      "code": {
         "term": "Optimism"
       }
     },
@@ -26287,9 +24724,6 @@
       },
       "ui": {
         "term": "PayPal"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -26314,9 +24748,6 @@
         "term": "Polygon"
       },
       "ui": {
-        "term": "Polygon"
-      },
-      "code": {
         "term": "Polygon"
       }
     },
@@ -26343,9 +24774,6 @@
       },
       "ui": {
         "term": "Reddit"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -26370,9 +24798,6 @@
         "term": "Ropsten"
       },
       "ui": {
-        "term": "Ropsten"
-      },
-      "code": {
         "term": "Ropsten"
       }
     },
@@ -26399,9 +24824,6 @@
       },
       "ui": {
         "term": "Starknet"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -26426,9 +24848,6 @@
         "term": "Telegram"
       },
       "ui": {
-        "term": "Telegram"
-      },
-      "code": {
         "term": "Telegram"
       }
     },
@@ -26455,9 +24874,6 @@
       },
       "ui": {
         "term": "Twitter"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -26483,9 +24899,6 @@
       },
       "ui": {
         "term": "YouTube"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -26510,9 +24923,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },

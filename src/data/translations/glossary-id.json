@@ -32,9 +32,6 @@
       },
       "ui": {
         "term": "Kirim Atestasi"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -80,9 +77,6 @@
       },
       "ui": {
         "term": "Jembatani"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -126,9 +120,6 @@
       },
       "ui": {
         "term": "Bakar Token"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -169,9 +160,6 @@
       },
       "ui": {
         "term": "Status Pembakaran"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -218,9 +206,6 @@
       },
       "ui": {
         "term": "Tambah Kolateral"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -261,9 +246,6 @@
       },
       "ui": {
         "term": "Desentralisasi"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -304,9 +286,6 @@
       },
       "ui": {
         "term": "Terdesentralisasi"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -353,9 +332,6 @@
       },
       "ui": {
         "term": "Delegasikan"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -398,9 +374,6 @@
       },
       "ui": {
         "term": "Pendelegasian"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -445,9 +418,6 @@
       },
       "ui": {
         "term": "Sebarkan"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -491,9 +461,6 @@
       },
       "ui": {
         "term": "Penyebaran"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -534,9 +501,6 @@
       },
       "ui": {
         "term": "Tanda Tangan Digital"
-      },
-      "code": {
-        "term": "digital_signature"
       }
     },
     "grammar": {
@@ -579,9 +543,6 @@
       },
       "ui": {
         "term": "Tanda Tangan"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -627,9 +588,6 @@
       },
       "ui": {
         "term": "Tanda Tangani"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -675,9 +633,6 @@
       },
       "ui": {
         "term": "Enkripsi"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -723,9 +678,6 @@
       },
       "ui": {
         "term": "Dekripsi"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -768,9 +720,6 @@
       },
       "ui": {
         "term": "Finalitas"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -815,9 +764,6 @@
       },
       "ui": {
         "term": "Difinalisasi"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -864,9 +810,6 @@
       },
       "ui": {
         "term": "Percabangan"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -909,9 +852,6 @@
       },
       "ui": {
         "term": "Percabangan Keras"
-      },
-      "code": {
-        "term": "hardFork"
       }
     },
     "grammar": {
@@ -954,9 +894,6 @@
       },
       "ui": {
         "term": "Percabangan Lunak"
-      },
-      "code": {
-        "term": "softFork"
       }
     },
     "grammar": {
@@ -1000,9 +937,6 @@
       },
       "ui": {
         "term": "Tata Kelola"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1048,9 +982,6 @@
       },
       "ui": {
         "term": "Hash"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1091,9 +1022,6 @@
       },
       "ui": {
         "term": "Fungsi Hash"
-      },
-      "code": {
-        "term": "hashFunction"
       }
     },
     "grammar": {
@@ -1137,9 +1065,6 @@
       },
       "ui": {
         "term": "Tingkat Hash"
-      },
-      "code": {
-        "term": "hashRate"
       }
     },
     "grammar": {
@@ -1183,9 +1108,6 @@
       },
       "ui": {
         "term": "Proses Hash"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1228,9 +1150,6 @@
       },
       "ui": {
         "term": "Staking Likuid"
-      },
-      "code": {
-        "term": "liquidStaking"
       }
     },
     "grammar": {
@@ -1274,9 +1193,6 @@
       },
       "ui": {
         "term": "Staking Gabungan"
-      },
-      "code": {
-        "term": "pooledStaking"
       }
     },
     "grammar": {
@@ -1322,9 +1238,6 @@
       },
       "ui": {
         "term": "Staking Ulang"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1368,9 +1281,6 @@
       },
       "ui": {
         "term": "Staking Mandiri"
-      },
-      "code": {
-        "term": "soloStaking"
       }
     },
     "grammar": {
@@ -1418,9 +1328,6 @@
       },
       "ui": {
         "term": "Stake"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1464,9 +1371,6 @@
       },
       "ui": {
         "term": "Di-stake"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1510,9 +1414,6 @@
       },
       "ui": {
         "term": "Staker"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1560,9 +1461,6 @@
       },
       "ui": {
         "term": "Staking"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1605,9 +1503,6 @@
       },
       "ui": {
         "term": "Deposit Staking"
-      },
-      "code": {
-        "term": "stakingDeposit"
       }
     },
     "grammar": {
@@ -1650,9 +1545,6 @@
       },
       "ui": {
         "term": "Pool Staking"
-      },
-      "code": {
-        "term": "stakingPool"
       }
     },
     "grammar": {
@@ -1699,9 +1591,6 @@
       },
       "ui": {
         "term": "Unstaking"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1745,9 +1634,6 @@
       },
       "ui": {
         "term": "Likuidasi"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -1793,9 +1679,6 @@
       },
       "ui": {
         "term": "Penambang"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -1841,9 +1724,6 @@
       },
       "ui": {
         "term": "Penambangan"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -1889,9 +1769,6 @@
       },
       "ui": {
         "term": "Cetak"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -1937,9 +1814,6 @@
       },
       "ui": {
         "term": "Pencetakan"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -1985,9 +1859,6 @@
       },
       "ui": {
         "term": "Pemotongan"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2033,9 +1904,6 @@
       },
       "ui": {
         "term": "Pemotong"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2082,9 +1950,6 @@
       },
       "ui": {
         "term": "Tukar"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2128,9 +1993,6 @@
       },
       "ui": {
         "term": "Transaksi"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2178,9 +2040,6 @@
       },
       "ui": {
         "term": "Validator"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2224,9 +2083,6 @@
       },
       "ui": {
         "term": "Validasi Blok"
-      },
-      "code": {
-        "term": "block_validation"
       }
     },
     "grammar": {
@@ -2274,9 +2130,6 @@
       },
       "ui": {
         "term": "Beri Suara"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2324,9 +2177,6 @@
       },
       "ui": {
         "term": "Pemungutan Suara"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2369,9 +2219,6 @@
       },
       "ui": {
         "term": "Ethereum"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2414,9 +2261,6 @@
       },
       "ui": {
         "term": "Kontrak"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2459,9 +2303,6 @@
       },
       "ui": {
         "term": "Blok"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2506,9 +2347,6 @@
       },
       "ui": {
         "term": "Kontrak Pintar"
-      },
-      "code": {
-        "term": "smart_contract"
       }
     },
     "grammar": {
@@ -2553,9 +2391,6 @@
       },
       "ui": {
         "term": "Node"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2598,9 +2433,6 @@
       },
       "ui": {
         "term": "Token"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2643,9 +2475,6 @@
       },
       "ui": {
         "term": "Salin Alamat"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -2688,9 +2517,6 @@
       },
       "ui": {
         "term": "Kirim ETH"
-      },
-      "code": {
-        "term": "eth"
       }
     },
     "grammar": {
@@ -2733,9 +2559,6 @@
       },
       "ui": {
         "term": "Jelajahi Rantai Blok"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -2778,9 +2601,6 @@
       },
       "ui": {
         "term": "Buat Akun"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -2826,9 +2646,6 @@
       },
       "ui": {
         "term": "Pilih Rantai"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -2869,9 +2686,6 @@
       },
       "ui": {
         "term": "Pembaruan Protokol"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -2917,9 +2731,6 @@
       },
       "ui": {
         "term": "Hubungkan Dompet"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -2966,9 +2777,6 @@
       },
       "ui": {
         "term": "Estimasi Gas"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3014,9 +2822,6 @@
       },
       "ui": {
         "term": "Jaringan Rollup"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3059,9 +2864,6 @@
       },
       "ui": {
         "term": "Lihat EIP"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3108,9 +2910,6 @@
       },
       "ui": {
         "term": "Wajibkan"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3151,9 +2950,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3194,9 +2990,6 @@
       },
       "ui": {
         "term": "Solidity"
-      },
-      "code": {
-        "term": "solidity"
       }
     },
     "grammar": {
@@ -3245,9 +3038,6 @@
       },
       "ui": {
         "term": "Kejadian"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3289,9 +3079,6 @@
       },
       "ui": {
         "term": "Onchain"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3335,9 +3122,6 @@
       },
       "ui": {
         "term": "Ether"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3381,9 +3165,6 @@
       },
       "ui": {
         "term": "Mesin Virtual Ethereum"
-      },
-      "code": {
-        "term": "evm"
       }
     },
     "grammar": {
@@ -3427,9 +3208,6 @@
       },
       "ui": {
         "term": "Aplikasi Terdesentralisasi"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3473,9 +3251,6 @@
       },
       "ui": {
         "term": "NFT"
-      },
-      "code": {
-        "term": "nft"
       }
     },
     "grammar": {
@@ -3524,9 +3299,6 @@
       },
       "ui": {
         "term": "Transfer"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3574,9 +3346,6 @@
       },
       "ui": {
         "term": "Tarik"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -3622,9 +3391,6 @@
       },
       "ui": {
         "term": "Konsensus"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -3669,9 +3435,6 @@
       },
       "ui": {
         "term": "Mainnet"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -3717,9 +3480,6 @@
       },
       "ui": {
         "term": "Offchain"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -3762,9 +3522,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -3809,9 +3566,6 @@
       },
       "ui": {
         "term": "Orakel"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -3854,9 +3608,6 @@
       },
       "ui": {
         "term": "Blob"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -3899,9 +3650,6 @@
       },
       "ui": {
         "term": "MetaMask"
-      },
-      "code": {
-        "term": "metamask"
       }
     },
     "grammar": {
@@ -3944,9 +3692,6 @@
       },
       "ui": {
         "term": "OpenZeppelin"
-      },
-      "code": {
-        "term": "openzeppelin"
       }
     },
     "grammar": {
@@ -3987,9 +3732,6 @@
       },
       "ui": {
         "term": "Slither"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4030,9 +3772,6 @@
       },
       "ui": {
         "term": "Slot"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4076,9 +3815,6 @@
       },
       "ui": {
         "term": "DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4121,9 +3857,6 @@
       },
       "ui": {
         "term": "Testnet"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4164,9 +3897,6 @@
       },
       "ui": {
         "term": "Klien Konsensus"
-      },
-      "code": {
-        "term": "consensus_client"
       }
     },
     "grammar": {
@@ -4210,9 +3940,6 @@
       },
       "ui": {
         "term": "Lapisan 2 (l2)"
-      },
-      "code": {
-        "term": "layer2"
       }
     },
     "grammar": {
@@ -4255,9 +3982,6 @@
       },
       "ui": {
         "term": "ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4301,9 +4025,6 @@
       },
       "ui": {
         "term": "Kunci Privat"
-      },
-      "code": {
-        "term": "private_key"
       }
     },
     "grammar": {
@@ -4347,9 +4068,6 @@
       },
       "ui": {
         "term": "Kripto"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4393,9 +4111,6 @@
       },
       "ui": {
         "term": "Lapisan 1 (l1)"
-      },
-      "code": {
-        "term": "layer1"
       }
     },
     "grammar": {
@@ -4438,9 +4153,6 @@
         "term": "MEV"
       },
       "ui": {
-        "term": "MEV"
-      },
-      "code": {
         "term": "MEV"
       }
     },
@@ -4487,9 +4199,6 @@
       },
       "ui": {
         "term": "Keluar"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -4532,9 +4241,6 @@
       },
       "ui": {
         "term": "Opcode"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -4577,9 +4283,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -4620,9 +4323,6 @@
       },
       "ui": {
         "term": "Echidna"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -4663,9 +4363,6 @@
       },
       "ui": {
         "term": "Privasi"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -4706,9 +4403,6 @@
       },
       "ui": {
         "term": "Manticore"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -4752,9 +4446,6 @@
       },
       "ui": {
         "term": "Rollup Optimistic"
-      },
-      "code": {
-        "term": "optimisticRollup"
       }
     },
     "grammar": {
@@ -4797,9 +4488,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "ERC"
       }
     },
     "grammar": {
@@ -4840,9 +4528,6 @@
       },
       "ui": {
         "term": "Plasma"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -4887,9 +4572,6 @@
       },
       "ui": {
         "term": "Pustaka"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -4930,9 +4612,6 @@
       },
       "ui": {
         "term": "Uniswap"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -4975,9 +4654,6 @@
       },
       "ui": {
         "term": "The Merge"
-      },
-      "code": {
-        "term": "the_merge"
       }
     },
     "grammar": {
@@ -5023,9 +4699,6 @@
       },
       "ui": {
         "term": "Bukti Tanpa Pengetahuan"
-      },
-      "code": {
-        "term": "zk_proof"
       }
     },
     "grammar": {
@@ -5068,9 +4741,6 @@
       },
       "ui": {
         "term": "Bitcoin"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5115,9 +4785,6 @@
       },
       "ui": {
         "term": "Ketersediaan Data"
-      },
-      "code": {
-        "term": "data_availability"
       }
     },
     "grammar": {
@@ -5162,9 +4829,6 @@
       },
       "ui": {
         "term": "Log"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5207,9 +4871,6 @@
       },
       "ui": {
         "term": "Rantai Suar"
-      },
-      "code": {
-        "term": "beacon_chain"
       }
     },
     "grammar": {
@@ -5253,9 +4914,6 @@
       },
       "ui": {
         "term": "Likuiditas"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5298,9 +4956,6 @@
       },
       "ui": {
         "term": "Epok"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5343,9 +4998,6 @@
       },
       "ui": {
         "term": "Mainnet Ethereum"
-      },
-      "code": {
-        "term": "ethereum-mainnet"
       }
     },
     "grammar": {
@@ -5394,9 +5046,6 @@
       },
       "ui": {
         "term": "Buat Proposal"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -5439,9 +5088,6 @@
       },
       "ui": {
         "term": "Pengusul Blok"
-      },
-      "code": {
-        "term": "block-proposer"
       }
     },
     "grammar": {
@@ -5482,9 +5128,6 @@
       },
       "ui": {
         "term": "Lapisan Konsensus"
-      },
-      "code": {
-        "term": "consensus-layer"
       }
     },
     "grammar": {
@@ -5530,9 +5173,6 @@
       },
       "ui": {
         "term": "Peer"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -5573,9 +5213,6 @@
       },
       "ui": {
         "term": "JSON-RPC"
-      },
-      "code": {
-        "term": "json-rpc"
       }
     },
     "grammar": {
@@ -5616,9 +5253,6 @@
       },
       "ui": {
         "term": "Nonce"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -5661,9 +5295,6 @@
       },
       "ui": {
         "term": "IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -5707,9 +5338,6 @@
       },
       "ui": {
         "term": "Full Node"
-      },
-      "code": {
-        "term": "full-node"
       }
     },
     "grammar": {
@@ -5755,9 +5383,6 @@
       },
       "ui": {
         "term": "Zero-Knowledge"
-      },
-      "code": {
-        "term": "zero-knowledge"
       }
     },
     "grammar": {
@@ -5798,9 +5423,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -5844,9 +5466,6 @@
       },
       "ui": {
         "term": "Titik Periksa"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -5887,9 +5506,6 @@
       },
       "ui": {
         "term": "Pectra"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -5933,9 +5549,6 @@
       },
       "ui": {
         "term": "Mata Uang Kripto"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -5981,9 +5594,6 @@
       },
       "ui": {
         "term": "Pemverifikasi"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6031,9 +5641,6 @@
       },
       "ui": {
         "term": "Pembangun"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6074,9 +5681,6 @@
       },
       "ui": {
         "term": "Kunci Publik"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6119,9 +5723,6 @@
       },
       "ui": {
         "term": "Rantai Samping"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6162,9 +5763,6 @@
       },
       "ui": {
         "term": "Fusaka"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6207,9 +5805,6 @@
       },
       "ui": {
         "term": "Metadata"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6252,9 +5847,6 @@
       },
       "ui": {
         "term": "ABI"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -6295,9 +5887,6 @@
       },
       "ui": {
         "term": "Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -6340,9 +5929,6 @@
       },
       "ui": {
         "term": "WETH"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -6383,9 +5969,6 @@
       },
       "ui": {
         "term": "zkEVM"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -6428,9 +6011,6 @@
       },
       "ui": {
         "term": "Biaya Gas"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -6471,9 +6051,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -6516,9 +6093,6 @@
       },
       "ui": {
         "term": "Batas Gas"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -6564,9 +6138,6 @@
       },
       "ui": {
         "term": "Tip Validator"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -6607,9 +6178,6 @@
       },
       "ui": {
         "term": "Mekanisme Konsensus"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -6650,9 +6218,6 @@
       },
       "ui": {
         "term": "ERC-721"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -6695,9 +6260,6 @@
       },
       "ui": {
         "term": "ENS"
-      },
-      "code": {
-        "term": "ens"
       }
     },
     "grammar": {
@@ -6738,9 +6300,6 @@
       },
       "ui": {
         "term": "Pembukti"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -6784,9 +6343,6 @@
       },
       "ui": {
         "term": "Kanal Status"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -6829,9 +6385,6 @@
       },
       "ui": {
         "term": "Biaya Transaksi"
-      },
-      "code": {
-        "term": "txFee"
       }
     },
     "grammar": {
@@ -6874,9 +6427,6 @@
       },
       "ui": {
         "term": "Akun Milik Eksternal"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -6917,9 +6467,6 @@
       },
       "ui": {
         "term": "Bukti Validitas"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -6962,9 +6509,6 @@
       },
       "ui": {
         "term": "Faucet"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7005,9 +6549,6 @@
       },
       "ui": {
         "term": "Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7050,9 +6591,6 @@
       },
       "ui": {
         "term": "Penjelajah Blok"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -7100,9 +6638,6 @@
       },
       "ui": {
         "term": "Kembalikan"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7145,9 +6680,6 @@
       },
       "ui": {
         "term": "Yayasan Ethereum"
-      },
-      "code": {
-        "term": "ethereumFoundation"
       }
     },
     "grammar": {
@@ -7191,9 +6723,6 @@
       },
       "ui": {
         "term": "Identitas Terdesentralisasi"
-      },
-      "code": {
-        "term": "decentralizedIdentity"
       }
     },
     "grammar": {
@@ -7241,9 +6770,6 @@
       },
       "ui": {
         "term": "Pengusul"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -7286,9 +6812,6 @@
       },
       "ui": {
         "term": "Kriptografi"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -7331,9 +6854,6 @@
       },
       "ui": {
         "term": "Kode Bita"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -7374,9 +6894,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -7419,9 +6936,6 @@
       },
       "ui": {
         "term": "Lighthouse"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -7467,9 +6981,6 @@
       },
       "ui": {
         "term": "Harga Gas"
-      },
-      "code": {
-        "term": "gasPrice"
       }
     },
     "grammar": {
@@ -7515,9 +7026,6 @@
       },
       "ui": {
         "term": "Peer-to-Peer"
-      },
-      "code": {
-        "term": "peerToPeer"
       }
     },
     "grammar": {
@@ -7560,9 +7068,6 @@
       },
       "ui": {
         "term": "Glamsterdam"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -7603,9 +7108,6 @@
       },
       "ui": {
         "term": "Nethermind"
-      },
-      "code": {
-        "term": "nethermind"
       }
     },
     "grammar": {
@@ -7646,9 +7148,6 @@
       },
       "ui": {
         "term": "Bukti Penipuan"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -7689,9 +7188,6 @@
       },
       "ui": {
         "term": "Bukti Merkle"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -7734,9 +7230,6 @@
       },
       "ui": {
         "term": "Sains Terdesentralisasi"
-      },
-      "code": {
-        "term": "decentralizedScience"
       }
     },
     "grammar": {
@@ -7778,9 +7271,6 @@
       },
       "ui": {
         "term": "Tanpa Kepercayaan"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -7821,9 +7311,6 @@
       },
       "ui": {
         "term": "Danksharding"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -7867,9 +7354,6 @@
       },
       "ui": {
         "term": "Algoritme Pilihan Cabang"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -7912,9 +7396,6 @@
       },
       "ui": {
         "term": "Biaya Dasar"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -7955,9 +7436,6 @@
       },
       "ui": {
         "term": "Erigon"
-      },
-      "code": {
-        "term": "erigon"
       }
     },
     "grammar": {
@@ -8004,9 +7482,6 @@
       },
       "ui": {
         "term": "Setujui"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8049,9 +7524,6 @@
       },
       "ui": {
         "term": "Pohon Merkle"
-      },
-      "code": {
-        "term": "pohonMerkle"
       }
     },
     "grammar": {
@@ -8094,9 +7566,6 @@
       },
       "ui": {
         "term": "Node Ringan"
-      },
-      "code": {
-        "term": "nodeRingan"
       }
     },
     "grammar": {
@@ -8140,9 +7609,6 @@
       },
       "ui": {
         "term": "Frasa Benih"
-      },
-      "code": {
-        "term": "frasaBenih"
       }
     },
     "grammar": {
@@ -8183,9 +7649,6 @@
       },
       "ui": {
         "term": "Komite"
-      },
-      "code": {
-        "term": "komite"
       }
     },
     "grammar": {
@@ -8228,9 +7691,6 @@
       },
       "ui": {
         "term": "Besu"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -8271,9 +7731,6 @@
       },
       "ui": {
         "term": "ZK-SNARK"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -8316,9 +7773,6 @@
       },
       "ui": {
         "term": "Pembangun Blok"
-      },
-      "code": {
-        "term": "pembangunBlok"
       }
     },
     "grammar": {
@@ -8359,9 +7813,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -8402,9 +7853,6 @@
       },
       "ui": {
         "term": "Saldo Efektif"
-      },
-      "code": {
-        "term": "saldoEfektif"
       }
     },
     "grammar": {
@@ -8447,9 +7895,6 @@
       },
       "ui": {
         "term": "Header Blok"
-      },
-      "code": {
-        "term": "headerBlok"
       }
     },
     "grammar": {
@@ -8493,9 +7938,6 @@
       },
       "ui": {
         "term": "Kirim Lintas Rantai"
-      },
-      "code": {
-        "term": "crossChain"
       }
     },
     "grammar": {
@@ -8538,9 +7980,6 @@
       },
       "ui": {
         "term": "Pembaruan Proto-Danksharding"
-      },
-      "code": {
-        "term": "protoDanksharding"
       }
     },
     "grammar": {
@@ -8581,9 +8020,6 @@
       },
       "ui": {
         "term": "Jalankan Klien Reth"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -8627,9 +8063,6 @@
       },
       "ui": {
         "term": "Lihat Tanda Terima"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -8675,9 +8108,6 @@
       },
       "ui": {
         "term": "Lakukan Peminjaman"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -8721,9 +8151,6 @@
       },
       "ui": {
         "term": "Buka Brankas"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -8767,9 +8194,6 @@
       },
       "ui": {
         "term": "Tambah Simpul Boot"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -8817,9 +8241,6 @@
       },
       "ui": {
         "term": "Setujui Jatah"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -8862,9 +8283,6 @@
       },
       "ui": {
         "term": "Periksa Mempool"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -8907,9 +8325,6 @@
       },
       "ui": {
         "term": "Teknologi Validator Terdistribusi"
-      },
-      "code": {
-        "term": "distributed_validator_technology"
       }
     },
     "grammar": {
@@ -8953,9 +8368,6 @@
       },
       "ui": {
         "term": "Bursa Terdesentralisasi"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -8999,9 +8411,6 @@
       },
       "ui": {
         "term": "Pencari"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -9042,9 +8451,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -9085,9 +8491,6 @@
       },
       "ui": {
         "term": "Tanpa Izin"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -9128,9 +8531,6 @@
       },
       "ui": {
         "term": "Prysm"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -9171,9 +8571,6 @@
       },
       "ui": {
         "term": "Teku"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -9214,9 +8611,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -9259,9 +8653,6 @@
       },
       "ui": {
         "term": "Pemisahan Pengusul-Pembangun"
-      },
-      "code": {
-        "term": "proposer_builder_separation"
       }
     },
     "grammar": {
@@ -9304,9 +8695,6 @@
       },
       "ui": {
         "term": "Finalitas Slot Tunggal"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -9349,9 +8737,6 @@
       },
       "ui": {
         "term": "Node Arsip"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -9392,9 +8777,6 @@
       },
       "ui": {
         "term": "Lodestar"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -9435,9 +8817,6 @@
       },
       "ui": {
         "term": "Devp2p"
-      },
-      "code": {
-        "term": "devp2p"
       }
     },
     "grammar": {
@@ -9478,9 +8857,6 @@
       },
       "ui": {
         "term": "Aset Digital"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -9523,9 +8899,6 @@
       },
       "ui": {
         "term": "Sekuenser"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -9566,9 +8939,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -9611,9 +8981,6 @@
       },
       "ui": {
         "term": "Akar Merkle"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -9654,9 +9021,6 @@
       },
       "ui": {
         "term": "Tellor"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -9699,9 +9063,6 @@
       },
       "ui": {
         "term": "Agen AI"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -9746,9 +9107,6 @@
       },
       "ui": {
         "term": "Kesulitan"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -9795,9 +9153,6 @@
       },
       "ui": {
         "term": "Reorg"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -9843,9 +9198,6 @@
       },
       "ui": {
         "term": "Asersi"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -9886,9 +9238,6 @@
       },
       "ui": {
         "term": "Nimbus"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -9932,9 +9281,6 @@
       },
       "ui": {
         "term": "Tidak Dapat Diubah"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -9975,9 +9321,6 @@
       },
       "ui": {
         "term": "Pasar Prediksi"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -10020,9 +9363,6 @@
       },
       "ui": {
         "term": "Awalan Panjang Rekursif"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -10066,9 +9406,6 @@
       },
       "ui": {
         "term": "Verifikasi Formal"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -10109,9 +9446,6 @@
       },
       "ui": {
         "term": "Abstraksi Akun"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -10152,9 +9486,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -10195,9 +9526,6 @@
       },
       "ui": {
         "term": "ZK-STARK"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -10240,9 +9568,6 @@
       },
       "ui": {
         "term": "Keacakan"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -10283,9 +9608,6 @@
       },
       "ui": {
         "term": "Strategi"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -10329,9 +9651,6 @@
       },
       "ui": {
         "term": "Aset Dunia Nyata"
-      },
-      "code": {
-        "term": "realWorldAssets"
       }
     },
     "grammar": {
@@ -10378,9 +9697,6 @@
       },
       "ui": {
         "term": "Limpahan"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -10423,9 +9739,6 @@
       },
       "ui": {
         "term": "Hash Transaksi"
-      },
-      "code": {
-        "term": "transactionHash"
       }
     },
     "grammar": {
@@ -10469,9 +9782,6 @@
       },
       "ui": {
         "term": "Multisig"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -10514,9 +9824,6 @@
       },
       "ui": {
         "term": "Stablecoin"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -10560,9 +9867,6 @@
       },
       "ui": {
         "term": "Kertas Kuning"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -10605,9 +9909,6 @@
       },
       "ui": {
         "term": "Komposabilitas"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -10650,9 +9951,6 @@
       },
       "ui": {
         "term": "Kontrak Proksi"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -10693,9 +9991,6 @@
       },
       "ui": {
         "term": "Subgraf"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -10738,9 +10033,6 @@
       },
       "ui": {
         "term": "Interoperabilitas"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -10783,9 +10075,6 @@
       },
       "ui": {
         "term": "Keragaman Klien"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -10826,9 +10115,6 @@
       },
       "ui": {
         "term": "Shanghai"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -10872,9 +10158,6 @@
       },
       "ui": {
         "term": "Keuangan Regeneratif"
-      },
-      "code": {
-        "term": "refi"
       }
     },
     "grammar": {
@@ -10915,9 +10198,6 @@
       },
       "ui": {
         "term": "Akun Kontrak"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -10958,9 +10238,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -11003,9 +10280,6 @@
       },
       "ui": {
         "term": "Imbalan Blok"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -11046,9 +10320,6 @@
       },
       "ui": {
         "term": "Waktu Blok"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -11091,9 +10362,6 @@
       },
       "ui": {
         "term": "Buku Putih"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -11140,9 +10408,6 @@
       },
       "ui": {
         "term": "Pencuplikan Ketersediaan Data"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -11188,9 +10453,6 @@
       },
       "ui": {
         "term": "Terjustifikasi"
-      },
-      "code": {
-        "term": "isJustified"
       }
     },
     "grammar": {
@@ -11233,9 +10495,6 @@
       },
       "ui": {
         "term": "Penyedia Likuiditas"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -11275,9 +10534,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -11322,9 +10578,6 @@
       },
       "ui": {
         "term": "Rollup Tanpa Pengetahuan"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -11365,9 +10618,6 @@
       },
       "ui": {
         "term": "Chainlink"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -11413,9 +10663,6 @@
       },
       "ui": {
         "term": "Pinjaman Kilat"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -11456,9 +10703,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -11498,9 +10742,6 @@
         "term": "MEV-Boost"
       },
       "ui": {
-        "term": "MEV-Boost"
-      },
-      "code": {
         "term": "MEV-Boost"
       }
     },
@@ -11542,9 +10783,6 @@
       },
       "ui": {
         "term": "Cancun"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -11587,9 +10825,6 @@
       },
       "ui": {
         "term": "Kontrak Deposit"
-      },
-      "code": {
-        "term": "depositContract"
       }
     },
     "grammar": {
@@ -11632,9 +10867,6 @@
       },
       "ui": {
         "term": "Muatan Eksekusi"
-      },
-      "code": {
-        "term": "execution_payload"
       }
     },
     "grammar": {
@@ -11678,9 +10910,6 @@
       },
       "ui": {
         "term": "Bukti Otoritas"
-      },
-      "code": {
-        "term": "proofOfAuthority"
       }
     },
     "grammar": {
@@ -11723,9 +10952,6 @@
       },
       "ui": {
         "term": "Pemilihan Pemimpin Rahasia"
-      },
-      "code": {
-        "term": "secretLeaderElection"
       }
     },
     "grammar": {
@@ -11766,9 +10992,6 @@
       },
       "ui": {
         "term": "Komite Sinkronisasi"
-      },
-      "code": {
-        "term": "syncCommittee"
       }
     },
     "grammar": {
@@ -11814,9 +11037,6 @@
       },
       "ui": {
         "term": "Pinjam"
-      },
-      "code": {
-        "term": "borrow"
       }
     },
     "grammar": {
@@ -11861,9 +11081,6 @@
       },
       "ui": {
         "term": "Reentransi"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -11904,9 +11121,6 @@
       },
       "ui": {
         "term": "ERC-1155"
-      },
-      "code": {
-        "term": "ERC1155"
       }
     },
     "grammar": {
@@ -11949,9 +11163,6 @@
       },
       "ui": {
         "term": "Kurva Eliptik"
-      },
-      "code": {
-        "term": "elliptic_curve"
       }
     },
     "grammar": {
@@ -11994,9 +11205,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "utxo"
       }
     },
     "grammar": {
@@ -12039,9 +11247,6 @@
       },
       "ui": {
         "term": "Token Sepadan"
-      },
-      "code": {
-        "term": "fungible_token"
       }
     },
     "grammar": {
@@ -12082,9 +11287,6 @@
       },
       "ui": {
         "term": "Pendanaan Kuadratik"
-      },
-      "code": {
-        "term": "quadratic_funding"
       }
     },
     "grammar": {
@@ -12128,9 +11330,6 @@
       },
       "ui": {
         "term": "Barang Koleksi"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -12173,9 +11372,6 @@
       },
       "ui": {
         "term": "Blok Suar"
-      },
-      "code": {
-        "term": "beacon_block"
       }
     },
     "grammar": {
@@ -12216,9 +11412,6 @@
       },
       "ui": {
         "term": "Subjektivitas Lemah"
-      },
-      "code": {
-        "term": "weak_subjectivity"
       }
     },
     "grammar": {
@@ -12262,9 +11455,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -12307,9 +11497,6 @@
       },
       "ui": {
         "term": "Kolam Likuiditas"
-      },
-      "code": {
-        "term": "liquidity_pool"
       }
     },
     "grammar": {
@@ -12352,9 +11539,6 @@
       },
       "ui": {
         "term": "Blok Genesis"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -12395,9 +11579,6 @@
       },
       "ui": {
         "term": "Shapella"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -12438,9 +11619,6 @@
       },
       "ui": {
         "term": "Dapat Disusun"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -12484,9 +11662,6 @@
       },
       "ui": {
         "term": "Trie Keadaan"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -12527,9 +11702,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "LMD_GHOST"
       }
     },
     "grammar": {
@@ -12572,9 +11744,6 @@
       },
       "ui": {
         "term": "Alamat Siluman"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -12617,9 +11786,6 @@
       },
       "ui": {
         "term": "DAI"
-      },
-      "code": {
-        "term": "dai"
       }
     },
     "grammar": {
@@ -12665,9 +11831,6 @@
       },
       "ui": {
         "term": "Tokenisasi"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -12713,9 +11876,6 @@
       },
       "ui": {
         "term": "Pemecah"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -12756,9 +11916,6 @@
       },
       "ui": {
         "term": "Non-Kustodial"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -12800,9 +11957,6 @@
         "term": "MaxEB"
       },
       "ui": {
-        "term": "MaxEB"
-      },
-      "code": {
         "term": "MaxEB"
       }
     },
@@ -12846,9 +12000,6 @@
       },
       "ui": {
         "term": "Entropi"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -12893,9 +12044,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -12935,9 +12083,6 @@
         "term": "discv5"
       },
       "ui": {
-        "term": "discv5"
-      },
-      "code": {
         "term": "discv5"
       }
     },
@@ -12981,9 +12126,6 @@
       },
       "ui": {
         "term": "Portal Network"
-      },
-      "code": {
-        "term": "PortalNetwork"
       }
     },
     "grammar": {
@@ -13027,9 +12169,6 @@
       },
       "ui": {
         "term": "Bom Kesulitan"
-      },
-      "code": {
-        "term": "difficulty_bomb"
       }
     },
     "grammar": {
@@ -13071,9 +12210,6 @@
       },
       "ui": {
         "term": "Interoperabel"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -13117,9 +12253,6 @@
       },
       "ui": {
         "term": "Kedaluwarsa State"
-      },
-      "code": {
-        "term": "state_expiry"
       }
     },
     "grammar": {
@@ -13164,9 +12297,6 @@
       },
       "ui": {
         "term": "Saksi"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -13206,9 +12336,6 @@
         "term": "Berlin"
       },
       "ui": {
-        "term": "Berlin"
-      },
-      "code": {
         "term": "Berlin"
       }
     },
@@ -13252,9 +12379,6 @@
       },
       "ui": {
         "term": "Transaksi Tertunda"
-      },
-      "code": {
-        "term": "pending_transaction"
       }
     },
     "grammar": {
@@ -13300,9 +12424,6 @@
       },
       "ui": {
         "term": "Aktivasi"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -13345,9 +12466,6 @@
       },
       "ui": {
         "term": "Frontier"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -13390,9 +12508,6 @@
       },
       "ui": {
         "term": "Barang Publik"
-      },
-      "code": {
-        "term": "public_goods"
       }
     },
     "grammar": {
@@ -13436,9 +12551,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -13481,9 +12593,6 @@
       },
       "ui": {
         "term": "Kredensial yang Dapat Diverifikasi"
-      },
-      "code": {
-        "term": "verifiable_credential"
       }
     },
     "grammar": {
@@ -13527,9 +12636,6 @@
       },
       "ui": {
         "term": "Ketidakberubahan"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -13572,9 +12678,6 @@
       },
       "ui": {
         "term": "Token Staking Likuid"
-      },
-      "code": {
-        "term": "liquid_staking_token"
       }
     },
     "grammar": {
@@ -13618,9 +12721,6 @@
       },
       "ui": {
         "term": "Staking sebagai Layanan"
-      },
-      "code": {
-        "term": "staking_as_a_service"
       }
     },
     "grammar": {
@@ -13661,9 +12761,6 @@
       },
       "ui": {
         "term": "Kredensial Penarikan"
-      },
-      "code": {
-        "term": "withdrawal_credentials"
       }
     },
     "grammar": {
@@ -13704,9 +12801,6 @@
       },
       "ui": {
         "term": "Keccak-256"
-      },
-      "code": {
-        "term": "KECCAK_256"
       }
     },
     "grammar": {
@@ -13749,9 +12843,6 @@
       },
       "ui": {
         "term": "Kedaluwarsa Riwayat"
-      },
-      "code": {
-        "term": "history_expiry"
       }
     },
     "grammar": {
@@ -13794,9 +12885,6 @@
       },
       "ui": {
         "term": "Web 3.0"
-      },
-      "code": {
-        "term": "web_3_0"
       }
     },
     "grammar": {
@@ -13839,9 +12927,6 @@
       },
       "ui": {
         "term": "Constantinople"
-      },
-      "code": {
-        "term": "CONSTANTINOPLE"
       }
     },
     "grammar": {
@@ -13884,9 +12969,6 @@
       },
       "ui": {
         "term": "Verifikasi Kode Sumber"
-      },
-      "code": {
-        "term": "source_code_verification"
       }
     },
     "grammar": {
@@ -13929,9 +13011,6 @@
       },
       "ui": {
         "term": "POAP"
-      },
-      "code": {
-        "term": "poap"
       }
     },
     "grammar": {
@@ -13975,9 +13054,6 @@
       },
       "ui": {
         "term": "Kirim Intensi"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -14020,9 +13096,6 @@
       },
       "ui": {
         "term": "Juru Bayar"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -14065,9 +13138,6 @@
       },
       "ui": {
         "term": "Akun Pintar"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -14111,9 +13181,6 @@
       },
       "ui": {
         "term": "Simpul Suar"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -14158,9 +13225,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "BLS"
       }
     },
     "grammar": {
@@ -14202,9 +13266,6 @@
         "term": "SSZ"
       },
       "ui": {
-        "term": "SSZ"
-      },
-      "code": {
         "term": "SSZ"
       }
     },
@@ -14248,9 +13309,6 @@
       },
       "ui": {
         "term": "Geth"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -14293,9 +13351,6 @@
       },
       "ui": {
         "term": "Ethereum Classic"
-      },
-      "code": {
-        "term": "ethereumClassic"
       }
     },
     "grammar": {
@@ -14340,9 +13395,6 @@
       },
       "ui": {
         "term": "Bizantium"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -14386,9 +13438,6 @@
       },
       "ui": {
         "term": "ECDSA"
-      },
-      "code": {
-        "term": "ECDSA"
       }
     },
     "grammar": {
@@ -14429,9 +13478,6 @@
       },
       "ui": {
         "term": "Pemulihan Sosial"
-      },
-      "code": {
-        "term": "social_recovery"
       }
     },
     "grammar": {
@@ -14474,9 +13520,6 @@
       },
       "ui": {
         "term": "Pemisahan Pembangun"
-      },
-      "code": {
-        "term": "builder_separation"
       }
     },
     "grammar": {
@@ -14519,9 +13562,6 @@
       },
       "ui": {
         "term": "Bukti Kepemilikan"
-      },
-      "code": {
-        "term": "proof_of_stake"
       }
     },
     "grammar": {
@@ -14563,9 +13603,6 @@
         "term": "ecc"
       },
       "ui": {
-        "term": "ECC"
-      },
-      "code": {
         "term": "ECC"
       }
     },
@@ -14609,9 +13646,6 @@
       },
       "ui": {
         "term": "Umpan Harga"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -14654,9 +13688,6 @@
       },
       "ui": {
         "term": "Devnet"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -14697,9 +13728,6 @@
       },
       "ui": {
         "term": "Protokol Gosip"
-      },
-      "code": {
-        "term": "gossip_protocol"
       }
     },
     "grammar": {
@@ -14740,9 +13768,6 @@
       },
       "ui": {
         "term": "Swarm"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -14783,9 +13808,6 @@
       },
       "ui": {
         "term": "Homestead"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -14827,9 +13849,6 @@
         "term": "DAC"
       },
       "ui": {
-        "term": "DAC"
-      },
-      "code": {
         "term": "DAC"
       }
     },
@@ -14874,9 +13893,6 @@
       },
       "ui": {
         "term": "Pengodean Penghapusan"
-      },
-      "code": {
-        "term": "erasureCoding"
       }
     },
     "grammar": {
@@ -14919,9 +13935,6 @@
       },
       "ui": {
         "term": "Trie Penyimpanan"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -14964,9 +13977,6 @@
       },
       "ui": {
         "term": "Biaya Blob"
-      },
-      "code": {
-        "term": "blobFee"
       }
     },
     "grammar": {
@@ -15010,9 +14020,6 @@
       },
       "ui": {
         "term": "Biaya Prioritas"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -15057,9 +14064,6 @@
       },
       "ui": {
         "term": "Masalah Tanpa Risiko"
-      },
-      "code": {
-        "term": "nothingAtStake"
       }
     },
     "grammar": {
@@ -15103,9 +14107,6 @@
       },
       "ui": {
         "term": "Dorongan Pengusul"
-      },
-      "code": {
-        "term": "proposerBoost"
       }
     },
     "grammar": {
@@ -15148,9 +14149,6 @@
       },
       "ui": {
         "term": "Masalah Oracle"
-      },
-      "code": {
-        "term": "oracleProblem"
       }
     },
     "grammar": {
@@ -15191,9 +14189,6 @@
       },
       "ui": {
         "term": "Agen Otonom"
-      },
-      "code": {
-        "term": "autonomousAgent"
       }
     },
     "grammar": {
@@ -15238,9 +14233,6 @@
       },
       "ui": {
         "term": "Bukti Kerja"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -15281,9 +14273,6 @@
       },
       "ui": {
         "term": "Szabo"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -15323,9 +14312,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -15369,9 +14355,6 @@
       },
       "ui": {
         "term": "Pohon Verkle"
-      },
-      "code": {
-        "term": "verkleTree"
       }
     },
     "grammar": {
@@ -15414,9 +14397,6 @@
       },
       "ui": {
         "term": "Fungsi Fallback"
-      },
-      "code": {
-        "term": "fallbackFunction"
       }
     },
     "grammar": {
@@ -15460,9 +14440,6 @@
       },
       "ui": {
         "term": "Airdrop"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -15504,9 +14481,6 @@
         "term": "USDC"
       },
       "ui": {
-        "term": "USDC"
-      },
-      "code": {
         "term": "USDC"
       }
     },
@@ -15550,9 +14524,6 @@
       },
       "ui": {
         "term": "WBTC"
-      },
-      "code": {
-        "term": "WBTC"
       }
     },
     "grammar": {
@@ -15595,9 +14566,6 @@
       },
       "ui": {
         "term": "Pool Transaksi"
-      },
-      "code": {
-        "term": "transactionPool"
       }
     },
     "grammar": {
@@ -15640,9 +14608,6 @@
       },
       "ui": {
         "term": "Wali"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -15686,9 +14651,6 @@
       },
       "ui": {
         "term": "Penyimpanan Kunci"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -15732,9 +14694,6 @@
       },
       "ui": {
         "term": "Kustodian Mandiri"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -15777,9 +14736,6 @@
       },
       "ui": {
         "term": "Casper FFG"
-      },
-      "code": {
-        "term": "casperFFG"
       }
     },
     "grammar": {
@@ -15822,9 +14778,6 @@
       },
       "ui": {
         "term": "Tanda Tangan BLS"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -15867,9 +14820,6 @@
       },
       "ui": {
         "term": "Trie Merkle Patricia"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -15912,9 +14862,6 @@
       },
       "ui": {
         "term": "Propagasi Blok"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -15955,9 +14902,6 @@
       },
       "ui": {
         "term": "Finney"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -16000,9 +14944,6 @@
       },
       "ui": {
         "term": "Barang Publik"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -16046,9 +14987,6 @@
       },
       "ui": {
         "term": "Perbendaharaan"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -16092,9 +15030,6 @@
       },
       "ui": {
         "term": "KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -16136,9 +15071,6 @@
         "term": "SIWE"
       },
       "ui": {
-        "term": "SIWE"
-      },
-      "code": {
         "term": "SIWE"
       }
     },
@@ -16185,9 +15117,6 @@
       },
       "ui": {
         "term": "Front-running"
-      },
-      "code": {
-        "term": "frontRunning"
       }
     },
     "grammar": {
@@ -16228,9 +15157,6 @@
       },
       "ui": {
         "term": "Istanbul"
-      },
-      "code": {
-        "term": "ISTANBUL"
       }
     },
     "grammar": {
@@ -16271,9 +15197,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "KEVM"
       }
     },
     "grammar": {
@@ -16313,9 +15236,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -16360,9 +15280,6 @@
       },
       "ui": {
         "term": "Biaya Maksimum"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -16408,9 +15325,6 @@
       },
       "ui": {
         "term": "Tanda Tangan Ganda"
-      },
-      "code": {
-        "term": "multiSignature"
       }
     },
     "grammar": {
@@ -16454,9 +15368,6 @@
       },
       "ui": {
         "term": "OperasiPengguna"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -16499,9 +15410,6 @@
       },
       "ui": {
         "term": "Pemotongan Sosial"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -16543,9 +15451,6 @@
         "term": "SSLE"
       },
       "ui": {
-        "term": "SSLE"
-      },
-      "code": {
         "term": "SSLE"
       }
     },
@@ -16590,9 +15495,6 @@
       },
       "ui": {
         "term": "Penggerusan Stake"
-      },
-      "code": {
-        "term": "stakeGrinding"
       }
     },
     "grammar": {
@@ -16636,9 +15538,6 @@
       },
       "ui": {
         "term": "TEE"
-      },
-      "code": {
-        "term": "TEE"
       }
     },
     "grammar": {
@@ -16681,9 +15580,6 @@
       },
       "ui": {
         "term": "Oracle Blockchain"
-      },
-      "code": {
-        "term": "blockchainOracle"
       }
     },
     "grammar": {
@@ -16727,9 +15623,6 @@
       },
       "ui": {
         "term": "MODEXP"
-      },
-      "code": {
-        "term": "modexp"
       }
     },
     "grammar": {
@@ -16772,9 +15665,6 @@
       },
       "ui": {
         "term": "Faucet Testnet"
-      },
-      "code": {
-        "term": "testnetFaucet"
       }
     },
     "grammar": {
@@ -16816,9 +15706,6 @@
       },
       "ui": {
         "term": "Tahan Sensor"
-      },
-      "code": {
-        "term": "censorshipResistant"
       }
     },
     "grammar": {
@@ -16859,9 +15746,6 @@
       },
       "ui": {
         "term": "Token Tata Kelola"
-      },
-      "code": {
-        "term": "governanceToken"
       }
     },
     "grammar": {
@@ -16908,9 +15792,6 @@
       },
       "ui": {
         "term": "Pemaket"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -16954,9 +15835,6 @@
       },
       "ui": {
         "term": "AMM"
-      },
-      "code": {
-        "term": "amm"
       }
     },
     "grammar": {
@@ -17000,9 +15878,6 @@
       },
       "ui": {
         "term": "Yield Farming"
-      },
-      "code": {
-        "term": "yield_farming"
       }
     },
     "grammar": {
@@ -17047,9 +15922,6 @@
       },
       "ui": {
         "term": "SBT"
-      },
-      "code": {
-        "term": "soulbound_token"
       }
     },
     "grammar": {
@@ -17093,9 +15965,6 @@
       },
       "ui": {
         "term": "Siklus Hidup Validator"
-      },
-      "code": {
-        "term": "validator_lifecycle"
       }
     },
     "grammar": {
@@ -17139,9 +16008,6 @@
       },
       "ui": {
         "term": "Blockchain Modular"
-      },
-      "code": {
-        "term": "modular_blockchain"
       }
     },
     "grammar": {
@@ -17185,9 +16051,6 @@
       },
       "ui": {
         "term": "Blockchain Monolitik"
-      },
-      "code": {
-        "term": "monolithic_blockchain"
       }
     },
     "grammar": {
@@ -17231,9 +16094,6 @@
       },
       "ui": {
         "term": "RPGF"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -17277,9 +16137,6 @@
       },
       "ui": {
         "term": "TVL"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -17323,9 +16180,6 @@
       },
       "ui": {
         "term": "Pemungutan Suara Kuadratik"
-      },
-      "code": {
-        "term": "quadratic_voting"
       }
     },
     "grammar": {
@@ -17368,9 +16222,6 @@
       },
       "ui": {
         "term": "Back-Running"
-      },
-      "code": {
-        "term": "back_running"
       }
     },
     "grammar": {
@@ -17413,9 +16264,6 @@
       },
       "ui": {
         "term": "Lapisan Ketersediaan Data"
-      },
-      "code": {
-        "term": "lapisan_ketersediaan_data"
       }
     },
     "grammar": {
@@ -17458,9 +16306,6 @@
       },
       "ui": {
         "term": "Kontrak Dapat Ditingkatkan"
-      },
-      "code": {
-        "term": "kontrak_yang_dapat_ditingkatkan"
       }
     },
     "grammar": {
@@ -17501,9 +16346,6 @@
       },
       "ui": {
         "term": "Token Utilitas"
-      },
-      "code": {
-        "term": "token_utilitas"
       }
     },
     "grammar": {
@@ -17546,9 +16388,6 @@
       },
       "ui": {
         "term": "Dompet Dingin"
-      },
-      "code": {
-        "term": "dompet_dingin"
       }
     },
     "grammar": {
@@ -17589,9 +16428,6 @@
       },
       "ui": {
         "term": "Jalur Derivasi"
-      },
-      "code": {
-        "term": "jalur_derivasi"
       }
     },
     "grammar": {
@@ -17632,9 +16468,6 @@
       },
       "ui": {
         "term": "Dompet Perangkat Keras"
-      },
-      "code": {
-        "term": "dompet_perangkat_keras"
       }
     },
     "grammar": {
@@ -17677,9 +16510,6 @@
       },
       "ui": {
         "term": "Dompet Panas"
-      },
-      "code": {
-        "term": "dompet_panas"
       }
     },
     "grammar": {
@@ -17720,9 +16550,6 @@
       },
       "ui": {
         "term": "Kunci"
-      },
-      "code": {
-        "term": "kunci"
       }
     },
     "grammar": {
@@ -17765,9 +16592,6 @@
       },
       "ui": {
         "term": "Fungsi Derivasi Kunci"
-      },
-      "code": {
-        "term": "fungsi_derivasi_kunci"
       }
     },
     "grammar": {
@@ -17810,9 +16634,6 @@
       },
       "ui": {
         "term": "Kunci Sandi"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -17853,9 +16674,6 @@
       },
       "ui": {
         "term": "Alamat Nol"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -17900,9 +16718,6 @@
       },
       "ui": {
         "term": "Batas Churn"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -17943,9 +16758,6 @@
       },
       "ui": {
         "term": "Aturan Konsensus"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -17990,9 +16802,6 @@
       },
       "ui": {
         "term": "Ekivokasi"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -18033,9 +16842,6 @@
       },
       "ui": {
         "term": "Konsensus Holografik"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -18079,9 +16885,6 @@
       },
       "ui": {
         "term": "Kebocoran Ketidakaktifan"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -18127,9 +16930,6 @@
       },
       "ui": {
         "term": "Penerbitan"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -18172,9 +16972,6 @@
       },
       "ui": {
         "term": "Mayoritas Super"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -18217,9 +17014,6 @@
       },
       "ui": {
         "term": "Komitmen"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -18262,9 +17056,6 @@
       },
       "ui": {
         "term": "Tabel Hash Terdistribusi"
-      },
-      "code": {
-        "term": "distributedHashTable"
       }
     },
     "grammar": {
@@ -18305,9 +17096,6 @@
       },
       "ui": {
         "term": "Ethash"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -18350,9 +17138,6 @@
       },
       "ui": {
         "term": "Hashrate Jaringan"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -18395,9 +17180,6 @@
       },
       "ui": {
         "term": "Secure Hash Algorithm"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -18438,9 +17220,6 @@
       },
       "ui": {
         "term": "Rantai Shard"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -18483,9 +17262,6 @@
       },
       "ui": {
         "term": "Pengaturan Tepercaya"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -18528,9 +17304,6 @@
       },
       "ui": {
         "term": "Antarmuka API"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -18573,9 +17346,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -18622,9 +17392,6 @@
       },
       "ui": {
         "term": "Lepas Patokan"
-      },
-      "code": {
-        "term": "depeg"
       }
     },
     "grammar": {
@@ -18668,9 +17435,6 @@
       },
       "ui": {
         "term": "Kerugian Tidak Permanen"
-      },
-      "code": {
-        "term": "impermanentLoss"
       }
     },
     "grammar": {
@@ -18713,9 +17477,6 @@
       },
       "ui": {
         "term": "Indeks"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -18759,9 +17520,6 @@
       },
       "ui": {
         "term": "Token Likuiditas"
-      },
-      "code": {
-        "term": "liquidityTokens"
       }
     },
     "grammar": {
@@ -18805,9 +17563,6 @@
       },
       "ui": {
         "term": "Agunan Berlebih"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -18854,9 +17609,6 @@
       },
       "ui": {
         "term": "Patokan"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -18899,9 +17651,6 @@
       },
       "ui": {
         "term": "Dampak Harga"
-      },
-      "code": {
-        "term": "priceImpact"
       }
     },
     "grammar": {
@@ -18946,9 +17695,6 @@
       },
       "ui": {
         "term": "Selisih Harga"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -18992,9 +17738,6 @@
       },
       "ui": {
         "term": "Eth1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -19038,9 +17781,6 @@
       },
       "ui": {
         "term": "Eth2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -19083,9 +17823,6 @@
       },
       "ui": {
         "term": "Serangan 51%"
-      },
-      "code": {
-        "term": "fiftyOnePercentAttack"
       }
     },
     "grammar": {
@@ -19130,9 +17867,6 @@
       },
       "ui": {
         "term": "Himpunan Anonimitas"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -19177,9 +17911,6 @@
       },
       "ui": {
         "term": "Anti-Sybil"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -19224,9 +17955,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "asic"
       }
     },
     "grammar": {
@@ -19271,9 +17999,6 @@
       },
       "ui": {
         "term": "Big-Endian"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -19314,9 +18039,6 @@
       },
       "ui": {
         "term": "Status Blok"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -19364,9 +18086,6 @@
       },
       "ui": {
         "term": "Kompilasi"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -19410,9 +18129,6 @@
       },
       "ui": {
         "term": "Ketidakmungkinan Komputasional"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -19456,9 +18172,6 @@
       },
       "ui": {
         "term": "Dipertimbangkan untuk Disertakan"
-      },
-      "code": {
-        "term": "consideredForInclusion"
       }
     },
     "grammar": {
@@ -19501,9 +18214,6 @@
       },
       "ui": {
         "term": "Kriptoekonomi"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -19549,9 +18259,6 @@
       },
       "ui": {
         "term": "DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -19595,9 +18302,6 @@
       },
       "ui": {
         "term": "DePIN"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -19643,9 +18347,6 @@
       },
       "ui": {
         "term": "Penemuan"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -19692,9 +18393,6 @@
       },
       "ui": {
         "term": "Pengeluaran Ganda"
-      },
-      "code": {
-        "term": "double_spend"
       }
     },
     "grammar": {
@@ -19735,9 +18433,6 @@
       },
       "ui": {
         "term": "Klien Eksekusi"
-      },
-      "code": {
-        "term": "execution_client"
       }
     },
     "grammar": {
@@ -19778,9 +18473,6 @@
       },
       "ui": {
         "term": "Lapisan Eksekusi"
-      },
-      "code": {
-        "term": "execution_layer"
       }
     },
     "grammar": {
@@ -19824,9 +18516,6 @@
       },
       "ui": {
         "term": "Buka IDE"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -19869,9 +18558,6 @@
       },
       "ui": {
         "term": "Klien Ringan"
-      },
-      "code": {
-        "term": "light_client"
       }
     },
     "grammar": {
@@ -19915,9 +18601,6 @@
       },
       "ui": {
         "term": "Kirim Pesan"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -19961,9 +18644,6 @@
       },
       "ui": {
         "term": "Panggilan Pesan"
-      },
-      "code": {
-        "term": "message_call"
       }
     },
     "grammar": {
@@ -20010,9 +18690,6 @@
       },
       "ui": {
         "term": "Pilih Jaringan"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -20056,9 +18733,6 @@
       },
       "ui": {
         "term": "Jalur Keluar"
-      },
-      "code": {
-        "term": "jalur_keluar"
       }
     },
     "grammar": {
@@ -20103,9 +18777,6 @@
       },
       "ui": {
         "term": "Blok Ommer"
-      },
-      "code": {
-        "term": "blok_ommer"
       }
     },
     "grammar": {
@@ -20149,9 +18820,6 @@
       },
       "ui": {
         "term": "Jalur Masuk"
-      },
-      "code": {
-        "term": "jalur_masuk"
       }
     },
     "grammar": {
@@ -20198,9 +18866,6 @@
       },
       "ui": {
         "term": "Orientasi"
-      },
-      "code": {
-        "term": "orientasi"
       }
     },
     "grammar": {
@@ -20242,9 +18907,6 @@
       },
       "ui": {
         "term": "Berizin"
-      },
-      "code": {
-        "term": "berizin"
       }
     },
     "grammar": {
@@ -20288,9 +18950,6 @@
       },
       "ui": {
         "term": "Rantai Privat"
-      },
-      "code": {
-        "term": "rantai_privat"
       }
     },
     "grammar": {
@@ -20333,9 +18992,6 @@
       },
       "ui": {
         "term": "Bukti Kehadiran"
-      },
-      "code": {
-        "term": "bukti_kehadiran"
       }
     },
     "grammar": {
@@ -20379,9 +19035,6 @@
       },
       "ui": {
         "term": "Serangan Re-entrancy"
-      },
-      "code": {
-        "term": "serangan_reentrancy"
       }
     },
     "grammar": {
@@ -20431,9 +19084,6 @@
       },
       "ui": {
         "term": "Imbalan"
-      },
-      "code": {
-        "term": "imbalan"
       }
     },
     "grammar": {
@@ -20474,9 +19124,6 @@
       },
       "ui": {
         "term": "Kedaulatan Diri"
-      },
-      "code": {
-        "term": "selfSovereignty"
       }
     },
     "grammar": {
@@ -20522,9 +19169,6 @@
       },
       "ui": {
         "term": "Serialisasi"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -20567,9 +19211,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -20612,9 +19253,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -20657,9 +19295,6 @@
       },
       "ui": {
         "term": "Pembengkakan State"
-      },
-      "code": {
-        "term": "stateBloat"
       }
     },
     "grammar": {
@@ -20703,9 +19338,6 @@
       },
       "ui": {
         "term": "Ketiadaan State"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -20746,9 +19378,6 @@
       },
       "ui": {
         "term": "Serangan Sybil"
-      },
-      "code": {
-        "term": "sybilAttack"
       }
     },
     "grammar": {
@@ -20794,9 +19423,6 @@
       },
       "ui": {
         "term": "Sinkronisasi"
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -20839,9 +19465,6 @@
       },
       "ui": {
         "term": "Kesulitan Total Terminal"
-      },
-      "code": {
-        "term": "terminalTotalDifficulty"
       }
     },
     "grammar": {
@@ -20882,9 +19505,6 @@
       },
       "ui": {
         "term": "Asumsi Kepercayaan"
-      },
-      "code": {
-        "term": "trustAssumptions"
       }
     },
     "grammar": {
@@ -20925,9 +19545,6 @@
       },
       "ui": {
         "term": "Minim Kepercayaan"
-      },
-      "code": {
-        "term": "trustMinimized"
       }
     },
     "grammar": {
@@ -20970,9 +19587,6 @@
       },
       "ui": {
         "term": "Sifat Tanpa Kepercayaan"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -21013,9 +19627,6 @@
       },
       "ui": {
         "term": "Lengkap Turing"
-      },
-      "code": {
-        "term": "turingComplete"
       }
     },
     "grammar": {
@@ -21058,9 +19669,6 @@
       },
       "ui": {
         "term": "Web2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -21103,9 +19711,6 @@
       },
       "ui": {
         "term": "Serangan Sandwich"
-      },
-      "code": {
-        "term": "sandwichAttack"
       }
     },
     "grammar": {
@@ -21152,9 +19757,6 @@
       },
       "ui": {
         "term": "Pemrosesan Batch"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -21197,9 +19799,6 @@
       },
       "ui": {
         "term": "Ruang Blob"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -21243,9 +19842,6 @@
       },
       "ui": {
         "term": "Gunakan Penyelamatan"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -21288,9 +19884,6 @@
       },
       "ui": {
         "term": "Kirim Bukti Kesalahan"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -21334,9 +19927,6 @@
       },
       "ui": {
         "term": "Mulai Penarikan Sepihak"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -21379,9 +19969,6 @@
       },
       "ui": {
         "term": "Jaringan Rollup"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -21430,9 +20017,6 @@
       },
       "ui": {
         "term": "Status Penyelesaian"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -21476,9 +20060,6 @@
       },
       "ui": {
         "term": "Buka Kanal State"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -21522,9 +20103,6 @@
       },
       "ui": {
         "term": "Laju Pemrosesan"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -21565,9 +20143,6 @@
       },
       "ui": {
         "term": "Jaringan Validium"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -21610,9 +20185,6 @@
       },
       "ui": {
         "term": "Data Panggilan"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -21653,9 +20225,6 @@
       },
       "ui": {
         "term": "Buat Kontrak"
-      },
-      "code": {
-        "term": "contractCreationTx"
       }
     },
     "grammar": {
@@ -21699,9 +20268,6 @@
       },
       "ui": {
         "term": "Assembly EVM"
-      },
-      "code": {
-        "term": "evmAssembly"
       }
     },
     "grammar": {
@@ -21747,9 +20313,6 @@
       },
       "ui": {
         "term": "Optimalkan Gas"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -21792,9 +20355,6 @@
       },
       "ui": {
         "term": "Masalah Kode Ter-deploy"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -21840,9 +20400,6 @@
       },
       "ui": {
         "term": "Prakompilasi"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -21886,9 +20443,6 @@
       },
       "ui": {
         "term": "Pelindung Reentrasi"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -21935,9 +20489,6 @@
       },
       "ui": {
         "term": "Hancurkan Diri"
-      },
-      "code": {
-        "term": "selfdestruct"
       }
     },
     "grammar": {
@@ -21978,9 +20529,6 @@
       },
       "ui": {
         "term": "Singleton"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -22024,9 +20572,6 @@
       },
       "ui": {
         "term": "Assembly Sebaris"
-      },
-      "code": {
-        "term": "solidity-inline-assembly"
       }
     },
     "grammar": {
@@ -22072,9 +20617,6 @@
       },
       "ui": {
         "term": "State"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -22120,9 +20662,6 @@
       },
       "ui": {
         "term": "Klaim Token"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -22168,9 +20707,6 @@
       },
       "ui": {
         "term": "Periode Cliff"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -22218,9 +20754,6 @@
       },
       "ui": {
         "term": "Fraksionalisasi"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -22264,9 +20797,6 @@
       },
       "ui": {
         "term": "Token LP Anda"
-      },
-      "code": {
-        "term": "lp-token"
       }
     },
     "grammar": {
@@ -22310,9 +20840,6 @@
       },
       "ui": {
         "term": "Buat via Pabrik"
-      },
-      "code": {
-        "term": "token-factory"
       }
     },
     "grammar": {
@@ -22353,9 +20880,6 @@
       },
       "ui": {
         "term": "Ubah URI Token"
-      },
-      "code": {
-        "term": "token-uri"
       }
     },
     "grammar": {
@@ -22401,9 +20925,6 @@
       },
       "ui": {
         "term": "Jadwal Vesting"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -22452,9 +20973,6 @@
       },
       "ui": {
         "term": "Bungkus Token"
-      },
-      "code": {
-        "term": "wrapped-token"
       }
     },
     "grammar": {
@@ -22495,9 +21013,6 @@
       },
       "ui": {
         "term": "Transaksi Internal"
-      },
-      "code": {
-        "term": "internal_transaction"
       }
     },
     "grammar": {
@@ -22540,9 +21055,6 @@
       },
       "ui": {
         "term": "Biaya Maksimum Per Gas"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -22583,9 +21095,6 @@
       },
       "ui": {
         "term": "Konstruktor"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -22615,9 +21124,6 @@
       },
       "ui": {
         "term": "Charles Hoskinson"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -22642,9 +21148,6 @@
         "term": "Gavin Wood"
       },
       "ui": {
-        "term": "Gavin Wood"
-      },
-      "code": {
         "term": "Gavin Wood"
       }
     },
@@ -22671,9 +21174,6 @@
       },
       "ui": {
         "term": "Joseph Lubin"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -22698,9 +21198,6 @@
         "term": "Vitalik Buterin"
       },
       "ui": {
-        "term": "Vitalik Buterin"
-      },
-      "code": {
         "term": "Vitalik Buterin"
       }
     },
@@ -22727,9 +21224,6 @@
       },
       "ui": {
         "term": "Wei Dai"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -22754,9 +21248,6 @@
         "term": "Aave"
       },
       "ui": {
-        "term": "Aave"
-      },
-      "code": {
         "term": "Aave"
       }
     },
@@ -22783,9 +21274,6 @@
       },
       "ui": {
         "term": "Arbitrum"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -22810,9 +21298,6 @@
         "term": "Binance"
       },
       "ui": {
-        "term": "Binance"
-      },
-      "code": {
         "term": "Binance"
       }
     },
@@ -22839,9 +21324,6 @@
       },
       "ui": {
         "term": "Chrome"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -22866,9 +21348,6 @@
         "term": "Coinbase"
       },
       "ui": {
-        "term": "Coinbase"
-      },
-      "code": {
         "term": "Coinbase"
       }
     },
@@ -22895,9 +21374,6 @@
       },
       "ui": {
         "term": "ConsenSys"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -22922,9 +21398,6 @@
         "term": "CryptoKitties"
       },
       "ui": {
-        "term": "CryptoKitties"
-      },
-      "code": {
         "term": "CryptoKitties"
       }
     },
@@ -22951,9 +21424,6 @@
       },
       "ui": {
         "term": "Dencun"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -22978,9 +21448,6 @@
         "term": "Discord"
       },
       "ui": {
-        "term": "Discord"
-      },
-      "code": {
         "term": "Discord"
       }
     },
@@ -23007,9 +21474,6 @@
       },
       "ui": {
         "term": "Facebook"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -23034,9 +21498,6 @@
         "term": "Filecoin"
       },
       "ui": {
-        "term": "Filecoin"
-      },
-      "code": {
         "term": "Filecoin"
       }
     },
@@ -23063,9 +21524,6 @@
       },
       "ui": {
         "term": "Goerli"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -23090,9 +21548,6 @@
         "term": "Holesky"
       },
       "ui": {
-        "term": "Holesky"
-      },
-      "code": {
         "term": "Holesky"
       }
     },
@@ -23119,9 +21574,6 @@
       },
       "ui": {
         "term": "Lido"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -23146,9 +21598,6 @@
         "term": "MakerDAO"
       },
       "ui": {
-        "term": "MakerDAO"
-      },
-      "code": {
         "term": "MakerDAO"
       }
     },
@@ -23175,9 +21624,6 @@
       },
       "ui": {
         "term": "Microsoft"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -23202,9 +21648,6 @@
         "term": "Netflix"
       },
       "ui": {
-        "term": "Netflix"
-      },
-      "code": {
         "term": "Netflix"
       }
     },
@@ -23231,9 +21674,6 @@
       },
       "ui": {
         "term": "OpenSea"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -23258,9 +21698,6 @@
         "term": "Optimism"
       },
       "ui": {
-        "term": "Optimism"
-      },
-      "code": {
         "term": "Optimism"
       }
     },
@@ -23287,9 +21724,6 @@
       },
       "ui": {
         "term": "PayPal"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -23314,9 +21748,6 @@
         "term": "Polygon"
       },
       "ui": {
-        "term": "Polygon"
-      },
-      "code": {
         "term": "Polygon"
       }
     },
@@ -23343,9 +21774,6 @@
       },
       "ui": {
         "term": "Reddit"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -23370,9 +21798,6 @@
         "term": "Ropsten"
       },
       "ui": {
-        "term": "Ropsten"
-      },
-      "code": {
         "term": "Ropsten"
       }
     },
@@ -23399,9 +21824,6 @@
       },
       "ui": {
         "term": "Starknet"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -23426,9 +21848,6 @@
         "term": "Telegram"
       },
       "ui": {
-        "term": "Telegram"
-      },
-      "code": {
         "term": "Telegram"
       }
     },
@@ -23455,9 +21874,6 @@
       },
       "ui": {
         "term": "Twitter"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -23483,9 +21899,6 @@
       },
       "ui": {
         "term": "YouTube"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -23510,9 +21923,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },

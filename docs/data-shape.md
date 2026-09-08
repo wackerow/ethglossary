@@ -64,9 +64,11 @@ The **master key** in `confirmed_terms` is the canonical term name (e.g. `"proxy
     prose?: { term: string; example?: string },
     heading?: { term: string },
     tag?: { term: string },
-    ui?: { term: string },
-    code?: { term: string }
+    ui?: { term: string }
   },
+  // There is deliberately no `code` context. Code is excluded structurally,
+  // not term by term -- see "Code is not translated" in docs/design-decisions.md.
+
   plurals?: {
     one: string | null,
     two?: string | null,
