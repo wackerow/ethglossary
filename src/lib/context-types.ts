@@ -3,26 +3,31 @@
  *
  * A glossary term does not have one translation -- it has one per *context*,
  * because the same English word behaves differently in running text, in a
- * button label, and in a code identifier. These are the slots a translator
+ * heading, on a filter chip and on a button. These are the slots a translator
  * fills in and a reviewer votes on.
  *
- * The six slots below are the votable units of feedback. Five of them
- * (prose/heading/tag/ui/code) are populated for all 541 entries in all 24
- * languages. `plurals` is conditional: six languages do not mark plurals
- * grammatically at all, and among the eighteen that do, coverage ranges from
- * 260/541 (Bengali) to 490/541 (Polish). Never assume a fixed slot count --
- * always derive it from the entry via `applicableContexts()`.
+ * The five slots below are the votable units of feedback. Four of them
+ * (prose/heading/tag/ui) are populated for every entry in all 24 languages.
+ * `plurals` is conditional: six languages do not mark plurals grammatically at
+ * all, and among the eighteen that do, coverage varies term by term. Never
+ * assume a fixed slot count -- always derive it from the entry via
+ * `applicableContexts()`.
+ *
+ * There is deliberately no `code` slot. Code is excluded structurally, not
+ * term by term: /filter strips fenced blocks and inline code before matching,
+ * and where a term must stay Latin in running prose that is its own
+ * `script_rule`. See "Code is not translated" in docs/design-decisions.md.
  */
 
-export type ContextId = "prose" | "heading" | "tag" | "ui" | "code" | "plurals"
+export type ContextId = "prose" | "heading" | "tag" | "ui" | "plurals"
 
 /**
  * The term the /contexts page uses to demonstrate the slots.
  *
  * Chosen because it is the clearest teacher in the whole glossary: `tag`
  * collapses to the bare acronym, `heading` title-cases and appends it, `ui`
- * shortens for a control, `code` is a lowercase identifier -- and Russian
- * fills five CLDR plural categories where Spanish fills two.
+ * shortens for a control -- and Russian fills five CLDR plural categories
+ * where Spanish fills two.
  *
  * Keyed by canonical term name, never the id slug. See docs/gotchas.md.
  */
@@ -80,14 +85,6 @@ export const CONTEXT_TYPES: ContextType[] = [
     example: "External account (EOA)",
   },
   {
-    id: "code",
-    label: "Code",
-    summary: "Identifiers, API fields, CLI flags -- usually untranslated.",
-    detail:
-      "The form used inside code: a JSON key, a function name, a CLI flag, a config value. This is almost always the English original, because translating it would break the thing it names. When a term's script_rule is always_latin, this slot is the reason. Change it only if the identifier genuinely differs in the target ecosystem.",
-    example: "eoa",
-  },
-  {
     id: "plurals",
     label: "Plurals",
     summary: "CLDR plural forms, where the language marks them.",
@@ -101,8 +98,8 @@ export const CONTEXT_BY_ID: Record<ContextId, ContextType> = Object.fromEntries(
   CONTEXT_TYPES.map((c) => [c.id, c])
 ) as Record<ContextId, ContextType>
 
-/** The five contexts that live under `entry.contexts`. */
-export const NESTED_CONTEXTS = ["prose", "heading", "tag", "ui", "code"] as const
+/** The four contexts that live under `entry.contexts`. */
+export const NESTED_CONTEXTS = ["prose", "heading", "tag", "ui"] as const
 
 /**
  * Which slots are actually populated for one translation entry.
