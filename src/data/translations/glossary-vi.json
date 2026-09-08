@@ -34,9 +34,6 @@
       },
       "ui": {
         "term": "Chứng thực"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -85,9 +82,6 @@
       },
       "ui": {
         "term": "Cầu nối"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -133,9 +127,6 @@
       },
       "ui": {
         "term": "Đốt"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -180,9 +171,6 @@
       },
       "ui": {
         "term": "Đang đốt"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -232,9 +220,6 @@
       },
       "ui": {
         "term": "Tài sản thế chấp"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -283,9 +268,6 @@
       },
       "ui": {
         "term": "Sự phi tập trung"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -329,9 +311,6 @@
       },
       "ui": {
         "term": "Phi tập trung"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -380,9 +359,6 @@
       },
       "ui": {
         "term": "Ủy quyền"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -427,9 +403,6 @@
       },
       "ui": {
         "term": "Sự ủy quyền"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -475,9 +448,6 @@
       },
       "ui": {
         "term": "Triển khai"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -520,9 +490,6 @@
       },
       "ui": {
         "term": "Việc triển khai"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -565,9 +532,6 @@
       },
       "ui": {
         "term": "Chữ ký số"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -610,9 +574,6 @@
       },
       "ui": {
         "term": "Chữ ký"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -659,9 +620,6 @@
       },
       "ui": {
         "term": "Đang ký"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -710,9 +668,6 @@
       },
       "ui": {
         "term": "Mã hóa"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -759,9 +714,6 @@
       },
       "ui": {
         "term": "Giải mã"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -807,9 +759,6 @@
       },
       "ui": {
         "term": "Tính chung cuộc"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -854,9 +803,6 @@
       },
       "ui": {
         "term": "Đã chung cuộc"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -902,9 +848,6 @@
       },
       "ui": {
         "term": "Phân nhánh"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -950,9 +893,6 @@
       },
       "ui": {
         "term": "Phân nhánh cứng"
-      },
-      "code": {
-        "term": "hard_fork"
       }
     },
     "grammar": {
@@ -998,9 +938,6 @@
       },
       "ui": {
         "term": "Phân nhánh mềm"
-      },
-      "code": {
-        "term": "soft_fork"
       }
     },
     "grammar": {
@@ -1046,9 +983,6 @@
       },
       "ui": {
         "term": "Quản trị"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1098,9 +1032,6 @@
       },
       "ui": {
         "term": "Mã băm"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1143,9 +1074,6 @@
       },
       "ui": {
         "term": "Hàm băm"
-      },
-      "code": {
-        "term": "hash_function"
       }
     },
     "grammar": {
@@ -1191,9 +1119,6 @@
       },
       "ui": {
         "term": "Tỷ lệ băm"
-      },
-      "code": {
-        "term": "hash_rate"
       }
     },
     "grammar": {
@@ -1240,9 +1165,6 @@
       },
       "ui": {
         "term": "Băm"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1285,9 +1207,6 @@
       },
       "ui": {
         "term": "Đặt cọc thanh khoản"
-      },
-      "code": {
-        "term": "liquid-staking"
       }
     },
     "grammar": {
@@ -1330,9 +1249,6 @@
       },
       "ui": {
         "term": "Đặt cọc chung"
-      },
-      "code": {
-        "term": "pooled-staking"
       }
     },
     "grammar": {
@@ -1378,9 +1294,6 @@
       },
       "ui": {
         "term": "Đặt cọc lại"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1423,9 +1336,6 @@
       },
       "ui": {
         "term": "Đặt cọc độc lập"
-      },
-      "code": {
-        "term": "solo-staking"
       }
     },
     "grammar": {
@@ -1472,9 +1382,6 @@
       },
       "ui": {
         "term": "Đặt cọc"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1515,9 +1422,6 @@
       },
       "ui": {
         "term": "Đã đặt cọc"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1560,9 +1464,6 @@
       },
       "ui": {
         "term": "Người đặt cọc"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1609,9 +1510,6 @@
       },
       "ui": {
         "term": "Đặt cọc"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1654,9 +1552,6 @@
       },
       "ui": {
         "term": "Khoản tiền đặt cọc"
-      },
-      "code": {
-        "term": "staking-deposit"
       }
     },
     "grammar": {
@@ -1700,9 +1595,6 @@
       },
       "ui": {
         "term": "Nhóm đặt cọc"
-      },
-      "code": {
-        "term": "staking-pool"
       }
     },
     "grammar": {
@@ -1749,9 +1641,6 @@
       },
       "ui": {
         "term": "Rút tiền cọc"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1800,9 +1689,6 @@
       },
       "ui": {
         "term": "Thanh lý"
-      },
-      "code": {
-        "term": "thanhLy"
       }
     },
     "grammar": {
@@ -1848,9 +1734,6 @@
       },
       "ui": {
         "term": "Thợ đào"
-      },
-      "code": {
-        "term": "thoDao"
       }
     },
     "grammar": {
@@ -1899,9 +1782,6 @@
       },
       "ui": {
         "term": "Khai thác"
-      },
-      "code": {
-        "term": "khaiThac"
       }
     },
     "grammar": {
@@ -1949,9 +1829,6 @@
       },
       "ui": {
         "term": "Đúc"
-      },
-      "code": {
-        "term": "duc"
       }
     },
     "grammar": {
@@ -1996,9 +1873,6 @@
       },
       "ui": {
         "term": "Việc đúc"
-      },
-      "code": {
-        "term": "viecDuc"
       }
     },
     "grammar": {
@@ -2047,9 +1921,6 @@
       },
       "ui": {
         "term": "Phạt cắt giảm"
-      },
-      "code": {
-        "term": "phatCatGiam"
       }
     },
     "grammar": {
@@ -2092,9 +1963,6 @@
       },
       "ui": {
         "term": "Người cắt giảm"
-      },
-      "code": {
-        "term": "nguoiCatGiam"
       }
     },
     "grammar": {
@@ -2142,9 +2010,6 @@
       },
       "ui": {
         "term": "Hoán đổi"
-      },
-      "code": {
-        "term": "hoanDoi"
       }
     },
     "grammar": {
@@ -2191,9 +2056,6 @@
       },
       "ui": {
         "term": "Giao dịch"
-      },
-      "code": {
-        "term": "giaoDich"
       }
     },
     "grammar": {
@@ -2240,9 +2102,6 @@
       },
       "ui": {
         "term": "Trình xác thực"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2286,9 +2145,6 @@
       },
       "ui": {
         "term": "Xác thực khối"
-      },
-      "code": {
-        "term": "block_validation"
       }
     },
     "grammar": {
@@ -2337,9 +2193,6 @@
       },
       "ui": {
         "term": "Bỏ phiếu"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2386,9 +2239,6 @@
       },
       "ui": {
         "term": "Đang bỏ phiếu"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2432,9 +2282,6 @@
       },
       "ui": {
         "term": "Ethereum"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2478,9 +2325,6 @@
       },
       "ui": {
         "term": "Hợp đồng"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2525,9 +2369,6 @@
       },
       "ui": {
         "term": "Khối"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2572,9 +2413,6 @@
       },
       "ui": {
         "term": "Hợp đồng thông minh"
-      },
-      "code": {
-        "term": "smart_contract"
       }
     },
     "grammar": {
@@ -2621,9 +2459,6 @@
       },
       "ui": {
         "term": "Nút"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2670,9 +2505,6 @@
       },
       "ui": {
         "term": "Token"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2717,9 +2549,6 @@
       },
       "ui": {
         "term": "Sao chép Địa chỉ"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -2764,9 +2593,6 @@
       },
       "ui": {
         "term": "Gửi ETH"
-      },
-      "code": {
-        "term": "eth"
       }
     },
     "grammar": {
@@ -2811,9 +2637,6 @@
       },
       "ui": {
         "term": "Khám phá Chuỗi khối"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -2857,9 +2680,6 @@
       },
       "ui": {
         "term": "Tạo Tài khoản"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -2905,9 +2725,6 @@
       },
       "ui": {
         "term": "Đổi Chuỗi"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -2950,9 +2767,6 @@
       },
       "ui": {
         "term": "Chi tiết Giao thức"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -2999,9 +2813,6 @@
       },
       "ui": {
         "term": "Kết nối Ví"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3047,9 +2858,6 @@
       },
       "ui": {
         "term": "Chỉnh sửa Gas"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3095,9 +2903,6 @@
       },
       "ui": {
         "term": "Sử dụng Rollup"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3142,9 +2947,6 @@
       },
       "ui": {
         "term": "Xem các EIP"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3193,9 +2995,6 @@
       },
       "ui": {
         "term": "Yêu cầu"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3238,9 +3037,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3283,9 +3079,6 @@
       },
       "ui": {
         "term": "Solidity"
-      },
-      "code": {
-        "term": "solidity"
       }
     },
     "grammar": {
@@ -3331,9 +3124,6 @@
       },
       "ui": {
         "term": "Sự kiện"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3376,9 +3166,6 @@
       },
       "ui": {
         "term": "Trên chuỗi"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3421,9 +3208,6 @@
       },
       "ui": {
         "term": "Ether"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3469,9 +3253,6 @@
       },
       "ui": {
         "term": "Máy ảo Ethereum (EVM)"
-      },
-      "code": {
-        "term": "evm"
       }
     },
     "grammar": {
@@ -3518,9 +3299,6 @@
       },
       "ui": {
         "term": "Ứng dụng phi tập trung"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3566,9 +3344,6 @@
       },
       "ui": {
         "term": "Token không thể thay thế (NFT)"
-      },
-      "code": {
-        "term": "nft"
       }
     },
     "grammar": {
@@ -3617,9 +3392,6 @@
       },
       "ui": {
         "term": "Chuyển"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3668,9 +3440,6 @@
       },
       "ui": {
         "term": "Rút Tiền"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -3719,9 +3488,6 @@
       },
       "ui": {
         "term": "Đồng Thuận"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -3766,9 +3532,6 @@
       },
       "ui": {
         "term": "Mạng Chính"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -3812,9 +3575,6 @@
       },
       "ui": {
         "term": "Ngoài Chuỗi"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -3857,9 +3617,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -3905,9 +3662,6 @@
       },
       "ui": {
         "term": "Nguồn Cấp Dữ Liệu"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -3954,9 +3708,6 @@
       },
       "ui": {
         "term": "Khối Dữ Liệu"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -3997,9 +3748,6 @@
       },
       "ui": {
         "term": "MetaMask"
-      },
-      "code": {
-        "term": "metamask"
       }
     },
     "grammar": {
@@ -4040,9 +3788,6 @@
       },
       "ui": {
         "term": "OpenZeppelin"
-      },
-      "code": {
-        "term": "openzeppelin"
       }
     },
     "grammar": {
@@ -4083,9 +3828,6 @@
       },
       "ui": {
         "term": "Slither"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4130,9 +3872,6 @@
       },
       "ui": {
         "term": "Khe"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4177,9 +3916,6 @@
       },
       "ui": {
         "term": "DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4224,9 +3960,6 @@
       },
       "ui": {
         "term": "Mạng thử nghiệm"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4270,9 +4003,6 @@
       },
       "ui": {
         "term": "Ứng dụng khách đồng thuận"
-      },
-      "code": {
-        "term": "consensusClient"
       }
     },
     "grammar": {
@@ -4318,9 +4048,6 @@
       },
       "ui": {
         "term": "Lớp 2 (l2)"
-      },
-      "code": {
-        "term": "layer2"
       }
     },
     "grammar": {
@@ -4365,9 +4092,6 @@
       },
       "ui": {
         "term": "ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4410,9 +4134,6 @@
       },
       "ui": {
         "term": "Khóa riêng tư"
-      },
-      "code": {
-        "term": "privateKey"
       }
     },
     "grammar": {
@@ -4459,9 +4180,6 @@
       },
       "ui": {
         "term": "Tiền mã hóa"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4507,9 +4225,6 @@
       },
       "ui": {
         "term": "Lớp 1 (l1)"
-      },
-      "code": {
-        "term": "layer1"
       }
     },
     "grammar": {
@@ -4553,9 +4268,6 @@
       },
       "ui": {
         "term": "Giá trị MEV"
-      },
-      "code": {
-        "term": "mev"
       }
     },
     "grammar": {
@@ -4602,9 +4314,6 @@
       },
       "ui": {
         "term": "Thoát"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -4648,9 +4357,6 @@
       },
       "ui": {
         "term": "Mã lệnh"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -4693,9 +4399,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -4736,9 +4439,6 @@
       },
       "ui": {
         "term": "Echidna"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -4782,9 +4482,6 @@
       },
       "ui": {
         "term": "Quyền riêng tư"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -4825,9 +4522,6 @@
       },
       "ui": {
         "term": "Manticore"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -4871,9 +4565,6 @@
       },
       "ui": {
         "term": "Rollup lạc quan"
-      },
-      "code": {
-        "term": "optimisticRollup"
       }
     },
     "grammar": {
@@ -4917,9 +4608,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "erc"
       }
     },
     "grammar": {
@@ -4960,9 +4648,6 @@
       },
       "ui": {
         "term": "Plasma"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5005,9 +4690,6 @@
       },
       "ui": {
         "term": "Thư viện"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -5050,9 +4732,6 @@
       },
       "ui": {
         "term": "Uniswap"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -5098,9 +4777,6 @@
       },
       "ui": {
         "term": "The Merge"
-      },
-      "code": {
-        "term": "the_merge"
       }
     },
     "grammar": {
@@ -5146,9 +4822,6 @@
       },
       "ui": {
         "term": "Bằng chứng không kiến thức"
-      },
-      "code": {
-        "term": "zk_proof"
       }
     },
     "grammar": {
@@ -5193,9 +4866,6 @@
       },
       "ui": {
         "term": "Bitcoin"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5241,9 +4911,6 @@
       },
       "ui": {
         "term": "Khả dụng dữ liệu"
-      },
-      "code": {
-        "term": "data_availability"
       }
     },
     "grammar": {
@@ -5293,9 +4960,6 @@
       },
       "ui": {
         "term": "Nhật ký"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5340,9 +5004,6 @@
       },
       "ui": {
         "term": "Chuỗi Beacon"
-      },
-      "code": {
-        "term": "beacon_chain"
       }
     },
     "grammar": {
@@ -5387,9 +5048,6 @@
       },
       "ui": {
         "term": "Thanh khoản"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5434,9 +5092,6 @@
       },
       "ui": {
         "term": "Kỷ nguyên"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5480,9 +5135,6 @@
       },
       "ui": {
         "term": "Mạng chính Ethereum"
-      },
-      "code": {
-        "term": "ethereumMainnet"
       }
     },
     "grammar": {
@@ -5530,9 +5182,6 @@
       },
       "ui": {
         "term": "Đề xuất"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -5575,9 +5224,6 @@
       },
       "ui": {
         "term": "Người đề xuất khối"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -5620,9 +5266,6 @@
       },
       "ui": {
         "term": "Lớp đồng thuận"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -5668,9 +5311,6 @@
       },
       "ui": {
         "term": "Nút ngang hàng"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -5713,9 +5353,6 @@
       },
       "ui": {
         "term": "JSON-RPC"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -5760,9 +5397,6 @@
       },
       "ui": {
         "term": "Nonce"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -5805,9 +5439,6 @@
       },
       "ui": {
         "term": "IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -5851,9 +5482,6 @@
       },
       "ui": {
         "term": "Nút đầy đủ"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -5899,9 +5527,6 @@
       },
       "ui": {
         "term": "Không tri thức"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -5942,9 +5567,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -5987,9 +5609,6 @@
       },
       "ui": {
         "term": "Điểm kiểm tra"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6030,9 +5649,6 @@
       },
       "ui": {
         "term": "Pectra"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6076,9 +5692,6 @@
       },
       "ui": {
         "term": "Tiền mã hóa"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6124,9 +5737,6 @@
       },
       "ui": {
         "term": "Trình xác minh"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6174,9 +5784,6 @@
       },
       "ui": {
         "term": "Trình xây dựng"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6217,9 +5824,6 @@
       },
       "ui": {
         "term": "Khóa công khai"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6262,9 +5866,6 @@
       },
       "ui": {
         "term": "Chuỗi phụ"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6305,9 +5906,6 @@
       },
       "ui": {
         "term": "Fusaka"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6348,9 +5946,6 @@
       },
       "ui": {
         "term": "Siêu dữ liệu"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6394,9 +5989,6 @@
       },
       "ui": {
         "term": "ABI"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -6437,9 +6029,6 @@
       },
       "ui": {
         "term": "Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -6483,9 +6072,6 @@
       },
       "ui": {
         "term": "WETH"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -6528,9 +6114,6 @@
       },
       "ui": {
         "term": "zkEVM"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -6573,9 +6156,6 @@
       },
       "ui": {
         "term": "Phí gas"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -6618,9 +6198,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -6663,9 +6240,6 @@
       },
       "ui": {
         "term": "Giới hạn gas"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -6709,9 +6283,6 @@
       },
       "ui": {
         "term": "Phí ưu tiên"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -6752,9 +6323,6 @@
       },
       "ui": {
         "term": "Cơ chế đồng thuận"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -6795,9 +6363,6 @@
       },
       "ui": {
         "term": "ERC-721"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -6841,9 +6406,6 @@
       },
       "ui": {
         "term": "Dịch vụ Tên miền Ethereum (ENS)"
-      },
-      "code": {
-        "term": "ens"
       }
     },
     "grammar": {
@@ -6888,9 +6450,6 @@
       },
       "ui": {
         "term": "Trình chứng minh"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -6931,9 +6490,6 @@
       },
       "ui": {
         "term": "Kênh trạng thái"
-      },
-      "code": {
-        "term": "state_channel"
       }
     },
     "grammar": {
@@ -6976,9 +6532,6 @@
       },
       "ui": {
         "term": "Phí giao dịch"
-      },
-      "code": {
-        "term": "transaction_fee"
       }
     },
     "grammar": {
@@ -7021,9 +6574,6 @@
       },
       "ui": {
         "term": "Tài khoản EOA"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -7066,9 +6616,6 @@
       },
       "ui": {
         "term": "Bằng chứng tính hợp lệ"
-      },
-      "code": {
-        "term": "validity_proof"
       }
     },
     "grammar": {
@@ -7114,9 +6661,6 @@
       },
       "ui": {
         "term": "Vòi"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7159,9 +6703,6 @@
       },
       "ui": {
         "term": "Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7204,9 +6745,6 @@
       },
       "ui": {
         "term": "Trình khám phá khối"
-      },
-      "code": {
-        "term": "block_explorer"
       }
     },
     "grammar": {
@@ -7251,9 +6789,6 @@
       },
       "ui": {
         "term": "Hoàn nguyên"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7296,9 +6831,6 @@
       },
       "ui": {
         "term": "Tổ chức Ethereum"
-      },
-      "code": {
-        "term": "ethereum-foundation"
       }
     },
     "grammar": {
@@ -7342,9 +6874,6 @@
       },
       "ui": {
         "term": "Danh tính phi tập trung"
-      },
-      "code": {
-        "term": "decentralized-identity"
       }
     },
     "grammar": {
@@ -7390,9 +6919,6 @@
       },
       "ui": {
         "term": "Người đề xuất"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -7437,9 +6963,6 @@
       },
       "ui": {
         "term": "Mật mã học"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -7484,9 +7007,6 @@
       },
       "ui": {
         "term": "Mã byte"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -7527,9 +7047,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -7570,9 +7087,6 @@
       },
       "ui": {
         "term": "Lighthouse"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -7617,9 +7131,6 @@
       },
       "ui": {
         "term": "Giá gas"
-      },
-      "code": {
-        "term": "gasPrice"
       }
     },
     "grammar": {
@@ -7665,9 +7176,6 @@
       },
       "ui": {
         "term": "Ngang hàng"
-      },
-      "code": {
-        "term": "p2p"
       }
     },
     "grammar": {
@@ -7708,9 +7216,6 @@
       },
       "ui": {
         "term": "Glamsterdam"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -7751,9 +7256,6 @@
       },
       "ui": {
         "term": "Nethermind"
-      },
-      "code": {
-        "term": "nethermind"
       }
     },
     "grammar": {
@@ -7794,9 +7296,6 @@
       },
       "ui": {
         "term": "Bằng Chứng Gian Lận"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -7837,9 +7336,6 @@
       },
       "ui": {
         "term": "Bằng Chứng Merkle"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -7882,9 +7378,6 @@
       },
       "ui": {
         "term": "Khoa Học Phi Tập Trung"
-      },
-      "code": {
-        "term": "decentralizedScience"
       }
     },
     "grammar": {
@@ -7926,9 +7419,6 @@
       },
       "ui": {
         "term": "Không Cần Tin Cậy"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -7969,9 +7459,6 @@
       },
       "ui": {
         "term": "Danksharding"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -8014,9 +7501,6 @@
       },
       "ui": {
         "term": "Thuật Toán Chọn Nhánh"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8059,9 +7543,6 @@
       },
       "ui": {
         "term": "Phí Cơ Sở"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8102,9 +7583,6 @@
       },
       "ui": {
         "term": "Erigon"
-      },
-      "code": {
-        "term": "erigon"
       }
     },
     "grammar": {
@@ -8148,9 +7626,6 @@
       },
       "ui": {
         "term": "Chấp Thuận"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8196,9 +7671,6 @@
       },
       "ui": {
         "term": "Cây Merkle"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -8242,9 +7714,6 @@
       },
       "ui": {
         "term": "Node Nhẹ"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -8288,9 +7757,6 @@
       },
       "ui": {
         "term": "Cụm Từ Hạt Giống"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -8335,9 +7801,6 @@
       },
       "ui": {
         "term": "Ủy Ban"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -8380,9 +7843,6 @@
       },
       "ui": {
         "term": "Besu"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -8425,9 +7885,6 @@
       },
       "ui": {
         "term": "ZK-SNARK"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -8471,9 +7928,6 @@
       },
       "ui": {
         "term": "Trình Tạo Block"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -8514,9 +7968,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -8560,9 +8011,6 @@
       },
       "ui": {
         "term": "Số Dư Hiệu Dụng"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -8606,9 +8054,6 @@
       },
       "ui": {
         "term": "Tiêu Đề Block"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -8652,9 +8097,6 @@
       },
       "ui": {
         "term": "Chuỗi chéo"
-      },
-      "code": {
-        "term": "crossChain"
       }
     },
     "grammar": {
@@ -8695,9 +8137,6 @@
       },
       "ui": {
         "term": "Proto-Danksharding"
-      },
-      "code": {
-        "term": "protoDanksharding"
       }
     },
     "grammar": {
@@ -8738,9 +8177,6 @@
       },
       "ui": {
         "term": "Reth"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -8785,9 +8221,6 @@
       },
       "ui": {
         "term": "Biên lai"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -8836,9 +8269,6 @@
       },
       "ui": {
         "term": "Cho vay"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -8883,9 +8313,6 @@
       },
       "ui": {
         "term": "Kho tiền"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -8928,9 +8355,6 @@
       },
       "ui": {
         "term": "Nút khởi động"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -8976,9 +8400,6 @@
       },
       "ui": {
         "term": "Hạn mức"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -9024,9 +8445,6 @@
       },
       "ui": {
         "term": "Mempool"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -9070,9 +8488,6 @@
       },
       "ui": {
         "term": "Công nghệ trình xác thực phân tán"
-      },
-      "code": {
-        "term": "dvt"
       }
     },
     "grammar": {
@@ -9116,9 +8531,6 @@
       },
       "ui": {
         "term": "Sàn DEX"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -9164,9 +8576,6 @@
       },
       "ui": {
         "term": "Người tìm kiếm"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -9207,9 +8616,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -9250,9 +8656,6 @@
       },
       "ui": {
         "term": "Không cần cấp phép"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -9293,9 +8696,6 @@
       },
       "ui": {
         "term": "Prysm"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -9336,9 +8736,6 @@
       },
       "ui": {
         "term": "Teku"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -9379,9 +8776,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -9425,9 +8819,6 @@
       },
       "ui": {
         "term": "Tách biệt đề xuất - xây dựng"
-      },
-      "code": {
-        "term": "pbs"
       }
     },
     "grammar": {
@@ -9470,9 +8861,6 @@
       },
       "ui": {
         "term": "Tính chung cuộc trong một slot"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -9515,9 +8903,6 @@
       },
       "ui": {
         "term": "Nút lưu trữ"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -9558,9 +8943,6 @@
       },
       "ui": {
         "term": "Lodestar"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -9600,9 +8982,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -9646,9 +9025,6 @@
       },
       "ui": {
         "term": "Tài sản kỹ thuật số"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -9693,9 +9069,6 @@
       },
       "ui": {
         "term": "Bộ sắp xếp"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -9736,9 +9109,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -9782,9 +9152,6 @@
       },
       "ui": {
         "term": "Gốc Merkle"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -9825,9 +9192,6 @@
       },
       "ui": {
         "term": "Tellor"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -9870,9 +9234,6 @@
       },
       "ui": {
         "term": "Tác Nhân AI"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -9913,9 +9274,6 @@
       },
       "ui": {
         "term": "Độ Khó"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -9962,9 +9320,6 @@
       },
       "ui": {
         "term": "Tái Tổ Chức"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -10011,9 +9366,6 @@
       },
       "ui": {
         "term": "Khẳng Định"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -10054,9 +9406,6 @@
       },
       "ui": {
         "term": "Nimbus"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -10099,9 +9448,6 @@
       },
       "ui": {
         "term": "Bất Biến"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -10142,9 +9488,6 @@
       },
       "ui": {
         "term": "Thị Trường Dự Đoán"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -10188,9 +9531,6 @@
       },
       "ui": {
         "term": "Tiền Tố Độ Dài Đệ Quy"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -10236,9 +9576,6 @@
       },
       "ui": {
         "term": "Xác Minh Hình Thức"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -10281,9 +9618,6 @@
       },
       "ui": {
         "term": "Trừu Tượng Hóa Tài Khoản"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -10324,9 +9658,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -10367,9 +9698,6 @@
       },
       "ui": {
         "term": "ZK-STARK"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -10414,9 +9742,6 @@
       },
       "ui": {
         "term": "Tính ngẫu nhiên"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -10459,9 +9784,6 @@
       },
       "ui": {
         "term": "Chiến lược"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -10505,9 +9827,6 @@
       },
       "ui": {
         "term": "Tài sản thế giới thực"
-      },
-      "code": {
-        "term": "realWorldAssets"
       }
     },
     "grammar": {
@@ -10555,9 +9874,6 @@
       },
       "ui": {
         "term": "Tràn số"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -10602,9 +9918,6 @@
       },
       "ui": {
         "term": "Mã băm giao dịch"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -10650,9 +9963,6 @@
       },
       "ui": {
         "term": "Đa chữ ký"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -10697,9 +10007,6 @@
       },
       "ui": {
         "term": "Stablecoin"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -10743,9 +10050,6 @@
       },
       "ui": {
         "term": "Sách vàng"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -10788,9 +10092,6 @@
       },
       "ui": {
         "term": "Khả năng kết hợp"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -10834,9 +10135,6 @@
       },
       "ui": {
         "term": "Hợp đồng proxy"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -10879,9 +10177,6 @@
       },
       "ui": {
         "term": "Đồ thị con"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -10924,9 +10219,6 @@
       },
       "ui": {
         "term": "Khả năng tương tác"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -10970,9 +10262,6 @@
       },
       "ui": {
         "term": "Đa dạng máy khách"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -11015,9 +10304,6 @@
       },
       "ui": {
         "term": "Thượng Hải"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -11061,9 +10347,6 @@
       },
       "ui": {
         "term": "Tài chính tái tạo"
-      },
-      "code": {
-        "term": "regenerativeFinance"
       }
     },
     "grammar": {
@@ -11104,9 +10387,6 @@
       },
       "ui": {
         "term": "Tài khoản hợp đồng"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -11147,9 +10427,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -11190,9 +10467,6 @@
       },
       "ui": {
         "term": "Phần thưởng khối"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -11235,9 +10509,6 @@
       },
       "ui": {
         "term": "Thời gian tạo khối"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -11280,9 +10551,6 @@
       },
       "ui": {
         "term": "Sách trắng"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -11326,9 +10594,6 @@
       },
       "ui": {
         "term": "Lấy mẫu tính khả dụng dữ liệu"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -11369,9 +10634,6 @@
       },
       "ui": {
         "term": "Đã chứng minh hợp lệ"
-      },
-      "code": {
-        "term": "isJustified"
       }
     },
     "grammar": {
@@ -11414,9 +10676,6 @@
       },
       "ui": {
         "term": "Nhà cung cấp thanh khoản"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -11456,9 +10715,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -11503,9 +10759,6 @@
       },
       "ui": {
         "term": "Rollup không tri thức"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -11546,9 +10799,6 @@
       },
       "ui": {
         "term": "Chainlink"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -11591,9 +10841,6 @@
       },
       "ui": {
         "term": "Khoản vay chớp nhoáng"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -11634,9 +10881,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -11676,9 +10920,6 @@
         "term": "MEV-Boost"
       },
       "ui": {
-        "term": "MEV-Boost"
-      },
-      "code": {
         "term": "MEV-Boost"
       }
     },
@@ -11722,9 +10963,6 @@
       },
       "ui": {
         "term": "Cancun"
-      },
-      "code": {
-        "term": "Cancun"
       }
     },
     "grammar": {
@@ -11767,9 +11005,6 @@
       },
       "ui": {
         "term": "Hợp đồng tiền gửi"
-      },
-      "code": {
-        "term": "deposit_contract"
       }
     },
     "grammar": {
@@ -11812,9 +11047,6 @@
       },
       "ui": {
         "term": "Tải trọng thực thi"
-      },
-      "code": {
-        "term": "executionPayload"
       }
     },
     "grammar": {
@@ -11858,9 +11090,6 @@
       },
       "ui": {
         "term": "Bằng chứng ủy quyền"
-      },
-      "code": {
-        "term": "proofOfAuthority"
       }
     },
     "grammar": {
@@ -11904,9 +11133,6 @@
       },
       "ui": {
         "term": "Bầu chọn người dẫn đầu bí mật"
-      },
-      "code": {
-        "term": "secretLeaderElection"
       }
     },
     "grammar": {
@@ -11947,9 +11173,6 @@
       },
       "ui": {
         "term": "Ủy ban đồng bộ"
-      },
-      "code": {
-        "term": "syncCommittee"
       }
     },
     "grammar": {
@@ -11996,9 +11219,6 @@
       },
       "ui": {
         "term": "Vay"
-      },
-      "code": {
-        "term": "borrow"
       }
     },
     "grammar": {
@@ -12044,9 +11264,6 @@
       },
       "ui": {
         "term": "Tái xâm nhập"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -12091,9 +11308,6 @@
       },
       "ui": {
         "term": "ERC-1155"
-      },
-      "code": {
-        "term": "ERC1155"
       }
     },
     "grammar": {
@@ -12136,9 +11350,6 @@
       },
       "ui": {
         "term": "Đường cong elliptic"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -12183,9 +11394,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "UTXO"
       }
     },
     "grammar": {
@@ -12228,9 +11436,6 @@
       },
       "ui": {
         "term": "Token có thể thay thế"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -12273,9 +11478,6 @@
       },
       "ui": {
         "term": "Tài trợ bậc hai"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -12321,9 +11523,6 @@
       },
       "ui": {
         "term": "Vật phẩm sưu tầm"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -12366,9 +11565,6 @@
       },
       "ui": {
         "term": "Khối beacon"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -12413,9 +11609,6 @@
       },
       "ui": {
         "term": "Tính chủ quan yếu"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -12458,9 +11651,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -12504,9 +11694,6 @@
       },
       "ui": {
         "term": "Pool thanh khoản"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -12551,9 +11738,6 @@
       },
       "ui": {
         "term": "Khối Nguyên Thủy"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -12596,9 +11780,6 @@
       },
       "ui": {
         "term": "Shapella"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -12642,9 +11823,6 @@
       },
       "ui": {
         "term": "Có Khả Năng Kết Hợp"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -12690,9 +11868,6 @@
       },
       "ui": {
         "term": "Trie Trạng Thái"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -12735,9 +11910,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "lmdGhost"
       }
     },
     "grammar": {
@@ -12782,9 +11954,6 @@
       },
       "ui": {
         "term": "Địa Chỉ Ẩn Danh"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -12826,9 +11995,6 @@
         "term": "DAI"
       },
       "ui": {
-        "term": "DAI"
-      },
-      "code": {
         "term": "DAI"
       }
     },
@@ -12875,9 +12041,6 @@
       },
       "ui": {
         "term": "Token Hóa"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -12923,9 +12086,6 @@
       },
       "ui": {
         "term": "Trình Giải Quyết"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -12968,9 +12128,6 @@
       },
       "ui": {
         "term": "Không Lưu Ký"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -13014,9 +12171,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "MaxEB"
       }
     },
     "grammar": {
@@ -13059,9 +12213,6 @@
       },
       "ui": {
         "term": "Entropy"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -13106,9 +12257,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "KZG"
       }
     },
     "grammar": {
@@ -13151,9 +12299,6 @@
       },
       "ui": {
         "term": "Discv5"
-      },
-      "code": {
-        "term": "discv5"
       }
     },
     "grammar": {
@@ -13196,9 +12341,6 @@
       },
       "ui": {
         "term": "Portal Network"
-      },
-      "code": {
-        "term": "portal_network"
       }
     },
     "grammar": {
@@ -13241,9 +12383,6 @@
       },
       "ui": {
         "term": "Bom Độ Khó"
-      },
-      "code": {
-        "term": "difficulty_bomb"
       }
     },
     "grammar": {
@@ -13285,9 +12424,6 @@
       },
       "ui": {
         "term": "Có Khả Năng Tương Tác"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -13331,9 +12467,6 @@
       },
       "ui": {
         "term": "Hết Hạn Trạng Thái"
-      },
-      "code": {
-        "term": "state_expiry"
       }
     },
     "grammar": {
@@ -13379,9 +12512,6 @@
       },
       "ui": {
         "term": "Bằng Chứng"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -13424,9 +12554,6 @@
       },
       "ui": {
         "term": "Berlin"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -13470,9 +12597,6 @@
       },
       "ui": {
         "term": "Giao dịch đang chờ"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -13520,9 +12644,6 @@
       },
       "ui": {
         "term": "Kích hoạt"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -13565,9 +12686,6 @@
       },
       "ui": {
         "term": "Biên giới"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -13611,9 +12729,6 @@
       },
       "ui": {
         "term": "Hàng hóa công cộng"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -13657,9 +12772,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -13704,9 +12816,6 @@
       },
       "ui": {
         "term": "Thông tin xác thực có thể xác minh"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -13750,9 +12859,6 @@
       },
       "ui": {
         "term": "Tính bất biến"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -13796,9 +12902,6 @@
       },
       "ui": {
         "term": "Token staking thanh khoản (LST)"
-      },
-      "code": {
-        "term": "liquidStakingToken"
       }
     },
     "grammar": {
@@ -13842,9 +12945,6 @@
       },
       "ui": {
         "term": "Staking như một dịch vụ"
-      },
-      "code": {
-        "term": "stakingAsAService"
       }
     },
     "grammar": {
@@ -13889,9 +12989,6 @@
       },
       "ui": {
         "term": "Thông tin xác thực rút tiền"
-      },
-      "code": {
-        "term": "withdrawalCredentials"
       }
     },
     "grammar": {
@@ -13936,9 +13033,6 @@
       },
       "ui": {
         "term": "Keccak-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -13982,9 +13076,6 @@
       },
       "ui": {
         "term": "Hết hạn lịch sử"
-      },
-      "code": {
-        "term": "historyExpiry"
       }
     },
     "grammar": {
@@ -14028,9 +13119,6 @@
       },
       "ui": {
         "term": "Web 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -14073,9 +13161,6 @@
       },
       "ui": {
         "term": "Constantinople"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -14118,9 +13203,6 @@
       },
       "ui": {
         "term": "Xác minh mã nguồn"
-      },
-      "code": {
-        "term": "sourceCodeVerification"
       }
     },
     "grammar": {
@@ -14163,9 +13245,6 @@
         "term": "poap"
       },
       "ui": {
-        "term": "POAP"
-      },
-      "code": {
         "term": "POAP"
       }
     },
@@ -14211,9 +13290,6 @@
       },
       "ui": {
         "term": "Ý định"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -14258,9 +13334,6 @@
       },
       "ui": {
         "term": "Bên Trả Phí"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -14303,9 +13376,6 @@
       },
       "ui": {
         "term": "Tài Khoản Thông Minh"
-      },
-      "code": {
-        "term": "smart_account"
       }
     },
     "grammar": {
@@ -14349,9 +13419,6 @@
       },
       "ui": {
         "term": "Nút Beacon"
-      },
-      "code": {
-        "term": "beacon_node"
       }
     },
     "grammar": {
@@ -14394,9 +13461,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "bls"
       }
     },
     "grammar": {
@@ -14439,9 +13503,6 @@
       },
       "ui": {
         "term": "SSZ"
-      },
-      "code": {
-        "term": "ssz"
       }
     },
     "grammar": {
@@ -14485,9 +13546,6 @@
       },
       "ui": {
         "term": "Go Ethereum"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -14530,9 +13588,6 @@
       },
       "ui": {
         "term": "Ethereum Classic"
-      },
-      "code": {
-        "term": "ethereum_classic"
       }
     },
     "grammar": {
@@ -14573,9 +13628,6 @@
       },
       "ui": {
         "term": "Byzantium"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -14619,9 +13671,6 @@
       },
       "ui": {
         "term": "Thuật Toán ECDSA"
-      },
-      "code": {
-        "term": "ecdsa"
       }
     },
     "grammar": {
@@ -14665,9 +13714,6 @@
       },
       "ui": {
         "term": "Khôi phục xã hội"
-      },
-      "code": {
-        "term": "social-recovery"
       }
     },
     "grammar": {
@@ -14711,9 +13757,6 @@
       },
       "ui": {
         "term": "Tách biệt trình xây dựng"
-      },
-      "code": {
-        "term": "builder-separation"
       }
     },
     "grammar": {
@@ -14757,9 +13800,6 @@
       },
       "ui": {
         "term": "Bằng chứng cổ phần (PoS)"
-      },
-      "code": {
-        "term": "proof-of-stake"
       }
     },
     "grammar": {
@@ -14802,9 +13842,6 @@
       },
       "ui": {
         "term": "ECC"
-      },
-      "code": {
-        "term": "ecc"
       }
     },
     "grammar": {
@@ -14847,9 +13884,6 @@
       },
       "ui": {
         "term": "Nguồn cấp giá"
-      },
-      "code": {
-        "term": "price-feed"
       }
     },
     "grammar": {
@@ -14893,9 +13927,6 @@
       },
       "ui": {
         "term": "Mạng phát triển"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -14939,9 +13970,6 @@
       },
       "ui": {
         "term": "Giao thức lan truyền"
-      },
-      "code": {
-        "term": "gossip-protocol"
       }
     },
     "grammar": {
@@ -14984,9 +14012,6 @@
       },
       "ui": {
         "term": "Mạng lưới Swarm"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -15029,9 +14054,6 @@
       },
       "ui": {
         "term": "Homestead"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -15075,9 +14097,6 @@
       },
       "ui": {
         "term": "DAC"
-      },
-      "code": {
-        "term": "DAC"
       }
     },
     "grammar": {
@@ -15120,9 +14139,6 @@
       },
       "ui": {
         "term": "Mã hóa xóa"
-      },
-      "code": {
-        "term": "erasure_coding"
       }
     },
     "grammar": {
@@ -15165,9 +14181,6 @@
       },
       "ui": {
         "term": "Trie lưu trữ"
-      },
-      "code": {
-        "term": "storage_trie"
       }
     },
     "grammar": {
@@ -15210,9 +14223,6 @@
       },
       "ui": {
         "term": "Phí blob"
-      },
-      "code": {
-        "term": "blob_fee"
       }
     },
     "grammar": {
@@ -15256,9 +14266,6 @@
       },
       "ui": {
         "term": "Phí ưu tiên"
-      },
-      "code": {
-        "term": "priority_fee"
       }
     },
     "grammar": {
@@ -15302,9 +14309,6 @@
       },
       "ui": {
         "term": "Vấn đề không có gì để mất"
-      },
-      "code": {
-        "term": "nothing_at_stake"
       }
     },
     "grammar": {
@@ -15347,9 +14351,6 @@
       },
       "ui": {
         "term": "Tăng cường người đề xuất"
-      },
-      "code": {
-        "term": "proposer_boost"
       }
     },
     "grammar": {
@@ -15392,9 +14393,6 @@
       },
       "ui": {
         "term": "Vấn đề oracle"
-      },
-      "code": {
-        "term": "oracle_problem"
       }
     },
     "grammar": {
@@ -15437,9 +14435,6 @@
       },
       "ui": {
         "term": "Tác nhân tự trị"
-      },
-      "code": {
-        "term": "autonomous_agent"
       }
     },
     "grammar": {
@@ -15484,9 +14479,6 @@
       },
       "ui": {
         "term": "Bằng chứng công việc (PoW)"
-      },
-      "code": {
-        "term": "proof_of_work"
       }
     },
     "grammar": {
@@ -15527,9 +14519,6 @@
       },
       "ui": {
         "term": "Szabo"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -15569,9 +14558,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -15613,9 +14599,6 @@
       },
       "ui": {
         "term": "Cây Verkle"
-      },
-      "code": {
-        "term": "verkleTrees"
       }
     },
     "grammar": {
@@ -15658,9 +14641,6 @@
       },
       "ui": {
         "term": "Hàm dự phòng"
-      },
-      "code": {
-        "term": "fallbackFunction"
       }
     },
     "grammar": {
@@ -15707,9 +14687,6 @@
       },
       "ui": {
         "term": "Airdrop"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -15750,9 +14727,6 @@
       },
       "ui": {
         "term": "USDC"
-      },
-      "code": {
-        "term": "USDC"
       }
     },
     "grammar": {
@@ -15792,9 +14766,6 @@
         "term": "wbtc"
       },
       "ui": {
-        "term": "WBTC"
-      },
-      "code": {
         "term": "WBTC"
       }
     },
@@ -15840,9 +14811,6 @@
       },
       "ui": {
         "term": "Bể giao dịch"
-      },
-      "code": {
-        "term": "transactionPool"
       }
     },
     "grammar": {
@@ -15885,9 +14853,6 @@
       },
       "ui": {
         "term": "Người giám hộ"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -15934,9 +14899,6 @@
       },
       "ui": {
         "term": "Kho khóa"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -15985,9 +14947,6 @@
       },
       "ui": {
         "term": "Tự lưu ký"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -16028,9 +14987,6 @@
       },
       "ui": {
         "term": "Casper FFG"
-      },
-      "code": {
-        "term": "casper_ffg"
       }
     },
     "grammar": {
@@ -16075,9 +15031,6 @@
       },
       "ui": {
         "term": "Chữ ký BLS"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -16121,9 +15074,6 @@
       },
       "ui": {
         "term": "Cây Merkle Patricia"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -16172,9 +15122,6 @@
       },
       "ui": {
         "term": "Truyền khối"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -16215,9 +15162,6 @@
       },
       "ui": {
         "term": "Finney"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -16263,9 +15207,6 @@
       },
       "ui": {
         "term": "Hàng hóa công cộng"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -16311,9 +15252,6 @@
       },
       "ui": {
         "term": "Kho bạc"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -16359,9 +15297,6 @@
       },
       "ui": {
         "term": "Hoàn tất KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -16404,9 +15339,6 @@
         "term": "SIWE"
       },
       "ui": {
-        "term": "SIWE"
-      },
-      "code": {
         "term": "SIWE"
       }
     },
@@ -16454,9 +15386,6 @@
       },
       "ui": {
         "term": "Chạy trước"
-      },
-      "code": {
-        "term": "frontRunning"
       }
     },
     "grammar": {
@@ -16497,9 +15426,6 @@
       },
       "ui": {
         "term": "Istanbul"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -16540,9 +15466,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "kevm"
       }
     },
     "grammar": {
@@ -16582,9 +15505,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -16628,9 +15548,6 @@
       },
       "ui": {
         "term": "Phí tối đa"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -16674,9 +15591,6 @@
       },
       "ui": {
         "term": "Đa chữ ký"
-      },
-      "code": {
-        "term": "multiSignature"
       }
     },
     "grammar": {
@@ -16720,9 +15634,6 @@
       },
       "ui": {
         "term": "Thao tác người dùng"
-      },
-      "code": {
-        "term": "userOperation"
       }
     },
     "grammar": {
@@ -16769,9 +15680,6 @@
       },
       "ui": {
         "term": "Cắt giảm xã hội"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -16814,9 +15722,6 @@
       },
       "ui": {
         "term": "SSLE"
-      },
-      "code": {
-        "term": "ssle"
       }
     },
     "grammar": {
@@ -16860,9 +15765,6 @@
       },
       "ui": {
         "term": "Thao Túng Cổ Phần"
-      },
-      "code": {
-        "term": "stakeGrinding"
       }
     },
     "grammar": {
@@ -16904,9 +15806,6 @@
         "term": "tee"
       },
       "ui": {
-        "term": "TEE"
-      },
-      "code": {
         "term": "TEE"
       }
     },
@@ -16951,9 +15850,6 @@
       },
       "ui": {
         "term": "Oracle Blockchain"
-      },
-      "code": {
-        "term": "blockchainOracle"
       }
     },
     "grammar": {
@@ -16993,9 +15889,6 @@
         "term": "modexp"
       },
       "ui": {
-        "term": "MODEXP"
-      },
-      "code": {
         "term": "MODEXP"
       }
     },
@@ -17039,9 +15932,6 @@
       },
       "ui": {
         "term": "Vòi Testnet"
-      },
-      "code": {
-        "term": "testnetFaucet"
       }
     },
     "grammar": {
@@ -17082,9 +15972,6 @@
       },
       "ui": {
         "term": "Kháng Kiểm Duyệt"
-      },
-      "code": {
-        "term": "censorshipResistant"
       }
     },
     "grammar": {
@@ -17127,9 +16014,6 @@
       },
       "ui": {
         "term": "Token Quản Trị"
-      },
-      "code": {
-        "term": "governanceToken"
       }
     },
     "grammar": {
@@ -17173,9 +16057,6 @@
       },
       "ui": {
         "term": "Trình đóng gói"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -17219,9 +16100,6 @@
       },
       "ui": {
         "term": "Nhà tạo lập thị trường tự động"
-      },
-      "code": {
-        "term": "amm"
       }
     },
     "grammar": {
@@ -17265,9 +16143,6 @@
       },
       "ui": {
         "term": "Khai thác lợi suất"
-      },
-      "code": {
-        "term": "yield_farming"
       }
     },
     "grammar": {
@@ -17312,9 +16187,6 @@
       },
       "ui": {
         "term": "Token gắn kết linh hồn"
-      },
-      "code": {
-        "term": "sbt"
       }
     },
     "grammar": {
@@ -17358,9 +16230,6 @@
       },
       "ui": {
         "term": "Vòng đời trình xác thực"
-      },
-      "code": {
-        "term": "validator_lifecycle"
       }
     },
     "grammar": {
@@ -17404,9 +16273,6 @@
       },
       "ui": {
         "term": "Blockchain mô-đun"
-      },
-      "code": {
-        "term": "modular_blockchain"
       }
     },
     "grammar": {
@@ -17450,9 +16316,6 @@
       },
       "ui": {
         "term": "Blockchain nguyên khối"
-      },
-      "code": {
-        "term": "monolithic_blockchain"
       }
     },
     "grammar": {
@@ -17496,9 +16359,6 @@
       },
       "ui": {
         "term": "Tài trợ hàng hóa công cộng hồi tố"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -17542,9 +16402,6 @@
       },
       "ui": {
         "term": "Tổng giá trị bị khóa"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -17588,9 +16445,6 @@
       },
       "ui": {
         "term": "Bỏ phiếu bậc hai"
-      },
-      "code": {
-        "term": "quadratic_voting"
       }
     },
     "grammar": {
@@ -17639,9 +16493,6 @@
       },
       "ui": {
         "term": "Chạy Sau"
-      },
-      "code": {
-        "term": "backRunning"
       }
     },
     "grammar": {
@@ -17687,9 +16538,6 @@
       },
       "ui": {
         "term": "Lớp Tính Khả Dụng Của Dữ Liệu"
-      },
-      "code": {
-        "term": "dataAvailabilityLayer"
       }
     },
     "grammar": {
@@ -17734,9 +16582,6 @@
       },
       "ui": {
         "term": "Hợp Đồng Có Thể Nâng Cấp"
-      },
-      "code": {
-        "term": "upgradeableContract"
       }
     },
     "grammar": {
@@ -17781,9 +16626,6 @@
       },
       "ui": {
         "term": "Token Tiện Ích"
-      },
-      "code": {
-        "term": "utilityToken"
       }
     },
     "grammar": {
@@ -17829,9 +16671,6 @@
       },
       "ui": {
         "term": "Ví Lạnh"
-      },
-      "code": {
-        "term": "coldWallet"
       }
     },
     "grammar": {
@@ -17877,9 +16716,6 @@
       },
       "ui": {
         "term": "Đường Dẫn Phái Sinh"
-      },
-      "code": {
-        "term": "derivationPath"
       }
     },
     "grammar": {
@@ -17924,9 +16760,6 @@
       },
       "ui": {
         "term": "Ví Phần Cứng"
-      },
-      "code": {
-        "term": "hardwareWallet"
       }
     },
     "grammar": {
@@ -17972,9 +16805,6 @@
       },
       "ui": {
         "term": "Ví Nóng"
-      },
-      "code": {
-        "term": "hotWallet"
       }
     },
     "grammar": {
@@ -18020,9 +16850,6 @@
       },
       "ui": {
         "term": "Khóa"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -18068,9 +16895,6 @@
       },
       "ui": {
         "term": "Hàm Dẫn Xuất Khóa"
-      },
-      "code": {
-        "term": "keyDerivationFunction"
       }
     },
     "grammar": {
@@ -18114,9 +16938,6 @@
       },
       "ui": {
         "term": "Tạo Mã khóa"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -18160,9 +16981,6 @@
       },
       "ui": {
         "term": "Địa chỉ Zero"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -18206,9 +17024,6 @@
       },
       "ui": {
         "term": "Giới hạn ra vào"
-      },
-      "code": {
-        "term": "CHURN_LIMIT"
       }
     },
     "grammar": {
@@ -18251,9 +17066,6 @@
       },
       "ui": {
         "term": "Quy tắc đồng thuận"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -18300,9 +17112,6 @@
       },
       "ui": {
         "term": "Xác nhận nước đôi"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -18343,9 +17152,6 @@
       },
       "ui": {
         "term": "Đồng thuận toàn ảnh"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -18388,9 +17194,6 @@
       },
       "ui": {
         "term": "Rò rỉ do không hoạt động"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -18437,9 +17240,6 @@
       },
       "ui": {
         "term": "Phát hành"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -18482,9 +17282,6 @@
       },
       "ui": {
         "term": "Đa số tuyệt đối"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -18532,9 +17329,6 @@
       },
       "ui": {
         "term": "Cam kết"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -18578,9 +17372,6 @@
       },
       "ui": {
         "term": "Bảng băm phân tán"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -18621,9 +17412,6 @@
       },
       "ui": {
         "term": "Ethash"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -18667,9 +17455,6 @@
       },
       "ui": {
         "term": "Tỷ lệ băm mạng lưới"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -18713,9 +17498,6 @@
       },
       "ui": {
         "term": "Thuật toán băm an toàn"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -18764,9 +17546,6 @@
       },
       "ui": {
         "term": "Chuỗi phân mảnh"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -18811,9 +17590,6 @@
       },
       "ui": {
         "term": "Thiết lập tin cậy"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -18856,9 +17632,6 @@
       },
       "ui": {
         "term": "API"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -18901,9 +17674,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -18950,9 +17720,6 @@
       },
       "ui": {
         "term": "Mất neo giá"
-      },
-      "code": {
-        "term": "dePeg"
       }
     },
     "grammar": {
@@ -18995,9 +17762,6 @@
       },
       "ui": {
         "term": "Tổn thất tạm thời"
-      },
-      "code": {
-        "term": "impermanentLoss"
       }
     },
     "grammar": {
@@ -19038,9 +17802,6 @@
       },
       "ui": {
         "term": "Chỉ số"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -19084,9 +17845,6 @@
       },
       "ui": {
         "term": "Token thanh khoản"
-      },
-      "code": {
-        "term": "liquidityTokens"
       }
     },
     "grammar": {
@@ -19133,9 +17891,6 @@
       },
       "ui": {
         "term": "Thế chấp vượt mức"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -19183,9 +17938,6 @@
       },
       "ui": {
         "term": "Neo giá"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -19228,9 +17980,6 @@
       },
       "ui": {
         "term": "Tác động giá"
-      },
-      "code": {
-        "term": "priceImpact"
       }
     },
     "grammar": {
@@ -19277,9 +18026,6 @@
       },
       "ui": {
         "term": "Trượt giá"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -19322,9 +18068,6 @@
       },
       "ui": {
         "term": "Eth1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -19367,9 +18110,6 @@
       },
       "ui": {
         "term": "Eth2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -19412,9 +18152,6 @@
       },
       "ui": {
         "term": "Tấn công 51%"
-      },
-      "code": {
-        "term": "fiftyOnePercentAttack"
       }
     },
     "grammar": {
@@ -19457,9 +18194,6 @@
       },
       "ui": {
         "term": "Tập Ẩn Danh"
-      },
-      "code": {
-        "term": "anonymity_set"
       }
     },
     "grammar": {
@@ -19500,9 +18234,6 @@
       },
       "ui": {
         "term": "Chống Sybil"
-      },
-      "code": {
-        "term": "anti_sybil"
       }
     },
     "grammar": {
@@ -19542,9 +18273,6 @@
         "term": "ASIC"
       },
       "ui": {
-        "term": "ASIC"
-      },
-      "code": {
         "term": "ASIC"
       }
     },
@@ -19587,9 +18315,6 @@
       },
       "ui": {
         "term": "Big-endian"
-      },
-      "code": {
-        "term": "big_endian"
       }
     },
     "grammar": {
@@ -19632,9 +18357,6 @@
       },
       "ui": {
         "term": "Trạng Thái Khối"
-      },
-      "code": {
-        "term": "block_status"
       }
     },
     "grammar": {
@@ -19680,9 +18402,6 @@
       },
       "ui": {
         "term": "Biên Dịch"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -19725,9 +18444,6 @@
       },
       "ui": {
         "term": "Bất Khả Thi Về Mặt Tính Toán"
-      },
-      "code": {
-        "term": "computational_infeasibility"
       }
     },
     "grammar": {
@@ -19771,9 +18487,6 @@
       },
       "ui": {
         "term": "Được Xem Xét Đưa Vào (CFI)"
-      },
-      "code": {
-        "term": "considered_for_inclusion"
       }
     },
     "grammar": {
@@ -19816,9 +18529,6 @@
       },
       "ui": {
         "term": "Kinh Tế Học Mật Mã"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -19860,9 +18570,6 @@
         "term": "DAG"
       },
       "ui": {
-        "term": "DAG"
-      },
-      "code": {
         "term": "DAG"
       }
     },
@@ -19907,9 +18614,6 @@
       },
       "ui": {
         "term": "Hạ Tầng Vật Lý Phi Tập Trung"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -19958,9 +18662,6 @@
       },
       "ui": {
         "term": "Khám Phá"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -20009,9 +18710,6 @@
       },
       "ui": {
         "term": "Chi Tiêu Kép"
-      },
-      "code": {
-        "term": "doubleSpend"
       }
     },
     "grammar": {
@@ -20055,9 +18753,6 @@
       },
       "ui": {
         "term": "Máy Khách Thực Thi"
-      },
-      "code": {
-        "term": "executionClient"
       }
     },
     "grammar": {
@@ -20100,9 +18795,6 @@
       },
       "ui": {
         "term": "Lớp Thực Thi"
-      },
-      "code": {
-        "term": "executionLayer"
       }
     },
     "grammar": {
@@ -20146,9 +18838,6 @@
       },
       "ui": {
         "term": "Môi Trường Phát Triển Tích Hợp"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -20193,9 +18882,6 @@
       },
       "ui": {
         "term": "Máy Khách Nhẹ"
-      },
-      "code": {
-        "term": "lightClient"
       }
     },
     "grammar": {
@@ -20238,9 +18924,6 @@
       },
       "ui": {
         "term": "Thông Điệp"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -20284,9 +18967,6 @@
       },
       "ui": {
         "term": "Lời Gọi Thông Điệp"
-      },
-      "code": {
-        "term": "messageCall"
       }
     },
     "grammar": {
@@ -20332,9 +19012,6 @@
       },
       "ui": {
         "term": "Mạng Lưới"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -20378,9 +19055,6 @@
       },
       "ui": {
         "term": "Cổng Ra"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -20424,9 +19098,6 @@
       },
       "ui": {
         "term": "Khối Ommer"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -20470,9 +19141,6 @@
       },
       "ui": {
         "term": "Cổng Vào"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -20518,9 +19186,6 @@
       },
       "ui": {
         "term": "Bắt Đầu"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -20563,9 +19228,6 @@
       },
       "ui": {
         "term": "Có Cấp Phép"
-      },
-      "code": {
-        "term": "isPermissioned"
       }
     },
     "grammar": {
@@ -20609,9 +19271,6 @@
       },
       "ui": {
         "term": "Chuỗi Riêng Tư"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -20656,9 +19315,6 @@
       },
       "ui": {
         "term": "Bằng Chứng Tham Dự"
-      },
-      "code": {
-        "term": "poap"
       }
     },
     "grammar": {
@@ -20703,9 +19359,6 @@
       },
       "ui": {
         "term": "Lỗi Tái Nhập"
-      },
-      "code": {
-        "term": "reentrancyAttack"
       }
     },
     "grammar": {
@@ -20754,9 +19407,6 @@
       },
       "ui": {
         "term": "Nhận Thưởng"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -20801,9 +19451,6 @@
       },
       "ui": {
         "term": "Quyền tự chủ"
-      },
-      "code": {
-        "term": "self_sovereignty"
       }
     },
     "grammar": {
@@ -20851,9 +19498,6 @@
       },
       "ui": {
         "term": "Tuần tự hóa"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -20896,9 +19540,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "SNARK"
       }
     },
     "grammar": {
@@ -20940,9 +19581,6 @@
         "term": "STARK"
       },
       "ui": {
-        "term": "STARK"
-      },
-      "code": {
         "term": "STARK"
       }
     },
@@ -20988,9 +19626,6 @@
       },
       "ui": {
         "term": "Phình to trạng thái"
-      },
-      "code": {
-        "term": "state_bloat"
       }
     },
     "grammar": {
@@ -21036,9 +19671,6 @@
       },
       "ui": {
         "term": "Tính phi trạng thái"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -21083,9 +19715,6 @@
       },
       "ui": {
         "term": "Tấn công Sybil"
-      },
-      "code": {
-        "term": "sybil_attack"
       }
     },
     "grammar": {
@@ -21133,9 +19762,6 @@
       },
       "ui": {
         "term": "Đang đồng bộ hóa..."
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -21178,9 +19804,6 @@
       },
       "ui": {
         "term": "Tổng độ khó cuối cùng"
-      },
-      "code": {
-        "term": "terminal_total_difficulty"
       }
     },
     "grammar": {
@@ -21225,9 +19848,6 @@
       },
       "ui": {
         "term": "Giả định tin cậy"
-      },
-      "code": {
-        "term": "trust_assumptions"
       }
     },
     "grammar": {
@@ -21270,9 +19890,6 @@
       },
       "ui": {
         "term": "Tối thiểu hóa niềm tin"
-      },
-      "code": {
-        "term": "trustMinimized"
       }
     },
     "grammar": {
@@ -21316,9 +19933,6 @@
       },
       "ui": {
         "term": "Tính không cần niềm tin"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -21359,9 +19973,6 @@
       },
       "ui": {
         "term": "Turing hoàn chỉnh"
-      },
-      "code": {
-        "term": "turingComplete"
       }
     },
     "grammar": {
@@ -21404,9 +20015,6 @@
       },
       "ui": {
         "term": "Web2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -21449,9 +20057,6 @@
       },
       "ui": {
         "term": "Tấn công sandwich"
-      },
-      "code": {
-        "term": "sandwichAttack"
       }
     },
     "grammar": {
@@ -21499,9 +20104,6 @@
       },
       "ui": {
         "term": "Gom lô"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -21542,9 +20144,6 @@
       },
       "ui": {
         "term": "Không Gian Blob"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -21588,9 +20187,6 @@
       },
       "ui": {
         "term": "Cơ Chế Thoát"
-      },
-      "code": {
-        "term": "escape_hatch"
       }
     },
     "grammar": {
@@ -21635,9 +20231,6 @@
       },
       "ui": {
         "term": "Bằng Chứng Lỗi"
-      },
-      "code": {
-        "term": "fault_proof"
       }
     },
     "grammar": {
@@ -21683,9 +20276,6 @@
       },
       "ui": {
         "term": "Rút Tiền Bắt Buộc"
-      },
-      "code": {
-        "term": "forced_withdrawal"
       }
     },
     "grammar": {
@@ -21731,9 +20321,6 @@
       },
       "ui": {
         "term": "Bản Cuộn"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -21781,9 +20368,6 @@
       },
       "ui": {
         "term": "Quyết Toán"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -21824,9 +20408,6 @@
       },
       "ui": {
         "term": "Kênh Trạng Thái"
-      },
-      "code": {
-        "term": "state_channels"
       }
     },
     "grammar": {
@@ -21872,9 +20453,6 @@
       },
       "ui": {
         "term": "Thông Lượng"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -21915,9 +20493,6 @@
       },
       "ui": {
         "term": "Validium"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -21961,9 +20536,6 @@
       },
       "ui": {
         "term": "Dữ liệu lệnh gọi"
-      },
-      "code": {
-        "term": "callData"
       }
     },
     "grammar": {
@@ -22004,9 +20576,6 @@
       },
       "ui": {
         "term": "Giao dịch tạo hợp đồng"
-      },
-      "code": {
-        "term": "contractCreationTransaction"
       }
     },
     "grammar": {
@@ -22049,9 +20618,6 @@
       },
       "ui": {
         "term": "Ngôn ngữ hợp ngữ EVM"
-      },
-      "code": {
-        "term": "evmAssemblyLanguage"
       }
     },
     "grammar": {
@@ -22097,9 +20663,6 @@
       },
       "ui": {
         "term": "Tối ưu hóa gas"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -22142,9 +20705,6 @@
       },
       "ui": {
         "term": "Vấn đề mã bất biến"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -22188,9 +20748,6 @@
       },
       "ui": {
         "term": "Hợp đồng tiền biên dịch"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -22234,9 +20791,6 @@
       },
       "ui": {
         "term": "Bật chống tái truy nhập"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -22282,9 +20836,6 @@
       },
       "ui": {
         "term": "Tự hủy hợp đồng"
-      },
-      "code": {
-        "term": "selfDestruct"
       }
     },
     "grammar": {
@@ -22328,9 +20879,6 @@
       },
       "ui": {
         "term": "Tạo đơn thể"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -22374,9 +20922,6 @@
       },
       "ui": {
         "term": "Hợp ngữ Nội tuyến"
-      },
-      "code": {
-        "term": "solidityInlineAssembly"
       }
     },
     "grammar": {
@@ -22419,9 +20964,6 @@
       },
       "ui": {
         "term": "Trạng thái"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -22470,9 +21012,6 @@
       },
       "ui": {
         "term": "Nhận"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -22518,9 +21057,6 @@
       },
       "ui": {
         "term": "Khoảng chờ"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -22569,9 +21105,6 @@
       },
       "ui": {
         "term": "Phân mảnh"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -22614,9 +21147,6 @@
       },
       "ui": {
         "term": "Token LP"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -22660,9 +21190,6 @@
       },
       "ui": {
         "term": "Tạo Token"
-      },
-      "code": {
-        "term": "tokenFactory"
       }
     },
     "grammar": {
@@ -22703,9 +21230,6 @@
       },
       "ui": {
         "term": "Token URI"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -22754,9 +21278,6 @@
       },
       "ui": {
         "term": "Lịch phân bổ"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -22799,9 +21320,6 @@
       },
       "ui": {
         "term": "Token Bọc"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -22846,9 +21364,6 @@
       },
       "ui": {
         "term": "Giao dịch nội bộ"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -22894,9 +21409,6 @@
       },
       "ui": {
         "term": "Phí tối đa mỗi gas"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -22937,9 +21449,6 @@
       },
       "ui": {
         "term": "Hàm khởi tạo"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -22969,9 +21478,6 @@
       },
       "ui": {
         "term": "Charles Hoskinson"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -22996,9 +21502,6 @@
         "term": "Gavin Wood"
       },
       "ui": {
-        "term": "Gavin Wood"
-      },
-      "code": {
         "term": "Gavin Wood"
       }
     },
@@ -23025,9 +21528,6 @@
       },
       "ui": {
         "term": "Joseph Lubin"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -23052,9 +21552,6 @@
         "term": "Vitalik Buterin"
       },
       "ui": {
-        "term": "Vitalik Buterin"
-      },
-      "code": {
         "term": "Vitalik Buterin"
       }
     },
@@ -23081,9 +21578,6 @@
       },
       "ui": {
         "term": "Wei Dai"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -23108,9 +21602,6 @@
         "term": "Aave"
       },
       "ui": {
-        "term": "Aave"
-      },
-      "code": {
         "term": "Aave"
       }
     },
@@ -23137,9 +21628,6 @@
       },
       "ui": {
         "term": "Arbitrum"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -23164,9 +21652,6 @@
         "term": "Binance"
       },
       "ui": {
-        "term": "Binance"
-      },
-      "code": {
         "term": "Binance"
       }
     },
@@ -23193,9 +21678,6 @@
       },
       "ui": {
         "term": "Chrome"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -23220,9 +21702,6 @@
         "term": "Coinbase"
       },
       "ui": {
-        "term": "Coinbase"
-      },
-      "code": {
         "term": "Coinbase"
       }
     },
@@ -23249,9 +21728,6 @@
       },
       "ui": {
         "term": "ConsenSys"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -23276,9 +21752,6 @@
         "term": "CryptoKitties"
       },
       "ui": {
-        "term": "CryptoKitties"
-      },
-      "code": {
         "term": "CryptoKitties"
       }
     },
@@ -23305,9 +21778,6 @@
       },
       "ui": {
         "term": "Dencun"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -23332,9 +21802,6 @@
         "term": "Discord"
       },
       "ui": {
-        "term": "Discord"
-      },
-      "code": {
         "term": "Discord"
       }
     },
@@ -23361,9 +21828,6 @@
       },
       "ui": {
         "term": "Facebook"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -23388,9 +21852,6 @@
         "term": "Filecoin"
       },
       "ui": {
-        "term": "Filecoin"
-      },
-      "code": {
         "term": "Filecoin"
       }
     },
@@ -23417,9 +21878,6 @@
       },
       "ui": {
         "term": "Goerli"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -23444,9 +21902,6 @@
         "term": "Holesky"
       },
       "ui": {
-        "term": "Holesky"
-      },
-      "code": {
         "term": "Holesky"
       }
     },
@@ -23473,9 +21928,6 @@
       },
       "ui": {
         "term": "Lido"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -23500,9 +21952,6 @@
         "term": "MakerDAO"
       },
       "ui": {
-        "term": "MakerDAO"
-      },
-      "code": {
         "term": "MakerDAO"
       }
     },
@@ -23529,9 +21978,6 @@
       },
       "ui": {
         "term": "Microsoft"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -23556,9 +22002,6 @@
         "term": "Netflix"
       },
       "ui": {
-        "term": "Netflix"
-      },
-      "code": {
         "term": "Netflix"
       }
     },
@@ -23585,9 +22028,6 @@
       },
       "ui": {
         "term": "OpenSea"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -23612,9 +22052,6 @@
         "term": "Optimism"
       },
       "ui": {
-        "term": "Optimism"
-      },
-      "code": {
         "term": "Optimism"
       }
     },
@@ -23641,9 +22078,6 @@
       },
       "ui": {
         "term": "PayPal"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -23668,9 +22102,6 @@
         "term": "Polygon"
       },
       "ui": {
-        "term": "Polygon"
-      },
-      "code": {
         "term": "Polygon"
       }
     },
@@ -23697,9 +22128,6 @@
       },
       "ui": {
         "term": "Reddit"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -23724,9 +22152,6 @@
         "term": "Ropsten"
       },
       "ui": {
-        "term": "Ropsten"
-      },
-      "code": {
         "term": "Ropsten"
       }
     },
@@ -23753,9 +22178,6 @@
       },
       "ui": {
         "term": "Starknet"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -23780,9 +22202,6 @@
         "term": "Telegram"
       },
       "ui": {
-        "term": "Telegram"
-      },
-      "code": {
         "term": "Telegram"
       }
     },
@@ -23809,9 +22228,6 @@
       },
       "ui": {
         "term": "Twitter"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -23837,9 +22253,6 @@
       },
       "ui": {
         "term": "YouTube"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -23864,9 +22277,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },
