@@ -138,6 +138,33 @@ const matchPattern = new RegExp(`\\b(${escaped.join("|")})\\b`, "gi")
 // Translation cache
 const translationCache = new Map<string, Record<string, TranslationEntry>>()
 
+/**
+ * Every `id` has to survive being put in a URL path, unencoded.
+ *
+ * `51% attack` shipped with `id: "51%-attack"`, and `%-a` is a malformed
+ * percent-escape: Cloudflare rejected it at the edge with a 400 before the
+ * Worker ever ran, so the term was unreachable on the site AND through
+ * `/api/v1/style-guide/{termId}`, which documents `id` as the thing you put
+ * in the path. Encoding at each call site would have hidden it; this makes
+ * the shape impossible instead.
+ *
+ * Called at module load so a bad id fails fast rather than 400ing one term.
+ */
+function assertIdsAreUrlSafe(): void {
+  const shape = /^[a-z0-9]+(-[a-z0-9]+)*$/
+  const bad = Object.values(confirmedTerms)
+    .filter((entry) => !shape.test(entry.id))
+    .map((entry) => `${entry.term} -> ${entry.id}`)
+
+  if (bad.length) {
+    throw new Error(
+      `glossary ids must be lowercase kebab-case to be URL-safe -- ${bad.join("; ")}`
+    )
+  }
+}
+
+assertIdsAreUrlSafe()
+
 export function getTerms(): Record<string, GlossaryTerm> {
   return confirmedTerms
 }
