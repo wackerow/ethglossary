@@ -5,6 +5,7 @@ import { cache } from "hono/cache"
 import { trimTrailingSlash } from "hono/trailing-slash"
 
 import llmsTxt from "./llms.txt"
+import { DOCS_BRAND } from "./ui/docs-brand"
 import viewer, { notFoundHandler } from "./routes/viewer"
 import info from "./routes/info"
 import styleGuide from "./routes/style-guide"
@@ -61,14 +62,27 @@ app.doc31("/openapi.json", (c) => {
 })
 
 // Scalar API docs
-app.get(
-  "/docs",
-  apiReference({
-    spec: { url: "/openapi.json" },
-    theme: "kepler",
-    pageTitle: "ETHGlossary API",
-  } as Record<string, unknown>)
-)
+/*
+ * Scalar renders a standalone document with no link back to the site, so the
+ * wordmark is injected into its sidebar afterwards. See src/ui/docs-brand.ts
+ * for why this is a wrapper rather than a config option.
+ */
+const scalar = apiReference({
+  spec: { url: "/openapi.json" },
+  theme: "kepler",
+  pageTitle: "ETHGlossary API",
+} as Record<string, unknown>)
+
+app.get("/docs", async (c) => {
+  // The Scalar handler always returns a Response; `next` is never called.
+  const res = (await scalar(c, async () => {})) as Response
+  const html = await res.text()
+  return c.html(
+    html
+      .replace("</head>", `<link rel="icon" href="/favicon.svg" type="image/svg+xml" /></head>`)
+      .replace("</body>", `${DOCS_BRAND}</body>`)
+  )
+})
 
 // LLM-friendly description
 app.get("/llms.txt", (c) => {
