@@ -29,9 +29,6 @@
       },
       "ui": {
         "term": "إرسال تصديق"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -86,9 +83,6 @@
       },
       "ui": {
         "term": "جسر الأصول"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -143,9 +137,6 @@
       },
       "ui": {
         "term": "احرق"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -196,9 +187,6 @@
       },
       "ui": {
         "term": "جاري الحرق..."
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -251,9 +239,6 @@
       },
       "ui": {
         "term": "إضافة ضمان"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -301,9 +286,6 @@
       },
       "ui": {
         "term": "حول اللامركزية"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -351,9 +333,6 @@
       },
       "ui": {
         "term": "تطبيق لامركزي"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -407,9 +386,6 @@
       },
       "ui": {
         "term": "فوّض الآن"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -459,9 +435,6 @@
       },
       "ui": {
         "term": "إلغاء التفويض"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -516,9 +489,6 @@
       },
       "ui": {
         "term": "نشر"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -570,9 +540,6 @@
       },
       "ui": {
         "term": "عملية النشر"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -623,9 +590,6 @@
       },
       "ui": {
         "term": "توقيع رقمي"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -679,9 +643,6 @@
       },
       "ui": {
         "term": "التوقيع"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -736,9 +697,6 @@
       },
       "ui": {
         "term": "توقيع"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -792,9 +750,6 @@
       },
       "ui": {
         "term": "تشفير"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -848,9 +803,6 @@
       },
       "ui": {
         "term": "فك التشفير"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -902,9 +854,6 @@
       },
       "ui": {
         "term": "النهائية"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -959,9 +908,6 @@
       },
       "ui": {
         "term": "نهائي"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -1016,9 +962,6 @@
       },
       "ui": {
         "term": "تفرع"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -1068,9 +1011,6 @@
       },
       "ui": {
         "term": "تفرع صلب"
-      },
-      "code": {
-        "term": "hard_fork"
       }
     },
     "grammar": {
@@ -1120,9 +1060,6 @@
       },
       "ui": {
         "term": "تفرع مرن"
-      },
-      "code": {
-        "term": "soft_fork"
       }
     },
     "grammar": {
@@ -1173,9 +1110,6 @@
       },
       "ui": {
         "term": "الحوكمة"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1231,9 +1165,6 @@
       },
       "ui": {
         "term": "تجزئة"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1282,9 +1213,6 @@
       },
       "ui": {
         "term": "دالة التجزئة"
-      },
-      "code": {
-        "term": "hash_function"
       }
     },
     "grammar": {
@@ -1334,9 +1262,6 @@
       },
       "ui": {
         "term": "معدل التجزئة"
-      },
-      "code": {
-        "term": "hash_rate"
       }
     },
     "grammar": {
@@ -1385,9 +1310,6 @@
       },
       "ui": {
         "term": "التجزئة"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1436,9 +1358,6 @@
       },
       "ui": {
         "term": "تخزين سائل"
-      },
-      "code": {
-        "term": "liquid_staking"
       }
     },
     "grammar": {
@@ -1481,9 +1400,6 @@
       },
       "ui": {
         "term": "تخزين مجمع"
-      },
-      "code": {
-        "term": "pooled_staking"
       }
     },
     "grammar": {
@@ -1524,9 +1440,6 @@
       },
       "ui": {
         "term": "أعد التخزين"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1567,9 +1480,6 @@
       },
       "ui": {
         "term": "تخزين فردي"
-      },
-      "code": {
-        "term": "solo_staking"
       }
     },
     "grammar": {
@@ -1616,9 +1526,6 @@
       },
       "ui": {
         "term": "خزّن"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1665,9 +1572,6 @@
       },
       "ui": {
         "term": "مُخزَّن"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1711,9 +1615,6 @@
       },
       "ui": {
         "term": "المُخزِّن"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1762,9 +1663,6 @@
       },
       "ui": {
         "term": "التخزين"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1805,9 +1703,6 @@
       },
       "ui": {
         "term": "وديعة التخزين"
-      },
-      "code": {
-        "term": "staking_deposit"
       }
     },
     "grammar": {
@@ -1856,9 +1751,6 @@
       },
       "ui": {
         "term": "مجمع التخزين"
-      },
-      "code": {
-        "term": "staking_pool"
       }
     },
     "grammar": {
@@ -1907,9 +1799,6 @@
       },
       "ui": {
         "term": "إلغاء التخزين"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1958,9 +1847,6 @@
       },
       "ui": {
         "term": "تصفية"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -2015,9 +1901,6 @@
       },
       "ui": {
         "term": "مُعَدِّن"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -2072,9 +1955,6 @@
       },
       "ui": {
         "term": "تعدين"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -2129,9 +2009,6 @@
       },
       "ui": {
         "term": "سك"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -2186,9 +2063,6 @@
       },
       "ui": {
         "term": "سك"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -2244,9 +2118,6 @@
       },
       "ui": {
         "term": "اقتطاع"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2296,9 +2167,6 @@
       },
       "ui": {
         "term": "مُقْتَطِع"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2354,9 +2222,6 @@
       },
       "ui": {
         "term": "مبادلة"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2409,9 +2274,6 @@
       },
       "ui": {
         "term": "معاملة"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2467,9 +2329,6 @@
       },
       "ui": {
         "term": "المُدَقِّق"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2519,9 +2378,6 @@
       },
       "ui": {
         "term": "تدقيق الكتلة"
-      },
-      "code": {
-        "term": "block_validation"
       }
     },
     "grammar": {
@@ -2576,9 +2432,6 @@
       },
       "ui": {
         "term": "إرسال الصوت"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2634,9 +2487,6 @@
       },
       "ui": {
         "term": "تصويت"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2689,9 +2539,6 @@
       },
       "ui": {
         "term": "إيثيريوم"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2744,9 +2591,6 @@
       },
       "ui": {
         "term": "العقد"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2800,9 +2644,6 @@
       },
       "ui": {
         "term": "كتلة"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2854,9 +2695,6 @@
       },
       "ui": {
         "term": "عقد ذكي"
-      },
-      "code": {
-        "term": "smart_contract"
       }
     },
     "grammar": {
@@ -2909,9 +2747,6 @@
       },
       "ui": {
         "term": "عقدة"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2966,9 +2801,6 @@
       },
       "ui": {
         "term": "رمز مميز"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -3018,9 +2850,6 @@
       },
       "ui": {
         "term": "نسخ العنوان"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -3071,9 +2900,6 @@
       },
       "ui": {
         "term": "إرسال ETH"
-      },
-      "code": {
-        "term": "eth"
       }
     },
     "grammar": {
@@ -3125,9 +2951,6 @@
       },
       "ui": {
         "term": "مستكشف سلسلة الكتل"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -3178,9 +3001,6 @@
       },
       "ui": {
         "term": "ربط الحساب"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -3233,9 +3053,6 @@
       },
       "ui": {
         "term": "تغيير السلسلة"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -3285,9 +3102,6 @@
       },
       "ui": {
         "term": "إحصائيات البروتوكول"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -3340,9 +3154,6 @@
       },
       "ui": {
         "term": "ربط المحفظة"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3395,9 +3206,6 @@
       },
       "ui": {
         "term": "تقدير الغاز"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3450,9 +3258,6 @@
       },
       "ui": {
         "term": "شبكات التجميع"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3502,9 +3307,6 @@
       },
       "ui": {
         "term": "عرض المقترح"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3558,9 +3360,6 @@
       },
       "ui": {
         "term": "اشتراط"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3610,9 +3409,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "Web3"
       }
     },
     "grammar": {
@@ -3654,9 +3450,6 @@
         "term": "Solidity"
       },
       "ui": {
-        "term": "Solidity"
-      },
-      "code": {
         "term": "Solidity"
       }
     },
@@ -3703,9 +3496,6 @@
       },
       "ui": {
         "term": "حدث"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3753,9 +3543,6 @@
       },
       "ui": {
         "term": "على السلسلة"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3798,9 +3585,6 @@
       },
       "ui": {
         "term": "إيثر"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3850,9 +3634,6 @@
       },
       "ui": {
         "term": "EVM"
-      },
-      "code": {
-        "term": "evm"
       }
     },
     "grammar": {
@@ -3903,9 +3684,6 @@
       },
       "ui": {
         "term": "تطبيق لامركزي"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3955,9 +3733,6 @@
       },
       "ui": {
         "term": "NFT"
-      },
-      "code": {
-        "term": "nft"
       }
     },
     "grammar": {
@@ -4011,9 +3786,6 @@
       },
       "ui": {
         "term": "تحويل"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -4067,9 +3839,6 @@
       },
       "ui": {
         "term": "سحب"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -4124,9 +3893,6 @@
       },
       "ui": {
         "term": "إجماع"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -4177,9 +3943,6 @@
       },
       "ui": {
         "term": "الشبكة الرئيسية"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -4228,9 +3991,6 @@
       },
       "ui": {
         "term": "خارج السلسلة"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -4273,9 +4033,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -4320,9 +4077,6 @@
       },
       "ui": {
         "term": "أوراكل"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -4374,9 +4128,6 @@
       },
       "ui": {
         "term": "كتلة بيانات"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -4425,9 +4176,6 @@
       },
       "ui": {
         "term": "ميتاماسك"
-      },
-      "code": {
-        "term": "MetaMask"
       }
     },
     "grammar": {
@@ -4470,9 +4218,6 @@
       },
       "ui": {
         "term": "أوبن زبلن"
-      },
-      "code": {
-        "term": "OpenZeppelin"
       }
     },
     "grammar": {
@@ -4513,9 +4258,6 @@
       },
       "ui": {
         "term": "تشغيل سليذر"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4568,9 +4310,6 @@
       },
       "ui": {
         "term": "عرض الخانة"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4621,9 +4360,6 @@
       },
       "ui": {
         "term": "إنشاء DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4675,9 +4411,6 @@
       },
       "ui": {
         "term": "التبديل لشبكة الاختبار"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4728,9 +4461,6 @@
       },
       "ui": {
         "term": "اختر عميل الإجماع"
-      },
-      "code": {
-        "term": "consensusClient"
       }
     },
     "grammar": {
@@ -4781,9 +4511,6 @@
       },
       "ui": {
         "term": "شبكات طبقة 2"
-      },
-      "code": {
-        "term": "l2"
       }
     },
     "grammar": {
@@ -4835,9 +4562,6 @@
       },
       "ui": {
         "term": "تفعيل ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4888,9 +4612,6 @@
       },
       "ui": {
         "term": "إظهار المفتاح الخاص"
-      },
-      "code": {
-        "term": "privateKey"
       }
     },
     "grammar": {
@@ -4943,9 +4664,6 @@
       },
       "ui": {
         "term": "شراء كريبتو"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4996,9 +4714,6 @@
       },
       "ui": {
         "term": "العودة إلى طبقة 1"
-      },
-      "code": {
-        "term": "l1"
       }
     },
     "grammar": {
@@ -5046,9 +4761,6 @@
         "term": "القيمة القصوى القابلة للاستخراج"
       },
       "ui": {
-        "term": "MEV"
-      },
-      "code": {
         "term": "MEV"
       }
     },
@@ -5104,9 +4816,6 @@
       },
       "ui": {
         "term": "خروج"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -5155,9 +4864,6 @@
       },
       "ui": {
         "term": "رمز التشغيل"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -5206,9 +4912,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -5249,9 +4952,6 @@
       },
       "ui": {
         "term": "إيكيدنا"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -5292,9 +4992,6 @@
       },
       "ui": {
         "term": "الخصوصية"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -5335,9 +5032,6 @@
       },
       "ui": {
         "term": "مانتيكور"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -5380,9 +5074,6 @@
       },
       "ui": {
         "term": "رول أب متفائل"
-      },
-      "code": {
-        "term": "optimistic rollup"
       }
     },
     "grammar": {
@@ -5431,9 +5122,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "erc"
       }
     },
     "grammar": {
@@ -5480,9 +5168,6 @@
       },
       "ui": {
         "term": "بلازما"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5527,9 +5212,6 @@
       },
       "ui": {
         "term": "المكتبة"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -5579,9 +5261,6 @@
       },
       "ui": {
         "term": "يونيسواب"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -5636,9 +5315,6 @@
       },
       "ui": {
         "term": "الدمج"
-      },
-      "code": {
-        "term": "theMerge"
       }
     },
     "grammar": {
@@ -5693,9 +5369,6 @@
       },
       "ui": {
         "term": "إثبات المعرفة الصفرية"
-      },
-      "code": {
-        "term": "zkProof"
       }
     },
     "grammar": {
@@ -5745,9 +5418,6 @@
       },
       "ui": {
         "term": "بيتكوين"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5802,9 +5472,6 @@
       },
       "ui": {
         "term": "توفر البيانات"
-      },
-      "code": {
-        "term": "dataAvailability"
       }
     },
     "grammar": {
@@ -5857,9 +5524,6 @@
       },
       "ui": {
         "term": "سجل"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5911,9 +5575,6 @@
       },
       "ui": {
         "term": "سلسلة المنارة"
-      },
-      "code": {
-        "term": "beaconChain"
       }
     },
     "grammar": {
@@ -5966,9 +5627,6 @@
       },
       "ui": {
         "term": "السيولة"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -6018,9 +5676,6 @@
       },
       "ui": {
         "term": "حقبة"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -6071,9 +5726,6 @@
       },
       "ui": {
         "term": "الشبكة الرئيسية"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -6127,9 +5779,6 @@
       },
       "ui": {
         "term": "إنشاء مقترح"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -6176,9 +5825,6 @@
       },
       "ui": {
         "term": "مقترح الكتلة"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -6227,9 +5873,6 @@
       },
       "ui": {
         "term": "طبقة الإجماع"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -6281,9 +5924,6 @@
       },
       "ui": {
         "term": "إضافة نظير"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -6332,9 +5972,6 @@
       },
       "ui": {
         "term": "JSON-RPC"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -6379,9 +6016,6 @@
       },
       "ui": {
         "term": "الرقم الفريد (Nonce)"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -6430,9 +6064,6 @@
       },
       "ui": {
         "term": "رابط IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -6475,9 +6106,6 @@
       },
       "ui": {
         "term": "تشغيل عقدة كاملة"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -6529,9 +6157,6 @@
       },
       "ui": {
         "term": "تقنية المعرفة الصفرية"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -6572,9 +6197,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -6620,9 +6242,6 @@
       },
       "ui": {
         "term": "نقطة فحص"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6670,9 +6289,6 @@
       },
       "ui": {
         "term": "بيكترا"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6715,9 +6331,6 @@
       },
       "ui": {
         "term": "عملة مشفرة"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6770,9 +6383,6 @@
       },
       "ui": {
         "term": "متحقق"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6827,9 +6437,6 @@
       },
       "ui": {
         "term": "باني"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6877,9 +6484,6 @@
       },
       "ui": {
         "term": "مفتاح عام"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6927,9 +6531,6 @@
       },
       "ui": {
         "term": "سلسلة جانبية"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6977,9 +6578,6 @@
       },
       "ui": {
         "term": "فوساكا"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -7022,9 +6620,6 @@
       },
       "ui": {
         "term": "بيانات وصفية"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -7077,9 +6672,6 @@
       },
       "ui": {
         "term": "واجهة التطبيق الثنائية"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -7127,9 +6719,6 @@
       },
       "ui": {
         "term": "Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -7185,9 +6774,6 @@
       },
       "ui": {
         "term": "إيثر مغلف"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -7235,9 +6821,6 @@
       },
       "ui": {
         "term": "zkEVM"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -7290,9 +6873,6 @@
       },
       "ui": {
         "term": "رسوم الغاز"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -7340,9 +6920,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -7394,9 +6971,6 @@
       },
       "ui": {
         "term": "حد الغاز"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -7452,9 +7026,6 @@
       },
       "ui": {
         "term": "إكرامية"
-      },
-      "code": {
-        "term": "tip"
       }
     },
     "grammar": {
@@ -7505,9 +7076,6 @@
       },
       "ui": {
         "term": "آلية الإجماع"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -7557,9 +7125,6 @@
       },
       "ui": {
         "term": "ERC-721"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -7610,9 +7175,6 @@
       },
       "ui": {
         "term": "خدمة أسماء إيثيريوم"
-      },
-      "code": {
-        "term": "ens"
       }
     },
     "grammar": {
@@ -7667,9 +7229,6 @@
       },
       "ui": {
         "term": "مُثبِت"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -7720,9 +7279,6 @@
       },
       "ui": {
         "term": "قناة حالة"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -7771,9 +7327,6 @@
       },
       "ui": {
         "term": "رسوم المعاملة"
-      },
-      "code": {
-        "term": "transactionFee"
       }
     },
     "grammar": {
@@ -7822,9 +7375,6 @@
       },
       "ui": {
         "term": "حساب مملوك خارجياً"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -7874,9 +7424,6 @@
       },
       "ui": {
         "term": "إثبات الصلاحية"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -7927,9 +7474,6 @@
       },
       "ui": {
         "term": "صنبور"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7978,9 +7522,6 @@
       },
       "ui": {
         "term": "Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -8030,9 +7571,6 @@
       },
       "ui": {
         "term": "مستكشف الكتل"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -8085,9 +7623,6 @@
       },
       "ui": {
         "term": "تراجع"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -8136,9 +7671,6 @@
       },
       "ui": {
         "term": "مؤسسة إيثيريوم"
-      },
-      "code": {
-        "term": "ethereumFoundation"
       }
     },
     "grammar": {
@@ -8182,9 +7714,6 @@
       },
       "ui": {
         "term": "هوية لامركزية (DID)"
-      },
-      "code": {
-        "term": "decentralizedIdentity"
       }
     },
     "grammar": {
@@ -8240,9 +7769,6 @@
       },
       "ui": {
         "term": "المُقترِح"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -8298,9 +7824,6 @@
       },
       "ui": {
         "term": "التشفير"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -8344,9 +7867,6 @@
       },
       "ui": {
         "term": "رمز البايت"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -8396,9 +7916,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -8439,9 +7956,6 @@
       },
       "ui": {
         "term": "لايتهاوس"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -8484,9 +7998,6 @@
       },
       "ui": {
         "term": "سعر الغاز"
-      },
-      "code": {
-        "term": "gasPrice"
       }
     },
     "grammar": {
@@ -8539,9 +8050,6 @@
       },
       "ui": {
         "term": "نظير إلى نظير"
-      },
-      "code": {
-        "term": "peerToPeer"
       }
     },
     "grammar": {
@@ -8582,9 +8090,6 @@
       },
       "ui": {
         "term": "غلامستردام"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -8625,9 +8130,6 @@
       },
       "ui": {
         "term": "نيذرميند"
-      },
-      "code": {
-        "term": "Nethermind"
       }
     },
     "grammar": {
@@ -8676,9 +8178,6 @@
       },
       "ui": {
         "term": "إثبات الاحتيال"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -8727,9 +8226,6 @@
       },
       "ui": {
         "term": "إثبات ميركل"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -8779,9 +8275,6 @@
       },
       "ui": {
         "term": "العلم اللامركزي"
-      },
-      "code": {
-        "term": "deSci"
       }
     },
     "grammar": {
@@ -8830,9 +8323,6 @@
       },
       "ui": {
         "term": "منزوع الثقة"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -8881,9 +8371,6 @@
       },
       "ui": {
         "term": "تجزئة دانك"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -8933,9 +8420,6 @@
       },
       "ui": {
         "term": "خوارزمية اختيار التفرع"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8984,9 +8468,6 @@
       },
       "ui": {
         "term": "الرسم الأساسي"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -9033,9 +8514,6 @@
       },
       "ui": {
         "term": "إريغون"
-      },
-      "code": {
-        "term": "Erigon"
       }
     },
     "grammar": {
@@ -9088,9 +8566,6 @@
       },
       "ui": {
         "term": "موافقة"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -9139,9 +8614,6 @@
       },
       "ui": {
         "term": "شجرة ميركل"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -9188,9 +8660,6 @@
       },
       "ui": {
         "term": "عقدة خفيفة"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -9240,9 +8709,6 @@
       },
       "ui": {
         "term": "عبارة الاسترداد"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -9289,9 +8755,6 @@
       },
       "ui": {
         "term": "لجنة"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -9340,9 +8803,6 @@
       },
       "ui": {
         "term": "بيسو"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -9391,9 +8851,6 @@
       },
       "ui": {
         "term": "زي كي سنارك"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -9442,9 +8899,6 @@
       },
       "ui": {
         "term": "منشئ الكتل"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -9493,9 +8947,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -9544,9 +8995,6 @@
       },
       "ui": {
         "term": "الرصيد الفعال"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -9595,9 +9043,6 @@
       },
       "ui": {
         "term": "رأس الكتلة"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -9644,9 +9089,6 @@
       },
       "ui": {
         "term": "عبر السلاسل"
-      },
-      "code": {
-        "term": "crossChain"
       }
     },
     "grammar": {
@@ -9687,9 +9129,6 @@
       },
       "ui": {
         "term": "بروتو-دانكشاردينغ"
-      },
-      "code": {
-        "term": "protoDanksharding"
       }
     },
     "grammar": {
@@ -9736,9 +9175,6 @@
       },
       "ui": {
         "term": "ريث"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -9787,9 +9223,6 @@
       },
       "ui": {
         "term": "الإيصال"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -9841,9 +9274,6 @@
       },
       "ui": {
         "term": "إقراض"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -9892,9 +9322,6 @@
       },
       "ui": {
         "term": "قبو"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -9943,9 +9370,6 @@
       },
       "ui": {
         "term": "عقدة التمهيد"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -10000,9 +9424,6 @@
       },
       "ui": {
         "term": "السماحية"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -10052,9 +9473,6 @@
       },
       "ui": {
         "term": "مجمع الذاكرة"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -10103,9 +9521,6 @@
       },
       "ui": {
         "term": "المدقق الموزع"
-      },
-      "code": {
-        "term": "dvt"
       }
     },
     "grammar": {
@@ -10155,9 +9570,6 @@
       },
       "ui": {
         "term": "منصة لامركزية"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -10209,9 +9621,6 @@
       },
       "ui": {
         "term": "باحث"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -10258,9 +9667,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -10303,9 +9709,6 @@
       },
       "ui": {
         "term": "بدون تصريح"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -10346,9 +9749,6 @@
       },
       "ui": {
         "term": "برايزم"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -10389,9 +9789,6 @@
       },
       "ui": {
         "term": "تيكو"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -10432,9 +9829,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -10477,9 +9871,6 @@
       },
       "ui": {
         "term": "فصل المقترح والباني"
-      },
-      "code": {
-        "term": "pbs"
       }
     },
     "grammar": {
@@ -10523,9 +9914,6 @@
       },
       "ui": {
         "term": "نهائية الخانة الواحدة"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -10568,9 +9956,6 @@
       },
       "ui": {
         "term": "عقدة أرشيفية"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -10617,9 +10002,6 @@
       },
       "ui": {
         "term": "لودستار"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -10659,9 +10041,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -10705,9 +10084,6 @@
       },
       "ui": {
         "term": "أصل رقمي"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -10760,9 +10136,6 @@
       },
       "ui": {
         "term": "المُسلسِل"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -10809,9 +10182,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -10852,9 +10222,6 @@
       },
       "ui": {
         "term": "جذر ميركل"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -10901,9 +10268,6 @@
       },
       "ui": {
         "term": "تيلور"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -10948,9 +10312,6 @@
       },
       "ui": {
         "term": "وكيل الذكاء الاصطناعي"
-      },
-      "code": {
-        "term": "ai_agent"
       }
     },
     "grammar": {
@@ -11001,9 +10362,6 @@
       },
       "ui": {
         "term": "الصعوبة"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -11057,9 +10415,6 @@
       },
       "ui": {
         "term": "إعادة تنظيم"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -11114,9 +10469,6 @@
       },
       "ui": {
         "term": "تأكيد"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -11163,9 +10515,6 @@
       },
       "ui": {
         "term": "نيمبوس"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -11216,9 +10565,6 @@
       },
       "ui": {
         "term": "غير قابل للتغيير"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -11269,9 +10615,6 @@
       },
       "ui": {
         "term": "سوق التوقعات"
-      },
-      "code": {
-        "term": "prediction_market"
       }
     },
     "grammar": {
@@ -11320,9 +10663,6 @@
       },
       "ui": {
         "term": "بادئة الطول العودية"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -11376,9 +10716,6 @@
       },
       "ui": {
         "term": "التحقق الشكلي"
-      },
-      "code": {
-        "term": "formal_verification"
       }
     },
     "grammar": {
@@ -11429,9 +10766,6 @@
       },
       "ui": {
         "term": "تجريد الحساب"
-      },
-      "code": {
-        "term": "account_abstraction"
       }
     },
     "grammar": {
@@ -11480,9 +10814,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "dagger_hashimoto"
       }
     },
     "grammar": {
@@ -11534,9 +10865,6 @@
       },
       "ui": {
         "term": "زِد كيه ستارك"
-      },
-      "code": {
-        "term": "zk_stark"
       }
     },
     "grammar": {
@@ -11587,9 +10915,6 @@
       },
       "ui": {
         "term": "عشوائية"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -11640,9 +10965,6 @@
       },
       "ui": {
         "term": "استراتيجية"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -11694,9 +11016,6 @@
       },
       "ui": {
         "term": "أصول العالم الحقيقي"
-      },
-      "code": {
-        "term": "rwa"
       }
     },
     "grammar": {
@@ -11751,9 +11070,6 @@
       },
       "ui": {
         "term": "تجاوز السعة"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -11806,9 +11122,6 @@
       },
       "ui": {
         "term": "تجزئة المعاملة"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -11860,9 +11173,6 @@
       },
       "ui": {
         "term": "متعدد التوقيعات"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -11913,9 +11223,6 @@
       },
       "ui": {
         "term": "عملة مستقرة"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -11967,9 +11274,6 @@
       },
       "ui": {
         "term": "الورقة الصفراء"
-      },
-      "code": {
-        "term": "yellow_paper"
       }
     },
     "grammar": {
@@ -12020,9 +11324,6 @@
       },
       "ui": {
         "term": "قابلية التركيب"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -12075,9 +11376,6 @@
       },
       "ui": {
         "term": "عقد وكيل"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -12129,9 +11427,6 @@
       },
       "ui": {
         "term": "رسم بياني فرعي"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -12184,9 +11479,6 @@
       },
       "ui": {
         "term": "قابلية التشغيل البيني"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -12238,9 +11530,6 @@
       },
       "ui": {
         "term": "تنوع العملاء"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -12292,9 +11581,6 @@
       },
       "ui": {
         "term": "شانغهاي"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -12347,9 +11633,6 @@
       },
       "ui": {
         "term": "التمويل المتجدد"
-      },
-      "code": {
-        "term": "reFi"
       }
     },
     "grammar": {
@@ -12401,9 +11684,6 @@
       },
       "ui": {
         "term": "حساب عقد"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -12453,9 +11733,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -12507,9 +11784,6 @@
       },
       "ui": {
         "term": "مكافأة الكتلة"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -12561,9 +11835,6 @@
       },
       "ui": {
         "term": "وقت الكتلة"
-      },
-      "code": {
-        "term": "block_time"
       }
     },
     "grammar": {
@@ -12613,9 +11884,6 @@
       },
       "ui": {
         "term": "الورقة البيضاء"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -12664,9 +11932,6 @@
       },
       "ui": {
         "term": "أخذ عينات توفر البيانات"
-      },
-      "code": {
-        "term": "data_availability_sampling"
       }
     },
     "grammar": {
@@ -12720,9 +11985,6 @@
       },
       "ui": {
         "term": "مبرر"
-      },
-      "code": {
-        "term": "is_justified"
       }
     },
     "grammar": {
@@ -12773,9 +12035,6 @@
       },
       "ui": {
         "term": "مزود السيولة"
-      },
-      "code": {
-        "term": "liquidity_provider"
       }
     },
     "grammar": {
@@ -12821,9 +12080,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -12873,9 +12129,6 @@
       },
       "ui": {
         "term": "تجميع المعرفة الصفرية"
-      },
-      "code": {
-        "term": "zk_rollup"
       }
     },
     "grammar": {
@@ -12922,9 +12175,6 @@
       },
       "ui": {
         "term": "تشين لينك"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -12973,9 +12223,6 @@
       },
       "ui": {
         "term": "قرض سريع"
-      },
-      "code": {
-        "term": "flash_loan"
       }
     },
     "grammar": {
@@ -13022,9 +12269,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -13071,9 +12315,6 @@
       },
       "ui": {
         "term": "MEV-Boost"
-      },
-      "code": {
-        "term": "mev_boost"
       }
     },
     "grammar": {
@@ -13120,9 +12361,6 @@
       },
       "ui": {
         "term": "كانكون"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -13169,9 +12407,6 @@
       },
       "ui": {
         "term": "عقد الإيداع"
-      },
-      "code": {
-        "term": "deposit_contract"
       }
     },
     "grammar": {
@@ -13220,9 +12455,6 @@
       },
       "ui": {
         "term": "حمولة التنفيذ"
-      },
-      "code": {
-        "term": "execution_payload"
       }
     },
     "grammar": {
@@ -13272,9 +12504,6 @@
       },
       "ui": {
         "term": "إثبات السلطة"
-      },
-      "code": {
-        "term": "proof_of_authority"
       }
     },
     "grammar": {
@@ -13323,9 +12552,6 @@
       },
       "ui": {
         "term": "الانتخاب السري للقائد"
-      },
-      "code": {
-        "term": "secret_leader_election"
       }
     },
     "grammar": {
@@ -13372,9 +12598,6 @@
       },
       "ui": {
         "term": "لجنة المزامنة"
-      },
-      "code": {
-        "term": "sync_committee"
       }
     },
     "grammar": {
@@ -13426,9 +12649,6 @@
       },
       "ui": {
         "term": "اقتراض"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -13477,9 +12697,6 @@
       },
       "ui": {
         "term": "إعادة الدخول"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -13525,9 +12742,6 @@
         "term": "ERC-1155"
       },
       "ui": {
-        "term": "ERC-1155"
-      },
-      "code": {
         "term": "ERC-1155"
       }
     },
@@ -13578,9 +12792,6 @@
       },
       "ui": {
         "term": "منحنى إهليلجي"
-      },
-      "code": {
-        "term": "elliptic-curve"
       }
     },
     "grammar": {
@@ -13632,9 +12843,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "utxo"
       }
     },
     "grammar": {
@@ -13684,9 +12892,6 @@
       },
       "ui": {
         "term": "رمز قابل للاستبدال"
-      },
-      "code": {
-        "term": "fungible-token"
       }
     },
     "grammar": {
@@ -13737,9 +12942,6 @@
       },
       "ui": {
         "term": "تمويل تربيعي"
-      },
-      "code": {
-        "term": "quadratic-funding"
       }
     },
     "grammar": {
@@ -13795,9 +12997,6 @@
       },
       "ui": {
         "term": "مقتنيات"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -13847,9 +13046,6 @@
       },
       "ui": {
         "term": "كتلة المنارة"
-      },
-      "code": {
-        "term": "beacon-block"
       }
     },
     "grammar": {
@@ -13897,9 +13093,6 @@
       },
       "ui": {
         "term": "ذاتية ضعيفة"
-      },
-      "code": {
-        "term": "weak-subjectivity"
       }
     },
     "grammar": {
@@ -13949,9 +13142,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -14002,9 +13192,6 @@
       },
       "ui": {
         "term": "مجمع سيولة"
-      },
-      "code": {
-        "term": "liquidity-pool"
       }
     },
     "grammar": {
@@ -14055,9 +13242,6 @@
       },
       "ui": {
         "term": "كتلة التكوين"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -14106,9 +13290,6 @@
       },
       "ui": {
         "term": "شابيلا"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -14151,9 +13332,6 @@
       },
       "ui": {
         "term": "قابل للتركيب"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -14203,9 +13381,6 @@
       },
       "ui": {
         "term": "شجرة الحالة"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -14255,9 +13430,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "LMD_GHOST"
       }
     },
     "grammar": {
@@ -14304,9 +13476,6 @@
       },
       "ui": {
         "term": "عنوان متخفي"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -14355,9 +13524,6 @@
       },
       "ui": {
         "term": "DAI"
-      },
-      "code": {
-        "term": "DAI"
       }
     },
     "grammar": {
@@ -14404,9 +13570,6 @@
       },
       "ui": {
         "term": "ترميز"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -14460,9 +13623,6 @@
       },
       "ui": {
         "term": "المُحِلّ"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -14512,9 +13672,6 @@
       },
       "ui": {
         "term": "محفظة غير وصائية"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -14561,9 +13718,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "maxeb"
       }
     },
     "grammar": {
@@ -14606,9 +13760,6 @@
       },
       "ui": {
         "term": "إنتروبيا"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -14649,9 +13800,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -14693,9 +13841,6 @@
         "term": "discv5"
       },
       "ui": {
-        "term": "discv5"
-      },
-      "code": {
         "term": "discv5"
       }
     },
@@ -14739,9 +13884,6 @@
       },
       "ui": {
         "term": "بورتال نيتوورك"
-      },
-      "code": {
-        "term": "portal_network"
       }
     },
     "grammar": {
@@ -14782,9 +13924,6 @@
       },
       "ui": {
         "term": "قنبلة الصعوبة"
-      },
-      "code": {
-        "term": "difficulty_bomb"
       }
     },
     "grammar": {
@@ -14836,9 +13975,6 @@
       },
       "ui": {
         "term": "قابل للتشغيل البيني"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -14881,9 +14017,6 @@
       },
       "ui": {
         "term": "انتهاء صلاحية الحالة"
-      },
-      "code": {
-        "term": "state_expiry"
       }
     },
     "grammar": {
@@ -14928,9 +14061,6 @@
       },
       "ui": {
         "term": "شاهد"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -14979,9 +14109,6 @@
       },
       "ui": {
         "term": "برلين"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -15024,9 +14151,6 @@
       },
       "ui": {
         "term": "عرض المعاملة المعلقة"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -15078,9 +14202,6 @@
       },
       "ui": {
         "term": "تفعيل الآن"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -15129,9 +14250,6 @@
       },
       "ui": {
         "term": "شبكة الحدود"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -15180,9 +14298,6 @@
       },
       "ui": {
         "term": "دعم السلع العامة"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -15229,9 +14344,6 @@
       },
       "ui": {
         "term": "عرض TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -15281,9 +14393,6 @@
       },
       "ui": {
         "term": "إصدار بيان اعتماد"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -15332,9 +14441,6 @@
       },
       "ui": {
         "term": "التحقق من الثبات"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -15383,9 +14489,6 @@
       },
       "ui": {
         "term": "إيداع رمز التخزين السائل"
-      },
-      "code": {
-        "term": "lst"
       }
     },
     "grammar": {
@@ -15437,9 +14540,6 @@
       },
       "ui": {
         "term": "التحصيص كخدمة"
-      },
-      "code": {
-        "term": "stakingAsAService"
       }
     },
     "grammar": {
@@ -15484,9 +14584,6 @@
       },
       "ui": {
         "term": "بيانات اعتماد السحب"
-      },
-      "code": {
-        "term": "withdrawalCredentials"
       }
     },
     "grammar": {
@@ -15533,9 +14630,6 @@
       },
       "ui": {
         "term": "كيكاك-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -15578,9 +14672,6 @@
       },
       "ui": {
         "term": "انتهاء السجل"
-      },
-      "code": {
-        "term": "historyExpiry"
       }
     },
     "grammar": {
@@ -15623,9 +14714,6 @@
       },
       "ui": {
         "term": "الويب 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -15668,9 +14756,6 @@
       },
       "ui": {
         "term": "كونستانتينوبل"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -15713,9 +14798,6 @@
       },
       "ui": {
         "term": "تحقق من الكود"
-      },
-      "code": {
-        "term": "sourceCodeVerification"
       }
     },
     "grammar": {
@@ -15755,9 +14837,6 @@
         "term": "POAP"
       },
       "ui": {
-        "term": "POAP"
-      },
-      "code": {
         "term": "POAP"
       }
     },
@@ -15803,9 +14882,6 @@
       },
       "ui": {
         "term": "القصد"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -15855,9 +14931,6 @@
       },
       "ui": {
         "term": "مدير الدفع"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -15907,9 +14980,6 @@
       },
       "ui": {
         "term": "حساب ذكي"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -15959,9 +15029,6 @@
       },
       "ui": {
         "term": "عقدة المنارة"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -16011,9 +15078,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "bls"
       }
     },
     "grammar": {
@@ -16063,9 +15127,6 @@
       },
       "ui": {
         "term": "SSZ"
-      },
-      "code": {
-        "term": "ssz"
       }
     },
     "grammar": {
@@ -16116,9 +15177,6 @@
       },
       "ui": {
         "term": "جو إيثريوم (geth)"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -16168,9 +15226,6 @@
       },
       "ui": {
         "term": "إيثريوم كلاسيك"
-      },
-      "code": {
-        "term": "ethereumClassic"
       }
     },
     "grammar": {
@@ -16220,9 +15275,6 @@
       },
       "ui": {
         "term": "بيزنطيوم"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -16275,9 +15327,6 @@
       },
       "ui": {
         "term": "خوارزمية التوقيع الرقمي للمنحنى الإهليلجي"
-      },
-      "code": {
-        "term": "ecdsa"
       }
     },
     "grammar": {
@@ -16331,9 +15380,6 @@
       },
       "ui": {
         "term": "استرداد اجتماعي"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -16385,9 +15431,6 @@
       },
       "ui": {
         "term": "فصل المنشئين"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -16440,9 +15483,6 @@
       },
       "ui": {
         "term": "إثبات الحصة"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -16490,9 +15530,6 @@
         "term": "ecc"
       },
       "ui": {
-        "term": "ECC"
-      },
-      "code": {
         "term": "ECC"
       }
     },
@@ -16546,9 +15583,6 @@
       },
       "ui": {
         "term": "تغذية الأسعار"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -16598,9 +15632,6 @@
       },
       "ui": {
         "term": "شبكة التطوير"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -16649,9 +15680,6 @@
       },
       "ui": {
         "term": "بروتوكول النميمة"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -16700,9 +15728,6 @@
       },
       "ui": {
         "term": "سرب"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -16749,9 +15774,6 @@
       },
       "ui": {
         "term": "هومستيد"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -16801,9 +15823,6 @@
       },
       "ui": {
         "term": "DAC"
-      },
-      "code": {
-        "term": "dac"
       }
     },
     "grammar": {
@@ -16857,9 +15876,6 @@
       },
       "ui": {
         "term": "تشفير المحو"
-      },
-      "code": {
-        "term": "erasureCoding"
       }
     },
     "grammar": {
@@ -16911,9 +15927,6 @@
       },
       "ui": {
         "term": "تراي التخزين"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -16966,9 +15979,6 @@
       },
       "ui": {
         "term": "رسم البلوب"
-      },
-      "code": {
-        "term": "blobFee"
       }
     },
     "grammar": {
@@ -17021,9 +16031,6 @@
       },
       "ui": {
         "term": "رسم الأولوية"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -17073,9 +16080,6 @@
       },
       "ui": {
         "term": "لا شيء على المحك"
-      },
-      "code": {
-        "term": "nothingAtStake"
       }
     },
     "grammar": {
@@ -17129,9 +16133,6 @@
       },
       "ui": {
         "term": "تعزيز المقترح"
-      },
-      "code": {
-        "term": "proposerBoost"
       }
     },
     "grammar": {
@@ -17181,9 +16182,6 @@
       },
       "ui": {
         "term": "مشكلة الأوراكل"
-      },
-      "code": {
-        "term": "oracleProblem"
       }
     },
     "grammar": {
@@ -17234,9 +16232,6 @@
       },
       "ui": {
         "term": "وكيل مستقل"
-      },
-      "code": {
-        "term": "autonomousAgent"
       }
     },
     "grammar": {
@@ -17290,9 +16285,6 @@
       },
       "ui": {
         "term": "إثبات العمل"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -17340,9 +16332,6 @@
       },
       "ui": {
         "term": "سابو"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -17388,9 +16377,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -17440,9 +16426,6 @@
       },
       "ui": {
         "term": "أشجار فيركل"
-      },
-      "code": {
-        "term": "verkleTrees"
       }
     },
     "grammar": {
@@ -17491,9 +16474,6 @@
       },
       "ui": {
         "term": "دالة احتياطية"
-      },
-      "code": {
-        "term": "fallbackFunction"
       }
     },
     "grammar": {
@@ -17545,9 +16525,6 @@
       },
       "ui": {
         "term": "إسقاط جوي"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -17594,9 +16571,6 @@
       },
       "ui": {
         "term": "USDC"
-      },
-      "code": {
-        "term": "USDC"
       }
     },
     "grammar": {
@@ -17642,9 +16616,6 @@
         "term": "WBTC"
       },
       "ui": {
-        "term": "WBTC"
-      },
-      "code": {
         "term": "WBTC"
       }
     },
@@ -17694,9 +16665,6 @@
       },
       "ui": {
         "term": "مجمع المعاملات"
-      },
-      "code": {
-        "term": "transactionPool"
       }
     },
     "grammar": {
@@ -17747,9 +16715,6 @@
       },
       "ui": {
         "term": "وصي"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -17798,9 +16763,6 @@
       },
       "ui": {
         "term": "مخزن المفاتيح"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -17850,9 +16812,6 @@
       },
       "ui": {
         "term": "حفظ ذاتي"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -17901,9 +16860,6 @@
       },
       "ui": {
         "term": "كاسبر إف إف جي"
-      },
-      "code": {
-        "term": "casperFFG"
       }
     },
     "grammar": {
@@ -17944,9 +16900,6 @@
       },
       "ui": {
         "term": "توقيع BLS"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -17995,9 +16948,6 @@
       },
       "ui": {
         "term": "شجرة ميركل باتريشيا"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -18046,9 +16996,6 @@
       },
       "ui": {
         "term": "انتشار الكتلة"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -18095,9 +17042,6 @@
       },
       "ui": {
         "term": "فيني"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -18146,9 +17090,6 @@
       },
       "ui": {
         "term": "منفعة عامة"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -18197,9 +17138,6 @@
       },
       "ui": {
         "term": "الخزانة"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -18248,9 +17186,6 @@
       },
       "ui": {
         "term": "KYC"
-      },
-      "code": {
-        "term": "KYC"
       }
     },
     "grammar": {
@@ -18292,9 +17227,6 @@
         "term": "SIWE"
       },
       "ui": {
-        "term": "SIWE"
-      },
-      "code": {
         "term": "SIWE"
       }
     },
@@ -18342,9 +17274,6 @@
       },
       "ui": {
         "term": "الاستباق"
-      },
-      "code": {
-        "term": "front-running"
       }
     },
     "grammar": {
@@ -18391,9 +17320,6 @@
       },
       "ui": {
         "term": "إسطنبول"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -18434,9 +17360,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "KEVM"
       }
     },
     "grammar": {
@@ -18476,9 +17399,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -18522,9 +17442,6 @@
       },
       "ui": {
         "term": "الحد الأقصى للرسوم"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -18573,9 +17490,6 @@
       },
       "ui": {
         "term": "متعدد التوقيعات"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -18622,9 +17536,6 @@
       },
       "ui": {
         "term": "عملية المستخدم"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -18677,9 +17588,6 @@
       },
       "ui": {
         "term": "اقتطاع اجتماعي"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -18725,9 +17633,6 @@
         "term": "SSLE"
       },
       "ui": {
-        "term": "SSLE"
-      },
-      "code": {
         "term": "SSLE"
       }
     },
@@ -18777,9 +17682,6 @@
       },
       "ui": {
         "term": "طحن الحصص"
-      },
-      "code": {
-        "term": "stakeGrinding"
       }
     },
     "grammar": {
@@ -18829,9 +17731,6 @@
         "term": "TEE"
       },
       "ui": {
-        "term": "TEE"
-      },
-      "code": {
         "term": "TEE"
       }
     },
@@ -18883,9 +17782,6 @@
       },
       "ui": {
         "term": "أوراكل البلوكتشين"
-      },
-      "code": {
-        "term": "blockchainOracle"
       }
     },
     "grammar": {
@@ -18933,9 +17829,6 @@
         "term": "MODEXP"
       },
       "ui": {
-        "term": "MODEXP"
-      },
-      "code": {
         "term": "MODEXP"
       }
     },
@@ -18987,9 +17880,6 @@
       },
       "ui": {
         "term": "صنبور شبكة الاختبار"
-      },
-      "code": {
-        "term": "testnetFaucet"
       }
     },
     "grammar": {
@@ -19043,9 +17933,6 @@
       },
       "ui": {
         "term": "مقاوم للرقابة"
-      },
-      "code": {
-        "term": "censorshipResistant"
       }
     },
     "grammar": {
@@ -19096,9 +17983,6 @@
       },
       "ui": {
         "term": "رمز الحوكمة"
-      },
-      "code": {
-        "term": "governanceToken"
       }
     },
     "grammar": {
@@ -19150,9 +18034,6 @@
       },
       "ui": {
         "term": "إضافة مُجمِّع"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -19201,9 +18082,6 @@
       },
       "ui": {
         "term": "تفاعل مع صانع السوق الآلي"
-      },
-      "code": {
-        "term": "amm"
       }
     },
     "grammar": {
@@ -19256,9 +18134,6 @@
       },
       "ui": {
         "term": "ابدأ زراعة العوائد"
-      },
-      "code": {
-        "term": "yieldFarming"
       }
     },
     "grammar": {
@@ -19307,9 +18182,6 @@
       },
       "ui": {
         "term": "إصدار رمز مرتبط بالروح"
-      },
-      "code": {
-        "term": "soulboundToken"
       }
     },
     "grammar": {
@@ -19356,9 +18228,6 @@
       },
       "ui": {
         "term": "عرض دورة حياة المُدقِّق"
-      },
-      "code": {
-        "term": "validatorLifecycle"
       }
     },
     "grammar": {
@@ -19408,9 +18277,6 @@
       },
       "ui": {
         "term": "بنية سلسلة كتل نمطية"
-      },
-      "code": {
-        "term": "modularBlockchain"
       }
     },
     "grammar": {
@@ -19460,9 +18326,6 @@
       },
       "ui": {
         "term": "بنية سلسلة كتل أحادية"
-      },
-      "code": {
-        "term": "monolithicBlockchain"
       }
     },
     "grammar": {
@@ -19511,9 +18374,6 @@
       },
       "ui": {
         "term": "التسجيل في التمويل الرجعي"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -19562,9 +18422,6 @@
       },
       "ui": {
         "term": "عرض إجمالي القيمة المقفلة"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -19614,9 +18471,6 @@
       },
       "ui": {
         "term": "استخدم التصويت التربيعي"
-      },
-      "code": {
-        "term": "quadraticVoting"
       }
     },
     "grammar": {
@@ -19669,9 +18523,6 @@
       },
       "ui": {
         "term": "تنفيذ التشغيل اللاحق"
-      },
-      "code": {
-        "term": "backRunning"
       }
     },
     "grammar": {
@@ -19720,9 +18571,6 @@
       },
       "ui": {
         "term": "عرض طبقة توفر البيانات"
-      },
-      "code": {
-        "term": "dataAvailabilityLayer"
       }
     },
     "grammar": {
@@ -19771,9 +18619,6 @@
       },
       "ui": {
         "term": "ترقية العقد"
-      },
-      "code": {
-        "term": "upgradeableContract"
       }
     },
     "grammar": {
@@ -19823,9 +18668,6 @@
       },
       "ui": {
         "term": "شراء رمز منفعة"
-      },
-      "code": {
-        "term": "utilityToken"
       }
     },
     "grammar": {
@@ -19875,9 +18717,6 @@
       },
       "ui": {
         "term": "إضافة محفظة باردة"
-      },
-      "code": {
-        "term": "coldWallet"
       }
     },
     "grammar": {
@@ -19924,9 +18763,6 @@
       },
       "ui": {
         "term": "إدخال مسار الاشتقاق"
-      },
-      "code": {
-        "term": "derivationPath"
       }
     },
     "grammar": {
@@ -19975,9 +18811,6 @@
       },
       "ui": {
         "term": "توصيل المحفظة العتادية"
-      },
-      "code": {
-        "term": "hardwareWallet"
       }
     },
     "grammar": {
@@ -20026,9 +18859,6 @@
       },
       "ui": {
         "term": "إنشاء محفظة ساخنة"
-      },
-      "code": {
-        "term": "hotWallet"
       }
     },
     "grammar": {
@@ -20078,9 +18908,6 @@
       },
       "ui": {
         "term": "تصدير المفتاح"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -20129,9 +18956,6 @@
       },
       "ui": {
         "term": "إعداد دالة اشتقاق المفتاح"
-      },
-      "code": {
-        "term": "kdf"
       }
     },
     "grammar": {
@@ -20180,9 +19004,6 @@
       },
       "ui": {
         "term": "إنشاء مفتاح مرور"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -20232,9 +19053,6 @@
       },
       "ui": {
         "term": "العنوان الصفري"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -20285,9 +19103,6 @@
       },
       "ui": {
         "term": "حد التبديل"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -20337,9 +19152,6 @@
       },
       "ui": {
         "term": "قواعد الإجماع"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -20393,9 +19205,6 @@
       },
       "ui": {
         "term": "المراوغة"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -20445,9 +19254,6 @@
       },
       "ui": {
         "term": "الإجماع الهولوغرافي"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -20498,9 +19304,6 @@
       },
       "ui": {
         "term": "تسرب الخمول"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -20553,9 +19356,6 @@
       },
       "ui": {
         "term": "الإصدار"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -20605,9 +19405,6 @@
       },
       "ui": {
         "term": "الأغلبية الساحقة"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -20663,9 +19460,6 @@
       },
       "ui": {
         "term": "إنشاء التزام"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -20714,9 +19508,6 @@
       },
       "ui": {
         "term": "عرض جدول التجزئة"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -20763,9 +19554,6 @@
       },
       "ui": {
         "term": "إيثاش"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -20814,9 +19602,6 @@
       },
       "ui": {
         "term": "معدل تجزئة الشبكة"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -20865,9 +19650,6 @@
       },
       "ui": {
         "term": "نوع خوارزمية SHA"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -20918,9 +19700,6 @@
       },
       "ui": {
         "term": "بيانات الشظية"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -20969,9 +19748,6 @@
       },
       "ui": {
         "term": "بدء الإعداد الموثوق"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -21021,9 +19797,6 @@
       },
       "ui": {
         "term": "مفاتيح API"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -21073,9 +19846,6 @@
       },
       "ui": {
         "term": "عرض APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -21129,9 +19899,6 @@
       },
       "ui": {
         "term": "تنبيه فك الارتباط"
-      },
-      "code": {
-        "term": "dePeg"
       }
     },
     "grammar": {
@@ -21180,9 +19947,6 @@
       },
       "ui": {
         "term": "خسارة غير دائمة"
-      },
-      "code": {
-        "term": "impermanentLoss"
       }
     },
     "grammar": {
@@ -21232,9 +19996,6 @@
       },
       "ui": {
         "term": "المؤشر"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -21285,9 +20046,6 @@
       },
       "ui": {
         "term": "رموز السيولة"
-      },
-      "code": {
-        "term": "liquidityTokens"
       }
     },
     "grammar": {
@@ -21337,9 +20095,6 @@
       },
       "ui": {
         "term": "ضمان زائد"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -21386,9 +20141,6 @@
       },
       "ui": {
         "term": "الربط"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -21431,9 +20183,6 @@
       },
       "ui": {
         "term": "تأثير السعر"
-      },
-      "code": {
-        "term": "priceImpact"
       }
     },
     "grammar": {
@@ -21478,9 +20227,6 @@
       },
       "ui": {
         "term": "انزلاق سعري"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -21530,9 +20276,6 @@
       },
       "ui": {
         "term": "إيث 1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -21576,9 +20319,6 @@
       },
       "ui": {
         "term": "إيث 2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -21621,9 +20361,6 @@
       },
       "ui": {
         "term": "هجوم 51%"
-      },
-      "code": {
-        "term": "attack51"
       }
     },
     "grammar": {
@@ -21673,9 +20410,6 @@
       },
       "ui": {
         "term": "مجموعة المجهولية"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -21728,9 +20462,6 @@
       },
       "ui": {
         "term": "مكافحة سيبيل"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -21782,9 +20513,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "ASIC"
       }
     },
     "grammar": {
@@ -21834,9 +20562,6 @@
       },
       "ui": {
         "term": "نظام النهاية الكبرى"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -21886,9 +20611,6 @@
       },
       "ui": {
         "term": "حالة الكتلة"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -21944,9 +20666,6 @@
       },
       "ui": {
         "term": "تصريف"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -21997,9 +20716,6 @@
       },
       "ui": {
         "term": "استحالة حسابية"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -22050,9 +20766,6 @@
       },
       "ui": {
         "term": "قيد النظر للإدراج"
-      },
-      "code": {
-        "term": "cfiStatus"
       }
     },
     "grammar": {
@@ -22103,9 +20816,6 @@
       },
       "ui": {
         "term": "اقتصاديات التشفير"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -22154,9 +20864,6 @@
         "term": "DAG"
       },
       "ui": {
-        "term": "DAG"
-      },
-      "code": {
         "term": "DAG"
       }
     },
@@ -22208,9 +20915,6 @@
       },
       "ui": {
         "term": "البنية التحتية المادية اللامركزية"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -22264,9 +20968,6 @@
       },
       "ui": {
         "term": "اكتشاف"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -22320,9 +21021,6 @@
       },
       "ui": {
         "term": "إنفاق مزدوج"
-      },
-      "code": {
-        "term": "doubleSpend"
       }
     },
     "grammar": {
@@ -22371,9 +21069,6 @@
       },
       "ui": {
         "term": "عميل التنفيذ"
-      },
-      "code": {
-        "term": "executionClient"
       }
     },
     "grammar": {
@@ -22420,9 +21115,6 @@
       },
       "ui": {
         "term": "طبقة التنفيذ"
-      },
-      "code": {
-        "term": "executionLayer"
       }
     },
     "grammar": {
@@ -22471,9 +21163,6 @@
       },
       "ui": {
         "term": "بيئة التطوير المتكاملة"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -22522,9 +21211,6 @@
       },
       "ui": {
         "term": "عميل خفيف"
-      },
-      "code": {
-        "term": "lightClient"
       }
     },
     "grammar": {
@@ -22576,9 +21262,6 @@
       },
       "ui": {
         "term": "رسالة"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -22630,9 +21313,6 @@
       },
       "ui": {
         "term": "استدعاء رسالة"
-      },
-      "code": {
-        "term": "messageCall"
       }
     },
     "grammar": {
@@ -22681,9 +21361,6 @@
       },
       "ui": {
         "term": "شبكة"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -22733,9 +21410,6 @@
       },
       "ui": {
         "term": "بوابة خروج"
-      },
-      "code": {
-        "term": "off_ramp"
       }
     },
     "grammar": {
@@ -22785,9 +21459,6 @@
       },
       "ui": {
         "term": "كتلة العم"
-      },
-      "code": {
-        "term": "ommer_block"
       }
     },
     "grammar": {
@@ -22837,9 +21508,6 @@
       },
       "ui": {
         "term": "بوابة دخول"
-      },
-      "code": {
-        "term": "on_ramp"
       }
     },
     "grammar": {
@@ -22893,9 +21561,6 @@
       },
       "ui": {
         "term": "تهيئة"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -22946,9 +21611,6 @@
       },
       "ui": {
         "term": "مصرح به"
-      },
-      "code": {
-        "term": "permissioned"
       }
     },
     "grammar": {
@@ -22997,9 +21659,6 @@
       },
       "ui": {
         "term": "سلسلة خاصة"
-      },
-      "code": {
-        "term": "private_chain"
       }
     },
     "grammar": {
@@ -23049,9 +21708,6 @@
       },
       "ui": {
         "term": "إثبات الحضور"
-      },
-      "code": {
-        "term": "poap"
       }
     },
     "grammar": {
@@ -23100,9 +21756,6 @@
       },
       "ui": {
         "term": "هجوم إعادة الدخول"
-      },
-      "code": {
-        "term": "reentrancy_attack"
       }
     },
     "grammar": {
@@ -23154,9 +21807,6 @@
       },
       "ui": {
         "term": "مكافأة"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -23205,9 +21855,6 @@
       },
       "ui": {
         "term": "السيادة الذاتية"
-      },
-      "code": {
-        "term": "selfSovereignty"
       }
     },
     "grammar": {
@@ -23259,9 +21906,6 @@
       },
       "ui": {
         "term": "تسلسل البيانات"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -23308,9 +21952,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -23357,9 +21998,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -23408,9 +22046,6 @@
       },
       "ui": {
         "term": "تضخم الحالة"
-      },
-      "code": {
-        "term": "stateBloat"
       }
     },
     "grammar": {
@@ -23459,9 +22094,6 @@
       },
       "ui": {
         "term": "انعدام الحالة"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -23508,9 +22140,6 @@
       },
       "ui": {
         "term": "هجوم سيبيل"
-      },
-      "code": {
-        "term": "sybilAttack"
       }
     },
     "grammar": {
@@ -23562,9 +22191,6 @@
       },
       "ui": {
         "term": "جاري المزامنة..."
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -23611,9 +22237,6 @@
       },
       "ui": {
         "term": "الصعوبة الكلية النهائية"
-      },
-      "code": {
-        "term": "terminalTotalDifficulty"
       }
     },
     "grammar": {
@@ -23662,9 +22285,6 @@
       },
       "ui": {
         "term": "افتراضات الثقة"
-      },
-      "code": {
-        "term": "trustAssumptions"
       }
     },
     "grammar": {
@@ -23714,9 +22334,6 @@
       },
       "ui": {
         "term": "مقلل الثقة"
-      },
-      "code": {
-        "term": "trustMinimized"
       }
     },
     "grammar": {
@@ -23767,9 +22384,6 @@
       },
       "ui": {
         "term": "انعدام الحاجة للثقة"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -23819,9 +22433,6 @@
       },
       "ui": {
         "term": "مكتمل تورنغ"
-      },
-      "code": {
-        "term": "turingComplete"
       }
     },
     "grammar": {
@@ -23871,9 +22482,6 @@
       },
       "ui": {
         "term": "ويب 2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -23923,9 +22531,6 @@
       },
       "ui": {
         "term": "هجوم الشطيرة"
-      },
-      "code": {
-        "term": "sandwichAttack"
       }
     },
     "grammar": {
@@ -23980,9 +22585,6 @@
       },
       "ui": {
         "term": "تجميع في دفعات"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -24033,9 +22635,6 @@
       },
       "ui": {
         "term": "فضاء البلوب"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -24084,9 +22683,6 @@
       },
       "ui": {
         "term": "تفعيل مخرج النجاة"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -24135,9 +22731,6 @@
       },
       "ui": {
         "term": "تقديم إثبات خطأ"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -24189,9 +22782,6 @@
       },
       "ui": {
         "term": "سحب إجباري"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -24245,9 +22835,6 @@
       },
       "ui": {
         "term": "تجميعات"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -24301,9 +22888,6 @@
       },
       "ui": {
         "term": "تسوية"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -24350,9 +22934,6 @@
       },
       "ui": {
         "term": "قنوات الحالة"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -24402,9 +22983,6 @@
       },
       "ui": {
         "term": "قدرة المعالجة"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -24451,9 +23029,6 @@
       },
       "ui": {
         "term": "فاليديوم"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -24500,9 +23075,6 @@
       },
       "ui": {
         "term": "بيانات الاستدعاء"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -24545,9 +23117,6 @@
       },
       "ui": {
         "term": "إنشاء عقد"
-      },
-      "code": {
-        "term": "contractCreationTx"
       }
     },
     "grammar": {
@@ -24596,9 +23165,6 @@
       },
       "ui": {
         "term": "لغة تجميع EVM"
-      },
-      "code": {
-        "term": "evmAssembly"
       }
     },
     "grammar": {
@@ -24645,9 +23211,6 @@
       },
       "ui": {
         "term": "تحسين الغاز"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -24690,9 +23253,6 @@
       },
       "ui": {
         "term": "مشكلة الكود غير القابل للتغيير"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -24737,9 +23297,6 @@
       },
       "ui": {
         "term": "عقد مجمع مسبقًا"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -24789,9 +23346,6 @@
       },
       "ui": {
         "term": "واقي إعادة الدخول"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -24844,9 +23398,6 @@
       },
       "ui": {
         "term": "تدمير ذاتي"
-      },
-      "code": {
-        "term": "selfdestruct"
       }
     },
     "grammar": {
@@ -24892,9 +23443,6 @@
       },
       "ui": {
         "term": "نمط أحادي"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -24944,9 +23492,6 @@
       },
       "ui": {
         "term": "لغة التجميع المضمنة"
-      },
-      "code": {
-        "term": "solidity-inline-assembly"
       }
     },
     "grammar": {
@@ -24998,9 +23543,6 @@
       },
       "ui": {
         "term": "الحالة"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -25055,9 +23597,6 @@
       },
       "ui": {
         "term": "طالب بالرموز"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -25110,9 +23649,6 @@
       },
       "ui": {
         "term": "منحدر الاستحقاق"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -25166,9 +23702,6 @@
       },
       "ui": {
         "term": "تجزئة"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -25218,9 +23751,6 @@
       },
       "ui": {
         "term": "رمز مزود السيولة"
-      },
-      "code": {
-        "term": "lp-token"
       }
     },
     "grammar": {
@@ -25270,9 +23800,6 @@
       },
       "ui": {
         "term": "مصنع الرموز"
-      },
-      "code": {
-        "term": "token-factory"
       }
     },
     "grammar": {
@@ -25322,9 +23849,6 @@
       },
       "ui": {
         "term": "معرف موارد الرمز"
-      },
-      "code": {
-        "term": "token-uri"
       }
     },
     "grammar": {
@@ -25380,9 +23904,6 @@
       },
       "ui": {
         "term": "الاستحقاق"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -25437,9 +23958,6 @@
       },
       "ui": {
         "term": "رمز مغلف"
-      },
-      "code": {
-        "term": "wrapped-token"
       }
     },
     "grammar": {
@@ -25490,9 +24008,6 @@
       },
       "ui": {
         "term": "معاملة داخلية"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -25544,9 +24059,6 @@
       },
       "ui": {
         "term": "الحد الأقصى للرسوم لكل غاز"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -25593,9 +24105,6 @@
       },
       "ui": {
         "term": "المُنشئ"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -25627,9 +24136,6 @@
       },
       "ui": {
         "term": "تشارلز هوسكينسون"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -25657,9 +24163,6 @@
       },
       "ui": {
         "term": "غافين وود"
-      },
-      "code": {
-        "term": "Gavin Wood"
       }
     },
     "plurals": null,
@@ -25687,9 +24190,6 @@
       },
       "ui": {
         "term": "جوزيف لوبين"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -25717,9 +24217,6 @@
       },
       "ui": {
         "term": "فيتاليك بوتيرين"
-      },
-      "code": {
-        "term": "Vitalik Buterin"
       }
     },
     "plurals": null,
@@ -25747,9 +24244,6 @@
       },
       "ui": {
         "term": "وي داي"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -25777,9 +24271,6 @@
       },
       "ui": {
         "term": "آفي"
-      },
-      "code": {
-        "term": "Aave"
       }
     },
     "plurals": null,
@@ -25807,9 +24298,6 @@
       },
       "ui": {
         "term": "أربيتروم"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -25837,9 +24325,6 @@
       },
       "ui": {
         "term": "بينانس"
-      },
-      "code": {
-        "term": "Binance"
       }
     },
     "plurals": null,
@@ -25867,9 +24352,6 @@
       },
       "ui": {
         "term": "كروم"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -25897,9 +24379,6 @@
       },
       "ui": {
         "term": "كوين بيس"
-      },
-      "code": {
-        "term": "Coinbase"
       }
     },
     "plurals": null,
@@ -25927,9 +24406,6 @@
       },
       "ui": {
         "term": "كونسينسيس"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -25957,9 +24433,6 @@
       },
       "ui": {
         "term": "كريبتو كيتيز"
-      },
-      "code": {
-        "term": "CryptoKitties"
       }
     },
     "plurals": null,
@@ -25987,9 +24460,6 @@
       },
       "ui": {
         "term": "دينكون"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -26017,9 +24487,6 @@
       },
       "ui": {
         "term": "ديسكورد"
-      },
-      "code": {
-        "term": "Discord"
       }
     },
     "plurals": null,
@@ -26047,9 +24514,6 @@
       },
       "ui": {
         "term": "فيسبوك"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -26077,9 +24541,6 @@
       },
       "ui": {
         "term": "فايل كوين"
-      },
-      "code": {
-        "term": "Filecoin"
       }
     },
     "plurals": null,
@@ -26107,9 +24568,6 @@
       },
       "ui": {
         "term": "غويرلي"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -26137,9 +24595,6 @@
       },
       "ui": {
         "term": "هوليسكي"
-      },
-      "code": {
-        "term": "Holesky"
       }
     },
     "plurals": null,
@@ -26167,9 +24622,6 @@
       },
       "ui": {
         "term": "ليدو"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -26197,9 +24649,6 @@
       },
       "ui": {
         "term": "ميكر داو"
-      },
-      "code": {
-        "term": "MakerDAO"
       }
     },
     "plurals": null,
@@ -26227,9 +24676,6 @@
       },
       "ui": {
         "term": "مايكروسوفت"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -26257,9 +24703,6 @@
       },
       "ui": {
         "term": "نتفليكس"
-      },
-      "code": {
-        "term": "Netflix"
       }
     },
     "plurals": null,
@@ -26287,9 +24730,6 @@
       },
       "ui": {
         "term": "أوبن سي"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -26317,9 +24757,6 @@
       },
       "ui": {
         "term": "أوبتيميزم"
-      },
-      "code": {
-        "term": "Optimism"
       }
     },
     "plurals": null,
@@ -26347,9 +24784,6 @@
       },
       "ui": {
         "term": "باي بال"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -26377,9 +24811,6 @@
       },
       "ui": {
         "term": "بوليغون"
-      },
-      "code": {
-        "term": "Polygon"
       }
     },
     "plurals": null,
@@ -26407,9 +24838,6 @@
       },
       "ui": {
         "term": "ريديت"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -26437,9 +24865,6 @@
       },
       "ui": {
         "term": "روبستن"
-      },
-      "code": {
-        "term": "Ropsten"
       }
     },
     "plurals": null,
@@ -26467,9 +24892,6 @@
       },
       "ui": {
         "term": "ستارك نت"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -26497,9 +24919,6 @@
       },
       "ui": {
         "term": "تيليغرام"
-      },
-      "code": {
-        "term": "Telegram"
       }
     },
     "plurals": null,
@@ -26527,9 +24946,6 @@
       },
       "ui": {
         "term": "تويتر"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -26557,9 +24973,6 @@
       },
       "ui": {
         "term": "يوتيوب"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -26584,9 +24997,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },

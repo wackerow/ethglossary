@@ -131,6 +131,59 @@ The policy was synthesized from pre-existing ethereum.org translation pipeline g
 
 Native-speaker review for several confidence-medium decisions is queued but not yet done (see policy §9.2). When native speakers become available, those are the first review tasks -- they do not invalidate the v1 lock.
 
+## Code is not translated
+
+**There is no `code` translation context, and there should not be one.**
+
+The slot existed and was populated for all 24 languages before being removed.
+It did not survive contact with its own data:
+
+- It varied by language in **345 of 523 terms (66%)**, despite being documented
+  as "almost always the English original, because translating it would break
+  the thing it names".
+- It was the `id` slug with different casing in **486 of 523 (93%)**.
+- Every language mixed **five to seven** casing conventions, and the same term
+  drew different ones in different languages -- `accountAbstraction` in 19,
+  `account_abstraction` in 4, `account-abstraction` in 1. Language has nothing
+  to do with casing, so that is 24 translators guessing independently.
+- Several languages translated the identifier outright -- `dompet_dingin`,
+  `zimny_portfel`, `signatureNumerique` -- which is precisely what the slot's
+  own rule forbade.
+- Person names got a `code` form containing a space (`Vitalik Buterin`), which
+  is not an identifier in any language.
+
+The reason it could not work: **identifier casing is a property of the codebase
+and the position, not of the term.** `gas price` is `gasPrice` in Solidity,
+`gas_price` in Python, `GAS_PRICE` as a constant, `gas-price` as a CLI flag. A
+glossary cannot know which, so asking a translator to pick one produces noise.
+
+### What replaces it
+
+Nothing needed to. Both sides of the integration already excluded code
+structurally, and neither ever read the slot:
+
+- `POST /api/v1/filter` strips fenced blocks and inline code before matching
+  (`src/lib/content-filter.ts`), so a term in backticks is never returned.
+- The ethereum.org intl-pipeline extracts fenced blocks to placeholders before
+  the content reaches a model and restores them verbatim, and marks inline code
+  `translatable: false`.
+- Code **comments** are the exception on both sides: prose that happens to sit
+  inside a block, extracted and translated as prose, then restored.
+- Where a term must stay Latin in running prose, that is `script_rule:
+  always_latin` / `keep_latin` -- decided once per term, authoritatively.
+
+`docs/translation-policy.md` already relied on the same principle for Bengali
+and Urdu numerals: "the pipeline uses markdown structure (code fences, inline
+backticks, JSX attributes) for boundary detection".
+
+### Removal
+
+Removed outright rather than deprecated-then-removed. The field appeared in one
+response only (`GET /api/v1/translations/{lang}/{termId}`), pre-1.0, and the one
+known consumer never read any context slot -- a search for `contexts` across the
+whole intl-pipeline returns a single hit, an English word in a comment. Keeping
+523 x 24 arbitrary values served only to invite someone to consume them.
+
 ## "Do not relitigate" list
 
 If you find yourself proposing one of these, stop and ask:
