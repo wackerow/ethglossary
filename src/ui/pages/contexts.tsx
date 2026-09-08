@@ -51,9 +51,9 @@ export const ContextsPage = ({
         <h1 class="font-serif text-h3 font-medium text-foreground-strong">Translation contexts</h1>
         <p class="text-body text-foreground-muted">
           A glossary term does not have one translation. The same English word behaves
-          differently in a sentence, in a button, and in a code identifier &mdash; so
-          ETHGlossary records each of those separately. These are the slots translators
-          fill in and reviewers vote on.
+          differently in a sentence, in a heading, on a filter chip and on a button
+          &mdash; so ETHGlossary records each of those separately. These are the slots
+          translators fill in and reviewers vote on.
         </p>
         <p class="text-body text-foreground-muted">
           Every example below is the same term &mdash;{" "}
@@ -69,8 +69,19 @@ export const ContextsPage = ({
           Because Cyrillic is not Latin script, the entry also records a romanization
           &mdash; <span class="font-mono text-label-sm">{exemplar.transliteration}</span>{" "}
           &mdash; which spells the Russian in Latin letters as a pronunciation aid. That
-          is a separate field from the six slots below, and it is not the English
+          is a separate field from the slots below, and it is not the English
           transliterated.
+        </p>
+        {/*
+          The question this page will otherwise be asked. Code used to be a
+          slot here; see "Code is not translated" in docs/design-decisions.md.
+        */}
+        <p class="text-body text-foreground-muted">
+          There is no slot for code. Code is not translated at all &mdash; a term inside
+          backticks or a fenced block is left exactly as written, and comments are the
+          exception, translated as ordinary prose. Where a term has to stay in Latin
+          script even in running text, that is recorded once on the term itself, not
+          per language.
         </p>
       </div>
 
