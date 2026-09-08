@@ -14859,14 +14859,14 @@
     "notes": null
   },
   "frontier": {
-    "term": "Frontera",
+    "term": "Frontier",
     "aliases": [
       "Frontier"
     ],
     "transliteration": null,
     "morphology": {
       "noun": {
-        "singular": "Frontera"
+        "singular": "Frontier"
       },
       "verb": null,
       "adjective": null,
@@ -14876,17 +14876,17 @@
     },
     "contexts": {
       "prose": {
-        "term": "Frontera",
+        "term": "Frontier",
         "example": "Frontera fue el lanzamiento inicial de la red principal de Ethereum."
       },
       "heading": {
-        "term": "Frontera"
+        "term": "Frontier"
       },
       "tag": {
-        "term": "Frontera"
+        "term": "Frontier"
       },
       "ui": {
-        "term": "Frontera"
+        "term": "Frontier"
       },
       "code": {
         "term": "frontier"
@@ -14899,11 +14899,11 @@
       "formality": "neutral"
     },
     "plurals": {
-      "one": "Frontera",
+      "one": "Frontier",
       "two": null,
       "few": null,
       "many": null,
-      "other": "Fronteras"
+      "other": "Frontier"
     },
     "source": "llm",
     "confidence": "high",
@@ -23616,110 +23616,6 @@
       "few": null,
       "many": null,
       "other": "ataques sándwich"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "byzantium fork": {
-    "term": "bifurcación Bizancio",
-    "aliases": [
-      "bifurcación de Bizancio",
-      "fork Bizancio"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "bifurcación Bizancio"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "bifurcación Bizancio",
-        "example": "La bifurcación Bizancio introdujo nuevas operaciones criptográficas para mejorar la privacidad en la red."
-      },
-      "heading": {
-        "term": "Bifurcación Bizancio"
-      },
-      "tag": {
-        "term": "bifurcacion-bizancio"
-      },
-      "ui": {
-        "term": "Bifurcación Bizancio"
-      },
-      "code": {
-        "term": "byzantiumFork"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "bifurcación Bizancio",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "bifurcaciones Bizancio"
-    },
-    "source": "llm",
-    "confidence": "high",
-    "notes": null
-  },
-  "constantinople fork": {
-    "term": "bifurcación Constantinopla",
-    "aliases": [
-      "bifurcación de Constantinopla",
-      "fork Constantinopla"
-    ],
-    "transliteration": null,
-    "morphology": {
-      "noun": {
-        "singular": "bifurcación Constantinopla"
-      },
-      "verb": null,
-      "adjective": null,
-      "agent": null,
-      "negation": null,
-      "compounds": null
-    },
-    "contexts": {
-      "prose": {
-        "term": "bifurcación Constantinopla",
-        "example": "La bifurcación Constantinopla preparó a Ethereum para futuras optimizaciones de gas."
-      },
-      "heading": {
-        "term": "Bifurcación Constantinopla"
-      },
-      "tag": {
-        "term": "bifurcacion-constantinopla"
-      },
-      "ui": {
-        "term": "Bifurcación Constantinopla"
-      },
-      "code": {
-        "term": "constantinopleFork"
-      }
-    },
-    "grammar": {
-      "gender": "feminine",
-      "animacy": "inanimate",
-      "part_of_speech": "proper_noun",
-      "formality": "formal"
-    },
-    "plurals": {
-      "one": "bifurcación Constantinopla",
-      "two": null,
-      "few": null,
-      "many": null,
-      "other": "bifurcaciones Constantinopla"
     },
     "source": "llm",
     "confidence": "high",
