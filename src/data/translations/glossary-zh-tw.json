@@ -30,9 +30,6 @@
       },
       "ui": {
         "term": "證明"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -80,9 +77,6 @@
       },
       "ui": {
         "term": "橋接"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -128,9 +122,6 @@
       },
       "ui": {
         "term": "銷毀"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -175,9 +166,6 @@
       },
       "ui": {
         "term": "銷毀"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -222,9 +210,6 @@
       },
       "ui": {
         "term": "抵押品"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -267,9 +252,6 @@
       },
       "ui": {
         "term": "去中心化"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -312,9 +294,6 @@
       },
       "ui": {
         "term": "去中心化"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -362,9 +341,6 @@
       },
       "ui": {
         "term": "委託"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -409,9 +385,6 @@
       },
       "ui": {
         "term": "委託"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -455,9 +428,6 @@
       },
       "ui": {
         "term": "部署"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -500,9 +470,6 @@
       },
       "ui": {
         "term": "部署"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -547,9 +514,6 @@
       },
       "ui": {
         "term": "數位簽章"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -594,9 +558,6 @@
       },
       "ui": {
         "term": "簽章"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -644,9 +605,6 @@
       },
       "ui": {
         "term": "簽署"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -692,9 +650,6 @@
       },
       "ui": {
         "term": "加密"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -740,9 +695,6 @@
       },
       "ui": {
         "term": "解密"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -787,9 +739,6 @@
       },
       "ui": {
         "term": "最終性"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -835,9 +784,6 @@
       },
       "ui": {
         "term": "已定案"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -881,9 +827,6 @@
       },
       "ui": {
         "term": "分叉"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -927,9 +870,6 @@
       },
       "ui": {
         "term": "硬分叉"
-      },
-      "code": {
-        "term": "hardFork"
       }
     },
     "grammar": {
@@ -973,9 +913,6 @@
       },
       "ui": {
         "term": "軟分叉"
-      },
-      "code": {
-        "term": "softFork"
       }
     },
     "grammar": {
@@ -1022,9 +959,6 @@
       },
       "ui": {
         "term": "治理"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1074,9 +1008,6 @@
       },
       "ui": {
         "term": "雜湊"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1120,9 +1051,6 @@
       },
       "ui": {
         "term": "雜湊函數"
-      },
-      "code": {
-        "term": "hashFunction"
       }
     },
     "grammar": {
@@ -1166,9 +1094,6 @@
       },
       "ui": {
         "term": "算力"
-      },
-      "code": {
-        "term": "hashRate"
       }
     },
     "grammar": {
@@ -1215,9 +1140,6 @@
       },
       "ui": {
         "term": "雜湊運算"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1260,9 +1182,6 @@
       },
       "ui": {
         "term": "流動性質押"
-      },
-      "code": {
-        "term": "liquidStaking"
       }
     },
     "grammar": {
@@ -1306,9 +1225,6 @@
       },
       "ui": {
         "term": "聯合質押"
-      },
-      "code": {
-        "term": "pooledStaking"
       }
     },
     "grammar": {
@@ -1351,9 +1267,6 @@
       },
       "ui": {
         "term": "再質押"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1397,9 +1310,6 @@
       },
       "ui": {
         "term": "獨立質押"
-      },
-      "code": {
-        "term": "soloStaking"
       }
     },
     "grammar": {
@@ -1442,9 +1352,6 @@
       },
       "ui": {
         "term": "質押"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1485,9 +1392,6 @@
       },
       "ui": {
         "term": "已質押"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1530,9 +1434,6 @@
       },
       "ui": {
         "term": "質押者"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1575,9 +1476,6 @@
       },
       "ui": {
         "term": "質押"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1621,9 +1519,6 @@
       },
       "ui": {
         "term": "質押存款"
-      },
-      "code": {
-        "term": "stakingDeposit"
       }
     },
     "grammar": {
@@ -1667,9 +1562,6 @@
       },
       "ui": {
         "term": "質押池"
-      },
-      "code": {
-        "term": "stakingPool"
       }
     },
     "grammar": {
@@ -1713,9 +1605,6 @@
       },
       "ui": {
         "term": "解除質押"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1758,9 +1647,6 @@
       },
       "ui": {
         "term": "清算"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -1803,9 +1689,6 @@
       },
       "ui": {
         "term": "礦工"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -1848,9 +1731,6 @@
       },
       "ui": {
         "term": "挖礦"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -1893,9 +1773,6 @@
       },
       "ui": {
         "term": "鑄造"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -1938,9 +1815,6 @@
       },
       "ui": {
         "term": "鑄造"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -1986,9 +1860,6 @@
       },
       "ui": {
         "term": "罰沒"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2031,9 +1902,6 @@
       },
       "ui": {
         "term": "罰沒者"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2079,9 +1947,6 @@
       },
       "ui": {
         "term": "兌換"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2125,9 +1990,6 @@
       },
       "ui": {
         "term": "發送交易"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2172,9 +2034,6 @@
       },
       "ui": {
         "term": "驗證者"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2215,9 +2074,6 @@
       },
       "ui": {
         "term": "區塊驗證"
-      },
-      "code": {
-        "term": "blockValidation"
       }
     },
     "grammar": {
@@ -2263,9 +2119,6 @@
       },
       "ui": {
         "term": "投票"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2310,9 +2163,6 @@
       },
       "ui": {
         "term": "投票"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2357,9 +2207,6 @@
       },
       "ui": {
         "term": "以太坊"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2404,9 +2251,6 @@
       },
       "ui": {
         "term": "合約"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2449,9 +2293,6 @@
       },
       "ui": {
         "term": "區塊"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2496,9 +2337,6 @@
       },
       "ui": {
         "term": "智能合約"
-      },
-      "code": {
-        "term": "smartContract"
       }
     },
     "grammar": {
@@ -2541,9 +2379,6 @@
       },
       "ui": {
         "term": "節點"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2588,9 +2423,6 @@
       },
       "ui": {
         "term": "代幣"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2634,9 +2466,6 @@
       },
       "ui": {
         "term": "複製地址"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -2679,9 +2508,6 @@
       },
       "ui": {
         "term": "發送 ETH"
-      },
-      "code": {
-        "term": "eth"
       }
     },
     "grammar": {
@@ -2725,9 +2551,6 @@
       },
       "ui": {
         "term": "區塊鏈瀏覽器"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -2773,9 +2596,6 @@
       },
       "ui": {
         "term": "切換帳戶"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -2823,9 +2643,6 @@
       },
       "ui": {
         "term": "選擇鏈"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -2871,9 +2688,6 @@
       },
       "ui": {
         "term": "協定升級"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -2920,9 +2734,6 @@
       },
       "ui": {
         "term": "連接錢包"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -2971,9 +2782,6 @@
       },
       "ui": {
         "term": "設定燃料限制"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3020,9 +2828,6 @@
       },
       "ui": {
         "term": "匯總網路"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3065,9 +2870,6 @@
       },
       "ui": {
         "term": "查看以太坊改進提案"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3116,9 +2918,6 @@
       },
       "ui": {
         "term": "要求"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3164,9 +2963,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3208,9 +3004,6 @@
         "term": "Solidity"
       },
       "ui": {
-        "term": "Solidity"
-      },
-      "code": {
         "term": "Solidity"
       }
     },
@@ -3254,9 +3047,6 @@
       },
       "ui": {
         "term": "事件"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3302,9 +3092,6 @@
       },
       "ui": {
         "term": "鏈上"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3349,9 +3136,6 @@
       },
       "ui": {
         "term": "以太幣"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3396,9 +3180,6 @@
         "term": "以太坊虛擬機"
       },
       "ui": {
-        "term": "EVM"
-      },
-      "code": {
         "term": "EVM"
       }
     },
@@ -3446,9 +3227,6 @@
       },
       "ui": {
         "term": "去中心化應用程式"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3493,9 +3271,6 @@
         "term": "NFT"
       },
       "ui": {
-        "term": "NFT"
-      },
-      "code": {
         "term": "NFT"
       }
     },
@@ -3544,9 +3319,6 @@
       },
       "ui": {
         "term": "轉帳"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3595,9 +3367,6 @@
       },
       "ui": {
         "term": "提款"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -3641,9 +3410,6 @@
       },
       "ui": {
         "term": "共識"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -3688,9 +3454,6 @@
       },
       "ui": {
         "term": "主網"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -3733,9 +3496,6 @@
       },
       "ui": {
         "term": "鏈下"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -3778,9 +3538,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -3823,9 +3580,6 @@
       },
       "ui": {
         "term": "預言機"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -3872,9 +3626,6 @@
       },
       "ui": {
         "term": "資料塊"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -3918,9 +3669,6 @@
       },
       "ui": {
         "term": "梅塔馬斯克"
-      },
-      "code": {
-        "term": "MetaMask"
       }
     },
     "grammar": {
@@ -3963,9 +3711,6 @@
       },
       "ui": {
         "term": "歐本齊柏林"
-      },
-      "code": {
-        "term": "OpenZeppelin"
       }
     },
     "grammar": {
@@ -4008,9 +3753,6 @@
       },
       "ui": {
         "term": "斯立瑟"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4053,9 +3795,6 @@
       },
       "ui": {
         "term": "時槽"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4099,9 +3838,6 @@
       },
       "ui": {
         "term": "DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4144,9 +3880,6 @@
       },
       "ui": {
         "term": "測試網"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4189,9 +3922,6 @@
       },
       "ui": {
         "term": "共識客戶端"
-      },
-      "code": {
-        "term": "consensus_client"
       }
     },
     "grammar": {
@@ -4236,9 +3966,6 @@
       },
       "ui": {
         "term": "L2"
-      },
-      "code": {
-        "term": "l2"
       }
     },
     "grammar": {
@@ -4284,9 +4011,6 @@
       },
       "ui": {
         "term": "ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4329,9 +4053,6 @@
       },
       "ui": {
         "term": "私鑰"
-      },
-      "code": {
-        "term": "private_key"
       }
     },
     "grammar": {
@@ -4375,9 +4096,6 @@
       },
       "ui": {
         "term": "加密貨幣"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4422,9 +4140,6 @@
       },
       "ui": {
         "term": "L1"
-      },
-      "code": {
-        "term": "l1"
       }
     },
     "grammar": {
@@ -4471,9 +4186,6 @@
       },
       "ui": {
         "term": "最大可提取價值"
-      },
-      "code": {
-        "term": "MEV"
       }
     },
     "grammar": {
@@ -4522,9 +4234,6 @@
       },
       "ui": {
         "term": "發起退出"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -4570,9 +4279,6 @@
       },
       "ui": {
         "term": "操作碼"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -4619,9 +4325,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -4664,9 +4367,6 @@
       },
       "ui": {
         "term": "Echidna 測試"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -4712,9 +4412,6 @@
       },
       "ui": {
         "term": "隱私設定"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -4757,9 +4454,6 @@
       },
       "ui": {
         "term": "曼蒂科爾"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -4806,9 +4500,6 @@
       },
       "ui": {
         "term": "樂觀 Rollup"
-      },
-      "code": {
-        "term": "optimistic rollup"
       }
     },
     "grammar": {
@@ -4854,9 +4545,6 @@
       },
       "ui": {
         "term": "ERC 標準"
-      },
-      "code": {
-        "term": "ERC"
       }
     },
     "grammar": {
@@ -4902,9 +4590,6 @@
       },
       "ui": {
         "term": "電漿鏈"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -4949,9 +4634,6 @@
       },
       "ui": {
         "term": "函式庫"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -4996,9 +4678,6 @@
       },
       "ui": {
         "term": "尤尼斯瓦普"
-      },
-      "code": {
-        "term": "Uniswap"
       }
     },
     "grammar": {
@@ -5048,9 +4727,6 @@
       },
       "ui": {
         "term": "合併"
-      },
-      "code": {
-        "term": "the_merge"
       }
     },
     "grammar": {
@@ -5095,9 +4771,6 @@
       },
       "ui": {
         "term": "零知識證明"
-      },
-      "code": {
-        "term": "zk_proof"
       }
     },
     "grammar": {
@@ -5143,9 +4816,6 @@
       },
       "ui": {
         "term": "比特幣"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5190,9 +4860,6 @@
       },
       "ui": {
         "term": "資料可用性"
-      },
-      "code": {
-        "term": "data_availability"
       }
     },
     "grammar": {
@@ -5241,9 +4908,6 @@
       },
       "ui": {
         "term": "日誌"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5288,9 +4952,6 @@
       },
       "ui": {
         "term": "信標鏈"
-      },
-      "code": {
-        "term": "beacon_chain"
       }
     },
     "grammar": {
@@ -5334,9 +4995,6 @@
       },
       "ui": {
         "term": "流動性"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5381,9 +5039,6 @@
       },
       "ui": {
         "term": "紀元"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5428,9 +5083,6 @@
       },
       "ui": {
         "term": "以太坊主網"
-      },
-      "code": {
-        "term": "Ethereum Mainnet"
       }
     },
     "grammar": {
@@ -5479,9 +5131,6 @@
       },
       "ui": {
         "term": "提交提案"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -5524,9 +5173,6 @@
       },
       "ui": {
         "term": "區塊提案者"
-      },
-      "code": {
-        "term": "block_proposer"
       }
     },
     "grammar": {
@@ -5569,9 +5215,6 @@
       },
       "ui": {
         "term": "共識層"
-      },
-      "code": {
-        "term": "consensus_layer"
       }
     },
     "grammar": {
@@ -5617,9 +5260,6 @@
       },
       "ui": {
         "term": "新增對等節點"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -5662,9 +5302,6 @@
         "term": "JSON-RPC"
       },
       "ui": {
-        "term": "JSON-RPC"
-      },
-      "code": {
         "term": "JSON-RPC"
       }
     },
@@ -5711,9 +5348,6 @@
       },
       "ui": {
         "term": "隨機數"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -5757,9 +5391,6 @@
         "term": "IPFS"
       },
       "ui": {
-        "term": "IPFS"
-      },
-      "code": {
         "term": "IPFS"
       }
     },
@@ -5805,9 +5436,6 @@
       },
       "ui": {
         "term": "全節點"
-      },
-      "code": {
-        "term": "full_node"
       }
     },
     "grammar": {
@@ -5851,9 +5479,6 @@
       },
       "ui": {
         "term": "零知識"
-      },
-      "code": {
-        "term": "zero_knowledge"
       }
     },
     "grammar": {
@@ -5894,9 +5519,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -5939,9 +5561,6 @@
       },
       "ui": {
         "term": "檢查點"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -5982,9 +5601,6 @@
       },
       "ui": {
         "term": "佩克特拉"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6027,9 +5643,6 @@
       },
       "ui": {
         "term": "加密貨幣"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6072,9 +5685,6 @@
       },
       "ui": {
         "term": "驗證者"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6118,9 +5728,6 @@
       },
       "ui": {
         "term": "建構者"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6163,9 +5770,6 @@
       },
       "ui": {
         "term": "公鑰"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6206,9 +5810,6 @@
       },
       "ui": {
         "term": "側鏈"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6249,9 +5850,6 @@
       },
       "ui": {
         "term": "富薩卡"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6295,9 +5893,6 @@
       },
       "ui": {
         "term": "中繼資料"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6340,9 +5935,6 @@
       },
       "ui": {
         "term": "ABI"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -6385,9 +5977,6 @@
       },
       "ui": {
         "term": "Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -6430,9 +6019,6 @@
       },
       "ui": {
         "term": "wETH"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -6475,9 +6061,6 @@
       },
       "ui": {
         "term": "zkEVM"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -6523,9 +6106,6 @@
       },
       "ui": {
         "term": "Gas 費"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -6566,9 +6146,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -6614,9 +6191,6 @@
       },
       "ui": {
         "term": "設定 Gas 限制"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -6662,9 +6236,6 @@
       },
       "ui": {
         "term": "最高小費"
-      },
-      "code": {
-        "term": "tip"
       }
     },
     "grammar": {
@@ -6705,9 +6276,6 @@
       },
       "ui": {
         "term": "共識機制"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -6750,9 +6318,6 @@
       },
       "ui": {
         "term": "ERC-721"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -6795,9 +6360,6 @@
       },
       "ui": {
         "term": "以太坊域名服務"
-      },
-      "code": {
-        "term": "ENS"
       }
     },
     "grammar": {
@@ -6842,9 +6404,6 @@
       },
       "ui": {
         "term": "證明者"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -6885,9 +6444,6 @@
       },
       "ui": {
         "term": "狀態通道"
-      },
-      "code": {
-        "term": "state channel"
       }
     },
     "grammar": {
@@ -6932,9 +6488,6 @@
       },
       "ui": {
         "term": "交易手續費"
-      },
-      "code": {
-        "term": "transaction fee"
       }
     },
     "grammar": {
@@ -6978,9 +6531,6 @@
       },
       "ui": {
         "term": "外部帳戶"
-      },
-      "code": {
-        "term": "EOA"
       }
     },
     "grammar": {
@@ -7021,9 +6571,6 @@
       },
       "ui": {
         "term": "有效性證明"
-      },
-      "code": {
-        "term": "validity proof"
       }
     },
     "grammar": {
@@ -7066,9 +6613,6 @@
       },
       "ui": {
         "term": "獲取測試幣"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7113,9 +6657,6 @@
       },
       "ui": {
         "term": "Sepolia 網路"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7158,9 +6699,6 @@
       },
       "ui": {
         "term": "在區塊鏈瀏覽器中查看"
-      },
-      "code": {
-        "term": "block explorer"
       }
     },
     "grammar": {
@@ -7207,9 +6745,6 @@
       },
       "ui": {
         "term": "回滾交易"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7252,9 +6787,6 @@
       },
       "ui": {
         "term": "以太坊基金會"
-      },
-      "code": {
-        "term": "ethereumFoundation"
       }
     },
     "grammar": {
@@ -7298,9 +6830,6 @@
       },
       "ui": {
         "term": "去中心化身分"
-      },
-      "code": {
-        "term": "decentralizedIdentity"
       }
     },
     "grammar": {
@@ -7345,9 +6874,6 @@
       },
       "ui": {
         "term": "提案者"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -7390,9 +6916,6 @@
       },
       "ui": {
         "term": "密碼學"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -7437,9 +6960,6 @@
       },
       "ui": {
         "term": "位元組碼"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -7480,9 +7000,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -7525,9 +7042,6 @@
       },
       "ui": {
         "term": "萊特豪斯"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -7570,9 +7084,6 @@
       },
       "ui": {
         "term": "Gas 價格"
-      },
-      "code": {
-        "term": "gasPrice"
       }
     },
     "grammar": {
@@ -7617,9 +7128,6 @@
       },
       "ui": {
         "term": "點對點"
-      },
-      "code": {
-        "term": "peerToPeer"
       }
     },
     "grammar": {
@@ -7662,9 +7170,6 @@
       },
       "ui": {
         "term": "格蘭斯特丹"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -7707,9 +7212,6 @@
       },
       "ui": {
         "term": "奈瑟邁"
-      },
-      "code": {
-        "term": "nethermind"
       }
     },
     "grammar": {
@@ -7752,9 +7254,6 @@
       },
       "ui": {
         "term": "欺詐證明"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -7798,9 +7297,6 @@
       },
       "ui": {
         "term": "默克爾證明"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -7844,9 +7340,6 @@
       },
       "ui": {
         "term": "去中心化科學"
-      },
-      "code": {
-        "term": "desci"
       }
     },
     "grammar": {
@@ -7890,9 +7383,6 @@
       },
       "ui": {
         "term": "無須信任"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -7937,9 +7427,6 @@
       },
       "ui": {
         "term": "丹克分片"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -7982,9 +7469,6 @@
       },
       "ui": {
         "term": "分叉選擇演算法"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8030,9 +7514,6 @@
       },
       "ui": {
         "term": "基礎費用"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8075,9 +7556,6 @@
       },
       "ui": {
         "term": "艾瑞貢"
-      },
-      "code": {
-        "term": "erigon"
       }
     },
     "grammar": {
@@ -8124,9 +7602,6 @@
       },
       "ui": {
         "term": "授權"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8173,9 +7648,6 @@
       },
       "ui": {
         "term": "默克爾樹"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -8218,9 +7690,6 @@
       },
       "ui": {
         "term": "輕節點"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -8267,9 +7736,6 @@
       },
       "ui": {
         "term": "備份助記詞"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -8312,9 +7778,6 @@
       },
       "ui": {
         "term": "委員會"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -8359,9 +7822,6 @@
       },
       "ui": {
         "term": "貝蘇"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -8405,9 +7865,6 @@
       },
       "ui": {
         "term": "ZK-SNARK"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -8453,9 +7910,6 @@
       },
       "ui": {
         "term": "區塊構建者"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -8498,9 +7952,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -8543,9 +7994,6 @@
       },
       "ui": {
         "term": "有效餘額"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -8588,9 +8036,6 @@
       },
       "ui": {
         "term": "區塊頭"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -8635,9 +8080,6 @@
       },
       "ui": {
         "term": "跨鏈"
-      },
-      "code": {
-        "term": "cross-chain"
       }
     },
     "grammar": {
@@ -8681,9 +8123,6 @@
       },
       "ui": {
         "term": "原始 Danksharding"
-      },
-      "code": {
-        "term": "proto-danksharding"
       }
     },
     "grammar": {
@@ -8726,9 +8165,6 @@
       },
       "ui": {
         "term": "瑞斯"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -8773,9 +8209,6 @@
       },
       "ui": {
         "term": "查看收據"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -8821,9 +8254,6 @@
       },
       "ui": {
         "term": "借貸"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -8869,9 +8299,6 @@
       },
       "ui": {
         "term": "存入金庫"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -8914,9 +8341,6 @@
       },
       "ui": {
         "term": "設定引導節點"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -8962,9 +8386,6 @@
       },
       "ui": {
         "term": "設定授權額度"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -9009,9 +8430,6 @@
       },
       "ui": {
         "term": "記憶體池狀態"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -9055,9 +8473,6 @@
       },
       "ui": {
         "term": "分散式驗證者技術"
-      },
-      "code": {
-        "term": "distributed_validator_technology"
       }
     },
     "grammar": {
@@ -9101,9 +8516,6 @@
       },
       "ui": {
         "term": "去中心化交易所"
-      },
-      "code": {
-        "term": "decentralized_exchange"
       }
     },
     "grammar": {
@@ -9147,9 +8559,6 @@
       },
       "ui": {
         "term": "搜尋者"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -9192,9 +8601,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -9236,9 +8642,6 @@
       },
       "ui": {
         "term": "無需許可"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -9281,9 +8684,6 @@
       },
       "ui": {
         "term": "普萊斯姆"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -9326,9 +8726,6 @@
       },
       "ui": {
         "term": "泰庫"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -9369,9 +8766,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -9415,9 +8809,6 @@
       },
       "ui": {
         "term": "提案者與建構者分離"
-      },
-      "code": {
-        "term": "proposer_builder_separation"
       }
     },
     "grammar": {
@@ -9460,9 +8851,6 @@
       },
       "ui": {
         "term": "單槽最終性"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -9503,9 +8891,6 @@
       },
       "ui": {
         "term": "歸檔節點"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -9546,9 +8931,6 @@
       },
       "ui": {
         "term": "洛德斯塔"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -9588,9 +8970,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -9632,9 +9011,6 @@
       },
       "ui": {
         "term": "數位資產"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -9677,9 +9053,6 @@
       },
       "ui": {
         "term": "定序器"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -9720,9 +9093,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -9763,9 +9133,6 @@
       },
       "ui": {
         "term": "默克爾根"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -9806,9 +9173,6 @@
       },
       "ui": {
         "term": "泰勒"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -9852,9 +9216,6 @@
       },
       "ui": {
         "term": "AI 代理"
-      },
-      "code": {
-        "term": "ai-agent"
       }
     },
     "grammar": {
@@ -9899,9 +9260,6 @@
       },
       "ui": {
         "term": "難度"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -9950,9 +9308,6 @@
       },
       "ui": {
         "term": "重組"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -10000,9 +9355,6 @@
       },
       "ui": {
         "term": "斷言"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -10045,9 +9397,6 @@
       },
       "ui": {
         "term": "寧布斯"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -10093,9 +9442,6 @@
       },
       "ui": {
         "term": "不可變"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -10138,9 +9484,6 @@
       },
       "ui": {
         "term": "預測市場"
-      },
-      "code": {
-        "term": "prediction-market"
       }
     },
     "grammar": {
@@ -10186,9 +9529,6 @@
       },
       "ui": {
         "term": "RLP 編碼"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -10236,9 +9576,6 @@
       },
       "ui": {
         "term": "形式化驗證"
-      },
-      "code": {
-        "term": "formal-verification"
       }
     },
     "grammar": {
@@ -10284,9 +9621,6 @@
       },
       "ui": {
         "term": "帳戶抽象"
-      },
-      "code": {
-        "term": "account-abstraction"
       }
     },
     "grammar": {
@@ -10327,9 +9661,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -10372,9 +9703,6 @@
       },
       "ui": {
         "term": "ZK-STARK"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -10419,9 +9747,6 @@
       },
       "ui": {
         "term": "隨機性"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -10464,9 +9789,6 @@
       },
       "ui": {
         "term": "策略"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -10512,9 +9834,6 @@
       },
       "ui": {
         "term": "真實世界資產"
-      },
-      "code": {
-        "term": "rwa"
       }
     },
     "grammar": {
@@ -10562,9 +9881,6 @@
       },
       "ui": {
         "term": "溢位錯誤"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -10609,9 +9925,6 @@
       },
       "ui": {
         "term": "交易雜湊值"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -10657,9 +9970,6 @@
       },
       "ui": {
         "term": "多簽錢包"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -10702,9 +10012,6 @@
       },
       "ui": {
         "term": "穩定幣"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -10745,9 +10052,6 @@
       },
       "ui": {
         "term": "黃皮書"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -10792,9 +10096,6 @@
       },
       "ui": {
         "term": "可組合性"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -10837,9 +10138,6 @@
       },
       "ui": {
         "term": "代理合約"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -10882,9 +10180,6 @@
       },
       "ui": {
         "term": "子圖"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -10930,9 +10225,6 @@
       },
       "ui": {
         "term": "互操作性"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -10975,9 +10267,6 @@
       },
       "ui": {
         "term": "客戶端多樣性"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -11020,9 +10309,6 @@
       },
       "ui": {
         "term": "上海"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -11068,9 +10354,6 @@
       },
       "ui": {
         "term": "再生金融"
-      },
-      "code": {
-        "term": "refi"
       }
     },
     "grammar": {
@@ -11113,9 +10396,6 @@
       },
       "ui": {
         "term": "合約帳戶"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -11156,9 +10436,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -11199,9 +10476,6 @@
       },
       "ui": {
         "term": "區塊獎勵"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -11244,9 +10518,6 @@
       },
       "ui": {
         "term": "區塊時間"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -11287,9 +10558,6 @@
       },
       "ui": {
         "term": "白皮書"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -11333,9 +10601,6 @@
       },
       "ui": {
         "term": "資料可用性抽樣"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -11380,9 +10645,6 @@
       },
       "ui": {
         "term": "已證明"
-      },
-      "code": {
-        "term": "justified"
       }
     },
     "grammar": {
@@ -11425,9 +10687,6 @@
       },
       "ui": {
         "term": "流動性提供者"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -11467,9 +10726,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -11513,9 +10769,6 @@
       },
       "ui": {
         "term": "零知識卷疊"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -11558,9 +10811,6 @@
       },
       "ui": {
         "term": "切林克"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -11603,9 +10853,6 @@
       },
       "ui": {
         "term": "閃電貸"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -11646,9 +10893,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -11689,9 +10933,6 @@
       },
       "ui": {
         "term": "MEV-Boost"
-      },
-      "code": {
-        "term": "mevBoost"
       }
     },
     "grammar": {
@@ -11736,9 +10977,6 @@
       },
       "ui": {
         "term": "坎昆"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -11781,9 +11019,6 @@
       },
       "ui": {
         "term": "存款合約"
-      },
-      "code": {
-        "term": "depositContract"
       }
     },
     "grammar": {
@@ -11826,9 +11061,6 @@
       },
       "ui": {
         "term": "執行負載"
-      },
-      "code": {
-        "term": "executionPayload"
       }
     },
     "grammar": {
@@ -11872,9 +11104,6 @@
       },
       "ui": {
         "term": "權威證明"
-      },
-      "code": {
-        "term": "proofOfAuthority"
       }
     },
     "grammar": {
@@ -11918,9 +11147,6 @@
       },
       "ui": {
         "term": "秘密領袖選舉"
-      },
-      "code": {
-        "term": "secretLeaderElection"
       }
     },
     "grammar": {
@@ -11961,9 +11187,6 @@
       },
       "ui": {
         "term": "同步委員會"
-      },
-      "code": {
-        "term": "syncCommittee"
       }
     },
     "grammar": {
@@ -12007,9 +11230,6 @@
       },
       "ui": {
         "term": "借款"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -12054,9 +11274,6 @@
       },
       "ui": {
         "term": "重入"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -12097,9 +11314,6 @@
       },
       "ui": {
         "term": "ERC-1155"
-      },
-      "code": {
-        "term": "ERC1155"
       }
     },
     "grammar": {
@@ -12142,9 +11356,6 @@
       },
       "ui": {
         "term": "橢圓曲線"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -12189,9 +11400,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "UTXO"
       }
     },
     "grammar": {
@@ -12234,9 +11442,6 @@
       },
       "ui": {
         "term": "同質化代幣"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -12280,9 +11485,6 @@
       },
       "ui": {
         "term": "二次方融資"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -12327,9 +11529,6 @@
       },
       "ui": {
         "term": "收藏品"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -12370,9 +11569,6 @@
       },
       "ui": {
         "term": "信標區塊"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -12415,9 +11611,6 @@
       },
       "ui": {
         "term": "弱主觀性"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -12460,9 +11653,6 @@
         "term": "APR"
       },
       "ui": {
-        "term": "APR"
-      },
-      "code": {
         "term": "APR"
       }
     },
@@ -12508,9 +11698,6 @@
       },
       "ui": {
         "term": "流動性池"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -12555,9 +11742,6 @@
       },
       "ui": {
         "term": "創世區塊"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -12603,9 +11787,6 @@
       },
       "ui": {
         "term": "沙佩拉"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -12646,9 +11827,6 @@
       },
       "ui": {
         "term": "可組合的"
-      },
-      "code": {
-        "term": "isComposable"
       }
     },
     "grammar": {
@@ -12693,9 +11871,6 @@
       },
       "ui": {
         "term": "狀態樹"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -12740,9 +11915,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "lmdGhost"
       }
     },
     "grammar": {
@@ -12787,9 +11959,6 @@
       },
       "ui": {
         "term": "產生隱形地址"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -12832,9 +12001,6 @@
       },
       "ui": {
         "term": "DAI"
-      },
-      "code": {
-        "term": "dai"
       }
     },
     "grammar": {
@@ -12882,9 +12048,6 @@
       },
       "ui": {
         "term": "代幣化"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -12929,9 +12092,6 @@
       },
       "ui": {
         "term": "求解器"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -12975,9 +12135,6 @@
       },
       "ui": {
         "term": "非託管"
-      },
-      "code": {
-        "term": "isNonCustodial"
       }
     },
     "grammar": {
@@ -13021,9 +12178,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "MaxEB"
       }
     },
     "grammar": {
@@ -13064,9 +12218,6 @@
       },
       "ui": {
         "term": "熵"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -13110,9 +12261,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "KZG"
       }
     },
     "grammar": {
@@ -13154,9 +12302,6 @@
         "term": "discv5"
       },
       "ui": {
-        "term": "discv5"
-      },
-      "code": {
         "term": "discv5"
       }
     },
@@ -13201,9 +12346,6 @@
       },
       "ui": {
         "term": "波特爾網路"
-      },
-      "code": {
-        "term": "portal_network"
       }
     },
     "grammar": {
@@ -13247,9 +12389,6 @@
       },
       "ui": {
         "term": "難度炸彈"
-      },
-      "code": {
-        "term": "difficulty_bomb"
       }
     },
     "grammar": {
@@ -13291,9 +12430,6 @@
       },
       "ui": {
         "term": "可互操作"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -13337,9 +12473,6 @@
       },
       "ui": {
         "term": "狀態過期"
-      },
-      "code": {
-        "term": "state_expiry"
       }
     },
     "grammar": {
@@ -13383,9 +12516,6 @@
       },
       "ui": {
         "term": "見證"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -13429,9 +12559,6 @@
       },
       "ui": {
         "term": "柏林"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -13475,9 +12602,6 @@
       },
       "ui": {
         "term": "待處理交易"
-      },
-      "code": {
-        "term": "pending transaction"
       }
     },
     "grammar": {
@@ -13524,9 +12648,6 @@
       },
       "ui": {
         "term": "啟用"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -13569,9 +12690,6 @@
       },
       "ui": {
         "term": "邊境"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -13614,9 +12732,6 @@
       },
       "ui": {
         "term": "公共財"
-      },
-      "code": {
-        "term": "public goods"
       }
     },
     "grammar": {
@@ -13660,9 +12775,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -13705,9 +12817,6 @@
       },
       "ui": {
         "term": "可驗證憑證"
-      },
-      "code": {
-        "term": "verifiable credential"
       }
     },
     "grammar": {
@@ -13750,9 +12859,6 @@
       },
       "ui": {
         "term": "不可竄改性"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -13795,9 +12901,6 @@
       },
       "ui": {
         "term": "流動性質押代幣"
-      },
-      "code": {
-        "term": "lst"
       }
     },
     "grammar": {
@@ -13843,9 +12946,6 @@
       },
       "ui": {
         "term": "質押即服務"
-      },
-      "code": {
-        "term": "stakingAsAService"
       }
     },
     "grammar": {
@@ -13890,9 +12990,6 @@
       },
       "ui": {
         "term": "提款憑證"
-      },
-      "code": {
-        "term": "withdrawalCredentials"
       }
     },
     "grammar": {
@@ -13937,9 +13034,6 @@
       },
       "ui": {
         "term": "Keccak-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -13985,9 +13079,6 @@
       },
       "ui": {
         "term": "歷史記錄過期"
-      },
-      "code": {
-        "term": "historyExpiry"
       }
     },
     "grammar": {
@@ -14031,9 +13122,6 @@
       },
       "ui": {
         "term": "Web 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -14076,9 +13164,6 @@
       },
       "ui": {
         "term": "君士坦丁堡"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -14124,9 +13209,6 @@
       },
       "ui": {
         "term": "驗證原始碼"
-      },
-      "code": {
-        "term": "sourceCodeVerification"
       }
     },
     "grammar": {
@@ -14171,9 +13253,6 @@
       },
       "ui": {
         "term": "POAP"
-      },
-      "code": {
-        "term": "POAP"
       }
     },
     "grammar": {
@@ -14216,9 +13295,6 @@
       },
       "ui": {
         "term": "意圖"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -14264,9 +13340,6 @@
       },
       "ui": {
         "term": "代付合約"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -14309,9 +13382,6 @@
       },
       "ui": {
         "term": "智能帳戶"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -14352,9 +13422,6 @@
       },
       "ui": {
         "term": "信標節點"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -14396,9 +13463,6 @@
         "term": "BLS"
       },
       "ui": {
-        "term": "BLS"
-      },
-      "code": {
         "term": "BLS"
       }
     },
@@ -14442,9 +13506,6 @@
       },
       "ui": {
         "term": "SSZ"
-      },
-      "code": {
-        "term": "SSZ"
       }
     },
     "grammar": {
@@ -14487,9 +13548,6 @@
       },
       "ui": {
         "term": "Go 以太坊 (Geth)"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -14533,9 +13591,6 @@
       },
       "ui": {
         "term": "以太坊經典"
-      },
-      "code": {
-        "term": "ethereum-classic"
       }
     },
     "grammar": {
@@ -14579,9 +13634,6 @@
       },
       "ui": {
         "term": "拜占庭"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -14625,9 +13677,6 @@
       },
       "ui": {
         "term": "橢圓曲線數位簽章演算法"
-      },
-      "code": {
-        "term": "ECDSA"
       }
     },
     "grammar": {
@@ -14670,9 +13719,6 @@
       },
       "ui": {
         "term": "社交恢復"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -14715,9 +13761,6 @@
       },
       "ui": {
         "term": "建構者分離"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -14760,9 +13803,6 @@
       },
       "ui": {
         "term": "權益證明"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -14805,9 +13845,6 @@
         "term": "ECC"
       },
       "ui": {
-        "term": "ECC"
-      },
-      "code": {
         "term": "ECC"
       }
     },
@@ -14852,9 +13889,6 @@
       },
       "ui": {
         "term": "價格饋送"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -14897,9 +13931,6 @@
       },
       "ui": {
         "term": "開發網"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -14943,9 +13974,6 @@
       },
       "ui": {
         "term": "流言協定"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -14988,9 +14016,6 @@
       },
       "ui": {
         "term": "蜂群"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -15033,9 +14058,6 @@
       },
       "ui": {
         "term": "霍姆斯特德"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -15079,9 +14101,6 @@
       },
       "ui": {
         "term": "DAC"
-      },
-      "code": {
-        "term": "DAC"
       }
     },
     "grammar": {
@@ -15124,9 +14143,6 @@
       },
       "ui": {
         "term": "糾刪碼"
-      },
-      "code": {
-        "term": "erasureCoding"
       }
     },
     "grammar": {
@@ -15171,9 +14187,6 @@
       },
       "ui": {
         "term": "儲存前綴樹"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -15217,9 +14230,6 @@
       },
       "ui": {
         "term": "Blob 費用"
-      },
-      "code": {
-        "term": "blobFee"
       }
     },
     "grammar": {
@@ -15263,9 +14273,6 @@
       },
       "ui": {
         "term": "優先費"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -15309,9 +14316,6 @@
       },
       "ui": {
         "term": "無利害關係"
-      },
-      "code": {
-        "term": "nothingAtStake"
       }
     },
     "grammar": {
@@ -15355,9 +14359,6 @@
       },
       "ui": {
         "term": "權重提升"
-      },
-      "code": {
-        "term": "proposerBoost"
       }
     },
     "grammar": {
@@ -15398,9 +14399,6 @@
       },
       "ui": {
         "term": "預言機問題"
-      },
-      "code": {
-        "term": "oracleProblem"
       }
     },
     "grammar": {
@@ -15444,9 +14442,6 @@
       },
       "ui": {
         "term": "自主代理"
-      },
-      "code": {
-        "term": "autonomousAgent"
       }
     },
     "grammar": {
@@ -15489,9 +14484,6 @@
       },
       "ui": {
         "term": "工作量證明"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -15534,9 +14526,6 @@
       },
       "ui": {
         "term": "薩博"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -15576,9 +14565,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -15622,9 +14608,6 @@
       },
       "ui": {
         "term": "沃克爾樹"
-      },
-      "code": {
-        "term": "verkle_trees"
       }
     },
     "grammar": {
@@ -15668,9 +14651,6 @@
       },
       "ui": {
         "term": "回退函式"
-      },
-      "code": {
-        "term": "fallback_function"
       }
     },
     "grammar": {
@@ -15716,9 +14696,6 @@
       },
       "ui": {
         "term": "領取空投"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -15761,9 +14738,6 @@
       },
       "ui": {
         "term": "USDC"
-      },
-      "code": {
-        "term": "USDC"
       }
     },
     "grammar": {
@@ -15805,9 +14779,6 @@
         "term": "WBTC"
       },
       "ui": {
-        "term": "WBTC"
-      },
-      "code": {
         "term": "WBTC"
       }
     },
@@ -15854,9 +14825,6 @@
       },
       "ui": {
         "term": "檢視交易池"
-      },
-      "code": {
-        "term": "tx_pool"
       }
     },
     "grammar": {
@@ -15901,9 +14869,6 @@
       },
       "ui": {
         "term": "新增守護者"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -15948,9 +14913,6 @@
       },
       "ui": {
         "term": "匯入金鑰庫"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -15998,9 +14960,6 @@
       },
       "ui": {
         "term": "自行託管選項"
-      },
-      "code": {
-        "term": "self_custody"
       }
     },
     "grammar": {
@@ -16043,9 +15002,6 @@
       },
       "ui": {
         "term": "Casper FFG"
-      },
-      "code": {
-        "term": "casper_ffg"
       }
     },
     "grammar": {
@@ -16090,9 +15046,6 @@
       },
       "ui": {
         "term": "驗證 BLS 簽章"
-      },
-      "code": {
-        "term": "bls_signature"
       }
     },
     "grammar": {
@@ -16136,9 +15089,6 @@
       },
       "ui": {
         "term": "默克爾帕特里夏樹"
-      },
-      "code": {
-        "term": "merkle_patricia_trie"
       }
     },
     "grammar": {
@@ -16183,9 +15133,6 @@
       },
       "ui": {
         "term": "區塊傳播狀態"
-      },
-      "code": {
-        "term": "block_propagation"
       }
     },
     "grammar": {
@@ -16226,9 +15173,6 @@
       },
       "ui": {
         "term": "芬尼 (Finney)"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -16273,9 +15217,6 @@
       },
       "ui": {
         "term": "支持公共財"
-      },
-      "code": {
-        "term": "public_good"
       }
     },
     "grammar": {
@@ -16321,9 +15262,6 @@
       },
       "ui": {
         "term": "資金庫餘額"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -16372,9 +15310,6 @@
       },
       "ui": {
         "term": "提交 KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -16418,9 +15353,6 @@
       },
       "ui": {
         "term": "SIWE"
-      },
-      "code": {
-        "term": "siwe"
       }
     },
     "grammar": {
@@ -16468,9 +15400,6 @@
       },
       "ui": {
         "term": "搶跑防護"
-      },
-      "code": {
-        "term": "frontRunning"
       }
     },
     "grammar": {
@@ -16513,9 +15442,6 @@
       },
       "ui": {
         "term": "伊斯坦堡"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -16556,9 +15482,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "kevm"
       }
     },
     "grammar": {
@@ -16598,9 +15521,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -16647,9 +15567,6 @@
       },
       "ui": {
         "term": "最高費用"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -16694,9 +15611,6 @@
       },
       "ui": {
         "term": "多重簽名"
-      },
-      "code": {
-        "term": "multiSignature"
       }
     },
     "grammar": {
@@ -16741,9 +15655,6 @@
       },
       "ui": {
         "term": "用戶操作"
-      },
-      "code": {
-        "term": "userOperation"
       }
     },
     "grammar": {
@@ -16790,9 +15701,6 @@
       },
       "ui": {
         "term": "社會性罰沒"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -16836,9 +15744,6 @@
       },
       "ui": {
         "term": "SSLE"
-      },
-      "code": {
-        "term": "ssle"
       }
     },
     "grammar": {
@@ -16881,9 +15786,6 @@
       },
       "ui": {
         "term": "質押磨損"
-      },
-      "code": {
-        "term": "stakeGrinding"
       }
     },
     "grammar": {
@@ -16925,9 +15827,6 @@
         "term": "TEE"
       },
       "ui": {
-        "term": "TEE"
-      },
-      "code": {
         "term": "TEE"
       }
     },
@@ -16971,9 +15870,6 @@
       },
       "ui": {
         "term": "區塊鏈預言機"
-      },
-      "code": {
-        "term": "blockchainOracle"
       }
     },
     "grammar": {
@@ -17014,9 +15910,6 @@
       },
       "ui": {
         "term": "MODEXP"
-      },
-      "code": {
-        "term": "modexp"
       }
     },
     "grammar": {
@@ -17059,9 +15952,6 @@
       },
       "ui": {
         "term": "測試網水龍頭"
-      },
-      "code": {
-        "term": "testnetFaucet"
       }
     },
     "grammar": {
@@ -17103,9 +15993,6 @@
       },
       "ui": {
         "term": "抗審查"
-      },
-      "code": {
-        "term": "censorshipResistant"
       }
     },
     "grammar": {
@@ -17146,9 +16033,6 @@
       },
       "ui": {
         "term": "治理代幣"
-      },
-      "code": {
-        "term": "governanceToken"
       }
     },
     "grammar": {
@@ -17191,9 +16075,6 @@
       },
       "ui": {
         "term": "捆綁器"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -17237,9 +16118,6 @@
       },
       "ui": {
         "term": "自動做市商"
-      },
-      "code": {
-        "term": "amm"
       }
     },
     "grammar": {
@@ -17286,9 +16164,6 @@
       },
       "ui": {
         "term": "收益農耕"
-      },
-      "code": {
-        "term": "yieldFarming"
       }
     },
     "grammar": {
@@ -17331,9 +16206,6 @@
       },
       "ui": {
         "term": "靈魂綁定代幣"
-      },
-      "code": {
-        "term": "sbt"
       }
     },
     "grammar": {
@@ -17376,9 +16248,6 @@
       },
       "ui": {
         "term": "驗證者生命週期"
-      },
-      "code": {
-        "term": "validatorLifecycle"
       }
     },
     "grammar": {
@@ -17419,9 +16288,6 @@
       },
       "ui": {
         "term": "模組化區塊鏈"
-      },
-      "code": {
-        "term": "modularBlockchain"
       }
     },
     "grammar": {
@@ -17464,9 +16330,6 @@
       },
       "ui": {
         "term": "單體區塊鏈"
-      },
-      "code": {
-        "term": "monolithicBlockchain"
       }
     },
     "grammar": {
@@ -17510,9 +16373,6 @@
       },
       "ui": {
         "term": "追溯性公共財資金"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -17556,9 +16416,6 @@
       },
       "ui": {
         "term": "總鎖倉量"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -17601,9 +16458,6 @@
       },
       "ui": {
         "term": "平方投票法"
-      },
-      "code": {
-        "term": "quadraticVoting"
       }
     },
     "grammar": {
@@ -17646,9 +16500,6 @@
       },
       "ui": {
         "term": "尾隨交易"
-      },
-      "code": {
-        "term": "backRunning"
       }
     },
     "grammar": {
@@ -17694,9 +16545,6 @@
       },
       "ui": {
         "term": "資料可用性層"
-      },
-      "code": {
-        "term": "dataAvailabilityLayer"
       }
     },
     "grammar": {
@@ -17739,9 +16587,6 @@
       },
       "ui": {
         "term": "可升級合約"
-      },
-      "code": {
-        "term": "upgradeableContract"
       }
     },
     "grammar": {
@@ -17785,9 +16630,6 @@
       },
       "ui": {
         "term": "實用型代幣"
-      },
-      "code": {
-        "term": "utilityToken"
       }
     },
     "grammar": {
@@ -17832,9 +16674,6 @@
       },
       "ui": {
         "term": "冷錢包"
-      },
-      "code": {
-        "term": "coldWallet"
       }
     },
     "grammar": {
@@ -17877,9 +16716,6 @@
       },
       "ui": {
         "term": "衍生路徑"
-      },
-      "code": {
-        "term": "derivationPath"
       }
     },
     "grammar": {
@@ -17920,9 +16756,6 @@
       },
       "ui": {
         "term": "硬體錢包"
-      },
-      "code": {
-        "term": "hardwareWallet"
       }
     },
     "grammar": {
@@ -17965,9 +16798,6 @@
       },
       "ui": {
         "term": "熱錢包"
-      },
-      "code": {
-        "term": "hotWallet"
       }
     },
     "grammar": {
@@ -18014,9 +16844,6 @@
       },
       "ui": {
         "term": "金鑰"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -18060,9 +16887,6 @@
       },
       "ui": {
         "term": "金鑰衍生函式"
-      },
-      "code": {
-        "term": "kdf"
       }
     },
     "grammar": {
@@ -18107,9 +16931,6 @@
       },
       "ui": {
         "term": "建立通行密鑰"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -18152,9 +16973,6 @@
       },
       "ui": {
         "term": "發送至零地址"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -18200,9 +17018,6 @@
       },
       "ui": {
         "term": "流動限制"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -18245,9 +17060,6 @@
       },
       "ui": {
         "term": "共識規則"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -18293,9 +17105,6 @@
       },
       "ui": {
         "term": "模稜兩可行為"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -18336,9 +17145,6 @@
       },
       "ui": {
         "term": "全息共識"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -18385,9 +17191,6 @@
       },
       "ui": {
         "term": "不活躍漏損"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -18436,9 +17239,6 @@
       },
       "ui": {
         "term": "查看發行量"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -18483,9 +17283,6 @@
       },
       "ui": {
         "term": "需達到絕對多數"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -18530,9 +17327,6 @@
       },
       "ui": {
         "term": "承諾"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -18578,9 +17372,6 @@
       },
       "ui": {
         "term": "分散式雜湊表 (DHT)"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -18626,9 +17417,6 @@
       },
       "ui": {
         "term": "Ethash"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -18674,9 +17462,6 @@
       },
       "ui": {
         "term": "網路算力"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -18721,9 +17506,6 @@
       },
       "ui": {
         "term": "安全雜湊演算法"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -18772,9 +17554,6 @@
       },
       "ui": {
         "term": "分片"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -18820,9 +17599,6 @@
       },
       "ui": {
         "term": "可信設置"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -18867,9 +17643,6 @@
       },
       "ui": {
         "term": "API 設定"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -18915,9 +17688,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -18965,9 +17735,6 @@
       },
       "ui": {
         "term": "脫鉤警報"
-      },
-      "code": {
-        "term": "depeg"
       }
     },
     "grammar": {
@@ -19008,9 +17775,6 @@
       },
       "ui": {
         "term": "無常損失"
-      },
-      "code": {
-        "term": "impermanent-loss"
       }
     },
     "grammar": {
@@ -19056,9 +17820,6 @@
       },
       "ui": {
         "term": "指數"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -19101,9 +17862,6 @@
       },
       "ui": {
         "term": "流動性代幣"
-      },
-      "code": {
-        "term": "liquidity-tokens"
       }
     },
     "grammar": {
@@ -19147,9 +17905,6 @@
       },
       "ui": {
         "term": "超額抵押"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -19195,9 +17950,6 @@
       },
       "ui": {
         "term": "掛鉤"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -19238,9 +17990,6 @@
       },
       "ui": {
         "term": "價格影響"
-      },
-      "code": {
-        "term": "price-impact"
       }
     },
     "grammar": {
@@ -19285,9 +18034,6 @@
       },
       "ui": {
         "term": "滑價容忍度"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -19331,9 +18077,6 @@
       },
       "ui": {
         "term": "Eth1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -19377,9 +18120,6 @@
       },
       "ui": {
         "term": "Eth2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -19422,9 +18162,6 @@
       },
       "ui": {
         "term": "51% 攻擊"
-      },
-      "code": {
-        "term": "51-percent-attack"
       }
     },
     "grammar": {
@@ -19469,9 +18206,6 @@
       },
       "ui": {
         "term": "匿名集"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -19517,9 +18251,6 @@
       },
       "ui": {
         "term": "抗女巫"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -19565,9 +18296,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "ASIC"
       }
     },
     "grammar": {
@@ -19612,9 +18340,6 @@
       },
       "ui": {
         "term": "大端序"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -19657,9 +18382,6 @@
       },
       "ui": {
         "term": "區塊狀態"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -19707,9 +18429,6 @@
       },
       "ui": {
         "term": "編譯"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -19753,9 +18472,6 @@
       },
       "ui": {
         "term": "運算不可行"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -19799,9 +18515,6 @@
       },
       "ui": {
         "term": "考慮納入"
-      },
-      "code": {
-        "term": "cfi"
       }
     },
     "grammar": {
@@ -19846,9 +18559,6 @@
       },
       "ui": {
         "term": "加密經濟學"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -19893,9 +18603,6 @@
       },
       "ui": {
         "term": "DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -19940,9 +18647,6 @@
       },
       "ui": {
         "term": "去中心化實體基礎設施"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -19991,9 +18695,6 @@
       },
       "ui": {
         "term": "節點發現"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -20042,9 +18743,6 @@
       },
       "ui": {
         "term": "雙重支付"
-      },
-      "code": {
-        "term": "doubleSpend"
       }
     },
     "grammar": {
@@ -20087,9 +18785,6 @@
       },
       "ui": {
         "term": "執行客戶端"
-      },
-      "code": {
-        "term": "executionClient"
       }
     },
     "grammar": {
@@ -20132,9 +18827,6 @@
       },
       "ui": {
         "term": "執行層"
-      },
-      "code": {
-        "term": "executionLayer"
       }
     },
     "grammar": {
@@ -20179,9 +18871,6 @@
       },
       "ui": {
         "term": "整合開發環境"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -20226,9 +18915,6 @@
       },
       "ui": {
         "term": "輕客戶端"
-      },
-      "code": {
-        "term": "lightClient"
       }
     },
     "grammar": {
@@ -20273,9 +18959,6 @@
       },
       "ui": {
         "term": "訊息"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -20323,9 +19006,6 @@
       },
       "ui": {
         "term": "訊息呼叫"
-      },
-      "code": {
-        "term": "messageCall"
       }
     },
     "grammar": {
@@ -20370,9 +19050,6 @@
       },
       "ui": {
         "term": "網路"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -20418,9 +19095,6 @@
       },
       "ui": {
         "term": "出金"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -20465,9 +19139,6 @@
       },
       "ui": {
         "term": "叔塊"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -20513,9 +19184,6 @@
       },
       "ui": {
         "term": "入金"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -20562,9 +19230,6 @@
       },
       "ui": {
         "term": "新手引導"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -20608,9 +19273,6 @@
       },
       "ui": {
         "term": "許可制"
-      },
-      "code": {
-        "term": "permissioned"
       }
     },
     "grammar": {
@@ -20653,9 +19315,6 @@
       },
       "ui": {
         "term": "私有鏈"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -20700,9 +19359,6 @@
       },
       "ui": {
         "term": "出席證明"
-      },
-      "code": {
-        "term": "proofOfAttendance"
       }
     },
     "grammar": {
@@ -20743,9 +19399,6 @@
       },
       "ui": {
         "term": "重入攻擊"
-      },
-      "code": {
-        "term": "reentrancyAttack"
       }
     },
     "grammar": {
@@ -20792,9 +19445,6 @@
       },
       "ui": {
         "term": "領取獎勵"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -20839,9 +19489,6 @@
       },
       "ui": {
         "term": "自我主權"
-      },
-      "code": {
-        "term": "selfSovereignty"
       }
     },
     "grammar": {
@@ -20887,9 +19534,6 @@
       },
       "ui": {
         "term": "序列化"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -20934,9 +19578,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -20981,9 +19622,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -21024,9 +19662,6 @@
       },
       "ui": {
         "term": "狀態膨脹"
-      },
-      "code": {
-        "term": "stateBloat"
       }
     },
     "grammar": {
@@ -21071,9 +19706,6 @@
       },
       "ui": {
         "term": "無狀態"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -21116,9 +19748,6 @@
       },
       "ui": {
         "term": "女巫攻擊"
-      },
-      "code": {
-        "term": "sybilAttack"
       }
     },
     "grammar": {
@@ -21166,9 +19795,6 @@
       },
       "ui": {
         "term": "正在同步"
-      },
-      "code": {
-        "term": "isSyncing"
       }
     },
     "grammar": {
@@ -21211,9 +19837,6 @@
       },
       "ui": {
         "term": "終端總難度"
-      },
-      "code": {
-        "term": "terminalTotalDifficulty"
       }
     },
     "grammar": {
@@ -21256,9 +19879,6 @@
       },
       "ui": {
         "term": "信任假設"
-      },
-      "code": {
-        "term": "trustAssumptions"
       }
     },
     "grammar": {
@@ -21302,9 +19922,6 @@
       },
       "ui": {
         "term": "信任最小化"
-      },
-      "code": {
-        "term": "trustMinimized"
       }
     },
     "grammar": {
@@ -21348,9 +19965,6 @@
       },
       "ui": {
         "term": "無須信任性"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -21395,9 +20009,6 @@
       },
       "ui": {
         "term": "圖靈完備"
-      },
-      "code": {
-        "term": "turingComplete"
       }
     },
     "grammar": {
@@ -21443,9 +20054,6 @@
       },
       "ui": {
         "term": "Web2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -21494,9 +20102,6 @@
       },
       "ui": {
         "term": "三明治攻擊"
-      },
-      "code": {
-        "term": "sandwichAttack"
       }
     },
     "grammar": {
@@ -21545,9 +20150,6 @@
       },
       "ui": {
         "term": "批次處理"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -21591,9 +20193,6 @@
       },
       "ui": {
         "term": "Blob 空間"
-      },
-      "code": {
-        "term": "blobSpace"
       }
     },
     "grammar": {
@@ -21637,9 +20236,6 @@
       },
       "ui": {
         "term": "緊急退出機制"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -21682,9 +20278,6 @@
       },
       "ui": {
         "term": "錯誤證明"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -21728,9 +20321,6 @@
       },
       "ui": {
         "term": "強制提款"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -21775,9 +20365,6 @@
       },
       "ui": {
         "term": "匯總"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -21820,9 +20407,6 @@
       },
       "ui": {
         "term": "結算"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -21863,9 +20447,6 @@
       },
       "ui": {
         "term": "狀態通道"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -21908,9 +20489,6 @@
       },
       "ui": {
         "term": "吞吐量"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -21953,9 +20531,6 @@
       },
       "ui": {
         "term": "Validium"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -21998,9 +20573,6 @@
       },
       "ui": {
         "term": "輸入呼叫資料"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -22043,9 +20615,6 @@
       },
       "ui": {
         "term": "送出合約創建交易"
-      },
-      "code": {
-        "term": "contractCreationTransaction"
       }
     },
     "grammar": {
@@ -22088,9 +20657,6 @@
       },
       "ui": {
         "term": "組合語言檢視"
-      },
-      "code": {
-        "term": "evm-assembly"
       }
     },
     "grammar": {
@@ -22136,9 +20702,6 @@
       },
       "ui": {
         "term": "執行 Gas 最佳化"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -22181,9 +20744,6 @@
       },
       "ui": {
         "term": "檢視不可變問題"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -22229,9 +20789,6 @@
       },
       "ui": {
         "term": "呼叫預編譯合約"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -22275,9 +20832,6 @@
       },
       "ui": {
         "term": "啟用重入保護"
-      },
-      "code": {
-        "term": "ReentrancyGuard"
       }
     },
     "grammar": {
@@ -22325,9 +20879,6 @@
       },
       "ui": {
         "term": "執行自毀"
-      },
-      "code": {
-        "term": "selfdestruct"
       }
     },
     "grammar": {
@@ -22372,9 +20923,6 @@
       },
       "ui": {
         "term": "單例合約"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -22418,9 +20966,6 @@
       },
       "ui": {
         "term": "Solidity 內嵌組合語言"
-      },
-      "code": {
-        "term": "solidityInlineAssembly"
       }
     },
     "grammar": {
@@ -22464,9 +21009,6 @@
       },
       "ui": {
         "term": "狀態"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -22513,9 +21055,6 @@
       },
       "ui": {
         "term": "申領"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -22559,9 +21098,6 @@
       },
       "ui": {
         "term": "懸崖期結束"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -22609,9 +21145,6 @@
       },
       "ui": {
         "term": "進行碎片化"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -22655,9 +21188,6 @@
       },
       "ui": {
         "term": "質押 LP 代幣"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -22700,9 +21230,6 @@
       },
       "ui": {
         "term": "建立代幣工廠"
-      },
-      "code": {
-        "term": "tokenFactory"
       }
     },
     "grammar": {
@@ -22745,9 +21272,6 @@
       },
       "ui": {
         "term": "更新代幣 URI"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -22797,9 +21321,6 @@
       },
       "ui": {
         "term": "查看歸屬進度"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -22842,9 +21363,6 @@
       },
       "ui": {
         "term": "取得包裝代幣"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -22889,9 +21407,6 @@
       },
       "ui": {
         "term": "內部交易"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -22937,9 +21452,6 @@
       },
       "ui": {
         "term": "每單位 Gas 最高費用"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -22980,9 +21492,6 @@
       },
       "ui": {
         "term": "建構函式"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -23014,9 +21523,6 @@
       },
       "ui": {
         "term": "查爾斯·霍斯金森"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -23044,9 +21550,6 @@
       },
       "ui": {
         "term": "加文·伍德"
-      },
-      "code": {
-        "term": "Gavin Wood"
       }
     },
     "plurals": null,
@@ -23074,9 +21577,6 @@
       },
       "ui": {
         "term": "喬瑟夫·魯賓"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -23104,9 +21604,6 @@
       },
       "ui": {
         "term": "維塔利克·布特林"
-      },
-      "code": {
-        "term": "Vitalik Buterin"
       }
     },
     "plurals": null,
@@ -23134,9 +21631,6 @@
       },
       "ui": {
         "term": "戴偉"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -23164,9 +21658,6 @@
       },
       "ui": {
         "term": "幣安"
-      },
-      "code": {
-        "term": "Binance"
       }
     },
     "plurals": null,
@@ -23194,9 +21685,6 @@
       },
       "ui": {
         "term": "加密貓"
-      },
-      "code": {
-        "term": "CryptoKitties"
       }
     },
     "plurals": null,
@@ -23224,9 +21712,6 @@
       },
       "ui": {
         "term": "臉書"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -23254,9 +21739,6 @@
       },
       "ui": {
         "term": "微軟"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -23284,9 +21766,6 @@
       },
       "ui": {
         "term": "網飛"
-      },
-      "code": {
-        "term": "Netflix"
       }
     },
     "plurals": null,
@@ -23314,9 +21793,6 @@
       },
       "ui": {
         "term": "推特"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -23341,9 +21817,6 @@
         "term": "Aave"
       },
       "ui": {
-        "term": "Aave"
-      },
-      "code": {
         "term": "Aave"
       }
     },
@@ -23370,9 +21843,6 @@
       },
       "ui": {
         "term": "Arbitrum"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -23397,9 +21867,6 @@
         "term": "Chrome"
       },
       "ui": {
-        "term": "Chrome"
-      },
-      "code": {
         "term": "Chrome"
       }
     },
@@ -23426,9 +21893,6 @@
       },
       "ui": {
         "term": "Coinbase"
-      },
-      "code": {
-        "term": "Coinbase"
       }
     },
     "plurals": null,
@@ -23453,9 +21917,6 @@
         "term": "ConsenSys"
       },
       "ui": {
-        "term": "ConsenSys"
-      },
-      "code": {
         "term": "ConsenSys"
       }
     },
@@ -23482,9 +21943,6 @@
       },
       "ui": {
         "term": "Dencun"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -23509,9 +21967,6 @@
         "term": "Discord"
       },
       "ui": {
-        "term": "Discord"
-      },
-      "code": {
         "term": "Discord"
       }
     },
@@ -23538,9 +21993,6 @@
       },
       "ui": {
         "term": "Filecoin"
-      },
-      "code": {
-        "term": "Filecoin"
       }
     },
     "plurals": null,
@@ -23565,9 +22017,6 @@
         "term": "Goerli"
       },
       "ui": {
-        "term": "Goerli"
-      },
-      "code": {
         "term": "Goerli"
       }
     },
@@ -23594,9 +22043,6 @@
       },
       "ui": {
         "term": "Holesky"
-      },
-      "code": {
-        "term": "Holesky"
       }
     },
     "plurals": null,
@@ -23621,9 +22067,6 @@
         "term": "Lido"
       },
       "ui": {
-        "term": "Lido"
-      },
-      "code": {
         "term": "Lido"
       }
     },
@@ -23650,9 +22093,6 @@
       },
       "ui": {
         "term": "MakerDAO"
-      },
-      "code": {
-        "term": "MakerDAO"
       }
     },
     "plurals": null,
@@ -23677,9 +22117,6 @@
         "term": "OpenSea"
       },
       "ui": {
-        "term": "OpenSea"
-      },
-      "code": {
         "term": "OpenSea"
       }
     },
@@ -23706,9 +22143,6 @@
       },
       "ui": {
         "term": "Optimism"
-      },
-      "code": {
-        "term": "Optimism"
       }
     },
     "plurals": null,
@@ -23733,9 +22167,6 @@
         "term": "PayPal"
       },
       "ui": {
-        "term": "PayPal"
-      },
-      "code": {
         "term": "PayPal"
       }
     },
@@ -23762,9 +22193,6 @@
       },
       "ui": {
         "term": "Polygon"
-      },
-      "code": {
-        "term": "Polygon"
       }
     },
     "plurals": null,
@@ -23789,9 +22217,6 @@
         "term": "Reddit"
       },
       "ui": {
-        "term": "Reddit"
-      },
-      "code": {
         "term": "Reddit"
       }
     },
@@ -23818,9 +22243,6 @@
       },
       "ui": {
         "term": "Ropsten"
-      },
-      "code": {
-        "term": "Ropsten"
       }
     },
     "plurals": null,
@@ -23845,9 +22267,6 @@
         "term": "Starknet"
       },
       "ui": {
-        "term": "Starknet"
-      },
-      "code": {
         "term": "Starknet"
       }
     },
@@ -23874,9 +22293,6 @@
       },
       "ui": {
         "term": "Telegram"
-      },
-      "code": {
-        "term": "Telegram"
       }
     },
     "plurals": null,
@@ -23902,9 +22318,6 @@
       },
       "ui": {
         "term": "YouTube"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -23929,9 +22342,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },

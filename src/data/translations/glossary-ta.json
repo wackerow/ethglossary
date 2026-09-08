@@ -33,9 +33,6 @@
       },
       "ui": {
         "term": "சான்றளிப்பு"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -89,9 +86,6 @@
       },
       "ui": {
         "term": "பாலம்"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -145,9 +139,6 @@
       },
       "ui": {
         "term": "எரி"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -192,9 +183,6 @@
       },
       "ui": {
         "term": "எரித்தல்"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -249,9 +237,6 @@
       },
       "ui": {
         "term": "பிணையம்"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -305,9 +290,6 @@
       },
       "ui": {
         "term": "பரவலாக்கம்"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -357,9 +339,6 @@
       },
       "ui": {
         "term": "பரவலாக்கப்பட்ட"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -408,9 +387,6 @@
       },
       "ui": {
         "term": "அதிகாரமளி"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -462,9 +438,6 @@
       },
       "ui": {
         "term": "பிரதிநிதித்துவம்"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -519,9 +492,6 @@
       },
       "ui": {
         "term": "நிலைநிறுத்து"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -566,9 +536,6 @@
       },
       "ui": {
         "term": "நிலைநிறுத்தம்"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -620,9 +587,6 @@
       },
       "ui": {
         "term": "டிஜிட்டல் கையொப்பம்"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -674,9 +638,6 @@
       },
       "ui": {
         "term": "கையொப்பம்"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -725,9 +686,6 @@
       },
       "ui": {
         "term": "கையொப்பமிடுக"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -775,9 +733,6 @@
       },
       "ui": {
         "term": "குறியாக்கம்"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -831,9 +786,6 @@
       },
       "ui": {
         "term": "குறிநீக்கம்"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -884,9 +836,6 @@
       },
       "ui": {
         "term": "இறுதிநிலை"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -940,9 +889,6 @@
       },
       "ui": {
         "term": "இறுதியாக்கப்பட்டது"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -986,9 +932,6 @@
       },
       "ui": {
         "term": "கவை"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -1037,9 +980,6 @@
       },
       "ui": {
         "term": "கடினக் கவை"
-      },
-      "code": {
-        "term": "hard_fork"
       }
     },
     "grammar": {
@@ -1088,9 +1028,6 @@
       },
       "ui": {
         "term": "மென் கவை"
-      },
-      "code": {
-        "term": "soft_fork"
       }
     },
     "grammar": {
@@ -1142,9 +1079,6 @@
       },
       "ui": {
         "term": "ஆளுகை"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1197,9 +1131,6 @@
       },
       "ui": {
         "term": "ஹாஷ்"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1249,9 +1180,6 @@
       },
       "ui": {
         "term": "ஹாஷ் செயற்கூறு"
-      },
-      "code": {
-        "term": "hash_function"
       }
     },
     "grammar": {
@@ -1300,9 +1228,6 @@
       },
       "ui": {
         "term": "ஹாஷ் வீதம்"
-      },
-      "code": {
-        "term": "hash_rate"
       }
     },
     "grammar": {
@@ -1351,9 +1276,6 @@
       },
       "ui": {
         "term": "ஹாஷ் செய்தல்"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1402,9 +1324,6 @@
       },
       "ui": {
         "term": "நீர்மப் பங்குவைப்பு"
-      },
-      "code": {
-        "term": "liquidStaking"
       }
     },
     "grammar": {
@@ -1447,9 +1366,6 @@
       },
       "ui": {
         "term": "திரட்டப்பட்ட பங்குவைப்பு"
-      },
-      "code": {
-        "term": "pooledStaking"
       }
     },
     "grammar": {
@@ -1495,9 +1411,6 @@
       },
       "ui": {
         "term": "மறுபங்குவைப்பு"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1540,9 +1453,6 @@
       },
       "ui": {
         "term": "தனிப் பங்குவைப்பு"
-      },
-      "code": {
-        "term": "soloStaking"
       }
     },
     "grammar": {
@@ -1588,9 +1498,6 @@
       },
       "ui": {
         "term": "பங்குவை"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1635,9 +1542,6 @@
       },
       "ui": {
         "term": "பங்குவைக்கப்பட்டது"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1678,9 +1582,6 @@
       },
       "ui": {
         "term": "பங்குவைப்பவர்"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1729,9 +1630,6 @@
       },
       "ui": {
         "term": "பங்குவைத்தல்"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1774,9 +1672,6 @@
       },
       "ui": {
         "term": "பங்குவைப்புத் தொகை"
-      },
-      "code": {
-        "term": "stakingDeposit"
       }
     },
     "grammar": {
@@ -1825,9 +1720,6 @@
       },
       "ui": {
         "term": "பங்குவைப்புக் குழு"
-      },
-      "code": {
-        "term": "stakingPool"
       }
     },
     "grammar": {
@@ -1879,9 +1771,6 @@
       },
       "ui": {
         "term": "பங்குமீட்பு"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1931,9 +1820,6 @@
       },
       "ui": {
         "term": "கலைப்பு செய்"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -1985,9 +1871,6 @@
       },
       "ui": {
         "term": "சுரங்கர்"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -2042,9 +1925,6 @@
       },
       "ui": {
         "term": "சுரங்கப்பணி"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -2099,9 +1979,6 @@
       },
       "ui": {
         "term": "அச்சிடு"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -2156,9 +2033,6 @@
       },
       "ui": {
         "term": "அச்சிடுதல்"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -2214,9 +2088,6 @@
       },
       "ui": {
         "term": "வெட்டுதல்"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2266,9 +2137,6 @@
       },
       "ui": {
         "term": "வெட்டுபவர்"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2324,9 +2192,6 @@
       },
       "ui": {
         "term": "பரிமாற்றம் செய்"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2381,9 +2246,6 @@
       },
       "ui": {
         "term": "பரிவர்த்தனை"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -2432,9 +2294,6 @@
       },
       "ui": {
         "term": "சரிபார்ப்பான்"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2481,9 +2340,6 @@
       },
       "ui": {
         "term": "தொகுதி சரிபார்ப்பு"
-      },
-      "code": {
-        "term": "blockValidation"
       }
     },
     "grammar": {
@@ -2535,9 +2391,6 @@
       },
       "ui": {
         "term": "வாக்களி"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2584,9 +2437,6 @@
       },
       "ui": {
         "term": "வாக்களிப்பு"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2635,9 +2485,6 @@
       },
       "ui": {
         "term": "எத்திரியம்"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2678,9 +2525,6 @@
       },
       "ui": {
         "term": "ஒப்பந்தம்"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2729,9 +2573,6 @@
       },
       "ui": {
         "term": "தொகுதி"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2780,9 +2621,6 @@
       },
       "ui": {
         "term": "திறன் ஒப்பந்தம்"
-      },
-      "code": {
-        "term": "smartContract"
       }
     },
     "grammar": {
@@ -2831,9 +2669,6 @@
       },
       "ui": {
         "term": "கணு"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2882,9 +2717,6 @@
       },
       "ui": {
         "term": "வில்லை"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2936,9 +2768,6 @@
       },
       "ui": {
         "term": "முகவரியை நகலெடு"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -2988,9 +2817,6 @@
       },
       "ui": {
         "term": "ETH அனுப்பு"
-      },
-      "code": {
-        "term": "eth"
       }
     },
     "grammar": {
@@ -3041,9 +2867,6 @@
       },
       "ui": {
         "term": "தொகுதிச்சங்கிலி தரவு"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -3094,9 +2917,6 @@
       },
       "ui": {
         "term": "கணக்கை உருவாக்கு"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -3150,9 +2970,6 @@
       },
       "ui": {
         "term": "சங்கிலியை மாற்று"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -3203,9 +3020,6 @@
       },
       "ui": {
         "term": "நெறிமுறை விவரங்கள்"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -3258,9 +3072,6 @@
       },
       "ui": {
         "term": "பணப்பையை இணை"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3312,9 +3123,6 @@
       },
       "ui": {
         "term": "எரிவாயு கட்டணம்"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3366,9 +3174,6 @@
       },
       "ui": {
         "term": "ரோலப் நெட்வொர்க்"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3417,9 +3222,6 @@
       },
       "ui": {
         "term": "EIP-களைக் காண்"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3474,9 +3276,6 @@
       },
       "ui": {
         "term": "தேவை"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3525,9 +3324,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "Web3"
       }
     },
     "grammar": {
@@ -3569,9 +3365,6 @@
         "term": "Solidity"
       },
       "ui": {
-        "term": "Solidity"
-      },
-      "code": {
         "term": "Solidity"
       }
     },
@@ -3620,9 +3413,6 @@
       },
       "ui": {
         "term": "நிகழ்வு"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3674,9 +3464,6 @@
       },
       "ui": {
         "term": "சங்கிலிசார்"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3721,9 +3508,6 @@
       },
       "ui": {
         "term": "ஈதர்"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3773,9 +3557,6 @@
         "term": "EVM"
       },
       "ui": {
-        "term": "EVM"
-      },
-      "code": {
         "term": "EVM"
       }
     },
@@ -3828,9 +3609,6 @@
       },
       "ui": {
         "term": "dapp"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3881,9 +3659,6 @@
         "term": "NFT"
       },
       "ui": {
-        "term": "NFT"
-      },
-      "code": {
         "term": "NFT"
       }
     },
@@ -3939,9 +3714,6 @@
       },
       "ui": {
         "term": "பரிமாற்று"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3996,9 +3768,6 @@
       },
       "ui": {
         "term": "திரும்பப் பெறு"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -4050,9 +3819,6 @@
       },
       "ui": {
         "term": "ஒருமித்த கருத்து"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -4104,9 +3870,6 @@
       },
       "ui": {
         "term": "முதன்மை வலைப்பின்னல்"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -4158,9 +3921,6 @@
       },
       "ui": {
         "term": "புறச்சங்கிலி"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -4209,9 +3969,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -4263,9 +4020,6 @@
       },
       "ui": {
         "term": "தரவு வழங்கி"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -4317,9 +4071,6 @@
       },
       "ui": {
         "term": "தரவுத் திரளை"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -4368,9 +4119,6 @@
       },
       "ui": {
         "term": "மெட்டாமேஸ்க்"
-      },
-      "code": {
-        "term": "MetaMask"
       }
     },
     "grammar": {
@@ -4419,9 +4167,6 @@
       },
       "ui": {
         "term": "ஓப்பன்செப்பெலின்"
-      },
-      "code": {
-        "term": "OpenZeppelin"
       }
     },
     "grammar": {
@@ -4468,9 +4213,6 @@
       },
       "ui": {
         "term": "ஸ்லித்தர்"
-      },
-      "code": {
-        "term": "Slither"
       }
     },
     "grammar": {
@@ -4514,9 +4256,6 @@
       },
       "ui": {
         "term": "நேரப்பகுதி"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4563,9 +4302,6 @@
       },
       "ui": {
         "term": "DAO ஐ உருவாக்கு"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4614,9 +4350,6 @@
       },
       "ui": {
         "term": "சோதனை வலையமைப்பு"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4665,9 +4398,6 @@
       },
       "ui": {
         "term": "ஒருமித்த கிளையன்ட்"
-      },
-      "code": {
-        "term": "consensusClient"
       }
     },
     "grammar": {
@@ -4714,9 +4444,6 @@
       },
       "ui": {
         "term": "அடுக்கு 2 (l2)"
-      },
-      "code": {
-        "term": "layer2"
       }
     },
     "grammar": {
@@ -4765,9 +4492,6 @@
       },
       "ui": {
         "term": "ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4810,9 +4534,6 @@
       },
       "ui": {
         "term": "தனிப்பட்ட திறவுகோலை உள்ளிடுக"
-      },
-      "code": {
-        "term": "privateKey"
       }
     },
     "grammar": {
@@ -4862,9 +4583,6 @@
       },
       "ui": {
         "term": "கிரிப்டோ"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4905,9 +4623,6 @@
       },
       "ui": {
         "term": "அடுக்கு 1 (l1)"
-      },
-      "code": {
-        "term": "layer1"
       }
     },
     "grammar": {
@@ -4958,9 +4673,6 @@
       },
       "ui": {
         "term": "MEV மதிப்பு"
-      },
-      "code": {
-        "term": "MEV"
       }
     },
     "grammar": {
@@ -5008,9 +4720,6 @@
       },
       "ui": {
         "term": "வெளியேறு"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -5055,9 +4764,6 @@
       },
       "ui": {
         "term": "செயல்பாட்டுக் குறியீடு"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -5102,9 +4808,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -5145,9 +4848,6 @@
       },
       "ui": {
         "term": "எக்கிட்னா"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -5192,9 +4892,6 @@
       },
       "ui": {
         "term": "தனியுரிமை"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -5235,9 +4932,6 @@
       },
       "ui": {
         "term": "மேண்டிகோர்"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -5280,9 +4974,6 @@
       },
       "ui": {
         "term": "ஆப்டிமிஸ்டிக் ரோல்அப்"
-      },
-      "code": {
-        "term": "optimisticRollup"
       }
     },
     "grammar": {
@@ -5325,9 +5016,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "erc"
       }
     },
     "grammar": {
@@ -5370,9 +5058,6 @@
       },
       "ui": {
         "term": "பிளாஸ்மா"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5417,9 +5102,6 @@
       },
       "ui": {
         "term": "நிரலகம்"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -5468,9 +5150,6 @@
       },
       "ui": {
         "term": "யூனிஸ்வாப்"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -5525,9 +5204,6 @@
       },
       "ui": {
         "term": "ஒருங்கிணைப்பு"
-      },
-      "code": {
-        "term": "theMerge"
       }
     },
     "grammar": {
@@ -5578,9 +5254,6 @@
       },
       "ui": {
         "term": "பூஜ்ஜிய-அறிவுச் சான்று"
-      },
-      "code": {
-        "term": "zkProof"
       }
     },
     "grammar": {
@@ -5629,9 +5302,6 @@
       },
       "ui": {
         "term": "பிட்காயின்"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5682,9 +5352,6 @@
       },
       "ui": {
         "term": "தரவுக் கிடைக்கும் தன்மை"
-      },
-      "code": {
-        "term": "dataAvailability"
       }
     },
     "grammar": {
@@ -5732,9 +5399,6 @@
       },
       "ui": {
         "term": "பதிவுகள்"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5785,9 +5449,6 @@
       },
       "ui": {
         "term": "பீக்கன் சங்கிலி"
-      },
-      "code": {
-        "term": "beaconChain"
       }
     },
     "grammar": {
@@ -5838,9 +5499,6 @@
       },
       "ui": {
         "term": "நீர்மைத்தன்மை"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5885,9 +5543,6 @@
       },
       "ui": {
         "term": "சகாப்தம்"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5936,9 +5591,6 @@
       },
       "ui": {
         "term": "எத்தேரியம் முதன்மை வலைப்பின்னல்"
-      },
-      "code": {
-        "term": "ethereumMainnet"
       }
     },
     "grammar": {
@@ -5982,9 +5634,6 @@
       },
       "ui": {
         "term": "முன்மொழிவுகள்"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -6031,9 +5680,6 @@
       },
       "ui": {
         "term": "தொகுதி முன்மொழிபவர்"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -6080,9 +5726,6 @@
       },
       "ui": {
         "term": "கருத்தொருமிப்பு அடுக்கு"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -6132,9 +5775,6 @@
       },
       "ui": {
         "term": "சகக்கணுக்கள்"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -6181,9 +5821,6 @@
       },
       "ui": {
         "term": "ஜேசன்-ஆர்பிசி"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -6226,9 +5863,6 @@
       },
       "ui": {
         "term": "நான்ஸ்"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -6275,9 +5909,6 @@
       },
       "ui": {
         "term": "IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -6320,9 +5951,6 @@
       },
       "ui": {
         "term": "முழு முனையம்"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -6373,9 +6001,6 @@
       },
       "ui": {
         "term": "பூஜ்ய-அறிவு"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -6416,9 +6041,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -6469,9 +6091,6 @@
       },
       "ui": {
         "term": "சரிபார்ப்புப் புள்ளி"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6518,9 +6137,6 @@
       },
       "ui": {
         "term": "பெக்ட்ரா"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6572,9 +6188,6 @@
       },
       "ui": {
         "term": "மறைக்குறியீட்டு நாணயம்"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6626,9 +6239,6 @@
       },
       "ui": {
         "term": "சரிபார்ப்பி"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6683,9 +6293,6 @@
       },
       "ui": {
         "term": "கட்டமைப்பாளர்"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6736,9 +6343,6 @@
       },
       "ui": {
         "term": "பொது விசை"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6787,9 +6391,6 @@
       },
       "ui": {
         "term": "பக்கச்சங்கிலி"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6838,9 +6439,6 @@
       },
       "ui": {
         "term": "ஃபுசாகா"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6889,9 +6487,6 @@
       },
       "ui": {
         "term": "மீத்தரவு"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6942,9 +6537,6 @@
       },
       "ui": {
         "term": "ABI"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -6993,9 +6585,6 @@
       },
       "ui": {
         "term": "View on Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -7040,9 +6629,6 @@
       },
       "ui": {
         "term": "Wrap ETH"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -7091,9 +6677,6 @@
       },
       "ui": {
         "term": "zkEVM"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -7138,9 +6721,6 @@
       },
       "ui": {
         "term": "எரிவாயு கட்டணம்"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -7191,9 +6771,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -7238,9 +6815,6 @@
       },
       "ui": {
         "term": "எரிவாயு வரம்பு"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -7291,9 +6865,6 @@
       },
       "ui": {
         "term": "Tip"
-      },
-      "code": {
-        "term": "tip"
       }
     },
     "grammar": {
@@ -7345,9 +6916,6 @@
       },
       "ui": {
         "term": "ஒருமித்த வழிமுறை"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -7396,9 +6964,6 @@
       },
       "ui": {
         "term": "ERC-721"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -7443,9 +7008,6 @@
       },
       "ui": {
         "term": "எத்தேரியம் பெயர் சேவை"
-      },
-      "code": {
-        "term": "ethereumNameService"
       }
     },
     "grammar": {
@@ -7495,9 +7057,6 @@
       },
       "ui": {
         "term": "நிரூபிப்பவர்"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -7546,9 +7105,6 @@
       },
       "ui": {
         "term": "நிலை வழித்தடம்"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -7597,9 +7153,6 @@
       },
       "ui": {
         "term": "பரிவர்த்தனை கட்டணம்"
-      },
-      "code": {
-        "term": "transactionFee"
       }
     },
     "grammar": {
@@ -7646,9 +7199,6 @@
       },
       "ui": {
         "term": "வெளிப்புறமாக சொந்தமான கணக்கு"
-      },
-      "code": {
-        "term": "externallyOwnedAccount"
       }
     },
     "grammar": {
@@ -7697,9 +7247,6 @@
       },
       "ui": {
         "term": "செல்லுபடித்தன்மை சான்று"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -7748,9 +7295,6 @@
       },
       "ui": {
         "term": "பாசெட்"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7799,9 +7343,6 @@
       },
       "ui": {
         "term": "Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7850,9 +7391,6 @@
       },
       "ui": {
         "term": "தொகுதி ஆராய்வி"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -7904,9 +7442,6 @@
       },
       "ui": {
         "term": "மீளமை"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7950,9 +7485,6 @@
       },
       "ui": {
         "term": "எத்தீரியம் அறக்கட்டளை"
-      },
-      "code": {
-        "term": "ethereum-foundation"
       }
     },
     "grammar": {
@@ -7995,9 +7527,6 @@
       },
       "ui": {
         "term": "பரவலாக்கப்பட்ட அடையாளம்"
-      },
-      "code": {
-        "term": "decentralized-identity-did"
       }
     },
     "grammar": {
@@ -8049,9 +7578,6 @@
       },
       "ui": {
         "term": "முன்மொழிபவர்"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -8100,9 +7626,6 @@
       },
       "ui": {
         "term": "குறியாக்கவியல்"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -8145,9 +7668,6 @@
       },
       "ui": {
         "term": "பைட் குறியீடு"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -8194,9 +7714,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -8243,9 +7760,6 @@
       },
       "ui": {
         "term": "லைட்ஹவுஸ்"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -8289,9 +7803,6 @@
       },
       "ui": {
         "term": "எரிவாயு விலை"
-      },
-      "code": {
-        "term": "gas-price"
       }
     },
     "grammar": {
@@ -8343,9 +7854,6 @@
       },
       "ui": {
         "term": "சக-முனைய"
-      },
-      "code": {
-        "term": "peer-to-peer"
       }
     },
     "grammar": {
@@ -8386,9 +7894,6 @@
       },
       "ui": {
         "term": "கிளாம்ஸ்டர்டாம்"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -8429,9 +7934,6 @@
       },
       "ui": {
         "term": "நெதர்மைண்ட்"
-      },
-      "code": {
-        "term": "nethermind"
       }
     },
     "grammar": {
@@ -8472,9 +7974,6 @@
       },
       "ui": {
         "term": "மோசடி சான்று"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -8521,9 +8020,6 @@
       },
       "ui": {
         "term": "மெர்கல் சான்று"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -8572,9 +8068,6 @@
       },
       "ui": {
         "term": "பரவலாக்கப்பட்ட அறிவியல்"
-      },
-      "code": {
-        "term": "desci"
       }
     },
     "grammar": {
@@ -8615,9 +8108,6 @@
       },
       "ui": {
         "term": "நம்பிக்கை தேவையில்லாத"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -8660,9 +8150,6 @@
       },
       "ui": {
         "term": "டாங்க்ஷார்டிங்"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -8705,9 +8192,6 @@
       },
       "ui": {
         "term": "கிளைத் தேர்வு நெறிமுறை"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8754,9 +8238,6 @@
       },
       "ui": {
         "term": "அடிப்படை கட்டணம்"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8803,9 +8284,6 @@
       },
       "ui": {
         "term": "எரிகான்"
-      },
-      "code": {
-        "term": "erigon"
       }
     },
     "grammar": {
@@ -8849,9 +8327,6 @@
       },
       "ui": {
         "term": "ஒப்புதல் அளி"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8894,9 +8369,6 @@
       },
       "ui": {
         "term": "மெர்க்கல் மரம்"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -8948,9 +8420,6 @@
       },
       "ui": {
         "term": "இலகு முனை"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -9001,9 +8470,6 @@
       },
       "ui": {
         "term": "விதைச் சொற்றொடர்"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -9054,9 +8520,6 @@
       },
       "ui": {
         "term": "குழு"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -9107,9 +8570,6 @@
       },
       "ui": {
         "term": "பெசு"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -9158,9 +8618,6 @@
       },
       "ui": {
         "term": "ஜிகே-ஸ்னார்க்"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -9209,9 +8666,6 @@
       },
       "ui": {
         "term": "தொகுதி உருவாக்குபவர்"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -9258,9 +8712,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -9309,9 +8760,6 @@
       },
       "ui": {
         "term": "பயனுறு இருப்பு"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -9362,9 +8810,6 @@
       },
       "ui": {
         "term": "தொகுதித் தலைப்பு"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -9415,9 +8860,6 @@
       },
       "ui": {
         "term": "குறுக்கு-சங்கிலி"
-      },
-      "code": {
-        "term": "crossChain"
       }
     },
     "grammar": {
@@ -9464,9 +8906,6 @@
       },
       "ui": {
         "term": "புரோட்டோ-டாங்க்ஷார்டிங்"
-      },
-      "code": {
-        "term": "protoDanksharding"
       }
     },
     "grammar": {
@@ -9513,9 +8952,6 @@
       },
       "ui": {
         "term": "ரெத்"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -9566,9 +9002,6 @@
       },
       "ui": {
         "term": "ரசீது"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -9622,9 +9055,6 @@
       },
       "ui": {
         "term": "கடன் அளி"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -9675,9 +9105,6 @@
       },
       "ui": {
         "term": "பெட்டகம்"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -9726,9 +9153,6 @@
       },
       "ui": {
         "term": "தொடக்க முனை"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -9783,9 +9207,6 @@
       },
       "ui": {
         "term": "அனுமதித்தொகை"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -9836,9 +9257,6 @@
       },
       "ui": {
         "term": "மெம்பூல்"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -9887,9 +9305,6 @@
       },
       "ui": {
         "term": "DVT தொழில்நுட்பம்"
-      },
-      "code": {
-        "term": "distributed_validator_technology"
       }
     },
     "grammar": {
@@ -9939,9 +9354,6 @@
       },
       "ui": {
         "term": "DEX பரிமாற்றம்"
-      },
-      "code": {
-        "term": "decentralized_exchange"
       }
     },
     "grammar": {
@@ -9993,9 +9405,6 @@
       },
       "ui": {
         "term": "தேடுபவர்"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -10042,9 +9451,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -10091,9 +9497,6 @@
       },
       "ui": {
         "term": "அனுமதியற்ற"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -10136,9 +9539,6 @@
       },
       "ui": {
         "term": "ப்ரிஸ்ம்"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -10187,9 +9587,6 @@
       },
       "ui": {
         "term": "டெகு"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -10236,9 +9633,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -10281,9 +9675,6 @@
       },
       "ui": {
         "term": "PBS பிரிப்பு"
-      },
-      "code": {
-        "term": "proposer_builder_separation"
       }
     },
     "grammar": {
@@ -10334,9 +9725,6 @@
       },
       "ui": {
         "term": "ஒற்றை ஸ்லாட் இறுதிநிலை"
-      },
-      "code": {
-        "term": "single-slot-finality"
       }
     },
     "grammar": {
@@ -10387,9 +9775,6 @@
       },
       "ui": {
         "term": "காப்பக முனை"
-      },
-      "code": {
-        "term": "archive-node"
       }
     },
     "grammar": {
@@ -10438,9 +9823,6 @@
       },
       "ui": {
         "term": "லோட்ஸ்டார்"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -10488,9 +9870,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -10542,9 +9921,6 @@
       },
       "ui": {
         "term": "டிஜிட்டல் சொத்து"
-      },
-      "code": {
-        "term": "digital-asset"
       }
     },
     "grammar": {
@@ -10598,9 +9974,6 @@
       },
       "ui": {
         "term": "வரிசைப்படுத்தி"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -10649,9 +10022,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -10700,9 +10070,6 @@
       },
       "ui": {
         "term": "மெர்கல் வேர்"
-      },
-      "code": {
-        "term": "merkle-root"
       }
     },
     "grammar": {
@@ -10751,9 +10118,6 @@
       },
       "ui": {
         "term": "டெல்லோர்"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -10803,9 +10167,6 @@
       },
       "ui": {
         "term": "AI முகவர்"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -10856,9 +10217,6 @@
       },
       "ui": {
         "term": "கடினத்தன்மை"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -10907,9 +10265,6 @@
       },
       "ui": {
         "term": "மறுசீரமைப்பு"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -10961,9 +10316,6 @@
       },
       "ui": {
         "term": "உறுதிப்படுத்து"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -11004,9 +10356,6 @@
       },
       "ui": {
         "term": "நிம்பஸ்"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -11049,9 +10398,6 @@
       },
       "ui": {
         "term": "மாற்றவியலாத"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -11096,9 +10442,6 @@
       },
       "ui": {
         "term": "கணிப்புச் சந்தை"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -11149,9 +10492,6 @@
       },
       "ui": {
         "term": "RLP முன்னொட்டு"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -11197,9 +10537,6 @@
       },
       "ui": {
         "term": "முறைசார் சரிபார்ப்பு"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -11248,9 +10585,6 @@
       },
       "ui": {
         "term": "கணக்குச் சுருக்கம்"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -11297,9 +10631,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -11348,9 +10679,6 @@
       },
       "ui": {
         "term": "இசட்கே-ஸ்டார்க்"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -11401,9 +10729,6 @@
       },
       "ui": {
         "term": "சீரற்றதன்மை"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -11454,9 +10779,6 @@
       },
       "ui": {
         "term": "உத்தி"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -11505,9 +10827,6 @@
       },
       "ui": {
         "term": "நிஜ உலக சொத்துக்கள்"
-      },
-      "code": {
-        "term": "realWorldAssets"
       }
     },
     "grammar": {
@@ -11558,9 +10877,6 @@
       },
       "ui": {
         "term": "அளவுமீறல் பிழை"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -11609,9 +10925,6 @@
       },
       "ui": {
         "term": "பரிவர்த்தனை ஹாஷ்"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -11662,9 +10975,6 @@
       },
       "ui": {
         "term": "பல்கையெழுத்து"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -11713,9 +11023,6 @@
       },
       "ui": {
         "term": "ஸ்டேபிள்காயின்"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -11764,9 +11071,6 @@
       },
       "ui": {
         "term": "மஞ்சள் அறிக்கை"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -11818,9 +11122,6 @@
       },
       "ui": {
         "term": "ஒருங்கிணைப்புத்தன்மை"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -11873,9 +11174,6 @@
       },
       "ui": {
         "term": "பதிலி ஒப்பந்தம்"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -11927,9 +11225,6 @@
       },
       "ui": {
         "term": "துணை வரைபடம்"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -11981,9 +11276,6 @@
       },
       "ui": {
         "term": "இயங்குதன்மை"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -12035,9 +11327,6 @@
       },
       "ui": {
         "term": "கிளையண்ட் பன்முகத்தன்மை"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -12086,9 +11375,6 @@
       },
       "ui": {
         "term": "ஷாங்காய்"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -12134,9 +11420,6 @@
       },
       "ui": {
         "term": "புத்துருவாக்க நிதி"
-      },
-      "code": {
-        "term": "regenerativeFinance"
       }
     },
     "grammar": {
@@ -12182,9 +11465,6 @@
       },
       "ui": {
         "term": "ஒப்பந்தக் கணக்கு"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -12233,9 +11513,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -12280,9 +11557,6 @@
       },
       "ui": {
         "term": "தொகுதி வெகுமதி"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -12331,9 +11605,6 @@
       },
       "ui": {
         "term": "தொகுதி நேரம்"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -12382,9 +11653,6 @@
       },
       "ui": {
         "term": "வெள்ளை அறிக்கை"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -12433,9 +11701,6 @@
       },
       "ui": {
         "term": "தரவு கிடைக்கும் மாதிரி"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -12488,9 +11753,6 @@
       },
       "ui": {
         "term": "நியாயப்படுத்தப்பட்டது"
-      },
-      "code": {
-        "term": "isJustified"
       }
     },
     "grammar": {
@@ -12539,9 +11801,6 @@
       },
       "ui": {
         "term": "நீர்மை வழங்குபவர்"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -12587,9 +11846,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -12639,9 +11895,6 @@
       },
       "ui": {
         "term": "பூஜ்ஜிய அறிவு சுருக்கம்"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -12688,9 +11941,6 @@
       },
       "ui": {
         "term": "செயின்லிங்க்"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -12739,9 +11989,6 @@
       },
       "ui": {
         "term": "உடனடி கடன்"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -12788,9 +12035,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -12837,9 +12081,6 @@
       },
       "ui": {
         "term": "MEV-Boost"
-      },
-      "code": {
-        "term": "mev-boost"
       }
     },
     "grammar": {
@@ -12890,9 +12131,6 @@
       },
       "ui": {
         "term": "கான்குன்"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -12943,9 +12181,6 @@
       },
       "ui": {
         "term": "வைப்பு ஒப்பந்தம்"
-      },
-      "code": {
-        "term": "deposit_contract"
       }
     },
     "grammar": {
@@ -12996,9 +12231,6 @@
       },
       "ui": {
         "term": "செயலாக்கச் சுமை"
-      },
-      "code": {
-        "term": "execution_payload"
       }
     },
     "grammar": {
@@ -13049,9 +12281,6 @@
       },
       "ui": {
         "term": "அதிகாரச் சான்று"
-      },
-      "code": {
-        "term": "proof_of_authority"
       }
     },
     "grammar": {
@@ -13100,9 +12329,6 @@
       },
       "ui": {
         "term": "இரகசியத் தலைவர் தேர்தல்"
-      },
-      "code": {
-        "term": "secret_leader_election"
       }
     },
     "grammar": {
@@ -13153,9 +12379,6 @@
       },
       "ui": {
         "term": "ஒத்திசைவுக் குழு"
-      },
-      "code": {
-        "term": "sync_committee"
       }
     },
     "grammar": {
@@ -13209,9 +12432,6 @@
       },
       "ui": {
         "term": "கடன் வாங்கு"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -13265,9 +12485,6 @@
       },
       "ui": {
         "term": "மறுநுழைவு"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -13313,9 +12530,6 @@
         "term": "ERC-1155"
       },
       "ui": {
-        "term": "ERC-1155"
-      },
-      "code": {
         "term": "ERC-1155"
       }
     },
@@ -13367,9 +12581,6 @@
       },
       "ui": {
         "term": "நீள்வட்ட வளைவு"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -13415,9 +12626,6 @@
         "term": "UTXO"
       },
       "ui": {
-        "term": "UTXO"
-      },
-      "code": {
         "term": "UTXO"
       }
     },
@@ -13470,9 +12678,6 @@
       },
       "ui": {
         "term": "பரிமாற்றத்தக்க வில்லை"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -13519,9 +12724,6 @@
       },
       "ui": {
         "term": "இருபடி நிதியளிப்பு"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -13573,9 +12775,6 @@
       },
       "ui": {
         "term": "சேகரிப்புப் பொருள்"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -13624,9 +12823,6 @@
       },
       "ui": {
         "term": "பீக்கன் தொகுதி"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -13675,9 +12871,6 @@
       },
       "ui": {
         "term": "பலவீனமான அகநிலை"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -13726,9 +12919,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -13779,9 +12969,6 @@
       },
       "ui": {
         "term": "நீர்மைத் தொகுப்பு"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -13830,9 +13017,6 @@
       },
       "ui": {
         "term": "தொடக்கத் தொகுதி"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -13879,9 +13063,6 @@
       },
       "ui": {
         "term": "ஷபெல்லா"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -13928,9 +13109,6 @@
       },
       "ui": {
         "term": "தொகுக்கக்கூடிய"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -13973,9 +13151,6 @@
       },
       "ui": {
         "term": "நிலை ட்ரை"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -14024,9 +13199,6 @@
       },
       "ui": {
         "term": "எல்.எம்.டி-கோஸ்ட்"
-      },
-      "code": {
-        "term": "LMD_GHOST"
       }
     },
     "grammar": {
@@ -14075,9 +13247,6 @@
       },
       "ui": {
         "term": "மறைமுக முகவரி"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -14123,9 +13292,6 @@
         "term": "dai"
       },
       "ui": {
-        "term": "DAI"
-      },
-      "code": {
         "term": "DAI"
       }
     },
@@ -14180,9 +13346,6 @@
       },
       "ui": {
         "term": "டோக்கனாக்கம் செய்"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -14231,9 +13394,6 @@
       },
       "ui": {
         "term": "தீர்ப்பான்"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -14283,9 +13443,6 @@
       },
       "ui": {
         "term": "கஸ்டடியற்ற"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -14325,9 +13482,6 @@
         "term": "MaxEB"
       },
       "ui": {
-        "term": "MaxEB"
-      },
-      "code": {
         "term": "MaxEB"
       }
     },
@@ -14378,9 +13532,6 @@
       },
       "ui": {
         "term": "என்ட்ரோபி"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -14427,9 +13578,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -14475,9 +13623,6 @@
         "term": "discv5"
       },
       "ui": {
-        "term": "discv5"
-      },
-      "code": {
         "term": "discv5"
       }
     },
@@ -14525,9 +13670,6 @@
       },
       "ui": {
         "term": "போர்ட்டல் நெட்வொர்க்"
-      },
-      "code": {
-        "term": "portal_network"
       }
     },
     "grammar": {
@@ -14574,9 +13716,6 @@
       },
       "ui": {
         "term": "கடினத்தன்மை வெடிகுண்டு"
-      },
-      "code": {
-        "term": "difficulty_bomb"
       }
     },
     "grammar": {
@@ -14625,9 +13764,6 @@
       },
       "ui": {
         "term": "இயங்குதன்மையுள்ள"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -14670,9 +13806,6 @@
       },
       "ui": {
         "term": "நிலை காலாவதி"
-      },
-      "code": {
-        "term": "state_expiry"
       }
     },
     "grammar": {
@@ -14724,9 +13857,6 @@
       },
       "ui": {
         "term": "சான்று"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -14775,9 +13905,6 @@
       },
       "ui": {
         "term": "பெர்லின்"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -14822,9 +13949,6 @@
       },
       "ui": {
         "term": "நிலுவையில் உள்ள பரிவர்த்தனைகள்"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -14878,9 +14002,6 @@
       },
       "ui": {
         "term": "செயலாக்கு"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -14931,9 +14052,6 @@
       },
       "ui": {
         "term": "முன்னெல்லை"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -14984,9 +14102,6 @@
       },
       "ui": {
         "term": "பொதுப் பொருட்கள்"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -15038,9 +14153,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -15091,9 +14203,6 @@
       },
       "ui": {
         "term": "சரிபார்க்கக்கூடிய நற்சான்றிதழ்கள்"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -15144,9 +14253,6 @@
       },
       "ui": {
         "term": "மாற்றவியலாமை"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -15197,9 +14303,6 @@
       },
       "ui": {
         "term": "திரவ ஸ்டேக்கிங் டோக்கன்கள்"
-      },
-      "code": {
-        "term": "lst"
       }
     },
     "grammar": {
@@ -15250,9 +14353,6 @@
       },
       "ui": {
         "term": "சேவையாக ஸ்டேக்கிங்"
-      },
-      "code": {
-        "term": "staking-as-a-service"
       }
     },
     "grammar": {
@@ -15304,9 +14404,6 @@
       },
       "ui": {
         "term": "திரும்பப்பெறல் சான்றுகளை உள்ளிடுக"
-      },
-      "code": {
-        "term": "withdrawalCredentials"
       }
     },
     "grammar": {
@@ -15355,9 +14452,6 @@
       },
       "ui": {
         "term": "கெக்காக்-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -15411,9 +14505,6 @@
       },
       "ui": {
         "term": "வரலாற்று காலாவதி"
-      },
-      "code": {
-        "term": "historyExpiry"
       }
     },
     "grammar": {
@@ -15464,9 +14555,6 @@
       },
       "ui": {
         "term": "வலை 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -15515,9 +14603,6 @@
       },
       "ui": {
         "term": "கான்ஸ்டான்டினோபிள்"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -15569,9 +14654,6 @@
       },
       "ui": {
         "term": "மூலக் குறியீட்டை சரிபார்க்கவும்"
-      },
-      "code": {
-        "term": "sourceCodeVerification"
       }
     },
     "grammar": {
@@ -15619,9 +14701,6 @@
         "term": "POAP"
       },
       "ui": {
-        "term": "POAP"
-      },
-      "code": {
         "term": "POAP"
       }
     },
@@ -15673,9 +14752,6 @@
       },
       "ui": {
         "term": "நோக்கம்"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -15727,9 +14803,6 @@
       },
       "ui": {
         "term": "கட்டணதாரர்"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -15780,9 +14853,6 @@
       },
       "ui": {
         "term": "திறன் கணக்கு"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -15833,9 +14903,6 @@
       },
       "ui": {
         "term": "வழிகாட்டி முனை"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -15882,9 +14949,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "BLS"
       }
     },
     "grammar": {
@@ -15924,9 +14988,6 @@
         "term": "SSZ"
       },
       "ui": {
-        "term": "SSZ"
-      },
-      "code": {
         "term": "SSZ"
       }
     },
@@ -15971,9 +15032,6 @@
       },
       "ui": {
         "term": "கோ எத்திரியம் (கெத்)"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -16017,9 +15075,6 @@
       },
       "ui": {
         "term": "எத்திரியம் கிளாசிக்"
-      },
-      "code": {
-        "term": "ethereumClassic"
       }
     },
     "grammar": {
@@ -16060,9 +15115,6 @@
       },
       "ui": {
         "term": "பைசான்டியம்"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -16105,9 +15157,6 @@
       },
       "ui": {
         "term": "ECDSA நெறிமுறை"
-      },
-      "code": {
-        "term": "ecdsa"
       }
     },
     "grammar": {
@@ -16148,9 +15197,6 @@
       },
       "ui": {
         "term": "சமூக மீட்பு"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -16197,9 +15243,6 @@
       },
       "ui": {
         "term": "உருவாக்குநர் பிரிப்பு"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -16248,9 +15291,6 @@
       },
       "ui": {
         "term": "உரிமைச் சான்று"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -16297,9 +15337,6 @@
       },
       "ui": {
         "term": "ECC"
-      },
-      "code": {
-        "term": "ecc"
       }
     },
     "grammar": {
@@ -16348,9 +15385,6 @@
       },
       "ui": {
         "term": "விலை ஊட்டம்"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -16399,9 +15433,6 @@
       },
       "ui": {
         "term": "டெவ்நெட்"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -16450,9 +15481,6 @@
       },
       "ui": {
         "term": "பரவல் நெறிமுறை"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -16501,9 +15529,6 @@
       },
       "ui": {
         "term": "திரள்"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -16550,9 +15575,6 @@
       },
       "ui": {
         "term": "ஹோம்ஸ்டெட்"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -16600,9 +15622,6 @@
         "term": "DAC"
       },
       "ui": {
-        "term": "DAC"
-      },
-      "code": {
         "term": "DAC"
       }
     },
@@ -16654,9 +15673,6 @@
       },
       "ui": {
         "term": "நீக்கல் குறியீடாக்கம்"
-      },
-      "code": {
-        "term": "erasureCoding"
       }
     },
     "grammar": {
@@ -16705,9 +15721,6 @@
       },
       "ui": {
         "term": "சேமிப்பக ட்ரை"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -16758,9 +15771,6 @@
       },
       "ui": {
         "term": "பிளாப் கட்டணம்"
-      },
-      "code": {
-        "term": "blobFee"
       }
     },
     "grammar": {
@@ -16809,9 +15819,6 @@
       },
       "ui": {
         "term": "முன்னுரிமைக் கட்டணம்"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -16862,9 +15869,6 @@
       },
       "ui": {
         "term": "பணையத்தில் ஏதுமில்லாத சிக்கல்"
-      },
-      "code": {
-        "term": "nothingAtStake"
       }
     },
     "grammar": {
@@ -16915,9 +15919,6 @@
       },
       "ui": {
         "term": "முன்மொழிபவர் ஊக்கம்"
-      },
-      "code": {
-        "term": "proposerBoost"
       }
     },
     "grammar": {
@@ -16968,9 +15969,6 @@
       },
       "ui": {
         "term": "ஆரக்கிள் சிக்கல்"
-      },
-      "code": {
-        "term": "oracleProblem"
       }
     },
     "grammar": {
@@ -17019,9 +16017,6 @@
       },
       "ui": {
         "term": "தன்னாட்சி முகவர்"
-      },
-      "code": {
-        "term": "autonomousAgent"
       }
     },
     "grammar": {
@@ -17072,9 +16067,6 @@
       },
       "ui": {
         "term": "பணிச் சான்று (PoW)"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -17123,9 +16115,6 @@
       },
       "ui": {
         "term": "சபோ"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -17172,9 +16161,6 @@
       },
       "ui": {
         "term": "RANDAO"
-      },
-      "code": {
-        "term": "randao"
       }
     },
     "grammar": {
@@ -17223,9 +16209,6 @@
       },
       "ui": {
         "term": "வெர்கிள் மரங்கள்"
-      },
-      "code": {
-        "term": "verkleTrees"
       }
     },
     "grammar": {
@@ -17274,9 +16257,6 @@
       },
       "ui": {
         "term": "பின்னடைவுச் செயல்பாடு"
-      },
-      "code": {
-        "term": "fallback"
       }
     },
     "grammar": {
@@ -17328,9 +16308,6 @@
       },
       "ui": {
         "term": "ஏர்ட்ராப்"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -17377,9 +16354,6 @@
       },
       "ui": {
         "term": "USDC"
-      },
-      "code": {
-        "term": "usdc"
       }
     },
     "grammar": {
@@ -17426,9 +16400,6 @@
       },
       "ui": {
         "term": "WBTC"
-      },
-      "code": {
-        "term": "wbtc"
       }
     },
     "grammar": {
@@ -17477,9 +16448,6 @@
       },
       "ui": {
         "term": "பரிவர்த்தனைத் தொகுப்பு"
-      },
-      "code": {
-        "term": "txpool"
       }
     },
     "grammar": {
@@ -17526,9 +16494,6 @@
       },
       "ui": {
         "term": "பாதுகாவலர்"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -17577,9 +16542,6 @@
       },
       "ui": {
         "term": "விசைச் சேமிப்பகம்"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -17629,9 +16591,6 @@
       },
       "ui": {
         "term": "சுய-பாதுகாப்பு"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -17678,9 +16637,6 @@
       },
       "ui": {
         "term": "காஸ்பர் எஃப்.எஃப்.ஜி"
-      },
-      "code": {
-        "term": "casperFFG"
       }
     },
     "grammar": {
@@ -17727,9 +16683,6 @@
       },
       "ui": {
         "term": "BLS கையொப்பம்"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -17776,9 +16729,6 @@
       },
       "ui": {
         "term": "மெர்க்கல் பாட்ரிசியா ட்ரை"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -17827,9 +16777,6 @@
       },
       "ui": {
         "term": "தொகுதிப் பரவல்"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -17876,9 +16823,6 @@
       },
       "ui": {
         "term": "ஃபின்னி"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -17928,9 +16872,6 @@
       },
       "ui": {
         "term": "பொது நன்மை"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -17979,9 +16920,6 @@
       },
       "ui": {
         "term": "கருவூலம்"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -18028,9 +16966,6 @@
       },
       "ui": {
         "term": "KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -18079,9 +17014,6 @@
       },
       "ui": {
         "term": "SIWE-உடன் உள்நுழை"
-      },
-      "code": {
-        "term": "siwe"
       }
     },
     "grammar": {
@@ -18135,9 +17067,6 @@
       },
       "ui": {
         "term": "முந்திச் செயல்படுதல்"
-      },
-      "code": {
-        "term": "frontRunning"
       }
     },
     "grammar": {
@@ -18186,9 +17115,6 @@
       },
       "ui": {
         "term": "இஸ்தான்புல்"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -18237,9 +17163,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "kevm"
       }
     },
     "grammar": {
@@ -18287,9 +17210,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -18341,9 +17261,6 @@
       },
       "ui": {
         "term": "அதிகபட்ச கட்டணம்"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -18394,9 +17311,6 @@
       },
       "ui": {
         "term": "பல்கையெழுத்து"
-      },
-      "code": {
-        "term": "multiSig"
       }
     },
     "grammar": {
@@ -18445,9 +17359,6 @@
       },
       "ui": {
         "term": "பயனர் செயல்பாடு"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -18501,9 +17412,6 @@
       },
       "ui": {
         "term": "சமூகக் குறைப்பு"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -18552,9 +17460,6 @@
       },
       "ui": {
         "term": "SSLE"
-      },
-      "code": {
-        "term": "ssle"
       }
     },
     "grammar": {
@@ -18605,9 +17510,6 @@
       },
       "ui": {
         "term": "பணயம் அரைத்தல்"
-      },
-      "code": {
-        "term": "stake_grinding"
       }
     },
     "grammar": {
@@ -18656,9 +17558,6 @@
       },
       "ui": {
         "term": "TEE"
-      },
-      "code": {
-        "term": "tee"
       }
     },
     "grammar": {
@@ -18709,9 +17608,6 @@
       },
       "ui": {
         "term": "பிளாக்செயின் ஆரக்கிள்"
-      },
-      "code": {
-        "term": "blockchain_oracle"
       }
     },
     "grammar": {
@@ -18760,9 +17656,6 @@
       },
       "ui": {
         "term": "MODEXP"
-      },
-      "code": {
-        "term": "modexp"
       }
     },
     "grammar": {
@@ -18813,9 +17706,6 @@
       },
       "ui": {
         "term": "சோதனைவலை குழாய்"
-      },
-      "code": {
-        "term": "testnet_faucet"
       }
     },
     "grammar": {
@@ -18864,9 +17754,6 @@
       },
       "ui": {
         "term": "தணிக்கை எதிர்ப்பு"
-      },
-      "code": {
-        "term": "censorship_resistant"
       }
     },
     "grammar": {
@@ -18911,9 +17798,6 @@
       },
       "ui": {
         "term": "ஆளுகை டோக்கன்"
-      },
-      "code": {
-        "term": "governance_token"
       }
     },
     "grammar": {
@@ -18965,9 +17849,6 @@
       },
       "ui": {
         "term": "தொகுப்பி"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -19018,9 +17899,6 @@
       },
       "ui": {
         "term": "AMM"
-      },
-      "code": {
-        "term": "amm"
       }
     },
     "grammar": {
@@ -19074,9 +17952,6 @@
       },
       "ui": {
         "term": "வருவாய் ஈட்டுதல்"
-      },
-      "code": {
-        "term": "yieldFarming"
       }
     },
     "grammar": {
@@ -19127,9 +18002,6 @@
       },
       "ui": {
         "term": "SBT"
-      },
-      "code": {
-        "term": "sbt"
       }
     },
     "grammar": {
@@ -19176,9 +18048,6 @@
       },
       "ui": {
         "term": "வாழ்க்கைச் சுழற்சி"
-      },
-      "code": {
-        "term": "validatorLifecycle"
       }
     },
     "grammar": {
@@ -19229,9 +18098,6 @@
       },
       "ui": {
         "term": "கூறுநிலைப் பிளாக்செயின்"
-      },
-      "code": {
-        "term": "modularBlockchain"
       }
     },
     "grammar": {
@@ -19280,9 +18146,6 @@
       },
       "ui": {
         "term": "ஒற்றைக்கட்டமைப்புப் பிளாக்செயின்"
-      },
-      "code": {
-        "term": "monolithicBlockchain"
       }
     },
     "grammar": {
@@ -19331,9 +18194,6 @@
       },
       "ui": {
         "term": "RPGF"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -19382,9 +18242,6 @@
       },
       "ui": {
         "term": "TVL"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -19434,9 +18291,6 @@
       },
       "ui": {
         "term": "இருபடி வாக்குப்பதிவு"
-      },
-      "code": {
-        "term": "quadraticVoting"
       }
     },
     "grammar": {
@@ -19485,9 +18339,6 @@
       },
       "ui": {
         "term": "பின்னோட்டம்"
-      },
-      "code": {
-        "term": "back-running"
       }
     },
     "grammar": {
@@ -19536,9 +18387,6 @@
       },
       "ui": {
         "term": "தரவு கிடைக்கும் அடுக்கு"
-      },
-      "code": {
-        "term": "data_availability_layer"
       }
     },
     "grammar": {
@@ -19585,9 +18433,6 @@
       },
       "ui": {
         "term": "மேம்படுத்தக்கூடிய ஒப்பந்தம்"
-      },
-      "code": {
-        "term": "upgradeable_contract"
       }
     },
     "grammar": {
@@ -19636,9 +18481,6 @@
       },
       "ui": {
         "term": "பயன்பாட்டு டோக்கன்"
-      },
-      "code": {
-        "term": "utility_token"
       }
     },
     "grammar": {
@@ -19687,9 +18529,6 @@
       },
       "ui": {
         "term": "இணையத்தொடர்பற்ற பணப்பை"
-      },
-      "code": {
-        "term": "cold_wallet"
       }
     },
     "grammar": {
@@ -19738,9 +18577,6 @@
       },
       "ui": {
         "term": "தருவிப்புப் பாதை"
-      },
-      "code": {
-        "term": "derivation_path"
       }
     },
     "grammar": {
@@ -19787,9 +18623,6 @@
       },
       "ui": {
         "term": "வன்பொருள் பணப்பை"
-      },
-      "code": {
-        "term": "hardware_wallet"
       }
     },
     "grammar": {
@@ -19838,9 +18671,6 @@
       },
       "ui": {
         "term": "இணையத்தொடர்புள்ள பணப்பை"
-      },
-      "code": {
-        "term": "hot_wallet"
       }
     },
     "grammar": {
@@ -19892,9 +18722,6 @@
       },
       "ui": {
         "term": "திறவுகோல்"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -19943,9 +18770,6 @@
       },
       "ui": {
         "term": "திறவுகோல் தருவிப்புச் சார்பு (KDF)"
-      },
-      "code": {
-        "term": "key_derivation_function"
       }
     },
     "grammar": {
@@ -19997,9 +18821,6 @@
       },
       "ui": {
         "term": "நுழைவுவிசையை உருவாக்கு"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -20050,9 +18871,6 @@
       },
       "ui": {
         "term": "சுழி முகவரி"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -20103,9 +18921,6 @@
       },
       "ui": {
         "term": "சுழற்சி வரம்பு"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -20156,9 +18971,6 @@
       },
       "ui": {
         "term": "கருத்தொற்றுமை விதிகள்"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -20209,9 +19021,6 @@
       },
       "ui": {
         "term": "இரட்டைநிலைப்பாடு"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -20260,9 +19069,6 @@
       },
       "ui": {
         "term": "முழுப்பரிமாணக் கருத்தொற்றுமை"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -20313,9 +19119,6 @@
       },
       "ui": {
         "term": "செயலற்றநிலை கசிவு"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -20369,9 +19172,6 @@
       },
       "ui": {
         "term": "வெளியீடு"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -20423,9 +19223,6 @@
       },
       "ui": {
         "term": "மிகப்பெரும்பான்மை"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -20475,9 +19272,6 @@
       },
       "ui": {
         "term": "உறுதிப்பாடு"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -20526,9 +19320,6 @@
       },
       "ui": {
         "term": "பரவலாக்கப்பட்ட ஹாஷ் அட்டவணை"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -20575,9 +19366,6 @@
       },
       "ui": {
         "term": "எத்ஹாஷ்"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -20626,9 +19414,6 @@
       },
       "ui": {
         "term": "வலைப்பின்னல் ஹாஷ் விகிதம்"
-      },
-      "code": {
-        "term": "network_hashrate"
       }
     },
     "grammar": {
@@ -20675,9 +19460,6 @@
       },
       "ui": {
         "term": "பாதுகாப்பான ஹாஷ் அல்காரிதம்"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -20726,9 +19508,6 @@
       },
       "ui": {
         "term": "ஷார்டு சங்கிலி"
-      },
-      "code": {
-        "term": "shard_chain"
       }
     },
     "grammar": {
@@ -20775,9 +19554,6 @@
       },
       "ui": {
         "term": "நம்பகமான அமைப்பு"
-      },
-      "code": {
-        "term": "trusted_setup"
       }
     },
     "grammar": {
@@ -20826,9 +19602,6 @@
       },
       "ui": {
         "term": "பயன்பாட்டு நிரலாக்க இடைமுகம்"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -20875,9 +19648,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -20927,9 +19697,6 @@
       },
       "ui": {
         "term": "பிணைப்பு நீக்கு"
-      },
-      "code": {
-        "term": "depeg"
       }
     },
     "grammar": {
@@ -20980,9 +19747,6 @@
       },
       "ui": {
         "term": "நிலையற்ற இழப்பு"
-      },
-      "code": {
-        "term": "impermanentLoss"
       }
     },
     "grammar": {
@@ -21033,9 +19797,6 @@
       },
       "ui": {
         "term": "குறியீடு"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -21086,9 +19847,6 @@
       },
       "ui": {
         "term": "நீர்மை டோக்கன்கள்"
-      },
-      "code": {
-        "term": "liquidityTokens"
       }
     },
     "grammar": {
@@ -21142,9 +19900,6 @@
       },
       "ui": {
         "term": "மிகைப்பிணையமாக்கல்"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -21198,9 +19953,6 @@
       },
       "ui": {
         "term": "மதிப்புப் பிணைப்பு"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -21251,9 +20003,6 @@
       },
       "ui": {
         "term": "விலை தாக்கம்"
-      },
-      "code": {
-        "term": "priceImpact"
       }
     },
     "grammar": {
@@ -21304,9 +20053,6 @@
       },
       "ui": {
         "term": "விலை நழுவல்"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -21353,9 +20099,6 @@
       },
       "ui": {
         "term": "எத்1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -21402,9 +20145,6 @@
       },
       "ui": {
         "term": "எத்2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -21454,9 +20194,6 @@
       },
       "ui": {
         "term": "51% தாக்குதல்"
-      },
-      "code": {
-        "term": "fiftyOnePercentAttack"
       }
     },
     "grammar": {
@@ -21507,9 +20244,6 @@
       },
       "ui": {
         "term": "அநாமதேயக் கணம்"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -21558,9 +20292,6 @@
       },
       "ui": {
         "term": "சிபில்-எதிர்ப்பு"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -21602,9 +20333,6 @@
         "term": "ASIC"
       },
       "ui": {
-        "term": "ASIC"
-      },
-      "code": {
         "term": "ASIC"
       }
     },
@@ -21656,9 +20384,6 @@
       },
       "ui": {
         "term": "பிக்-எண்டியன்"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -21703,9 +20428,6 @@
       },
       "ui": {
         "term": "தொகுதி நிலை"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -21759,9 +20481,6 @@
       },
       "ui": {
         "term": "தொகுக்க"
-      },
-      "code": {
-        "term": "compile"
       }
     },
     "grammar": {
@@ -21802,9 +20521,6 @@
       },
       "ui": {
         "term": "கணக்கீட்டுச் சாத்தியமின்மை"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -21847,9 +20563,6 @@
       },
       "ui": {
         "term": "CFI நிலை"
-      },
-      "code": {
-        "term": "consideredForInclusion"
       }
     },
     "grammar": {
@@ -21894,9 +20607,6 @@
       },
       "ui": {
         "term": "கிரிப்டோபொருளியல்"
-      },
-      "code": {
-        "term": "cryptoEconomics"
       }
     },
     "grammar": {
@@ -21939,9 +20649,6 @@
       },
       "ui": {
         "term": "DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -21992,9 +20699,6 @@
       },
       "ui": {
         "term": "DePIN உள்கட்டமைப்பு"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -22048,9 +20752,6 @@
       },
       "ui": {
         "term": "கண்டறி"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -22104,9 +20805,6 @@
       },
       "ui": {
         "term": "இரட்டைச் செலவு"
-      },
-      "code": {
-        "term": "doubleSpend"
       }
     },
     "grammar": {
@@ -22156,9 +20854,6 @@
       },
       "ui": {
         "term": "செயலாக்கக் கிளையண்ட்"
-      },
-      "code": {
-        "term": "executionClient"
       }
     },
     "grammar": {
@@ -22207,9 +20902,6 @@
       },
       "ui": {
         "term": "செயலாக்க அடுக்கு"
-      },
-      "code": {
-        "term": "executionLayer"
       }
     },
     "grammar": {
@@ -22256,9 +20948,6 @@
       },
       "ui": {
         "term": "மேம்பாட்டுச் சூழல் (IDE)"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -22307,9 +20996,6 @@
       },
       "ui": {
         "term": "இலகுரக கிளையண்ட்"
-      },
-      "code": {
-        "term": "lightClient"
       }
     },
     "grammar": {
@@ -22358,9 +21044,6 @@
       },
       "ui": {
         "term": "செய்தி"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -22409,9 +21092,6 @@
       },
       "ui": {
         "term": "செய்தி அழைப்பு"
-      },
-      "code": {
-        "term": "messageCall"
       }
     },
     "grammar": {
@@ -22463,9 +21143,6 @@
       },
       "ui": {
         "term": "நெட்வொர்க்"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -22517,9 +21194,6 @@
       },
       "ui": {
         "term": "வெளியேற்றுப்பாதை"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -22571,9 +21245,6 @@
       },
       "ui": {
         "term": "ஓமர் (மாமா) தொகுதி"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -22625,9 +21296,6 @@
       },
       "ui": {
         "term": "நுழைவுப்பாதை"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -22682,9 +21350,6 @@
       },
       "ui": {
         "term": "பயனர் இணைவு"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -22737,9 +21402,6 @@
       },
       "ui": {
         "term": "அனுமதிக்குட்பட்ட"
-      },
-      "code": {
-        "term": "permissioned"
       }
     },
     "grammar": {
@@ -22791,9 +21453,6 @@
       },
       "ui": {
         "term": "தனியார் சங்கிலி"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -22844,9 +21503,6 @@
       },
       "ui": {
         "term": "வருகைக்கான சான்று"
-      },
-      "code": {
-        "term": "proofOfAttendance"
       }
     },
     "grammar": {
@@ -22897,9 +21553,6 @@
       },
       "ui": {
         "term": "மீள்-நுழைவுத் தாக்குதல்"
-      },
-      "code": {
-        "term": "reentrancyAttack"
       }
     },
     "grammar": {
@@ -22955,9 +21608,6 @@
       },
       "ui": {
         "term": "வெகுமதி"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -23009,9 +21659,6 @@
       },
       "ui": {
         "term": "சுய-இறையாண்மை"
-      },
-      "code": {
-        "term": "self-sovereignty"
       }
     },
     "grammar": {
@@ -23065,9 +21712,6 @@
       },
       "ui": {
         "term": "வரிசைப்படுத்து"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -23116,9 +21760,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -23167,9 +21808,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -23220,9 +21858,6 @@
       },
       "ui": {
         "term": "நிலை வீக்கம்"
-      },
-      "code": {
-        "term": "state_bloat"
       }
     },
     "grammar": {
@@ -23273,9 +21908,6 @@
       },
       "ui": {
         "term": "நிலையற்ற தன்மை"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -23327,9 +21959,6 @@
       },
       "ui": {
         "term": "சிபில் தாக்குதல்"
-      },
-      "code": {
-        "term": "sybil_attack"
       }
     },
     "grammar": {
@@ -23383,9 +22012,6 @@
       },
       "ui": {
         "term": "ஒத்திசை"
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -23434,9 +22060,6 @@
       },
       "ui": {
         "term": "இறுதி மொத்த கடினத்தன்மை"
-      },
-      "code": {
-        "term": "terminal_total_difficulty"
       }
     },
     "grammar": {
@@ -23487,9 +22110,6 @@
       },
       "ui": {
         "term": "நம்பிக்கை அனுமானங்கள்"
-      },
-      "code": {
-        "term": "trust_assumptions"
       }
     },
     "grammar": {
@@ -23538,9 +22158,6 @@
       },
       "ui": {
         "term": "குறைந்தபட்ச நம்பிக்கை"
-      },
-      "code": {
-        "term": "trustMinimized"
       }
     },
     "grammar": {
@@ -23589,9 +22206,6 @@
       },
       "ui": {
         "term": "நம்பிக்கை தேவையின்மை"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -23642,9 +22256,6 @@
       },
       "ui": {
         "term": "டியூரிங் முழுமை"
-      },
-      "code": {
-        "term": "turingComplete"
       }
     },
     "grammar": {
@@ -23693,9 +22304,6 @@
       },
       "ui": {
         "term": "வெப்2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -23745,9 +22353,6 @@
       },
       "ui": {
         "term": "சாண்ட்விச் தாக்குதல்"
-      },
-      "code": {
-        "term": "sandwichAttack"
       }
     },
     "grammar": {
@@ -23802,9 +22407,6 @@
       },
       "ui": {
         "term": "தொகு"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -23853,9 +22455,6 @@
       },
       "ui": {
         "term": "பிளாப் வெளி"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -23904,9 +22503,6 @@
       },
       "ui": {
         "term": "மீட்பு வழியைப் பயன்படுத்துக"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -23957,9 +22553,6 @@
       },
       "ui": {
         "term": "பிழைச் சான்று"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -24009,9 +22602,6 @@
       },
       "ui": {
         "term": "உரிமைவழித் திரும்பப்பெறல்"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -24063,9 +22653,6 @@
       },
       "ui": {
         "term": "ரோலப் நெட்வொர்க்குகள்"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -24119,9 +22706,6 @@
       },
       "ui": {
         "term": "இறுதித் தீர்வு நிலை"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -24168,9 +22752,6 @@
       },
       "ui": {
         "term": "நிலைச் சேனல்கள்"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -24220,9 +22801,6 @@
       },
       "ui": {
         "term": "பரிவர்த்தனை வீதம்"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -24269,9 +22847,6 @@
       },
       "ui": {
         "term": "வாலிடியம்"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -24322,9 +22897,6 @@
       },
       "ui": {
         "term": "அழைப்புத் தரவு"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -24375,9 +22947,6 @@
       },
       "ui": {
         "term": "ஒப்பந்த உருவாக்கப் பரிவர்த்தனை"
-      },
-      "code": {
-        "term": "contractCreationTransaction"
       }
     },
     "grammar": {
@@ -24428,9 +22997,6 @@
       },
       "ui": {
         "term": "ஈவிஎம் அசெம்பிளி மொழி"
-      },
-      "code": {
-        "term": "evmAssemblyLanguage"
       }
     },
     "grammar": {
@@ -24485,9 +23051,6 @@
       },
       "ui": {
         "term": "எரிவாயு உகப்பாக்கம்"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -24536,9 +23099,6 @@
       },
       "ui": {
         "term": "மாற்றமுடியாத குறியீட்டுச் சிக்கல்"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -24592,9 +23152,6 @@
       },
       "ui": {
         "term": "முன்தொகுப்பு"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -24643,9 +23200,6 @@
       },
       "ui": {
         "term": "மறுநுழைவுக் காப்பு"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -24698,9 +23252,6 @@
       },
       "ui": {
         "term": "சுய-அழி"
-      },
-      "code": {
-        "term": "selfdestruct"
       }
     },
     "grammar": {
@@ -24752,9 +23303,6 @@
       },
       "ui": {
         "term": "ஒற்றையன்"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -24805,9 +23353,6 @@
       },
       "ui": {
         "term": "உள்ளமைந்த அசெம்பிளி"
-      },
-      "code": {
-        "term": "solidityInlineAssembly"
       }
     },
     "grammar": {
@@ -24859,9 +23404,6 @@
       },
       "ui": {
         "term": "நிலை"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -24916,9 +23458,6 @@
       },
       "ui": {
         "term": "உரிமைக்கோர்"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -24970,9 +23509,6 @@
       },
       "ui": {
         "term": "காத்திருப்புக்காலம்"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -25027,9 +23563,6 @@
       },
       "ui": {
         "term": "பின்னமாக்கு"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -25080,9 +23613,6 @@
       },
       "ui": {
         "term": "எல்.பி டோக்கன்கள்"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -25134,9 +23664,6 @@
       },
       "ui": {
         "term": "டோக்கன் தொழிற்சாலை"
-      },
-      "code": {
-        "term": "tokenFactory"
       }
     },
     "grammar": {
@@ -25187,9 +23714,6 @@
       },
       "ui": {
         "term": "டோக்கன் யூஆர்ஐ"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -25244,9 +23768,6 @@
       },
       "ui": {
         "term": "உரிமைவழங்கல்"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -25301,9 +23822,6 @@
       },
       "ui": {
         "term": "பொதியப்பட்ட டோக்கன்கள்"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -25355,9 +23873,6 @@
       },
       "ui": {
         "term": "உள் பரிவர்த்தனை"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -25409,9 +23924,6 @@
       },
       "ui": {
         "term": "எரிவாயு 1-க்கான அதிகபட்ச கட்டணம்"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -25458,9 +23970,6 @@
       },
       "ui": {
         "term": "ஆக்கி"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -25492,9 +24001,6 @@
       },
       "ui": {
         "term": "சார்லஸ் ஹாஸ்கின்சன்"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -25522,9 +24028,6 @@
       },
       "ui": {
         "term": "கவின் வுட்"
-      },
-      "code": {
-        "term": "Gavin Wood"
       }
     },
     "plurals": null,
@@ -25552,9 +24055,6 @@
       },
       "ui": {
         "term": "ஜோசப் லூபின்"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -25582,9 +24082,6 @@
       },
       "ui": {
         "term": "விட்டாலிக் புட்டெரின்"
-      },
-      "code": {
-        "term": "Vitalik Buterin"
       }
     },
     "plurals": null,
@@ -25612,9 +24109,6 @@
       },
       "ui": {
         "term": "வெய் டாய்"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -25642,9 +24136,6 @@
       },
       "ui": {
         "term": "ஆவே"
-      },
-      "code": {
-        "term": "Aave"
       }
     },
     "plurals": null,
@@ -25672,9 +24163,6 @@
       },
       "ui": {
         "term": "ஆர்பிட்ரம்"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -25702,9 +24190,6 @@
       },
       "ui": {
         "term": "பைனான்ஸ்"
-      },
-      "code": {
-        "term": "Binance"
       }
     },
     "plurals": null,
@@ -25732,9 +24217,6 @@
       },
       "ui": {
         "term": "குரோம்"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -25762,9 +24244,6 @@
       },
       "ui": {
         "term": "காயின்பேஸ்"
-      },
-      "code": {
-        "term": "Coinbase"
       }
     },
     "plurals": null,
@@ -25792,9 +24271,6 @@
       },
       "ui": {
         "term": "கன்சென்சிஸ்"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -25822,9 +24298,6 @@
       },
       "ui": {
         "term": "கிரிப்டோகிட்டிஸ்"
-      },
-      "code": {
-        "term": "CryptoKitties"
       }
     },
     "plurals": null,
@@ -25852,9 +24325,6 @@
       },
       "ui": {
         "term": "டென்குன்"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -25882,9 +24352,6 @@
       },
       "ui": {
         "term": "டிஸ்கார்ட்"
-      },
-      "code": {
-        "term": "Discord"
       }
     },
     "plurals": null,
@@ -25912,9 +24379,6 @@
       },
       "ui": {
         "term": "ஃபேஸ்புக்"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -25942,9 +24406,6 @@
       },
       "ui": {
         "term": "ஃபைல்காயின்"
-      },
-      "code": {
-        "term": "Filecoin"
       }
     },
     "plurals": null,
@@ -25972,9 +24433,6 @@
       },
       "ui": {
         "term": "கோர்லி"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -26002,9 +24460,6 @@
       },
       "ui": {
         "term": "ஹோல்ஸ்கி"
-      },
-      "code": {
-        "term": "Holesky"
       }
     },
     "plurals": null,
@@ -26032,9 +24487,6 @@
       },
       "ui": {
         "term": "லிடோ"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -26062,9 +24514,6 @@
       },
       "ui": {
         "term": "மைக்ரோசாப்ட்"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -26092,9 +24541,6 @@
       },
       "ui": {
         "term": "நெட்ஃப்ளிக்ஸ்"
-      },
-      "code": {
-        "term": "Netflix"
       }
     },
     "plurals": null,
@@ -26122,9 +24568,6 @@
       },
       "ui": {
         "term": "ஓபன்சீ"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -26152,9 +24595,6 @@
       },
       "ui": {
         "term": "ஆப்டிமிசம்"
-      },
-      "code": {
-        "term": "Optimism"
       }
     },
     "plurals": null,
@@ -26182,9 +24622,6 @@
       },
       "ui": {
         "term": "பேபால்"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -26212,9 +24649,6 @@
       },
       "ui": {
         "term": "பாலிகன்"
-      },
-      "code": {
-        "term": "Polygon"
       }
     },
     "plurals": null,
@@ -26242,9 +24676,6 @@
       },
       "ui": {
         "term": "ரெட்டிட்"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -26272,9 +24703,6 @@
       },
       "ui": {
         "term": "ராப்ஸ்டன்"
-      },
-      "code": {
-        "term": "Ropsten"
       }
     },
     "plurals": null,
@@ -26302,9 +24730,6 @@
       },
       "ui": {
         "term": "ஸ்டார்க்நெட்"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -26332,9 +24757,6 @@
       },
       "ui": {
         "term": "டெலிகிராம்"
-      },
-      "code": {
-        "term": "Telegram"
       }
     },
     "plurals": null,
@@ -26362,9 +24784,6 @@
       },
       "ui": {
         "term": "ட்விட்டர்"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -26392,9 +24811,6 @@
       },
       "ui": {
         "term": "யூடியூப்"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -26420,9 +24836,6 @@
       },
       "ui": {
         "term": "MakerDAO"
-      },
-      "code": {
-        "term": "MakerDAO"
       }
     },
     "plurals": null,
@@ -26447,9 +24860,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },

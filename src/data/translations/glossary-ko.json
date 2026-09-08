@@ -33,9 +33,6 @@
       },
       "ui": {
         "term": "증명"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -83,9 +80,6 @@
       },
       "ui": {
         "term": "브릿지"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -133,9 +127,6 @@
       },
       "ui": {
         "term": "소각하기"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -178,9 +169,6 @@
       },
       "ui": {
         "term": "소각"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -228,9 +216,6 @@
       },
       "ui": {
         "term": "담보"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -276,9 +261,6 @@
       },
       "ui": {
         "term": "탈중앙화"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -321,9 +303,6 @@
       },
       "ui": {
         "term": "탈중앙화"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -372,9 +351,6 @@
       },
       "ui": {
         "term": "위임하기"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -420,9 +396,6 @@
       },
       "ui": {
         "term": "위임"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -470,9 +443,6 @@
       },
       "ui": {
         "term": "배포하기"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -517,9 +487,6 @@
       },
       "ui": {
         "term": "배포"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -564,9 +531,6 @@
       },
       "ui": {
         "term": "디지털 서명"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -612,9 +576,6 @@
       },
       "ui": {
         "term": "서명"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -662,9 +623,6 @@
       },
       "ui": {
         "term": "서명하기"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -712,9 +670,6 @@
       },
       "ui": {
         "term": "암호화"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -763,9 +718,6 @@
       },
       "ui": {
         "term": "복호화"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -811,9 +763,6 @@
       },
       "ui": {
         "term": "완결성"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -860,9 +809,6 @@
       },
       "ui": {
         "term": "완결됨"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -911,9 +857,6 @@
       },
       "ui": {
         "term": "포크"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -959,9 +902,6 @@
       },
       "ui": {
         "term": "하드 포크"
-      },
-      "code": {
-        "term": "hardFork"
       }
     },
     "grammar": {
@@ -1007,9 +947,6 @@
       },
       "ui": {
         "term": "소프트 포크"
-      },
-      "code": {
-        "term": "softFork"
       }
     },
     "grammar": {
@@ -1054,9 +991,6 @@
       },
       "ui": {
         "term": "거버넌스"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1105,9 +1039,6 @@
       },
       "ui": {
         "term": "해시"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1148,9 +1079,6 @@
       },
       "ui": {
         "term": "해시 함수"
-      },
-      "code": {
-        "term": "hashFunction"
       }
     },
     "grammar": {
@@ -1195,9 +1123,6 @@
       },
       "ui": {
         "term": "해시레이트"
-      },
-      "code": {
-        "term": "hashRate"
       }
     },
     "grammar": {
@@ -1238,9 +1163,6 @@
       },
       "ui": {
         "term": "해싱"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1283,9 +1205,6 @@
       },
       "ui": {
         "term": "유동성 스테이킹"
-      },
-      "code": {
-        "term": "liquid_staking"
       }
     },
     "grammar": {
@@ -1326,9 +1245,6 @@
       },
       "ui": {
         "term": "풀 스테이킹"
-      },
-      "code": {
-        "term": "pooled_staking"
       }
     },
     "grammar": {
@@ -1374,9 +1290,6 @@
       },
       "ui": {
         "term": "리스테이킹"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1419,9 +1332,6 @@
       },
       "ui": {
         "term": "솔로 스테이킹"
-      },
-      "code": {
-        "term": "solo_staking"
       }
     },
     "grammar": {
@@ -1468,9 +1378,6 @@
       },
       "ui": {
         "term": "스테이킹하기"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1511,9 +1418,6 @@
       },
       "ui": {
         "term": "스테이킹됨"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1556,9 +1460,6 @@
       },
       "ui": {
         "term": "스테이커"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1601,9 +1502,6 @@
       },
       "ui": {
         "term": "스테이킹"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1646,9 +1544,6 @@
       },
       "ui": {
         "term": "스테이킹 예치금"
-      },
-      "code": {
-        "term": "staking_deposit"
       }
     },
     "grammar": {
@@ -1689,9 +1584,6 @@
       },
       "ui": {
         "term": "스테이킹 풀"
-      },
-      "code": {
-        "term": "staking_pool"
       }
     },
     "grammar": {
@@ -1737,9 +1629,6 @@
       },
       "ui": {
         "term": "언스테이킹"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1783,9 +1672,6 @@
       },
       "ui": {
         "term": "청산"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -1828,9 +1714,6 @@
       },
       "ui": {
         "term": "채굴자"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -1876,9 +1759,6 @@
       },
       "ui": {
         "term": "채굴"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -1925,9 +1805,6 @@
       },
       "ui": {
         "term": "발행하기"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -1973,9 +1850,6 @@
       },
       "ui": {
         "term": "발행 중"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -2021,9 +1895,6 @@
       },
       "ui": {
         "term": "슬래싱"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2064,9 +1935,6 @@
       },
       "ui": {
         "term": "슬래셔"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2112,9 +1980,6 @@
       },
       "ui": {
         "term": "스왑하기"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2158,9 +2023,6 @@
       },
       "ui": {
         "term": "트랜잭션"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2205,9 +2067,6 @@
       },
       "ui": {
         "term": "검증자"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2253,9 +2112,6 @@
       },
       "ui": {
         "term": "블록 검증"
-      },
-      "code": {
-        "term": "block_validation"
       }
     },
     "grammar": {
@@ -2303,9 +2159,6 @@
       },
       "ui": {
         "term": "투표하기"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2352,9 +2205,6 @@
       },
       "ui": {
         "term": "투표 중"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2397,9 +2247,6 @@
       },
       "ui": {
         "term": "이더리움"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2445,9 +2292,6 @@
       },
       "ui": {
         "term": "컨트랙트"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2491,9 +2335,6 @@
       },
       "ui": {
         "term": "블록"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2538,9 +2379,6 @@
       },
       "ui": {
         "term": "스마트 컨트랙트"
-      },
-      "code": {
-        "term": "smart_contract"
       }
     },
     "grammar": {
@@ -2584,9 +2422,6 @@
       },
       "ui": {
         "term": "노드"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2630,9 +2465,6 @@
       },
       "ui": {
         "term": "토큰"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2675,9 +2507,6 @@
       },
       "ui": {
         "term": "주소 복사"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -2722,9 +2551,6 @@
       },
       "ui": {
         "term": "ETH 전송"
-      },
-      "code": {
-        "term": "ETH"
       }
     },
     "grammar": {
@@ -2767,9 +2593,6 @@
       },
       "ui": {
         "term": "블록체인 탐색기"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -2812,9 +2635,6 @@
       },
       "ui": {
         "term": "계정 생성"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -2859,9 +2679,6 @@
       },
       "ui": {
         "term": "체인 변경"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -2904,9 +2721,6 @@
       },
       "ui": {
         "term": "프로토콜 업그레이드"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -2951,9 +2765,6 @@
       },
       "ui": {
         "term": "지갑 연결"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -2997,9 +2808,6 @@
       },
       "ui": {
         "term": "가스비 설정"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3043,9 +2851,6 @@
       },
       "ui": {
         "term": "롤업 네트워크"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3088,9 +2893,6 @@
       },
       "ui": {
         "term": "EIP 세부 정보"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3135,9 +2937,6 @@
       },
       "ui": {
         "term": "Require"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3182,9 +2981,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3229,9 +3025,6 @@
       },
       "ui": {
         "term": "Solidity"
-      },
-      "code": {
-        "term": "solidity"
       }
     },
     "grammar": {
@@ -3274,9 +3067,6 @@
       },
       "ui": {
         "term": "이벤트"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3321,9 +3111,6 @@
       },
       "ui": {
         "term": "온체인"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3368,9 +3155,6 @@
       },
       "ui": {
         "term": "이더"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3416,9 +3200,6 @@
       },
       "ui": {
         "term": "이더리움 가상 머신"
-      },
-      "code": {
-        "term": "EVM"
       }
     },
     "grammar": {
@@ -3464,9 +3245,6 @@
       },
       "ui": {
         "term": "탈중앙화 애플리케이션"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3512,9 +3290,6 @@
       },
       "ui": {
         "term": "대체 불가능 토큰"
-      },
-      "code": {
-        "term": "NFT"
       }
     },
     "grammar": {
@@ -3563,9 +3338,6 @@
       },
       "ui": {
         "term": "전송하기"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3613,9 +3385,6 @@
       },
       "ui": {
         "term": "인출하기"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -3664,9 +3433,6 @@
       },
       "ui": {
         "term": "합의"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -3709,9 +3475,6 @@
       },
       "ui": {
         "term": "메인넷"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -3754,9 +3517,6 @@
       },
       "ui": {
         "term": "오프체인"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -3799,9 +3559,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -3844,9 +3601,6 @@
       },
       "ui": {
         "term": "오라클"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -3890,9 +3644,6 @@
       },
       "ui": {
         "term": "블롭"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -3935,9 +3686,6 @@
       },
       "ui": {
         "term": "메타마스크 연결"
-      },
-      "code": {
-        "term": "MetaMask"
       }
     },
     "grammar": {
@@ -3980,9 +3728,6 @@
       },
       "ui": {
         "term": "오픈제플린"
-      },
-      "code": {
-        "term": "OpenZeppelin"
       }
     },
     "grammar": {
@@ -4023,9 +3768,6 @@
       },
       "ui": {
         "term": "슬리더 실행"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4068,9 +3810,6 @@
       },
       "ui": {
         "term": "슬롯 번호"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4116,9 +3855,6 @@
       },
       "ui": {
         "term": "DAO 투표"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4163,9 +3899,6 @@
       },
       "ui": {
         "term": "테스트넷 선택"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4206,9 +3939,6 @@
       },
       "ui": {
         "term": "합의 클라이언트 구성"
-      },
-      "code": {
-        "term": "consensusClient"
       }
     },
     "grammar": {
@@ -4253,9 +3983,6 @@
       },
       "ui": {
         "term": "l2로 브릿지"
-      },
-      "code": {
-        "term": "layer2"
       }
     },
     "grammar": {
@@ -4301,9 +4028,6 @@
       },
       "ui": {
         "term": "ZK 증명"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4347,9 +4071,6 @@
       },
       "ui": {
         "term": "개인 키 내보내기"
-      },
-      "code": {
-        "term": "privateKey"
       }
     },
     "grammar": {
@@ -4395,9 +4116,6 @@
       },
       "ui": {
         "term": "암호화폐 전송"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4442,9 +4160,6 @@
       },
       "ui": {
         "term": "l1 정보"
-      },
-      "code": {
-        "term": "layer1"
       }
     },
     "grammar": {
@@ -4490,9 +4205,6 @@
       },
       "ui": {
         "term": "MEV 추출"
-      },
-      "code": {
-        "term": "mev"
       }
     },
     "grammar": {
@@ -4540,9 +4252,6 @@
       },
       "ui": {
         "term": "종료하기"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -4586,9 +4295,6 @@
       },
       "ui": {
         "term": "연산 코드 보기"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -4634,9 +4340,6 @@
       },
       "ui": {
         "term": "디파이 앱"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -4677,9 +4380,6 @@
       },
       "ui": {
         "term": "에키드나 실행"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -4725,9 +4425,6 @@
       },
       "ui": {
         "term": "프라이버시 설정"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -4768,9 +4465,6 @@
       },
       "ui": {
         "term": "맨티코어 도구"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -4813,9 +4507,6 @@
       },
       "ui": {
         "term": "옵티미스틱 네트워크"
-      },
-      "code": {
-        "term": "optimisticRollup"
       }
     },
     "grammar": {
@@ -4861,9 +4552,6 @@
       },
       "ui": {
         "term": "ERC 문서"
-      },
-      "code": {
-        "term": "erc"
       }
     },
     "grammar": {
@@ -4906,9 +4594,6 @@
       },
       "ui": {
         "term": "플라즈마 브릿지"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -4949,9 +4634,6 @@
       },
       "ui": {
         "term": "라이브러리"
-      },
-      "code": {
-        "term": "Library"
       }
     },
     "grammar": {
@@ -4994,9 +4676,6 @@
       },
       "ui": {
         "term": "유니스왑"
-      },
-      "code": {
-        "term": "Uniswap"
       }
     },
     "grammar": {
@@ -5040,9 +4719,6 @@
       },
       "ui": {
         "term": "머지"
-      },
-      "code": {
-        "term": "TheMerge"
       }
     },
     "grammar": {
@@ -5085,9 +4761,6 @@
       },
       "ui": {
         "term": "영지식 증명"
-      },
-      "code": {
-        "term": "ZeroKnowledgeProof"
       }
     },
     "grammar": {
@@ -5132,9 +4805,6 @@
       },
       "ui": {
         "term": "비트코인"
-      },
-      "code": {
-        "term": "Bitcoin"
       }
     },
     "grammar": {
@@ -5179,9 +4849,6 @@
       },
       "ui": {
         "term": "데이터 가용성"
-      },
-      "code": {
-        "term": "DataAvailability"
       }
     },
     "grammar": {
@@ -5222,9 +4889,6 @@
       },
       "ui": {
         "term": "로그 확인"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5267,9 +4931,6 @@
       },
       "ui": {
         "term": "비콘 체인"
-      },
-      "code": {
-        "term": "BeaconChain"
       }
     },
     "grammar": {
@@ -5313,9 +4974,6 @@
       },
       "ui": {
         "term": "유동성 추가"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5356,9 +5014,6 @@
       },
       "ui": {
         "term": "에포크"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5403,9 +5058,6 @@
       },
       "ui": {
         "term": "이더리움 메인넷"
-      },
-      "code": {
-        "term": "ethereumMainnet"
       }
     },
     "grammar": {
@@ -5455,9 +5107,6 @@
       },
       "ui": {
         "term": "제안 제출"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -5502,9 +5151,6 @@
       },
       "ui": {
         "term": "블록 제안자"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -5549,9 +5195,6 @@
       },
       "ui": {
         "term": "합의 레이어"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -5597,9 +5240,6 @@
       },
       "ui": {
         "term": "피어 추가"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -5645,9 +5285,6 @@
       },
       "ui": {
         "term": "JSON-RPC"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -5691,9 +5328,6 @@
       },
       "ui": {
         "term": "논스"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -5737,9 +5371,6 @@
       },
       "ui": {
         "term": "IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -5784,9 +5415,6 @@
       },
       "ui": {
         "term": "풀 노드"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -5832,9 +5460,6 @@
       },
       "ui": {
         "term": "영지식"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -5879,9 +5504,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -5926,9 +5548,6 @@
       },
       "ui": {
         "term": "체크포인트"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -5971,9 +5590,6 @@
       },
       "ui": {
         "term": "펙트라"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6019,9 +5635,6 @@
       },
       "ui": {
         "term": "암호화폐"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6064,9 +5677,6 @@
       },
       "ui": {
         "term": "검증자"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6112,9 +5722,6 @@
       },
       "ui": {
         "term": "빌더"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6160,9 +5767,6 @@
       },
       "ui": {
         "term": "공개키"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6205,9 +5809,6 @@
       },
       "ui": {
         "term": "사이드체인"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6250,9 +5851,6 @@
       },
       "ui": {
         "term": "푸사카"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6295,9 +5893,6 @@
       },
       "ui": {
         "term": "메타데이터"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6340,9 +5935,6 @@
       },
       "ui": {
         "term": "ABI 복사"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -6385,9 +5977,6 @@
       },
       "ui": {
         "term": "Etherscan에서 보기"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -6430,9 +6019,6 @@
       },
       "ui": {
         "term": "weth 래핑"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -6475,9 +6061,6 @@
       },
       "ui": {
         "term": "zkEVM 네트워크"
-      },
-      "code": {
-        "term": "zkEVM"
       }
     },
     "grammar": {
@@ -6523,9 +6106,6 @@
       },
       "ui": {
         "term": "예상 가스비"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -6568,9 +6148,6 @@
       },
       "ui": {
         "term": "Wei 단위"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -6613,9 +6190,6 @@
       },
       "ui": {
         "term": "가스 한도 설정"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -6659,9 +6233,6 @@
       },
       "ui": {
         "term": "팁 (우선순위 수수료)"
-      },
-      "code": {
-        "term": "maxPriorityFeePerGas"
       }
     },
     "grammar": {
@@ -6705,9 +6276,6 @@
       },
       "ui": {
         "term": "합의 메커니즘 정보"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -6748,9 +6316,6 @@
       },
       "ui": {
         "term": "ERC-721 토큰"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -6795,9 +6360,6 @@
       },
       "ui": {
         "term": "이더리움 네임 서비스"
-      },
-      "code": {
-        "term": "ethereumNameService"
       }
     },
     "grammar": {
@@ -6842,9 +6404,6 @@
       },
       "ui": {
         "term": "증명자"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -6889,9 +6448,6 @@
       },
       "ui": {
         "term": "상태 채널"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -6937,9 +6493,6 @@
       },
       "ui": {
         "term": "트랜잭션 수수료"
-      },
-      "code": {
-        "term": "transactionFee"
       }
     },
     "grammar": {
@@ -6984,9 +6537,6 @@
       },
       "ui": {
         "term": "외부 소유 계정"
-      },
-      "code": {
-        "term": "externallyOwnedAccount"
       }
     },
     "grammar": {
@@ -7029,9 +6579,6 @@
       },
       "ui": {
         "term": "유효성 증명"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -7077,9 +6624,6 @@
       },
       "ui": {
         "term": "퍼싯"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7124,9 +6668,6 @@
       },
       "ui": {
         "term": "Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7171,9 +6712,6 @@
       },
       "ui": {
         "term": "블록 탐색기"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -7222,9 +6760,6 @@
       },
       "ui": {
         "term": "되돌리기"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7265,9 +6800,6 @@
       },
       "ui": {
         "term": "이더리움 재단"
-      },
-      "code": {
-        "term": "EthereumFoundation"
       }
     },
     "grammar": {
@@ -7311,9 +6843,6 @@
       },
       "ui": {
         "term": "탈중앙화 신원증명 (DID)"
-      },
-      "code": {
-        "term": "decentralizedIdentity"
       }
     },
     "grammar": {
@@ -7356,9 +6885,6 @@
       },
       "ui": {
         "term": "제안자"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -7399,9 +6925,6 @@
       },
       "ui": {
         "term": "암호학"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -7442,9 +6965,6 @@
       },
       "ui": {
         "term": "바이트코드"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -7485,9 +7005,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -7528,9 +7045,6 @@
       },
       "ui": {
         "term": "라이트하우스"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -7573,9 +7087,6 @@
       },
       "ui": {
         "term": "가스 가격"
-      },
-      "code": {
-        "term": "gasPrice"
       }
     },
     "grammar": {
@@ -7619,9 +7130,6 @@
       },
       "ui": {
         "term": "피어 투 피어"
-      },
-      "code": {
-        "term": "peerToPeer"
       }
     },
     "grammar": {
@@ -7662,9 +7170,6 @@
       },
       "ui": {
         "term": "글램스테르담"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -7705,9 +7210,6 @@
       },
       "ui": {
         "term": "네더마인드"
-      },
-      "code": {
-        "term": "Nethermind"
       }
     },
     "grammar": {
@@ -7750,9 +7252,6 @@
       },
       "ui": {
         "term": "사기 증명"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -7793,9 +7292,6 @@
       },
       "ui": {
         "term": "머클 증명"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -7840,9 +7336,6 @@
       },
       "ui": {
         "term": "탈중앙화 과학"
-      },
-      "code": {
-        "term": "deSci"
       }
     },
     "grammar": {
@@ -7888,9 +7381,6 @@
       },
       "ui": {
         "term": "무신뢰"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -7935,9 +7425,6 @@
       },
       "ui": {
         "term": "댕크샤딩"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -7980,9 +7467,6 @@
       },
       "ui": {
         "term": "포크 선택 알고리즘"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8027,9 +7511,6 @@
       },
       "ui": {
         "term": "기본 수수료"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8070,9 +7551,6 @@
       },
       "ui": {
         "term": "에리곤"
-      },
-      "code": {
-        "term": "Erigon"
       }
     },
     "grammar": {
@@ -8121,9 +7599,6 @@
       },
       "ui": {
         "term": "승인"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8164,9 +7639,6 @@
       },
       "ui": {
         "term": "머클 트리"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -8209,9 +7681,6 @@
       },
       "ui": {
         "term": "라이트 노드"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -8255,9 +7724,6 @@
       },
       "ui": {
         "term": "시드 구문"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -8300,9 +7766,6 @@
       },
       "ui": {
         "term": "위원회"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -8345,9 +7808,6 @@
       },
       "ui": {
         "term": "베수"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -8391,9 +7851,6 @@
       },
       "ui": {
         "term": "영지식 스나크"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -8436,9 +7893,6 @@
       },
       "ui": {
         "term": "블록 빌더"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -8481,9 +7935,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -8526,9 +7977,6 @@
       },
       "ui": {
         "term": "유효 잔고"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -8569,9 +8017,6 @@
       },
       "ui": {
         "term": "블록 헤더"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -8617,9 +8062,6 @@
       },
       "ui": {
         "term": "크로스체인"
-      },
-      "code": {
-        "term": "cross-chain"
       }
     },
     "grammar": {
@@ -8663,9 +8105,6 @@
       },
       "ui": {
         "term": "프로토 댕크샤딩"
-      },
-      "code": {
-        "term": "proto-danksharding"
       }
     },
     "grammar": {
@@ -8708,9 +8147,6 @@
       },
       "ui": {
         "term": "레스 클라이언트"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -8756,9 +8192,6 @@
       },
       "ui": {
         "term": "영수증 보기"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -8806,9 +8239,6 @@
       },
       "ui": {
         "term": "대출하기"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -8853,9 +8283,6 @@
       },
       "ui": {
         "term": "볼트 예치"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -8898,9 +8325,6 @@
       },
       "ui": {
         "term": "부트노드 추가"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -8949,9 +8373,6 @@
       },
       "ui": {
         "term": "허용량 설정"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -8996,9 +8417,6 @@
       },
       "ui": {
         "term": "멤풀 상태"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -9042,9 +8460,6 @@
       },
       "ui": {
         "term": "분산 검증자 기술"
-      },
-      "code": {
-        "term": "dvt"
       }
     },
     "grammar": {
@@ -9090,9 +8505,6 @@
       },
       "ui": {
         "term": "탈중앙화 거래소"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -9135,9 +8547,6 @@
       },
       "ui": {
         "term": "서처"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -9182,9 +8591,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -9231,9 +8637,6 @@
       },
       "ui": {
         "term": "무허가성"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -9276,9 +8679,6 @@
       },
       "ui": {
         "term": "프리즘"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -9321,9 +8721,6 @@
       },
       "ui": {
         "term": "테쿠"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -9364,9 +8761,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -9412,9 +8806,6 @@
       },
       "ui": {
         "term": "제안자-빌더 분리"
-      },
-      "code": {
-        "term": "pbs"
       }
     },
     "grammar": {
@@ -9457,9 +8848,6 @@
       },
       "ui": {
         "term": "단일 슬롯 완결성"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -9500,9 +8888,6 @@
       },
       "ui": {
         "term": "아카이브 노드"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -9543,9 +8928,6 @@
       },
       "ui": {
         "term": "로드스타"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -9585,9 +8967,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -9629,9 +9008,6 @@
       },
       "ui": {
         "term": "디지털 자산"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -9672,9 +9048,6 @@
       },
       "ui": {
         "term": "시퀀서"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -9715,9 +9088,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -9758,9 +9128,6 @@
       },
       "ui": {
         "term": "머클 루트"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -9801,9 +9168,6 @@
       },
       "ui": {
         "term": "텔러"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -9846,9 +9210,6 @@
       },
       "ui": {
         "term": "AI 에이전트"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -9893,9 +9254,6 @@
       },
       "ui": {
         "term": "현재 난이도"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -9942,9 +9300,6 @@
       },
       "ui": {
         "term": "재구성 발생"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -9991,9 +9346,6 @@
       },
       "ui": {
         "term": "단언 확인"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -10034,9 +9386,6 @@
       },
       "ui": {
         "term": "님버스 실행"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -10082,9 +9431,6 @@
       },
       "ui": {
         "term": "불변 상태"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -10125,9 +9471,6 @@
       },
       "ui": {
         "term": "예측 시장 참여"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -10173,9 +9516,6 @@
       },
       "ui": {
         "term": "RLP 인코딩"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -10221,9 +9561,6 @@
       },
       "ui": {
         "term": "정형 검증 보고서"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -10266,9 +9603,6 @@
       },
       "ui": {
         "term": "계정 추상화 활성화"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -10309,9 +9643,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -10355,9 +9686,6 @@
       },
       "ui": {
         "term": "ZK-스탁"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -10400,9 +9728,6 @@
       },
       "ui": {
         "term": "무작위성"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -10443,9 +9768,6 @@
       },
       "ui": {
         "term": "전략"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -10489,9 +9811,6 @@
       },
       "ui": {
         "term": "실물 자산"
-      },
-      "code": {
-        "term": "realWorldAssets"
       }
     },
     "grammar": {
@@ -10534,9 +9853,6 @@
       },
       "ui": {
         "term": "오버플로"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -10580,9 +9896,6 @@
       },
       "ui": {
         "term": "트랜잭션 해시 복사"
-      },
-      "code": {
-        "term": "transactionHash"
       }
     },
     "grammar": {
@@ -10627,9 +9940,6 @@
       },
       "ui": {
         "term": "다중서명 지갑 생성"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -10672,9 +9982,6 @@
       },
       "ui": {
         "term": "스테이블코인 결제"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -10717,9 +10024,6 @@
       },
       "ui": {
         "term": "황서 보기"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -10764,9 +10068,6 @@
       },
       "ui": {
         "term": "조합성"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -10811,9 +10112,6 @@
       },
       "ui": {
         "term": "프록시 컨트랙트"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -10858,9 +10156,6 @@
       },
       "ui": {
         "term": "서브그래프"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -10905,9 +10200,6 @@
       },
       "ui": {
         "term": "상호운용성"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -10950,9 +10242,6 @@
       },
       "ui": {
         "term": "클라이언트 다양성"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -10995,9 +10284,6 @@
       },
       "ui": {
         "term": "상하이"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -11044,9 +10330,6 @@
       },
       "ui": {
         "term": "재생 금융"
-      },
-      "code": {
-        "term": "regenerativeFinance"
       }
     },
     "grammar": {
@@ -11091,9 +10374,6 @@
       },
       "ui": {
         "term": "컨트랙트 계정"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -11136,9 +10416,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -11181,9 +10458,6 @@
       },
       "ui": {
         "term": "블록 보상"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -11227,9 +10501,6 @@
       },
       "ui": {
         "term": "블록 타임"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -11270,9 +10541,6 @@
       },
       "ui": {
         "term": "백서 보기"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -11315,9 +10583,6 @@
       },
       "ui": {
         "term": "데이터 가용성 샘플링"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -11363,9 +10628,6 @@
       },
       "ui": {
         "term": "정당화됨"
-      },
-      "code": {
-        "term": "justified"
       }
     },
     "grammar": {
@@ -11410,9 +10672,6 @@
       },
       "ui": {
         "term": "유동성 공급자"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -11452,9 +10711,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -11498,9 +10754,6 @@
       },
       "ui": {
         "term": "영지식 롤업"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -11541,9 +10794,6 @@
       },
       "ui": {
         "term": "체인링크"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -11589,9 +10839,6 @@
       },
       "ui": {
         "term": "플래시 론"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -11632,9 +10879,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -11677,9 +10921,6 @@
       },
       "ui": {
         "term": "MEV-Boost"
-      },
-      "code": {
-        "term": "mev-boost"
       }
     },
     "grammar": {
@@ -11722,9 +10963,6 @@
       },
       "ui": {
         "term": "칸쿤"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -11768,9 +11006,6 @@
       },
       "ui": {
         "term": "예치 컨트랙트"
-      },
-      "code": {
-        "term": "deposit-contract"
       }
     },
     "grammar": {
@@ -11811,9 +11046,6 @@
       },
       "ui": {
         "term": "실행 페이로드"
-      },
-      "code": {
-        "term": "execution-payload"
       }
     },
     "grammar": {
@@ -11857,9 +11089,6 @@
       },
       "ui": {
         "term": "권위 증명(PoA)"
-      },
-      "code": {
-        "term": "proof-of-authority"
       }
     },
     "grammar": {
@@ -11902,9 +11131,6 @@
       },
       "ui": {
         "term": "비밀 리더 선출"
-      },
-      "code": {
-        "term": "secret-leader-election"
       }
     },
     "grammar": {
@@ -11947,9 +11173,6 @@
       },
       "ui": {
         "term": "동기화 위원회"
-      },
-      "code": {
-        "term": "sync-committee"
       }
     },
     "grammar": {
@@ -11998,9 +11221,6 @@
       },
       "ui": {
         "term": "차입하기"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -12045,9 +11265,6 @@
       },
       "ui": {
         "term": "재진입"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -12088,9 +11305,6 @@
       },
       "ui": {
         "term": "ERC-1155"
-      },
-      "code": {
-        "term": "ERC1155"
       }
     },
     "grammar": {
@@ -12135,9 +11349,6 @@
       },
       "ui": {
         "term": "타원 곡선"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -12182,9 +11393,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "utxo"
       }
     },
     "grammar": {
@@ -12227,9 +11435,6 @@
       },
       "ui": {
         "term": "대체 가능 토큰"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -12273,9 +11478,6 @@
       },
       "ui": {
         "term": "쿼드래틱 펀딩"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -12320,9 +11522,6 @@
       },
       "ui": {
         "term": "수집품"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -12363,9 +11562,6 @@
       },
       "ui": {
         "term": "비콘 블록"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -12410,9 +11606,6 @@
       },
       "ui": {
         "term": "약한 주관성"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -12456,9 +11649,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -12501,9 +11691,6 @@
       },
       "ui": {
         "term": "유동성 풀"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -12547,9 +11734,6 @@
       },
       "ui": {
         "term": "제네시스 블록"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -12592,9 +11776,6 @@
       },
       "ui": {
         "term": "샤펠라"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -12637,9 +11818,6 @@
       },
       "ui": {
         "term": "조합 가능"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -12682,9 +11860,6 @@
       },
       "ui": {
         "term": "상태 트라이"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -12728,9 +11903,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "lmdGhost"
       }
     },
     "grammar": {
@@ -12773,9 +11945,6 @@
       },
       "ui": {
         "term": "스텔스 주소 생성"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -12817,9 +11986,6 @@
         "term": "DAI"
       },
       "ui": {
-        "term": "DAI"
-      },
-      "code": {
         "term": "DAI"
       }
     },
@@ -12864,9 +12030,6 @@
       },
       "ui": {
         "term": "토큰화하기"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -12909,9 +12072,6 @@
       },
       "ui": {
         "term": "솔버"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -12957,9 +12117,6 @@
       },
       "ui": {
         "term": "비수탁형"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -13003,9 +12160,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "maxEB"
       }
     },
     "grammar": {
@@ -13048,9 +12202,6 @@
       },
       "ui": {
         "term": "엔트로피"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -13091,9 +12242,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -13136,9 +12284,6 @@
       },
       "ui": {
         "term": "discv5"
-      },
-      "code": {
-        "term": "discv5"
       }
     },
     "grammar": {
@@ -13179,9 +12324,6 @@
       },
       "ui": {
         "term": "포털 네트워크"
-      },
-      "code": {
-        "term": "portal_network"
       }
     },
     "grammar": {
@@ -13222,9 +12364,6 @@
       },
       "ui": {
         "term": "난이도 폭탄"
-      },
-      "code": {
-        "term": "difficulty_bomb"
       }
     },
     "grammar": {
@@ -13267,9 +12406,6 @@
       },
       "ui": {
         "term": "상호운용 가능"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -13310,9 +12446,6 @@
       },
       "ui": {
         "term": "상태 만료"
-      },
-      "code": {
-        "term": "state_expiry"
       }
     },
     "grammar": {
@@ -13356,9 +12489,6 @@
       },
       "ui": {
         "term": "증거 확인"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -13399,9 +12529,6 @@
       },
       "ui": {
         "term": "베를린"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -13445,9 +12572,6 @@
       },
       "ui": {
         "term": "대기 중인 트랜잭션"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -13491,9 +12615,6 @@
       },
       "ui": {
         "term": "활성화"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -13534,9 +12655,6 @@
       },
       "ui": {
         "term": "프론티어"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -13579,9 +12697,6 @@
       },
       "ui": {
         "term": "공공재"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -13626,9 +12741,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -13672,9 +12784,6 @@
       },
       "ui": {
         "term": "검증 가능한 자격증명"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -13715,9 +12824,6 @@
       },
       "ui": {
         "term": "불변성"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -13761,9 +12867,6 @@
       },
       "ui": {
         "term": "유동성 스테이킹 토큰"
-      },
-      "code": {
-        "term": "liquidStakingToken"
       }
     },
     "grammar": {
@@ -13806,9 +12909,6 @@
       },
       "ui": {
         "term": "서비스형 스테이킹"
-      },
-      "code": {
-        "term": "stakingAsAService"
       }
     },
     "grammar": {
@@ -13851,9 +12951,6 @@
       },
       "ui": {
         "term": "인출 자격 증명 설정"
-      },
-      "code": {
-        "term": "withdrawalCredentials"
       }
     },
     "grammar": {
@@ -13896,9 +12993,6 @@
       },
       "ui": {
         "term": "케착-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -13941,9 +13035,6 @@
       },
       "ui": {
         "term": "기록 만료"
-      },
-      "code": {
-        "term": "historyExpiry"
       }
     },
     "grammar": {
@@ -13987,9 +13078,6 @@
       },
       "ui": {
         "term": "웹 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -14030,9 +13118,6 @@
       },
       "ui": {
         "term": "콘스탄티노플"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -14073,9 +13158,6 @@
       },
       "ui": {
         "term": "소스 코드 검증하기"
-      },
-      "code": {
-        "term": "sourceCodeVerification"
       }
     },
     "grammar": {
@@ -14118,9 +13200,6 @@
       },
       "ui": {
         "term": "POAP 발급"
-      },
-      "code": {
-        "term": "poap"
       }
     },
     "grammar": {
@@ -14163,9 +13242,6 @@
       },
       "ui": {
         "term": "인텐트"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -14208,9 +13284,6 @@
       },
       "ui": {
         "term": "페이마스터"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -14253,9 +13326,6 @@
       },
       "ui": {
         "term": "스마트 계정"
-      },
-      "code": {
-        "term": "smart_account"
       }
     },
     "grammar": {
@@ -14296,9 +13366,6 @@
       },
       "ui": {
         "term": "비콘 노드"
-      },
-      "code": {
-        "term": "beacon_node"
       }
     },
     "grammar": {
@@ -14341,9 +13408,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "bls"
       }
     },
     "grammar": {
@@ -14386,9 +13450,6 @@
       },
       "ui": {
         "term": "SSZ"
-      },
-      "code": {
-        "term": "ssz"
       }
     },
     "grammar": {
@@ -14432,9 +13493,6 @@
       },
       "ui": {
         "term": "고 이더리움 (geth)"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -14477,9 +13535,6 @@
       },
       "ui": {
         "term": "이더리움 클래식"
-      },
-      "code": {
-        "term": "ethereum_classic"
       }
     },
     "grammar": {
@@ -14520,9 +13575,6 @@
       },
       "ui": {
         "term": "비잔티움"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -14566,9 +13618,6 @@
       },
       "ui": {
         "term": "타원 곡선 디지털 서명 알고리즘 (ECDSA)"
-      },
-      "code": {
-        "term": "ecdsa"
       }
     },
     "grammar": {
@@ -14611,9 +13660,6 @@
       },
       "ui": {
         "term": "소셜 복구"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -14656,9 +13702,6 @@
       },
       "ui": {
         "term": "빌더 분리"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -14704,9 +13747,6 @@
       },
       "ui": {
         "term": "지분 증명"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -14748,9 +13788,6 @@
         "term": "ECC"
       },
       "ui": {
-        "term": "ECC"
-      },
-      "code": {
         "term": "ECC"
       }
     },
@@ -14794,9 +13831,6 @@
       },
       "ui": {
         "term": "가격 피드"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -14839,9 +13873,6 @@
       },
       "ui": {
         "term": "데브넷"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -14884,9 +13915,6 @@
       },
       "ui": {
         "term": "가십 프로토콜"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -14927,9 +13955,6 @@
       },
       "ui": {
         "term": "스웜"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -14970,9 +13995,6 @@
       },
       "ui": {
         "term": "홈스테드"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -15016,9 +14038,6 @@
       },
       "ui": {
         "term": "DAC 설정"
-      },
-      "code": {
-        "term": "dac"
       }
     },
     "grammar": {
@@ -15067,9 +14086,6 @@
       },
       "ui": {
         "term": "이레이저 코딩"
-      },
-      "code": {
-        "term": "erasureCoding"
       }
     },
     "grammar": {
@@ -15114,9 +14130,6 @@
       },
       "ui": {
         "term": "스토리지 트라이 보기"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -15159,9 +14172,6 @@
       },
       "ui": {
         "term": "블롭 수수료 한도"
-      },
-      "code": {
-        "term": "blobFee"
       }
     },
     "grammar": {
@@ -15206,9 +14216,6 @@
       },
       "ui": {
         "term": "최대 우선순위 수수료"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -15253,9 +14260,6 @@
       },
       "ui": {
         "term": "낫싱 앳 스테이크"
-      },
-      "code": {
-        "term": "nothingAtStake"
       }
     },
     "grammar": {
@@ -15298,9 +14302,6 @@
       },
       "ui": {
         "term": "제안자 부스트 가중치"
-      },
-      "code": {
-        "term": "proposerBoost"
       }
     },
     "grammar": {
@@ -15341,9 +14342,6 @@
       },
       "ui": {
         "term": "오라클 문제"
-      },
-      "code": {
-        "term": "oracleProblem"
       }
     },
     "grammar": {
@@ -15386,9 +14384,6 @@
       },
       "ui": {
         "term": "자율 에이전트 배포"
-      },
-      "code": {
-        "term": "autonomousAgent"
       }
     },
     "grammar": {
@@ -15436,9 +14431,6 @@
       },
       "ui": {
         "term": "작업증명"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -15479,9 +14471,6 @@
       },
       "ui": {
         "term": "사보"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -15523,9 +14512,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -15569,9 +14555,6 @@
       },
       "ui": {
         "term": "버클 트리"
-      },
-      "code": {
-        "term": "verkleTrees"
       }
     },
     "grammar": {
@@ -15614,9 +14597,6 @@
       },
       "ui": {
         "term": "폴백 함수"
-      },
-      "code": {
-        "term": "fallbackFunction"
       }
     },
     "grammar": {
@@ -15662,9 +14642,6 @@
       },
       "ui": {
         "term": "에어드롭"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -15705,9 +14682,6 @@
       },
       "ui": {
         "term": "USDC"
-      },
-      "code": {
-        "term": "USDC"
       }
     },
     "grammar": {
@@ -15747,9 +14721,6 @@
         "term": "WBTC"
       },
       "ui": {
-        "term": "WBTC"
-      },
-      "code": {
         "term": "WBTC"
       }
     },
@@ -15794,9 +14765,6 @@
       },
       "ui": {
         "term": "트랜잭션 풀"
-      },
-      "code": {
-        "term": "transactionPool"
       }
     },
     "grammar": {
@@ -15839,9 +14807,6 @@
       },
       "ui": {
         "term": "가디언 추가"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -15886,9 +14851,6 @@
       },
       "ui": {
         "term": "키스토어 다운로드"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -15934,9 +14896,6 @@
       },
       "ui": {
         "term": "셀프 커스터디 시작하기"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -15981,9 +14940,6 @@
       },
       "ui": {
         "term": "캐스퍼 FFG 정보"
-      },
-      "code": {
-        "term": "casperFFG"
       }
     },
     "grammar": {
@@ -16028,9 +14984,6 @@
       },
       "ui": {
         "term": "BLS 서명 확인"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -16075,9 +15028,6 @@
       },
       "ui": {
         "term": "트라이 루트 보기"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -16120,9 +15070,6 @@
       },
       "ui": {
         "term": "전파 상태 확인"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -16165,9 +15112,6 @@
       },
       "ui": {
         "term": "피니로 변환"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -16210,9 +15154,6 @@
       },
       "ui": {
         "term": "공공재 후원"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -16258,9 +15199,6 @@
       },
       "ui": {
         "term": "트레저리 잔고"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -16305,9 +15243,6 @@
       },
       "ui": {
         "term": "KYC 진행하기"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -16351,9 +15286,6 @@
       },
       "ui": {
         "term": "SIWE"
-      },
-      "code": {
-        "term": "siwe"
       }
     },
     "grammar": {
@@ -16401,9 +15333,6 @@
       },
       "ui": {
         "term": "프론트러닝"
-      },
-      "code": {
-        "term": "frontRunning"
       }
     },
     "grammar": {
@@ -16448,9 +15377,6 @@
       },
       "ui": {
         "term": "이스탄불"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -16491,9 +15417,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "kevm"
       }
     },
     "grammar": {
@@ -16535,9 +15458,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -16583,9 +15503,6 @@
       },
       "ui": {
         "term": "최대 수수료 설정"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -16631,9 +15548,6 @@
       },
       "ui": {
         "term": "다중 서명 추가"
-      },
-      "code": {
-        "term": "multiSignature"
       }
     },
     "grammar": {
@@ -16679,9 +15593,6 @@
       },
       "ui": {
         "term": "사용자 작업 전송"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -16728,9 +15639,6 @@
       },
       "ui": {
         "term": "소셜 슬래싱"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -16773,9 +15681,6 @@
       },
       "ui": {
         "term": "SSLE"
-      },
-      "code": {
-        "term": "ssle"
       }
     },
     "grammar": {
@@ -16818,9 +15723,6 @@
       },
       "ui": {
         "term": "스테이크 그라인딩"
-      },
-      "code": {
-        "term": "stakeGrinding"
       }
     },
     "grammar": {
@@ -16864,9 +15766,6 @@
       },
       "ui": {
         "term": "TEE 환경"
-      },
-      "code": {
-        "term": "TEE"
       }
     },
     "grammar": {
@@ -16909,9 +15808,6 @@
       },
       "ui": {
         "term": "오라클 연동"
-      },
-      "code": {
-        "term": "blockchainOracle"
       }
     },
     "grammar": {
@@ -16954,9 +15850,6 @@
       },
       "ui": {
         "term": "MODEXP"
-      },
-      "code": {
-        "term": "modExp"
       }
     },
     "grammar": {
@@ -17000,9 +15893,6 @@
       },
       "ui": {
         "term": "포싯 열기"
-      },
-      "code": {
-        "term": "testnetFaucet"
       }
     },
     "grammar": {
@@ -17046,9 +15936,6 @@
       },
       "ui": {
         "term": "검열 저항성 확인"
-      },
-      "code": {
-        "term": "censorshipResistant"
       }
     },
     "grammar": {
@@ -17089,9 +15976,6 @@
       },
       "ui": {
         "term": "거버넌스 토큰 클레임"
-      },
-      "code": {
-        "term": "governanceToken"
       }
     },
     "grammar": {
@@ -17132,9 +16016,6 @@
       },
       "ui": {
         "term": "번들러"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -17177,9 +16058,6 @@
       },
       "ui": {
         "term": "자동화된 마켓 메이커"
-      },
-      "code": {
-        "term": "automatedMarketMaker"
       }
     },
     "grammar": {
@@ -17222,9 +16100,6 @@
       },
       "ui": {
         "term": "이자 농사"
-      },
-      "code": {
-        "term": "yieldFarming"
       }
     },
     "grammar": {
@@ -17267,9 +16142,6 @@
       },
       "ui": {
         "term": "소울바운드 토큰"
-      },
-      "code": {
-        "term": "soulboundToken"
       }
     },
     "grammar": {
@@ -17312,9 +16184,6 @@
       },
       "ui": {
         "term": "검증자 수명 주기"
-      },
-      "code": {
-        "term": "validatorLifecycle"
       }
     },
     "grammar": {
@@ -17357,9 +16226,6 @@
       },
       "ui": {
         "term": "모듈형 블록체인"
-      },
-      "code": {
-        "term": "modularBlockchain"
       }
     },
     "grammar": {
@@ -17402,9 +16268,6 @@
       },
       "ui": {
         "term": "모놀리식 블록체인"
-      },
-      "code": {
-        "term": "monolithicBlockchain"
       }
     },
     "grammar": {
@@ -17447,9 +16310,6 @@
       },
       "ui": {
         "term": "소급적 공공재 자금 지원"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -17492,9 +16352,6 @@
       },
       "ui": {
         "term": "총 예치 가치"
-      },
-      "code": {
-        "term": "totalValueLocked"
       }
     },
     "grammar": {
@@ -17538,9 +16395,6 @@
       },
       "ui": {
         "term": "2차 투표"
-      },
-      "code": {
-        "term": "quadraticVoting"
       }
     },
     "grammar": {
@@ -17583,9 +16437,6 @@
       },
       "ui": {
         "term": "백러닝"
-      },
-      "code": {
-        "term": "backRunning"
       }
     },
     "grammar": {
@@ -17629,9 +16480,6 @@
       },
       "ui": {
         "term": "데이터 가용성 레이어"
-      },
-      "code": {
-        "term": "dataAvailabilityLayer"
       }
     },
     "grammar": {
@@ -17674,9 +16522,6 @@
       },
       "ui": {
         "term": "업그레이드 가능 컨트랙트"
-      },
-      "code": {
-        "term": "upgradeableContract"
       }
     },
     "grammar": {
@@ -17719,9 +16564,6 @@
       },
       "ui": {
         "term": "유틸리티 토큰"
-      },
-      "code": {
-        "term": "utilityToken"
       }
     },
     "grammar": {
@@ -17765,9 +16607,6 @@
       },
       "ui": {
         "term": "콜드 월렛"
-      },
-      "code": {
-        "term": "coldWallet"
       }
     },
     "grammar": {
@@ -17810,9 +16649,6 @@
       },
       "ui": {
         "term": "파생 경로"
-      },
-      "code": {
-        "term": "derivationPath"
       }
     },
     "grammar": {
@@ -17855,9 +16691,6 @@
       },
       "ui": {
         "term": "하드웨어 월렛"
-      },
-      "code": {
-        "term": "hardwareWallet"
       }
     },
     "grammar": {
@@ -17901,9 +16734,6 @@
       },
       "ui": {
         "term": "핫 월렛"
-      },
-      "code": {
-        "term": "hotWallet"
       }
     },
     "grammar": {
@@ -17950,9 +16780,6 @@
       },
       "ui": {
         "term": "키"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -17996,9 +16823,6 @@
       },
       "ui": {
         "term": "키 파생 함수"
-      },
-      "code": {
-        "term": "keyDerivationFunction"
       }
     },
     "grammar": {
@@ -18039,9 +16863,6 @@
       },
       "ui": {
         "term": "패스키 생성"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -18085,9 +16906,6 @@
       },
       "ui": {
         "term": "제로 주소 복사"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -18134,9 +16952,6 @@
       },
       "ui": {
         "term": "변동 한도 확인"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -18179,9 +16994,6 @@
       },
       "ui": {
         "term": "합의 규칙 적용"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -18228,9 +17040,6 @@
       },
       "ui": {
         "term": "이중 서명 경고"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -18271,9 +17080,6 @@
       },
       "ui": {
         "term": "홀로그래픽 합의 시스템"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -18316,9 +17122,6 @@
       },
       "ui": {
         "term": "비활동 누수 상태"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -18367,9 +17170,6 @@
       },
       "ui": {
         "term": "발행량 확인"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -18412,9 +17212,6 @@
       },
       "ui": {
         "term": "절대다수 도달"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -18460,9 +17257,6 @@
       },
       "ui": {
         "term": "커밋먼트 확인"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -18506,9 +17300,6 @@
       },
       "ui": {
         "term": "분산 해시 테이블"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -18549,9 +17340,6 @@
       },
       "ui": {
         "term": "이더해시"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -18594,9 +17382,6 @@
       },
       "ui": {
         "term": "네트워크 해시레이트"
-      },
-      "code": {
-        "term": "network_hashrate"
       }
     },
     "grammar": {
@@ -18639,9 +17424,6 @@
       },
       "ui": {
         "term": "보안 해시 알고리즘"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -18687,9 +17469,6 @@
       },
       "ui": {
         "term": "샤드 체인"
-      },
-      "code": {
-        "term": "shard_chain"
       }
     },
     "grammar": {
@@ -18735,9 +17514,6 @@
       },
       "ui": {
         "term": "신뢰할 수 있는 설정"
-      },
-      "code": {
-        "term": "trusted_setup"
       }
     },
     "grammar": {
@@ -18781,9 +17557,6 @@
       },
       "ui": {
         "term": "API 설정"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -18827,9 +17600,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -18876,9 +17646,6 @@
       },
       "ui": {
         "term": "디페깅 경고"
-      },
-      "code": {
-        "term": "de_peg"
       }
     },
     "grammar": {
@@ -18921,9 +17688,6 @@
       },
       "ui": {
         "term": "비영구적 손실"
-      },
-      "code": {
-        "term": "impermanentLoss"
       }
     },
     "grammar": {
@@ -18967,9 +17731,6 @@
       },
       "ui": {
         "term": "인덱스"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -19013,9 +17774,6 @@
       },
       "ui": {
         "term": "유동성 토큰"
-      },
-      "code": {
-        "term": "liquidityTokens"
       }
     },
     "grammar": {
@@ -19059,9 +17817,6 @@
       },
       "ui": {
         "term": "초과 담보"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -19105,9 +17860,6 @@
       },
       "ui": {
         "term": "페그"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -19151,9 +17903,6 @@
       },
       "ui": {
         "term": "가격 영향"
-      },
-      "code": {
-        "term": "priceImpact"
       }
     },
     "grammar": {
@@ -19194,9 +17943,6 @@
       },
       "ui": {
         "term": "슬리피지"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -19240,9 +17986,6 @@
       },
       "ui": {
         "term": "이더1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -19286,9 +18029,6 @@
       },
       "ui": {
         "term": "이더2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -19331,9 +18071,6 @@
       },
       "ui": {
         "term": "51% 공격"
-      },
-      "code": {
-        "term": "fiftyOnePercentAttack"
       }
     },
     "grammar": {
@@ -19378,9 +18115,6 @@
       },
       "ui": {
         "term": "익명성 세트"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -19426,9 +18160,6 @@
       },
       "ui": {
         "term": "안티 시빌"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -19473,9 +18204,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "ASIC"
       }
     },
     "grammar": {
@@ -19518,9 +18246,6 @@
       },
       "ui": {
         "term": "빅 엔디언"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -19563,9 +18288,6 @@
       },
       "ui": {
         "term": "블록 상태"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -19611,9 +18333,6 @@
       },
       "ui": {
         "term": "컴파일링"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -19657,9 +18376,6 @@
       },
       "ui": {
         "term": "계산적 불가능성"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -19703,9 +18419,6 @@
       },
       "ui": {
         "term": "포함 고려 (CFI)"
-      },
-      "code": {
-        "term": "cfi"
       }
     },
     "grammar": {
@@ -19746,9 +18459,6 @@
       },
       "ui": {
         "term": "암호경제학"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -19791,9 +18501,6 @@
       },
       "ui": {
         "term": "DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -19839,9 +18546,6 @@
       },
       "ui": {
         "term": "디핀 (DePIN)"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -19891,9 +18595,6 @@
       },
       "ui": {
         "term": "디스커버리"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -19942,9 +18643,6 @@
       },
       "ui": {
         "term": "이중 지불"
-      },
-      "code": {
-        "term": "doubleSpend"
       }
     },
     "grammar": {
@@ -19989,9 +18687,6 @@
       },
       "ui": {
         "term": "실행 클라이언트"
-      },
-      "code": {
-        "term": "executionClient"
       }
     },
     "grammar": {
@@ -20034,9 +18729,6 @@
       },
       "ui": {
         "term": "실행 계층"
-      },
-      "code": {
-        "term": "executionLayer"
       }
     },
     "grammar": {
@@ -20081,9 +18773,6 @@
       },
       "ui": {
         "term": "통합 개발 환경"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -20128,9 +18817,6 @@
       },
       "ui": {
         "term": "경량 클라이언트"
-      },
-      "code": {
-        "term": "lightClient"
       }
     },
     "grammar": {
@@ -20173,9 +18859,6 @@
       },
       "ui": {
         "term": "메시지"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -20221,9 +18904,6 @@
       },
       "ui": {
         "term": "메시지 호출"
-      },
-      "code": {
-        "term": "messageCall"
       }
     },
     "grammar": {
@@ -20268,9 +18948,6 @@
       },
       "ui": {
         "term": "네트워크"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -20314,9 +18991,6 @@
       },
       "ui": {
         "term": "오프램프"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -20360,9 +19034,6 @@
       },
       "ui": {
         "term": "오머 (엉클) 블록"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -20406,9 +19077,6 @@
       },
       "ui": {
         "term": "온램프"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -20457,9 +19125,6 @@
       },
       "ui": {
         "term": "온보딩 시작"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -20505,9 +19170,6 @@
       },
       "ui": {
         "term": "허가형"
-      },
-      "code": {
-        "term": "permissioned"
       }
     },
     "grammar": {
@@ -20551,9 +19213,6 @@
       },
       "ui": {
         "term": "프라이빗 체인"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -20599,9 +19258,6 @@
       },
       "ui": {
         "term": "참석 증명"
-      },
-      "code": {
-        "term": "proofOfAttendance"
       }
     },
     "grammar": {
@@ -20644,9 +19300,6 @@
       },
       "ui": {
         "term": "재진입 공격"
-      },
-      "code": {
-        "term": "reentrancyAttack"
       }
     },
     "grammar": {
@@ -20695,9 +19348,6 @@
       },
       "ui": {
         "term": "보상 수령"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -20740,9 +19390,6 @@
       },
       "ui": {
         "term": "자기 주권"
-      },
-      "code": {
-        "term": "self-sovereignty"
       }
     },
     "grammar": {
@@ -20786,9 +19433,6 @@
       },
       "ui": {
         "term": "직렬화"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -20831,9 +19475,6 @@
         "term": "SNARK"
       },
       "ui": {
-        "term": "SNARK"
-      },
-      "code": {
         "term": "SNARK"
       }
     },
@@ -20878,9 +19519,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "STARK"
       }
     },
     "grammar": {
@@ -20923,9 +19561,6 @@
       },
       "ui": {
         "term": "상태 비대화"
-      },
-      "code": {
-        "term": "state_bloat"
       }
     },
     "grammar": {
@@ -20968,9 +19603,6 @@
       },
       "ui": {
         "term": "무상태성"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -21014,9 +19646,6 @@
       },
       "ui": {
         "term": "시빌 공격"
-      },
-      "code": {
-        "term": "sybil_attack"
       }
     },
     "grammar": {
@@ -21062,9 +19691,6 @@
       },
       "ui": {
         "term": "동기화"
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -21108,9 +19734,6 @@
       },
       "ui": {
         "term": "종단 총 난이도"
-      },
-      "code": {
-        "term": "terminal_total_difficulty"
       }
     },
     "grammar": {
@@ -21151,9 +19774,6 @@
       },
       "ui": {
         "term": "신뢰 가정"
-      },
-      "code": {
-        "term": "trust_assumptions"
       }
     },
     "grammar": {
@@ -21194,9 +19814,6 @@
       },
       "ui": {
         "term": "신뢰 최소화"
-      },
-      "code": {
-        "term": "trust_minimized"
       }
     },
     "grammar": {
@@ -21239,9 +19856,6 @@
       },
       "ui": {
         "term": "무신뢰성"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -21284,9 +19898,6 @@
       },
       "ui": {
         "term": "튜링 완전"
-      },
-      "code": {
-        "term": "turing_complete"
       }
     },
     "grammar": {
@@ -21329,9 +19940,6 @@
       },
       "ui": {
         "term": "웹2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -21372,9 +19980,6 @@
       },
       "ui": {
         "term": "샌드위치 공격"
-      },
-      "code": {
-        "term": "sandwich_attack"
       }
     },
     "grammar": {
@@ -21420,9 +20025,6 @@
       },
       "ui": {
         "term": "일괄 처리"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -21465,9 +20067,6 @@
       },
       "ui": {
         "term": "블롭스페이스"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -21511,9 +20110,6 @@
       },
       "ui": {
         "term": "이스케이프 해치 활성화"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -21561,9 +20157,6 @@
       },
       "ui": {
         "term": "결함 증명 제출"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -21612,9 +20205,6 @@
       },
       "ui": {
         "term": "강제 출금 실행"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -21663,9 +20253,6 @@
       },
       "ui": {
         "term": "롤업 연결"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -21714,9 +20301,6 @@
       },
       "ui": {
         "term": "정산 완료"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -21759,9 +20343,6 @@
       },
       "ui": {
         "term": "상태 채널 열기"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -21807,9 +20388,6 @@
       },
       "ui": {
         "term": "처리량 모니터링"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -21852,9 +20430,6 @@
       },
       "ui": {
         "term": "밸리디움 네트워크"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -21899,9 +20474,6 @@
       },
       "ui": {
         "term": "콜 데이터 확인"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -21946,9 +20518,6 @@
       },
       "ui": {
         "term": "컨트랙트 생성 트랜잭션 전송"
-      },
-      "code": {
-        "term": "contractCreationTx"
       }
     },
     "grammar": {
@@ -21993,9 +20562,6 @@
       },
       "ui": {
         "term": "EVM 어셈블리 언어 보기"
-      },
-      "code": {
-        "term": "evmAssembly"
       }
     },
     "grammar": {
@@ -22041,9 +20607,6 @@
       },
       "ui": {
         "term": "가스 최적화 적용"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -22088,9 +20651,6 @@
       },
       "ui": {
         "term": "불변성 문제 경고"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -22139,9 +20699,6 @@
       },
       "ui": {
         "term": "프리컴파일 사용"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -22187,9 +20744,6 @@
       },
       "ui": {
         "term": "재진입 가드 활성화"
-      },
-      "code": {
-        "term": "nonReentrant"
       }
     },
     "grammar": {
@@ -22238,9 +20792,6 @@
       },
       "ui": {
         "term": "자가 파기 실행"
-      },
-      "code": {
-        "term": "selfdestruct"
       }
     },
     "grammar": {
@@ -22285,9 +20836,6 @@
       },
       "ui": {
         "term": "싱글톤 배포"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -22328,9 +20876,6 @@
       },
       "ui": {
         "term": "솔리디티 인라인 어셈블리"
-      },
-      "code": {
-        "term": "solidityInlineAssembly"
       }
     },
     "grammar": {
@@ -22373,9 +20918,6 @@
       },
       "ui": {
         "term": "상태"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -22424,9 +20966,6 @@
       },
       "ui": {
         "term": "청구하기"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -22472,9 +21011,6 @@
       },
       "ui": {
         "term": "클리프"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -22523,9 +21059,6 @@
       },
       "ui": {
         "term": "조각화하기"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -22568,9 +21101,6 @@
       },
       "ui": {
         "term": "LP 토큰 예치"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -22615,9 +21145,6 @@
       },
       "ui": {
         "term": "토큰 팩토리"
-      },
-      "code": {
-        "term": "tokenFactory"
       }
     },
     "grammar": {
@@ -22658,9 +21185,6 @@
       },
       "ui": {
         "term": "토큰 URI"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -22709,9 +21233,6 @@
       },
       "ui": {
         "term": "베스팅 상태"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -22755,9 +21276,6 @@
       },
       "ui": {
         "term": "래핑된 토큰"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -22800,9 +21318,6 @@
       },
       "ui": {
         "term": "내부 트랜잭션"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -22845,9 +21360,6 @@
       },
       "ui": {
         "term": "가스당 최대 수수료"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -22888,9 +21400,6 @@
       },
       "ui": {
         "term": "생성자"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -22922,9 +21431,6 @@
       },
       "ui": {
         "term": "찰스 호스킨슨"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -22952,9 +21458,6 @@
       },
       "ui": {
         "term": "개빈 우드"
-      },
-      "code": {
-        "term": "Gavin Wood"
       }
     },
     "plurals": null,
@@ -22982,9 +21485,6 @@
       },
       "ui": {
         "term": "조셉 루빈"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -23012,9 +21512,6 @@
       },
       "ui": {
         "term": "비탈릭 부테린"
-      },
-      "code": {
-        "term": "Vitalik Buterin"
       }
     },
     "plurals": null,
@@ -23042,9 +21539,6 @@
       },
       "ui": {
         "term": "웨이 다이"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -23072,9 +21566,6 @@
       },
       "ui": {
         "term": "에이브"
-      },
-      "code": {
-        "term": "Aave"
       }
     },
     "plurals": null,
@@ -23102,9 +21593,6 @@
       },
       "ui": {
         "term": "아비트럼"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -23132,9 +21620,6 @@
       },
       "ui": {
         "term": "바이낸스"
-      },
-      "code": {
-        "term": "Binance"
       }
     },
     "plurals": null,
@@ -23162,9 +21647,6 @@
       },
       "ui": {
         "term": "크롬"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -23192,9 +21674,6 @@
       },
       "ui": {
         "term": "코인베이스"
-      },
-      "code": {
-        "term": "Coinbase"
       }
     },
     "plurals": null,
@@ -23222,9 +21701,6 @@
       },
       "ui": {
         "term": "컨센시스"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -23252,9 +21728,6 @@
       },
       "ui": {
         "term": "크립토키티"
-      },
-      "code": {
-        "term": "CryptoKitties"
       }
     },
     "plurals": null,
@@ -23282,9 +21755,6 @@
       },
       "ui": {
         "term": "덴쿤"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -23312,9 +21782,6 @@
       },
       "ui": {
         "term": "디스코드"
-      },
-      "code": {
-        "term": "Discord"
       }
     },
     "plurals": null,
@@ -23342,9 +21809,6 @@
       },
       "ui": {
         "term": "페이스북"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -23372,9 +21836,6 @@
       },
       "ui": {
         "term": "파일코인"
-      },
-      "code": {
-        "term": "Filecoin"
       }
     },
     "plurals": null,
@@ -23402,9 +21863,6 @@
       },
       "ui": {
         "term": "괴를리"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -23432,9 +21890,6 @@
       },
       "ui": {
         "term": "홀스카이"
-      },
-      "code": {
-        "term": "Holesky"
       }
     },
     "plurals": null,
@@ -23462,9 +21917,6 @@
       },
       "ui": {
         "term": "리도"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -23492,9 +21944,6 @@
       },
       "ui": {
         "term": "메이커다오"
-      },
-      "code": {
-        "term": "MakerDAO"
       }
     },
     "plurals": null,
@@ -23522,9 +21971,6 @@
       },
       "ui": {
         "term": "마이크로소프트"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -23552,9 +21998,6 @@
       },
       "ui": {
         "term": "넷플릭스"
-      },
-      "code": {
-        "term": "Netflix"
       }
     },
     "plurals": null,
@@ -23582,9 +22025,6 @@
       },
       "ui": {
         "term": "오픈씨"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -23612,9 +22052,6 @@
       },
       "ui": {
         "term": "옵티미즘"
-      },
-      "code": {
-        "term": "Optimism"
       }
     },
     "plurals": null,
@@ -23642,9 +22079,6 @@
       },
       "ui": {
         "term": "페이팔"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -23672,9 +22106,6 @@
       },
       "ui": {
         "term": "폴리곤"
-      },
-      "code": {
-        "term": "Polygon"
       }
     },
     "plurals": null,
@@ -23702,9 +22133,6 @@
       },
       "ui": {
         "term": "레딧"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -23732,9 +22160,6 @@
       },
       "ui": {
         "term": "롭스텐"
-      },
-      "code": {
-        "term": "Ropsten"
       }
     },
     "plurals": null,
@@ -23762,9 +22187,6 @@
       },
       "ui": {
         "term": "스타크넷"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -23792,9 +22214,6 @@
       },
       "ui": {
         "term": "텔레그램"
-      },
-      "code": {
-        "term": "Telegram"
       }
     },
     "plurals": null,
@@ -23822,9 +22241,6 @@
       },
       "ui": {
         "term": "트위터"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -23852,9 +22268,6 @@
       },
       "ui": {
         "term": "유튜브"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -23882,9 +22295,6 @@
       },
       "ui": {
         "term": "지케이싱크"
-      },
-      "code": {
-        "term": "ZKsync"
       }
     },
     "plurals": null,

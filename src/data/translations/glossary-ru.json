@@ -32,9 +32,6 @@
       },
       "ui": {
         "term": "Аттестация"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -88,9 +85,6 @@
       },
       "ui": {
         "term": "Мост"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -142,9 +136,6 @@
       },
       "ui": {
         "term": "Сжечь"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -192,9 +183,6 @@
       },
       "ui": {
         "term": "Сжигание"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -249,9 +237,6 @@
       },
       "ui": {
         "term": "Внести залог"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -301,9 +286,6 @@
       },
       "ui": {
         "term": "Децентрализация"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -354,9 +336,6 @@
       },
       "ui": {
         "term": "Децентрализованный"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -408,9 +387,6 @@
       },
       "ui": {
         "term": "Делегировать"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -464,9 +440,6 @@
       },
       "ui": {
         "term": "Делегирование"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -521,9 +494,6 @@
       },
       "ui": {
         "term": "Развернуть"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -571,9 +541,6 @@
       },
       "ui": {
         "term": "Развертывание"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -625,9 +592,6 @@
       },
       "ui": {
         "term": "Цифровая подпись"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -681,9 +645,6 @@
       },
       "ui": {
         "term": "Подпись"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -737,9 +698,6 @@
       },
       "ui": {
         "term": "Подписание"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -793,9 +751,6 @@
       },
       "ui": {
         "term": "Шифрование"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -850,9 +805,6 @@
       },
       "ui": {
         "term": "Расшифровать"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -908,9 +860,6 @@
       },
       "ui": {
         "term": "Финальность"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -965,9 +914,6 @@
       },
       "ui": {
         "term": "Финализировано"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -1022,9 +968,6 @@
       },
       "ui": {
         "term": "Сделать форк"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -1074,9 +1017,6 @@
       },
       "ui": {
         "term": "Хардфорк"
-      },
-      "code": {
-        "term": "hard_fork"
       }
     },
     "grammar": {
@@ -1126,9 +1066,6 @@
       },
       "ui": {
         "term": "Софтфорк"
-      },
-      "code": {
-        "term": "soft_fork"
       }
     },
     "grammar": {
@@ -1183,9 +1120,6 @@
       },
       "ui": {
         "term": "Управление"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1239,9 +1173,6 @@
       },
       "ui": {
         "term": "Хеш"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1291,9 +1222,6 @@
       },
       "ui": {
         "term": "Хеш-функция"
-      },
-      "code": {
-        "term": "hash_function"
       }
     },
     "grammar": {
@@ -1344,9 +1272,6 @@
       },
       "ui": {
         "term": "Хешрейт"
-      },
-      "code": {
-        "term": "hash_rate"
       }
     },
     "grammar": {
@@ -1398,9 +1323,6 @@
       },
       "ui": {
         "term": "Хеширование"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1447,9 +1369,6 @@
       },
       "ui": {
         "term": "Ликвидный стейкинг"
-      },
-      "code": {
-        "term": "liquid_staking"
       }
     },
     "grammar": {
@@ -1499,9 +1418,6 @@
       },
       "ui": {
         "term": "Совместный стейкинг"
-      },
-      "code": {
-        "term": "pooled_staking"
       }
     },
     "grammar": {
@@ -1553,9 +1469,6 @@
       },
       "ui": {
         "term": "Рестейкинг"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1604,9 +1517,6 @@
       },
       "ui": {
         "term": "Соло-стейкинг"
-      },
-      "code": {
-        "term": "solo_staking"
       }
     },
     "grammar": {
@@ -1659,9 +1569,6 @@
       },
       "ui": {
         "term": "Стейкать"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1712,9 +1619,6 @@
       },
       "ui": {
         "term": "Застейкано"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1763,9 +1667,6 @@
       },
       "ui": {
         "term": "Стейкер"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1815,9 +1716,6 @@
       },
       "ui": {
         "term": "Стейкинг"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1866,9 +1764,6 @@
       },
       "ui": {
         "term": "Внести депозит"
-      },
-      "code": {
-        "term": "staking_deposit"
       }
     },
     "grammar": {
@@ -1917,9 +1812,6 @@
       },
       "ui": {
         "term": "Стейкинг-пулы"
-      },
-      "code": {
-        "term": "staking_pool"
       }
     },
     "grammar": {
@@ -1972,9 +1864,6 @@
       },
       "ui": {
         "term": "Вывести из стейкинга"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -2024,9 +1913,6 @@
       },
       "ui": {
         "term": "Ликвидировать"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -2075,9 +1961,6 @@
       },
       "ui": {
         "term": "Майнер"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -2129,9 +2012,6 @@
       },
       "ui": {
         "term": "Майнинг"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -2182,9 +2062,6 @@
       },
       "ui": {
         "term": "Чеканить"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -2228,9 +2105,6 @@
       },
       "ui": {
         "term": "Чеканка"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -2283,9 +2157,6 @@
       },
       "ui": {
         "term": "Слэшинг"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2334,9 +2205,6 @@
       },
       "ui": {
         "term": "Слэшер"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2388,9 +2256,6 @@
       },
       "ui": {
         "term": "Обменять"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2439,9 +2304,6 @@
       },
       "ui": {
         "term": "Отправить транзакцию"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2490,9 +2352,6 @@
       },
       "ui": {
         "term": "Стать валидатором"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2543,9 +2402,6 @@
       },
       "ui": {
         "term": "Валидация блока"
-      },
-      "code": {
-        "term": "blockValidation"
       }
     },
     "grammar": {
@@ -2597,9 +2453,6 @@
       },
       "ui": {
         "term": "Голосовать"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2648,9 +2501,6 @@
       },
       "ui": {
         "term": "Начать голосование"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2702,9 +2552,6 @@
       },
       "ui": {
         "term": "Сеть Эфириум"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2755,9 +2602,6 @@
       },
       "ui": {
         "term": "Создать контракт"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2806,9 +2650,6 @@
       },
       "ui": {
         "term": "Поиск блока"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2859,9 +2700,6 @@
       },
       "ui": {
         "term": "Развернуть смарт-контракт"
-      },
-      "code": {
-        "term": "smartContract"
       }
     },
     "grammar": {
@@ -2912,9 +2750,6 @@
       },
       "ui": {
         "term": "Настройки узла"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2963,9 +2798,6 @@
       },
       "ui": {
         "term": "Отправить токен"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -3016,9 +2848,6 @@
       },
       "ui": {
         "term": "Скопировать адрес"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -3069,9 +2898,6 @@
       },
       "ui": {
         "term": "Отправить ETH"
-      },
-      "code": {
-        "term": "eth"
       }
     },
     "grammar": {
@@ -3122,9 +2948,6 @@
       },
       "ui": {
         "term": "Обозреватель блокчейна"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -3176,9 +2999,6 @@
       },
       "ui": {
         "term": "Мой аккаунт"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -3233,9 +3053,6 @@
       },
       "ui": {
         "term": "Сменить цепь"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -3284,9 +3101,6 @@
       },
       "ui": {
         "term": "Обновить протокол"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -3338,9 +3152,6 @@
       },
       "ui": {
         "term": "Подключить кошелек"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3390,9 +3201,6 @@
       },
       "ui": {
         "term": "Цена газа"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3444,9 +3252,6 @@
       },
       "ui": {
         "term": "Сеть роллапа"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3495,9 +3300,6 @@
       },
       "ui": {
         "term": "Создать EIP"
-      },
-      "code": {
-        "term": "eip"
       }
     },
     "grammar": {
@@ -3547,9 +3349,6 @@
       },
       "ui": {
         "term": "Require"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3601,9 +3400,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3654,9 +3450,6 @@
       },
       "ui": {
         "term": "Solidity"
-      },
-      "code": {
-        "term": "solidity"
       }
     },
     "grammar": {
@@ -3707,9 +3500,6 @@
       },
       "ui": {
         "term": "Событие"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3759,9 +3549,6 @@
       },
       "ui": {
         "term": "Ончейн"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3812,9 +3599,6 @@
       },
       "ui": {
         "term": "Эфир"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3866,9 +3650,6 @@
       },
       "ui": {
         "term": "EVM"
-      },
-      "code": {
-        "term": "evm"
       }
     },
     "grammar": {
@@ -3921,9 +3702,6 @@
       },
       "ui": {
         "term": "Dapp"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3976,9 +3754,6 @@
       },
       "ui": {
         "term": "NFT"
-      },
-      "code": {
-        "term": "nft"
       }
     },
     "grammar": {
@@ -4032,9 +3807,6 @@
       },
       "ui": {
         "term": "Перевести"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -4089,9 +3861,6 @@
       },
       "ui": {
         "term": "Вывести"
-      },
-      "code": {
-        "term": "withdraw"
       }
     },
     "grammar": {
@@ -4140,9 +3909,6 @@
       },
       "ui": {
         "term": "Консенсус"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -4193,9 +3959,6 @@
       },
       "ui": {
         "term": "Мейннет"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -4246,9 +4009,6 @@
       },
       "ui": {
         "term": "Офчейн"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -4299,9 +4059,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -4350,9 +4107,6 @@
       },
       "ui": {
         "term": "Оракул"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -4405,9 +4159,6 @@
       },
       "ui": {
         "term": "Блоб"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -4456,9 +4207,6 @@
       },
       "ui": {
         "term": "МетаМаск"
-      },
-      "code": {
-        "term": "MetaMask"
       }
     },
     "grammar": {
@@ -4510,9 +4258,6 @@
       },
       "ui": {
         "term": "ОпенЗеппелин"
-      },
-      "code": {
-        "term": "OpenZeppelin"
       }
     },
     "grammar": {
@@ -4561,9 +4306,6 @@
       },
       "ui": {
         "term": "Запустить Слизер"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4612,9 +4354,6 @@
       },
       "ui": {
         "term": "Текущий слот"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4666,9 +4405,6 @@
       },
       "ui": {
         "term": "Создать DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4719,9 +4455,6 @@
       },
       "ui": {
         "term": "Перейти в тестовую сеть"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4770,9 +4503,6 @@
       },
       "ui": {
         "term": "Выбрать клиент консенсуса"
-      },
-      "code": {
-        "term": "consensusClient"
       }
     },
     "grammar": {
@@ -4824,9 +4554,6 @@
       },
       "ui": {
         "term": "Сеть уровня 2"
-      },
-      "code": {
-        "term": "layer2"
       }
     },
     "grammar": {
@@ -4878,9 +4605,6 @@
       },
       "ui": {
         "term": "Технология ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4932,9 +4656,6 @@
       },
       "ui": {
         "term": "Экспорт приватного ключа"
-      },
-      "code": {
-        "term": "privateKey"
       }
     },
     "grammar": {
@@ -4986,9 +4707,6 @@
       },
       "ui": {
         "term": "Купить криптовалюту"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -5041,9 +4759,6 @@
       },
       "ui": {
         "term": "Сеть уровня 1"
-      },
-      "code": {
-        "term": "layer1"
       }
     },
     "grammar": {
@@ -5093,9 +4808,6 @@
       },
       "ui": {
         "term": "MEV"
-      },
-      "code": {
-        "term": "mev"
       }
     },
     "grammar": {
@@ -5149,9 +4861,6 @@
       },
       "ui": {
         "term": "Выйти"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -5202,9 +4911,6 @@
       },
       "ui": {
         "term": "Опкод"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -5255,9 +4961,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -5306,9 +5009,6 @@
       },
       "ui": {
         "term": "Echidna"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -5359,9 +5059,6 @@
       },
       "ui": {
         "term": "Приватность"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -5410,9 +5107,6 @@
       },
       "ui": {
         "term": "Manticore"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -5462,9 +5156,6 @@
       },
       "ui": {
         "term": "Оптимистичный роллап"
-      },
-      "code": {
-        "term": "optimistic-rollup"
       }
     },
     "grammar": {
@@ -5516,9 +5207,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "erc"
       }
     },
     "grammar": {
@@ -5569,9 +5257,6 @@
       },
       "ui": {
         "term": "Plasma"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5620,9 +5305,6 @@
       },
       "ui": {
         "term": "Библиотека"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -5671,9 +5353,6 @@
       },
       "ui": {
         "term": "Uniswap"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -5726,9 +5405,6 @@
       },
       "ui": {
         "term": "Слияние"
-      },
-      "code": {
-        "term": "the-merge"
       }
     },
     "grammar": {
@@ -5780,9 +5456,6 @@
       },
       "ui": {
         "term": "Доказательство с нулевым разглашением"
-      },
-      "code": {
-        "term": "zk-proof"
       }
     },
     "grammar": {
@@ -5834,9 +5507,6 @@
       },
       "ui": {
         "term": "Биткоин"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5885,9 +5555,6 @@
       },
       "ui": {
         "term": "Доступность данных"
-      },
-      "code": {
-        "term": "data-availability"
       }
     },
     "grammar": {
@@ -5942,9 +5609,6 @@
       },
       "ui": {
         "term": "Лог"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5994,9 +5658,6 @@
       },
       "ui": {
         "term": "Сигнальная цепочка"
-      },
-      "code": {
-        "term": "beacon-chain"
       }
     },
     "grammar": {
@@ -6045,9 +5706,6 @@
       },
       "ui": {
         "term": "Ликвидность"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -6094,9 +5752,6 @@
       },
       "ui": {
         "term": "Эпоха"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -6148,9 +5803,6 @@
       },
       "ui": {
         "term": "Основная сеть Ethereum"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -6204,9 +5856,6 @@
       },
       "ui": {
         "term": "Создать предложение"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -6259,9 +5908,6 @@
       },
       "ui": {
         "term": "Предлагающий блок"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -6312,9 +5958,6 @@
       },
       "ui": {
         "term": "Уровень консенсуса"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -6366,9 +6009,6 @@
       },
       "ui": {
         "term": "Добавить пир"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -6417,9 +6057,6 @@
       },
       "ui": {
         "term": "URL-адрес JSON-RPC"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -6471,9 +6108,6 @@
       },
       "ui": {
         "term": "Установить нонс"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -6524,9 +6158,6 @@
       },
       "ui": {
         "term": "Загрузить в IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -6578,9 +6209,6 @@
       },
       "ui": {
         "term": "Запустить полный узел"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -6633,9 +6261,6 @@
       },
       "ui": {
         "term": "Нулевое разглашение"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -6682,9 +6307,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -6727,9 +6349,6 @@
       },
       "ui": {
         "term": "Контрольная точка"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6776,9 +6395,6 @@
       },
       "ui": {
         "term": "Пектра"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6823,9 +6439,6 @@
       },
       "ui": {
         "term": "Криптовалюта"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6877,9 +6490,6 @@
       },
       "ui": {
         "term": "Верификатор"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6934,9 +6544,6 @@
       },
       "ui": {
         "term": "Сборщик"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6987,9 +6594,6 @@
       },
       "ui": {
         "term": "Открытый ключ"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -7038,9 +6642,6 @@
       },
       "ui": {
         "term": "Сайдчейн"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -7087,9 +6688,6 @@
       },
       "ui": {
         "term": "Фусака"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -7130,9 +6728,6 @@
       },
       "ui": {
         "term": "Метаданные"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -7184,9 +6779,6 @@
       },
       "ui": {
         "term": "ABI"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -7233,9 +6825,6 @@
       },
       "ui": {
         "term": "Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -7288,9 +6877,6 @@
       },
       "ui": {
         "term": "WETH"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -7338,9 +6924,6 @@
         "term": "zkEVM"
       },
       "ui": {
-        "term": "zkEVM"
-      },
-      "code": {
         "term": "zkEVM"
       }
     },
@@ -7392,9 +6975,6 @@
       },
       "ui": {
         "term": "Комиссия за газ"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -7445,9 +7025,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -7498,9 +7075,6 @@
       },
       "ui": {
         "term": "Лимит газа"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -7552,9 +7126,6 @@
       },
       "ui": {
         "term": "Чаевые"
-      },
-      "code": {
-        "term": "tip"
       }
     },
     "grammar": {
@@ -7603,9 +7174,6 @@
       },
       "ui": {
         "term": "Механизм консенсуса"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -7656,9 +7224,6 @@
       },
       "ui": {
         "term": "ERC-721"
-      },
-      "code": {
-        "term": "ERC721"
       }
     },
     "grammar": {
@@ -7707,9 +7272,6 @@
       },
       "ui": {
         "term": "Служба имен ENS"
-      },
-      "code": {
-        "term": "ens"
       }
     },
     "grammar": {
@@ -7759,9 +7321,6 @@
       },
       "ui": {
         "term": "Прувер"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -7808,9 +7367,6 @@
       },
       "ui": {
         "term": "Канал состояния"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -7862,9 +7418,6 @@
       },
       "ui": {
         "term": "Комиссия за транзакцию"
-      },
-      "code": {
-        "term": "txFee"
       }
     },
     "grammar": {
@@ -7914,9 +7467,6 @@
       },
       "ui": {
         "term": "Внешний аккаунт"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -7963,9 +7513,6 @@
       },
       "ui": {
         "term": "Доказательство достоверности"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -8015,9 +7562,6 @@
       },
       "ui": {
         "term": "Тестовый кран"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -8066,9 +7610,6 @@
       },
       "ui": {
         "term": "Сеть Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -8112,9 +7653,6 @@
       },
       "ui": {
         "term": "Обозреватель блоков"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -8168,9 +7706,6 @@
       },
       "ui": {
         "term": "Откат"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -8220,9 +7755,6 @@
       },
       "ui": {
         "term": "Фонд Ethereum"
-      },
-      "code": {
-        "term": "EthereumFoundation"
       }
     },
     "grammar": {
@@ -8273,9 +7805,6 @@
       },
       "ui": {
         "term": "Децентрализованная идентичность"
-      },
-      "code": {
-        "term": "decentralizedIdentity"
       }
     },
     "grammar": {
@@ -8328,9 +7857,6 @@
       },
       "ui": {
         "term": "Предлагающий"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -8377,9 +7903,6 @@
       },
       "ui": {
         "term": "Криптография"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -8428,9 +7951,6 @@
       },
       "ui": {
         "term": "Байт-код"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -8479,9 +7999,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -8530,9 +8047,6 @@
       },
       "ui": {
         "term": "Лайтхаус"
-      },
-      "code": {
-        "term": "Lighthouse"
       }
     },
     "grammar": {
@@ -8581,9 +8095,6 @@
       },
       "ui": {
         "term": "Цена газа"
-      },
-      "code": {
-        "term": "gasPrice"
       }
     },
     "grammar": {
@@ -8634,9 +8145,6 @@
       },
       "ui": {
         "term": "Одноранговая сеть"
-      },
-      "code": {
-        "term": "peerToPeer"
       }
     },
     "grammar": {
@@ -8683,9 +8191,6 @@
       },
       "ui": {
         "term": "Гламстердам"
-      },
-      "code": {
-        "term": "Glamsterdam"
       }
     },
     "grammar": {
@@ -8734,9 +8239,6 @@
       },
       "ui": {
         "term": "Незермайнд"
-      },
-      "code": {
-        "term": "Nethermind"
       }
     },
     "grammar": {
@@ -8785,9 +8287,6 @@
       },
       "ui": {
         "term": "Доказательство мошенничества"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -8836,9 +8335,6 @@
       },
       "ui": {
         "term": "Док-во Меркла"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -8888,9 +8384,6 @@
       },
       "ui": {
         "term": "DeSci"
-      },
-      "code": {
-        "term": "deSci"
       }
     },
     "grammar": {
@@ -8942,9 +8435,6 @@
       },
       "ui": {
         "term": "Без доверия"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -8993,9 +8483,6 @@
       },
       "ui": {
         "term": "Данкшардинг"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -9045,9 +8532,6 @@
       },
       "ui": {
         "term": "Алгоритм выбора форка"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -9099,9 +8583,6 @@
       },
       "ui": {
         "term": "Базовая комиссия"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -9150,9 +8631,6 @@
       },
       "ui": {
         "term": "Эригон"
-      },
-      "code": {
-        "term": "Erigon"
       }
     },
     "grammar": {
@@ -9207,9 +8685,6 @@
       },
       "ui": {
         "term": "Одобрить"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -9258,9 +8733,6 @@
       },
       "ui": {
         "term": "Дерево Меркла"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -9309,9 +8781,6 @@
       },
       "ui": {
         "term": "Легкая нода"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -9361,9 +8830,6 @@
       },
       "ui": {
         "term": "Сид-фраза"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -9410,9 +8876,6 @@
       },
       "ui": {
         "term": "Комитет"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -9461,9 +8924,6 @@
       },
       "ui": {
         "term": "Бесу"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -9512,9 +8972,6 @@
       },
       "ui": {
         "term": "zk-SNARK"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -9564,9 +9021,6 @@
       },
       "ui": {
         "term": "Сборщик блоков"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -9613,9 +9067,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -9662,9 +9113,6 @@
       },
       "ui": {
         "term": "Эффективный баланс"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -9711,9 +9159,6 @@
       },
       "ui": {
         "term": "Заголовок блока"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -9765,9 +9210,6 @@
       },
       "ui": {
         "term": "Кроссчейн"
-      },
-      "code": {
-        "term": "crossChain"
       }
     },
     "grammar": {
@@ -9816,9 +9258,6 @@
       },
       "ui": {
         "term": "Прото-данкшардинг"
-      },
-      "code": {
-        "term": "protoDanksharding"
       }
     },
     "grammar": {
@@ -9867,9 +9306,6 @@
       },
       "ui": {
         "term": "Рет"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -9921,9 +9357,6 @@
       },
       "ui": {
         "term": "Квитанция"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -9977,9 +9410,6 @@
       },
       "ui": {
         "term": "Кредитование"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -10034,9 +9464,6 @@
       },
       "ui": {
         "term": "Хранилище"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -10086,9 +9513,6 @@
       },
       "ui": {
         "term": "Загрузочный узел"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -10144,9 +9568,6 @@
       },
       "ui": {
         "term": "Дать разрешение"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -10198,9 +9619,6 @@
       },
       "ui": {
         "term": "Мемпул"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -10249,9 +9667,6 @@
       },
       "ui": {
         "term": "DVT"
-      },
-      "code": {
-        "term": "dvt"
       }
     },
     "grammar": {
@@ -10301,9 +9716,6 @@
       },
       "ui": {
         "term": "DEX"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -10357,9 +9769,6 @@
       },
       "ui": {
         "term": "Искатель"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -10408,9 +9817,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -10455,9 +9861,6 @@
       },
       "ui": {
         "term": "Общедоступный"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -10506,9 +9909,6 @@
       },
       "ui": {
         "term": "Призм"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -10551,9 +9951,6 @@
       },
       "ui": {
         "term": "Теку"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -10594,9 +9991,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -10640,9 +10034,6 @@
       },
       "ui": {
         "term": "PBS"
-      },
-      "code": {
-        "term": "pbs"
       }
     },
     "grammar": {
@@ -10685,9 +10076,6 @@
       },
       "ui": {
         "term": "Однослотовая финализация"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -10736,9 +10124,6 @@
       },
       "ui": {
         "term": "Архивная нода"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -10787,9 +10172,6 @@
       },
       "ui": {
         "term": "Лодстар"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -10835,9 +10217,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -10885,9 +10264,6 @@
       },
       "ui": {
         "term": "Цифровой актив"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -10936,9 +10312,6 @@
       },
       "ui": {
         "term": "Секвенсор"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -10985,9 +10358,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -11036,9 +10406,6 @@
       },
       "ui": {
         "term": "Корень Меркла"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -11087,9 +10454,6 @@
       },
       "ui": {
         "term": "Теллор"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -11142,9 +10506,6 @@
       },
       "ui": {
         "term": "Добавить ИИ-агента"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -11195,9 +10556,6 @@
       },
       "ui": {
         "term": "Текущая сложность"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -11253,9 +10611,6 @@
       },
       "ui": {
         "term": "Случаи реоргов"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -11310,9 +10665,6 @@
       },
       "ui": {
         "term": "Утверждение выполнено"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -11361,9 +10713,6 @@
       },
       "ui": {
         "term": "Запустить Nimbus"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -11414,9 +10763,6 @@
       },
       "ui": {
         "term": "Неизменяемые данные"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -11467,9 +10813,6 @@
       },
       "ui": {
         "term": "Рынки предсказаний"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -11521,9 +10864,6 @@
       },
       "ui": {
         "term": "Формат RLP"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -11575,9 +10915,6 @@
       },
       "ui": {
         "term": "Пройдена формальная верификация"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -11627,9 +10964,6 @@
       },
       "ui": {
         "term": "Включить абстракцию аккаунта"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -11678,9 +11012,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -11731,9 +11062,6 @@
       },
       "ui": {
         "term": "ZK-STARK"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -11785,9 +11113,6 @@
       },
       "ui": {
         "term": "Случайность"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -11836,9 +11161,6 @@
       },
       "ui": {
         "term": "Выбрать стратегию"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -11890,9 +11212,6 @@
       },
       "ui": {
         "term": "Активы RWA"
-      },
-      "code": {
-        "term": "realWorldAssets"
       }
     },
     "grammar": {
@@ -11944,9 +11263,6 @@
       },
       "ui": {
         "term": "Ошибка переполнения"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -11997,9 +11313,6 @@
       },
       "ui": {
         "term": "Скопировать хеш"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -12051,9 +11364,6 @@
       },
       "ui": {
         "term": "Создать мультисиг"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -12104,9 +11414,6 @@
       },
       "ui": {
         "term": "Обменять на стейблкоин"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -12156,9 +11463,6 @@
       },
       "ui": {
         "term": "Читать желтую книгу"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -12207,9 +11511,6 @@
       },
       "ui": {
         "term": "Композируемость"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -12259,9 +11560,6 @@
       },
       "ui": {
         "term": "Прокси-контракт"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -12310,9 +11608,6 @@
       },
       "ui": {
         "term": "Подграф"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -12362,9 +11657,6 @@
       },
       "ui": {
         "term": "Интероперабельность"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -12413,9 +11705,6 @@
       },
       "ui": {
         "term": "Разнообразие клиентов"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -12462,9 +11751,6 @@
       },
       "ui": {
         "term": "Шанхай"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -12514,9 +11800,6 @@
       },
       "ui": {
         "term": "Регенеративные финансы"
-      },
-      "code": {
-        "term": "regenerativeFinance"
       }
     },
     "grammar": {
@@ -12566,9 +11849,6 @@
       },
       "ui": {
         "term": "Контрактный аккаунт"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -12615,9 +11895,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -12666,9 +11943,6 @@
       },
       "ui": {
         "term": "Вознаграждение за блок"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -12717,9 +11991,6 @@
       },
       "ui": {
         "term": "Время блока"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -12769,9 +12040,6 @@
       },
       "ui": {
         "term": "Белая книга"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -12820,9 +12088,6 @@
       },
       "ui": {
         "term": "Выборка данных"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -12874,9 +12139,6 @@
       },
       "ui": {
         "term": "Обосновано"
-      },
-      "code": {
-        "term": "isJustified"
       }
     },
     "grammar": {
@@ -12928,9 +12190,6 @@
       },
       "ui": {
         "term": "Поставщик ликвидности"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -12976,9 +12235,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -13028,9 +12284,6 @@
       },
       "ui": {
         "term": "ZK Роллап"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -13079,9 +12332,6 @@
       },
       "ui": {
         "term": "Chainlink"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -13132,9 +12382,6 @@
       },
       "ui": {
         "term": "Флеш-кредит"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -13181,9 +12428,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -13230,9 +12474,6 @@
       },
       "ui": {
         "term": "MEV-Boost"
-      },
-      "code": {
-        "term": "MEV_BOOST"
       }
     },
     "grammar": {
@@ -13273,9 +12514,6 @@
       },
       "ui": {
         "term": "Канкун"
-      },
-      "code": {
-        "term": "CANCUN"
       }
     },
     "grammar": {
@@ -13318,9 +12556,6 @@
       },
       "ui": {
         "term": "Депозитный Контракт"
-      },
-      "code": {
-        "term": "depositContract"
       }
     },
     "grammar": {
@@ -13369,9 +12604,6 @@
       },
       "ui": {
         "term": "Полезная Нагрузка Исполнения"
-      },
-      "code": {
-        "term": "executionPayload"
       }
     },
     "grammar": {
@@ -13421,9 +12653,6 @@
       },
       "ui": {
         "term": "Доказательство Полномочий"
-      },
-      "code": {
-        "term": "proofOfAuthority"
       }
     },
     "grammar": {
@@ -13472,9 +12701,6 @@
       },
       "ui": {
         "term": "Тайный Выбор Лидера"
-      },
-      "code": {
-        "term": "secretLeaderElection"
       }
     },
     "grammar": {
@@ -13521,9 +12747,6 @@
       },
       "ui": {
         "term": "Комитет Синхронизации"
-      },
-      "code": {
-        "term": "syncCommittee"
       }
     },
     "grammar": {
@@ -13575,9 +12798,6 @@
       },
       "ui": {
         "term": "Занять"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -13626,9 +12846,6 @@
       },
       "ui": {
         "term": "Повторный Вход"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -13674,9 +12891,6 @@
         "term": "ERC-1155"
       },
       "ui": {
-        "term": "ERC-1155"
-      },
-      "code": {
         "term": "ERC-1155"
       }
     },
@@ -13724,9 +12938,6 @@
       },
       "ui": {
         "term": "Эллиптическая кривая"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -13775,9 +12986,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "utxo"
       }
     },
     "grammar": {
@@ -13826,9 +13034,6 @@
       },
       "ui": {
         "term": "Взаимозаменяемый токен"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -13875,9 +13080,6 @@
       },
       "ui": {
         "term": "Квадратичное финансирование"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -13927,9 +13129,6 @@
       },
       "ui": {
         "term": "Коллекционный предмет"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -13978,9 +13177,6 @@
       },
       "ui": {
         "term": "Блок сигнальной цепи"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -14027,9 +13223,6 @@
       },
       "ui": {
         "term": "Слабая субъективность"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -14078,9 +13271,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -14127,9 +13317,6 @@
       },
       "ui": {
         "term": "Пул ликвидности"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -14181,9 +13368,6 @@
       },
       "ui": {
         "term": "Генезис-блок"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -14232,9 +13416,6 @@
       },
       "ui": {
         "term": "Шапелла"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -14289,9 +13470,6 @@
       },
       "ui": {
         "term": "Компонуемый"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -14343,9 +13521,6 @@
       },
       "ui": {
         "term": "Дерево состояний"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -14392,9 +13567,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "lmdGhost"
       }
     },
     "grammar": {
@@ -14445,9 +13617,6 @@
       },
       "ui": {
         "term": "Скрытый адрес"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -14496,9 +13665,6 @@
       },
       "ui": {
         "term": "DAI"
-      },
-      "code": {
-        "term": "dai"
       }
     },
     "grammar": {
@@ -14550,9 +13716,6 @@
       },
       "ui": {
         "term": "Токенизация"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -14603,9 +13766,6 @@
       },
       "ui": {
         "term": "Солвер"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -14654,9 +13814,6 @@
       },
       "ui": {
         "term": "Некастодиальный"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -14705,9 +13862,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "maxEB"
       }
     },
     "grammar": {
@@ -14754,9 +13908,6 @@
       },
       "ui": {
         "term": "Энтропия"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -14807,9 +13958,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -14858,9 +14006,6 @@
       },
       "ui": {
         "term": "Discv5"
-      },
-      "code": {
-        "term": "discv5"
       }
     },
     "grammar": {
@@ -14910,9 +14055,6 @@
       },
       "ui": {
         "term": "Портал Нетворк"
-      },
-      "code": {
-        "term": "portalNetwork"
       }
     },
     "grammar": {
@@ -14961,9 +14103,6 @@
       },
       "ui": {
         "term": "Бомба сложности"
-      },
-      "code": {
-        "term": "difficultyBomb"
       }
     },
     "grammar": {
@@ -15013,9 +14152,6 @@
       },
       "ui": {
         "term": "Интероперабельный"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -15065,9 +14201,6 @@
       },
       "ui": {
         "term": "Истечение состояния"
-      },
-      "code": {
-        "term": "stateExpiry"
       }
     },
     "grammar": {
@@ -15122,9 +14255,6 @@
       },
       "ui": {
         "term": "Свидетель"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -15173,9 +14303,6 @@
       },
       "ui": {
         "term": "Берлин"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -15226,9 +14353,6 @@
       },
       "ui": {
         "term": "Ожидающая транзакция"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -15282,9 +14406,6 @@
       },
       "ui": {
         "term": "Активировать"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -15331,9 +14452,6 @@
       },
       "ui": {
         "term": "Фронтир"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -15384,9 +14502,6 @@
       },
       "ui": {
         "term": "Общественные блага"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -15437,9 +14552,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -15491,9 +14603,6 @@
       },
       "ui": {
         "term": "Проверяемые данные"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -15544,9 +14653,6 @@
       },
       "ui": {
         "term": "Неизменяемость"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -15598,9 +14704,6 @@
       },
       "ui": {
         "term": "LST Токен"
-      },
-      "code": {
-        "term": "lst"
       }
     },
     "grammar": {
@@ -15650,9 +14753,6 @@
       },
       "ui": {
         "term": "Стейкинг как услуга"
-      },
-      "code": {
-        "term": "staking_as_a_service"
       }
     },
     "grammar": {
@@ -15701,9 +14801,6 @@
       },
       "ui": {
         "term": "Изменить реквизиты для вывода"
-      },
-      "code": {
-        "term": "withdrawal_credentials"
       }
     },
     "grammar": {
@@ -15752,9 +14849,6 @@
       },
       "ui": {
         "term": "Хеш Keccak-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -15806,9 +14900,6 @@
       },
       "ui": {
         "term": "Включить экспирацию истории"
-      },
-      "code": {
-        "term": "history_expiry"
       }
     },
     "grammar": {
@@ -15858,9 +14949,6 @@
       },
       "ui": {
         "term": "Подключиться к Веб 3.0"
-      },
-      "code": {
-        "term": "web3_0"
       }
     },
     "grammar": {
@@ -15907,9 +14995,6 @@
       },
       "ui": {
         "term": "Константинополь"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -15958,9 +15043,6 @@
       },
       "ui": {
         "term": "Верифицировать код"
-      },
-      "code": {
-        "term": "source_code_verification"
       }
     },
     "grammar": {
@@ -16009,9 +15091,6 @@
       },
       "ui": {
         "term": "Получить POAP"
-      },
-      "code": {
-        "term": "poap"
       }
     },
     "grammar": {
@@ -16062,9 +15141,6 @@
       },
       "ui": {
         "term": "Отправить намерение"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -16117,9 +15193,6 @@
       },
       "ui": {
         "term": "Пеймейстер"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -16169,9 +15242,6 @@
       },
       "ui": {
         "term": "Смарт-аккаунт"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -16221,9 +15291,6 @@
       },
       "ui": {
         "term": "Сигнальный узел"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -16274,9 +15341,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "BLS"
       }
     },
     "grammar": {
@@ -16324,9 +15388,6 @@
         "term": "SSZ"
       },
       "ui": {
-        "term": "SSZ"
-      },
-      "code": {
         "term": "SSZ"
       }
     },
@@ -16377,9 +15438,6 @@
       },
       "ui": {
         "term": "Go Ethereum"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -16429,9 +15487,6 @@
       },
       "ui": {
         "term": "Эфириум Классик"
-      },
-      "code": {
-        "term": "ethereumClassic"
       }
     },
     "grammar": {
@@ -16480,9 +15535,6 @@
       },
       "ui": {
         "term": "Бизантиум"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -16531,9 +15583,6 @@
       },
       "ui": {
         "term": "Алгоритм ECDSA"
-      },
-      "code": {
-        "term": "ecdsa"
       }
     },
     "grammar": {
@@ -16580,9 +15629,6 @@
       },
       "ui": {
         "term": "Социальное восстановление"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -16633,9 +15679,6 @@
       },
       "ui": {
         "term": "Разделение сборщиков"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -16686,9 +15729,6 @@
       },
       "ui": {
         "term": "Доказательство доли"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -16738,9 +15778,6 @@
       },
       "ui": {
         "term": "ECC"
-      },
-      "code": {
-        "term": "ecc"
       }
     },
     "grammar": {
@@ -16791,9 +15828,6 @@
       },
       "ui": {
         "term": "Ценовой фид"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -16843,9 +15877,6 @@
       },
       "ui": {
         "term": "Сеть для разработчиков"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -16895,9 +15926,6 @@
       },
       "ui": {
         "term": "Протокол сплетен"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -16946,9 +15974,6 @@
       },
       "ui": {
         "term": "Рой"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -16997,9 +16022,6 @@
       },
       "ui": {
         "term": "Хомстед"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -17047,9 +16069,6 @@
         "term": "dac"
       },
       "ui": {
-        "term": "DAC"
-      },
-      "code": {
         "term": "DAC"
       }
     },
@@ -17100,9 +16119,6 @@
       },
       "ui": {
         "term": "Стирающее кодирование"
-      },
-      "code": {
-        "term": "erasureCoding"
       }
     },
     "grammar": {
@@ -17151,9 +16167,6 @@
       },
       "ui": {
         "term": "Дерево хранилища"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -17202,9 +16215,6 @@
       },
       "ui": {
         "term": "Комиссия за блоб"
-      },
-      "code": {
-        "term": "blobFee"
       }
     },
     "grammar": {
@@ -17254,9 +16264,6 @@
       },
       "ui": {
         "term": "Приоритетная комиссия"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -17306,9 +16313,6 @@
       },
       "ui": {
         "term": "Проблема «ничего на кону»"
-      },
-      "code": {
-        "term": "nothingAtStake"
       }
     },
     "grammar": {
@@ -17358,9 +16362,6 @@
       },
       "ui": {
         "term": "Бонус предлагающего"
-      },
-      "code": {
-        "term": "proposerBoost"
       }
     },
     "grammar": {
@@ -17407,9 +16408,6 @@
       },
       "ui": {
         "term": "Проблема оракула"
-      },
-      "code": {
-        "term": "oracleProblem"
       }
     },
     "grammar": {
@@ -17456,9 +16454,6 @@
       },
       "ui": {
         "term": "Автономный агент"
-      },
-      "code": {
-        "term": "autonomousAgent"
       }
     },
     "grammar": {
@@ -17509,9 +16504,6 @@
       },
       "ui": {
         "term": "Доказательство выполнения работы (PoW)"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -17560,9 +16552,6 @@
       },
       "ui": {
         "term": "Сабо"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -17608,9 +16597,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -17660,9 +16646,6 @@
       },
       "ui": {
         "term": "Деревья Веркла"
-      },
-      "code": {
-        "term": "verkleTrees"
       }
     },
     "grammar": {
@@ -17712,9 +16695,6 @@
       },
       "ui": {
         "term": "Резервная функция"
-      },
-      "code": {
-        "term": "fallback()"
       }
     },
     "grammar": {
@@ -17766,9 +16746,6 @@
       },
       "ui": {
         "term": "Эирдроп"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -17816,9 +16793,6 @@
         "term": "USDC"
       },
       "ui": {
-        "term": "USDC"
-      },
-      "code": {
         "term": "USDC"
       }
     },
@@ -17869,9 +16843,6 @@
       },
       "ui": {
         "term": "WBTC"
-      },
-      "code": {
-        "term": "WBTC"
       }
     },
     "grammar": {
@@ -17921,9 +16892,6 @@
       },
       "ui": {
         "term": "Пул транзакций"
-      },
-      "code": {
-        "term": "txPool"
       }
     },
     "grammar": {
@@ -17974,9 +16942,6 @@
       },
       "ui": {
         "term": "Добавить опекуна"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -18026,9 +16991,6 @@
       },
       "ui": {
         "term": "Хранилище ключей"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -18077,9 +17039,6 @@
       },
       "ui": {
         "term": "Самостоятельное хранение"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -18129,9 +17088,6 @@
       },
       "ui": {
         "term": "Каспер FFG"
-      },
-      "code": {
-        "term": "casperFFG"
       }
     },
     "grammar": {
@@ -18182,9 +17138,6 @@
       },
       "ui": {
         "term": "BLS-подпись"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -18234,9 +17187,6 @@
       },
       "ui": {
         "term": "Дерево Меркла-Патриции"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -18288,9 +17238,6 @@
       },
       "ui": {
         "term": "Распространение блока"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -18339,9 +17286,6 @@
       },
       "ui": {
         "term": "Финни"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -18392,9 +17336,6 @@
       },
       "ui": {
         "term": "Общественное благо"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -18446,9 +17387,6 @@
       },
       "ui": {
         "term": "Казначейство"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -18500,9 +17438,6 @@
       },
       "ui": {
         "term": "Пройти KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -18550,9 +17485,6 @@
         "term": "SIWE"
       },
       "ui": {
-        "term": "SIWE"
-      },
-      "code": {
         "term": "SIWE"
       }
     },
@@ -18608,9 +17540,6 @@
       },
       "ui": {
         "term": "Фронтраннинг"
-      },
-      "code": {
-        "term": "front-running"
       }
     },
     "grammar": {
@@ -18659,9 +17588,6 @@
       },
       "ui": {
         "term": "Истанбул"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -18708,9 +17634,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "KEVM"
       }
     },
     "grammar": {
@@ -18756,9 +17679,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -18811,9 +17731,6 @@
       },
       "ui": {
         "term": "Макс. комиссия"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -18865,9 +17782,6 @@
       },
       "ui": {
         "term": "Мультиподпись"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -18919,9 +17833,6 @@
       },
       "ui": {
         "term": "Пользовательская операция"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -18971,9 +17882,6 @@
       },
       "ui": {
         "term": "Социальный слэшинг"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -19021,9 +17929,6 @@
         "term": "SSLE"
       },
       "ui": {
-        "term": "SSLE"
-      },
-      "code": {
         "term": "SSLE"
       }
     },
@@ -19074,9 +17979,6 @@
       },
       "ui": {
         "term": "Стейк-грайндинг"
-      },
-      "code": {
-        "term": "stake_grinding"
       }
     },
     "grammar": {
@@ -19126,9 +18028,6 @@
       },
       "ui": {
         "term": "TEE"
-      },
-      "code": {
-        "term": "tee"
       }
     },
     "grammar": {
@@ -19177,9 +18076,6 @@
       },
       "ui": {
         "term": "Блокчейн-оракул"
-      },
-      "code": {
-        "term": "blockchain_oracle"
       }
     },
     "grammar": {
@@ -19228,9 +18124,6 @@
       },
       "ui": {
         "term": "MODEXP"
-      },
-      "code": {
-        "term": "modexp"
       }
     },
     "grammar": {
@@ -19280,9 +18173,6 @@
       },
       "ui": {
         "term": "Кран тестовой сети"
-      },
-      "code": {
-        "term": "testnet_faucet"
       }
     },
     "grammar": {
@@ -19332,9 +18222,6 @@
       },
       "ui": {
         "term": "Цензуроустойчивый"
-      },
-      "code": {
-        "term": "censorship_resistant"
       }
     },
     "grammar": {
@@ -19384,9 +18271,6 @@
       },
       "ui": {
         "term": "Токен управления"
-      },
-      "code": {
-        "term": "governance_token"
       }
     },
     "grammar": {
@@ -19436,9 +18320,6 @@
       },
       "ui": {
         "term": "Бандлер"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -19487,9 +18368,6 @@
       },
       "ui": {
         "term": "AMM"
-      },
-      "code": {
-        "term": "amm"
       }
     },
     "grammar": {
@@ -19542,9 +18420,6 @@
       },
       "ui": {
         "term": "Фарминг"
-      },
-      "code": {
-        "term": "yieldFarming"
       }
     },
     "grammar": {
@@ -19594,9 +18469,6 @@
       },
       "ui": {
         "term": "SBT"
-      },
-      "code": {
-        "term": "sbt"
       }
     },
     "grammar": {
@@ -19643,9 +18515,6 @@
       },
       "ui": {
         "term": "Жизненный цикл валидатора"
-      },
-      "code": {
-        "term": "validatorLifecycle"
       }
     },
     "grammar": {
@@ -19692,9 +18561,6 @@
       },
       "ui": {
         "term": "Модульный блокчейн"
-      },
-      "code": {
-        "term": "modularBlockchain"
       }
     },
     "grammar": {
@@ -19741,9 +18607,6 @@
       },
       "ui": {
         "term": "Монолитный блокчейн"
-      },
-      "code": {
-        "term": "monolithicBlockchain"
       }
     },
     "grammar": {
@@ -19792,9 +18655,6 @@
       },
       "ui": {
         "term": "RPGF"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -19843,9 +18703,6 @@
       },
       "ui": {
         "term": "TVL"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -19895,9 +18752,6 @@
       },
       "ui": {
         "term": "Квадратичное голосование"
-      },
-      "code": {
-        "term": "quadraticVoting"
       }
     },
     "grammar": {
@@ -19952,9 +18806,6 @@
       },
       "ui": {
         "term": "Бэкраннинг"
-      },
-      "code": {
-        "term": "backRunning"
       }
     },
     "grammar": {
@@ -20005,9 +18856,6 @@
       },
       "ui": {
         "term": "Уровень доступности данных"
-      },
-      "code": {
-        "term": "dataAvailabilityLayer"
       }
     },
     "grammar": {
@@ -20058,9 +18906,6 @@
       },
       "ui": {
         "term": "Обновляемый контракт"
-      },
-      "code": {
-        "term": "upgradeableContract"
       }
     },
     "grammar": {
@@ -20112,9 +18957,6 @@
       },
       "ui": {
         "term": "Служебный токен"
-      },
-      "code": {
-        "term": "utilityToken"
       }
     },
     "grammar": {
@@ -20165,9 +19007,6 @@
       },
       "ui": {
         "term": "Холодный кошелек"
-      },
-      "code": {
-        "term": "coldWallet"
       }
     },
     "grammar": {
@@ -20219,9 +19058,6 @@
       },
       "ui": {
         "term": "Путь деривации"
-      },
-      "code": {
-        "term": "derivationPath"
       }
     },
     "grammar": {
@@ -20273,9 +19109,6 @@
       },
       "ui": {
         "term": "Аппаратный кошелек"
-      },
-      "code": {
-        "term": "hardwareWallet"
       }
     },
     "grammar": {
@@ -20327,9 +19160,6 @@
       },
       "ui": {
         "term": "Горячий кошелек"
-      },
-      "code": {
-        "term": "hotWallet"
       }
     },
     "grammar": {
@@ -20379,9 +19209,6 @@
       },
       "ui": {
         "term": "Ключ"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -20433,9 +19260,6 @@
       },
       "ui": {
         "term": "Функция формирования ключа"
-      },
-      "code": {
-        "term": "keyDerivationFunction"
       }
     },
     "grammar": {
@@ -20485,9 +19309,6 @@
       },
       "ui": {
         "term": "Создать ключ доступа"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -20534,9 +19355,6 @@
       },
       "ui": {
         "term": "Отправить на нулевой адрес"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -20586,9 +19404,6 @@
       },
       "ui": {
         "term": "Лимит текучести валидаторов"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -20635,9 +19450,6 @@
       },
       "ui": {
         "term": "Обновить правила консенсуса"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -20687,9 +19499,6 @@
       },
       "ui": {
         "term": "Штраф за эквивокацию"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -20736,9 +19545,6 @@
       },
       "ui": {
         "term": "Голографический консенсус"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -20788,9 +19594,6 @@
       },
       "ui": {
         "term": "Утечка при бездействии"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -20842,9 +19645,6 @@
       },
       "ui": {
         "term": "График эмиссии"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -20894,9 +19694,6 @@
       },
       "ui": {
         "term": "Требуется абсолютное большинство"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -20948,9 +19745,6 @@
       },
       "ui": {
         "term": "Создать коммитмент"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -21002,9 +19796,6 @@
       },
       "ui": {
         "term": "DHT Статус"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -21056,9 +19847,6 @@
       },
       "ui": {
         "term": "Алгоритм Этхэш"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -21104,9 +19892,6 @@
       },
       "ui": {
         "term": "Хешрейт сети"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -21158,9 +19943,6 @@
       },
       "ui": {
         "term": "Алгоритм SHA"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -21212,9 +19994,6 @@
       },
       "ui": {
         "term": "Статус шарда"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -21266,9 +20045,6 @@
       },
       "ui": {
         "term": "Участвовать в доверенной установке"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -21320,9 +20096,6 @@
       },
       "ui": {
         "term": "Настройки API"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -21373,9 +20146,6 @@
       },
       "ui": {
         "term": "Текущий APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -21424,9 +20194,6 @@
       },
       "ui": {
         "term": "События отвязки"
-      },
-      "code": {
-        "term": "depeg"
       }
     },
     "grammar": {
@@ -21478,9 +20245,6 @@
       },
       "ui": {
         "term": "Непостоянная потеря"
-      },
-      "code": {
-        "term": "impermanent_loss"
       }
     },
     "grammar": {
@@ -21530,9 +20294,6 @@
       },
       "ui": {
         "term": "Индекс"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -21582,9 +20343,6 @@
       },
       "ui": {
         "term": "Токены ликвидности"
-      },
-      "code": {
-        "term": "liquidity_tokens"
       }
     },
     "grammar": {
@@ -21634,9 +20392,6 @@
       },
       "ui": {
         "term": "Избыточное обеспечение"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -21688,9 +20443,6 @@
       },
       "ui": {
         "term": "Привязка"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -21739,9 +20491,6 @@
       },
       "ui": {
         "term": "Влияние на цену"
-      },
-      "code": {
-        "term": "price_impact"
       }
     },
     "grammar": {
@@ -21795,9 +20544,6 @@
       },
       "ui": {
         "term": "Проскальзывание"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -21847,9 +20593,6 @@
       },
       "ui": {
         "term": "Eth1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -21893,9 +20636,6 @@
       },
       "ui": {
         "term": "Eth2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -21938,9 +20678,6 @@
       },
       "ui": {
         "term": "Атака 51%"
-      },
-      "code": {
-        "term": "51_percent_attack"
       }
     },
     "grammar": {
@@ -21989,9 +20726,6 @@
       },
       "ui": {
         "term": "Набор анонимности"
-      },
-      "code": {
-        "term": "anonymity_set"
       }
     },
     "grammar": {
@@ -22041,9 +20775,6 @@
       },
       "ui": {
         "term": "Защита от Сивиллы"
-      },
-      "code": {
-        "term": "anti_sybil"
       }
     },
     "grammar": {
@@ -22092,9 +20823,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "asic"
       }
     },
     "grammar": {
@@ -22143,9 +20871,6 @@
       },
       "ui": {
         "term": "Прямой порядок байтов"
-      },
-      "code": {
-        "term": "big_endian"
       }
     },
     "grammar": {
@@ -22194,9 +20919,6 @@
       },
       "ui": {
         "term": "Статус блока"
-      },
-      "code": {
-        "term": "block_status"
       }
     },
     "grammar": {
@@ -22248,9 +20970,6 @@
       },
       "ui": {
         "term": "Компиляция"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -22300,9 +21019,6 @@
       },
       "ui": {
         "term": "Вычислительная неосуществимость"
-      },
-      "code": {
-        "term": "computational_infeasibility"
       }
     },
     "grammar": {
@@ -22352,9 +21068,6 @@
       },
       "ui": {
         "term": "Рассматривается для включения"
-      },
-      "code": {
-        "term": "cfi"
       }
     },
     "grammar": {
@@ -22401,9 +21114,6 @@
       },
       "ui": {
         "term": "Криптоэкономика"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -22452,9 +21162,6 @@
       },
       "ui": {
         "term": "DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -22504,9 +21211,6 @@
       },
       "ui": {
         "term": "Инфраструктура DePIN"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -22562,9 +21266,6 @@
       },
       "ui": {
         "term": "Поиск пиров"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -22616,9 +21317,6 @@
       },
       "ui": {
         "term": "Двойная трата"
-      },
-      "code": {
-        "term": "doubleSpend"
       }
     },
     "grammar": {
@@ -22667,9 +21365,6 @@
       },
       "ui": {
         "term": "Клиент исполнения"
-      },
-      "code": {
-        "term": "executionClient"
       }
     },
     "grammar": {
@@ -22718,9 +21413,6 @@
       },
       "ui": {
         "term": "Уровень исполнения"
-      },
-      "code": {
-        "term": "executionLayer"
       }
     },
     "grammar": {
@@ -22770,9 +21462,6 @@
       },
       "ui": {
         "term": "Среда разработки (IDE)"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -22823,9 +21512,6 @@
       },
       "ui": {
         "term": "Легкий клиент"
-      },
-      "code": {
-        "term": "lightClient"
       }
     },
     "grammar": {
@@ -22872,9 +21558,6 @@
       },
       "ui": {
         "term": "Сообщение"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -22923,9 +21606,6 @@
       },
       "ui": {
         "term": "Вызов сообщения"
-      },
-      "code": {
-        "term": "messageCall"
       }
     },
     "grammar": {
@@ -22977,9 +21657,6 @@
       },
       "ui": {
         "term": "Сеть"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -23032,9 +21709,6 @@
       },
       "ui": {
         "term": "Шлюз вывода"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -23087,9 +21761,6 @@
       },
       "ui": {
         "term": "Оммер-блок"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -23142,9 +21813,6 @@
       },
       "ui": {
         "term": "Шлюз ввода"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -23200,9 +21868,6 @@
       },
       "ui": {
         "term": "Онбординг"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -23253,9 +21918,6 @@
       },
       "ui": {
         "term": "Разрешенный доступ"
-      },
-      "code": {
-        "term": "permissioned"
       }
     },
     "grammar": {
@@ -23301,9 +21963,6 @@
       },
       "ui": {
         "term": "Приватная сеть"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -23355,9 +22014,6 @@
       },
       "ui": {
         "term": "POAP"
-      },
-      "code": {
-        "term": "proofOfAttendance"
       }
     },
     "grammar": {
@@ -23408,9 +22064,6 @@
       },
       "ui": {
         "term": "Атака повторного входа"
-      },
-      "code": {
-        "term": "reEntrancyAttack"
       }
     },
     "grammar": {
@@ -23465,9 +22118,6 @@
       },
       "ui": {
         "term": "Вознаграждения"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -23517,9 +22167,6 @@
       },
       "ui": {
         "term": "Самосуверенитет"
-      },
-      "code": {
-        "term": "selfSovereignty"
       }
     },
     "grammar": {
@@ -23571,9 +22218,6 @@
       },
       "ui": {
         "term": "Сериализовать"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -23623,9 +22267,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -23675,9 +22316,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -23727,9 +22365,6 @@
       },
       "ui": {
         "term": "Раздувание состояния"
-      },
-      "code": {
-        "term": "stateBloat"
       }
     },
     "grammar": {
@@ -23782,9 +22417,6 @@
       },
       "ui": {
         "term": "Без состояния"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -23833,9 +22465,6 @@
       },
       "ui": {
         "term": "Атака Сивиллы"
-      },
-      "code": {
-        "term": "sybilAttack"
       }
     },
     "grammar": {
@@ -23888,9 +22517,6 @@
       },
       "ui": {
         "term": "Синхронизируется..."
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -23940,9 +22566,6 @@
       },
       "ui": {
         "term": "Терминальная общая сложность"
-      },
-      "code": {
-        "term": "terminalTotalDifficulty"
       }
     },
     "grammar": {
@@ -23992,9 +22615,6 @@
       },
       "ui": {
         "term": "Допущения о доверии"
-      },
-      "code": {
-        "term": "trustAssumptions"
       }
     },
     "grammar": {
@@ -24042,9 +22662,6 @@
       },
       "ui": {
         "term": "Минимизированное доверие"
-      },
-      "code": {
-        "term": "trust_minimized"
       }
     },
     "grammar": {
@@ -24088,9 +22705,6 @@
       },
       "ui": {
         "term": "Бездоверительность"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -24131,9 +22745,6 @@
       },
       "ui": {
         "term": "Тьюринг-полный"
-      },
-      "code": {
-        "term": "turing_complete"
       }
     },
     "grammar": {
@@ -24184,9 +22795,6 @@
       },
       "ui": {
         "term": "Веб2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -24230,9 +22838,6 @@
       },
       "ui": {
         "term": "Сэндвич-атака"
-      },
-      "code": {
-        "term": "sandwich_attack"
       }
     },
     "grammar": {
@@ -24287,9 +22892,6 @@
       },
       "ui": {
         "term": "Пакетирование"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -24332,9 +22934,6 @@
       },
       "ui": {
         "term": "Пространство блобов"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -24384,9 +22983,6 @@
       },
       "ui": {
         "term": "Экстренный вывод"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -24435,9 +23031,6 @@
       },
       "ui": {
         "term": "Доказательство ошибки"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -24487,9 +23080,6 @@
       },
       "ui": {
         "term": "Принудительный вывод"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -24539,9 +23129,6 @@
       },
       "ui": {
         "term": "Роллапы"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -24594,9 +23181,6 @@
       },
       "ui": {
         "term": "Финализация расчетов"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -24643,9 +23227,6 @@
       },
       "ui": {
         "term": "Каналы состояния"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -24694,9 +23275,6 @@
       },
       "ui": {
         "term": "Пропускная способность"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -24743,9 +23321,6 @@
       },
       "ui": {
         "term": "Валидиум"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -24794,9 +23369,6 @@
       },
       "ui": {
         "term": "Данные вызова"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -24843,9 +23415,6 @@
       },
       "ui": {
         "term": "Создание контракта"
-      },
-      "code": {
-        "term": "contractCreationTransaction"
       }
     },
     "grammar": {
@@ -24895,9 +23464,6 @@
       },
       "ui": {
         "term": "Ассемблер EVM"
-      },
-      "code": {
-        "term": "evmAssemblyLanguage"
       }
     },
     "grammar": {
@@ -24946,9 +23512,6 @@
       },
       "ui": {
         "term": "Оптимизация газа"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -24997,9 +23560,6 @@
       },
       "ui": {
         "term": "Неизменяемость кода"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -25051,9 +23611,6 @@
       },
       "ui": {
         "term": "Прекомпилированный контракт"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -25103,9 +23660,6 @@
       },
       "ui": {
         "term": "Защита от повторного входа"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -25157,9 +23711,6 @@
       },
       "ui": {
         "term": "Уничтожить"
-      },
-      "code": {
-        "term": "selfdestruct"
       }
     },
     "grammar": {
@@ -25208,9 +23759,6 @@
       },
       "ui": {
         "term": "Синглтон"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -25259,9 +23807,6 @@
       },
       "ui": {
         "term": "Встроенный ассемблер"
-      },
-      "code": {
-        "term": "solidity-inline-assembly"
       }
     },
     "grammar": {
@@ -25313,9 +23858,6 @@
       },
       "ui": {
         "term": "Состояние"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -25369,9 +23911,6 @@
       },
       "ui": {
         "term": "Востребовать"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -25421,9 +23960,6 @@
       },
       "ui": {
         "term": "Клифф"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -25476,9 +24012,6 @@
       },
       "ui": {
         "term": "Фракционализировать"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -25528,9 +24061,6 @@
       },
       "ui": {
         "term": "LP-токен"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -25579,9 +24109,6 @@
       },
       "ui": {
         "term": "Фабрика токенов"
-      },
-      "code": {
-        "term": "TokenFactory"
       }
     },
     "grammar": {
@@ -25630,9 +24157,6 @@
       },
       "ui": {
         "term": "URI токена"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -25684,9 +24208,6 @@
       },
       "ui": {
         "term": "Вестинг"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -25739,9 +24260,6 @@
       },
       "ui": {
         "term": "Обернутый токен"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -25793,9 +24311,6 @@
       },
       "ui": {
         "term": "Внутренние транзакции"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -25847,9 +24362,6 @@
       },
       "ui": {
         "term": "Макс. комиссия за газ"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -25896,9 +24408,6 @@
       },
       "ui": {
         "term": "Конструктор"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -25930,9 +24439,6 @@
       },
       "ui": {
         "term": "Чарльз Хоскинсон"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -25960,9 +24466,6 @@
       },
       "ui": {
         "term": "Гэвин Вуд"
-      },
-      "code": {
-        "term": "Gavin Wood"
       }
     },
     "plurals": null,
@@ -25990,9 +24493,6 @@
       },
       "ui": {
         "term": "Джозеф Любин"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -26020,9 +24520,6 @@
       },
       "ui": {
         "term": "Виталик Бутерин"
-      },
-      "code": {
-        "term": "Vitalik Buterin"
       }
     },
     "plurals": null,
@@ -26050,9 +24547,6 @@
       },
       "ui": {
         "term": "Вэй Дай"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -26080,9 +24574,6 @@
       },
       "ui": {
         "term": "Хром"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -26110,9 +24601,6 @@
       },
       "ui": {
         "term": "Криптокотики"
-      },
-      "code": {
-        "term": "CryptoKitties"
       }
     },
     "plurals": null,
@@ -26140,9 +24628,6 @@
       },
       "ui": {
         "term": "Денкун"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -26170,9 +24655,6 @@
       },
       "ui": {
         "term": "Дискорд"
-      },
-      "code": {
-        "term": "Discord"
       }
     },
     "plurals": null,
@@ -26200,9 +24682,6 @@
       },
       "ui": {
         "term": "Фейсбук"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -26230,9 +24709,6 @@
       },
       "ui": {
         "term": "Гёрли"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -26260,9 +24736,6 @@
       },
       "ui": {
         "term": "Холески"
-      },
-      "code": {
-        "term": "Holesky"
       }
     },
     "plurals": null,
@@ -26290,9 +24763,6 @@
       },
       "ui": {
         "term": "Майкрософт"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -26320,9 +24790,6 @@
       },
       "ui": {
         "term": "Нетфликс"
-      },
-      "code": {
-        "term": "Netflix"
       }
     },
     "plurals": null,
@@ -26350,9 +24817,6 @@
       },
       "ui": {
         "term": "Реддит"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -26380,9 +24844,6 @@
       },
       "ui": {
         "term": "Ропстен"
-      },
-      "code": {
-        "term": "Ropsten"
       }
     },
     "plurals": null,
@@ -26410,9 +24871,6 @@
       },
       "ui": {
         "term": "Телеграм"
-      },
-      "code": {
-        "term": "Telegram"
       }
     },
     "plurals": null,
@@ -26440,9 +24898,6 @@
       },
       "ui": {
         "term": "Твиттер"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -26470,9 +24925,6 @@
       },
       "ui": {
         "term": "Ютуб"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -26497,9 +24949,6 @@
         "term": "Aave"
       },
       "ui": {
-        "term": "Aave"
-      },
-      "code": {
         "term": "Aave"
       }
     },
@@ -26526,9 +24975,6 @@
       },
       "ui": {
         "term": "Arbitrum"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -26553,9 +24999,6 @@
         "term": "Binance"
       },
       "ui": {
-        "term": "Binance"
-      },
-      "code": {
         "term": "Binance"
       }
     },
@@ -26582,9 +25025,6 @@
       },
       "ui": {
         "term": "Coinbase"
-      },
-      "code": {
-        "term": "Coinbase"
       }
     },
     "plurals": null,
@@ -26609,9 +25049,6 @@
         "term": "ConsenSys"
       },
       "ui": {
-        "term": "ConsenSys"
-      },
-      "code": {
         "term": "ConsenSys"
       }
     },
@@ -26638,9 +25075,6 @@
       },
       "ui": {
         "term": "Filecoin"
-      },
-      "code": {
-        "term": "Filecoin"
       }
     },
     "plurals": null,
@@ -26665,9 +25099,6 @@
         "term": "Lido"
       },
       "ui": {
-        "term": "Lido"
-      },
-      "code": {
         "term": "Lido"
       }
     },
@@ -26694,9 +25125,6 @@
       },
       "ui": {
         "term": "MakerDAO"
-      },
-      "code": {
-        "term": "MakerDAO"
       }
     },
     "plurals": null,
@@ -26721,9 +25149,6 @@
         "term": "OpenSea"
       },
       "ui": {
-        "term": "OpenSea"
-      },
-      "code": {
         "term": "OpenSea"
       }
     },
@@ -26750,9 +25175,6 @@
       },
       "ui": {
         "term": "Optimism"
-      },
-      "code": {
-        "term": "Optimism"
       }
     },
     "plurals": null,
@@ -26777,9 +25199,6 @@
         "term": "PayPal"
       },
       "ui": {
-        "term": "PayPal"
-      },
-      "code": {
         "term": "PayPal"
       }
     },
@@ -26806,9 +25225,6 @@
       },
       "ui": {
         "term": "Polygon"
-      },
-      "code": {
-        "term": "Polygon"
       }
     },
     "plurals": null,
@@ -26834,9 +25250,6 @@
       },
       "ui": {
         "term": "Starknet"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -26861,9 +25274,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },

@@ -33,9 +33,6 @@
       },
       "ui": {
         "term": "Tuma Uthibitisho"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -89,9 +86,6 @@
       },
       "ui": {
         "term": "Daraja"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -145,9 +139,6 @@
       },
       "ui": {
         "term": "Teketeza Tokeni"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -192,9 +183,6 @@
       },
       "ui": {
         "term": "Uteketezaji"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -248,9 +236,6 @@
       },
       "ui": {
         "term": "Weka Dhamana"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -302,9 +287,6 @@
       },
       "ui": {
         "term": "Ugatuzi"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -354,9 +336,6 @@
       },
       "ui": {
         "term": "Iliyogatuliwa"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -403,9 +382,6 @@
       },
       "ui": {
         "term": "Kaimisha Kura"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -450,9 +426,6 @@
       },
       "ui": {
         "term": "Ukaimishaji"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -503,9 +476,6 @@
       },
       "ui": {
         "term": "Sambaza"
-      },
-      "code": {
-        "term": "kusambaza"
       }
     },
     "grammar": {
@@ -548,9 +518,6 @@
       },
       "ui": {
         "term": "Usambazaji"
-      },
-      "code": {
-        "term": "usambazaji"
       }
     },
     "grammar": {
@@ -600,9 +567,6 @@
       },
       "ui": {
         "term": "Sahihi ya Kidijitali"
-      },
-      "code": {
-        "term": "sahihi_ya_kidijitali"
       }
     },
     "grammar": {
@@ -651,9 +615,6 @@
       },
       "ui": {
         "term": "Sahihi"
-      },
-      "code": {
-        "term": "sahihi"
       }
     },
     "grammar": {
@@ -706,9 +667,6 @@
       },
       "ui": {
         "term": "Saini"
-      },
-      "code": {
-        "term": "kusaini"
       }
     },
     "grammar": {
@@ -752,9 +710,6 @@
       },
       "ui": {
         "term": "Simba Fiche"
-      },
-      "code": {
-        "term": "usimbaji_fiche"
       }
     },
     "grammar": {
@@ -804,9 +759,6 @@
       },
       "ui": {
         "term": "Simbua Fiche"
-      },
-      "code": {
-        "term": "usimbuaji_fiche"
       }
     },
     "grammar": {
@@ -856,9 +808,6 @@
       },
       "ui": {
         "term": "Ukamilifu"
-      },
-      "code": {
-        "term": "ukamilifu"
       }
     },
     "grammar": {
@@ -908,9 +857,6 @@
       },
       "ui": {
         "term": "Iliyokamilishwa"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -961,9 +907,6 @@
       },
       "ui": {
         "term": "Mchepuo"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -1012,9 +955,6 @@
       },
       "ui": {
         "term": "Mchepuo Mgumu"
-      },
-      "code": {
-        "term": "hardFork"
       }
     },
     "grammar": {
@@ -1063,9 +1003,6 @@
       },
       "ui": {
         "term": "Mchepuo Laini"
-      },
-      "code": {
-        "term": "softFork"
       }
     },
     "grammar": {
@@ -1116,9 +1053,6 @@
       },
       "ui": {
         "term": "Utawala"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1170,9 +1104,6 @@
       },
       "ui": {
         "term": "Heshi"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1222,9 +1153,6 @@
       },
       "ui": {
         "term": "Kazi ya Heshi"
-      },
-      "code": {
-        "term": "hashFunction"
       }
     },
     "grammar": {
@@ -1273,9 +1201,6 @@
       },
       "ui": {
         "term": "Kasi ya Heshi"
-      },
-      "code": {
-        "term": "hashRate"
       }
     },
     "grammar": {
@@ -1324,9 +1249,6 @@
       },
       "ui": {
         "term": "Uheshiji"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1375,9 +1297,6 @@
       },
       "ui": {
         "term": "Uwekaji Dhamana Wenye Ukwasi"
-      },
-      "code": {
-        "term": "liquid_staking"
       }
     },
     "grammar": {
@@ -1424,9 +1343,6 @@
       },
       "ui": {
         "term": "Uwekaji Dhamana Wa Pamoja"
-      },
-      "code": {
-        "term": "pooled_staking"
       }
     },
     "grammar": {
@@ -1473,9 +1389,6 @@
       },
       "ui": {
         "term": "Uwekaji Dhamana Upya"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1524,9 +1437,6 @@
       },
       "ui": {
         "term": "Uwekaji Dhamana Wa Kujitegemea"
-      },
-      "code": {
-        "term": "solo_staking"
       }
     },
     "grammar": {
@@ -1578,9 +1488,6 @@
       },
       "ui": {
         "term": "Weka Dhamana"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1630,9 +1537,6 @@
       },
       "ui": {
         "term": "Iliyowekwa Dhamana"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1679,9 +1583,6 @@
       },
       "ui": {
         "term": "Mweka Dhamana"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1731,9 +1632,6 @@
       },
       "ui": {
         "term": "Uwekaji Dhamana"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1780,9 +1678,6 @@
       },
       "ui": {
         "term": "Amana Ya Uwekaji Dhamana"
-      },
-      "code": {
-        "term": "staking_deposit"
       }
     },
     "grammar": {
@@ -1831,9 +1726,6 @@
       },
       "ui": {
         "term": "Bwawa La Uwekaji Dhamana"
-      },
-      "code": {
-        "term": "staking_pool"
       }
     },
     "grammar": {
@@ -1885,9 +1777,6 @@
       },
       "ui": {
         "term": "Ondoa Dhamana"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1942,9 +1831,6 @@
       },
       "ui": {
         "term": "Filisisha"
-      },
-      "code": {
-        "term": "ufilisishaji"
       }
     },
     "grammar": {
@@ -1996,9 +1882,6 @@
       },
       "ui": {
         "term": "Mchimbaji"
-      },
-      "code": {
-        "term": "mchimbaji"
       }
     },
     "grammar": {
@@ -2050,9 +1933,6 @@
       },
       "ui": {
         "term": "Uchimbaji"
-      },
-      "code": {
-        "term": "uchimbaji"
       }
     },
     "grammar": {
@@ -2107,9 +1987,6 @@
       },
       "ui": {
         "term": "Fua"
-      },
-      "code": {
-        "term": "fua"
       }
     },
     "grammar": {
@@ -2157,9 +2034,6 @@
       },
       "ui": {
         "term": "Ufuzi"
-      },
-      "code": {
-        "term": "ufuzi"
       }
     },
     "grammar": {
@@ -2214,9 +2088,6 @@
       },
       "ui": {
         "term": "Ukataji"
-      },
-      "code": {
-        "term": "ukataji"
       }
     },
     "grammar": {
@@ -2268,9 +2139,6 @@
       },
       "ui": {
         "term": "Mkataji"
-      },
-      "code": {
-        "term": "mkataji"
       }
     },
     "grammar": {
@@ -2325,9 +2193,6 @@
       },
       "ui": {
         "term": "Badilisha"
-      },
-      "code": {
-        "term": "badilishano"
       }
     },
     "grammar": {
@@ -2378,9 +2243,6 @@
       },
       "ui": {
         "term": "Tuma Muamala"
-      },
-      "code": {
-        "term": "muamala"
       }
     },
     "grammar": {
@@ -2432,9 +2294,6 @@
       },
       "ui": {
         "term": "Mthibitishaji"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2483,9 +2342,6 @@
       },
       "ui": {
         "term": "Thibitisha Kitalu"
-      },
-      "code": {
-        "term": "blockValidation"
       }
     },
     "grammar": {
@@ -2535,9 +2391,6 @@
       },
       "ui": {
         "term": "Piga Kura"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2589,9 +2442,6 @@
       },
       "ui": {
         "term": "Mchakato wa Kupiga Kura"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2638,9 +2488,6 @@
       },
       "ui": {
         "term": "Ethereum"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2690,9 +2537,6 @@
       },
       "ui": {
         "term": "Mkataba"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2741,9 +2585,6 @@
       },
       "ui": {
         "term": "Kitalu"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2792,9 +2633,6 @@
       },
       "ui": {
         "term": "Mkataba Mahiri"
-      },
-      "code": {
-        "term": "smartContract"
       }
     },
     "grammar": {
@@ -2843,9 +2681,6 @@
       },
       "ui": {
         "term": "Nodi"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2894,9 +2729,6 @@
       },
       "ui": {
         "term": "Tokeni"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2945,9 +2777,6 @@
       },
       "ui": {
         "term": "Nakili Anwani"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -2999,9 +2828,6 @@
       },
       "ui": {
         "term": "Tuma ETH"
-      },
-      "code": {
-        "term": "ETH"
       }
     },
     "grammar": {
@@ -3052,9 +2878,6 @@
       },
       "ui": {
         "term": "Chunguza Mnyororo wa Vitalu"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -3103,9 +2926,6 @@
       },
       "ui": {
         "term": "Fungua Akaunti"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -3157,9 +2977,6 @@
       },
       "ui": {
         "term": "Badili Mnyororo"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -3208,9 +3025,6 @@
       },
       "ui": {
         "term": "Maelezo ya Itifaki"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -3263,9 +3077,6 @@
       },
       "ui": {
         "term": "Unganisha Mkoba"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3317,9 +3128,6 @@
       },
       "ui": {
         "term": "Kadirio la Gesi"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3371,9 +3179,6 @@
       },
       "ui": {
         "term": "Mitandao ya Rollup"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3422,9 +3227,6 @@
       },
       "ui": {
         "term": "Soma EIP"
-      },
-      "code": {
-        "term": "EIP"
       }
     },
     "grammar": {
@@ -3474,9 +3276,6 @@
       },
       "ui": {
         "term": "Hitaji"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3517,9 +3316,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3560,9 +3356,6 @@
       },
       "ui": {
         "term": "Solidity"
-      },
-      "code": {
-        "term": "solidity"
       }
     },
     "grammar": {
@@ -3603,9 +3396,6 @@
       },
       "ui": {
         "term": "Tukio"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3652,9 +3442,6 @@
       },
       "ui": {
         "term": "Mnyororoni"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3697,9 +3484,6 @@
       },
       "ui": {
         "term": "Etha"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3742,9 +3526,6 @@
       },
       "ui": {
         "term": "Mashine Pepe ya Ethereum"
-      },
-      "code": {
-        "term": "evm"
       }
     },
     "grammar": {
@@ -3794,9 +3575,6 @@
       },
       "ui": {
         "term": "Programu Tumizi Iliyogatuliwa"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3845,9 +3623,6 @@
       },
       "ui": {
         "term": "Tokani Isiyobadilishika"
-      },
-      "code": {
-        "term": "nft"
       }
     },
     "grammar": {
@@ -3900,9 +3675,6 @@
       },
       "ui": {
         "term": "Hamisha"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3955,9 +3727,6 @@
       },
       "ui": {
         "term": "Toa"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -4011,9 +3780,6 @@
       },
       "ui": {
         "term": "Mwafaka"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -4062,9 +3828,6 @@
       },
       "ui": {
         "term": "Mtandao Mkuu"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -4111,9 +3874,6 @@
       },
       "ui": {
         "term": "Nje ya mnyororo"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -4153,9 +3913,6 @@
         "term": "ERC-20"
       },
       "ui": {
-        "term": "ERC-20"
-      },
-      "code": {
         "term": "ERC-20"
       }
     },
@@ -4206,9 +3963,6 @@
       },
       "ui": {
         "term": "Orakeli"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -4257,9 +4011,6 @@
       },
       "ui": {
         "term": "Blobu"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -4306,9 +4057,6 @@
       },
       "ui": {
         "term": "MetaMask"
-      },
-      "code": {
-        "term": "metamask"
       }
     },
     "grammar": {
@@ -4349,9 +4097,6 @@
       },
       "ui": {
         "term": "OpenZeppelin"
-      },
-      "code": {
-        "term": "openzeppelin"
       }
     },
     "grammar": {
@@ -4392,9 +4137,6 @@
       },
       "ui": {
         "term": "Slither"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4443,9 +4185,6 @@
       },
       "ui": {
         "term": "Sloti"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4494,9 +4233,6 @@
       },
       "ui": {
         "term": "DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4545,9 +4281,6 @@
       },
       "ui": {
         "term": "Mtandao wa Majaribio"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4596,9 +4329,6 @@
       },
       "ui": {
         "term": "Mteja wa Mwafaka"
-      },
-      "code": {
-        "term": "consensus_client"
       }
     },
     "grammar": {
@@ -4648,9 +4378,6 @@
       },
       "ui": {
         "term": "tabaka la 2 (l2)"
-      },
-      "code": {
-        "term": "l2"
       }
     },
     "grammar": {
@@ -4697,9 +4424,6 @@
       },
       "ui": {
         "term": "ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4748,9 +4472,6 @@
       },
       "ui": {
         "term": "Ufunguo wa Siri"
-      },
-      "code": {
-        "term": "private_key"
       }
     },
     "grammar": {
@@ -4800,9 +4521,6 @@
       },
       "ui": {
         "term": "Kripto"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4852,9 +4570,6 @@
       },
       "ui": {
         "term": "tabaka la 1 (l1)"
-      },
-      "code": {
-        "term": "l1"
       }
     },
     "grammar": {
@@ -4903,9 +4618,6 @@
       },
       "ui": {
         "term": "Thamani ya Juu Inayoweza Kutolewa"
-      },
-      "code": {
-        "term": "MEV"
       }
     },
     "grammar": {
@@ -4957,9 +4669,6 @@
       },
       "ui": {
         "term": "Jitoa"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -5009,9 +4718,6 @@
       },
       "ui": {
         "term": "Msimbo wa Operesheni"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -5061,9 +4767,6 @@
       },
       "ui": {
         "term": "Fedha Zilizogatuliwa"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -5110,9 +4813,6 @@
       },
       "ui": {
         "term": "Echidna"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -5161,9 +4861,6 @@
       },
       "ui": {
         "term": "Faragha"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -5210,9 +4907,6 @@
       },
       "ui": {
         "term": "Manticore"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -5256,9 +4950,6 @@
       },
       "ui": {
         "term": "Rollup ya Optimistic"
-      },
-      "code": {
-        "term": "optimisticRollup"
       }
     },
     "grammar": {
@@ -5308,9 +4999,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "ERC"
       }
     },
     "grammar": {
@@ -5357,9 +5045,6 @@
       },
       "ui": {
         "term": "Plasma"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5406,9 +5091,6 @@
       },
       "ui": {
         "term": "Maktaba"
-      },
-      "code": {
-        "term": "maktaba"
       }
     },
     "grammar": {
@@ -5455,9 +5137,6 @@
       },
       "ui": {
         "term": "Uniswap"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -5507,9 +5186,6 @@
       },
       "ui": {
         "term": "Unganisho"
-      },
-      "code": {
-        "term": "theMerge"
       }
     },
     "grammar": {
@@ -5558,9 +5234,6 @@
       },
       "ui": {
         "term": "Uthibitisho ZK"
-      },
-      "code": {
-        "term": "zkProof"
       }
     },
     "grammar": {
@@ -5609,9 +5282,6 @@
       },
       "ui": {
         "term": "Bitcoin"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5660,9 +5330,6 @@
       },
       "ui": {
         "term": "Upatikanaji wa Data"
-      },
-      "code": {
-        "term": "dataAvailability"
       }
     },
     "grammar": {
@@ -5711,9 +5378,6 @@
       },
       "ui": {
         "term": "Logi"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5760,9 +5424,6 @@
       },
       "ui": {
         "term": "Mnyororo wa Beacon"
-      },
-      "code": {
-        "term": "beaconChain"
       }
     },
     "grammar": {
@@ -5809,9 +5470,6 @@
       },
       "ui": {
         "term": "Ukwasi"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5860,9 +5518,6 @@
       },
       "ui": {
         "term": "Kipindi"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5911,9 +5566,6 @@
       },
       "ui": {
         "term": "Mtandao Mkuu"
-      },
-      "code": {
-        "term": "ethereumMainnet"
       }
     },
     "grammar": {
@@ -5963,9 +5615,6 @@
       },
       "ui": {
         "term": "Wasilisha Pendekezo"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -6014,9 +5663,6 @@
       },
       "ui": {
         "term": "Mpendekezaji wa Bloku"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -6065,9 +5711,6 @@
       },
       "ui": {
         "term": "Tabaka la Mwafaka"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -6119,9 +5762,6 @@
       },
       "ui": {
         "term": "Ongeza Mwenza"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -6168,9 +5808,6 @@
       },
       "ui": {
         "term": "API ya JSON-RPC"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -6219,9 +5856,6 @@
       },
       "ui": {
         "term": "Nonsi"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -6268,9 +5902,6 @@
       },
       "ui": {
         "term": "Kikao cha IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -6317,9 +5948,6 @@
       },
       "ui": {
         "term": "Endesha Nodi Kamili"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -6371,9 +5999,6 @@
       },
       "ui": {
         "term": "Sifuri-Maarifa"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -6420,9 +6045,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -6471,9 +6093,6 @@
       },
       "ui": {
         "term": "Kituo cha Ukaguzi"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6522,9 +6141,6 @@
       },
       "ui": {
         "term": "Pectra"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6574,9 +6190,6 @@
       },
       "ui": {
         "term": "Sarafu-fiche"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6628,9 +6241,6 @@
       },
       "ui": {
         "term": "Mhakiki"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6682,9 +6292,6 @@
       },
       "ui": {
         "term": "Mjenzi"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6733,9 +6340,6 @@
       },
       "ui": {
         "term": "Ufunguo wa Umma"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6784,9 +6388,6 @@
       },
       "ui": {
         "term": "Mnyororo wa Kando"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6833,9 +6434,6 @@
       },
       "ui": {
         "term": "Fusaka"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6885,9 +6483,6 @@
       },
       "ui": {
         "term": "Data Fafanuzi"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6937,9 +6532,6 @@
       },
       "ui": {
         "term": "Kiolesura cha Jozi (ABI)"
-      },
-      "code": {
-        "term": "kiolesura_cha_jozi_cha_programu_abi"
       }
     },
     "grammar": {
@@ -6986,9 +6578,6 @@
       },
       "ui": {
         "term": "Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -7031,9 +6620,6 @@
       },
       "ui": {
         "term": "Ether Iliyofungwa"
-      },
-      "code": {
-        "term": "ether_iliyofungwa_weth"
       }
     },
     "grammar": {
@@ -7080,9 +6666,6 @@
       },
       "ui": {
         "term": "zkEVM"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -7125,9 +6708,6 @@
       },
       "ui": {
         "term": "Ada ya Gesi"
-      },
-      "code": {
-        "term": "ada_ya_gesi"
       }
     },
     "grammar": {
@@ -7174,9 +6754,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -7219,9 +6796,6 @@
       },
       "ui": {
         "term": "Kikomo cha Gesi"
-      },
-      "code": {
-        "term": "kikomo_cha_gesi"
       }
     },
     "grammar": {
@@ -7271,9 +6845,6 @@
       },
       "ui": {
         "term": "Ada ya Kipaumbele"
-      },
-      "code": {
-        "term": "ada_ya_kipaumbele"
       }
     },
     "grammar": {
@@ -7322,9 +6893,6 @@
       },
       "ui": {
         "term": "Utaratibu wa Makubaliano"
-      },
-      "code": {
-        "term": "utaratibu_wa_makubaliano"
       }
     },
     "grammar": {
@@ -7371,9 +6939,6 @@
       },
       "ui": {
         "term": "Kiwango cha ERC-721"
-      },
-      "code": {
-        "term": "erc_721"
       }
     },
     "grammar": {
@@ -7416,9 +6981,6 @@
       },
       "ui": {
         "term": "ENS"
-      },
-      "code": {
-        "term": "ens"
       }
     },
     "grammar": {
@@ -7470,9 +7032,6 @@
       },
       "ui": {
         "term": "Mthibitishaji"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -7521,9 +7080,6 @@
       },
       "ui": {
         "term": "Chaneli ya Hali"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -7572,9 +7128,6 @@
       },
       "ui": {
         "term": "Ada ya Muamala"
-      },
-      "code": {
-        "term": "transactionFee"
       }
     },
     "grammar": {
@@ -7623,9 +7176,6 @@
       },
       "ui": {
         "term": "Akaunti (EOA)"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -7674,9 +7224,6 @@
       },
       "ui": {
         "term": "Uthibitisho wa Uhalali"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -7726,9 +7273,6 @@
       },
       "ui": {
         "term": "Bomba"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7775,9 +7319,6 @@
       },
       "ui": {
         "term": "Mtandao wa Sepolia"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7821,9 +7362,6 @@
       },
       "ui": {
         "term": "Kichunguzi cha Bloku"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -7876,9 +7414,6 @@
       },
       "ui": {
         "term": "Tengua"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7921,9 +7456,6 @@
       },
       "ui": {
         "term": "Taasisi ya Ethereum"
-      },
-      "code": {
-        "term": "ethereum_foundation"
       }
     },
     "grammar": {
@@ -7975,9 +7507,6 @@
       },
       "ui": {
         "term": "Utambulisho Uliogatuliwa"
-      },
-      "code": {
-        "term": "decentralized_identity"
       }
     },
     "grammar": {
@@ -8029,9 +7558,6 @@
       },
       "ui": {
         "term": "Mpendekezaji"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -8081,9 +7607,6 @@
       },
       "ui": {
         "term": "Kriptografia"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -8132,9 +7655,6 @@
       },
       "ui": {
         "term": "Msimbo wa Baiti"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -8181,9 +7701,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -8230,9 +7747,6 @@
       },
       "ui": {
         "term": "Lighthouse"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -8281,9 +7795,6 @@
       },
       "ui": {
         "term": "Bei ya Gesi"
-      },
-      "code": {
-        "term": "gas_price"
       }
     },
     "grammar": {
@@ -8333,9 +7844,6 @@
       },
       "ui": {
         "term": "Rika-kwa-Rika"
-      },
-      "code": {
-        "term": "p2p"
       }
     },
     "grammar": {
@@ -8382,9 +7890,6 @@
       },
       "ui": {
         "term": "Glamsterdam"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -8431,9 +7936,6 @@
       },
       "ui": {
         "term": "Nethermind"
-      },
-      "code": {
-        "term": "nethermind"
       }
     },
     "grammar": {
@@ -8476,9 +7978,6 @@
       },
       "ui": {
         "term": "Ushahidi wa Udanganyifu"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -8527,9 +8026,6 @@
       },
       "ui": {
         "term": "Ushahidi wa Merkle"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -8578,9 +8074,6 @@
       },
       "ui": {
         "term": "Sayansi Iliyogatuliwa"
-      },
-      "code": {
-        "term": "desci"
       }
     },
     "grammar": {
@@ -8627,9 +8120,6 @@
       },
       "ui": {
         "term": "Bila Hitaji la Uaminifu"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -8672,9 +8162,6 @@
       },
       "ui": {
         "term": "Danksharding"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -8723,9 +8210,6 @@
       },
       "ui": {
         "term": "Algoriti ya Mchepuko"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8772,9 +8256,6 @@
       },
       "ui": {
         "term": "Ada ya Msingi"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8821,9 +8302,6 @@
       },
       "ui": {
         "term": "Erigon"
-      },
-      "code": {
-        "term": "erigon"
       }
     },
     "grammar": {
@@ -8867,9 +8345,6 @@
       },
       "ui": {
         "term": "Idhinisha"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8914,9 +8389,6 @@
       },
       "ui": {
         "term": "Mti wa Merkle"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -8967,9 +8439,6 @@
       },
       "ui": {
         "term": "Nodi Nyepesi"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -9021,9 +8490,6 @@
       },
       "ui": {
         "term": "Kirai cha Mbegu"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -9072,9 +8538,6 @@
       },
       "ui": {
         "term": "Kamati"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -9123,9 +8586,6 @@
       },
       "ui": {
         "term": "Besu"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -9172,9 +8632,6 @@
       },
       "ui": {
         "term": "ZK-SNARK"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -9228,9 +8685,6 @@
       },
       "ui": {
         "term": "Mjenga Kizuizi"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -9277,9 +8731,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -9328,9 +8779,6 @@
       },
       "ui": {
         "term": "Salio Tendaji"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -9381,9 +8829,6 @@
       },
       "ui": {
         "term": "Kichwa cha Kizuizi"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -9435,9 +8880,6 @@
       },
       "ui": {
         "term": "Mtambuko-mnyororo"
-      },
-      "code": {
-        "term": "cross_chain"
       }
     },
     "grammar": {
@@ -9484,9 +8926,6 @@
       },
       "ui": {
         "term": "Proto-Danksharding"
-      },
-      "code": {
-        "term": "proto_danksharding"
       }
     },
     "grammar": {
@@ -9533,9 +8972,6 @@
       },
       "ui": {
         "term": "Reth"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -9586,9 +9022,6 @@
       },
       "ui": {
         "term": "Tazama Stakabadhi"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -9642,9 +9075,6 @@
       },
       "ui": {
         "term": "Kopesha"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -9698,9 +9128,6 @@
       },
       "ui": {
         "term": "Weka kwenye Hifadhi"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -9750,9 +9177,6 @@
       },
       "ui": {
         "term": "Weka Nodi ya Uanzishaji"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -9804,9 +9228,6 @@
       },
       "ui": {
         "term": "Toa Kibali"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -9857,9 +9278,6 @@
       },
       "ui": {
         "term": "Hali ya Mempool"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -9908,9 +9326,6 @@
       },
       "ui": {
         "term": "DVT"
-      },
-      "code": {
-        "term": "dvt"
       }
     },
     "grammar": {
@@ -9959,9 +9374,6 @@
       },
       "ui": {
         "term": "DEX"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -10013,9 +9425,6 @@
       },
       "ui": {
         "term": "Mtafutaji"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -10062,9 +9471,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -10106,9 +9512,6 @@
       },
       "ui": {
         "term": "Bila Ruhusa"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -10149,9 +9552,6 @@
       },
       "ui": {
         "term": "Prysm"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -10192,9 +9592,6 @@
       },
       "ui": {
         "term": "Teku"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -10235,9 +9632,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -10280,9 +9674,6 @@
       },
       "ui": {
         "term": "Utengano wa PBS"
-      },
-      "code": {
-        "term": "pbs"
       }
     },
     "grammar": {
@@ -10331,9 +9722,6 @@
       },
       "ui": {
         "term": "Uthibitisho wa Sloti Moja"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -10383,9 +9771,6 @@
       },
       "ui": {
         "term": "Nodi ya Kumbukumbu"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -10432,9 +9817,6 @@
       },
       "ui": {
         "term": "Lodestar"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -10480,9 +9862,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -10532,9 +9911,6 @@
       },
       "ui": {
         "term": "Rasilimali ya Dijitali"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -10583,9 +9959,6 @@
       },
       "ui": {
         "term": "Mpangaji"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -10632,9 +10005,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -10683,9 +10053,6 @@
       },
       "ui": {
         "term": "Mzizi wa Merkle"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -10732,9 +10099,6 @@
       },
       "ui": {
         "term": "Tellor"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -10783,9 +10147,6 @@
       },
       "ui": {
         "term": "Ajenti wa AI"
-      },
-      "code": {
-        "term": "ai_agent"
       }
     },
     "grammar": {
@@ -10834,9 +10195,6 @@
       },
       "ui": {
         "term": "Ugumu"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -10883,9 +10241,6 @@
       },
       "ui": {
         "term": "Mpangilio Upya"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -10937,9 +10292,6 @@
       },
       "ui": {
         "term": "Thibitisha"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -10980,9 +10332,6 @@
       },
       "ui": {
         "term": "Nimbus"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -11028,9 +10377,6 @@
       },
       "ui": {
         "term": "Isiyobadilika"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -11077,9 +10423,6 @@
       },
       "ui": {
         "term": "Soko la Ubashiri"
-      },
-      "code": {
-        "term": "prediction_market"
       }
     },
     "grammar": {
@@ -11128,9 +10471,6 @@
       },
       "ui": {
         "term": "RLP"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -11180,9 +10520,6 @@
       },
       "ui": {
         "term": "Uthibitishaji Rasmi"
-      },
-      "code": {
-        "term": "formal_verification"
       }
     },
     "grammar": {
@@ -11225,9 +10562,6 @@
       },
       "ui": {
         "term": "Udhanifu wa Akaunti"
-      },
-      "code": {
-        "term": "account_abstraction"
       }
     },
     "grammar": {
@@ -11268,9 +10602,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "daggerHashimoto"
       }
     },
     "grammar": {
@@ -11317,9 +10648,6 @@
       },
       "ui": {
         "term": "ZK-STARK"
-      },
-      "code": {
-        "term": "zkStark"
       }
     },
     "grammar": {
@@ -11368,9 +10696,6 @@
       },
       "ui": {
         "term": "Unasibu"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -11413,9 +10738,6 @@
       },
       "ui": {
         "term": "Mkakati"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -11464,9 +10786,6 @@
       },
       "ui": {
         "term": "Rasilimali za RWA"
-      },
-      "code": {
-        "term": "rwa"
       }
     },
     "grammar": {
@@ -11519,9 +10838,6 @@
       },
       "ui": {
         "term": "Mzidio"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -11571,9 +10887,6 @@
       },
       "ui": {
         "term": "Heshi ya Muamala"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -11623,9 +10936,6 @@
       },
       "ui": {
         "term": "Saini-Nyingi"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -11675,9 +10985,6 @@
       },
       "ui": {
         "term": "Sarafu Thabiti"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -11724,9 +11031,6 @@
       },
       "ui": {
         "term": "Waraka wa Manjano"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -11777,9 +11081,6 @@
       },
       "ui": {
         "term": "Utangamano"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -11830,9 +11131,6 @@
       },
       "ui": {
         "term": "Mkataba wa Uwakilishi"
-      },
-      "code": {
-        "term": "proxy_contract"
       }
     },
     "grammar": {
@@ -11881,9 +11179,6 @@
       },
       "ui": {
         "term": "Grafu Ndogo"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -11934,9 +11229,6 @@
       },
       "ui": {
         "term": "Mwingiliano"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -11987,9 +11279,6 @@
       },
       "ui": {
         "term": "Anuwai ya Wateja"
-      },
-      "code": {
-        "term": "client_diversity"
       }
     },
     "grammar": {
@@ -12038,9 +11327,6 @@
       },
       "ui": {
         "term": "Shanghai"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -12091,9 +11377,6 @@
       },
       "ui": {
         "term": "Fedha za Ufufuaji"
-      },
-      "code": {
-        "term": "refi"
       }
     },
     "grammar": {
@@ -12142,9 +11425,6 @@
       },
       "ui": {
         "term": "Akaunti ya Mkataba"
-      },
-      "code": {
-        "term": "contract_account"
       }
     },
     "grammar": {
@@ -12191,9 +11471,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -12244,9 +11521,6 @@
       },
       "ui": {
         "term": "Tuzo ya Bloku"
-      },
-      "code": {
-        "term": "block_reward"
       }
     },
     "grammar": {
@@ -12295,9 +11569,6 @@
       },
       "ui": {
         "term": "Muda wa Kitalu"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -12344,9 +11615,6 @@
       },
       "ui": {
         "term": "Waraka Mweupe"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -12395,9 +11663,6 @@
       },
       "ui": {
         "term": "Usampulishaji wa Data"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -12447,9 +11712,6 @@
       },
       "ui": {
         "term": "Iliyohalalishwa"
-      },
-      "code": {
-        "term": "justified"
       }
     },
     "grammar": {
@@ -12498,9 +11760,6 @@
       },
       "ui": {
         "term": "Mtoa Ukwasi"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -12546,9 +11805,6 @@
         "term": "libp2p"
       },
       "ui": {
-        "term": "libp2p"
-      },
-      "code": {
         "term": "libp2p"
       }
     },
@@ -12599,9 +11855,6 @@
       },
       "ui": {
         "term": "Mkusanyiko wa Maarifa Sifuri"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -12650,9 +11903,6 @@
       },
       "ui": {
         "term": "Chainlink"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -12701,9 +11951,6 @@
       },
       "ui": {
         "term": "Mkopo wa Ghafla"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -12750,9 +11997,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -12799,9 +12043,6 @@
       },
       "ui": {
         "term": "MEV-Boost"
-      },
-      "code": {
-        "term": "MEV-Boost"
       }
     },
     "grammar": {
@@ -12841,9 +12082,6 @@
         "term": "Cancun"
       },
       "ui": {
-        "term": "Cancun"
-      },
-      "code": {
         "term": "Cancun"
       }
     },
@@ -12887,9 +12125,6 @@
       },
       "ui": {
         "term": "Mkataba wa Amana"
-      },
-      "code": {
-        "term": "deposit_contract"
       }
     },
     "grammar": {
@@ -12938,9 +12173,6 @@
       },
       "ui": {
         "term": "Mzigo wa Utekelezaji"
-      },
-      "code": {
-        "term": "execution_payload"
       }
     },
     "grammar": {
@@ -12989,9 +12221,6 @@
       },
       "ui": {
         "term": "Uthibitisho wa Mamlaka"
-      },
-      "code": {
-        "term": "proof_of_authority"
       }
     },
     "grammar": {
@@ -13038,9 +12267,6 @@
       },
       "ui": {
         "term": "Uchaguzi wa Siri wa Kiongozi"
-      },
-      "code": {
-        "term": "secret_leader_election"
       }
     },
     "grammar": {
@@ -13089,9 +12315,6 @@
       },
       "ui": {
         "term": "Kamati ya Usawazishaji"
-      },
-      "code": {
-        "term": "sync_committee"
       }
     },
     "grammar": {
@@ -13143,9 +12366,6 @@
       },
       "ui": {
         "term": "Ukopaji"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -13193,9 +12413,6 @@
       },
       "ui": {
         "term": "Uingiaji Upya"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -13235,9 +12452,6 @@
         "term": "ERC-1155"
       },
       "ui": {
-        "term": "ERC-1155"
-      },
-      "code": {
         "term": "ERC-1155"
       }
     },
@@ -13288,9 +12502,6 @@
       },
       "ui": {
         "term": "Tao la Duaradufu"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -13336,9 +12547,6 @@
         "term": "UTXO"
       },
       "ui": {
-        "term": "UTXO"
-      },
-      "code": {
         "term": "UTXO"
       }
     },
@@ -13389,9 +12597,6 @@
       },
       "ui": {
         "term": "Tokheni Mbadala"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -13440,9 +12645,6 @@
       },
       "ui": {
         "term": "Ufadhili wa Kipeo cha Pili"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -13494,9 +12696,6 @@
       },
       "ui": {
         "term": "Kikusanywa"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -13546,9 +12745,6 @@
       },
       "ui": {
         "term": "Kitalu cha Kinara"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -13597,9 +12793,6 @@
       },
       "ui": {
         "term": "Udhanifu Dhaifu"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -13645,9 +12838,6 @@
         "term": "APR"
       },
       "ui": {
-        "term": "APR"
-      },
-      "code": {
         "term": "APR"
       }
     },
@@ -13697,9 +12887,6 @@
       },
       "ui": {
         "term": "Bwawa la Ukwasi"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -13749,9 +12936,6 @@
       },
       "ui": {
         "term": "Kitalu cha Asili"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -13798,9 +12982,6 @@
       },
       "ui": {
         "term": "Shapella"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -13841,9 +13022,6 @@
       },
       "ui": {
         "term": "Inayoweza Kuunganishwa"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -13886,9 +13064,6 @@
       },
       "ui": {
         "term": "Trie ya Hali"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -13935,9 +13110,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "LMD_GHOST"
       }
     },
     "grammar": {
@@ -13980,9 +13152,6 @@
       },
       "ui": {
         "term": "Anwani Fiche"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -14029,9 +13198,6 @@
       },
       "ui": {
         "term": "DAI"
-      },
-      "code": {
-        "term": "DAI"
       }
     },
     "grammar": {
@@ -14077,9 +13243,6 @@
       },
       "ui": {
         "term": "Uundaji wa Tokeni"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -14125,9 +13288,6 @@
       },
       "ui": {
         "term": "Mtatuaji"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -14177,9 +13337,6 @@
       },
       "ui": {
         "term": "Isiyo ya Udhamini"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -14223,9 +13380,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "maxeb"
       }
     },
     "grammar": {
@@ -14275,9 +13429,6 @@
       },
       "ui": {
         "term": "Entropi"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -14324,9 +13475,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -14375,9 +13523,6 @@
       },
       "ui": {
         "term": "Discv5"
-      },
-      "code": {
-        "term": "discv5"
       }
     },
     "grammar": {
@@ -14426,9 +13571,6 @@
       },
       "ui": {
         "term": "Potal Netwoki"
-      },
-      "code": {
-        "term": "portal_network"
       }
     },
     "grammar": {
@@ -14479,9 +13621,6 @@
       },
       "ui": {
         "term": "Bomu la Ugumu"
-      },
-      "code": {
-        "term": "difficultyBomb"
       }
     },
     "grammar": {
@@ -14532,9 +13671,6 @@
       },
       "ui": {
         "term": "Inayoingiliana"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -14583,9 +13719,6 @@
       },
       "ui": {
         "term": "Ukomo wa Hali"
-      },
-      "code": {
-        "term": "stateExpiry"
       }
     },
     "grammar": {
@@ -14636,9 +13769,6 @@
       },
       "ui": {
         "term": "Shahidi"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -14685,9 +13815,6 @@
       },
       "ui": {
         "term": "Berlin"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -14739,9 +13866,6 @@
       },
       "ui": {
         "term": "Muamala Unaosubiri"
-      },
-      "code": {
-        "term": "pending_transaction"
       }
     },
     "grammar": {
@@ -14793,9 +13917,6 @@
       },
       "ui": {
         "term": "Anzisha"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -14845,9 +13966,6 @@
       },
       "ui": {
         "term": "Eneo Jipya"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -14897,9 +14015,6 @@
       },
       "ui": {
         "term": "Bidhaa za Umma"
-      },
-      "code": {
-        "term": "public_goods"
       }
     },
     "grammar": {
@@ -14948,9 +14063,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -15002,9 +14114,6 @@
       },
       "ui": {
         "term": "Kitambulisho Kinachothibitishwa"
-      },
-      "code": {
-        "term": "verifiable_credential"
       }
     },
     "grammar": {
@@ -15056,9 +14165,6 @@
       },
       "ui": {
         "term": "Kutobadilika"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -15107,9 +14213,6 @@
       },
       "ui": {
         "term": "Tokani ya LST"
-      },
-      "code": {
-        "term": "liquid_staking_token"
       }
     },
     "grammar": {
@@ -15158,9 +14261,6 @@
       },
       "ui": {
         "term": "Kuweka Hisa Kama Huduma"
-      },
-      "code": {
-        "term": "stakingAsAService"
       }
     },
     "grammar": {
@@ -15210,9 +14310,6 @@
       },
       "ui": {
         "term": "Weka Vitambulisho Vya Uondoaji"
-      },
-      "code": {
-        "term": "withdrawalCredentials"
       }
     },
     "grammar": {
@@ -15259,9 +14356,6 @@
       },
       "ui": {
         "term": "Heshi ya Keccak-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -15305,9 +14399,6 @@
       },
       "ui": {
         "term": "Sera ya Ukomo wa Historia"
-      },
-      "code": {
-        "term": "historyExpiry"
       }
     },
     "grammar": {
@@ -15356,9 +14447,6 @@
       },
       "ui": {
         "term": "Programu ya Wavuti 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -15399,9 +14487,6 @@
       },
       "ui": {
         "term": "Boresho la Konstantinopoli"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -15447,9 +14532,6 @@
       },
       "ui": {
         "term": "Thibitisha Msimbo Chanzo"
-      },
-      "code": {
-        "term": "sourceCodeVerification"
       }
     },
     "grammar": {
@@ -15496,9 +14578,6 @@
       },
       "ui": {
         "term": "Pata POAP Yako"
-      },
-      "code": {
-        "term": "POAP"
       }
     },
     "grammar": {
@@ -15547,9 +14626,6 @@
       },
       "ui": {
         "term": "Tuma Nia"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -15599,9 +14675,6 @@
       },
       "ui": {
         "term": "Mlipiaji"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -15650,9 +14723,6 @@
       },
       "ui": {
         "term": "Akaunti Janja"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -15701,9 +14771,6 @@
       },
       "ui": {
         "term": "Nodi ya Kinara"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -15750,9 +14817,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "BLS"
       }
     },
     "grammar": {
@@ -15798,9 +14862,6 @@
         "term": "SSZ"
       },
       "ui": {
-        "term": "SSZ"
-      },
-      "code": {
         "term": "SSZ"
       }
     },
@@ -15850,9 +14911,6 @@
       },
       "ui": {
         "term": "Go Ethereum (Geth)"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -15901,9 +14959,6 @@
       },
       "ui": {
         "term": "Ethereum Asilia"
-      },
-      "code": {
-        "term": "ethereumClassic"
       }
     },
     "grammar": {
@@ -15952,9 +15007,6 @@
       },
       "ui": {
         "term": "Bizantiamu"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -16004,9 +15056,6 @@
       },
       "ui": {
         "term": "ECDSA"
-      },
-      "code": {
-        "term": "ECDSA"
       }
     },
     "grammar": {
@@ -16053,9 +15102,6 @@
       },
       "ui": {
         "term": "Urejeshaji wa Kijamii"
-      },
-      "code": {
-        "term": "urejeshaji_wa_kijamii"
       }
     },
     "grammar": {
@@ -16098,9 +15144,6 @@
       },
       "ui": {
         "term": "Utengano wa Wajenzi"
-      },
-      "code": {
-        "term": "utengano_wa_wajenzi"
       }
     },
     "grammar": {
@@ -16143,9 +15186,6 @@
       },
       "ui": {
         "term": "Uthibitisho wa Dau"
-      },
-      "code": {
-        "term": "uthibitisho_wa_dau"
       }
     },
     "grammar": {
@@ -16186,9 +15226,6 @@
       },
       "ui": {
         "term": "ECC"
-      },
-      "code": {
-        "term": "ecc"
       }
     },
     "grammar": {
@@ -16231,9 +15268,6 @@
       },
       "ui": {
         "term": "Mlisho wa Bei"
-      },
-      "code": {
-        "term": "mlisho_wa_bei"
       }
     },
     "grammar": {
@@ -16276,9 +15310,6 @@
       },
       "ui": {
         "term": "Mtandao wa Wasanidi"
-      },
-      "code": {
-        "term": "mtandao_wa_wasanidi"
       }
     },
     "grammar": {
@@ -16321,9 +15352,6 @@
       },
       "ui": {
         "term": "Itifaki ya Uvumi"
-      },
-      "code": {
-        "term": "itifaki_ya_uvumi"
       }
     },
     "grammar": {
@@ -16366,9 +15394,6 @@
       },
       "ui": {
         "term": "Kundi"
-      },
-      "code": {
-        "term": "kundi"
       }
     },
     "grammar": {
@@ -16409,9 +15434,6 @@
       },
       "ui": {
         "term": "Homstedi"
-      },
-      "code": {
-        "term": "homstedi"
       }
     },
     "grammar": {
@@ -16451,9 +15473,6 @@
         "term": "DAC"
       },
       "ui": {
-        "term": "DAC"
-      },
-      "code": {
         "term": "DAC"
       }
     },
@@ -16501,9 +15520,6 @@
       },
       "ui": {
         "term": "Usimbaji wa Ufutaji"
-      },
-      "code": {
-        "term": "usimbajiWaUfutaji"
       }
     },
     "grammar": {
@@ -16552,9 +15568,6 @@
       },
       "ui": {
         "term": "Trie ya Hifadhi"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -16601,9 +15614,6 @@
       },
       "ui": {
         "term": "Ada ya Blob"
-      },
-      "code": {
-        "term": "adaYaBlob"
       }
     },
     "grammar": {
@@ -16650,9 +15660,6 @@
       },
       "ui": {
         "term": "Ada ya Kipaumbele"
-      },
-      "code": {
-        "term": "adaYaKipaumbele"
       }
     },
     "grammar": {
@@ -16701,9 +15708,6 @@
       },
       "ui": {
         "term": "Tatizo la Hakuna Kilicho Hatarini"
-      },
-      "code": {
-        "term": "tatizoLaHakunaKilichoHatarini"
       }
     },
     "grammar": {
@@ -16752,9 +15756,6 @@
       },
       "ui": {
         "term": "Nyongeza ya Mpendekezaji"
-      },
-      "code": {
-        "term": "nyongezaYaMpendekezaji"
       }
     },
     "grammar": {
@@ -16803,9 +15804,6 @@
       },
       "ui": {
         "term": "Tatizo la Oracle"
-      },
-      "code": {
-        "term": "tatizoLaOracle"
       }
     },
     "grammar": {
@@ -16855,9 +15853,6 @@
       },
       "ui": {
         "term": "Wakala Anayejiongoza"
-      },
-      "code": {
-        "term": "wakalaAnayejiongoza"
       }
     },
     "grammar": {
@@ -16906,9 +15901,6 @@
       },
       "ui": {
         "term": "Uthibitisho wa Kazi"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -16955,9 +15947,6 @@
       },
       "ui": {
         "term": "Szabo"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -17003,9 +15992,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -17055,9 +16041,6 @@
       },
       "ui": {
         "term": "Miti ya Verkle"
-      },
-      "code": {
-        "term": "verkle_trees"
       }
     },
     "grammar": {
@@ -17107,9 +16090,6 @@
       },
       "ui": {
         "term": "Fanksheni Mbadala"
-      },
-      "code": {
-        "term": "fallback_function"
       }
     },
     "grammar": {
@@ -17162,9 +16142,6 @@
       },
       "ui": {
         "term": "Mgao wa Bure"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -17211,9 +16188,6 @@
       },
       "ui": {
         "term": "USDC"
-      },
-      "code": {
-        "term": "USDC"
       }
     },
     "grammar": {
@@ -17259,9 +16233,6 @@
         "term": "WBTC"
       },
       "ui": {
-        "term": "WBTC"
-      },
-      "code": {
         "term": "WBTC"
       }
     },
@@ -17312,9 +16283,6 @@
       },
       "ui": {
         "term": "Kusanyiko la Miamala"
-      },
-      "code": {
-        "term": "transaction_pool"
       }
     },
     "grammar": {
@@ -17366,9 +16334,6 @@
       },
       "ui": {
         "term": "Mlinzi"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -17417,9 +16382,6 @@
       },
       "ui": {
         "term": "Hifadhi ya Funguo"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -17469,9 +16431,6 @@
       },
       "ui": {
         "term": "Uhifadhi Binafsi"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -17518,9 +16477,6 @@
       },
       "ui": {
         "term": "Casper FFG"
-      },
-      "code": {
-        "term": "casperFFG"
       }
     },
     "grammar": {
@@ -17567,9 +16523,6 @@
       },
       "ui": {
         "term": "Sahihi ya BLS"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -17618,9 +16571,6 @@
       },
       "ui": {
         "term": "Trie ya Merkle Patricia"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -17669,9 +16619,6 @@
       },
       "ui": {
         "term": "Usambazaji wa Kitalu"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -17718,9 +16665,6 @@
       },
       "ui": {
         "term": "Finney"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -17771,9 +16715,6 @@
       },
       "ui": {
         "term": "Bidhaa ya Umma"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -17820,9 +16761,6 @@
       },
       "ui": {
         "term": "Hazina"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -17872,9 +16810,6 @@
       },
       "ui": {
         "term": "KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -17923,9 +16858,6 @@
       },
       "ui": {
         "term": "Ingia na SIWE"
-      },
-      "code": {
-        "term": "SIWE"
       }
     },
     "grammar": {
@@ -17971,9 +16903,6 @@
       },
       "ui": {
         "term": "Zuia Utangulizaji Muamala"
-      },
-      "code": {
-        "term": "frontRunning"
       }
     },
     "grammar": {
@@ -18022,9 +16951,6 @@
       },
       "ui": {
         "term": "Istanbuli"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -18065,9 +16991,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "KEVM"
       }
     },
     "grammar": {
@@ -18107,9 +17030,6 @@
         "term": "sstore"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -18153,9 +17073,6 @@
       },
       "ui": {
         "term": "Ada ya Juu Zaidi"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -18207,9 +17124,6 @@
       },
       "ui": {
         "term": "Pochi ya Saini-Nyingi"
-      },
-      "code": {
-        "term": "multiSignature"
       }
     },
     "grammar": {
@@ -18258,9 +17172,6 @@
       },
       "ui": {
         "term": "Operesheni ya Mtumiaji"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -18313,9 +17224,6 @@
       },
       "ui": {
         "term": "Adhabu ya Kijamii"
-      },
-      "code": {
-        "term": "socialSlashing"
       }
     },
     "grammar": {
@@ -18364,9 +17272,6 @@
       },
       "ui": {
         "term": "Maelezo ya SSLE"
-      },
-      "code": {
-        "term": "SSLE"
       }
     },
     "grammar": {
@@ -18412,9 +17317,6 @@
       },
       "ui": {
         "term": "Uchakachuaji wa Dau"
-      },
-      "code": {
-        "term": "stakeGrinding"
       }
     },
     "grammar": {
@@ -18460,9 +17362,6 @@
         "term": "tee"
       },
       "ui": {
-        "term": "TEE"
-      },
-      "code": {
         "term": "TEE"
       }
     },
@@ -18513,9 +17412,6 @@
       },
       "ui": {
         "term": "Orako ya Mnyororo wa Vitalu"
-      },
-      "code": {
-        "term": "blockchainOracle"
       }
     },
     "grammar": {
@@ -18561,9 +17457,6 @@
         "term": "modexp"
       },
       "ui": {
-        "term": "MODEXP"
-      },
-      "code": {
         "term": "MODEXP"
       }
     },
@@ -18614,9 +17507,6 @@
       },
       "ui": {
         "term": "Bomba la Majaribio"
-      },
-      "code": {
-        "term": "testnetFaucet"
       }
     },
     "grammar": {
@@ -18669,9 +17559,6 @@
       },
       "ui": {
         "term": "Inayostahimili Udhibiti"
-      },
-      "code": {
-        "term": "censorshipResistant"
       }
     },
     "grammar": {
@@ -18714,9 +17601,6 @@
       },
       "ui": {
         "term": "Tokini ya Utawala"
-      },
-      "code": {
-        "term": "governanceToken"
       }
     },
     "grammar": {
@@ -18768,9 +17652,6 @@
       },
       "ui": {
         "term": "Kifungashaji"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -18821,9 +17702,6 @@
       },
       "ui": {
         "term": "Kitengeneza Soko (AMM)"
-      },
-      "code": {
-        "term": "automatedMarketMaker"
       }
     },
     "grammar": {
@@ -18877,9 +17755,6 @@
       },
       "ui": {
         "term": "Kulima Faida"
-      },
-      "code": {
-        "term": "yieldFarming"
       }
     },
     "grammar": {
@@ -18931,9 +17806,6 @@
       },
       "ui": {
         "term": "Tokeni Iliyofungamana (SBT)"
-      },
-      "code": {
-        "term": "soulboundToken"
       }
     },
     "grammar": {
@@ -18984,9 +17856,6 @@
       },
       "ui": {
         "term": "Mzunguko wa Maisha"
-      },
-      "code": {
-        "term": "validatorLifecycle"
       }
     },
     "grammar": {
@@ -19035,9 +17904,6 @@
       },
       "ui": {
         "term": "Blokucheini Kimoduli"
-      },
-      "code": {
-        "term": "modularBlockchain"
       }
     },
     "grammar": {
@@ -19088,9 +17954,6 @@
       },
       "ui": {
         "term": "Blokucheini Kimonoliti"
-      },
-      "code": {
-        "term": "monolithicBlockchain"
       }
     },
     "grammar": {
@@ -19145,9 +18008,6 @@
       },
       "ui": {
         "term": "Ufadhili wa RPGF"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -19198,9 +18058,6 @@
       },
       "ui": {
         "term": "Jumla Thamani"
-      },
-      "code": {
-        "term": "totalValueLocked"
       }
     },
     "grammar": {
@@ -19254,9 +18111,6 @@
       },
       "ui": {
         "term": "Kura Kikuadratiki"
-      },
-      "code": {
-        "term": "quadraticVoting"
       }
     },
     "grammar": {
@@ -19305,9 +18159,6 @@
       },
       "ui": {
         "term": "Ufuatiliaji Wa Nyuma"
-      },
-      "code": {
-        "term": "ufuatiliajiWaNyuma"
       }
     },
     "grammar": {
@@ -19356,9 +18207,6 @@
       },
       "ui": {
         "term": "Tabaka La Upatikanaji Wa Data"
-      },
-      "code": {
-        "term": "tabakaLaUpatikanajiWaData"
       }
     },
     "grammar": {
@@ -19407,9 +18255,6 @@
       },
       "ui": {
         "term": "Mkataba Unaoweza Kuboreshwa"
-      },
-      "code": {
-        "term": "mkatabaUnaowezaKuboreshwa"
       }
     },
     "grammar": {
@@ -19458,9 +18303,6 @@
       },
       "ui": {
         "term": "Tokeni Ya Huduma"
-      },
-      "code": {
-        "term": "tokeniYaHuduma"
       }
     },
     "grammar": {
@@ -19509,9 +18351,6 @@
       },
       "ui": {
         "term": "Mkoba Wa Nje Ya Mtandao"
-      },
-      "code": {
-        "term": "mkobaWaNjeYaMtandao"
       }
     },
     "grammar": {
@@ -19560,9 +18399,6 @@
       },
       "ui": {
         "term": "Njia Ya Uzalishaji"
-      },
-      "code": {
-        "term": "njiaYaUzalishaji"
       }
     },
     "grammar": {
@@ -19611,9 +18447,6 @@
       },
       "ui": {
         "term": "Mkoba Wa Maunzi"
-      },
-      "code": {
-        "term": "mkobaWaMaunzi"
       }
     },
     "grammar": {
@@ -19662,9 +18495,6 @@
       },
       "ui": {
         "term": "Mkoba Wa Mtandaoni"
-      },
-      "code": {
-        "term": "mkobaWaMtandaoni"
       }
     },
     "grammar": {
@@ -19711,9 +18541,6 @@
       },
       "ui": {
         "term": "Ufunguo"
-      },
-      "code": {
-        "term": "ufunguo"
       }
     },
     "grammar": {
@@ -19762,9 +18589,6 @@
       },
       "ui": {
         "term": "Fomula Ya Uzalishaji Funguo"
-      },
-      "code": {
-        "term": "fomulaYaUzalishajiFunguo"
       }
     },
     "grammar": {
@@ -19813,9 +18637,6 @@
       },
       "ui": {
         "term": "Tengeneza Kifunguo"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -19862,9 +18683,6 @@
       },
       "ui": {
         "term": "Tuma kwa Anwani Sifuri"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -19913,9 +18731,6 @@
       },
       "ui": {
         "term": "Kikomo cha Upokezanaji"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -19964,9 +18779,6 @@
       },
       "ui": {
         "term": "Sheria za Mwafaka"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -20016,9 +18828,6 @@
       },
       "ui": {
         "term": "Onyo la Kura Kinzani"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -20065,9 +18874,6 @@
       },
       "ui": {
         "term": "Mwafaka wa Holagrafia"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -20117,9 +18923,6 @@
       },
       "ui": {
         "term": "Uvujaji wa Kutotenda"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -20169,9 +18972,6 @@
       },
       "ui": {
         "term": "Kiwango cha Utoaji"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -20220,9 +19020,6 @@
       },
       "ui": {
         "term": "Inahitaji Wingi Mkuu"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -20277,9 +19074,6 @@
       },
       "ui": {
         "term": "Ufungamanisho"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -20328,9 +19122,6 @@
       },
       "ui": {
         "term": "Jedwali la Heshi Lililosambazwa"
-      },
-      "code": {
-        "term": "distributedHashTable"
       }
     },
     "grammar": {
@@ -20377,9 +19168,6 @@
       },
       "ui": {
         "term": "Ethash"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -20428,9 +19216,6 @@
       },
       "ui": {
         "term": "Kiwango cha Heshi cha Mtandao"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -20479,9 +19264,6 @@
       },
       "ui": {
         "term": "Algoriti ya Heshi Salama"
-      },
-      "code": {
-        "term": "secureHashAlgorithm"
       }
     },
     "grammar": {
@@ -20530,9 +19312,6 @@
       },
       "ui": {
         "term": "Mnyororo wa Shadi"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -20584,9 +19363,6 @@
       },
       "ui": {
         "term": "Usanidi Unaoaminika"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -20636,9 +19412,6 @@
       },
       "ui": {
         "term": "API"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -20687,9 +19460,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -20741,9 +19511,6 @@
       },
       "ui": {
         "term": "Utenguaji wa Uoanishaji"
-      },
-      "code": {
-        "term": "dePeg"
       }
     },
     "grammar": {
@@ -20792,9 +19559,6 @@
       },
       "ui": {
         "term": "Hasara ya Muda"
-      },
-      "code": {
-        "term": "impermanent_loss"
       }
     },
     "grammar": {
@@ -20843,9 +19607,6 @@
       },
       "ui": {
         "term": "Faharisi"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -20894,9 +19655,6 @@
       },
       "ui": {
         "term": "Tokeni za Ukwasi"
-      },
-      "code": {
-        "term": "liquidity_tokens"
       }
     },
     "grammar": {
@@ -20945,9 +19703,6 @@
       },
       "ui": {
         "term": "Uwekaji Dhamana Kupita Kiasi"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -21000,9 +19755,6 @@
       },
       "ui": {
         "term": "Fungamanisho"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -21049,9 +19801,6 @@
       },
       "ui": {
         "term": "Athari ya Bei"
-      },
-      "code": {
-        "term": "price_impact"
       }
     },
     "grammar": {
@@ -21101,9 +19850,6 @@
       },
       "ui": {
         "term": "Tofauti ya Utekelezaji"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -21152,9 +19898,6 @@
       },
       "ui": {
         "term": "Eth1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -21197,9 +19940,6 @@
       },
       "ui": {
         "term": "Eth2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -21242,9 +19982,6 @@
       },
       "ui": {
         "term": "Shambulio la 51%"
-      },
-      "code": {
-        "term": "51_percent_attack"
       }
     },
     "grammar": {
@@ -21293,9 +20030,6 @@
       },
       "ui": {
         "term": "Seti ya Kutojulikana"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -21344,9 +20078,6 @@
       },
       "ui": {
         "term": "Kizuia-Sybil"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -21393,9 +20124,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "asic"
       }
     },
     "grammar": {
@@ -21445,9 +20173,6 @@
       },
       "ui": {
         "term": "Kianzia-Kikubwa"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -21494,9 +20219,6 @@
       },
       "ui": {
         "term": "Hali ya Kitalu"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -21546,9 +20268,6 @@
       },
       "ui": {
         "term": "Ukusanyaji"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -21597,9 +20316,6 @@
       },
       "ui": {
         "term": "Kutowezekana kwa Ukokotoaji"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -21649,9 +20365,6 @@
       },
       "ui": {
         "term": "Inayofikiriwa Kujumuishwa (CFI)"
-      },
-      "code": {
-        "term": "consideredForInclusion"
       }
     },
     "grammar": {
@@ -21701,9 +20414,6 @@
       },
       "ui": {
         "term": "Uchumikripto"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -21750,9 +20460,6 @@
       },
       "ui": {
         "term": "DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -21802,9 +20509,6 @@
       },
       "ui": {
         "term": "Gundua DePIN"
-      },
-      "code": {
-        "term": "dePIN"
       }
     },
     "grammar": {
@@ -21859,9 +20563,6 @@
       },
       "ui": {
         "term": "Anza Ugunduzi"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -21915,9 +20616,6 @@
       },
       "ui": {
         "term": "Zuia Matumizi Mara Mbili"
-      },
-      "code": {
-        "term": "doubleSpend"
       }
     },
     "grammar": {
@@ -21966,9 +20664,6 @@
       },
       "ui": {
         "term": "Sakinisha Kiteja Cha Utekelezaji"
-      },
-      "code": {
-        "term": "executionClient"
       }
     },
     "grammar": {
@@ -22017,9 +20712,6 @@
       },
       "ui": {
         "term": "Hali ya Tabaka la Utekelezaji"
-      },
-      "code": {
-        "term": "executionLayer"
       }
     },
     "grammar": {
@@ -22069,9 +20761,6 @@
       },
       "ui": {
         "term": "Fungua IDE"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -22121,9 +20810,6 @@
       },
       "ui": {
         "term": "Unganisha na Kiteja Chepesi"
-      },
-      "code": {
-        "term": "lightClient"
       }
     },
     "grammar": {
@@ -22177,9 +20863,6 @@
       },
       "ui": {
         "term": "Tuma Ujumbe"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -22228,9 +20911,6 @@
       },
       "ui": {
         "term": "Fanya Mwito wa Ujumbe"
-      },
-      "code": {
-        "term": "messageCall"
       }
     },
     "grammar": {
@@ -22282,9 +20962,6 @@
       },
       "ui": {
         "term": "Badilisha Mtandao"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -22333,9 +21010,6 @@
       },
       "ui": {
         "term": "Njia ya Kutoka"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -22384,9 +21058,6 @@
       },
       "ui": {
         "term": "Kitalu cha Ommer"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -22435,9 +21106,6 @@
       },
       "ui": {
         "term": "Njia ya Kuingia"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -22490,9 +21158,6 @@
       },
       "ui": {
         "term": "Anza Uingizaji"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -22537,9 +21202,6 @@
       },
       "ui": {
         "term": "Yenye Ruhusa"
-      },
-      "code": {
-        "term": "permissioned"
       }
     },
     "grammar": {
@@ -22586,9 +21248,6 @@
       },
       "ui": {
         "term": "Mnyororo wa Kibinafsi"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -22637,9 +21296,6 @@
       },
       "ui": {
         "term": "Uthibitisho wa Kuhudhuria"
-      },
-      "code": {
-        "term": "proofOfAttendance"
       }
     },
     "grammar": {
@@ -22686,9 +21342,6 @@
       },
       "ui": {
         "term": "Shambulio la Kuingia Tena"
-      },
-      "code": {
-        "term": "reEntrancyAttack"
       }
     },
     "grammar": {
@@ -22742,9 +21395,6 @@
       },
       "ui": {
         "term": "Dai Tuzo"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -22794,9 +21444,6 @@
       },
       "ui": {
         "term": "Mamlaka Binafsi"
-      },
-      "code": {
-        "term": "selfSovereignty"
       }
     },
     "grammar": {
@@ -22849,9 +21496,6 @@
       },
       "ui": {
         "term": "Sanjari Data"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -22898,9 +21542,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -22947,9 +21588,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -22999,9 +21637,6 @@
       },
       "ui": {
         "term": "Ufuraji wa Hali"
-      },
-      "code": {
-        "term": "stateBloat"
       }
     },
     "grammar": {
@@ -23051,9 +21686,6 @@
       },
       "ui": {
         "term": "Ubilahali"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -23102,9 +21734,6 @@
       },
       "ui": {
         "term": "Shambulio la Sybil"
-      },
-      "code": {
-        "term": "sybilAttack"
       }
     },
     "grammar": {
@@ -23157,9 +21786,6 @@
       },
       "ui": {
         "term": "Inasawazisha..."
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -23208,9 +21834,6 @@
       },
       "ui": {
         "term": "TTD"
-      },
-      "code": {
-        "term": "terminalTotalDifficulty"
       }
     },
     "grammar": {
@@ -23260,9 +21883,6 @@
       },
       "ui": {
         "term": "Dhana za Uaminifu"
-      },
-      "code": {
-        "term": "trustAssumptions"
       }
     },
     "grammar": {
@@ -23309,9 +21929,6 @@
       },
       "ui": {
         "term": "Uhitaji Mdogo Wa Kuamini"
-      },
-      "code": {
-        "term": "trust_minimized"
       }
     },
     "grammar": {
@@ -23354,9 +21971,6 @@
       },
       "ui": {
         "term": "Hali Ya Kutohitaji Kuamini"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -23401,9 +22015,6 @@
       },
       "ui": {
         "term": "Kamilifu Ki-Turing"
-      },
-      "code": {
-        "term": "turing_complete"
       }
     },
     "grammar": {
@@ -23447,9 +22058,6 @@
       },
       "ui": {
         "term": "Web2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -23496,9 +22104,6 @@
       },
       "ui": {
         "term": "Shambulio La Sandwichi"
-      },
-      "code": {
-        "term": "sandwich_attack"
       }
     },
     "grammar": {
@@ -23550,9 +22155,6 @@
       },
       "ui": {
         "term": "Kusanya Mafungu"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -23601,9 +22203,6 @@
       },
       "ui": {
         "term": "Nafasi ya Blob"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -23652,9 +22251,6 @@
       },
       "ui": {
         "term": "Kujitoa kwa Dharura"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -23703,9 +22299,6 @@
       },
       "ui": {
         "term": "Uthibitisho wa Hitilafu"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -23754,9 +22347,6 @@
       },
       "ui": {
         "term": "Utoaji wa Lazima"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -23805,9 +22395,6 @@
       },
       "ui": {
         "term": "Mikusanyiko"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -23857,9 +22444,6 @@
       },
       "ui": {
         "term": "Ukamilishaji"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -23908,9 +22492,6 @@
       },
       "ui": {
         "term": "Chaneli za Hali"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -23959,9 +22540,6 @@
       },
       "ui": {
         "term": "Uwezo wa Upitishaji"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -24010,9 +22588,6 @@
       },
       "ui": {
         "term": "Validium"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -24058,9 +22633,6 @@
       },
       "ui": {
         "term": "Data za Mwito"
-      },
-      "code": {
-        "term": "callData"
       }
     },
     "grammar": {
@@ -24107,9 +22679,6 @@
       },
       "ui": {
         "term": "Unda Mkataba"
-      },
-      "code": {
-        "term": "contractCreationTx"
       }
     },
     "grammar": {
@@ -24156,9 +22725,6 @@
       },
       "ui": {
         "term": "Asembli ya EVM"
-      },
-      "code": {
-        "term": "evmAssembly"
       }
     },
     "grammar": {
@@ -24207,9 +22773,6 @@
       },
       "ui": {
         "term": "Boresha Gesi"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -24258,9 +22821,6 @@
       },
       "ui": {
         "term": "Tatizo la Kodi"
-      },
-      "code": {
-        "term": "immutableCodeProblem"
       }
     },
     "grammar": {
@@ -24309,9 +22869,6 @@
       },
       "ui": {
         "term": "Prikampaili"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -24361,9 +22918,6 @@
       },
       "ui": {
         "term": "Kizuizi cha Uingiaji"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -24416,9 +22970,6 @@
       },
       "ui": {
         "term": "Jifute"
-      },
-      "code": {
-        "term": "selfDestruct"
       }
     },
     "grammar": {
@@ -24462,9 +23013,6 @@
       },
       "ui": {
         "term": "Singeltoni"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -24513,9 +23061,6 @@
       },
       "ui": {
         "term": "Tazama Assembly"
-      },
-      "code": {
-        "term": "solidityInlineAssembly"
       }
     },
     "grammar": {
@@ -24565,9 +23110,6 @@
       },
       "ui": {
         "term": "Soma Hali"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -24622,9 +23164,6 @@
       },
       "ui": {
         "term": "Dai Sasa"
-      },
-      "code": {
-        "term": "claimTokens"
       }
     },
     "grammar": {
@@ -24676,9 +23215,6 @@
       },
       "ui": {
         "term": "Muda wa Kikomo"
-      },
-      "code": {
-        "term": "cliffDuration"
       }
     },
     "grammar": {
@@ -24730,9 +23266,6 @@
       },
       "ui": {
         "term": "Gawa Kuwa Sehemu"
-      },
-      "code": {
-        "term": "fractionalize"
       }
     },
     "grammar": {
@@ -24783,9 +23316,6 @@
       },
       "ui": {
         "term": "Weka Tokeni za LP"
-      },
-      "code": {
-        "term": "lpTokenBalance"
       }
     },
     "grammar": {
@@ -24836,9 +23366,6 @@
       },
       "ui": {
         "term": "Unda Kupitia Kiwanda"
-      },
-      "code": {
-        "term": "TokenFactory"
       }
     },
     "grammar": {
@@ -24885,9 +23412,6 @@
       },
       "ui": {
         "term": "Hariri URI"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -24941,9 +23465,6 @@
       },
       "ui": {
         "term": "Ratiba ya Umilikishaji"
-      },
-      "code": {
-        "term": "vestingSchedule"
       }
     },
     "grammar": {
@@ -24995,9 +23516,6 @@
       },
       "ui": {
         "term": "Fungasha Tokeni"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -25047,9 +23565,6 @@
       },
       "ui": {
         "term": "Muamala wa Ndani"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -25099,9 +23614,6 @@
       },
       "ui": {
         "term": "Kikomo cha Ada ya Gesi"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -25148,9 +23660,6 @@
       },
       "ui": {
         "term": "Konstrukta"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -25180,9 +23689,6 @@
       },
       "ui": {
         "term": "Charles Hoskinson"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -25207,9 +23713,6 @@
         "term": "Gavin Wood"
       },
       "ui": {
-        "term": "Gavin Wood"
-      },
-      "code": {
         "term": "Gavin Wood"
       }
     },
@@ -25236,9 +23739,6 @@
       },
       "ui": {
         "term": "Joseph Lubin"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -25263,9 +23763,6 @@
         "term": "Vitalik Buterin"
       },
       "ui": {
-        "term": "Vitalik Buterin"
-      },
-      "code": {
         "term": "Vitalik Buterin"
       }
     },
@@ -25292,9 +23789,6 @@
       },
       "ui": {
         "term": "Wei Dai"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -25319,9 +23813,6 @@
         "term": "Aave"
       },
       "ui": {
-        "term": "Aave"
-      },
-      "code": {
         "term": "Aave"
       }
     },
@@ -25348,9 +23839,6 @@
       },
       "ui": {
         "term": "Arbitrum"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -25375,9 +23863,6 @@
         "term": "Binance"
       },
       "ui": {
-        "term": "Binance"
-      },
-      "code": {
         "term": "Binance"
       }
     },
@@ -25404,9 +23889,6 @@
       },
       "ui": {
         "term": "Chrome"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -25431,9 +23913,6 @@
         "term": "Coinbase"
       },
       "ui": {
-        "term": "Coinbase"
-      },
-      "code": {
         "term": "Coinbase"
       }
     },
@@ -25460,9 +23939,6 @@
       },
       "ui": {
         "term": "ConsenSys"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -25487,9 +23963,6 @@
         "term": "CryptoKitties"
       },
       "ui": {
-        "term": "CryptoKitties"
-      },
-      "code": {
         "term": "CryptoKitties"
       }
     },
@@ -25516,9 +23989,6 @@
       },
       "ui": {
         "term": "Dencun"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -25543,9 +24013,6 @@
         "term": "Discord"
       },
       "ui": {
-        "term": "Discord"
-      },
-      "code": {
         "term": "Discord"
       }
     },
@@ -25572,9 +24039,6 @@
       },
       "ui": {
         "term": "Facebook"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -25599,9 +24063,6 @@
         "term": "Filecoin"
       },
       "ui": {
-        "term": "Filecoin"
-      },
-      "code": {
         "term": "Filecoin"
       }
     },
@@ -25628,9 +24089,6 @@
       },
       "ui": {
         "term": "Goerli"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -25655,9 +24113,6 @@
         "term": "Holesky"
       },
       "ui": {
-        "term": "Holesky"
-      },
-      "code": {
         "term": "Holesky"
       }
     },
@@ -25684,9 +24139,6 @@
       },
       "ui": {
         "term": "Lido"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -25711,9 +24163,6 @@
         "term": "MakerDAO"
       },
       "ui": {
-        "term": "MakerDAO"
-      },
-      "code": {
         "term": "MakerDAO"
       }
     },
@@ -25740,9 +24189,6 @@
       },
       "ui": {
         "term": "Microsoft"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -25767,9 +24213,6 @@
         "term": "Netflix"
       },
       "ui": {
-        "term": "Netflix"
-      },
-      "code": {
         "term": "Netflix"
       }
     },
@@ -25796,9 +24239,6 @@
       },
       "ui": {
         "term": "OpenSea"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -25823,9 +24263,6 @@
         "term": "Optimism"
       },
       "ui": {
-        "term": "Optimism"
-      },
-      "code": {
         "term": "Optimism"
       }
     },
@@ -25852,9 +24289,6 @@
       },
       "ui": {
         "term": "PayPal"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -25879,9 +24313,6 @@
         "term": "Polygon"
       },
       "ui": {
-        "term": "Polygon"
-      },
-      "code": {
         "term": "Polygon"
       }
     },
@@ -25908,9 +24339,6 @@
       },
       "ui": {
         "term": "Reddit"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -25935,9 +24363,6 @@
         "term": "Ropsten"
       },
       "ui": {
-        "term": "Ropsten"
-      },
-      "code": {
         "term": "Ropsten"
       }
     },
@@ -25964,9 +24389,6 @@
       },
       "ui": {
         "term": "Starknet"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -25991,9 +24413,6 @@
         "term": "Telegram"
       },
       "ui": {
-        "term": "Telegram"
-      },
-      "code": {
         "term": "Telegram"
       }
     },
@@ -26020,9 +24439,6 @@
       },
       "ui": {
         "term": "Twitter"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -26048,9 +24464,6 @@
       },
       "ui": {
         "term": "YouTube"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -26075,9 +24488,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },

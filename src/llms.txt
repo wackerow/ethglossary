@@ -2,7 +2,7 @@
 
 > Ethereum terminology glossary, English style guide, and translations for 24 languages.
 
-ETHGlossary provides canonical Ethereum terminology for content creators, translators, and translation pipelines. It covers English usage rules (casing, avoid lists, aliases) and translations with contextual forms, plurals, and grammar metadata. Call GET /api/v1/info for current term counts.
+ETHGlossary provides canonical Ethereum terminology for content creators, translators, and translation pipelines. It covers English usage rules (casing, avoid lists, aliases) and translations with contextual forms, plurals, and grammar metadata. Code is out of scope by design -- see Code is not translated. Call GET /api/v1/info for current term counts.
 
 ## API
 
@@ -27,6 +27,20 @@ Interactive docs: /docs
 
 Single-term endpoints resolve aliases, avoid forms, and variants to canonical terms.
 Example: "on-chain" resolves to "onchain", "ZKP" resolves to "zero-knowledge proof", "dapps" resolves to "decentralized application (dapp)".
+
+### Contextual forms
+
+A term is translated once per context, because the same word behaves differently in running text, in a heading, on a chip, and on a button: prose, heading, tag, ui. Derive the set from the entry -- do not assume a fixed count, and note that plurals is absent entirely for languages that do not mark them.
+
+### Code is not translated
+
+There is no code context, and asking for one is the wrong question. Code is excluded structurally, not term by term:
+
+- Fenced code blocks and inline code (single backticks) are non-translatable in full. POST /api/v1/filter strips both before matching, so a term inside backticks is never returned.
+- Code comments are the exception. They are prose that happens to sit inside a block, and should be translated as prose.
+- Where a specific term must stay Latin even in running text, that is the term's own script_rule: always_latin (translating would break code or spec) or keep_latin. Read the term, not a per-language code form.
+
+Identifier casing -- camelCase, snake_case, PascalCase, kebab-case, SCREAMING_SNAKE -- is a property of the codebase and the position, not of the term. gas price is gasPrice in Solidity, gas_price in Python, GAS_PRICE as a constant and gas-price as a CLI flag. No glossary can answer that, so ETHGlossary does not try.
 
 ### Content filtering
 

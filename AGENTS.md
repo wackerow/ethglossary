@@ -13,7 +13,7 @@ ETHGlossary is a standalone API and HTML viewer for canonical Ethereum terminolo
 Two product surfaces:
 
 - **English style guide** -- 486 terms with casing rules, avoid lists, aliases, editorial notes. Authoritative for "what is the right way to write `<term>`?"
-- **Translation reference** -- 24 languages with contextual forms (prose, heading, tag, UI, code), plurals, grammar, confidence levels, and a v1-locked transliteration policy covering 13 non-Latin-script languages.
+- **Translation reference** -- 24 languages with contextual forms (prose, heading, tag, UI), plurals, grammar, confidence levels, and a v1-locked transliteration policy covering 13 non-Latin-script languages.
 
 Live deployment: `https://ethglossary.visual-20-hoists.workers.dev` (transitional; custom domain `ethglossary.xyz` is owned and will be pointed at the Worker). The repo is `github.com/wackerow/ethglossary` and will eventually move to the `ethereum` org. Consumers should call the URL, not the GitHub path.
 
