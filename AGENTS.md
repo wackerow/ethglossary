@@ -244,6 +244,10 @@ Rules that are easy to get wrong:
   yellow measures 1.21:1 on the light ground. `accent` swaps to a same-hue
   darker step there; `primary` stays yellow because it always sits behind
   dark text.
+- **The Scalar bundle on `/docs` is pinned, path and all.** Its default CDN
+  URL 302s to `@latest`, which means a third-party script with an LLM feature
+  attached changes under the deployed site with no commit here. `SCALAR_CDN`
+  in `src/index.ts` names the exact file; bumping it is a deliberate act.
 - **URLs to Discord, GitHub, X, Farcaster or ethereum.org come from
   `src/lib/constants.ts`.** Never inline them. ETHGlossary has no social
   accounts of its own -- X and Farcaster point at ethereum.org's.

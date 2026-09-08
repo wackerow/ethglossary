@@ -63,6 +63,25 @@ app.doc31("/openapi.json", (c) => {
 
 // Scalar API docs
 /*
+ * Pinned, path and all.
+ *
+ * The default is `cdn.jsdelivr.net/npm/@scalar/api-reference`, which 302s to
+ * `@latest/dist/browser/standalone.js` -- so whatever Scalar publishes runs on
+ * our docs page, on every load, with no commit here. That is a third-party
+ * script with an LLM feature attached; it should not change under us.
+ *
+ * The path matters as much as the version: `@scalar/api-reference@1.68.0` with
+ * no path resolves to the package main entry, a different and much larger
+ * bundle than the standalone build the default redirect lands on.
+ *
+ * To bump: check the release notes, change the version here, and confirm
+ * /docs still renders. `@scalar/hono-api-reference` in package.json only
+ * generates the HTML -- it does not control which bundle the browser loads.
+ */
+const SCALAR_CDN =
+  "https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.68.0/dist/browser/standalone.js"
+
+/*
  * Scalar renders a standalone document with no link back to the site, so the
  * wordmark is injected into its sidebar afterwards. See src/ui/docs-brand.ts
  * for why this is a wrapper rather than a config option.
@@ -71,6 +90,7 @@ const scalar = apiReference({
   spec: { url: "/openapi.json" },
   theme: "kepler",
   pageTitle: "ETHGlossary API",
+  cdn: SCALAR_CDN,
 } as Record<string, unknown>)
 
 app.get("/docs", async (c) => {
