@@ -34,9 +34,6 @@
       },
       "ui": {
         "term": "Onayla"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -88,9 +85,6 @@
       },
       "ui": {
         "term": "Köprüle"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -144,9 +138,6 @@
       },
       "ui": {
         "term": "Yak"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -200,9 +191,6 @@
       },
       "ui": {
         "term": "Yakılıyor"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -257,9 +245,6 @@
       },
       "ui": {
         "term": "Teminat Ekle"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -310,9 +295,6 @@
       },
       "ui": {
         "term": "Merkeziyetsizlik"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -366,9 +348,6 @@
       },
       "ui": {
         "term": "Merkeziyetsiz"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -416,9 +395,6 @@
       },
       "ui": {
         "term": "Temsilci Ata"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -473,9 +449,6 @@
       },
       "ui": {
         "term": "Yetki Devri Yap"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -530,9 +503,6 @@
       },
       "ui": {
         "term": "Dağıt"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -577,9 +547,6 @@
       },
       "ui": {
         "term": "Dağıtım"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -630,9 +597,6 @@
       },
       "ui": {
         "term": "Dijital İmza"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -684,9 +648,6 @@
       },
       "ui": {
         "term": "İmza"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -740,9 +701,6 @@
       },
       "ui": {
         "term": "İmzala"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -796,9 +754,6 @@
       },
       "ui": {
         "term": "Şifreleme"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -853,9 +808,6 @@
       },
       "ui": {
         "term": "Şifreyi Çöz"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -906,9 +858,6 @@
       },
       "ui": {
         "term": "Kesinlik"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -963,9 +912,6 @@
       },
       "ui": {
         "term": "Kesinleşti"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -1015,9 +961,6 @@
       },
       "ui": {
         "term": "Çatallanma"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -1060,9 +1003,6 @@
       },
       "ui": {
         "term": "Sert Çatallanma"
-      },
-      "code": {
-        "term": "hardFork"
       }
     },
     "grammar": {
@@ -1105,9 +1045,6 @@
       },
       "ui": {
         "term": "Yumuşak Çatallanma"
-      },
-      "code": {
-        "term": "softFork"
       }
     },
     "grammar": {
@@ -1150,9 +1087,6 @@
       },
       "ui": {
         "term": "Yönetişim"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1202,9 +1136,6 @@
       },
       "ui": {
         "term": "Hash"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1248,9 +1179,6 @@
       },
       "ui": {
         "term": "Hash Fonksiyonu"
-      },
-      "code": {
-        "term": "hashFunction"
       }
     },
     "grammar": {
@@ -1293,9 +1221,6 @@
       },
       "ui": {
         "term": "Hash Oranı"
-      },
-      "code": {
-        "term": "hashRate"
       }
     },
     "grammar": {
@@ -1342,9 +1267,6 @@
       },
       "ui": {
         "term": "Hashleme"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1387,9 +1309,6 @@
       },
       "ui": {
         "term": "Likit Staking"
-      },
-      "code": {
-        "term": "liquid_staking"
       }
     },
     "grammar": {
@@ -1433,9 +1352,6 @@
       },
       "ui": {
         "term": "Havuzlu Staking"
-      },
-      "code": {
-        "term": "pooled_staking"
       }
     },
     "grammar": {
@@ -1478,9 +1394,6 @@
       },
       "ui": {
         "term": "Yeniden Staking"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1524,9 +1437,6 @@
       },
       "ui": {
         "term": "Bireysel Staking"
-      },
-      "code": {
-        "term": "solo_staking"
       }
     },
     "grammar": {
@@ -1575,9 +1485,6 @@
       },
       "ui": {
         "term": "Stake Et"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1618,9 +1525,6 @@
       },
       "ui": {
         "term": "Stake Edilmiş"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1664,9 +1568,6 @@
       },
       "ui": {
         "term": "Stake Eden"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1712,9 +1613,6 @@
       },
       "ui": {
         "term": "Staking"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1758,9 +1656,6 @@
       },
       "ui": {
         "term": "Staking Depozitosu"
-      },
-      "code": {
-        "term": "staking_deposit"
       }
     },
     "grammar": {
@@ -1803,9 +1698,6 @@
       },
       "ui": {
         "term": "Staking Havuzu"
-      },
-      "code": {
-        "term": "staking_pool"
       }
     },
     "grammar": {
@@ -1853,9 +1745,6 @@
       },
       "ui": {
         "term": "Stake'ten Çıkar"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1903,9 +1792,6 @@
       },
       "ui": {
         "term": "Tasfiye"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -1954,9 +1840,6 @@
       },
       "ui": {
         "term": "Madenci"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -2008,9 +1891,6 @@
       },
       "ui": {
         "term": "Madencilik"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -2065,9 +1945,6 @@
       },
       "ui": {
         "term": "Bas"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -2119,9 +1996,6 @@
       },
       "ui": {
         "term": "Basım"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -2176,9 +2050,6 @@
       },
       "ui": {
         "term": "Kesinti"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2230,9 +2101,6 @@
       },
       "ui": {
         "term": "Kesici"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2288,9 +2156,6 @@
       },
       "ui": {
         "term": "Takas Et"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2345,9 +2210,6 @@
       },
       "ui": {
         "term": "İşlem"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2401,9 +2263,6 @@
       },
       "ui": {
         "term": "Doğrulayıcı"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2451,9 +2310,6 @@
       },
       "ui": {
         "term": "Blok Doğrulama"
-      },
-      "code": {
-        "term": "blockValidation"
       }
     },
     "grammar": {
@@ -2501,9 +2357,6 @@
       },
       "ui": {
         "term": "Oy Ver"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2551,9 +2404,6 @@
       },
       "ui": {
         "term": "Oylama"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2596,9 +2446,6 @@
       },
       "ui": {
         "term": "Ethereum"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2643,9 +2490,6 @@
       },
       "ui": {
         "term": "Sözleşme"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2688,9 +2532,6 @@
       },
       "ui": {
         "term": "Blok"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2735,9 +2576,6 @@
       },
       "ui": {
         "term": "Akıllı Sözleşme"
-      },
-      "code": {
-        "term": "smartContract"
       }
     },
     "grammar": {
@@ -2782,9 +2620,6 @@
       },
       "ui": {
         "term": "Düğüm"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2829,9 +2664,6 @@
       },
       "ui": {
         "term": "Token"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2877,9 +2709,6 @@
       },
       "ui": {
         "term": "Adres"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -2929,9 +2758,6 @@
         "term": "eth"
       },
       "ui": {
-        "term": "ETH"
-      },
-      "code": {
         "term": "ETH"
       }
     },
@@ -2984,9 +2810,6 @@
       },
       "ui": {
         "term": "Blokzincir"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -3038,9 +2861,6 @@
       },
       "ui": {
         "term": "Hesap"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -3092,9 +2912,6 @@
       },
       "ui": {
         "term": "Zincir"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -3145,9 +2962,6 @@
       },
       "ui": {
         "term": "Protokol"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -3199,9 +3013,6 @@
       },
       "ui": {
         "term": "Cüzdan"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3254,9 +3065,6 @@
       },
       "ui": {
         "term": "Gaz"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3308,9 +3116,6 @@
       },
       "ui": {
         "term": "Rollup"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3361,9 +3166,6 @@
         "term": "eip"
       },
       "ui": {
-        "term": "EIP"
-      },
-      "code": {
         "term": "EIP"
       }
     },
@@ -3420,9 +3222,6 @@
       },
       "ui": {
         "term": "Require"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3467,9 +3266,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -3512,9 +3308,6 @@
       },
       "ui": {
         "term": "Solidity"
-      },
-      "code": {
-        "term": "solidity"
       }
     },
     "grammar": {
@@ -3560,9 +3353,6 @@
       },
       "ui": {
         "term": "Olay"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3608,9 +3398,6 @@
       },
       "ui": {
         "term": "Zincir İçi"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3655,9 +3442,6 @@
       },
       "ui": {
         "term": "Ether"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3703,9 +3487,6 @@
       },
       "ui": {
         "term": "EVM"
-      },
-      "code": {
-        "term": "evm"
       }
     },
     "grammar": {
@@ -3752,9 +3533,6 @@
       },
       "ui": {
         "term": "dApp"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3801,9 +3579,6 @@
       },
       "ui": {
         "term": "NFT"
-      },
-      "code": {
-        "term": "nft"
       }
     },
     "grammar": {
@@ -3851,9 +3626,6 @@
       },
       "ui": {
         "term": "Transfer Et"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3908,9 +3680,6 @@
       },
       "ui": {
         "term": "Çek"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -3962,9 +3731,6 @@
       },
       "ui": {
         "term": "Mutabakat"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -4015,9 +3781,6 @@
       },
       "ui": {
         "term": "Ana Ağ"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -4066,9 +3829,6 @@
       },
       "ui": {
         "term": "Zincir Dışı"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -4117,9 +3877,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -4170,9 +3927,6 @@
       },
       "ui": {
         "term": "Kâhin Ekle"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -4223,9 +3977,6 @@
       },
       "ui": {
         "term": "Blob İncele"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -4274,9 +4025,6 @@
       },
       "ui": {
         "term": "MetaMask ile Bağlan"
-      },
-      "code": {
-        "term": "metamask"
       }
     },
     "grammar": {
@@ -4325,9 +4073,6 @@
       },
       "ui": {
         "term": "OpenZeppelin Kullan"
-      },
-      "code": {
-        "term": "openzeppelin"
       }
     },
     "grammar": {
@@ -4374,9 +4119,6 @@
       },
       "ui": {
         "term": "Slither"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4425,9 +4167,6 @@
       },
       "ui": {
         "term": "Slot"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4477,9 +4216,6 @@
       },
       "ui": {
         "term": "DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4528,9 +4264,6 @@
       },
       "ui": {
         "term": "Test Ağı"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4580,9 +4313,6 @@
       },
       "ui": {
         "term": "Fikir Birliği İstemcisi"
-      },
-      "code": {
-        "term": "consensus_client"
       }
     },
     "grammar": {
@@ -4632,9 +4362,6 @@
       },
       "ui": {
         "term": "Katman 2"
-      },
-      "code": {
-        "term": "l2"
       }
     },
     "grammar": {
@@ -4685,9 +4412,6 @@
       },
       "ui": {
         "term": "ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4736,9 +4460,6 @@
       },
       "ui": {
         "term": "Özel Anahtar"
-      },
-      "code": {
-        "term": "private_key"
       }
     },
     "grammar": {
@@ -4787,9 +4508,6 @@
       },
       "ui": {
         "term": "Kripto"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4839,9 +4557,6 @@
       },
       "ui": {
         "term": "Katman 1"
-      },
-      "code": {
-        "term": "l1"
       }
     },
     "grammar": {
@@ -4889,9 +4604,6 @@
         "term": "MEV"
       },
       "ui": {
-        "term": "MEV"
-      },
-      "code": {
         "term": "MEV"
       }
     },
@@ -4946,9 +4658,6 @@
       },
       "ui": {
         "term": "Çıkış Yap"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -5000,9 +4709,6 @@
       },
       "ui": {
         "term": "İşlem Kodu"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -5053,9 +4759,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -5102,9 +4805,6 @@
       },
       "ui": {
         "term": "Echidna"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -5155,9 +4855,6 @@
       },
       "ui": {
         "term": "Gizlilik"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -5204,9 +4901,6 @@
       },
       "ui": {
         "term": "Manticore"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -5256,9 +4950,6 @@
       },
       "ui": {
         "term": "İyimser Rollup"
-      },
-      "code": {
-        "term": "optimistic_rollup"
       }
     },
     "grammar": {
@@ -5308,9 +4999,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "erc"
       }
     },
     "grammar": {
@@ -5361,9 +5049,6 @@
       },
       "ui": {
         "term": "Plasma"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5412,9 +5097,6 @@
       },
       "ui": {
         "term": "Kütüphane Ekle"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -5463,9 +5145,6 @@
       },
       "ui": {
         "term": "Uniswap'a Bağlan"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -5520,9 +5199,6 @@
       },
       "ui": {
         "term": "Birleşme Verileri"
-      },
-      "code": {
-        "term": "merge"
       }
     },
     "grammar": {
@@ -5574,9 +5250,6 @@
       },
       "ui": {
         "term": "Sıfır Bilgi İspatı"
-      },
-      "code": {
-        "term": "zkp"
       }
     },
     "grammar": {
@@ -5627,9 +5300,6 @@
       },
       "ui": {
         "term": "Bitcoin Gönder"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5680,9 +5350,6 @@
       },
       "ui": {
         "term": "Veri Kullanılabilirliğini Denetle"
-      },
-      "code": {
-        "term": "dataAvailability"
       }
     },
     "grammar": {
@@ -5737,9 +5404,6 @@
       },
       "ui": {
         "term": "Günlükleri İncele"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5790,9 +5454,6 @@
       },
       "ui": {
         "term": "İşaret Zinciri Gezgini"
-      },
-      "code": {
-        "term": "beaconChain"
       }
     },
     "grammar": {
@@ -5842,9 +5503,6 @@
       },
       "ui": {
         "term": "Likidite Ekle"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5895,9 +5553,6 @@
       },
       "ui": {
         "term": "Mevcut Dönem"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5949,9 +5604,6 @@
       },
       "ui": {
         "term": "Ethereum Ana Ağı"
-      },
-      "code": {
-        "term": "ethereumMainnet"
       }
     },
     "grammar": {
@@ -5999,9 +5651,6 @@
       },
       "ui": {
         "term": "Teklif"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -6044,9 +5693,6 @@
       },
       "ui": {
         "term": "Blok Teklifçisi"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -6092,9 +5738,6 @@
       },
       "ui": {
         "term": "Mutabakat Katmanı"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -6143,9 +5786,6 @@
       },
       "ui": {
         "term": "Eş"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -6188,9 +5828,6 @@
       },
       "ui": {
         "term": "JSON-RPC"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -6234,9 +5871,6 @@
       },
       "ui": {
         "term": "Nonce"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -6279,9 +5913,6 @@
       },
       "ui": {
         "term": "IPFS"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -6324,9 +5955,6 @@
       },
       "ui": {
         "term": "Tam Düğüm"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -6373,9 +6001,6 @@
       },
       "ui": {
         "term": "Sıfır Bilgi"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -6416,9 +6041,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -6465,9 +6087,6 @@
       },
       "ui": {
         "term": "Kontrol Noktası"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6514,9 +6133,6 @@
       },
       "ui": {
         "term": "Pectra"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6568,9 +6184,6 @@
       },
       "ui": {
         "term": "Kripto Para"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6624,9 +6237,6 @@
       },
       "ui": {
         "term": "Doğrulayıcı"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6681,9 +6291,6 @@
       },
       "ui": {
         "term": "Oluşturucu"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6735,9 +6342,6 @@
       },
       "ui": {
         "term": "Açık Anahtar"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6784,9 +6388,6 @@
       },
       "ui": {
         "term": "Yan Zincir"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6833,9 +6434,6 @@
       },
       "ui": {
         "term": "Fusaka"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6885,9 +6483,6 @@
       },
       "ui": {
         "term": "Meta Veri"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6939,9 +6534,6 @@
       },
       "ui": {
         "term": "ABI'yi Kopyala"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -6982,9 +6574,6 @@
       },
       "ui": {
         "term": "Etherscan'de Görüntüle"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -7033,9 +6622,6 @@
       },
       "ui": {
         "term": "WETH'e Dönüştür"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -7080,9 +6666,6 @@
       },
       "ui": {
         "term": "zkEVM Ağı"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -7128,9 +6711,6 @@
       },
       "ui": {
         "term": "Gaz Ücretini Düzenle"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -7171,9 +6751,6 @@
       },
       "ui": {
         "term": "Wei Cinsinden Göster"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -7217,9 +6794,6 @@
       },
       "ui": {
         "term": "Gaz Limitini Ayarla"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -7266,9 +6840,6 @@
       },
       "ui": {
         "term": "Öncelik Ücreti Belirle"
-      },
-      "code": {
-        "term": "tip"
       }
     },
     "grammar": {
@@ -7314,9 +6885,6 @@
       },
       "ui": {
         "term": "Mutabakat Mekanizması"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -7359,9 +6927,6 @@
       },
       "ui": {
         "term": "ERC-721 Olarak Seç"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -7406,9 +6971,6 @@
       },
       "ui": {
         "term": "ENS Adresi"
-      },
-      "code": {
-        "term": "ens_name"
       }
     },
     "grammar": {
@@ -7462,9 +7024,6 @@
       },
       "ui": {
         "term": "Kanıtlayıcı Seç"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -7513,9 +7072,6 @@
       },
       "ui": {
         "term": "Kanal Aç"
-      },
-      "code": {
-        "term": "state_channel"
       }
     },
     "grammar": {
@@ -7567,9 +7123,6 @@
       },
       "ui": {
         "term": "İşlem Ücretini Ayarla"
-      },
-      "code": {
-        "term": "transaction_fee"
       }
     },
     "grammar": {
@@ -7620,9 +7173,6 @@
       },
       "ui": {
         "term": "Hesap Türü: EOA"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -7673,9 +7223,6 @@
       },
       "ui": {
         "term": "Kanıtı Doğrula"
-      },
-      "code": {
-        "term": "validity_proof"
       }
     },
     "grammar": {
@@ -7726,9 +7273,6 @@
       },
       "ui": {
         "term": "Musluktan Fon İste"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7779,9 +7323,6 @@
       },
       "ui": {
         "term": "Sepolia Ağına Geç"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7832,9 +7373,6 @@
       },
       "ui": {
         "term": "Gezginde Görüntüle"
-      },
-      "code": {
-        "term": "block_explorer"
       }
     },
     "grammar": {
@@ -7889,9 +7427,6 @@
       },
       "ui": {
         "term": "İşlemi Geri Al"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7940,9 +7475,6 @@
       },
       "ui": {
         "term": "Ethereum Vakfı"
-      },
-      "code": {
-        "term": "ethereum-foundation"
       }
     },
     "grammar": {
@@ -7993,9 +7525,6 @@
       },
       "ui": {
         "term": "Merkeziyetsiz Kimlik (DID)"
-      },
-      "code": {
-        "term": "decentralized-identity"
       }
     },
     "grammar": {
@@ -8047,9 +7576,6 @@
       },
       "ui": {
         "term": "Teklif Edici"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -8100,9 +7626,6 @@
       },
       "ui": {
         "term": "Kriptografi"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -8154,9 +7677,6 @@
       },
       "ui": {
         "term": "Baytkod"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -8205,9 +7725,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -8254,9 +7771,6 @@
       },
       "ui": {
         "term": "Lighthouse"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -8307,9 +7821,6 @@
       },
       "ui": {
         "term": "Gas Fiyatı"
-      },
-      "code": {
-        "term": "gas-price"
       }
     },
     "grammar": {
@@ -8361,9 +7872,6 @@
       },
       "ui": {
         "term": "Eşler Arası"
-      },
-      "code": {
-        "term": "peer-to-peer"
       }
     },
     "grammar": {
@@ -8410,9 +7918,6 @@
       },
       "ui": {
         "term": "Glamsterdam"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -8459,9 +7964,6 @@
       },
       "ui": {
         "term": "Nethermind"
-      },
-      "code": {
-        "term": "nethermind"
       }
     },
     "grammar": {
@@ -8512,9 +8014,6 @@
       },
       "ui": {
         "term": "Sahtekarlık Kanıtı"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -8563,9 +8062,6 @@
       },
       "ui": {
         "term": "Merkle Kanıtı"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -8614,9 +8110,6 @@
       },
       "ui": {
         "term": "Merkeziyetsiz Bilim"
-      },
-      "code": {
-        "term": "decentralizedScience"
       }
     },
     "grammar": {
@@ -8666,9 +8159,6 @@
       },
       "ui": {
         "term": "Güven Gerektirmeyen"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -8711,9 +8201,6 @@
       },
       "ui": {
         "term": "Danksharding"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -8762,9 +8249,6 @@
       },
       "ui": {
         "term": "Çatallanma Seçimi Algoritması"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8813,9 +8297,6 @@
       },
       "ui": {
         "term": "Taban Ücret"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8862,9 +8343,6 @@
       },
       "ui": {
         "term": "Erigon"
-      },
-      "code": {
-        "term": "erigon"
       }
     },
     "grammar": {
@@ -8917,9 +8395,6 @@
       },
       "ui": {
         "term": "Onayla"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8966,9 +8441,6 @@
       },
       "ui": {
         "term": "Merkle Ağacı"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -9017,9 +8489,6 @@
       },
       "ui": {
         "term": "Hafif Düğüm"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -9070,9 +8539,6 @@
       },
       "ui": {
         "term": "Kurtarma İfadesi"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -9121,9 +8587,6 @@
       },
       "ui": {
         "term": "Komite"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -9172,9 +8635,6 @@
       },
       "ui": {
         "term": "Besu İstemcisi"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -9223,9 +8683,6 @@
       },
       "ui": {
         "term": "ZK-SNARK"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -9274,9 +8731,6 @@
       },
       "ui": {
         "term": "Blok Oluşturucu"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -9323,9 +8777,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -9375,9 +8826,6 @@
       },
       "ui": {
         "term": "Etkin Bakiye"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -9424,9 +8872,6 @@
       },
       "ui": {
         "term": "Blok Başlığı"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -9478,9 +8923,6 @@
       },
       "ui": {
         "term": "Zincirler Arası"
-      },
-      "code": {
-        "term": "crossChain"
       }
     },
     "grammar": {
@@ -9525,9 +8967,6 @@
       },
       "ui": {
         "term": "Proto-Danksharding"
-      },
-      "code": {
-        "term": "protoDanksharding"
       }
     },
     "grammar": {
@@ -9570,9 +9009,6 @@
       },
       "ui": {
         "term": "Reth"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -9618,9 +9054,6 @@
       },
       "ui": {
         "term": "Makbuzu Görüntüle"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -9669,9 +9102,6 @@
       },
       "ui": {
         "term": "Borç Ver"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -9717,9 +9147,6 @@
       },
       "ui": {
         "term": "Kasa"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -9765,9 +9192,6 @@
       },
       "ui": {
         "term": "Başlatma Düğümü"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -9813,9 +9237,6 @@
       },
       "ui": {
         "term": "İzin Ver"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -9861,9 +9282,6 @@
       },
       "ui": {
         "term": "Mempool Durumu"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -9909,9 +9327,6 @@
       },
       "ui": {
         "term": "DVT"
-      },
-      "code": {
-        "term": "dvt"
       }
     },
     "grammar": {
@@ -9956,9 +9371,6 @@
       },
       "ui": {
         "term": "DEX"
-      },
-      "code": {
-        "term": "dex"
       }
     },
     "grammar": {
@@ -10004,9 +9416,6 @@
       },
       "ui": {
         "term": "Arayıcı"
-      },
-      "code": {
-        "term": "searcher"
       }
     },
     "grammar": {
@@ -10049,9 +9458,6 @@
       },
       "ui": {
         "term": "Remix"
-      },
-      "code": {
-        "term": "remix"
       }
     },
     "grammar": {
@@ -10094,9 +9500,6 @@
       },
       "ui": {
         "term": "İzinsiz"
-      },
-      "code": {
-        "term": "permissionless"
       }
     },
     "grammar": {
@@ -10139,9 +9542,6 @@
       },
       "ui": {
         "term": "Prysm"
-      },
-      "code": {
-        "term": "prysm"
       }
     },
     "grammar": {
@@ -10184,9 +9584,6 @@
       },
       "ui": {
         "term": "Teku"
-      },
-      "code": {
-        "term": "teku"
       }
     },
     "grammar": {
@@ -10227,9 +9624,6 @@
       },
       "ui": {
         "term": "PeerDAS"
-      },
-      "code": {
-        "term": "peerdas"
       }
     },
     "grammar": {
@@ -10273,9 +9667,6 @@
       },
       "ui": {
         "term": "PBS"
-      },
-      "code": {
-        "term": "pbs"
       }
     },
     "grammar": {
@@ -10321,9 +9712,6 @@
       },
       "ui": {
         "term": "Tek Slot Kesinliği"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -10368,9 +9756,6 @@
       },
       "ui": {
         "term": "Arşiv Düğümü"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -10419,9 +9804,6 @@
       },
       "ui": {
         "term": "Lodestar"
-      },
-      "code": {
-        "term": "lodestar"
       }
     },
     "grammar": {
@@ -10463,9 +9845,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -10511,9 +9890,6 @@
       },
       "ui": {
         "term": "Dijital Varlıklar"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -10566,9 +9942,6 @@
       },
       "ui": {
         "term": "Sıralayıcı"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -10617,9 +9990,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -10664,9 +10034,6 @@
       },
       "ui": {
         "term": "Merkle Kökü"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -10715,9 +10082,6 @@
       },
       "ui": {
         "term": "Tellor"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -10763,9 +10127,6 @@
       },
       "ui": {
         "term": "YZ Ajanı"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -10820,9 +10181,6 @@
       },
       "ui": {
         "term": "Zorluk"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -10877,9 +10235,6 @@
       },
       "ui": {
         "term": "Yeniden Düzenleme"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -10934,9 +10289,6 @@
       },
       "ui": {
         "term": "Doğrula"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -10985,9 +10337,6 @@
       },
       "ui": {
         "term": "Nimbus"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -11038,9 +10387,6 @@
       },
       "ui": {
         "term": "Değişmez"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -11089,9 +10435,6 @@
       },
       "ui": {
         "term": "Tahmin Piyasası"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -11143,9 +10486,6 @@
       },
       "ui": {
         "term": "RLP Kodlaması"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -11200,9 +10540,6 @@
       },
       "ui": {
         "term": "Biçimsel Doğrulama"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -11256,9 +10593,6 @@
       },
       "ui": {
         "term": "Hesap Soyutlama"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -11305,9 +10639,6 @@
       },
       "ui": {
         "term": "Dagger-Hashimoto"
-      },
-      "code": {
-        "term": "dagger_hashimoto"
       }
     },
     "grammar": {
@@ -11350,9 +10681,6 @@
       },
       "ui": {
         "term": "ZK-STARK"
-      },
-      "code": {
-        "term": "zk_stark"
       }
     },
     "grammar": {
@@ -11395,9 +10723,6 @@
       },
       "ui": {
         "term": "Rastgelelik"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -11438,9 +10763,6 @@
       },
       "ui": {
         "term": "Strateji"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -11484,9 +10806,6 @@
       },
       "ui": {
         "term": "RWA İşlemleri"
-      },
-      "code": {
-        "term": "rwa"
       }
     },
     "grammar": {
@@ -11532,9 +10851,6 @@
       },
       "ui": {
         "term": "Taşma Hatası"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -11579,9 +10895,6 @@
       },
       "ui": {
         "term": "İşlem Hash'ini Kopyala"
-      },
-      "code": {
-        "term": "tx_hash"
       }
     },
     "grammar": {
@@ -11627,9 +10940,6 @@
       },
       "ui": {
         "term": "Çoklu İmza Oluştur"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -11674,9 +10984,6 @@
       },
       "ui": {
         "term": "Sabitcoin Al"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -11720,9 +11027,6 @@
       },
       "ui": {
         "term": "Sarı Bülteni Oku"
-      },
-      "code": {
-        "term": "yellow_paper"
       }
     },
     "grammar": {
@@ -11765,9 +11069,6 @@
       },
       "ui": {
         "term": "Birleştirilebilirlik"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -11813,9 +11114,6 @@
       },
       "ui": {
         "term": "Vekil Kontrat"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -11858,9 +11156,6 @@
       },
       "ui": {
         "term": "Alt Grafik"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -11903,9 +11198,6 @@
       },
       "ui": {
         "term": "Birlikte Çalışabilirlik"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -11946,9 +11238,6 @@
       },
       "ui": {
         "term": "İstemci Çeşitliliği"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -11991,9 +11280,6 @@
       },
       "ui": {
         "term": "Şanghay"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -12037,9 +11323,6 @@
       },
       "ui": {
         "term": "Onarıcı Finans"
-      },
-      "code": {
-        "term": "refi"
       }
     },
     "grammar": {
@@ -12082,9 +11365,6 @@
       },
       "ui": {
         "term": "Kontrat Hesabı"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -12125,9 +11405,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -12170,9 +11447,6 @@
       },
       "ui": {
         "term": "Blok Ödülü"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -12217,9 +11491,6 @@
       },
       "ui": {
         "term": "Blok Süresi"
-      },
-      "code": {
-        "term": "blockTime"
       }
     },
     "grammar": {
@@ -12272,9 +11543,6 @@
       },
       "ui": {
         "term": "Tanıtım Belgesini Oku"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -12326,9 +11594,6 @@
       },
       "ui": {
         "term": "Veri Kullanılabilirliği Örneklemesi"
-      },
-      "code": {
-        "term": "dataAvailabilitySampling"
       }
     },
     "grammar": {
@@ -12380,9 +11645,6 @@
       },
       "ui": {
         "term": "Gerekçelendirilmiş"
-      },
-      "code": {
-        "term": "isJustified"
       }
     },
     "grammar": {
@@ -12428,9 +11690,6 @@
       },
       "ui": {
         "term": "Likidite Sağlayıcı Ol"
-      },
-      "code": {
-        "term": "liquidityProvider"
       }
     },
     "grammar": {
@@ -12479,9 +11738,6 @@
       },
       "ui": {
         "term": "libp2p"
-      },
-      "code": {
-        "term": "libp2p"
       }
     },
     "grammar": {
@@ -12527,9 +11783,6 @@
       },
       "ui": {
         "term": "Sıfır Bilgi Toplaması"
-      },
-      "code": {
-        "term": "zkRollup"
       }
     },
     "grammar": {
@@ -12578,9 +11831,6 @@
       },
       "ui": {
         "term": "Chainlink"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -12627,9 +11877,6 @@
       },
       "ui": {
         "term": "Flaş Kredi Al"
-      },
-      "code": {
-        "term": "flashLoan"
       }
     },
     "grammar": {
@@ -12678,9 +11925,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -12721,9 +11965,6 @@
       },
       "ui": {
         "term": "MEV-Boost"
-      },
-      "code": {
-        "term": "mevBoost"
       }
     },
     "grammar": {
@@ -12766,9 +12007,6 @@
       },
       "ui": {
         "term": "Kankun"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -12811,9 +12049,6 @@
       },
       "ui": {
         "term": "Yatırma Sözleşmesi"
-      },
-      "code": {
-        "term": "depositContract"
       }
     },
     "grammar": {
@@ -12863,9 +12098,6 @@
       },
       "ui": {
         "term": "Yürütme Yükü"
-      },
-      "code": {
-        "term": "executionPayload"
       }
     },
     "grammar": {
@@ -12915,9 +12147,6 @@
       },
       "ui": {
         "term": "Yetki Kanıtı"
-      },
-      "code": {
-        "term": "proofOfAuthority"
       }
     },
     "grammar": {
@@ -12964,9 +12193,6 @@
       },
       "ui": {
         "term": "Gizli Lider Seçimi"
-      },
-      "code": {
-        "term": "secretLeaderElection"
       }
     },
     "grammar": {
@@ -13015,9 +12241,6 @@
       },
       "ui": {
         "term": "Senkronizasyon Komitesi"
-      },
-      "code": {
-        "term": "syncCommittee"
       }
     },
     "grammar": {
@@ -13069,9 +12292,6 @@
       },
       "ui": {
         "term": "Borç Al"
-      },
-      "code": {
-        "term": "borrowing"
       }
     },
     "grammar": {
@@ -13122,9 +12342,6 @@
       },
       "ui": {
         "term": "Yeniden Giriş"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -13173,9 +12390,6 @@
       },
       "ui": {
         "term": "ERC-1155"
-      },
-      "code": {
-        "term": "ERC1155"
       }
     },
     "grammar": {
@@ -13218,9 +12432,6 @@
       },
       "ui": {
         "term": "Eliptik Eğri"
-      },
-      "code": {
-        "term": "ellipticCurve"
       }
     },
     "grammar": {
@@ -13265,9 +12476,6 @@
       },
       "ui": {
         "term": "UTXO"
-      },
-      "code": {
-        "term": "utxo"
       }
     },
     "grammar": {
@@ -13313,9 +12521,6 @@
       },
       "ui": {
         "term": "Misli Token"
-      },
-      "code": {
-        "term": "fungibleToken"
       }
     },
     "grammar": {
@@ -13358,9 +12563,6 @@
       },
       "ui": {
         "term": "Karesel Fonlama"
-      },
-      "code": {
-        "term": "quadraticFunding"
       }
     },
     "grammar": {
@@ -13406,9 +12608,6 @@
       },
       "ui": {
         "term": "Koleksiyonluk"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -13453,9 +12652,6 @@
       },
       "ui": {
         "term": "İşaret Bloğu"
-      },
-      "code": {
-        "term": "beaconBlock"
       }
     },
     "grammar": {
@@ -13498,9 +12694,6 @@
       },
       "ui": {
         "term": "Zayıf Öznellik"
-      },
-      "code": {
-        "term": "weakSubjectivity"
       }
     },
     "grammar": {
@@ -13545,9 +12738,6 @@
       },
       "ui": {
         "term": "APR"
-      },
-      "code": {
-        "term": "apr"
       }
     },
     "grammar": {
@@ -13590,9 +12780,6 @@
       },
       "ui": {
         "term": "Likidite Havuzu"
-      },
-      "code": {
-        "term": "liquidityPool"
       }
     },
     "grammar": {
@@ -13638,9 +12825,6 @@
       },
       "ui": {
         "term": "Başlangıç Bloğu"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -13691,9 +12875,6 @@
       },
       "ui": {
         "term": "Şapella"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -13745,9 +12926,6 @@
       },
       "ui": {
         "term": "Birleştirilebilir"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -13799,9 +12977,6 @@
       },
       "ui": {
         "term": "Durum Ağacı"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -13850,9 +13025,6 @@
       },
       "ui": {
         "term": "LMD-GHOST"
-      },
-      "code": {
-        "term": "lmdGhost"
       }
     },
     "grammar": {
@@ -13903,9 +13075,6 @@
       },
       "ui": {
         "term": "Gizli Adres"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -13954,9 +13123,6 @@
       },
       "ui": {
         "term": "DAI"
-      },
-      "code": {
-        "term": "dai"
       }
     },
     "grammar": {
@@ -14011,9 +13177,6 @@
       },
       "ui": {
         "term": "Tokenlaştırma"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -14065,9 +13228,6 @@
       },
       "ui": {
         "term": "Çözücü"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -14119,9 +13279,6 @@
       },
       "ui": {
         "term": "Gözetimsiz"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -14170,9 +13327,6 @@
       },
       "ui": {
         "term": "MaxEB"
-      },
-      "code": {
-        "term": "maxeb"
       }
     },
     "grammar": {
@@ -14213,9 +13367,6 @@
       },
       "ui": {
         "term": "Entropi"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -14266,9 +13417,6 @@
       },
       "ui": {
         "term": "KZG"
-      },
-      "code": {
-        "term": "kzg"
       }
     },
     "grammar": {
@@ -14310,9 +13458,6 @@
         "term": "discv5"
       },
       "ui": {
-        "term": "discv5"
-      },
-      "code": {
         "term": "discv5"
       }
     },
@@ -14356,9 +13501,6 @@
       },
       "ui": {
         "term": "Portal Ağı"
-      },
-      "code": {
-        "term": "portal_network"
       }
     },
     "grammar": {
@@ -14401,9 +13543,6 @@
       },
       "ui": {
         "term": "Zorluk Bombası"
-      },
-      "code": {
-        "term": "difficulty_bomb"
       }
     },
     "grammar": {
@@ -14452,9 +13591,6 @@
       },
       "ui": {
         "term": "Birlikte Çalışabilir"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -14497,9 +13633,6 @@
       },
       "ui": {
         "term": "Durum Zaman Aşımı"
-      },
-      "code": {
-        "term": "state_expiry"
       }
     },
     "grammar": {
@@ -14553,9 +13686,6 @@
       },
       "ui": {
         "term": "Tanık"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -14604,9 +13734,6 @@
       },
       "ui": {
         "term": "Berlin"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -14651,9 +13778,6 @@
       },
       "ui": {
         "term": "Bekleyen İşlemler"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -14707,9 +13831,6 @@
       },
       "ui": {
         "term": "Etkinleştir"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -14760,9 +13881,6 @@
       },
       "ui": {
         "term": "Frontier"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -14813,9 +13931,6 @@
       },
       "ui": {
         "term": "Kamusal Mallar"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -14868,9 +13983,6 @@
       },
       "ui": {
         "term": "TX"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -14922,9 +14034,6 @@
       },
       "ui": {
         "term": "Doğrulanabilir Kimlik Bilgisi"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -14975,9 +14084,6 @@
       },
       "ui": {
         "term": "Değişmezlik"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -15029,9 +14135,6 @@
       },
       "ui": {
         "term": "Likit Staking Tokeni Al"
-      },
-      "code": {
-        "term": "liquidStakingToken"
       }
     },
     "grammar": {
@@ -15080,9 +14183,6 @@
       },
       "ui": {
         "term": "Hizmet Olarak Staking"
-      },
-      "code": {
-        "term": "stakingAsAService"
       }
     },
     "grammar": {
@@ -15131,9 +14231,6 @@
       },
       "ui": {
         "term": "Çekim Kimlik Bilgileri"
-      },
-      "code": {
-        "term": "withdrawalCredentials"
       }
     },
     "grammar": {
@@ -15180,9 +14277,6 @@
       },
       "ui": {
         "term": "Keccak-256"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -15228,9 +14322,6 @@
       },
       "ui": {
         "term": "Geçmiş Sonlanması"
-      },
-      "code": {
-        "term": "historyExpiry"
       }
     },
     "grammar": {
@@ -15279,9 +14370,6 @@
       },
       "ui": {
         "term": "Web 3.0"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -15322,9 +14410,6 @@
       },
       "ui": {
         "term": "Konstantinopolis"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -15370,9 +14455,6 @@
       },
       "ui": {
         "term": "Kaynak Kodunu Doğrula"
-      },
-      "code": {
-        "term": "sourceCodeVerification"
       }
     },
     "grammar": {
@@ -15421,9 +14503,6 @@
       },
       "ui": {
         "term": "POAP"
-      },
-      "code": {
-        "term": "poap"
       }
     },
     "grammar": {
@@ -15475,9 +14554,6 @@
       },
       "ui": {
         "term": "Niyet"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -15529,9 +14605,6 @@
       },
       "ui": {
         "term": "Ödemeci"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -15576,9 +14649,6 @@
       },
       "ui": {
         "term": "Akıllı Hesap"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -15623,9 +14693,6 @@
       },
       "ui": {
         "term": "İşaret Düğümü"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -15670,9 +14737,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "bls"
       }
     },
     "grammar": {
@@ -15717,9 +14781,6 @@
       },
       "ui": {
         "term": "SSZ"
-      },
-      "code": {
-        "term": "ssz"
       }
     },
     "grammar": {
@@ -15764,9 +14825,6 @@
       },
       "ui": {
         "term": "Geth"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -15811,9 +14869,6 @@
       },
       "ui": {
         "term": "Ethereum Classic"
-      },
-      "code": {
-        "term": "ethereum-classic"
       }
     },
     "grammar": {
@@ -15858,9 +14913,6 @@
       },
       "ui": {
         "term": "Bizans"
-      },
-      "code": {
-        "term": "byzantium"
       }
     },
     "grammar": {
@@ -15905,9 +14957,6 @@
       },
       "ui": {
         "term": "ECDSA"
-      },
-      "code": {
-        "term": "ecdsa"
       }
     },
     "grammar": {
@@ -15955,9 +15004,6 @@
       },
       "ui": {
         "term": "Sosyal Kurtarma"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -16009,9 +15055,6 @@
       },
       "ui": {
         "term": "İnşacı Ayrımı"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -16064,9 +15107,6 @@
       },
       "ui": {
         "term": "Hisse Kanıtı"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -16116,9 +15156,6 @@
       },
       "ui": {
         "term": "ECC"
-      },
-      "code": {
-        "term": "ecc"
       }
     },
     "grammar": {
@@ -16170,9 +15207,6 @@
       },
       "ui": {
         "term": "Fiyat Beslemesi"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -16222,9 +15256,6 @@
       },
       "ui": {
         "term": "Geliştirici Ağı"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -16274,9 +15305,6 @@
       },
       "ui": {
         "term": "Dedikodu Protokolü"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -16327,9 +15355,6 @@
       },
       "ui": {
         "term": "Swarm"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -16376,9 +15401,6 @@
       },
       "ui": {
         "term": "Homestead"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -16430,9 +15452,6 @@
         "term": "DAC"
       },
       "ui": {
-        "term": "DAC"
-      },
-      "code": {
         "term": "DAC"
       }
     },
@@ -16487,9 +15506,6 @@
       },
       "ui": {
         "term": "Silme Kodlaması"
-      },
-      "code": {
-        "term": "erasureCoding"
       }
     },
     "grammar": {
@@ -16540,9 +15556,6 @@
       },
       "ui": {
         "term": "Depolama Trie"
-      },
-      "code": {
-        "term": "storageTrie"
       }
     },
     "grammar": {
@@ -16593,9 +15606,6 @@
       },
       "ui": {
         "term": "Blob Ücreti"
-      },
-      "code": {
-        "term": "blobFee"
       }
     },
     "grammar": {
@@ -16647,9 +15657,6 @@
       },
       "ui": {
         "term": "Öncelik Ücreti"
-      },
-      "code": {
-        "term": "priorityFee"
       }
     },
     "grammar": {
@@ -16701,9 +15708,6 @@
       },
       "ui": {
         "term": "Kaybedecek Bir Şey Yok Problemi"
-      },
-      "code": {
-        "term": "nothingAtStakeProblem"
       }
     },
     "grammar": {
@@ -16758,9 +15762,6 @@
       },
       "ui": {
         "term": "Teklifçi Desteği"
-      },
-      "code": {
-        "term": "proposerBoost"
       }
     },
     "grammar": {
@@ -16812,9 +15813,6 @@
       },
       "ui": {
         "term": "Oracle Problemi"
-      },
-      "code": {
-        "term": "oracleProblem"
       }
     },
     "grammar": {
@@ -16866,9 +15864,6 @@
       },
       "ui": {
         "term": "Otonom Ajan"
-      },
-      "code": {
-        "term": "autonomousAgent"
       }
     },
     "grammar": {
@@ -16920,9 +15915,6 @@
       },
       "ui": {
         "term": "İş Kanıtı (PoW)"
-      },
-      "code": {
-        "term": "proofOfWork"
       }
     },
     "grammar": {
@@ -16969,9 +15961,6 @@
       },
       "ui": {
         "term": "Szabo"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -17017,9 +16006,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -17069,9 +16055,6 @@
       },
       "ui": {
         "term": "Verkle Ağaçları"
-      },
-      "code": {
-        "term": "verkleTrees"
       }
     },
     "grammar": {
@@ -17121,9 +16104,6 @@
       },
       "ui": {
         "term": "Geri Dönüş Fonksiyonu"
-      },
-      "code": {
-        "term": "fallback()"
       }
     },
     "grammar": {
@@ -17176,9 +16156,6 @@
       },
       "ui": {
         "term": "Airdrop"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -17224,9 +16201,6 @@
         "term": "USDC"
       },
       "ui": {
-        "term": "USDC"
-      },
-      "code": {
         "term": "USDC"
       }
     },
@@ -17277,9 +16251,6 @@
       },
       "ui": {
         "term": "WBTC"
-      },
-      "code": {
-        "term": "WBTC"
       }
     },
     "grammar": {
@@ -17328,9 +16299,6 @@
       },
       "ui": {
         "term": "İşlem Havuzu"
-      },
-      "code": {
-        "term": "transactionPool"
       }
     },
     "grammar": {
@@ -17379,9 +16347,6 @@
       },
       "ui": {
         "term": "Koruyucu Ekle"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -17430,9 +16395,6 @@
       },
       "ui": {
         "term": "Anahtar Deposu"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -17484,9 +16446,6 @@
       },
       "ui": {
         "term": "Öz Saklama"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -17535,9 +16494,6 @@
       },
       "ui": {
         "term": "Casper FFG"
-      },
-      "code": {
-        "term": "casperFfg"
       }
     },
     "grammar": {
@@ -17586,9 +16542,6 @@
       },
       "ui": {
         "term": "BLS İmzası"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -17637,9 +16590,6 @@
       },
       "ui": {
         "term": "Merkle Patricia Ağacı"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -17689,9 +16639,6 @@
       },
       "ui": {
         "term": "Blok Yayılımı"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -17738,9 +16685,6 @@
       },
       "ui": {
         "term": "Finney"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -17793,9 +16737,6 @@
       },
       "ui": {
         "term": "Kamu Malı"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -17842,9 +16783,6 @@
       },
       "ui": {
         "term": "Hazine"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -17895,9 +16833,6 @@
       },
       "ui": {
         "term": "KYC"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -17945,9 +16880,6 @@
         "term": "SIWE"
       },
       "ui": {
-        "term": "SIWE"
-      },
-      "code": {
         "term": "SIWE"
       }
     },
@@ -18002,9 +16934,6 @@
       },
       "ui": {
         "term": "Önden Koşma"
-      },
-      "code": {
-        "term": "front-running"
       }
     },
     "grammar": {
@@ -18055,9 +16984,6 @@
       },
       "ui": {
         "term": "İstanbul"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -18106,9 +17032,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "KEVM"
       }
     },
     "grammar": {
@@ -18156,9 +17079,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -18210,9 +17130,6 @@
       },
       "ui": {
         "term": "Maksimum Ücret"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -18263,9 +17180,6 @@
       },
       "ui": {
         "term": "Çoklu İmza"
-      },
-      "code": {
-        "term": "multi-signature"
       }
     },
     "grammar": {
@@ -18317,9 +17231,6 @@
       },
       "ui": {
         "term": "Kullanıcı İşlemi"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -18373,9 +17284,6 @@
       },
       "ui": {
         "term": "Sosyal Kesinti"
-      },
-      "code": {
-        "term": "social-slashing"
       }
     },
     "grammar": {
@@ -18425,9 +17333,6 @@
         "term": "SSLE"
       },
       "ui": {
-        "term": "SSLE"
-      },
-      "code": {
         "term": "SSLE"
       }
     },
@@ -18482,9 +17387,6 @@
       },
       "ui": {
         "term": "Stake Öğütme"
-      },
-      "code": {
-        "term": "stake_grinding"
       }
     },
     "grammar": {
@@ -18535,9 +17437,6 @@
       },
       "ui": {
         "term": "TEE"
-      },
-      "code": {
-        "term": "tee"
       }
     },
     "grammar": {
@@ -18588,9 +17487,6 @@
       },
       "ui": {
         "term": "Blokzincir Kâhini"
-      },
-      "code": {
-        "term": "blockchain_oracle"
       }
     },
     "grammar": {
@@ -18641,9 +17537,6 @@
       },
       "ui": {
         "term": "MODEXP"
-      },
-      "code": {
-        "term": "modexp"
       }
     },
     "grammar": {
@@ -18694,9 +17587,6 @@
       },
       "ui": {
         "term": "Test Ağı Musluğu"
-      },
-      "code": {
-        "term": "testnet_faucet"
       }
     },
     "grammar": {
@@ -18745,9 +17635,6 @@
       },
       "ui": {
         "term": "Sansüre Dirençli"
-      },
-      "code": {
-        "term": "censorship_resistant"
       }
     },
     "grammar": {
@@ -18793,9 +17680,6 @@
       },
       "ui": {
         "term": "Yönetişim Token'ı"
-      },
-      "code": {
-        "term": "governance_token"
       }
     },
     "grammar": {
@@ -18844,9 +17728,6 @@
       },
       "ui": {
         "term": "Paketleyici"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -18889,9 +17770,6 @@
       },
       "ui": {
         "term": "AMM"
-      },
-      "code": {
-        "term": "amm"
       }
     },
     "grammar": {
@@ -18935,9 +17813,6 @@
       },
       "ui": {
         "term": "Getiri Çiftçiliği"
-      },
-      "code": {
-        "term": "yield_farming"
       }
     },
     "grammar": {
@@ -18981,9 +17856,6 @@
       },
       "ui": {
         "term": "Ruha Bağlı Token"
-      },
-      "code": {
-        "term": "soulbound_token"
       }
     },
     "grammar": {
@@ -19026,9 +17898,6 @@
       },
       "ui": {
         "term": "Doğrulayıcı Yaşam Döngüsü"
-      },
-      "code": {
-        "term": "validator_lifecycle"
       }
     },
     "grammar": {
@@ -19071,9 +17940,6 @@
       },
       "ui": {
         "term": "Modüler Blokzincir"
-      },
-      "code": {
-        "term": "modular_blockchain"
       }
     },
     "grammar": {
@@ -19117,9 +17983,6 @@
       },
       "ui": {
         "term": "Monolitik Blokzincir"
-      },
-      "code": {
-        "term": "monolithic_blockchain"
       }
     },
     "grammar": {
@@ -19162,9 +18025,6 @@
       },
       "ui": {
         "term": "RPGF"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -19208,9 +18068,6 @@
       },
       "ui": {
         "term": "TVL"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -19253,9 +18110,6 @@
       },
       "ui": {
         "term": "Kuadratik Oylama"
-      },
-      "code": {
-        "term": "quadratic_voting"
       }
     },
     "grammar": {
@@ -19302,9 +18156,6 @@
       },
       "ui": {
         "term": "Arkadan Çalıştırma"
-      },
-      "code": {
-        "term": "back_running"
       }
     },
     "grammar": {
@@ -19353,9 +18204,6 @@
       },
       "ui": {
         "term": "Veri Kullanılabilirliği Katmanı"
-      },
-      "code": {
-        "term": "data_availability_layer"
       }
     },
     "grammar": {
@@ -19405,9 +18253,6 @@
       },
       "ui": {
         "term": "Yükseltilebilir Sözleşme"
-      },
-      "code": {
-        "term": "upgradeable_contract"
       }
     },
     "grammar": {
@@ -19457,9 +18302,6 @@
       },
       "ui": {
         "term": "Hizmet Tokenı"
-      },
-      "code": {
-        "term": "utility_token"
       }
     },
     "grammar": {
@@ -19508,9 +18350,6 @@
       },
       "ui": {
         "term": "Soğuk Cüzdan"
-      },
-      "code": {
-        "term": "cold_wallet"
       }
     },
     "grammar": {
@@ -19559,9 +18398,6 @@
       },
       "ui": {
         "term": "Türetme Yolu"
-      },
-      "code": {
-        "term": "derivation_path"
       }
     },
     "grammar": {
@@ -19610,9 +18446,6 @@
       },
       "ui": {
         "term": "Donanım Cüzdanı"
-      },
-      "code": {
-        "term": "hardware_wallet"
       }
     },
     "grammar": {
@@ -19661,9 +18494,6 @@
       },
       "ui": {
         "term": "Sıcak Cüzdan"
-      },
-      "code": {
-        "term": "hot_wallet"
       }
     },
     "grammar": {
@@ -19713,9 +18543,6 @@
       },
       "ui": {
         "term": "Anahtar"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -19764,9 +18591,6 @@
       },
       "ui": {
         "term": "Anahtar Türetme Fonksiyonu"
-      },
-      "code": {
-        "term": "kdf"
       }
     },
     "grammar": {
@@ -19818,9 +18642,6 @@
       },
       "ui": {
         "term": "Geçiş Anahtarı Oluştur"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -19872,9 +18693,6 @@
       },
       "ui": {
         "term": "Sıfır Adresine Gönder"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -19926,9 +18744,6 @@
       },
       "ui": {
         "term": "Dalgalanma Limitini Görüntüle"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -19980,9 +18795,6 @@
       },
       "ui": {
         "term": "Mutabakat Kuralları"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -20037,9 +18849,6 @@
       },
       "ui": {
         "term": "Çifte İmza Raporu"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -20090,9 +18899,6 @@
       },
       "ui": {
         "term": "Holografik Mutabakat"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -20144,9 +18950,6 @@
       },
       "ui": {
         "term": "Hareketsizlik Sızıntısı Uyarıları"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -20201,9 +19004,6 @@
       },
       "ui": {
         "term": "İhraç Oranını Göster"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -20255,9 +19055,6 @@
       },
       "ui": {
         "term": "Süper Çoğunluk Durumu"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -20311,9 +19108,6 @@
       },
       "ui": {
         "term": "Taahhüt"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -20363,9 +19157,6 @@
       },
       "ui": {
         "term": "DHT'yi Göster"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -20412,9 +19203,6 @@
       },
       "ui": {
         "term": "Ethash"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -20464,9 +19252,6 @@
       },
       "ui": {
         "term": "Ağ Karma Oranı"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -20515,9 +19300,6 @@
       },
       "ui": {
         "term": "SHA Kullan"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -20568,9 +19350,6 @@
       },
       "ui": {
         "term": "Parça Ekle"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -20619,9 +19398,6 @@
       },
       "ui": {
         "term": "Kurulumu Başlat"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -20670,9 +19446,6 @@
       },
       "ui": {
         "term": "API Ayarları"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -20721,9 +19494,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -20776,9 +19546,6 @@
       },
       "ui": {
         "term": "Çıpadan Kopma Bildirimi"
-      },
-      "code": {
-        "term": "depeg"
       }
     },
     "grammar": {
@@ -20827,9 +19594,6 @@
       },
       "ui": {
         "term": "Geçici Kayıp"
-      },
-      "code": {
-        "term": "impermanent_loss"
       }
     },
     "grammar": {
@@ -20878,9 +19642,6 @@
       },
       "ui": {
         "term": "Endeks"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -20932,9 +19693,6 @@
       },
       "ui": {
         "term": "Likidite Token'ları"
-      },
-      "code": {
-        "term": "liquidity_tokens"
       }
     },
     "grammar": {
@@ -20986,9 +19744,6 @@
       },
       "ui": {
         "term": "Aşırı Teminatlandırma"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -21044,9 +19799,6 @@
       },
       "ui": {
         "term": "Fiyat Çapası"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -21093,9 +19845,6 @@
       },
       "ui": {
         "term": "Fiyat Etkisi"
-      },
-      "code": {
-        "term": "price_impact"
       }
     },
     "grammar": {
@@ -21150,9 +19899,6 @@
       },
       "ui": {
         "term": "Fiyat Kayması"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -21202,9 +19948,6 @@
       },
       "ui": {
         "term": "Eth1"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -21254,9 +19997,6 @@
       },
       "ui": {
         "term": "Eth2"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -21305,9 +20045,6 @@
       },
       "ui": {
         "term": "%51 Saldırısı"
-      },
-      "code": {
-        "term": "51_percent_attack"
       }
     },
     "grammar": {
@@ -21356,9 +20093,6 @@
       },
       "ui": {
         "term": "Anonimlik Kümesi"
-      },
-      "code": {
-        "term": "anonymitySet"
       }
     },
     "grammar": {
@@ -21408,9 +20142,6 @@
       },
       "ui": {
         "term": "Sybil Karşıtı"
-      },
-      "code": {
-        "term": "antiSybil"
       }
     },
     "grammar": {
@@ -21459,9 +20190,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "asic"
       }
     },
     "grammar": {
@@ -21511,9 +20239,6 @@
       },
       "ui": {
         "term": "Büyük Uçlu"
-      },
-      "code": {
-        "term": "bigEndian"
       }
     },
     "grammar": {
@@ -21560,9 +20285,6 @@
       },
       "ui": {
         "term": "Blok Durumu"
-      },
-      "code": {
-        "term": "blockStatus"
       }
     },
     "grammar": {
@@ -21614,9 +20336,6 @@
       },
       "ui": {
         "term": "Derleniyor..."
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -21666,9 +20385,6 @@
       },
       "ui": {
         "term": "Hesaplamalı İmkansızlık"
-      },
-      "code": {
-        "term": "computationalInfeasibility"
       }
     },
     "grammar": {
@@ -21718,9 +20434,6 @@
       },
       "ui": {
         "term": "CFI Durumu"
-      },
-      "code": {
-        "term": "consideredForInclusion"
       }
     },
     "grammar": {
@@ -21769,9 +20482,6 @@
       },
       "ui": {
         "term": "Kriptoekonomi"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -21821,9 +20531,6 @@
       },
       "ui": {
         "term": "DAG"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -21872,9 +20579,6 @@
       },
       "ui": {
         "term": "Merkeziyetsiz Fiziksel Altyapı"
-      },
-      "code": {
-        "term": "merkeziyetsiz_fiziksel_altyapi"
       }
     },
     "grammar": {
@@ -21928,9 +20632,6 @@
       },
       "ui": {
         "term": "Keşfet"
-      },
-      "code": {
-        "term": "kesif"
       }
     },
     "grammar": {
@@ -21984,9 +20685,6 @@
       },
       "ui": {
         "term": "Çifte Harcama"
-      },
-      "code": {
-        "term": "cifte_harcama"
       }
     },
     "grammar": {
@@ -22037,9 +20735,6 @@
       },
       "ui": {
         "term": "Yürütme İstemcisi"
-      },
-      "code": {
-        "term": "yurutme_istemcisi"
       }
     },
     "grammar": {
@@ -22088,9 +20783,6 @@
       },
       "ui": {
         "term": "Yürütme Katmanı"
-      },
-      "code": {
-        "term": "yurutme_katmani"
       }
     },
     "grammar": {
@@ -22139,9 +20831,6 @@
       },
       "ui": {
         "term": "IDE"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -22190,9 +20879,6 @@
       },
       "ui": {
         "term": "Hafif İstemci"
-      },
-      "code": {
-        "term": "hafif_istemci"
       }
     },
     "grammar": {
@@ -22246,9 +20932,6 @@
       },
       "ui": {
         "term": "Mesaj"
-      },
-      "code": {
-        "term": "mesaj"
       }
     },
     "grammar": {
@@ -22297,9 +20980,6 @@
       },
       "ui": {
         "term": "Mesaj Çağrısı"
-      },
-      "code": {
-        "term": "mesaj_cagrisi"
       }
     },
     "grammar": {
@@ -22353,9 +21033,6 @@
       },
       "ui": {
         "term": "Ağ"
-      },
-      "code": {
-        "term": "ag"
       }
     },
     "grammar": {
@@ -22409,9 +21086,6 @@
       },
       "ui": {
         "term": "Kriptodan Çıkış"
-      },
-      "code": {
-        "term": "kriptodanCikis"
       }
     },
     "grammar": {
@@ -22455,9 +21129,6 @@
       },
       "ui": {
         "term": "Ommer Bloğu"
-      },
-      "code": {
-        "term": "ommerBlogu"
       }
     },
     "grammar": {
@@ -22505,9 +21176,6 @@
       },
       "ui": {
         "term": "Kriptoya Giriş"
-      },
-      "code": {
-        "term": "kriptoyaGiris"
       }
     },
     "grammar": {
@@ -22555,9 +21223,6 @@
       },
       "ui": {
         "term": "Sisteme Katılım"
-      },
-      "code": {
-        "term": "sistemeKatilim"
       }
     },
     "grammar": {
@@ -22601,9 +21266,6 @@
       },
       "ui": {
         "term": "İzinli"
-      },
-      "code": {
-        "term": "izinli"
       }
     },
     "grammar": {
@@ -22647,9 +21309,6 @@
       },
       "ui": {
         "term": "Özel Zincir"
-      },
-      "code": {
-        "term": "ozelZincir"
       }
     },
     "grammar": {
@@ -22693,9 +21352,6 @@
       },
       "ui": {
         "term": "Katılım Kanıtı"
-      },
-      "code": {
-        "term": "katilimKaniti"
       }
     },
     "grammar": {
@@ -22739,9 +21395,6 @@
       },
       "ui": {
         "term": "Yeniden Giriş Saldırısı"
-      },
-      "code": {
-        "term": "yenidenGirisSaldirisi"
       }
     },
     "grammar": {
@@ -22790,9 +21443,6 @@
       },
       "ui": {
         "term": "Ödül Al"
-      },
-      "code": {
-        "term": "odul"
       }
     },
     "grammar": {
@@ -22838,9 +21488,6 @@
       },
       "ui": {
         "term": "Öz-Egemenlik"
-      },
-      "code": {
-        "term": "self_sovereignty"
       }
     },
     "grammar": {
@@ -22894,9 +21541,6 @@
       },
       "ui": {
         "term": "Serileştir"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -22947,9 +21591,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -23000,9 +21641,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -23052,9 +21690,6 @@
       },
       "ui": {
         "term": "Durum Şişkinliği"
-      },
-      "code": {
-        "term": "state_bloat"
       }
     },
     "grammar": {
@@ -23103,9 +21738,6 @@
       },
       "ui": {
         "term": "Durumsuzluk"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -23156,9 +21788,6 @@
       },
       "ui": {
         "term": "Sybil Saldırısı"
-      },
-      "code": {
-        "term": "sybil_attack"
       }
     },
     "grammar": {
@@ -23213,9 +21842,6 @@
       },
       "ui": {
         "term": "Eşzamanlanıyor..."
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -23264,9 +21890,6 @@
       },
       "ui": {
         "term": "Terminal Toplam Zorluk"
-      },
-      "code": {
-        "term": "terminal_total_difficulty"
       }
     },
     "grammar": {
@@ -23317,9 +21940,6 @@
       },
       "ui": {
         "term": "Güven Varsayımları"
-      },
-      "code": {
-        "term": "trust_assumptions"
       }
     },
     "grammar": {
@@ -23366,9 +21986,6 @@
       },
       "ui": {
         "term": "Güveni Minimize Edilmiş"
-      },
-      "code": {
-        "term": "trust_minimized"
       }
     },
     "grammar": {
@@ -23417,9 +22034,6 @@
       },
       "ui": {
         "term": "Güven Gereksinimsizliği"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -23466,9 +22080,6 @@
       },
       "ui": {
         "term": "Turing Tam"
-      },
-      "code": {
-        "term": "turing_complete"
       }
     },
     "grammar": {
@@ -23517,9 +22128,6 @@
       },
       "ui": {
         "term": "Web2"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -23566,9 +22174,6 @@
       },
       "ui": {
         "term": "Sandviç Saldırısı"
-      },
-      "code": {
-        "term": "sandwich_attack"
       }
     },
     "grammar": {
@@ -23620,9 +22225,6 @@
       },
       "ui": {
         "term": "Toplu İşleme"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -23673,9 +22275,6 @@
       },
       "ui": {
         "term": "Blob Alanı"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -23727,9 +22326,6 @@
       },
       "ui": {
         "term": "Kaçış Mekanizmasını Başlat"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -23780,9 +22376,6 @@
       },
       "ui": {
         "term": "Hata Kanıtı Gönder"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -23837,9 +22430,6 @@
       },
       "ui": {
         "term": "Zorlamalı Çekim Başlat"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -23893,9 +22483,6 @@
       },
       "ui": {
         "term": "Toplamalar"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -23949,9 +22536,6 @@
       },
       "ui": {
         "term": "Uzlaşma Durumu"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -24002,9 +22586,6 @@
       },
       "ui": {
         "term": "Durum Kanalları"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -24056,9 +22637,6 @@
       },
       "ui": {
         "term": "İşlem Kapasitesi"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -24107,9 +22685,6 @@
       },
       "ui": {
         "term": "Validium"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -24161,9 +22736,6 @@
       },
       "ui": {
         "term": "Çağrı Verisi"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -24211,9 +22783,6 @@
       },
       "ui": {
         "term": "Sözleşme Oluşturma İşlemi"
-      },
-      "code": {
-        "term": "contractCreationTx"
       }
     },
     "grammar": {
@@ -24258,9 +22827,6 @@
       },
       "ui": {
         "term": "EVM Assembly Dili"
-      },
-      "code": {
-        "term": "evmAssembly"
       }
     },
     "grammar": {
@@ -24309,9 +22875,6 @@
       },
       "ui": {
         "term": "Gaz Optimizasyonu"
-      },
-      "code": {
-        "term": "gasOptimization"
       }
     },
     "grammar": {
@@ -24357,9 +22920,6 @@
       },
       "ui": {
         "term": "Değiştirilemez Kod Sorunu"
-      },
-      "code": {
-        "term": "immutableDeployedCodeProblem"
       }
     },
     "grammar": {
@@ -24409,9 +22969,6 @@
       },
       "ui": {
         "term": "Ön Derlemeler"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -24456,9 +23013,6 @@
       },
       "ui": {
         "term": "Yeniden Giriş Koruması"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -24506,9 +23060,6 @@
       },
       "ui": {
         "term": "Sözleşmeyi Yok Et"
-      },
-      "code": {
-        "term": "selfDestruct"
       }
     },
     "grammar": {
@@ -24556,9 +23107,6 @@
       },
       "ui": {
         "term": "Singleton"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -24601,9 +23149,6 @@
       },
       "ui": {
         "term": "Solidity Satıriçi Assembly"
-      },
-      "code": {
-        "term": "solidity-inline-assembly"
       }
     },
     "grammar": {
@@ -24647,9 +23192,6 @@
       },
       "ui": {
         "term": "Durum"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -24697,9 +23239,6 @@
       },
       "ui": {
         "term": "Talep Et"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -24745,9 +23284,6 @@
       },
       "ui": {
         "term": "Eşik"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -24796,9 +23332,6 @@
       },
       "ui": {
         "term": "Kesirleştir"
-      },
-      "code": {
-        "term": "fractionalization"
       }
     },
     "grammar": {
@@ -24844,9 +23377,6 @@
       },
       "ui": {
         "term": "LP Token"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -24891,9 +23421,6 @@
       },
       "ui": {
         "term": "Token Fabrikası"
-      },
-      "code": {
-        "term": "tokenFactory"
       }
     },
     "grammar": {
@@ -24936,9 +23463,6 @@
       },
       "ui": {
         "term": "Token URI"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -24987,9 +23511,6 @@
       },
       "ui": {
         "term": "Hak Ediş"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -25035,9 +23556,6 @@
       },
       "ui": {
         "term": "Sarmalanmış Token"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -25082,9 +23600,6 @@
       },
       "ui": {
         "term": "Dahili İşlemler"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -25136,9 +23651,6 @@
       },
       "ui": {
         "term": "Maks. Gaz Ücreti"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -25185,9 +23697,6 @@
       },
       "ui": {
         "term": "Kurucu"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -25217,9 +23726,6 @@
       },
       "ui": {
         "term": "Charles Hoskinson"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -25244,9 +23750,6 @@
         "term": "Gavin Wood"
       },
       "ui": {
-        "term": "Gavin Wood"
-      },
-      "code": {
         "term": "Gavin Wood"
       }
     },
@@ -25273,9 +23776,6 @@
       },
       "ui": {
         "term": "Joseph Lubin"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -25300,9 +23800,6 @@
         "term": "Vitalik Buterin"
       },
       "ui": {
-        "term": "Vitalik Buterin"
-      },
-      "code": {
         "term": "Vitalik Buterin"
       }
     },
@@ -25329,9 +23826,6 @@
       },
       "ui": {
         "term": "Wei Dai"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -25356,9 +23850,6 @@
         "term": "Aave"
       },
       "ui": {
-        "term": "Aave"
-      },
-      "code": {
         "term": "Aave"
       }
     },
@@ -25385,9 +23876,6 @@
       },
       "ui": {
         "term": "Arbitrum"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -25412,9 +23900,6 @@
         "term": "Binance"
       },
       "ui": {
-        "term": "Binance"
-      },
-      "code": {
         "term": "Binance"
       }
     },
@@ -25441,9 +23926,6 @@
       },
       "ui": {
         "term": "Chrome"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -25468,9 +23950,6 @@
         "term": "Coinbase"
       },
       "ui": {
-        "term": "Coinbase"
-      },
-      "code": {
         "term": "Coinbase"
       }
     },
@@ -25497,9 +23976,6 @@
       },
       "ui": {
         "term": "ConsenSys"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -25524,9 +24000,6 @@
         "term": "CryptoKitties"
       },
       "ui": {
-        "term": "CryptoKitties"
-      },
-      "code": {
         "term": "CryptoKitties"
       }
     },
@@ -25553,9 +24026,6 @@
       },
       "ui": {
         "term": "Dencun"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -25580,9 +24050,6 @@
         "term": "Discord"
       },
       "ui": {
-        "term": "Discord"
-      },
-      "code": {
         "term": "Discord"
       }
     },
@@ -25609,9 +24076,6 @@
       },
       "ui": {
         "term": "Facebook"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -25636,9 +24100,6 @@
         "term": "Filecoin"
       },
       "ui": {
-        "term": "Filecoin"
-      },
-      "code": {
         "term": "Filecoin"
       }
     },
@@ -25665,9 +24126,6 @@
       },
       "ui": {
         "term": "Goerli"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -25692,9 +24150,6 @@
         "term": "Holesky"
       },
       "ui": {
-        "term": "Holesky"
-      },
-      "code": {
         "term": "Holesky"
       }
     },
@@ -25721,9 +24176,6 @@
       },
       "ui": {
         "term": "Lido"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -25748,9 +24200,6 @@
         "term": "MakerDAO"
       },
       "ui": {
-        "term": "MakerDAO"
-      },
-      "code": {
         "term": "MakerDAO"
       }
     },
@@ -25777,9 +24226,6 @@
       },
       "ui": {
         "term": "Microsoft"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -25804,9 +24250,6 @@
         "term": "Netflix"
       },
       "ui": {
-        "term": "Netflix"
-      },
-      "code": {
         "term": "Netflix"
       }
     },
@@ -25833,9 +24276,6 @@
       },
       "ui": {
         "term": "OpenSea"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -25860,9 +24300,6 @@
         "term": "Optimism"
       },
       "ui": {
-        "term": "Optimism"
-      },
-      "code": {
         "term": "Optimism"
       }
     },
@@ -25889,9 +24326,6 @@
       },
       "ui": {
         "term": "PayPal"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -25916,9 +24350,6 @@
         "term": "Polygon"
       },
       "ui": {
-        "term": "Polygon"
-      },
-      "code": {
         "term": "Polygon"
       }
     },
@@ -25945,9 +24376,6 @@
       },
       "ui": {
         "term": "Reddit"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -25972,9 +24400,6 @@
         "term": "Ropsten"
       },
       "ui": {
-        "term": "Ropsten"
-      },
-      "code": {
         "term": "Ropsten"
       }
     },
@@ -26001,9 +24426,6 @@
       },
       "ui": {
         "term": "Starknet"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -26028,9 +24450,6 @@
         "term": "Telegram"
       },
       "ui": {
-        "term": "Telegram"
-      },
-      "code": {
         "term": "Telegram"
       }
     },
@@ -26057,9 +24476,6 @@
       },
       "ui": {
         "term": "Twitter"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -26085,9 +24501,6 @@
       },
       "ui": {
         "term": "YouTube"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -26112,9 +24525,6 @@
         "term": "ZKsync"
       },
       "ui": {
-        "term": "ZKsync"
-      },
-      "code": {
         "term": "ZKsync"
       }
     },
