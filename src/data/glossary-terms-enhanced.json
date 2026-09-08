@@ -2448,7 +2448,7 @@
     },
     "bls-signature": {
       "id": "bls-signature",
-      "term": "bls signature",
+      "term": "BLS signature",
       "category": "cryptography",
       "definition": "A signature produced under the Boneh-Lynn-Shacham scheme. Validators sign attestations and blocks with BLS keys, and the results can be aggregated so a single signature stands for an entire committee.",
       "has_tooltip": false,
@@ -2464,7 +2464,7 @@
       },
       "script_rule": "translate",
       "note": "Boneh-Lynn-Shacham signature scheme. 'BLS' stays Latin, 'signature' translates.",
-      "casing": "standard",
+      "casing": "fixed",
       "aliases": [],
       "term_role": "cryptographic-primitive"
     },
@@ -5745,7 +5745,7 @@
     },
     "frontier": {
       "id": "frontier",
-      "term": "frontier",
+      "term": "Frontier",
       "category": "general",
       "definition": "The initial test development stage of Ethereum, which lasted from July 2015 to March 2016.",
       "has_tooltip": false,
@@ -5757,12 +5757,14 @@
         "glossary.json"
       ],
       "forms": {
-        "base": "frontier"
+        "base": "Frontier"
       },
-      "script_rule": "translate",
+      "script_rule": "transliterate",
       "casing": "proper",
       "aliases": [],
-      "term_role": "network-name"
+      "term_role": "network-name",
+      "note": "The July 2015 release, Ethereum's first live network.",
+      "translation_note": "The release name, not the common noun. \"The frontier of research\" is ordinary English and is not this term. Follow the other release names: an established local form where one exists, otherwise a transliteration -- never a semantic translation."
     },
     "full node": {
       "id": "full-node",
@@ -8118,7 +8120,7 @@
       "id": "byzantium",
       "term": "Byzantium",
       "category": "protocol-upgrades",
-      "definition": "The first part of the Metropolis upgrade, activated in October 2017. It added cryptographic precompiles enabling zero-knowledge proofs, the REVERT opcode, and a status field in transaction receipts.",
+      "definition": "The first part of the Metropolis upgrade, activated in October 2017. It added cryptographic precompiles enabling zero-knowledge proofs, the REVERT opcode, and a status field in transaction receipts, and under EIP-649 it delayed the difficulty bomb by a year while reducing the block reward from 5 to 3 ETH.",
       "has_tooltip": false,
       "in_glossary": false,
       "content_occurrences": 7,
@@ -8132,28 +8134,9 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": [],
-      "term_role": "network-name"
-    },
-    "byzantium fork": {
-      "id": "byzantium-fork",
-      "term": "Byzantium fork",
-      "category": "protocol-upgrades",
-      "definition": "The first of two hard forks for the Metropolis development stage. It included EIP-649 Metropolis Difficulty Bomb Delay and Block Reward Reduction, where the Ice Age was delayed by 1 year and the block reward was reduced from 5 to 3 ether.",
-      "has_tooltip": false,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "glossary.json"
+      "aliases": [
+        "Byzantium fork"
       ],
-      "forms": {
-        "base": "byzantium fork"
-      },
-      "script_rule": "transliterate",
-      "casing": "proper",
-      "aliases": [],
       "term_role": "network-name"
     },
     "cancun": {
@@ -8195,28 +8178,9 @@
       },
       "script_rule": "transliterate",
       "casing": "proper",
-      "aliases": [],
-      "term_role": "network-name"
-    },
-    "constantinople fork": {
-      "id": "constantinople-fork",
-      "term": "Constantinople fork",
-      "category": "protocol-upgrades",
-      "definition": "The second part of the Metropolis stage, originally planned for mid-2018. Expected to include a switch to a hybrid proof-of-work/proof-of-stake consensus algorithm, among other changes.",
-      "has_tooltip": false,
-      "in_glossary": true,
-      "content_occurrences": 0,
-      "content_files": 0,
-      "intl_keys": 0,
-      "sources": [
-        "glossary.json"
+      "aliases": [
+        "Constantinople fork"
       ],
-      "forms": {
-        "base": "constantinople fork"
-      },
-      "script_rule": "transliterate",
-      "casing": "proper",
-      "aliases": [],
       "term_role": "network-name"
     },
     "ethereum request for comments (erc)": {
@@ -9817,7 +9781,7 @@
         "base": "evm assembly language"
       },
       "script_rule": "translate",
-      "casing": "standard",
+      "casing": "fixed",
       "note": "EVM follows acronym casing within this term.",
       "aliases": [],
       "term_role": "concept"
