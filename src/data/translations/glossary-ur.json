@@ -34,9 +34,6 @@
       },
       "ui": {
         "term": "تصدیق کریں"
-      },
-      "code": {
-        "term": "attestation"
       }
     },
     "grammar": {
@@ -91,9 +88,6 @@
       },
       "ui": {
         "term": "برج کریں"
-      },
-      "code": {
-        "term": "bridge"
       }
     },
     "grammar": {
@@ -148,9 +142,6 @@
       },
       "ui": {
         "term": "ٹوکن جلائیں"
-      },
-      "code": {
-        "term": "burn"
       }
     },
     "grammar": {
@@ -201,9 +192,6 @@
       },
       "ui": {
         "term": "جلانے کا عمل"
-      },
-      "code": {
-        "term": "burning"
       }
     },
     "grammar": {
@@ -259,9 +247,6 @@
       },
       "ui": {
         "term": "ضمانت شامل کریں"
-      },
-      "code": {
-        "term": "collateral"
       }
     },
     "grammar": {
@@ -314,9 +299,6 @@
       },
       "ui": {
         "term": "لامرکزیت"
-      },
-      "code": {
-        "term": "decentralization"
       }
     },
     "grammar": {
@@ -368,9 +350,6 @@
       },
       "ui": {
         "term": "لامركزی"
-      },
-      "code": {
-        "term": "decentralized"
       }
     },
     "grammar": {
@@ -423,9 +402,6 @@
       },
       "ui": {
         "term": "تفویض کریں"
-      },
-      "code": {
-        "term": "delegate"
       }
     },
     "grammar": {
@@ -480,9 +456,6 @@
       },
       "ui": {
         "term": "اپنی تفویض دیکھیں"
-      },
-      "code": {
-        "term": "delegation"
       }
     },
     "grammar": {
@@ -537,9 +510,6 @@
       },
       "ui": {
         "term": "تعینات کریں"
-      },
-      "code": {
-        "term": "deploy"
       }
     },
     "grammar": {
@@ -584,9 +554,6 @@
       },
       "ui": {
         "term": "تعیناتی"
-      },
-      "code": {
-        "term": "deployment"
       }
     },
     "grammar": {
@@ -637,9 +604,6 @@
       },
       "ui": {
         "term": "ڈیجیٹل دستخط"
-      },
-      "code": {
-        "term": "digitalSignature"
       }
     },
     "grammar": {
@@ -691,9 +655,6 @@
       },
       "ui": {
         "term": "دستخط"
-      },
-      "code": {
-        "term": "signature"
       }
     },
     "grammar": {
@@ -747,9 +708,6 @@
       },
       "ui": {
         "term": "دستخط کریں"
-      },
-      "code": {
-        "term": "signing"
       }
     },
     "grammar": {
@@ -798,9 +756,6 @@
       },
       "ui": {
         "term": "خفیہ کاری"
-      },
-      "code": {
-        "term": "encryption"
       }
     },
     "grammar": {
@@ -855,9 +810,6 @@
       },
       "ui": {
         "term": "رمز کشائی"
-      },
-      "code": {
-        "term": "decryption"
       }
     },
     "grammar": {
@@ -908,9 +860,6 @@
       },
       "ui": {
         "term": "حتمیت"
-      },
-      "code": {
-        "term": "finality"
       }
     },
     "grammar": {
@@ -957,9 +906,6 @@
       },
       "ui": {
         "term": "حتمی"
-      },
-      "code": {
-        "term": "finalized"
       }
     },
     "grammar": {
@@ -1009,9 +955,6 @@
       },
       "ui": {
         "term": "فورک کریں"
-      },
-      "code": {
-        "term": "fork"
       }
     },
     "grammar": {
@@ -1058,9 +1001,6 @@
       },
       "ui": {
         "term": "ہارڈ فورک"
-      },
-      "code": {
-        "term": "hardFork"
       }
     },
     "grammar": {
@@ -1106,9 +1046,6 @@
       },
       "ui": {
         "term": "سافٹ فورک"
-      },
-      "code": {
-        "term": "softFork"
       }
     },
     "grammar": {
@@ -1155,9 +1092,6 @@
       },
       "ui": {
         "term": "گورننس"
-      },
-      "code": {
-        "term": "governance"
       }
     },
     "grammar": {
@@ -1206,9 +1140,6 @@
       },
       "ui": {
         "term": "ہیش"
-      },
-      "code": {
-        "term": "hash"
       }
     },
     "grammar": {
@@ -1251,9 +1182,6 @@
       },
       "ui": {
         "term": "ہیش فنکشن"
-      },
-      "code": {
-        "term": "hashFunction"
       }
     },
     "grammar": {
@@ -1297,9 +1225,6 @@
       },
       "ui": {
         "term": "ہیش ریٹ"
-      },
-      "code": {
-        "term": "hashRate"
       }
     },
     "grammar": {
@@ -1347,9 +1272,6 @@
       },
       "ui": {
         "term": "ہیشنگ"
-      },
-      "code": {
-        "term": "hashing"
       }
     },
     "grammar": {
@@ -1392,9 +1314,6 @@
       },
       "ui": {
         "term": "لیکویڈ اسٹیکنگ"
-      },
-      "code": {
-        "term": "liquid_staking"
       }
     },
     "grammar": {
@@ -1443,9 +1362,6 @@
       },
       "ui": {
         "term": "مشترکہ اسٹیکنگ"
-      },
-      "code": {
-        "term": "pooled_staking"
       }
     },
     "grammar": {
@@ -1494,9 +1410,6 @@
       },
       "ui": {
         "term": "ری اسٹیکنگ"
-      },
-      "code": {
-        "term": "restaking"
       }
     },
     "grammar": {
@@ -1545,9 +1458,6 @@
       },
       "ui": {
         "term": "سولو اسٹیکنگ"
-      },
-      "code": {
-        "term": "solo_staking"
       }
     },
     "grammar": {
@@ -1600,9 +1510,6 @@
       },
       "ui": {
         "term": "اسٹیک کریں"
-      },
-      "code": {
-        "term": "stake"
       }
     },
     "grammar": {
@@ -1649,9 +1556,6 @@
       },
       "ui": {
         "term": "اسٹیک شدہ"
-      },
-      "code": {
-        "term": "staked"
       }
     },
     "grammar": {
@@ -1700,9 +1604,6 @@
       },
       "ui": {
         "term": "اسٹیکر"
-      },
-      "code": {
-        "term": "staker"
       }
     },
     "grammar": {
@@ -1749,9 +1650,6 @@
       },
       "ui": {
         "term": "اسٹیکنگ"
-      },
-      "code": {
-        "term": "staking"
       }
     },
     "grammar": {
@@ -1800,9 +1698,6 @@
       },
       "ui": {
         "term": "اسٹیکنگ ڈپازٹ"
-      },
-      "code": {
-        "term": "staking_deposit"
       }
     },
     "grammar": {
@@ -1849,9 +1744,6 @@
       },
       "ui": {
         "term": "اسٹیکنگ پول"
-      },
-      "code": {
-        "term": "staking_pool"
       }
     },
     "grammar": {
@@ -1903,9 +1795,6 @@
       },
       "ui": {
         "term": "ان اسٹیکنگ"
-      },
-      "code": {
-        "term": "unstaking"
       }
     },
     "grammar": {
@@ -1958,9 +1847,6 @@
       },
       "ui": {
         "term": "تصفیہ کریں"
-      },
-      "code": {
-        "term": "liquidation"
       }
     },
     "grammar": {
@@ -2009,9 +1895,6 @@
       },
       "ui": {
         "term": "کان کن"
-      },
-      "code": {
-        "term": "miner"
       }
     },
     "grammar": {
@@ -2063,9 +1946,6 @@
       },
       "ui": {
         "term": "کان کنی"
-      },
-      "code": {
-        "term": "mining"
       }
     },
     "grammar": {
@@ -2117,9 +1997,6 @@
       },
       "ui": {
         "term": "ڈھالیں"
-      },
-      "code": {
-        "term": "mint"
       }
     },
     "grammar": {
@@ -2171,9 +2048,6 @@
       },
       "ui": {
         "term": "ڈھلائی"
-      },
-      "code": {
-        "term": "minting"
       }
     },
     "grammar": {
@@ -2226,9 +2100,6 @@
       },
       "ui": {
         "term": "کٹوتی"
-      },
-      "code": {
-        "term": "slashing"
       }
     },
     "grammar": {
@@ -2278,9 +2149,6 @@
       },
       "ui": {
         "term": "کٹوتی کنندہ"
-      },
-      "code": {
-        "term": "slasher"
       }
     },
     "grammar": {
@@ -2333,9 +2201,6 @@
       },
       "ui": {
         "term": "تبادلہ کریں"
-      },
-      "code": {
-        "term": "swap"
       }
     },
     "grammar": {
@@ -2388,9 +2253,6 @@
       },
       "ui": {
         "term": "ٹرانزیکشن"
-      },
-      "code": {
-        "term": "transaction"
       }
     },
     "grammar": {
@@ -2439,9 +2301,6 @@
       },
       "ui": {
         "term": "توثیق کار شامل کریں"
-      },
-      "code": {
-        "term": "validator"
       }
     },
     "grammar": {
@@ -2490,9 +2349,6 @@
       },
       "ui": {
         "term": "بلاک کی توثیق کریں"
-      },
-      "code": {
-        "term": "blockValidation"
       }
     },
     "grammar": {
@@ -2546,9 +2402,6 @@
       },
       "ui": {
         "term": "ووٹ دیں"
-      },
-      "code": {
-        "term": "vote"
       }
     },
     "grammar": {
@@ -2599,9 +2452,6 @@
       },
       "ui": {
         "term": "ووٹنگ شروع کریں"
-      },
-      "code": {
-        "term": "voting"
       }
     },
     "grammar": {
@@ -2650,9 +2500,6 @@
       },
       "ui": {
         "term": "ایتھیریم سے جڑیں"
-      },
-      "code": {
-        "term": "ethereum"
       }
     },
     "grammar": {
@@ -2703,9 +2550,6 @@
       },
       "ui": {
         "term": "کنٹریکٹ دیکھیں"
-      },
-      "code": {
-        "term": "contract"
       }
     },
     "grammar": {
@@ -2754,9 +2598,6 @@
       },
       "ui": {
         "term": "بلاک تلاش کریں"
-      },
-      "code": {
-        "term": "block"
       }
     },
     "grammar": {
@@ -2807,9 +2648,6 @@
       },
       "ui": {
         "term": "سمارٹ کنٹریکٹ چلائیں"
-      },
-      "code": {
-        "term": "smartContract"
       }
     },
     "grammar": {
@@ -2858,9 +2696,6 @@
       },
       "ui": {
         "term": "نوڈ شامل کریں"
-      },
-      "code": {
-        "term": "node"
       }
     },
     "grammar": {
@@ -2909,9 +2744,6 @@
       },
       "ui": {
         "term": "ٹوکن بھیجیں"
-      },
-      "code": {
-        "term": "token"
       }
     },
     "grammar": {
@@ -2962,9 +2794,6 @@
       },
       "ui": {
         "term": "پتہ"
-      },
-      "code": {
-        "term": "address"
       }
     },
     "grammar": {
@@ -3016,9 +2845,6 @@
       },
       "ui": {
         "term": "ETH"
-      },
-      "code": {
-        "term": "ETH"
       }
     },
     "grammar": {
@@ -3069,9 +2895,6 @@
       },
       "ui": {
         "term": "بلاک چین"
-      },
-      "code": {
-        "term": "blockchain"
       }
     },
     "grammar": {
@@ -3122,9 +2945,6 @@
       },
       "ui": {
         "term": "اکاؤنٹ بنائیں"
-      },
-      "code": {
-        "term": "account"
       }
     },
     "grammar": {
@@ -3176,9 +2996,6 @@
       },
       "ui": {
         "term": "چین"
-      },
-      "code": {
-        "term": "chain"
       }
     },
     "grammar": {
@@ -3229,9 +3046,6 @@
       },
       "ui": {
         "term": "پروٹوکول"
-      },
-      "code": {
-        "term": "protocol"
       }
     },
     "grammar": {
@@ -3282,9 +3096,6 @@
       },
       "ui": {
         "term": "والیٹ کو جوڑیں"
-      },
-      "code": {
-        "term": "wallet"
       }
     },
     "grammar": {
@@ -3334,9 +3145,6 @@
       },
       "ui": {
         "term": "گیس"
-      },
-      "code": {
-        "term": "gas"
       }
     },
     "grammar": {
@@ -3385,9 +3193,6 @@
       },
       "ui": {
         "term": "رول اپ"
-      },
-      "code": {
-        "term": "rollup"
       }
     },
     "grammar": {
@@ -3439,9 +3244,6 @@
       },
       "ui": {
         "term": "تجویز دیکھیں"
-      },
-      "code": {
-        "term": "EIP"
       }
     },
     "grammar": {
@@ -3493,9 +3295,6 @@
       },
       "ui": {
         "term": "تقاضا کریں"
-      },
-      "code": {
-        "term": "require"
       }
     },
     "grammar": {
@@ -3542,9 +3341,6 @@
       },
       "ui": {
         "term": "Web3"
-      },
-      "code": {
-        "term": "Web3"
       }
     },
     "grammar": {
@@ -3590,9 +3386,6 @@
         "term": "Solidity"
       },
       "ui": {
-        "term": "Solidity"
-      },
-      "code": {
         "term": "Solidity"
       }
     },
@@ -3642,9 +3435,6 @@
       },
       "ui": {
         "term": "ایونٹس دیکھیں"
-      },
-      "code": {
-        "term": "event"
       }
     },
     "grammar": {
@@ -3689,9 +3479,6 @@
       },
       "ui": {
         "term": "آن چین"
-      },
-      "code": {
-        "term": "onchain"
       }
     },
     "grammar": {
@@ -3738,9 +3525,6 @@
       },
       "ui": {
         "term": "ایتھر"
-      },
-      "code": {
-        "term": "ether"
       }
     },
     "grammar": {
@@ -3788,9 +3572,6 @@
         "term": "EVM"
       },
       "ui": {
-        "term": "EVM"
-      },
-      "code": {
         "term": "EVM"
       }
     },
@@ -3840,9 +3621,6 @@
       },
       "ui": {
         "term": "dapp"
-      },
-      "code": {
-        "term": "dapp"
       }
     },
     "grammar": {
@@ -3890,9 +3668,6 @@
         "term": "NFT"
       },
       "ui": {
-        "term": "NFT"
-      },
-      "code": {
         "term": "NFT"
       }
     },
@@ -3945,9 +3720,6 @@
       },
       "ui": {
         "term": "منتقل کریں"
-      },
-      "code": {
-        "term": "transfer"
       }
     },
     "grammar": {
@@ -3999,9 +3771,6 @@
       },
       "ui": {
         "term": "انخلا کریں"
-      },
-      "code": {
-        "term": "withdrawal"
       }
     },
     "grammar": {
@@ -4050,9 +3819,6 @@
       },
       "ui": {
         "term": "اتفاق رائے"
-      },
-      "code": {
-        "term": "consensus"
       }
     },
     "grammar": {
@@ -4101,9 +3867,6 @@
       },
       "ui": {
         "term": "مین نیٹ"
-      },
-      "code": {
-        "term": "mainnet"
       }
     },
     "grammar": {
@@ -4142,9 +3905,6 @@
       },
       "ui": {
         "term": "آف چین"
-      },
-      "code": {
-        "term": "offchain"
       }
     },
     "grammar": {
@@ -4185,9 +3945,6 @@
       },
       "ui": {
         "term": "ERC-20"
-      },
-      "code": {
-        "term": "ERC20"
       }
     },
     "grammar": {
@@ -4228,9 +3985,6 @@
       },
       "ui": {
         "term": "اوریکل"
-      },
-      "code": {
-        "term": "oracle"
       }
     },
     "grammar": {
@@ -4277,9 +4031,6 @@
       },
       "ui": {
         "term": "بلاب"
-      },
-      "code": {
-        "term": "blob"
       }
     },
     "grammar": {
@@ -4326,9 +4077,6 @@
       },
       "ui": {
         "term": "میٹاماسک کنیکٹ کریں"
-      },
-      "code": {
-        "term": "metamask"
       }
     },
     "grammar": {
@@ -4369,9 +4117,6 @@
       },
       "ui": {
         "term": "اوپن زیپلن"
-      },
-      "code": {
-        "term": "openzeppelin"
       }
     },
     "grammar": {
@@ -4414,9 +4159,6 @@
       },
       "ui": {
         "term": "سلدر"
-      },
-      "code": {
-        "term": "slither"
       }
     },
     "grammar": {
@@ -4459,9 +4201,6 @@
       },
       "ui": {
         "term": "سلاٹ"
-      },
-      "code": {
-        "term": "slot"
       }
     },
     "grammar": {
@@ -4510,9 +4249,6 @@
       },
       "ui": {
         "term": "DAO"
-      },
-      "code": {
-        "term": "dao"
       }
     },
     "grammar": {
@@ -4561,9 +4297,6 @@
       },
       "ui": {
         "term": "آزمائشی نیٹ ورک"
-      },
-      "code": {
-        "term": "testnet"
       }
     },
     "grammar": {
@@ -4612,9 +4345,6 @@
       },
       "ui": {
         "term": "اتفاقِ رائے کا کلائنٹ"
-      },
-      "code": {
-        "term": "consensusClient"
       }
     },
     "grammar": {
@@ -4663,9 +4393,6 @@
       },
       "ui": {
         "term": "لیئر ۲ (l2)"
-      },
-      "code": {
-        "term": "l2"
       }
     },
     "grammar": {
@@ -4715,9 +4442,6 @@
       },
       "ui": {
         "term": "ZK"
-      },
-      "code": {
-        "term": "zk"
       }
     },
     "grammar": {
@@ -4761,9 +4485,6 @@
       },
       "ui": {
         "term": "نجی کلید"
-      },
-      "code": {
-        "term": "privateKey"
       }
     },
     "grammar": {
@@ -4812,9 +4533,6 @@
       },
       "ui": {
         "term": "کرپٹو"
-      },
-      "code": {
-        "term": "crypto"
       }
     },
     "grammar": {
@@ -4857,9 +4575,6 @@
       },
       "ui": {
         "term": "لیئر ۱ (l1)"
-      },
-      "code": {
-        "term": "l1"
       }
     },
     "grammar": {
@@ -4909,9 +4624,6 @@
       },
       "ui": {
         "term": "MEV"
-      },
-      "code": {
-        "term": "MEV"
       }
     },
     "grammar": {
@@ -4959,9 +4671,6 @@
       },
       "ui": {
         "term": "خروج کریں"
-      },
-      "code": {
-        "term": "exit"
       }
     },
     "grammar": {
@@ -5006,9 +4715,6 @@
       },
       "ui": {
         "term": "آپ کوڈ"
-      },
-      "code": {
-        "term": "opcode"
       }
     },
     "grammar": {
@@ -5053,9 +4759,6 @@
       },
       "ui": {
         "term": "DeFi"
-      },
-      "code": {
-        "term": "defi"
       }
     },
     "grammar": {
@@ -5096,9 +4799,6 @@
       },
       "ui": {
         "term": "ایکڈنا"
-      },
-      "code": {
-        "term": "echidna"
       }
     },
     "grammar": {
@@ -5143,9 +4843,6 @@
       },
       "ui": {
         "term": "رازداری"
-      },
-      "code": {
-        "term": "privacy"
       }
     },
     "grammar": {
@@ -5186,9 +4883,6 @@
       },
       "ui": {
         "term": "مینٹیکور"
-      },
-      "code": {
-        "term": "manticore"
       }
     },
     "grammar": {
@@ -5231,9 +4925,6 @@
       },
       "ui": {
         "term": "آپٹمسٹک رول اپ"
-      },
-      "code": {
-        "term": "optimistic_rollup"
       }
     },
     "grammar": {
@@ -5278,9 +4969,6 @@
       },
       "ui": {
         "term": "ERC"
-      },
-      "code": {
-        "term": "ERC"
       }
     },
     "grammar": {
@@ -5323,9 +5011,6 @@
       },
       "ui": {
         "term": "پلازما"
-      },
-      "code": {
-        "term": "plasma"
       }
     },
     "grammar": {
@@ -5366,9 +5051,6 @@
       },
       "ui": {
         "term": "لائبریری"
-      },
-      "code": {
-        "term": "library"
       }
     },
     "grammar": {
@@ -5415,9 +5097,6 @@
       },
       "ui": {
         "term": "یونی سویپ"
-      },
-      "code": {
-        "term": "uniswap"
       }
     },
     "grammar": {
@@ -5460,9 +5139,6 @@
       },
       "ui": {
         "term": "دی مرج"
-      },
-      "code": {
-        "term": "the merge"
       }
     },
     "grammar": {
@@ -5506,9 +5182,6 @@
       },
       "ui": {
         "term": "صفر علم ثبوت"
-      },
-      "code": {
-        "term": "zero-knowledge proof"
       }
     },
     "grammar": {
@@ -5555,9 +5228,6 @@
       },
       "ui": {
         "term": "بٹ کوائن"
-      },
-      "code": {
-        "term": "bitcoin"
       }
     },
     "grammar": {
@@ -5600,9 +5270,6 @@
       },
       "ui": {
         "term": "ڈیٹا کی دستیابی"
-      },
-      "code": {
-        "term": "data availability"
       }
     },
     "grammar": {
@@ -5645,9 +5312,6 @@
       },
       "ui": {
         "term": "لاگ"
-      },
-      "code": {
-        "term": "log"
       }
     },
     "grammar": {
@@ -5694,9 +5358,6 @@
       },
       "ui": {
         "term": "بیکن چین"
-      },
-      "code": {
-        "term": "beacon chain"
       }
     },
     "grammar": {
@@ -5741,9 +5402,6 @@
       },
       "ui": {
         "term": "سیالیت"
-      },
-      "code": {
-        "term": "liquidity"
       }
     },
     "grammar": {
@@ -5787,9 +5445,6 @@
       },
       "ui": {
         "term": "دور"
-      },
-      "code": {
-        "term": "epoch"
       }
     },
     "grammar": {
@@ -5840,9 +5495,6 @@
       },
       "ui": {
         "term": "ایتھیریم مین نیٹ"
-      },
-      "code": {
-        "term": "ethereumMainnet"
       }
     },
     "grammar": {
@@ -5894,9 +5546,6 @@
       },
       "ui": {
         "term": "تجویز پیش کریں"
-      },
-      "code": {
-        "term": "proposal"
       }
     },
     "grammar": {
@@ -5947,9 +5596,6 @@
       },
       "ui": {
         "term": "بلاک تجویز کنندہ کی تفصیلات"
-      },
-      "code": {
-        "term": "blockProposer"
       }
     },
     "grammar": {
@@ -6000,9 +5646,6 @@
       },
       "ui": {
         "term": "اتفاق رائے کی تہہ"
-      },
-      "code": {
-        "term": "consensusLayer"
       }
     },
     "grammar": {
@@ -6054,9 +5697,6 @@
       },
       "ui": {
         "term": "پیئرز شامل کریں"
-      },
-      "code": {
-        "term": "peer"
       }
     },
     "grammar": {
@@ -6107,9 +5747,6 @@
       },
       "ui": {
         "term": "جے سن آر پی سی یو آر ایل"
-      },
-      "code": {
-        "term": "jsonRpc"
       }
     },
     "grammar": {
@@ -6160,9 +5797,6 @@
       },
       "ui": {
         "term": "نانس ترتیب دیں"
-      },
-      "code": {
-        "term": "nonce"
       }
     },
     "grammar": {
@@ -6211,9 +5845,6 @@
       },
       "ui": {
         "term": "IPFS پر اپ لوڈ کریں"
-      },
-      "code": {
-        "term": "ipfs"
       }
     },
     "grammar": {
@@ -6264,9 +5895,6 @@
       },
       "ui": {
         "term": "مکمل نوڈ چلائیں"
-      },
-      "code": {
-        "term": "fullNode"
       }
     },
     "grammar": {
@@ -6318,9 +5946,6 @@
       },
       "ui": {
         "term": "صفر علم ٹیکنالوجی"
-      },
-      "code": {
-        "term": "zeroKnowledge"
       }
     },
     "grammar": {
@@ -6369,9 +5994,6 @@
       },
       "ui": {
         "term": "Hardhat"
-      },
-      "code": {
-        "term": "hardhat"
       }
     },
     "grammar": {
@@ -6420,9 +6042,6 @@
       },
       "ui": {
         "term": "چیک پوائنٹ"
-      },
-      "code": {
-        "term": "checkpoint"
       }
     },
     "grammar": {
@@ -6465,9 +6084,6 @@
       },
       "ui": {
         "term": "پیکٹرا"
-      },
-      "code": {
-        "term": "pectra"
       }
     },
     "grammar": {
@@ -6512,9 +6128,6 @@
       },
       "ui": {
         "term": "کرپٹو کرنسی"
-      },
-      "code": {
-        "term": "cryptocurrency"
       }
     },
     "grammar": {
@@ -6563,9 +6176,6 @@
       },
       "ui": {
         "term": "تصدیق کریں"
-      },
-      "code": {
-        "term": "verifier"
       }
     },
     "grammar": {
@@ -6614,9 +6224,6 @@
       },
       "ui": {
         "term": "تعمیر کنندہ"
-      },
-      "code": {
-        "term": "builder"
       }
     },
     "grammar": {
@@ -6661,9 +6268,6 @@
       },
       "ui": {
         "term": "عوامی کلید"
-      },
-      "code": {
-        "term": "publicKey"
       }
     },
     "grammar": {
@@ -6709,9 +6313,6 @@
       },
       "ui": {
         "term": "سائیڈ چین"
-      },
-      "code": {
-        "term": "sidechain"
       }
     },
     "grammar": {
@@ -6754,9 +6355,6 @@
       },
       "ui": {
         "term": "فوساکا"
-      },
-      "code": {
-        "term": "fusaka"
       }
     },
     "grammar": {
@@ -6801,9 +6399,6 @@
       },
       "ui": {
         "term": "میٹا ڈیٹا"
-      },
-      "code": {
-        "term": "metadata"
       }
     },
     "grammar": {
@@ -6844,9 +6439,6 @@
       },
       "ui": {
         "term": "اے بی آئی"
-      },
-      "code": {
-        "term": "abi"
       }
     },
     "grammar": {
@@ -6893,9 +6485,6 @@
       },
       "ui": {
         "term": "Etherscan"
-      },
-      "code": {
-        "term": "etherscan"
       }
     },
     "grammar": {
@@ -6944,9 +6533,6 @@
       },
       "ui": {
         "term": "ریپڈ ایتھر"
-      },
-      "code": {
-        "term": "weth"
       }
     },
     "grammar": {
@@ -6993,9 +6579,6 @@
       },
       "ui": {
         "term": "zkEVM"
-      },
-      "code": {
-        "term": "zkevm"
       }
     },
     "grammar": {
@@ -7042,9 +6625,6 @@
       },
       "ui": {
         "term": "گیس فیس"
-      },
-      "code": {
-        "term": "gasFee"
       }
     },
     "grammar": {
@@ -7091,9 +6671,6 @@
       },
       "ui": {
         "term": "Wei"
-      },
-      "code": {
-        "term": "wei"
       }
     },
     "grammar": {
@@ -7142,9 +6719,6 @@
       },
       "ui": {
         "term": "گیس کی حد متعین کریں"
-      },
-      "code": {
-        "term": "gasLimit"
       }
     },
     "grammar": {
@@ -7193,9 +6767,6 @@
       },
       "ui": {
         "term": "ٹپ شامل کریں"
-      },
-      "code": {
-        "term": "tip"
       }
     },
     "grammar": {
@@ -7244,9 +6815,6 @@
       },
       "ui": {
         "term": "اتفاق رائے کا طریقہ کار"
-      },
-      "code": {
-        "term": "consensusMechanism"
       }
     },
     "grammar": {
@@ -7293,9 +6861,6 @@
       },
       "ui": {
         "term": "ERC-721 ٹوکن"
-      },
-      "code": {
-        "term": "erc721"
       }
     },
     "grammar": {
@@ -7344,9 +6909,6 @@
       },
       "ui": {
         "term": "ایتھریم نیم سروس کنیکٹ کریں"
-      },
-      "code": {
-        "term": "ens"
       }
     },
     "grammar": {
@@ -7395,9 +6957,6 @@
       },
       "ui": {
         "term": "ثابت کنندہ چلائیں"
-      },
-      "code": {
-        "term": "prover"
       }
     },
     "grammar": {
@@ -7446,9 +7005,6 @@
       },
       "ui": {
         "term": "اسٹیٹ چینل کھولیں"
-      },
-      "code": {
-        "term": "stateChannel"
       }
     },
     "grammar": {
@@ -7499,9 +7055,6 @@
       },
       "ui": {
         "term": "لین دین کی فیس ادا کریں"
-      },
-      "code": {
-        "term": "transactionFee"
       }
     },
     "grammar": {
@@ -7551,9 +7104,6 @@
       },
       "ui": {
         "term": "بیرونی ملکیت کا اکاؤنٹ شامل کریں"
-      },
-      "code": {
-        "term": "eoa"
       }
     },
     "grammar": {
@@ -7602,9 +7152,6 @@
       },
       "ui": {
         "term": "درستگی کا ثبوت دیکھیں"
-      },
-      "code": {
-        "term": "validityProof"
       }
     },
     "grammar": {
@@ -7655,9 +7202,6 @@
       },
       "ui": {
         "term": "فوسٹ سے فنڈز حاصل کریں"
-      },
-      "code": {
-        "term": "faucet"
       }
     },
     "grammar": {
@@ -7706,9 +7250,6 @@
       },
       "ui": {
         "term": "Sepolia نیٹ ورک منتخب کریں"
-      },
-      "code": {
-        "term": "sepolia"
       }
     },
     "grammar": {
@@ -7757,9 +7298,6 @@
       },
       "ui": {
         "term": "بلاک ایکسپلورر کھولیں"
-      },
-      "code": {
-        "term": "blockExplorer"
       }
     },
     "grammar": {
@@ -7812,9 +7350,6 @@
       },
       "ui": {
         "term": "ریورٹ کریں"
-      },
-      "code": {
-        "term": "revert"
       }
     },
     "grammar": {
@@ -7864,9 +7399,6 @@
       },
       "ui": {
         "term": "ایتھیریم فاؤنڈیشن"
-      },
-      "code": {
-        "term": "ethereumFoundation"
       }
     },
     "grammar": {
@@ -7915,9 +7447,6 @@
       },
       "ui": {
         "term": "غیر مرکزی شناخت"
-      },
-      "code": {
-        "term": "decentralizedIdentity"
       }
     },
     "grammar": {
@@ -7971,9 +7500,6 @@
       },
       "ui": {
         "term": "تجویز کنندہ"
-      },
-      "code": {
-        "term": "proposer"
       }
     },
     "grammar": {
@@ -8029,9 +7555,6 @@
       },
       "ui": {
         "term": "علمِ تشفیر"
-      },
-      "code": {
-        "term": "cryptography"
       }
     },
     "grammar": {
@@ -8082,9 +7605,6 @@
       },
       "ui": {
         "term": "بائٹ کوڈ"
-      },
-      "code": {
-        "term": "bytecode"
       }
     },
     "grammar": {
@@ -8131,9 +7651,6 @@
       },
       "ui": {
         "term": "Gwei"
-      },
-      "code": {
-        "term": "gwei"
       }
     },
     "grammar": {
@@ -8180,9 +7697,6 @@
       },
       "ui": {
         "term": "لائٹ ہاؤس"
-      },
-      "code": {
-        "term": "lighthouse"
       }
     },
     "grammar": {
@@ -8233,9 +7747,6 @@
       },
       "ui": {
         "term": "گیس کی قیمت"
-      },
-      "code": {
-        "term": "gasPrice"
       }
     },
     "grammar": {
@@ -8285,9 +7796,6 @@
       },
       "ui": {
         "term": "پیئر ٹو پیئر"
-      },
-      "code": {
-        "term": "p2p"
       }
     },
     "grammar": {
@@ -8334,9 +7842,6 @@
       },
       "ui": {
         "term": "گلیمسٹرڈیم"
-      },
-      "code": {
-        "term": "glamsterdam"
       }
     },
     "grammar": {
@@ -8383,9 +7888,6 @@
       },
       "ui": {
         "term": "نیدر مائنڈ"
-      },
-      "code": {
-        "term": "Nethermind"
       }
     },
     "grammar": {
@@ -8428,9 +7930,6 @@
       },
       "ui": {
         "term": "ثبوتِ دھوکہ دہی"
-      },
-      "code": {
-        "term": "fraudProof"
       }
     },
     "grammar": {
@@ -8479,9 +7978,6 @@
       },
       "ui": {
         "term": "مرکل ثبوت"
-      },
-      "code": {
-        "term": "merkleProof"
       }
     },
     "grammar": {
@@ -8530,9 +8026,6 @@
       },
       "ui": {
         "term": "ڈی سائی (DeSci)"
-      },
-      "code": {
-        "term": "deSci"
       }
     },
     "grammar": {
@@ -8574,9 +8067,6 @@
       },
       "ui": {
         "term": "بلا اعتماد نظام"
-      },
-      "code": {
-        "term": "trustless"
       }
     },
     "grammar": {
@@ -8617,9 +8107,6 @@
       },
       "ui": {
         "term": "ڈینک شارڈنگ"
-      },
-      "code": {
-        "term": "danksharding"
       }
     },
     "grammar": {
@@ -8662,9 +8149,6 @@
       },
       "ui": {
         "term": "فورک کا انتخاب"
-      },
-      "code": {
-        "term": "forkChoiceAlgorithm"
       }
     },
     "grammar": {
@@ -8713,9 +8197,6 @@
       },
       "ui": {
         "term": "بنیادی فیس"
-      },
-      "code": {
-        "term": "baseFee"
       }
     },
     "grammar": {
@@ -8762,9 +8243,6 @@
       },
       "ui": {
         "term": "ایریگون"
-      },
-      "code": {
-        "term": "Erigon"
       }
     },
     "grammar": {
@@ -8810,9 +8288,6 @@
       },
       "ui": {
         "term": "منظور کریں"
-      },
-      "code": {
-        "term": "approve"
       }
     },
     "grammar": {
@@ -8853,9 +8328,6 @@
       },
       "ui": {
         "term": "مرکل ٹری"
-      },
-      "code": {
-        "term": "merkleTree"
       }
     },
     "grammar": {
@@ -8904,9 +8376,6 @@
       },
       "ui": {
         "term": "لائٹ نوڈ"
-      },
-      "code": {
-        "term": "lightNode"
       }
     },
     "grammar": {
@@ -8957,9 +8426,6 @@
       },
       "ui": {
         "term": "سیڈ فریز"
-      },
-      "code": {
-        "term": "seedPhrase"
       }
     },
     "grammar": {
@@ -9008,9 +8474,6 @@
       },
       "ui": {
         "term": "کمیٹی"
-      },
-      "code": {
-        "term": "committee"
       }
     },
     "grammar": {
@@ -9057,9 +8520,6 @@
       },
       "ui": {
         "term": "بیسو"
-      },
-      "code": {
-        "term": "besu"
       }
     },
     "grammar": {
@@ -9100,9 +8560,6 @@
       },
       "ui": {
         "term": "زیڈ کے اسنارک"
-      },
-      "code": {
-        "term": "zkSnark"
       }
     },
     "grammar": {
@@ -9151,9 +8608,6 @@
       },
       "ui": {
         "term": "بلاک بلڈر"
-      },
-      "code": {
-        "term": "blockBuilder"
       }
     },
     "grammar": {
@@ -9200,9 +8654,6 @@
       },
       "ui": {
         "term": "Vyper"
-      },
-      "code": {
-        "term": "vyper"
       }
     },
     "grammar": {
@@ -9246,9 +8697,6 @@
       },
       "ui": {
         "term": "مؤثر بیلنس"
-      },
-      "code": {
-        "term": "effectiveBalance"
       }
     },
     "grammar": {
@@ -9297,9 +8745,6 @@
       },
       "ui": {
         "term": "بلاک ہیڈر"
-      },
-      "code": {
-        "term": "blockHeader"
       }
     },
     "grammar": {
@@ -9350,9 +8795,6 @@
       },
       "ui": {
         "term": "کراس چین"
-      },
-      "code": {
-        "term": "cross-chain"
       }
     },
     "grammar": {
@@ -9401,9 +8843,6 @@
       },
       "ui": {
         "term": "پروٹو-ڈینک شارڈنگ"
-      },
-      "code": {
-        "term": "proto-danksharding"
       }
     },
     "grammar": {
@@ -9444,9 +8883,6 @@
       },
       "ui": {
         "term": "ریتھ"
-      },
-      "code": {
-        "term": "reth"
       }
     },
     "grammar": {
@@ -9491,9 +8927,6 @@
       },
       "ui": {
         "term": "رسید"
-      },
-      "code": {
-        "term": "receipt"
       }
     },
     "grammar": {
@@ -9547,9 +8980,6 @@
       },
       "ui": {
         "term": "قرض دیں"
-      },
-      "code": {
-        "term": "lending"
       }
     },
     "grammar": {
@@ -9595,9 +9025,6 @@
       },
       "ui": {
         "term": "تجوری"
-      },
-      "code": {
-        "term": "vault"
       }
     },
     "grammar": {
@@ -9644,9 +9071,6 @@
       },
       "ui": {
         "term": "بوٹ نوڈ"
-      },
-      "code": {
-        "term": "bootnode"
       }
     },
     "grammar": {
@@ -9697,9 +9121,6 @@
       },
       "ui": {
         "term": "الاؤنس"
-      },
-      "code": {
-        "term": "allowance"
       }
     },
     "grammar": {
@@ -9748,9 +9169,6 @@
       },
       "ui": {
         "term": "میم پول"
-      },
-      "code": {
-        "term": "mempool"
       }
     },
     "grammar": {
@@ -9799,9 +9217,6 @@
       },
       "ui": {
         "term": "ڈی وی ٹی فعال کریں"
-      },
-      "code": {
-        "term": "dvt_enabled"
       }
     },
     "grammar": {
@@ -9850,9 +9265,6 @@
       },
       "ui": {
         "term": "ڈیکس پر جائیں"
-      },
-      "code": {
-        "term": "dex_router"
       }
     },
     "grammar": {
@@ -9902,9 +9314,6 @@
       },
       "ui": {
         "term": "تلاش کنندہ شامل کریں"
-      },
-      "code": {
-        "term": "searcher_bot"
       }
     },
     "grammar": {
@@ -9951,9 +9360,6 @@
       },
       "ui": {
         "term": "Remix کھولیں"
-      },
-      "code": {
-        "term": "remix_ide"
       }
     },
     "grammar": {
@@ -9995,9 +9401,6 @@
       },
       "ui": {
         "term": "بلا اجازت رسائی"
-      },
-      "code": {
-        "term": "is_permissionless"
       }
     },
     "grammar": {
@@ -10038,9 +9441,6 @@
       },
       "ui": {
         "term": "پرزم چلائیں"
-      },
-      "code": {
-        "term": "prysm_client"
       }
     },
     "grammar": {
@@ -10081,9 +9481,6 @@
       },
       "ui": {
         "term": "ٹیکو کنفیگر کریں"
-      },
-      "code": {
-        "term": "teku_node"
       }
     },
     "grammar": {
@@ -10124,9 +9521,6 @@
       },
       "ui": {
         "term": "PeerDAS فعال کریں"
-      },
-      "code": {
-        "term": "peerdas_sampling"
       }
     },
     "grammar": {
@@ -10169,9 +9563,6 @@
       },
       "ui": {
         "term": "پی بی ایس سیٹنگز"
-      },
-      "code": {
-        "term": "pbs_enabled"
       }
     },
     "grammar": {
@@ -10221,9 +9612,6 @@
       },
       "ui": {
         "term": "سنگل سلاٹ حتمیت"
-      },
-      "code": {
-        "term": "singleSlotFinality"
       }
     },
     "grammar": {
@@ -10270,9 +9658,6 @@
       },
       "ui": {
         "term": "آرکائیو نوڈ"
-      },
-      "code": {
-        "term": "archiveNode"
       }
     },
     "grammar": {
@@ -10319,9 +9704,6 @@
       },
       "ui": {
         "term": "لوڈسٹار"
-      },
-      "code": {
-        "term": "Lodestar"
       }
     },
     "grammar": {
@@ -10367,9 +9749,6 @@
         "term": "devp2p"
       },
       "ui": {
-        "term": "devp2p"
-      },
-      "code": {
         "term": "devp2p"
       }
     },
@@ -10419,9 +9798,6 @@
       },
       "ui": {
         "term": "ڈیجیٹل اثاثہ"
-      },
-      "code": {
-        "term": "digitalAsset"
       }
     },
     "grammar": {
@@ -10470,9 +9846,6 @@
       },
       "ui": {
         "term": "سیکوینسر"
-      },
-      "code": {
-        "term": "sequencer"
       }
     },
     "grammar": {
@@ -10519,9 +9892,6 @@
       },
       "ui": {
         "term": "Gasper"
-      },
-      "code": {
-        "term": "gasper"
       }
     },
     "grammar": {
@@ -10568,9 +9938,6 @@
       },
       "ui": {
         "term": "مرکل روٹ"
-      },
-      "code": {
-        "term": "merkleRoot"
       }
     },
     "grammar": {
@@ -10617,9 +9984,6 @@
       },
       "ui": {
         "term": "ٹیلر"
-      },
-      "code": {
-        "term": "tellor"
       }
     },
     "grammar": {
@@ -10670,9 +10034,6 @@
       },
       "ui": {
         "term": "مصنوعی ذہانت کا ایجنٹ"
-      },
-      "code": {
-        "term": "aiAgent"
       }
     },
     "grammar": {
@@ -10723,9 +10084,6 @@
       },
       "ui": {
         "term": "دشواری"
-      },
-      "code": {
-        "term": "difficulty"
       }
     },
     "grammar": {
@@ -10780,9 +10138,6 @@
       },
       "ui": {
         "term": "تنظیم نو"
-      },
-      "code": {
-        "term": "reorg"
       }
     },
     "grammar": {
@@ -10837,9 +10192,6 @@
       },
       "ui": {
         "term": "تصدیق"
-      },
-      "code": {
-        "term": "assert"
       }
     },
     "grammar": {
@@ -10882,9 +10234,6 @@
       },
       "ui": {
         "term": "نمبس"
-      },
-      "code": {
-        "term": "nimbus"
       }
     },
     "grammar": {
@@ -10927,9 +10276,6 @@
       },
       "ui": {
         "term": "ناقابلِ تبدیلی"
-      },
-      "code": {
-        "term": "immutable"
       }
     },
     "grammar": {
@@ -10974,9 +10320,6 @@
       },
       "ui": {
         "term": "پیش گوئی کی مارکیٹ"
-      },
-      "code": {
-        "term": "predictionMarket"
       }
     },
     "grammar": {
@@ -11027,9 +10370,6 @@
       },
       "ui": {
         "term": "آر ایل پی"
-      },
-      "code": {
-        "term": "rlp"
       }
     },
     "grammar": {
@@ -11072,9 +10412,6 @@
       },
       "ui": {
         "term": "رسمی تصدیق"
-      },
-      "code": {
-        "term": "formalVerification"
       }
     },
     "grammar": {
@@ -11125,9 +10462,6 @@
       },
       "ui": {
         "term": "اکاؤنٹ کی تجرید"
-      },
-      "code": {
-        "term": "accountAbstraction"
       }
     },
     "grammar": {
@@ -11167,9 +10501,6 @@
         "term": "Dagger-Hashimoto"
       },
       "ui": {
-        "term": "Dagger-Hashimoto"
-      },
-      "code": {
         "term": "Dagger-Hashimoto"
       }
     },
@@ -11213,9 +10544,6 @@
       },
       "ui": {
         "term": "زیڈ کے-سٹارک"
-      },
-      "code": {
-        "term": "ZK_STARK"
       }
     },
     "grammar": {
@@ -11264,9 +10592,6 @@
       },
       "ui": {
         "term": "بے ترتیبی"
-      },
-      "code": {
-        "term": "randomness"
       }
     },
     "grammar": {
@@ -11313,9 +10638,6 @@
       },
       "ui": {
         "term": "حکمت عملی"
-      },
-      "code": {
-        "term": "strategy"
       }
     },
     "grammar": {
@@ -11365,9 +10687,6 @@
       },
       "ui": {
         "term": "حقیقی دنیا کے اثاثے"
-      },
-      "code": {
-        "term": "rwa"
       }
     },
     "grammar": {
@@ -11416,9 +10735,6 @@
       },
       "ui": {
         "term": "اوور فلو"
-      },
-      "code": {
-        "term": "overflow"
       }
     },
     "grammar": {
@@ -11467,9 +10783,6 @@
       },
       "ui": {
         "term": "ٹرانزیکشن ہیش"
-      },
-      "code": {
-        "term": "txHash"
       }
     },
     "grammar": {
@@ -11518,9 +10831,6 @@
       },
       "ui": {
         "term": "ملٹی سگ"
-      },
-      "code": {
-        "term": "multisig"
       }
     },
     "grammar": {
@@ -11569,9 +10879,6 @@
       },
       "ui": {
         "term": "سٹیبل کوائن"
-      },
-      "code": {
-        "term": "stablecoin"
       }
     },
     "grammar": {
@@ -11620,9 +10927,6 @@
       },
       "ui": {
         "term": "یلو پیپر"
-      },
-      "code": {
-        "term": "yellowPaper"
       }
     },
     "grammar": {
@@ -11671,9 +10975,6 @@
       },
       "ui": {
         "term": "ترکیب پذیری"
-      },
-      "code": {
-        "term": "composability"
       }
     },
     "grammar": {
@@ -11723,9 +11024,6 @@
       },
       "ui": {
         "term": "پراکسی کنٹریکٹ"
-      },
-      "code": {
-        "term": "proxyContract"
       }
     },
     "grammar": {
@@ -11774,9 +11072,6 @@
       },
       "ui": {
         "term": "سب گراف"
-      },
-      "code": {
-        "term": "subgraph"
       }
     },
     "grammar": {
@@ -11825,9 +11120,6 @@
       },
       "ui": {
         "term": "باہمی عمل پذیری"
-      },
-      "code": {
-        "term": "interoperability"
       }
     },
     "grammar": {
@@ -11876,9 +11168,6 @@
       },
       "ui": {
         "term": "کلائنٹ کا تنوع"
-      },
-      "code": {
-        "term": "clientDiversity"
       }
     },
     "grammar": {
@@ -11927,9 +11216,6 @@
       },
       "ui": {
         "term": "شنگھائی"
-      },
-      "code": {
-        "term": "shanghai"
       }
     },
     "grammar": {
@@ -11979,9 +11265,6 @@
       },
       "ui": {
         "term": "احیائی مالیات"
-      },
-      "code": {
-        "term": "refi"
       }
     },
     "grammar": {
@@ -12030,9 +11313,6 @@
       },
       "ui": {
         "term": "کنٹریکٹ اکاؤنٹ"
-      },
-      "code": {
-        "term": "contractAccount"
       }
     },
     "grammar": {
@@ -12079,9 +11359,6 @@
       },
       "ui": {
         "term": "Kurtosis"
-      },
-      "code": {
-        "term": "kurtosis"
       }
     },
     "grammar": {
@@ -12130,9 +11407,6 @@
       },
       "ui": {
         "term": "بلاک ریوارڈ"
-      },
-      "code": {
-        "term": "blockReward"
       }
     },
     "grammar": {
@@ -12181,9 +11455,6 @@
       },
       "ui": {
         "term": "بلاک کا وقت"
-      },
-      "code": {
-        "term": "block-time"
       }
     },
     "grammar": {
@@ -12232,9 +11503,6 @@
       },
       "ui": {
         "term": "وائٹ پیپر"
-      },
-      "code": {
-        "term": "whitepaper"
       }
     },
     "grammar": {
@@ -12283,9 +11551,6 @@
       },
       "ui": {
         "term": "ڈیٹا سیمپلنگ"
-      },
-      "code": {
-        "term": "data-availability-sampling"
       }
     },
     "grammar": {
@@ -12336,9 +11601,6 @@
       },
       "ui": {
         "term": "جواز یافتہ"
-      },
-      "code": {
-        "term": "justified"
       }
     },
     "grammar": {
@@ -12381,9 +11643,6 @@
       },
       "ui": {
         "term": "فراہم کنندہ"
-      },
-      "code": {
-        "term": "liquidity-provider"
       }
     },
     "grammar": {
@@ -12430,9 +11689,6 @@
       },
       "ui": {
         "term": "libp2p"
-      },
-      "code": {
-        "term": "libp2p"
       }
     },
     "grammar": {
@@ -12476,9 +11732,6 @@
       },
       "ui": {
         "term": "ZK رول اپ"
-      },
-      "code": {
-        "term": "zk-rollup"
       }
     },
     "grammar": {
@@ -12525,9 +11778,6 @@
       },
       "ui": {
         "term": "چین لنک"
-      },
-      "code": {
-        "term": "chainlink"
       }
     },
     "grammar": {
@@ -12570,9 +11820,6 @@
       },
       "ui": {
         "term": "فلیش لون"
-      },
-      "code": {
-        "term": "flash-loan"
       }
     },
     "grammar": {
@@ -12619,9 +11866,6 @@
       },
       "ui": {
         "term": "Foundry"
-      },
-      "code": {
-        "term": "foundry"
       }
     },
     "grammar": {
@@ -12661,9 +11905,6 @@
         "term": "MEV-Boost"
       },
       "ui": {
-        "term": "MEV-Boost"
-      },
-      "code": {
         "term": "MEV-Boost"
       }
     },
@@ -12705,9 +11946,6 @@
       },
       "ui": {
         "term": "کینکون"
-      },
-      "code": {
-        "term": "cancun"
       }
     },
     "grammar": {
@@ -12750,9 +11988,6 @@
       },
       "ui": {
         "term": "ڈپازٹ کنٹریکٹ"
-      },
-      "code": {
-        "term": "deposit-contract"
       }
     },
     "grammar": {
@@ -12801,9 +12036,6 @@
       },
       "ui": {
         "term": "تعمیلی پے لوڈ"
-      },
-      "code": {
-        "term": "execution-payload"
       }
     },
     "grammar": {
@@ -12853,9 +12085,6 @@
       },
       "ui": {
         "term": "ثبوتِ اختیار"
-      },
-      "code": {
-        "term": "proof-of-authority"
       }
     },
     "grammar": {
@@ -12898,9 +12127,6 @@
       },
       "ui": {
         "term": "خفیہ انتخابِ قائد"
-      },
-      "code": {
-        "term": "secret-leader-election"
       }
     },
     "grammar": {
@@ -12943,9 +12169,6 @@
       },
       "ui": {
         "term": "ہم آہنگی کمیٹی"
-      },
-      "code": {
-        "term": "sync-committee"
       }
     },
     "grammar": {
@@ -12998,9 +12221,6 @@
       },
       "ui": {
         "term": "قرض لیں"
-      },
-      "code": {
-        "term": "borrow"
       }
     },
     "grammar": {
@@ -13046,9 +12266,6 @@
       },
       "ui": {
         "term": "مکرر داخلہ"
-      },
-      "code": {
-        "term": "reentrancy"
       }
     },
     "grammar": {
@@ -13088,9 +12305,6 @@
         "term": "ERC-1155"
       },
       "ui": {
-        "term": "ERC-1155"
-      },
-      "code": {
         "term": "ERC-1155"
       }
     },
@@ -13134,9 +12348,6 @@
       },
       "ui": {
         "term": "بیضوی منحنی"
-      },
-      "code": {
-        "term": "elliptic_curve"
       }
     },
     "grammar": {
@@ -13176,9 +12387,6 @@
         "term": "UTXO"
       },
       "ui": {
-        "term": "UTXO"
-      },
-      "code": {
         "term": "UTXO"
       }
     },
@@ -13222,9 +12430,6 @@
       },
       "ui": {
         "term": "قابل تبادلہ ٹوکن"
-      },
-      "code": {
-        "term": "fungible_token"
       }
     },
     "grammar": {
@@ -13267,9 +12472,6 @@
       },
       "ui": {
         "term": "مربعی فنڈنگ"
-      },
-      "code": {
-        "term": "quadratic_funding"
       }
     },
     "grammar": {
@@ -13313,9 +12515,6 @@
       },
       "ui": {
         "term": "قابل جمع اثاثہ"
-      },
-      "code": {
-        "term": "collectible"
       }
     },
     "grammar": {
@@ -13356,9 +12555,6 @@
       },
       "ui": {
         "term": "بیکن بلاک"
-      },
-      "code": {
-        "term": "beacon_block"
       }
     },
     "grammar": {
@@ -13401,9 +12597,6 @@
       },
       "ui": {
         "term": "کمزور موضوعیت"
-      },
-      "code": {
-        "term": "weak_subjectivity"
       }
     },
     "grammar": {
@@ -13445,9 +12638,6 @@
         "term": "APR"
       },
       "ui": {
-        "term": "APR"
-      },
-      "code": {
         "term": "APR"
       }
     },
@@ -13491,9 +12681,6 @@
       },
       "ui": {
         "term": "سیالیت کا پول"
-      },
-      "code": {
-        "term": "liquidity_pool"
       }
     },
     "grammar": {
@@ -13538,9 +12725,6 @@
       },
       "ui": {
         "term": "ابتدائی بلاک"
-      },
-      "code": {
-        "term": "genesisBlock"
       }
     },
     "grammar": {
@@ -13589,9 +12773,6 @@
       },
       "ui": {
         "term": "شپیلا"
-      },
-      "code": {
-        "term": "shapella"
       }
     },
     "grammar": {
@@ -13638,9 +12819,6 @@
       },
       "ui": {
         "term": "قابلِ ترکیب"
-      },
-      "code": {
-        "term": "composable"
       }
     },
     "grammar": {
@@ -13691,9 +12869,6 @@
       },
       "ui": {
         "term": "حالت کی ٹرائی"
-      },
-      "code": {
-        "term": "stateTrie"
       }
     },
     "grammar": {
@@ -13742,9 +12917,6 @@
       },
       "ui": {
         "term": "ایل ایم ڈی گھوسٹ"
-      },
-      "code": {
-        "term": "lmdGhost"
       }
     },
     "grammar": {
@@ -13793,9 +12965,6 @@
       },
       "ui": {
         "term": "خفیہ پتہ"
-      },
-      "code": {
-        "term": "stealthAddress"
       }
     },
     "grammar": {
@@ -13841,9 +13010,6 @@
         "term": "DAI"
       },
       "ui": {
-        "term": "DAI"
-      },
-      "code": {
         "term": "DAI"
       }
     },
@@ -13896,9 +13062,6 @@
       },
       "ui": {
         "term": "ٹوکن سازی کریں"
-      },
-      "code": {
-        "term": "tokenization"
       }
     },
     "grammar": {
@@ -13945,9 +13108,6 @@
       },
       "ui": {
         "term": "حل کنندہ"
-      },
-      "code": {
-        "term": "solver"
       }
     },
     "grammar": {
@@ -13996,9 +13156,6 @@
       },
       "ui": {
         "term": "غیر تحویلی"
-      },
-      "code": {
-        "term": "nonCustodial"
       }
     },
     "grammar": {
@@ -14044,9 +13201,6 @@
         "term": "MaxEB"
       },
       "ui": {
-        "term": "MaxEB"
-      },
-      "code": {
         "term": "MaxEB"
       }
     },
@@ -14096,9 +13250,6 @@
       },
       "ui": {
         "term": "اینٹروپی"
-      },
-      "code": {
-        "term": "entropy"
       }
     },
     "grammar": {
@@ -14144,9 +13295,6 @@
         "term": "KZG"
       },
       "ui": {
-        "term": "KZG"
-      },
-      "code": {
         "term": "KZG"
       }
     },
@@ -14194,9 +13342,6 @@
       },
       "ui": {
         "term": "discv5"
-      },
-      "code": {
-        "term": "discv5"
       }
     },
     "grammar": {
@@ -14243,9 +13388,6 @@
       },
       "ui": {
         "term": "پورٹل نیٹ ورک"
-      },
-      "code": {
-        "term": "portal-network"
       }
     },
     "grammar": {
@@ -14294,9 +13436,6 @@
       },
       "ui": {
         "term": "دشواری کا بم"
-      },
-      "code": {
-        "term": "difficulty-bomb"
       }
     },
     "grammar": {
@@ -14344,9 +13483,6 @@
       },
       "ui": {
         "term": "قابلِ باہمی عمل"
-      },
-      "code": {
-        "term": "interoperable"
       }
     },
     "grammar": {
@@ -14389,9 +13525,6 @@
       },
       "ui": {
         "term": "اسٹیٹ کی میعاد کا خاتمہ"
-      },
-      "code": {
-        "term": "state-expiry"
       }
     },
     "grammar": {
@@ -14440,9 +13573,6 @@
       },
       "ui": {
         "term": "گواہ"
-      },
-      "code": {
-        "term": "witness"
       }
     },
     "grammar": {
@@ -14489,9 +13619,6 @@
       },
       "ui": {
         "term": "برلن"
-      },
-      "code": {
-        "term": "berlin"
       }
     },
     "grammar": {
@@ -14542,9 +13669,6 @@
       },
       "ui": {
         "term": "زیرِ التوا لین دین دیکھیں"
-      },
-      "code": {
-        "term": "pendingTransaction"
       }
     },
     "grammar": {
@@ -14599,9 +13723,6 @@
       },
       "ui": {
         "term": "فعال کریں"
-      },
-      "code": {
-        "term": "activation"
       }
     },
     "grammar": {
@@ -14652,9 +13773,6 @@
       },
       "ui": {
         "term": "فرنٹیئر اپ گریڈ"
-      },
-      "code": {
-        "term": "frontier"
       }
     },
     "grammar": {
@@ -14706,9 +13824,6 @@
       },
       "ui": {
         "term": "عوامی اشیاء دیکھیں"
-      },
-      "code": {
-        "term": "publicGoods"
       }
     },
     "grammar": {
@@ -14759,9 +13874,6 @@
       },
       "ui": {
         "term": "TX کی تفصیلات"
-      },
-      "code": {
-        "term": "tx"
       }
     },
     "grammar": {
@@ -14812,9 +13924,6 @@
       },
       "ui": {
         "term": "قابلِ تصدیق سند شامل کریں"
-      },
-      "code": {
-        "term": "verifiableCredential"
       }
     },
     "grammar": {
@@ -14866,9 +13975,6 @@
       },
       "ui": {
         "term": "ناقابلیتِ تبدیلی کی جانچ"
-      },
-      "code": {
-        "term": "immutability"
       }
     },
     "grammar": {
@@ -14919,9 +14025,6 @@
       },
       "ui": {
         "term": "سیال اسٹیکنگ ٹوکن منتخب کریں"
-      },
-      "code": {
-        "term": "liquidStakingToken"
       }
     },
     "grammar": {
@@ -14970,9 +14073,6 @@
       },
       "ui": {
         "term": "بطور سروس اسٹیکنگ"
-      },
-      "code": {
-        "term": "staking-as-a-service"
       }
     },
     "grammar": {
@@ -15022,9 +14122,6 @@
       },
       "ui": {
         "term": "انخلا کی اسناد"
-      },
-      "code": {
-        "term": "withdrawal-credentials"
       }
     },
     "grammar": {
@@ -15073,9 +14170,6 @@
       },
       "ui": {
         "term": "کیچاک-۲۵۶"
-      },
-      "code": {
-        "term": "keccak256"
       }
     },
     "grammar": {
@@ -15125,9 +14219,6 @@
       },
       "ui": {
         "term": "ہسٹری ایکسپائری"
-      },
-      "code": {
-        "term": "history-expiry"
       }
     },
     "grammar": {
@@ -15177,9 +14268,6 @@
       },
       "ui": {
         "term": "ویب ۳.۰"
-      },
-      "code": {
-        "term": "web3"
       }
     },
     "grammar": {
@@ -15228,9 +14316,6 @@
       },
       "ui": {
         "term": "کونسٹینٹینوپل"
-      },
-      "code": {
-        "term": "constantinople"
       }
     },
     "grammar": {
@@ -15279,9 +14364,6 @@
       },
       "ui": {
         "term": "سورس کوڈ کی تصدیق"
-      },
-      "code": {
-        "term": "source-code-verification"
       }
     },
     "grammar": {
@@ -15327,9 +14409,6 @@
         "term": "POAP"
       },
       "ui": {
-        "term": "POAP"
-      },
-      "code": {
         "term": "POAP"
       }
     },
@@ -15380,9 +14459,6 @@
       },
       "ui": {
         "term": "ارادہ"
-      },
-      "code": {
-        "term": "intent"
       }
     },
     "grammar": {
@@ -15431,9 +14507,6 @@
       },
       "ui": {
         "term": "پے ماسٹر"
-      },
-      "code": {
-        "term": "paymaster"
       }
     },
     "grammar": {
@@ -15482,9 +14555,6 @@
       },
       "ui": {
         "term": "اسمارٹ اکاؤنٹ"
-      },
-      "code": {
-        "term": "smartAccount"
       }
     },
     "grammar": {
@@ -15531,9 +14601,6 @@
       },
       "ui": {
         "term": "بیکن نوڈ"
-      },
-      "code": {
-        "term": "beaconNode"
       }
     },
     "grammar": {
@@ -15580,9 +14647,6 @@
       },
       "ui": {
         "term": "BLS"
-      },
-      "code": {
-        "term": "BLS"
       }
     },
     "grammar": {
@@ -15628,9 +14692,6 @@
         "term": "SSZ"
       },
       "ui": {
-        "term": "SSZ"
-      },
-      "code": {
         "term": "SSZ"
       }
     },
@@ -15680,9 +14741,6 @@
       },
       "ui": {
         "term": "گو ایتھیریم (geth)"
-      },
-      "code": {
-        "term": "geth"
       }
     },
     "grammar": {
@@ -15729,9 +14787,6 @@
       },
       "ui": {
         "term": "ایتھیریم کلاسک"
-      },
-      "code": {
-        "term": "EthereumClassic"
       }
     },
     "grammar": {
@@ -15780,9 +14835,6 @@
       },
       "ui": {
         "term": "بازنطیم"
-      },
-      "code": {
-        "term": "Byzantium"
       }
     },
     "grammar": {
@@ -15831,9 +14883,6 @@
       },
       "ui": {
         "term": "بیضوی منحنی ڈیجیٹل دستخطی الگورتھم (ECDSA)"
-      },
-      "code": {
-        "term": "ECDSA"
       }
     },
     "grammar": {
@@ -15882,9 +14931,6 @@
       },
       "ui": {
         "term": "سماجی بحالی ترتیب دیں"
-      },
-      "code": {
-        "term": "socialRecovery"
       }
     },
     "grammar": {
@@ -15935,9 +14981,6 @@
       },
       "ui": {
         "term": "بلڈر علیحدگی"
-      },
-      "code": {
-        "term": "builderSeparation"
       }
     },
     "grammar": {
@@ -15986,9 +15029,6 @@
       },
       "ui": {
         "term": "حصہ داری کا ثبوت"
-      },
-      "code": {
-        "term": "proofOfStake"
       }
     },
     "grammar": {
@@ -16035,9 +15075,6 @@
       },
       "ui": {
         "term": "ECC"
-      },
-      "code": {
-        "term": "ecc"
       }
     },
     "grammar": {
@@ -16081,9 +15118,6 @@
       },
       "ui": {
         "term": "قیمت کی فراہمی"
-      },
-      "code": {
-        "term": "priceFeed"
       }
     },
     "grammar": {
@@ -16132,9 +15166,6 @@
       },
       "ui": {
         "term": "ڈیونیٹ منتخب کریں"
-      },
-      "code": {
-        "term": "devnet"
       }
     },
     "grammar": {
@@ -16183,9 +15214,6 @@
       },
       "ui": {
         "term": "گاسپ پروٹوکول"
-      },
-      "code": {
-        "term": "gossipProtocol"
       }
     },
     "grammar": {
@@ -16232,9 +15260,6 @@
       },
       "ui": {
         "term": "سوارم کنیکٹ کریں"
-      },
-      "code": {
-        "term": "swarm"
       }
     },
     "grammar": {
@@ -16281,9 +15306,6 @@
       },
       "ui": {
         "term": "ہوم اسٹیڈ"
-      },
-      "code": {
-        "term": "homestead"
       }
     },
     "grammar": {
@@ -16323,9 +15345,6 @@
         "term": "DAC"
       },
       "ui": {
-        "term": "DAC"
-      },
-      "code": {
         "term": "DAC"
       }
     },
@@ -16375,9 +15394,6 @@
       },
       "ui": {
         "term": "حذفی کوڈنگ"
-      },
-      "code": {
-        "term": "erasure-coding"
       }
     },
     "grammar": {
@@ -16426,9 +15442,6 @@
       },
       "ui": {
         "term": "ذخیرہ ٹرائی"
-      },
-      "code": {
-        "term": "storage-trie"
       }
     },
     "grammar": {
@@ -16477,9 +15490,6 @@
       },
       "ui": {
         "term": "بلاب فیس"
-      },
-      "code": {
-        "term": "blob-fee"
       }
     },
     "grammar": {
@@ -16528,9 +15538,6 @@
       },
       "ui": {
         "term": "ترجیحی فیس"
-      },
-      "code": {
-        "term": "priority-fee"
       }
     },
     "grammar": {
@@ -16579,9 +15586,6 @@
       },
       "ui": {
         "term": "کچھ داؤ پر نہ ہونے کا مسئلہ"
-      },
-      "code": {
-        "term": "nothing-at-stake"
       }
     },
     "grammar": {
@@ -16631,9 +15635,6 @@
       },
       "ui": {
         "term": "تجویز کنندہ تقویت"
-      },
-      "code": {
-        "term": "proposer-boost"
       }
     },
     "grammar": {
@@ -16682,9 +15683,6 @@
       },
       "ui": {
         "term": "اوریکل کا مسئلہ"
-      },
-      "code": {
-        "term": "oracle-problem"
       }
     },
     "grammar": {
@@ -16731,9 +15729,6 @@
       },
       "ui": {
         "term": "خود مختار ایجنٹ"
-      },
-      "code": {
-        "term": "autonomous-agent"
       }
     },
     "grammar": {
@@ -16782,9 +15777,6 @@
       },
       "ui": {
         "term": "ثبوتِ کار"
-      },
-      "code": {
-        "term": "pow"
       }
     },
     "grammar": {
@@ -16831,9 +15823,6 @@
       },
       "ui": {
         "term": "سابو"
-      },
-      "code": {
-        "term": "szabo"
       }
     },
     "grammar": {
@@ -16879,9 +15868,6 @@
         "term": "RANDAO"
       },
       "ui": {
-        "term": "RANDAO"
-      },
-      "code": {
         "term": "RANDAO"
       }
     },
@@ -16931,9 +15917,6 @@
       },
       "ui": {
         "term": "ورکل ٹریز"
-      },
-      "code": {
-        "term": "verkle trees"
       }
     },
     "grammar": {
@@ -16982,9 +15965,6 @@
       },
       "ui": {
         "term": "فال بیک فنکشن"
-      },
-      "code": {
-        "term": "fallback function"
       }
     },
     "grammar": {
@@ -17036,9 +16016,6 @@
       },
       "ui": {
         "term": "ایئر ڈراپ"
-      },
-      "code": {
-        "term": "airdrop"
       }
     },
     "grammar": {
@@ -17084,9 +16061,6 @@
         "term": "USDC"
       },
       "ui": {
-        "term": "USDC"
-      },
-      "code": {
         "term": "USDC"
       }
     },
@@ -17135,9 +16109,6 @@
         "term": "WBTC"
       },
       "ui": {
-        "term": "WBTC"
-      },
-      "code": {
         "term": "WBTC"
       }
     },
@@ -17188,9 +16159,6 @@
       },
       "ui": {
         "term": "ٹرانزیکشن پول"
-      },
-      "code": {
-        "term": "transaction pool"
       }
     },
     "grammar": {
@@ -17239,9 +16207,6 @@
       },
       "ui": {
         "term": "سرپرست شامل کریں"
-      },
-      "code": {
-        "term": "guardian"
       }
     },
     "grammar": {
@@ -17293,9 +16258,6 @@
       },
       "ui": {
         "term": "کی اسٹور بنائیں"
-      },
-      "code": {
-        "term": "keystore"
       }
     },
     "grammar": {
@@ -17346,9 +16308,6 @@
       },
       "ui": {
         "term": "خود تحویلی کا انتخاب کریں"
-      },
-      "code": {
-        "term": "selfCustody"
       }
     },
     "grammar": {
@@ -17389,9 +16348,6 @@
       },
       "ui": {
         "term": "کیسپر ایف ایف جی"
-      },
-      "code": {
-        "term": "casperFFG"
       }
     },
     "grammar": {
@@ -17434,9 +16390,6 @@
       },
       "ui": {
         "term": "BLS دستخط"
-      },
-      "code": {
-        "term": "blsSignature"
       }
     },
     "grammar": {
@@ -17485,9 +16438,6 @@
       },
       "ui": {
         "term": "مرکل پیٹریشیا ٹرائی"
-      },
-      "code": {
-        "term": "merklePatriciaTrie"
       }
     },
     "grammar": {
@@ -17531,9 +16481,6 @@
       },
       "ui": {
         "term": "بلاک کی ترسیل"
-      },
-      "code": {
-        "term": "blockPropagation"
       }
     },
     "grammar": {
@@ -17574,9 +16521,6 @@
       },
       "ui": {
         "term": "فنی"
-      },
-      "code": {
-        "term": "finney"
       }
     },
     "grammar": {
@@ -17628,9 +16572,6 @@
       },
       "ui": {
         "term": "عوامی مفادات"
-      },
-      "code": {
-        "term": "publicGood"
       }
     },
     "grammar": {
@@ -17681,9 +16622,6 @@
       },
       "ui": {
         "term": "خزانہ"
-      },
-      "code": {
-        "term": "treasury"
       }
     },
     "grammar": {
@@ -17732,9 +16670,6 @@
       },
       "ui": {
         "term": "KYC مکمل کریں"
-      },
-      "code": {
-        "term": "kyc"
       }
     },
     "grammar": {
@@ -17776,9 +16711,6 @@
         "term": "SIWE"
       },
       "ui": {
-        "term": "SIWE"
-      },
-      "code": {
         "term": "SIWE"
       }
     },
@@ -17829,9 +16761,6 @@
       },
       "ui": {
         "term": "فرنٹ رننگ"
-      },
-      "code": {
-        "term": "front-running"
       }
     },
     "grammar": {
@@ -17878,9 +16807,6 @@
       },
       "ui": {
         "term": "استنبول"
-      },
-      "code": {
-        "term": "istanbul"
       }
     },
     "grammar": {
@@ -17927,9 +16853,6 @@
       },
       "ui": {
         "term": "KEVM"
-      },
-      "code": {
-        "term": "KEVM"
       }
     },
     "grammar": {
@@ -17975,9 +16898,6 @@
         "term": "SSTORE"
       },
       "ui": {
-        "term": "SSTORE"
-      },
-      "code": {
         "term": "SSTORE"
       }
     },
@@ -18028,9 +16948,6 @@
       },
       "ui": {
         "term": "زیادہ سے زیادہ فیس"
-      },
-      "code": {
-        "term": "maxFee"
       }
     },
     "grammar": {
@@ -18080,9 +16997,6 @@
       },
       "ui": {
         "term": "کثیر دستخطی"
-      },
-      "code": {
-        "term": "multi-sig"
       }
     },
     "grammar": {
@@ -18131,9 +17045,6 @@
       },
       "ui": {
         "term": "صارف کا عمل"
-      },
-      "code": {
-        "term": "UserOperation"
       }
     },
     "grammar": {
@@ -18182,9 +17093,6 @@
       },
       "ui": {
         "term": "سماجی کٹوتی"
-      },
-      "code": {
-        "term": "social-slashing"
       }
     },
     "grammar": {
@@ -18233,9 +17141,6 @@
       },
       "ui": {
         "term": "SSLE"
-      },
-      "code": {
-        "term": "SSLE"
       }
     },
     "grammar": {
@@ -18282,9 +17187,6 @@
       },
       "ui": {
         "term": "اسٹیک گرائنڈنگ"
-      },
-      "code": {
-        "term": "stakeGrinding"
       }
     },
     "grammar": {
@@ -18324,9 +17226,6 @@
         "term": "TEE"
       },
       "ui": {
-        "term": "TEE"
-      },
-      "code": {
         "term": "TEE"
       }
     },
@@ -18370,9 +17269,6 @@
       },
       "ui": {
         "term": "بلاک چین اوریکل"
-      },
-      "code": {
-        "term": "blockchainOracle"
       }
     },
     "grammar": {
@@ -18412,9 +17308,6 @@
         "term": "MODEXP"
       },
       "ui": {
-        "term": "MODEXP"
-      },
-      "code": {
         "term": "MODEXP"
       }
     },
@@ -18458,9 +17351,6 @@
       },
       "ui": {
         "term": "ٹیسٹ نیٹ فوسٹ"
-      },
-      "code": {
-        "term": "testnetFaucet"
       }
     },
     "grammar": {
@@ -18501,9 +17391,6 @@
       },
       "ui": {
         "term": "سنسرشپ کے خلاف مزاحم"
-      },
-      "code": {
-        "term": "censorshipResistant"
       }
     },
     "grammar": {
@@ -18544,9 +17431,6 @@
       },
       "ui": {
         "term": "گورننس ٹوکن"
-      },
-      "code": {
-        "term": "governanceToken"
       }
     },
     "grammar": {
@@ -18589,9 +17473,6 @@
       },
       "ui": {
         "term": "بنڈلر"
-      },
-      "code": {
-        "term": "bundler"
       }
     },
     "grammar": {
@@ -18640,9 +17521,6 @@
       },
       "ui": {
         "term": "خودکار بازار ساز"
-      },
-      "code": {
-        "term": "automatedMarketMaker"
       }
     },
     "grammar": {
@@ -18691,9 +17569,6 @@
       },
       "ui": {
         "term": "ییلڈ فارمنگ"
-      },
-      "code": {
-        "term": "yieldFarming"
       }
     },
     "grammar": {
@@ -18742,9 +17617,6 @@
       },
       "ui": {
         "term": "سول باؤنڈ ٹوکن"
-      },
-      "code": {
-        "term": "soulboundToken"
       }
     },
     "grammar": {
@@ -18793,9 +17665,6 @@
       },
       "ui": {
         "term": "تصدیق کنندہ کا دور حیات"
-      },
-      "code": {
-        "term": "validatorLifecycle"
       }
     },
     "grammar": {
@@ -18842,9 +17711,6 @@
       },
       "ui": {
         "term": "ماڈیولر بلاک چین"
-      },
-      "code": {
-        "term": "modularBlockchain"
       }
     },
     "grammar": {
@@ -18893,9 +17759,6 @@
       },
       "ui": {
         "term": "مونولتھک بلاک چین"
-      },
-      "code": {
-        "term": "monolithicBlockchain"
       }
     },
     "grammar": {
@@ -18944,9 +17807,6 @@
       },
       "ui": {
         "term": "آر پی جی ایف"
-      },
-      "code": {
-        "term": "rpgf"
       }
     },
     "grammar": {
@@ -18995,9 +17855,6 @@
       },
       "ui": {
         "term": "کل مقفل مالیت"
-      },
-      "code": {
-        "term": "tvl"
       }
     },
     "grammar": {
@@ -19046,9 +17903,6 @@
       },
       "ui": {
         "term": "دو درجی ووٹنگ"
-      },
-      "code": {
-        "term": "quadraticVoting"
       }
     },
     "grammar": {
@@ -19097,9 +17951,6 @@
       },
       "ui": {
         "term": "بیک رننگ"
-      },
-      "code": {
-        "term": "back-running"
       }
     },
     "grammar": {
@@ -19148,9 +17999,6 @@
       },
       "ui": {
         "term": "ڈیٹا کی دستیابی کی تہہ"
-      },
-      "code": {
-        "term": "data-availability-layer"
       }
     },
     "grammar": {
@@ -19200,9 +18048,6 @@
       },
       "ui": {
         "term": "قابلِ اپ گریڈ کنٹریکٹ"
-      },
-      "code": {
-        "term": "upgradeable-contract"
       }
     },
     "grammar": {
@@ -19251,9 +18096,6 @@
       },
       "ui": {
         "term": "افادی ٹوکن"
-      },
-      "code": {
-        "term": "utility-token"
       }
     },
     "grammar": {
@@ -19302,9 +18144,6 @@
       },
       "ui": {
         "term": "کولڈ والیٹ"
-      },
-      "code": {
-        "term": "cold-wallet"
       }
     },
     "grammar": {
@@ -19357,9 +18196,6 @@
       },
       "ui": {
         "term": "اخذ کا راستہ"
-      },
-      "code": {
-        "term": "derivation-path"
       }
     },
     "grammar": {
@@ -19406,9 +18242,6 @@
       },
       "ui": {
         "term": "ہارڈویئر والیٹ"
-      },
-      "code": {
-        "term": "hardware-wallet"
       }
     },
     "grammar": {
@@ -19457,9 +18290,6 @@
       },
       "ui": {
         "term": "ہاٹ والیٹ"
-      },
-      "code": {
-        "term": "hot-wallet"
       }
     },
     "grammar": {
@@ -19508,9 +18338,6 @@
       },
       "ui": {
         "term": "کلید"
-      },
-      "code": {
-        "term": "key"
       }
     },
     "grammar": {
@@ -19560,9 +18387,6 @@
       },
       "ui": {
         "term": "کلید اخذ کرنے کا فنکشن"
-      },
-      "code": {
-        "term": "kdf"
       }
     },
     "grammar": {
@@ -19614,9 +18438,6 @@
       },
       "ui": {
         "term": "پاس کی شامل کریں"
-      },
-      "code": {
-        "term": "passkey"
       }
     },
     "grammar": {
@@ -19661,9 +18482,6 @@
       },
       "ui": {
         "term": "صفر ایڈریس"
-      },
-      "code": {
-        "term": "zeroAddress"
       }
     },
     "grammar": {
@@ -19708,9 +18526,6 @@
       },
       "ui": {
         "term": "شرحِ ردوبدل کی حد"
-      },
-      "code": {
-        "term": "churnLimit"
       }
     },
     "grammar": {
@@ -19755,9 +18570,6 @@
       },
       "ui": {
         "term": "اتفاقِ رائے کے قواعد"
-      },
-      "code": {
-        "term": "consensusRules"
       }
     },
     "grammar": {
@@ -19806,9 +18618,6 @@
       },
       "ui": {
         "term": "دوغلا پن"
-      },
-      "code": {
-        "term": "equivocation"
       }
     },
     "grammar": {
@@ -19853,9 +18662,6 @@
       },
       "ui": {
         "term": "ہولوگرافک اتفاقِ رائے"
-      },
-      "code": {
-        "term": "holographicConsensus"
       }
     },
     "grammar": {
@@ -19900,9 +18706,6 @@
       },
       "ui": {
         "term": "غیر فعالی کا رساؤ"
-      },
-      "code": {
-        "term": "inactivityLeak"
       }
     },
     "grammar": {
@@ -19950,9 +18753,6 @@
       },
       "ui": {
         "term": "اجراء"
-      },
-      "code": {
-        "term": "issuance"
       }
     },
     "grammar": {
@@ -19998,9 +18798,6 @@
       },
       "ui": {
         "term": "بھاری اکثریت"
-      },
-      "code": {
-        "term": "supermajority"
       }
     },
     "grammar": {
@@ -20043,9 +18840,6 @@
       },
       "ui": {
         "term": "کمٹمنٹ"
-      },
-      "code": {
-        "term": "commitment"
       }
     },
     "grammar": {
@@ -20094,9 +18888,6 @@
       },
       "ui": {
         "term": "تقسیم شدہ ہیش ٹیبل"
-      },
-      "code": {
-        "term": "dht"
       }
     },
     "grammar": {
@@ -20143,9 +18934,6 @@
       },
       "ui": {
         "term": "ایتھ ہیش"
-      },
-      "code": {
-        "term": "ethash"
       }
     },
     "grammar": {
@@ -20188,9 +18976,6 @@
       },
       "ui": {
         "term": "نیٹ ورک ہیش ریٹ"
-      },
-      "code": {
-        "term": "networkHashrate"
       }
     },
     "grammar": {
@@ -20239,9 +19024,6 @@
       },
       "ui": {
         "term": "محفوظ ہیش الگورتھم"
-      },
-      "code": {
-        "term": "sha"
       }
     },
     "grammar": {
@@ -20290,9 +19072,6 @@
       },
       "ui": {
         "term": "شارڈ چین"
-      },
-      "code": {
-        "term": "shardChain"
       }
     },
     "grammar": {
@@ -20341,9 +19120,6 @@
       },
       "ui": {
         "term": "قابل اعتماد سیٹ اپ"
-      },
-      "code": {
-        "term": "trustedSetup"
       }
     },
     "grammar": {
@@ -20392,9 +19168,6 @@
       },
       "ui": {
         "term": "ایپلیکیشن پروگرامنگ انٹرفیس"
-      },
-      "code": {
-        "term": "api"
       }
     },
     "grammar": {
@@ -20441,9 +19214,6 @@
       },
       "ui": {
         "term": "APY"
-      },
-      "code": {
-        "term": "apy"
       }
     },
     "grammar": {
@@ -20489,9 +19259,6 @@
       },
       "ui": {
         "term": "ڈی پیگ"
-      },
-      "code": {
-        "term": "dePeg"
       }
     },
     "grammar": {
@@ -20542,9 +19309,6 @@
       },
       "ui": {
         "term": "عارضی نقصان"
-      },
-      "code": {
-        "term": "impermanentLoss"
       }
     },
     "grammar": {
@@ -20595,9 +19359,6 @@
       },
       "ui": {
         "term": "اشاریہ"
-      },
-      "code": {
-        "term": "index"
       }
     },
     "grammar": {
@@ -20648,9 +19409,6 @@
       },
       "ui": {
         "term": "سیالیت ٹوکنز"
-      },
-      "code": {
-        "term": "liquidityTokens"
       }
     },
     "grammar": {
@@ -20704,9 +19462,6 @@
       },
       "ui": {
         "term": "زائد ضمانت کاری"
-      },
-      "code": {
-        "term": "overcollateralization"
       }
     },
     "grammar": {
@@ -20761,9 +19516,6 @@
       },
       "ui": {
         "term": "پیگ"
-      },
-      "code": {
-        "term": "peg"
       }
     },
     "grammar": {
@@ -20814,9 +19566,6 @@
       },
       "ui": {
         "term": "قیمت پر اثر"
-      },
-      "code": {
-        "term": "priceImpact"
       }
     },
     "grammar": {
@@ -20867,9 +19616,6 @@
       },
       "ui": {
         "term": "سلپج"
-      },
-      "code": {
-        "term": "slippage"
       }
     },
     "grammar": {
@@ -20918,9 +19664,6 @@
       },
       "ui": {
         "term": "ایتھ ۱"
-      },
-      "code": {
-        "term": "eth1"
       }
     },
     "grammar": {
@@ -20969,9 +19712,6 @@
       },
       "ui": {
         "term": "ایتھ ۲"
-      },
-      "code": {
-        "term": "eth2"
       }
     },
     "grammar": {
@@ -21023,9 +19763,6 @@
       },
       "ui": {
         "term": "۵۱٪ حملہ"
-      },
-      "code": {
-        "term": "fiftyOnePercentAttack"
       }
     },
     "grammar": {
@@ -21075,9 +19812,6 @@
       },
       "ui": {
         "term": "گمنامی کا مجموعہ"
-      },
-      "code": {
-        "term": "anonymity_set"
       }
     },
     "grammar": {
@@ -21126,9 +19860,6 @@
       },
       "ui": {
         "term": "انسدادِ سیبل"
-      },
-      "code": {
-        "term": "anti_sybil"
       }
     },
     "grammar": {
@@ -21177,9 +19908,6 @@
       },
       "ui": {
         "term": "ASIC"
-      },
-      "code": {
-        "term": "asic"
       }
     },
     "grammar": {
@@ -21228,9 +19956,6 @@
       },
       "ui": {
         "term": "بگ اینڈِین"
-      },
-      "code": {
-        "term": "big_endian"
       }
     },
     "grammar": {
@@ -21280,9 +20005,6 @@
       },
       "ui": {
         "term": "بلاک کی حیثیت دیکھیں"
-      },
-      "code": {
-        "term": "block_status"
       }
     },
     "grammar": {
@@ -21335,9 +20057,6 @@
       },
       "ui": {
         "term": "کمپائل کریں"
-      },
-      "code": {
-        "term": "compiling"
       }
     },
     "grammar": {
@@ -21387,9 +20106,6 @@
       },
       "ui": {
         "term": "حسابی عدم امکان"
-      },
-      "code": {
-        "term": "computational_infeasibility"
       }
     },
     "grammar": {
@@ -21439,9 +20155,6 @@
       },
       "ui": {
         "term": "زیرِ غور شامل کریں"
-      },
-      "code": {
-        "term": "considered_for_inclusion"
       }
     },
     "grammar": {
@@ -21491,9 +20204,6 @@
       },
       "ui": {
         "term": "کرپٹو معاشیات"
-      },
-      "code": {
-        "term": "cryptoeconomics"
       }
     },
     "grammar": {
@@ -21542,9 +20252,6 @@
       },
       "ui": {
         "term": "DAG فائل"
-      },
-      "code": {
-        "term": "dag"
       }
     },
     "grammar": {
@@ -21594,9 +20301,6 @@
       },
       "ui": {
         "term": "ڈی پن"
-      },
-      "code": {
-        "term": "depin"
       }
     },
     "grammar": {
@@ -21651,9 +20355,6 @@
       },
       "ui": {
         "term": "دریافت کریں"
-      },
-      "code": {
-        "term": "discovery"
       }
     },
     "grammar": {
@@ -21708,9 +20409,6 @@
       },
       "ui": {
         "term": "دہرا خرچ"
-      },
-      "code": {
-        "term": "double_spend"
       }
     },
     "grammar": {
@@ -21760,9 +20458,6 @@
       },
       "ui": {
         "term": "ایگزیکیوشن کلائنٹ"
-      },
-      "code": {
-        "term": "execution_client"
       }
     },
     "grammar": {
@@ -21812,9 +20507,6 @@
       },
       "ui": {
         "term": "عمل درآمد کی تہہ"
-      },
-      "code": {
-        "term": "execution_layer"
       }
     },
     "grammar": {
@@ -21863,9 +20555,6 @@
       },
       "ui": {
         "term": "آئی ڈی ای کھولیں"
-      },
-      "code": {
-        "term": "ide"
       }
     },
     "grammar": {
@@ -21915,9 +20604,6 @@
       },
       "ui": {
         "term": "لائٹ کلائنٹ سنک"
-      },
-      "code": {
-        "term": "light_client"
       }
     },
     "grammar": {
@@ -21968,9 +20654,6 @@
       },
       "ui": {
         "term": "پیغام بھیجیں"
-      },
-      "code": {
-        "term": "message"
       }
     },
     "grammar": {
@@ -22022,9 +20705,6 @@
       },
       "ui": {
         "term": "کال کی تفصیلات"
-      },
-      "code": {
-        "term": "message_call"
       }
     },
     "grammar": {
@@ -22075,9 +20755,6 @@
       },
       "ui": {
         "term": "نیٹ ورک تبدیل کریں"
-      },
-      "code": {
-        "term": "network"
       }
     },
     "grammar": {
@@ -22129,9 +20806,6 @@
       },
       "ui": {
         "term": "کرپٹو انخلا کریں"
-      },
-      "code": {
-        "term": "offRamp"
       }
     },
     "grammar": {
@@ -22182,9 +20856,6 @@
       },
       "ui": {
         "term": "اومر بلاک دیکھیں"
-      },
-      "code": {
-        "term": "ommerBlock"
       }
     },
     "grammar": {
@@ -22236,9 +20907,6 @@
       },
       "ui": {
         "term": "داخلہ کریں"
-      },
-      "code": {
-        "term": "onRamp"
       }
     },
     "grammar": {
@@ -22293,9 +20961,6 @@
       },
       "ui": {
         "term": "شروع کریں"
-      },
-      "code": {
-        "term": "onboarding"
       }
     },
     "grammar": {
@@ -22345,9 +21010,6 @@
       },
       "ui": {
         "term": "اجازت یافتہ"
-      },
-      "code": {
-        "term": "permissioned"
       }
     },
     "grammar": {
@@ -22393,9 +21055,6 @@
       },
       "ui": {
         "term": "نجی چین"
-      },
-      "code": {
-        "term": "privateChain"
       }
     },
     "grammar": {
@@ -22447,9 +21106,6 @@
       },
       "ui": {
         "term": "حاضری کا ثبوت دیکھیں"
-      },
-      "code": {
-        "term": "proofOfAttendance"
       }
     },
     "grammar": {
@@ -22500,9 +21156,6 @@
       },
       "ui": {
         "term": "ری اینٹرنسی خطرہ"
-      },
-      "code": {
-        "term": "reEntrancyAttack"
       }
     },
     "grammar": {
@@ -22557,9 +21210,6 @@
       },
       "ui": {
         "term": "انعام وصول کریں"
-      },
-      "code": {
-        "term": "reward"
       }
     },
     "grammar": {
@@ -22608,9 +21258,6 @@
       },
       "ui": {
         "term": "ذاتی خود مختاری"
-      },
-      "code": {
-        "term": "selfSovereignty"
       }
     },
     "grammar": {
@@ -22656,9 +21303,6 @@
       },
       "ui": {
         "term": "سلسلہ بندی"
-      },
-      "code": {
-        "term": "serialization"
       }
     },
     "grammar": {
@@ -22701,9 +21345,6 @@
       },
       "ui": {
         "term": "SNARK"
-      },
-      "code": {
-        "term": "snark"
       }
     },
     "grammar": {
@@ -22746,9 +21387,6 @@
       },
       "ui": {
         "term": "STARK"
-      },
-      "code": {
-        "term": "stark"
       }
     },
     "grammar": {
@@ -22791,9 +21429,6 @@
       },
       "ui": {
         "term": "سٹیٹ کا پھیلاؤ"
-      },
-      "code": {
-        "term": "stateBloat"
       }
     },
     "grammar": {
@@ -22836,9 +21471,6 @@
       },
       "ui": {
         "term": "غیر حالتی کیفیت"
-      },
-      "code": {
-        "term": "statelessness"
       }
     },
     "grammar": {
@@ -22881,9 +21513,6 @@
       },
       "ui": {
         "term": "سبل حملہ"
-      },
-      "code": {
-        "term": "sybilAttack"
       }
     },
     "grammar": {
@@ -22929,9 +21558,6 @@
       },
       "ui": {
         "term": "ہم آہنگ ہو رہا ہے"
-      },
-      "code": {
-        "term": "syncing"
       }
     },
     "grammar": {
@@ -22974,9 +21600,6 @@
       },
       "ui": {
         "term": "حتمی کل مشکل (TTD)"
-      },
-      "code": {
-        "term": "terminalTotalDifficulty"
       }
     },
     "grammar": {
@@ -23019,9 +21642,6 @@
       },
       "ui": {
         "term": "اعتماد کے مفروضے"
-      },
-      "code": {
-        "term": "trustAssumptions"
       }
     },
     "grammar": {
@@ -23064,9 +21684,6 @@
       },
       "ui": {
         "term": "کم از کم اعتماد"
-      },
-      "code": {
-        "term": "trustMinimized"
       }
     },
     "grammar": {
@@ -23110,9 +21727,6 @@
       },
       "ui": {
         "term": "اعتماد سے آزادی"
-      },
-      "code": {
-        "term": "trustlessness"
       }
     },
     "grammar": {
@@ -23159,9 +21773,6 @@
       },
       "ui": {
         "term": "ٹیورنگ مکمل"
-      },
-      "code": {
-        "term": "turingComplete"
       }
     },
     "grammar": {
@@ -23204,9 +21815,6 @@
       },
       "ui": {
         "term": "ویب۲"
-      },
-      "code": {
-        "term": "web2"
       }
     },
     "grammar": {
@@ -23252,9 +21860,6 @@
       },
       "ui": {
         "term": "سینڈوچ حملہ"
-      },
-      "code": {
-        "term": "sandwichAttack"
       }
     },
     "grammar": {
@@ -23306,9 +21911,6 @@
       },
       "ui": {
         "term": "بیچنگ"
-      },
-      "code": {
-        "term": "batching"
       }
     },
     "grammar": {
@@ -23355,9 +21957,6 @@
       },
       "ui": {
         "term": "بلاب اسپیس"
-      },
-      "code": {
-        "term": "blobspace"
       }
     },
     "grammar": {
@@ -23401,9 +22000,6 @@
       },
       "ui": {
         "term": "حفاظتی انخلا استعمال کریں"
-      },
-      "code": {
-        "term": "escapeHatch"
       }
     },
     "grammar": {
@@ -23444,9 +22040,6 @@
       },
       "ui": {
         "term": "خامی کا ثبوت جمع کرائیں"
-      },
-      "code": {
-        "term": "faultProof"
       }
     },
     "grammar": {
@@ -23489,9 +22082,6 @@
       },
       "ui": {
         "term": "لازمی انخلا شروع کریں"
-      },
-      "code": {
-        "term": "forcedWithdrawal"
       }
     },
     "grammar": {
@@ -23532,9 +22122,6 @@
       },
       "ui": {
         "term": "رول اپس دیکھیں"
-      },
-      "code": {
-        "term": "rollups"
       }
     },
     "grammar": {
@@ -23582,9 +22169,6 @@
       },
       "ui": {
         "term": "تصفیہ کی حالت"
-      },
-      "code": {
-        "term": "settlement"
       }
     },
     "grammar": {
@@ -23625,9 +22209,6 @@
       },
       "ui": {
         "term": "اسٹیٹ چینل کھولیں"
-      },
-      "code": {
-        "term": "stateChannels"
       }
     },
     "grammar": {
@@ -23671,9 +22252,6 @@
       },
       "ui": {
         "term": "تھرو پٹ کا جائزہ"
-      },
-      "code": {
-        "term": "throughput"
       }
     },
     "grammar": {
@@ -23714,9 +22292,6 @@
       },
       "ui": {
         "term": "ویلیڈیم استعمال کریں"
-      },
-      "code": {
-        "term": "validium"
       }
     },
     "grammar": {
@@ -23757,9 +22332,6 @@
       },
       "ui": {
         "term": "کال ڈیٹا"
-      },
-      "code": {
-        "term": "calldata"
       }
     },
     "grammar": {
@@ -23809,9 +22381,6 @@
       },
       "ui": {
         "term": "ٹرانزیکشن بنائیں"
-      },
-      "code": {
-        "term": "contract creation transaction"
       }
     },
     "grammar": {
@@ -23858,9 +22427,6 @@
       },
       "ui": {
         "term": "ای وی ایم اسمبلی"
-      },
-      "code": {
-        "term": "evm assembly"
       }
     },
     "grammar": {
@@ -23910,9 +22476,6 @@
       },
       "ui": {
         "term": "گیس آپٹیمائز کریں"
-      },
-      "code": {
-        "term": "gas optimization"
       }
     },
     "grammar": {
@@ -23959,9 +22522,6 @@
       },
       "ui": {
         "term": "کوڈ کا مسئلہ"
-      },
-      "code": {
-        "term": "immutable deployed code problem"
       }
     },
     "grammar": {
@@ -24013,9 +22573,6 @@
       },
       "ui": {
         "term": "پری کمپائل"
-      },
-      "code": {
-        "term": "precompile"
       }
     },
     "grammar": {
@@ -24064,9 +22621,6 @@
       },
       "ui": {
         "term": "گارڈ شامل کریں"
-      },
-      "code": {
-        "term": "reentrancyGuard"
       }
     },
     "grammar": {
@@ -24118,9 +22672,6 @@
       },
       "ui": {
         "term": "خود تلف کریں"
-      },
-      "code": {
-        "term": "selfdestruct"
       }
     },
     "grammar": {
@@ -24169,9 +22720,6 @@
       },
       "ui": {
         "term": "سنگلٹن پیٹرن"
-      },
-      "code": {
-        "term": "singleton"
       }
     },
     "grammar": {
@@ -24220,9 +22768,6 @@
       },
       "ui": {
         "term": "ان لائن اسمبلی"
-      },
-      "code": {
-        "term": "solidityInlineAssembly"
       }
     },
     "grammar": {
@@ -24273,9 +22818,6 @@
       },
       "ui": {
         "term": "حالت دیکھیں"
-      },
-      "code": {
-        "term": "state"
       }
     },
     "grammar": {
@@ -24330,9 +22872,6 @@
       },
       "ui": {
         "term": "دعویٰ کریں"
-      },
-      "code": {
-        "term": "claim"
       }
     },
     "grammar": {
@@ -24384,9 +22923,6 @@
       },
       "ui": {
         "term": "کلف کی مدت"
-      },
-      "code": {
-        "term": "cliff"
       }
     },
     "grammar": {
@@ -24440,9 +22976,6 @@
       },
       "ui": {
         "term": "جزوی تقسیم کریں"
-      },
-      "code": {
-        "term": "fractionalize"
       }
     },
     "grammar": {
@@ -24491,9 +23024,6 @@
       },
       "ui": {
         "term": "ایل پی ٹوکنز دیکھیں"
-      },
-      "code": {
-        "term": "lpToken"
       }
     },
     "grammar": {
@@ -24540,9 +23070,6 @@
       },
       "ui": {
         "term": "ٹوکن فیکٹری کھولیں"
-      },
-      "code": {
-        "term": "tokenFactory"
       }
     },
     "grammar": {
@@ -24589,9 +23116,6 @@
       },
       "ui": {
         "term": "یو آر آئی کاپی کریں"
-      },
-      "code": {
-        "term": "tokenURI"
       }
     },
     "grammar": {
@@ -24646,9 +23170,6 @@
       },
       "ui": {
         "term": "ویسٹنگ دیکھیں"
-      },
-      "code": {
-        "term": "vesting"
       }
     },
     "grammar": {
@@ -24700,9 +23221,6 @@
       },
       "ui": {
         "term": "ٹوکن ریپ کریں"
-      },
-      "code": {
-        "term": "wrappedToken"
       }
     },
     "grammar": {
@@ -24751,9 +23269,6 @@
       },
       "ui": {
         "term": "اندرونی ٹرانزیکشن"
-      },
-      "code": {
-        "term": "internalTransaction"
       }
     },
     "grammar": {
@@ -24803,9 +23318,6 @@
       },
       "ui": {
         "term": "زیادہ سے زیادہ فیس فی گیس"
-      },
-      "code": {
-        "term": "maxFeePerGas"
       }
     },
     "grammar": {
@@ -24852,9 +23364,6 @@
       },
       "ui": {
         "term": "کنسٹرکٹر"
-      },
-      "code": {
-        "term": "constructor"
       }
     },
     "grammar": {
@@ -24886,9 +23395,6 @@
       },
       "ui": {
         "term": "چارلس ہاسکنسن"
-      },
-      "code": {
-        "term": "Charles Hoskinson"
       }
     },
     "plurals": null,
@@ -24916,9 +23422,6 @@
       },
       "ui": {
         "term": "گیون وڈ"
-      },
-      "code": {
-        "term": "Gavin Wood"
       }
     },
     "plurals": null,
@@ -24946,9 +23449,6 @@
       },
       "ui": {
         "term": "جوزف لوبن"
-      },
-      "code": {
-        "term": "Joseph Lubin"
       }
     },
     "plurals": null,
@@ -24976,9 +23476,6 @@
       },
       "ui": {
         "term": "وٹالک بوٹرین"
-      },
-      "code": {
-        "term": "Vitalik Buterin"
       }
     },
     "plurals": null,
@@ -25006,9 +23503,6 @@
       },
       "ui": {
         "term": "وے ڈائی"
-      },
-      "code": {
-        "term": "Wei Dai"
       }
     },
     "plurals": null,
@@ -25036,9 +23530,6 @@
       },
       "ui": {
         "term": "آوے"
-      },
-      "code": {
-        "term": "Aave"
       }
     },
     "plurals": null,
@@ -25066,9 +23557,6 @@
       },
       "ui": {
         "term": "آربٹرم"
-      },
-      "code": {
-        "term": "Arbitrum"
       }
     },
     "plurals": null,
@@ -25096,9 +23584,6 @@
       },
       "ui": {
         "term": "بائنانس"
-      },
-      "code": {
-        "term": "Binance"
       }
     },
     "plurals": null,
@@ -25126,9 +23611,6 @@
       },
       "ui": {
         "term": "کروم"
-      },
-      "code": {
-        "term": "Chrome"
       }
     },
     "plurals": null,
@@ -25156,9 +23638,6 @@
       },
       "ui": {
         "term": "کوائن بیس"
-      },
-      "code": {
-        "term": "Coinbase"
       }
     },
     "plurals": null,
@@ -25186,9 +23665,6 @@
       },
       "ui": {
         "term": "کنسینسس"
-      },
-      "code": {
-        "term": "ConsenSys"
       }
     },
     "plurals": null,
@@ -25216,9 +23692,6 @@
       },
       "ui": {
         "term": "کرپٹو کٹیز"
-      },
-      "code": {
-        "term": "CryptoKitties"
       }
     },
     "plurals": null,
@@ -25246,9 +23719,6 @@
       },
       "ui": {
         "term": "ڈینکن"
-      },
-      "code": {
-        "term": "Dencun"
       }
     },
     "plurals": null,
@@ -25276,9 +23746,6 @@
       },
       "ui": {
         "term": "ڈسکارڈ"
-      },
-      "code": {
-        "term": "Discord"
       }
     },
     "plurals": null,
@@ -25306,9 +23773,6 @@
       },
       "ui": {
         "term": "فیس بک"
-      },
-      "code": {
-        "term": "Facebook"
       }
     },
     "plurals": null,
@@ -25336,9 +23800,6 @@
       },
       "ui": {
         "term": "فائل کوائن"
-      },
-      "code": {
-        "term": "Filecoin"
       }
     },
     "plurals": null,
@@ -25366,9 +23827,6 @@
       },
       "ui": {
         "term": "گورلی"
-      },
-      "code": {
-        "term": "Goerli"
       }
     },
     "plurals": null,
@@ -25396,9 +23854,6 @@
       },
       "ui": {
         "term": "ہولسکی"
-      },
-      "code": {
-        "term": "Holesky"
       }
     },
     "plurals": null,
@@ -25426,9 +23881,6 @@
       },
       "ui": {
         "term": "لیڈو"
-      },
-      "code": {
-        "term": "Lido"
       }
     },
     "plurals": null,
@@ -25456,9 +23908,6 @@
       },
       "ui": {
         "term": "میکر ڈاؤ"
-      },
-      "code": {
-        "term": "MakerDAO"
       }
     },
     "plurals": null,
@@ -25486,9 +23935,6 @@
       },
       "ui": {
         "term": "مائیکروسافٹ"
-      },
-      "code": {
-        "term": "Microsoft"
       }
     },
     "plurals": null,
@@ -25516,9 +23962,6 @@
       },
       "ui": {
         "term": "نیٹ فلکس"
-      },
-      "code": {
-        "term": "Netflix"
       }
     },
     "plurals": null,
@@ -25546,9 +23989,6 @@
       },
       "ui": {
         "term": "اوپن سی"
-      },
-      "code": {
-        "term": "OpenSea"
       }
     },
     "plurals": null,
@@ -25576,9 +24016,6 @@
       },
       "ui": {
         "term": "آپٹیمزم"
-      },
-      "code": {
-        "term": "Optimism"
       }
     },
     "plurals": null,
@@ -25606,9 +24043,6 @@
       },
       "ui": {
         "term": "پے پال"
-      },
-      "code": {
-        "term": "PayPal"
       }
     },
     "plurals": null,
@@ -25636,9 +24070,6 @@
       },
       "ui": {
         "term": "پولی گون"
-      },
-      "code": {
-        "term": "Polygon"
       }
     },
     "plurals": null,
@@ -25666,9 +24097,6 @@
       },
       "ui": {
         "term": "ریڈٹ"
-      },
-      "code": {
-        "term": "Reddit"
       }
     },
     "plurals": null,
@@ -25696,9 +24124,6 @@
       },
       "ui": {
         "term": "روپسٹن"
-      },
-      "code": {
-        "term": "Ropsten"
       }
     },
     "plurals": null,
@@ -25726,9 +24151,6 @@
       },
       "ui": {
         "term": "سٹارک نیٹ"
-      },
-      "code": {
-        "term": "Starknet"
       }
     },
     "plurals": null,
@@ -25756,9 +24178,6 @@
       },
       "ui": {
         "term": "ٹیلی گرام"
-      },
-      "code": {
-        "term": "Telegram"
       }
     },
     "plurals": null,
@@ -25786,9 +24205,6 @@
       },
       "ui": {
         "term": "ٹوئٹر"
-      },
-      "code": {
-        "term": "Twitter"
       }
     },
     "plurals": null,
@@ -25816,9 +24232,6 @@
       },
       "ui": {
         "term": "یوٹیوب"
-      },
-      "code": {
-        "term": "YouTube"
       }
     },
     "plurals": null,
@@ -25846,9 +24259,6 @@
       },
       "ui": {
         "term": "زی کے سنک"
-      },
-      "code": {
-        "term": "ZKsync"
       }
     },
     "plurals": null,

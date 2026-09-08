@@ -10,7 +10,6 @@ const ContextFormsSchema = z.object({
   heading: z.object({ term: z.string() }).optional(),
   tag: z.object({ term: z.string() }).optional(),
   ui: z.object({ term: z.string() }).optional(),
-  code: z.object({ term: z.string() }).optional(),
 })
 
 const GrammarSchema = z.object({
